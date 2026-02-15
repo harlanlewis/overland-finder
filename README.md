@@ -2,6 +2,8 @@
 
 A React app for comparing overlanding SUVs. Filter by budget, MPG, off-road capability, luxury, reliability, and cargo space. Adjust priority weighting to find your ideal rig.
 
+**Live demo:** https://overland-finder.vercel.app
+
 ## Development
 
 ```bash
