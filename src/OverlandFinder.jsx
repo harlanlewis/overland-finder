@@ -39,43 +39,37 @@ const PRESETS = [
     id: "your_brief", label: "Your Brief",
     description: "Family of 4 + dog · real off-road · luxury · 20+ mpg · reliable · ≤$100K",
     price: [DATA_PRICE_MIN, 100], mpg: [20, 50], offroad: [7, 10], luxury: [6.5, 10], reliability: [6, 10], cargo: [34, 70],
-    performance: [3, 10], towing: [0, 15000],
-    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "score",
+    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "score",
   },
   {
     id: "trail_hardcore", label: "Trail First",
     description: "Maximum off-road · lockers & clearance · comfort secondary",
     price: [DATA_PRICE_MIN, 125], mpg: [14, 50], offroad: [8, 10], luxury: [3, 10], reliability: [3, 10], cargo: [30, 70],
-    performance: [3, 10], towing: [0, 15000],
-    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "offroad",
+    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "offroad",
   },
   {
     id: "highway_lux", label: "Highway Luxury",
     description: "Comfort & refinement first · moderate trails only · premium interior",
     price: [DATA_PRICE_MIN, 125], mpg: [20, 50], offroad: [3, 7], luxury: [8, 10], reliability: [3, 10], cargo: [30, 70],
-    performance: [3, 10], towing: [0, 15000],
-    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "luxury",
+    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "luxury",
   },
   {
     id: "efficiency", label: "Eco Overlander",
     description: "Best MPG · EV/PHEV/hybrid · still trail-capable",
     price: [DATA_PRICE_MIN, 125], mpg: [21, 50], offroad: [5, 10], luxury: [3, 10], reliability: [3, 10], cargo: [30, 70],
-    performance: [3, 10], towing: [0, 15000],
-    pt: ["hybrid", "phev", "ev"], size: ["mid", "full"], sortBy: "mpg",
+    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "mpg",
   },
   {
     id: "budget_overlander", label: "Budget Build",
     description: "Under $30K · proven platforms · DIY-friendly · best value",
     price: [DATA_PRICE_MIN, 30], mpg: [12, 50], offroad: [6, 10], luxury: [3, 10], reliability: [6, 10], cargo: [19, 70],
-    performance: [3, 10], towing: [0, 15000],
-    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "score",
+    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "score",
   },
   {
     id: "open", label: "Wide Open",
     description: "No filters · show everything · I want to explore",
     price: [DATA_PRICE_MIN, DATA_PRICE_MAX], mpg: [12, 50], offroad: [3, 10], luxury: [3, 10], reliability: [3, 10], cargo: [13, 70],
-    performance: [3, 10], towing: [0, 15000],
-    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "score",
+    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "score",
   },
 ];
 
@@ -90,7 +84,7 @@ export default function OverlandFinder() {
   const [performanceRange, setPerformanceRange] = useState(DEFAULT_PRESET.performance);
   const [cargoRange, setCargoRange] = useState(DEFAULT_PRESET.cargo);
   const [towingRange, setTowingRange] = useState(DEFAULT_PRESET.towing);
-  const [ptFilter, setPtFilter] = useState(DEFAULT_PRESET.pt);
+  const [ptFilter, setPtFilter] = useState(["hybrid", "ice", "phev", "ev"]);
   const [sizeFilter, setSizeFilter] = useState(DEFAULT_PRESET.size);
   const [makeFilter, setMakeFilter] = useState([]);
   const [showMakeDropdown, setShowMakeDropdown] = useState(false);
@@ -151,10 +145,8 @@ export default function OverlandFinder() {
     setPerformanceRange([...preset.performance]);
     setCargoRange([...preset.cargo]);
     setTowingRange([...preset.towing]);
-    setPtFilter([...preset.pt]);
     setSizeFilter([...preset.size]);
     setSortBy(preset.sortBy);
-    setMakeFilter(preset.makes ? [...preset.makes] : []);
     setActivePreset(preset.id);
     setExpanded(null);
   }, []);
@@ -172,9 +164,7 @@ export default function OverlandFinder() {
       setPerformanceRange([...openPreset.performance]);
       setCargoRange([...openPreset.cargo]);
       setTowingRange([...openPreset.towing]);
-      setPtFilter([...openPreset.pt]);
       setSizeFilter([...openPreset.size]);
-      setMakeFilter([]);
       setSortBy(openPreset.sortBy);
     }
     setActivePreset("open");
@@ -195,7 +185,7 @@ export default function OverlandFinder() {
     setPriorities(prev => ({ ...prev, [key]: Math.max(0, Math.min(5, prev[key] + delta)) }));
   }, []);
 
-  // Get current filter state as a preset object
+  // Get current filter state as a preset object (excludes makes & powertrain)
   const getCurrentFiltersAsPreset = useCallback(() => ({
     price: [...priceRange],
     mpg: [...mpgRange],
@@ -205,11 +195,9 @@ export default function OverlandFinder() {
     performance: [...performanceRange],
     cargo: [...cargoRange],
     towing: [...towingRange],
-    pt: [...ptFilter],
     size: [...sizeFilter],
     sortBy,
-    ...(makeFilter.length > 0 ? { makes: [...makeFilter] } : {}),
-  }), [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, ptFilter, sizeFilter, sortBy, makeFilter]);
+  }), [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, sizeFilter, sortBy]);
 
   // Open save preset popover
   const openSavePreset = useCallback(() => {
@@ -264,7 +252,7 @@ export default function OverlandFinder() {
     }
   }, [activePreset]);
 
-  // Check if current filters match any preset
+  // Check if current filters match any preset (excludes makes & powertrain)
   const filtersMatchPreset = useMemo(() => {
     const currentFilters = {
       price: priceRange,
@@ -275,7 +263,6 @@ export default function OverlandFinder() {
       performance: performanceRange,
       cargo: cargoRange,
       towing: towingRange,
-      pt: ptFilter,
       size: sizeFilter,
     };
 
@@ -290,10 +277,9 @@ export default function OverlandFinder() {
       arraysEqual(p.performance, currentFilters.performance) &&
       arraysEqual(p.cargo, currentFilters.cargo) &&
       arraysEqual(p.towing, currentFilters.towing) &&
-      arraysEqual([...p.pt].sort(), [...currentFilters.pt].sort()) &&
       arraysEqual([...p.size].sort(), [...currentFilters.size].sort())
     );
-  }, [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, ptFilter, sizeFilter, allPresets]);
+  }, [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, sizeFilter, allPresets]);
 
   // Data ranges for proper normalization - ALL attributes normalized to actual data range
   const dataRanges = useMemo(() => {
