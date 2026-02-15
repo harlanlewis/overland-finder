@@ -1,197 +1,160 @@
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
+import vehiclesData from "./vehicles.json";
+import edmundsLogo from "./edmunds-logo.svg";
 
-const V = [
-  // Toyota / Lexus
-  { id: "4runner", name: "2025-26 Toyota 4Runner TRD Pro", price: 66, mpg: 21, offroad: 9, luxury: 6.5, cargo: 40, reliability: 9.5, size: "mid", pt: "hybrid", tow: 6000, weight: 4600, gc: 9.3, make: "Toyota", note: "New gen hybrid. Legendary aftermarket. Best resale." },
-  { id: "4runner_ltd", name: "2025-26 Toyota 4Runner Limited", price: 56, mpg: 22, offroad: 6, luxury: 7.5, cargo: 40, reliability: 9.5, size: "mid", pt: "hybrid", tow: 6000, weight: 4500, gc: 8.7, make: "Toyota", note: "Same platform as TRD Pro, more comfort-oriented, cheaper." },
-  { id: "4runner_trd_orp", name: "2025-26 Toyota 4Runner TRD Off-Road Premium", price: 51, mpg: 22, offroad: 7.5, luxury: 6.5, cargo: 40, reliability: 9.5, size: "mid", pt: "hybrid", tow: 6000, weight: 4500, gc: 9.0, make: "Toyota", note: "Sweet spot 4Runner. Crawl control & multi-terrain without TRD Pro price." },
-  { id: "runner_sr5", name: "2025-26 Toyota 4Runner SR5", price: 45, mpg: 23, offroad: 5.5, luxury: 5.5, cargo: 40, reliability: 9.5, size: "mid", pt: "hybrid", tow: 6000, weight: 4400, gc: 8.5, make: "Toyota", note: "Base 4Runner. Still hybrid, still capable. Huge value." },
-  { id: "runner_venture", name: "2025-26 Toyota 4Runner Trailhunter", price: 59, mpg: 22, offroad: 8.5, luxury: 6, cargo: 40, reliability: 9.5, size: "mid", pt: "hybrid", tow: 6000, weight: 4700, gc: 9.1, make: "Toyota", note: "Factory overlanding trim. ARB bumper, snorkel-ready, Old Man Emu suspension." },
-  { id: "gx", name: "2024-26 Lexus GX 550 Overtrail", price: 75, mpg: 21, offroad: 8, luxury: 9.5, cargo: 39, reliability: 9.5, size: "mid", pt: "ice", tow: 6000, weight: 5500, gc: 8.5, make: "Lexus", note: "Luxury 4Runner. E-locker, crawl control. Best interior of the Toyotas." },
-  { id: "gx_prem", name: "2024-26 Lexus GX 550 Premium+", price: 70, mpg: 21, offroad: 6.5, luxury: 10, cargo: 39, reliability: 9.5, size: "mid", pt: "ice", tow: 6000, weight: 5500, gc: 8.0, make: "Lexus", note: "Less off-road gear than Overtrail but even more luxurious." },
-  { id: "lc", name: "2024-26 Toyota Land Cruiser", price: 62, mpg: 21, offroad: 8.5, luxury: 7, cargo: 38, reliability: 9.5, size: "mid", pt: "hybrid", tow: 6000, weight: 5300, gc: 8.7, make: "Toyota", note: "Heritage nameplate reborn. Shares platform with GX. Hybrid." },
-  { id: "sequoia", name: "2024-26 Toyota Sequoia TRD Pro", price: 78, mpg: 21, offroad: 7.5, luxury: 7, cargo: 42, reliability: 9, size: "full", pt: "hybrid", tow: 9520, weight: 6300, gc: 9.5, make: "Toyota", note: "Full-size Toyota hybrid. Massive cargo with 3rd row folded." },
-  { id: "sequoia_ltd", name: "2024-26 Toyota Sequoia Limited", price: 70, mpg: 21, offroad: 5.5, luxury: 8, cargo: 42, reliability: 9, size: "full", pt: "hybrid", tow: 9520, weight: 6100, gc: 8.0, make: "Toyota", note: "Same big body, more comfort trim, less trail gear." },
-  { id: "lx", name: "2024-26 Lexus LX 600", price: 98, mpg: 17, offroad: 7.5, luxury: 10, cargo: 41, reliability: 9, size: "full", pt: "ice", tow: 8000, weight: 6000, gc: 8.9, make: "Lexus", note: "Ultimate Toyota luxury. V8 twin-turbo, incredible build quality." },
+const V = vehiclesData;
 
-  // Land Rover
-  { id: "defender", name: "2024-26 Land Rover Defender 110 V8/P400", price: 82, mpg: 18, offroad: 10, luxury: 8, cargo: 34, reliability: 3.5, size: "mid", pt: "mhybrid", tow: 8201, weight: 5300, gc: 11.5, make: "Land Rover", note: "Best off-road tech. Air suspension, wade sensing. Reliability is the catch." },
-  { id: "defender_s", name: "2024-26 Land Rover Defender 110 S/SE", price: 60, mpg: 20, offroad: 8.5, luxury: 7, cargo: 34, reliability: 3.5, size: "mid", pt: "mhybrid", tow: 8201, weight: 5000, gc: 11.5, make: "Land Rover", note: "Same bones as P400, less power but more affordable. Still has air suspension." },
-  { id: "defender_130", name: "2024-26 Land Rover Defender 130", price: 85, mpg: 18, offroad: 8, luxury: 8, cargo: 43, reliability: 3.5, size: "full", pt: "mhybrid", tow: 8201, weight: 5800, gc: 10.0, make: "Land Rover", note: "8-seat Defender. More cargo, slightly less agile off-road." },
-  { id: "rr_sport", name: "2024-26 Range Rover Sport P400", price: 90, mpg: 20, offroad: 6, luxury: 9.5, cargo: 27, reliability: 4, size: "mid", pt: "mhybrid", tow: 7716, weight: 5400, gc: 8.7, make: "Land Rover", note: "Sporty luxury. Air suspension, good capability but road-focused." },
-  { id: "rr_full", name: "2024-26 Range Rover P530", price: 120, mpg: 17, offroad: 6.5, luxury: 10, cargo: 31, reliability: 4, size: "full", pt: "ice", tow: 7716, weight: 5800, gc: 11.6, make: "Land Rover", note: "Ultimate luxury SUV. V8 twin-turbo, waftability supreme." },
+// Load user presets from localStorage
+const loadUserPresets = () => {
+  try {
+    const saved = localStorage.getItem("overland-finder-presets");
+    return saved ? JSON.parse(saved) : [];
+  } catch {
+    return [];
+  }
+};
 
-  // Jeep
-  { id: "gc4xe", name: "2024-26 Jeep Grand Cherokee 4xe Summit", price: 74, mpg: 23, offroad: 7, luxury: 8.5, cargo: 37, reliability: 5.5, size: "mid", pt: "phev", tow: 6000, weight: 5300, gc: 8.6, make: "Jeep", note: "PHEV with 25-mi EV range. Summit trim is genuinely luxurious." },
-  { id: "gc4xe_ol", name: "2024-26 Jeep GC 4xe Overland", price: 64, mpg: 23, offroad: 7, luxury: 7.5, cargo: 37, reliability: 5.5, size: "mid", pt: "phev", tow: 6000, weight: 5200, gc: 8.6, make: "Jeep", note: "Same PHEV, less luxury trim, better value." },
-  { id: "gc_trailhawk", name: "2024-26 Jeep GC Trailhawk 4xe", price: 69, mpg: 22, offroad: 8.5, luxury: 7, cargo: 37, reliability: 5.5, size: "mid", pt: "phev", tow: 6000, weight: 5300, gc: 10.9, make: "Jeep", note: "Off-road focused GC. Skid plates, Selec-Speed Control, extra clearance." },
-  { id: "wagoneer", name: "2024-26 Jeep Wagoneer", price: 74, mpg: 18, offroad: 5.5, luxury: 9, cargo: 67, reliability: 6, size: "full", pt: "ice", tow: 10000, weight: 6000, gc: 8.0, make: "Jeep", note: "Massive. 67 cu ft cargo. American luxury. No gear Tetris." },
-  { id: "gwagoneer", name: "2024-26 Jeep Grand Wagoneer", price: 95, mpg: 17, offroad: 5.5, luxury: 10, cargo: 67, reliability: 6, size: "full", pt: "ice", tow: 10000, weight: 6400, gc: 8.0, make: "Jeep", note: "Full-blown luxury. McIntosh audio, quilted leather, massive space." },
-  { id: "wrangler_rubicon", name: "2024-26 Jeep Wrangler Rubicon 4xe", price: 62, mpg: 21, offroad: 9.5, luxury: 5, cargo: 31, reliability: 5.5, size: "mid", pt: "phev", tow: 3500, weight: 5100, gc: 10.8, make: "Jeep", note: "Icon. Dana 44 axles, lockers, disconnecting sway bar. 4xe adds torque." },
-
-  // Ford
-  { id: "bronco", name: "2024-26 Ford Bronco Badlands", price: 49, mpg: 20, offroad: 9.5, luxury: 4.5, cargo: 32, reliability: 6.5, size: "mid", pt: "ice", tow: 3500, weight: 4700, gc: 9.8, make: "Ford", note: "Sasquatch pkg: 35\" tires, lockers, Dana axles. Best bang/buck off-road." },
-  { id: "bronco_ob", name: "2024-26 Ford Bronco Outer Banks", price: 44, mpg: 21, offroad: 7, luxury: 6, cargo: 32, reliability: 6.5, size: "mid", pt: "ice", tow: 3500, weight: 4500, gc: 8.4, make: "Ford", note: "More street-friendly Bronco. Still capable, nicer interior." },
-  { id: "bronco_raptor", name: "2024-26 Ford Bronco Raptor", price: 87, mpg: 15, offroad: 10, luxury: 6, cargo: 32, reliability: 6, size: "mid", pt: "ice", tow: 4500, weight: 5700, gc: 13.1, make: "Ford", note: "Desert runner. 418 hp twin-turbo, FOX Live Valve shocks, 37\" tires." },
-  { id: "expedition", name: "2024-26 Ford Expedition Timberline", price: 74, mpg: 18, offroad: 6.5, luxury: 7.5, cargo: 56, reliability: 6, size: "full", pt: "ice", tow: 9300, weight: 5900, gc: 10.6, make: "Ford", note: "Off-road Expedition. Big cargo, high clearance, trail turn assist." },
-
-  // GM
-  { id: "tahoe_z71", name: "2024-26 Chevy Tahoe Z71", price: 67, mpg: 18, offroad: 6, luxury: 7, cargo: 53, reliability: 6.5, size: "full", pt: "ice", tow: 8400, weight: 5700, gc: 8.0, make: "Chevrolet", note: "Classic full-size SUV. Huge cargo. Magnetic ride control." },
-  { id: "yukon_at4", name: "2024-26 GMC Yukon AT4", price: 74, mpg: 18, offroad: 6.5, luxury: 8, cargo: 53, reliability: 6.5, size: "full", pt: "ice", tow: 8400, weight: 5800, gc: 9.0, make: "GMC", note: "Premium Tahoe with off-road gear. Air suspension available." },
-  { id: "escalade_v", name: "2024-26 Cadillac Escalade V", price: 155, mpg: 14, offroad: 4, luxury: 10, cargo: 52, reliability: 6, size: "full", pt: "ice", tow: 7000, weight: 6200, gc: 7.9, make: "Cadillac", note: "682 hp supercharged V8. Ultimate American luxury performance." },
-
-  // Mercedes
-  { id: "gle", name: "2024-26 Mercedes GLE 450 4MATIC", price: 70, mpg: 23, offroad: 4.5, luxury: 9.5, cargo: 33, reliability: 5.5, size: "mid", pt: "mhybrid", tow: 7700, weight: 5200, gc: 8.0, make: "Mercedes", note: "Highway comfort king. Air suspension handles moderate trails." },
-  { id: "gle350de", name: "2024-26 Mercedes GLE 350de", price: 74, mpg: 28, offroad: 4, luxury: 9.5, cargo: 31, reliability: 5.5, size: "mid", pt: "phev", tow: 5500, weight: 5500, gc: 7.8, make: "Mercedes", note: "Diesel PHEV. Extraordinary range. Less off-road but max efficiency." },
-  { id: "gls", name: "2024-26 Mercedes GLS 580 4MATIC", price: 105, mpg: 18, offroad: 4.5, luxury: 10, cargo: 43, reliability: 5.5, size: "full", pt: "mhybrid", tow: 7500, weight: 6000, gc: 9.4, make: "Mercedes", note: "S-Class of SUVs. E-Active Body Control, incredible luxury." },
-  { id: "gwagen", name: "2024-26 Mercedes G 550", price: 145, mpg: 15, offroad: 9, luxury: 9.5, cargo: 19, reliability: 5, size: "mid", pt: "ice", tow: 7000, weight: 5800, gc: 9.5, make: "Mercedes", note: "Icon. Three locking diffs, solid axles. Small cargo but ultimate capability." },
-  { id: "gwagen_amg", name: "2024-26 Mercedes-AMG G 63", price: 185, mpg: 14, offroad: 8.5, luxury: 10, cargo: 19, reliability: 4.5, size: "mid", pt: "ice", tow: 7000, weight: 6100, gc: 9.5, make: "Mercedes", note: "577 hp hand-built V8. Performance G-Wagon. Statement vehicle." },
-
-  // BMW
-  { id: "x5", name: "2024-26 BMW X5 xDrive50e", price: 80, mpg: 40, offroad: 3.5, luxury: 9, cargo: 33, reliability: 6.5, size: "mid", pt: "phev", tow: 7200, weight: 5500, gc: 8.2, make: "BMW", note: "30+ mi EV range. Best highway manners. Moderate trails only." },
-  { id: "x7", name: "2024-26 BMW X7 xDrive40i", price: 85, mpg: 22, offroad: 3.5, luxury: 9.5, cargo: 48, reliability: 6.5, size: "full", pt: "mhybrid", tow: 7500, weight: 5600, gc: 8.7, make: "BMW", note: "Massive BMW luxury. 3rd row, huge presence, highway queen." },
-  { id: "xm", name: "2024-26 BMW XM", price: 160, mpg: 21, offroad: 3.5, luxury: 9, cargo: 27, reliability: 5, size: "mid", pt: "phev", tow: 6000, weight: 6100, gc: 8.2, make: "BMW", note: "738 hp PHEV performance SUV. Controversial styling, extreme capability." },
-
-  // Porsche
-  { id: "cayenne", name: "2024-26 Porsche Cayenne", price: 82, mpg: 21, offroad: 4.5, luxury: 9, cargo: 27, reliability: 7, size: "mid", pt: "ice", tow: 7700, weight: 4800, gc: 8.3, make: "Porsche", note: "Sports car handling in SUV form. Surprisingly capable off-road with air suspension." },
-  { id: "cayenne_ehybrid", name: "2024-26 Porsche Cayenne E-Hybrid", price: 95, mpg: 46, offroad: 4, luxury: 9, cargo: 26, reliability: 7, size: "mid", pt: "phev", tow: 7700, weight: 5300, gc: 8.0, make: "Porsche", note: "470 hp PHEV. 25+ mi EV range. Best driving dynamics in class." },
-  { id: "cayenne_turbo", name: "2024-26 Porsche Cayenne Turbo E-Hybrid", price: 140, mpg: 38, offroad: 4, luxury: 9.5, cargo: 26, reliability: 7, size: "mid", pt: "phev", tow: 7700, weight: 5500, gc: 8.0, make: "Porsche", note: "729 hp. Fastest SUV around a track. PHEV efficiency when you want it." },
-  { id: "cayenne_coupe", name: "2024-26 Porsche Cayenne Coupe", price: 88, mpg: 20, offroad: 4, luxury: 9, cargo: 22, reliability: 7, size: "mid", pt: "ice", tow: 7700, weight: 4900, gc: 8.0, make: "Porsche", note: "Sportier roofline, less cargo. Style over practicality." },
-
-  // Audi
-  { id: "q8", name: "2024-26 Audi Q8", price: 78, mpg: 20, offroad: 4, luxury: 9, cargo: 30, reliability: 6.5, size: "mid", pt: "mhybrid", tow: 7700, weight: 5100, gc: 9.6, make: "Audi", note: "Coupe-style luxury SUV. Quattro AWD, air suspension available." },
-  { id: "sq8", name: "2024-26 Audi SQ8", price: 98, mpg: 18, offroad: 4, luxury: 9.5, cargo: 30, reliability: 6, size: "mid", pt: "ice", tow: 7700, weight: 5400, gc: 9.6, make: "Audi", note: "500 hp V8. Performance-focused Q8 with sport exhaust." },
-  { id: "rsq8", name: "2024-26 Audi RS Q8", price: 125, mpg: 15, offroad: 3.5, luxury: 9.5, cargo: 30, reliability: 5.5, size: "mid", pt: "ice", tow: 7700, weight: 5600, gc: 9.4, make: "Audi", note: "591 hp. Fastest SUV around Nurburgring. Ridiculous performance." },
-
-  // Rivian
-  { id: "r1s", name: "2024-26 Rivian R1S Adventure", price: 82, mpg: 33, offroad: 8.5, luxury: 8, cargo: 40, reliability: 5.5, size: "mid", pt: "ev", tow: 7700, weight: 7050, gc: 14.9, make: "Rivian", note: "Best EV for off-road. Quad motors, 14.9\" clearance, air suspension. 260+ mi range." },
-  { id: "r1s_perf", name: "2024-26 Rivian R1S Dual Max", price: 87, mpg: 38, offroad: 7.5, luxury: 8.5, cargo: 40, reliability: 5.5, size: "mid", pt: "ev", tow: 7700, weight: 6900, gc: 14.9, make: "Rivian", note: "Range-focused R1S. 400+ mi range. Dual motor but still very capable." },
-
-  // GMC EV
-  { id: "hummer_ev", name: "2024-26 GMC Hummer EV SUV", price: 100, mpg: 25, offroad: 9, luxury: 8, cargo: 35, reliability: 4.5, size: "full", pt: "ev", tow: 7500, weight: 9000, gc: 16.0, make: "GMC", note: "Extreme capability. CrabWalk, Extract Mode, 16\" clearance. Heavy but unstoppable." },
-
-  // Tesla
-  { id: "cybertruck", name: "2024-26 Tesla Cybertruck AWD", price: 82, mpg: 35, offroad: 6.5, luxury: 6.5, cargo: 68, reliability: 4.5, size: "full", pt: "ev", tow: 11000, weight: 6600, gc: 17.0, make: "Tesla", note: "Polarizing but capable. Huge bed, 11K tow. Trail mode via OTA. 300+ mi range." },
-  { id: "cybertruck_beast", name: "2024-26 Tesla Cybertruck Cyberbeast", price: 102, mpg: 28, offroad: 7, luxury: 7, cargo: 68, reliability: 4.5, size: "full", pt: "ev", tow: 11000, weight: 6800, gc: 17.0, make: "Tesla", note: "Tri-motor Cybertruck. 845 hp, faster but shorter range. Same massive utility." },
-  { id: "model_x", name: "2024-26 Tesla Model X", price: 85, mpg: 37, offroad: 3.5, luxury: 8, cargo: 44, reliability: 5.5, size: "mid", pt: "ev", tow: 5000, weight: 5400, gc: 6.6, make: "Tesla", note: "Falcon wing doors, huge glass roof. Road-focused but EV torque helps." },
-
-  // BMW EV
-  { id: "ix_xdrive50", name: "2024-26 BMW iX xDrive50", price: 89, mpg: 36, offroad: 4, luxury: 9.5, cargo: 35, reliability: 6, size: "mid", pt: "ev", tow: 6000, weight: 5700, gc: 7.9, make: "BMW", note: "Luxury EV SUV. 300+ mi range. Incredible interior. Light trails only." },
-
-  // Mercedes EV
-  { id: "eqs_suv", name: "2024-26 Mercedes EQS SUV 450+", price: 108, mpg: 37, offroad: 3.5, luxury: 10, cargo: 36, reliability: 5.5, size: "full", pt: "ev", tow: 3500, weight: 6100, gc: 7.3, make: "Mercedes", note: "Ultimate luxury EV. Hyperscreen, 300+ mi range. Pavement-focused." },
-  { id: "g580_eq", name: "2025-26 Mercedes G 580 EQ", price: 175, mpg: 28, offroad: 9.5, luxury: 9.5, cargo: 19, reliability: 5, size: "mid", pt: "ev", tow: 6000, weight: 7300, gc: 10.0, make: "Mercedes", note: "Electric G-Wagen. Tank turn capability, quad motors. Ultimate off-road EV." },
-
-  // Mitsubishi
-  { id: "montero", name: "2024-26 Mitsubishi Outlander PHEV", price: 44, mpg: 26, offroad: 5, luxury: 6, cargo: 34, reliability: 7, size: "mid", pt: "phev", tow: 2000, weight: 4400, gc: 8.2, make: "Mitsubishi", note: "Budget PHEV with S-AWC. Surprisingly capable. Low towing." },
-
-  // Volvo
-  { id: "xc90_recharge", name: "2024-26 Volvo XC90 Recharge", price: 78, mpg: 27, offroad: 4, luxury: 9, cargo: 41, reliability: 6.5, size: "mid", pt: "phev", tow: 5000, weight: 5200, gc: 9.3, make: "Volvo", note: "Scandinavian luxury PHEV. Best safety tech, beautiful interior." },
-  { id: "ex90", name: "2024-26 Volvo EX90", price: 82, mpg: 35, offroad: 3.5, luxury: 9, cargo: 44, reliability: 6, size: "mid", pt: "ev", tow: 5500, weight: 5700, gc: 9.3, make: "Volvo", note: "New flagship EV. 300+ mi range, stunning design, Lidar standard." },
-
-  // Genesis
-  { id: "gv80", name: "2024-26 Genesis GV80", price: 62, mpg: 21, offroad: 4, luxury: 9, cargo: 35, reliability: 7.5, size: "mid", pt: "ice", tow: 6000, weight: 4900, gc: 7.8, make: "Genesis", note: "Korean luxury bargain. Excellent value, great warranty, refined ride." },
-];
+// Save user presets to localStorage
+const saveUserPresets = (presets) => {
+  localStorage.setItem("overland-finder-presets", JSON.stringify(presets));
+};
 
 // Extract unique manufacturers
 const MAKES = [...new Set(V.map(v => v.make))].sort();
 
-const ptLabels = { hybrid: "Hybrid", ice: "ICE", phev: "PHEV", mhybrid: "Mild Hybrid", ev: "EV" };
-const ptColors = { hybrid: "#2ecc71", ice: "#e67e22", phev: "#3498db", mhybrid: "#9b59b6", ev: "#1abc9c" };
+const ptLabels = { hybrid: "Hybrid", ice: "ICE", phev: "PHEV", ev: "EV" };
+const ptColors = { hybrid: "#2ecc71", ice: "#e67e22", phev: "#3498db", ev: "#9b59b6" };
 const sizeLabels = { mid: "Midsize", full: "Full-size" };
 
-// Default priorities - stable across all presets
-const DEFAULT_PRIORITIES = { offroad: 4, luxury: 4, reliability: 4, mpg: 3, value: 2, cargo: 2 };
+// Default priorities - balanced starting point, user adjusts for their use case
+const DEFAULT_PRIORITIES = { offroad: 3, luxury: 3, reliability: 3, performance: 2, mpg: 2, value: 2, cargo: 2, towing: 1 };
 
+// Compute min price from data
+const DATA_PRICE_MIN = Math.min(...V.map(v => v.price));
+const DATA_PRICE_MAX = Math.max(...V.map(v => v.price));
+
+// Range filters: [min, max] for each attribute
 const PRESETS = [
   {
-    id: "your_brief", label: "Your Brief", emoji: "🎯",
+    id: "your_brief", label: "Your Brief",
     description: "Family of 4 + dog · real off-road · luxury · 20+ mpg · reliable · ≤$100K",
-    budget: 100, minMpg: 20, offroadMin: 7, luxuryMin: 6.5, reliabilityMin: 6, cargoMin: 34,
-    pt: ["hybrid", "ice", "phev", "mhybrid", "ev"], size: ["mid", "full"], sortBy: "score",
+    price: [DATA_PRICE_MIN, 100], mpg: [20, 50], offroad: [7, 10], luxury: [6.5, 10], reliability: [6, 10], cargo: [34, 70],
+    performance: [3, 10], towing: [0, 15000],
+    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "score",
   },
   {
-    id: "toyota_only", label: "Toyota Faithful", emoji: "⛰️",
-    description: "Reliability above all · Toyota/Lexus only · any budget",
-    budget: 125, minMpg: 15, offroadMin: 5, luxuryMin: 3, reliabilityMin: 8.5, cargoMin: 30,
-    pt: ["hybrid", "ice", "phev", "mhybrid"], size: ["mid", "full"], sortBy: "score",
-    makes: ["Toyota", "Lexus"],
-  },
-  {
-    id: "budget", label: "Under $60K", emoji: "💰",
-    description: "Best value · still capable · keep it affordable",
-    budget: 60, minMpg: 18, offroadMin: 5, luxuryMin: 3, reliabilityMin: 3, cargoMin: 30,
-    pt: ["hybrid", "ice", "phev", "mhybrid", "ev"], size: ["mid", "full"], sortBy: "price",
-  },
-  {
-    id: "trail_hardcore", label: "Trail First", emoji: "🪨",
+    id: "trail_hardcore", label: "Trail First",
     description: "Maximum off-road · lockers & clearance · comfort secondary",
-    budget: 125, minMpg: 15, offroadMin: 8, luxuryMin: 3, reliabilityMin: 3, cargoMin: 30,
-    pt: ["hybrid", "ice", "phev", "mhybrid", "ev"], size: ["mid", "full"], sortBy: "offroad",
+    price: [DATA_PRICE_MIN, 125], mpg: [14, 50], offroad: [8, 10], luxury: [3, 10], reliability: [3, 10], cargo: [30, 70],
+    performance: [3, 10], towing: [0, 15000],
+    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "offroad",
   },
   {
-    id: "highway_lux", label: "Highway Luxury", emoji: "🛣️",
+    id: "highway_lux", label: "Highway Luxury",
     description: "Comfort & refinement first · moderate trails only · premium interior",
-    budget: 125, minMpg: 20, offroadMin: 3, luxuryMin: 8, reliabilityMin: 3, cargoMin: 30,
-    pt: ["hybrid", "ice", "phev", "mhybrid", "ev"], size: ["mid", "full"], sortBy: "luxury",
+    price: [DATA_PRICE_MIN, 125], mpg: [20, 50], offroad: [3, 7], luxury: [8, 10], reliability: [3, 10], cargo: [30, 70],
+    performance: [3, 10], towing: [0, 15000],
+    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "luxury",
   },
   {
-    id: "efficiency", label: "Eco Overlander", emoji: "⚡",
+    id: "efficiency", label: "Eco Overlander",
     description: "Best MPG · EV/PHEV/hybrid · still trail-capable",
-    budget: 125, minMpg: 21, offroadMin: 5, luxuryMin: 3, reliabilityMin: 3, cargoMin: 30,
+    price: [DATA_PRICE_MIN, 125], mpg: [21, 50], offroad: [5, 10], luxury: [3, 10], reliability: [3, 10], cargo: [30, 70],
+    performance: [3, 10], towing: [0, 15000],
     pt: ["hybrid", "phev", "ev"], size: ["mid", "full"], sortBy: "mpg",
   },
   {
-    id: "big_family", label: "Big Family Hauler", emoji: "👨‍👩‍👧‍👦",
-    description: "Max cargo & space · full-size preferred · room for everything",
-    budget: 125, minMpg: 15, offroadMin: 3, luxuryMin: 3, reliabilityMin: 3, cargoMin: 42,
-    pt: ["hybrid", "ice", "phev", "mhybrid", "ev"], size: ["full"], sortBy: "score",
+    id: "budget_overlander", label: "Budget Build",
+    description: "Under $30K · proven platforms · DIY-friendly · best value",
+    price: [DATA_PRICE_MIN, 30], mpg: [12, 50], offroad: [6, 10], luxury: [3, 10], reliability: [6, 10], cargo: [19, 70],
+    performance: [3, 10], towing: [0, 15000],
+    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "score",
   },
   {
-    id: "open", label: "Wide Open", emoji: "🔓",
+    id: "open", label: "Wide Open",
     description: "No filters · show everything · I want to explore",
-    budget: 200, minMpg: 14, offroadMin: 3, luxuryMin: 3, reliabilityMin: 3, cargoMin: 19,
-    pt: ["hybrid", "ice", "phev", "mhybrid", "ev"], size: ["mid", "full"], sortBy: "score",
+    price: [DATA_PRICE_MIN, DATA_PRICE_MAX], mpg: [12, 50], offroad: [3, 10], luxury: [3, 10], reliability: [3, 10], cargo: [13, 70],
+    performance: [3, 10], towing: [0, 15000],
+    pt: ["hybrid", "ice", "phev", "ev"], size: ["mid", "full"], sortBy: "score",
   },
 ];
 
 const DEFAULT_PRESET = PRESETS[0];
 
 export default function OverlandFinder() {
-  const [budget, setBudget] = useState(DEFAULT_PRESET.budget);
-  const [minMpg, setMinMpg] = useState(DEFAULT_PRESET.minMpg);
-  const [offroadMin, setOffroadMin] = useState(DEFAULT_PRESET.offroadMin);
-  const [luxuryMin, setLuxuryMin] = useState(DEFAULT_PRESET.luxuryMin);
-  const [reliabilityMin, setReliabilityMin] = useState(DEFAULT_PRESET.reliabilityMin);
-  const [cargoMin, setCargoMin] = useState(DEFAULT_PRESET.cargoMin);
+  const [priceRange, setPriceRange] = useState(DEFAULT_PRESET.price);
+  const [mpgRange, setMpgRange] = useState(DEFAULT_PRESET.mpg);
+  const [offroadRange, setOffroadRange] = useState(DEFAULT_PRESET.offroad);
+  const [luxuryRange, setLuxuryRange] = useState(DEFAULT_PRESET.luxury);
+  const [reliabilityRange, setReliabilityRange] = useState(DEFAULT_PRESET.reliability);
+  const [performanceRange, setPerformanceRange] = useState(DEFAULT_PRESET.performance);
+  const [cargoRange, setCargoRange] = useState(DEFAULT_PRESET.cargo);
+  const [towingRange, setTowingRange] = useState(DEFAULT_PRESET.towing);
   const [ptFilter, setPtFilter] = useState(DEFAULT_PRESET.pt);
   const [sizeFilter, setSizeFilter] = useState(DEFAULT_PRESET.size);
-  const [makeFilter, setMakeFilter] = useState("all");
+  const [makeFilter, setMakeFilter] = useState([]);
+  const [showMakeDropdown, setShowMakeDropdown] = useState(false);
+  const makeDropdownRef = useRef(null);
   const [sortBy, setSortBy] = useState(DEFAULT_PRESET.sortBy);
-  const [sortAsc, setSortAsc] = useState(false); // false = descending (default for most), true = ascending
+  const [sortAsc, setSortAsc] = useState(false);
   const [expanded, setExpanded] = useState(null);
   const [priorities, setPriorities] = useState(DEFAULT_PRIORITIES);
   const [activePreset, setActivePreset] = useState(DEFAULT_PRESET.id);
   const [hoveredVehicle, setHoveredVehicle] = useState(null);
   const [showWeightsPopover, setShowWeightsPopover] = useState(false);
+  const [userPresets, setUserPresets] = useState(loadUserPresets);
+  const [showSavePreset, setShowSavePreset] = useState(false);
+  const [savePresetMode, setSavePresetMode] = useState("update"); // "update" or "new"
+  const [savePresetTarget, setSavePresetTarget] = useState(null); // id of preset to update
+  const [savePresetTitle, setSavePresetTitle] = useState("");
+  const [savePresetDesc, setSavePresetDesc] = useState("");
+  const weightsPopoverRef = useRef(null);
+
+  // Close weights popover when clicking outside
+  useEffect(() => {
+    if (!showWeightsPopover) return;
+    const handleClickOutside = (e) => {
+      if (weightsPopoverRef.current && !weightsPopoverRef.current.contains(e.target)) {
+        setShowWeightsPopover(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [showWeightsPopover]);
+
+  // Close make dropdown when clicking outside
+  useEffect(() => {
+    if (!showMakeDropdown) return;
+    const handleClickOutside = (e) => {
+      if (makeDropdownRef.current && !makeDropdownRef.current.contains(e.target)) {
+        setShowMakeDropdown(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [showMakeDropdown]);
+
+  // Persist user presets to localStorage
+  useEffect(() => {
+    saveUserPresets(userPresets);
+  }, [userPresets]);
+
+  // All presets combined (built-in + user)
+  const allPresets = useMemo(() => [...PRESETS, ...userPresets], [userPresets]);
 
   const applyPreset = useCallback((preset) => {
-    setBudget(preset.budget);
-    setMinMpg(preset.minMpg);
-    setOffroadMin(preset.offroadMin);
-    setLuxuryMin(preset.luxuryMin);
-    setReliabilityMin(preset.reliabilityMin);
-    setCargoMin(preset.cargoMin);
+    setPriceRange([...preset.price]);
+    setMpgRange([...preset.mpg]);
+    setOffroadRange([...preset.offroad]);
+    setLuxuryRange([...preset.luxury]);
+    setReliabilityRange([...preset.reliability]);
+    setPerformanceRange([...preset.performance]);
+    setCargoRange([...preset.cargo]);
+    setTowingRange([...preset.towing]);
     setPtFilter([...preset.pt]);
     setSizeFilter([...preset.size]);
     setSortBy(preset.sortBy);
-    // Only set make filter if preset specifies it
-    if (preset.makes) {
-      setMakeFilter(preset.makes[0]);
-    } else {
-      setMakeFilter("all");
-    }
-    // DON'T change priorities - they stay stable
+    setMakeFilter(preset.makes ? [...preset.makes] : []);
     setActivePreset(preset.id);
     setExpanded(null);
   }, []);
@@ -201,15 +164,17 @@ export default function OverlandFinder() {
   const resetAllFilters = useCallback(() => {
     const openPreset = PRESETS.find(p => p.id === "open");
     if (openPreset) {
-      setBudget(openPreset.budget);
-      setMinMpg(openPreset.minMpg);
-      setOffroadMin(openPreset.offroadMin);
-      setLuxuryMin(openPreset.luxuryMin);
-      setReliabilityMin(openPreset.reliabilityMin);
-      setCargoMin(openPreset.cargoMin);
+      setPriceRange([...openPreset.price]);
+      setMpgRange([...openPreset.mpg]);
+      setOffroadRange([...openPreset.offroad]);
+      setLuxuryRange([...openPreset.luxury]);
+      setReliabilityRange([...openPreset.reliability]);
+      setPerformanceRange([...openPreset.performance]);
+      setCargoRange([...openPreset.cargo]);
+      setTowingRange([...openPreset.towing]);
       setPtFilter([...openPreset.pt]);
       setSizeFilter([...openPreset.size]);
-      setMakeFilter("all");
+      setMakeFilter([]);
       setSortBy(openPreset.sortBy);
     }
     setActivePreset("open");
@@ -230,20 +195,162 @@ export default function OverlandFinder() {
     setPriorities(prev => ({ ...prev, [key]: Math.max(0, Math.min(5, prev[key] + delta)) }));
   }, []);
 
+  // Get current filter state as a preset object
+  const getCurrentFiltersAsPreset = useCallback(() => ({
+    price: [...priceRange],
+    mpg: [...mpgRange],
+    offroad: [...offroadRange],
+    luxury: [...luxuryRange],
+    reliability: [...reliabilityRange],
+    performance: [...performanceRange],
+    cargo: [...cargoRange],
+    towing: [...towingRange],
+    pt: [...ptFilter],
+    size: [...sizeFilter],
+    sortBy,
+    ...(makeFilter.length > 0 ? { makes: [...makeFilter] } : {}),
+  }), [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, ptFilter, sizeFilter, sortBy, makeFilter]);
+
+  // Open save preset popover
+  const openSavePreset = useCallback(() => {
+    // Default to update mode if there are user presets, otherwise new
+    if (userPresets.length > 0) {
+      setSavePresetMode("update");
+      setSavePresetTarget(userPresets[0].id);
+      setSavePresetTitle(userPresets[0].label);
+      setSavePresetDesc(userPresets[0].description);
+    } else {
+      setSavePresetMode("new");
+      setSavePresetTarget(null);
+      setSavePresetTitle("");
+      setSavePresetDesc("");
+    }
+    setShowSavePreset(true);
+  }, [userPresets]);
+
+  // Handle saving preset
+  const handleSavePreset = useCallback(() => {
+    const filters = getCurrentFiltersAsPreset();
+
+    if (savePresetMode === "update" && savePresetTarget) {
+      // Update existing user preset
+      setUserPresets(prev => prev.map(p =>
+        p.id === savePresetTarget
+          ? { ...p, ...filters, label: savePresetTitle, description: savePresetDesc }
+          : p
+      ));
+      setActivePreset(savePresetTarget);
+    } else {
+      // Create new preset
+      const newPreset = {
+        id: `user_${Date.now()}`,
+        label: savePresetTitle || "Custom Preset",
+        description: savePresetDesc || "Custom filter configuration",
+        ...filters,
+        isUser: true,
+      };
+      setUserPresets(prev => [...prev, newPreset]);
+      setActivePreset(newPreset.id);
+    }
+
+    setShowSavePreset(false);
+  }, [savePresetMode, savePresetTarget, savePresetTitle, savePresetDesc, getCurrentFiltersAsPreset]);
+
+  // Delete a user preset
+  const deleteUserPreset = useCallback((presetId) => {
+    setUserPresets(prev => prev.filter(p => p.id !== presetId));
+    if (activePreset === presetId) {
+      setActivePreset(null);
+    }
+  }, [activePreset]);
+
+  // Check if current filters match any preset
+  const filtersMatchPreset = useMemo(() => {
+    const currentFilters = {
+      price: priceRange,
+      mpg: mpgRange,
+      offroad: offroadRange,
+      luxury: luxuryRange,
+      reliability: reliabilityRange,
+      performance: performanceRange,
+      cargo: cargoRange,
+      towing: towingRange,
+      pt: ptFilter,
+      size: sizeFilter,
+    };
+
+    const arraysEqual = (a, b) => a.length === b.length && a.every((v, i) => v === b[i]);
+
+    return allPresets.some(p =>
+      arraysEqual(p.price, currentFilters.price) &&
+      arraysEqual(p.mpg, currentFilters.mpg) &&
+      arraysEqual(p.offroad, currentFilters.offroad) &&
+      arraysEqual(p.luxury, currentFilters.luxury) &&
+      arraysEqual(p.reliability, currentFilters.reliability) &&
+      arraysEqual(p.performance, currentFilters.performance) &&
+      arraysEqual(p.cargo, currentFilters.cargo) &&
+      arraysEqual(p.towing, currentFilters.towing) &&
+      arraysEqual([...p.pt].sort(), [...currentFilters.pt].sort()) &&
+      arraysEqual([...p.size].sort(), [...currentFilters.size].sort())
+    );
+  }, [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, ptFilter, sizeFilter, allPresets]);
+
+  // Data ranges for proper normalization - ALL attributes normalized to actual data range
+  const dataRanges = useMemo(() => {
+    return {
+      priceMin: Math.min(...V.map(v => v.price)),
+      priceMax: Math.max(...V.map(v => v.price)),
+      mpgMin: Math.min(...V.map(v => v.mpg)),
+      mpgMax: Math.max(...V.map(v => v.mpg)),
+      cargoMin: Math.min(...V.map(v => v.cargo)),
+      cargoMax: Math.max(...V.map(v => v.cargo)),
+      offroadMin: Math.min(...V.map(v => v.offroad)),
+      offroadMax: Math.max(...V.map(v => v.offroad)),
+      luxuryMin: Math.min(...V.map(v => v.luxury)),
+      luxuryMax: Math.max(...V.map(v => v.luxury)),
+      reliabilityMin: Math.min(...V.map(v => v.reliability)),
+      reliabilityMax: Math.max(...V.map(v => v.reliability)),
+      performanceMin: Math.min(...V.map(v => v.performance)),
+      performanceMax: Math.max(...V.map(v => v.performance)),
+      towMin: Math.min(...V.map(v => v.tow)),
+      towMax: Math.max(...V.map(v => v.tow)),
+    };
+  }, []);
+
   const scored = useMemo(() => {
     const totalWeight = Object.values(priorities).reduce((a, b) => a + b, 0) || 1;
+    const {
+      priceMin, priceMax, mpgMin, mpgMax, cargoMin, cargoMax,
+      offroadMin, offroadMax, luxuryMin, luxuryMax, reliabilityMin, reliabilityMax,
+      performanceMin, performanceMax, towMin, towMax
+    } = dataRanges;
+
     return V.map(v => {
-      const passesFilters = v.price <= budget && v.mpg >= minMpg && v.offroad >= offroadMin && v.luxury >= luxuryMin && v.reliability >= reliabilityMin && v.cargo >= cargoMin && ptFilter.includes(v.pt) && sizeFilter.includes(v.size) && (makeFilter === "all" || v.make === makeFilter);
-      const offroadScore = (v.offroad / 10) * priorities.offroad;
-      const luxuryScore = (v.luxury / 10) * priorities.luxury;
-      const reliabilityScore = (v.reliability / 10) * priorities.reliability;
-      const mpgScore = (Math.min(v.mpg, 40) / 40) * priorities.mpg;
-      const valueScore = ((125 - v.price) / 125) * priorities.value;
-      const cargoScore = (v.cargo / 70) * priorities.cargo;
-      const score = ((offroadScore + luxuryScore + reliabilityScore + mpgScore + valueScore + cargoScore) / totalWeight) * 100;
+      const passesFilters = v.price >= priceRange[0] && v.price <= priceRange[1] &&
+        v.mpg >= mpgRange[0] && v.mpg <= mpgRange[1] &&
+        v.offroad >= offroadRange[0] && v.offroad <= offroadRange[1] &&
+        v.luxury >= luxuryRange[0] && v.luxury <= luxuryRange[1] &&
+        v.reliability >= reliabilityRange[0] && v.reliability <= reliabilityRange[1] &&
+        v.performance >= performanceRange[0] && v.performance <= performanceRange[1] &&
+        v.cargo >= cargoRange[0] && v.cargo <= cargoRange[1] &&
+        v.tow >= towingRange[0] && v.tow <= towingRange[1] &&
+        ptFilter.includes(v.pt) && sizeFilter.includes(v.size) && (makeFilter.length === 0 || makeFilter.includes(v.make));
+
+      // ALL scores normalized to 0-1 range based on actual data spread
+      // This ensures weights work as expected - a weight of 4 is truly 2x a weight of 2
+      const offroadScore = ((v.offroad - offroadMin) / (offroadMax - offroadMin)) * priorities.offroad;
+      const luxuryScore = ((v.luxury - luxuryMin) / (luxuryMax - luxuryMin)) * priorities.luxury;
+      const reliabilityScore = ((v.reliability - reliabilityMin) / (reliabilityMax - reliabilityMin)) * priorities.reliability;
+      const mpgScore = ((v.mpg - mpgMin) / (mpgMax - mpgMin)) * priorities.mpg;
+      const valueScore = ((priceMax - v.price) / (priceMax - priceMin)) * priorities.value;
+      const cargoScore = ((v.cargo - cargoMin) / (cargoMax - cargoMin)) * priorities.cargo;
+      const performanceScore = ((v.performance - performanceMin) / (performanceMax - performanceMin)) * priorities.performance;
+      const towScore = ((v.tow - towMin) / (towMax - towMin)) * priorities.towing;
+
+      const score = ((offroadScore + luxuryScore + reliabilityScore + mpgScore + valueScore + cargoScore + performanceScore + towScore) / totalWeight) * 100;
       return { ...v, pass: passesFilters, score: Math.round(score) };
     });
-  }, [budget, minMpg, offroadMin, luxuryMin, reliabilityMin, cargoMin, ptFilter, sizeFilter, makeFilter, priorities]);
+  }, [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, ptFilter, sizeFilter, makeFilter, priorities, dataRanges]);
 
   const filtered = useMemo(() => {
     const f = scored.filter(v => v.pass);
@@ -254,6 +361,7 @@ export default function OverlandFinder() {
       : sortBy === "offroad" ? (a, b) => dir * (a.offroad - b.offroad)
       : sortBy === "luxury" ? (a, b) => dir * (a.luxury - b.luxury)
       : sortBy === "reliability" ? (a, b) => dir * (a.reliability - b.reliability)
+      : sortBy === "performance" ? (a, b) => dir * (a.performance - b.performance)
       : (a, b) => dir * (a.score - b.score);
     return f.sort(sortFn);
   }, [scored, sortBy, sortAsc]);
@@ -271,17 +379,143 @@ export default function OverlandFinder() {
         onChange={e => { setValue(Number(e.target.value)); clearPreset(); }}
         style={{ width: "100%" }} />
       {stops && (
-        <div style={{ display: "flex", justifyContent: "space-between", marginTop: 3 }}>
-          {stops.map((s, i) => (
-            <button key={i} onClick={() => { setValue(s.value); clearPreset(); }}
-              style={{ background: value === s.value ? "rgba(122,158,109,0.3)" : "transparent", border: value === s.value ? "1px solid rgba(122,158,109,0.5)" : "1px solid rgba(255,255,255,0.06)", color: value === s.value ? "#c8d6c3" : "rgba(255,255,255,0.25)", fontSize: 10, padding: "2px 8px", borderRadius: 4, cursor: "pointer", fontFamily: "var(--font-mono)" }}>
-              {s.label}
-            </button>
-          ))}
+        <div style={{ position: "relative", marginTop: 3, height: 24 }}>
+          {stops.map((s, i) => {
+            const pct = ((s.value - min) / (max - min)) * 100;
+            return (
+              <button key={i} onClick={() => { setValue(s.value); clearPreset(); }}
+                style={{
+                  position: "absolute",
+                  left: `${pct}%`,
+                  transform: "translateX(-50%)",
+                  background: value === s.value ? "rgba(122,158,109,0.3)" : "transparent",
+                  border: value === s.value ? "1px solid rgba(122,158,109,0.5)" : "1px solid rgba(255,255,255,0.06)",
+                  color: value === s.value ? "#c8d6c3" : "rgba(255,255,255,0.25)",
+                  fontSize: 10, padding: "2px 8px", borderRadius: 4, cursor: "pointer", fontFamily: "var(--font-mono)",
+                  whiteSpace: "nowrap",
+                }}>
+                {s.label}
+              </button>
+            );
+          })}
         </div>
       )}
     </div>
   );
+
+  const RangeSliderControl = ({ label, range, setRange, min, max, step, unit, description }) => {
+    const [localMin, localMax] = range;
+    const pctMin = ((localMin - min) / (max - min)) * 100;
+    const pctMax = ((localMax - min) / (max - min)) * 100;
+    return (
+      <div style={{ marginBottom: 18 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 6 }}>
+          <span style={{ fontSize: 11, fontWeight: 600, color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: 1.5, fontFamily: "var(--font-mono)" }}>{label}</span>
+          <span style={{ fontSize: 13, fontWeight: 700, color: "#c8d6c3", fontFamily: "var(--font-mono)" }}>
+            {localMin === min && localMax === max ? "Any" : `${localMin}${unit} – ${localMax}${unit}`}
+          </span>
+        </div>
+        {description && <div style={{ fontSize: 11, color: "rgba(255,255,255,0.3)", marginBottom: 6, lineHeight: 1.4 }}>{description}</div>}
+        <div style={{ position: "relative", height: 20, marginTop: 4 }}>
+          {/* Track background - clickable */}
+          <div
+            style={{ position: "absolute", top: 3, left: 0, right: 0, height: 14, background: "transparent", cursor: "pointer", zIndex: 1 }}
+            onClick={(e) => {
+              const rect = e.currentTarget.getBoundingClientRect();
+              const clickPct = (e.clientX - rect.left) / rect.width;
+              const clickVal = Math.round((min + clickPct * (max - min)) / step) * step;
+              // Move whichever thumb is closer
+              const distToMin = Math.abs(clickVal - localMin);
+              const distToMax = Math.abs(clickVal - localMax);
+              if (distToMin <= distToMax) {
+                setRange([Math.min(clickVal, localMax), localMax]);
+              } else {
+                setRange([localMin, Math.max(clickVal, localMin)]);
+              }
+              clearPreset();
+            }}
+          />
+          <div style={{ position: "absolute", top: 7, left: 0, right: 0, height: 6, background: "rgba(255,255,255,0.1)", borderRadius: 3, pointerEvents: "none" }} />
+          {/* Active range highlight */}
+          <div style={{ position: "absolute", top: 7, left: `${pctMin}%`, width: `${pctMax - pctMin}%`, height: 6, background: "rgba(122,158,109,0.5)", borderRadius: 3, pointerEvents: "none" }} />
+          {/* Min thumb */}
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: `calc(${pctMin}% - 9px)`,
+              width: 18,
+              height: 18,
+              borderRadius: "50%",
+              background: "#7a9e6d",
+              border: "2px solid #c8d6c3",
+              cursor: "grab",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+              zIndex: localMin === localMax ? 4 : 3,
+            }}
+            onMouseDown={(e) => {
+              e.preventDefault();
+              const startX = e.clientX;
+              const startVal = localMin;
+              const track = e.currentTarget.parentElement;
+              const trackRect = track.getBoundingClientRect();
+              const handleMove = (moveEvent) => {
+                const deltaX = moveEvent.clientX - startX;
+                const deltaPct = (deltaX / trackRect.width) * (max - min);
+                let newVal = Math.round((startVal + deltaPct) / step) * step;
+                newVal = Math.max(min, Math.min(localMax, newVal));
+                setRange([newVal, localMax]);
+                clearPreset();
+              };
+              const handleUp = () => {
+                document.removeEventListener("mousemove", handleMove);
+                document.removeEventListener("mouseup", handleUp);
+              };
+              document.addEventListener("mousemove", handleMove);
+              document.addEventListener("mouseup", handleUp);
+            }}
+          />
+          {/* Max thumb */}
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: `calc(${pctMax}% - 9px)`,
+              width: 18,
+              height: 18,
+              borderRadius: "50%",
+              background: "#7a9e6d",
+              border: "2px solid #c8d6c3",
+              cursor: "grab",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
+              zIndex: 3,
+            }}
+            onMouseDown={(e) => {
+              e.preventDefault();
+              const startX = e.clientX;
+              const startVal = localMax;
+              const track = e.currentTarget.parentElement;
+              const trackRect = track.getBoundingClientRect();
+              const handleMove = (moveEvent) => {
+                const deltaX = moveEvent.clientX - startX;
+                const deltaPct = (deltaX / trackRect.width) * (max - min);
+                let newVal = Math.round((startVal + deltaPct) / step) * step;
+                newVal = Math.max(localMin, Math.min(max, newVal));
+                setRange([localMin, newVal]);
+                clearPreset();
+              };
+              const handleUp = () => {
+                document.removeEventListener("mousemove", handleMove);
+                document.removeEventListener("mouseup", handleUp);
+              };
+              document.addEventListener("mousemove", handleMove);
+              document.addEventListener("mouseup", handleUp);
+            }}
+          />
+        </div>
+      </div>
+    );
+  };
 
   const ToggleGroup = ({ label, options, active, toggle }) => (
     <div style={{ marginBottom: 18 }}>
@@ -327,11 +561,18 @@ export default function OverlandFinder() {
     </div>
   );
 
-  // Chart dimensions - X axis: price (scales to budget), Y axis: score
+  // Chart dimensions - X axis: price (scales to price range), Y axis: score
   const chartPadding = { left: 35, right: 10, top: 10, bottom: 25 };
-  const priceMin = 40;
-  const priceMax = Math.max(budget + 20, 80); // Scale to budget with padding, minimum 80
-  const scoreMin = 30, scoreMax = 100;
+  const chartPriceMin = Math.max(0, DATA_PRICE_MIN - 5);
+  const chartPriceMax = Math.max(priceRange[1] + 20, DATA_PRICE_MAX);
+  const scoreMin = 30;
+  // Y-axis ceiling: find max score in list, round up to nearest 5, add small buffer
+  const maxScoreInData = Math.max(...scored.map(v => v.score), 50);
+  const scoreMax = Math.min(100, Math.ceil((maxScoreInData + 3) / 5) * 5);
+
+  // Price line positions on chart - show lines when filter is narrower than data range
+  const minPriceLineX = priceRange[0] > DATA_PRICE_MIN ? ((priceRange[0] - chartPriceMin) / (chartPriceMax - chartPriceMin)) * 100 : null;
+  const maxPriceLineX = priceRange[1] < DATA_PRICE_MAX ? ((priceRange[1] - chartPriceMin) / (chartPriceMax - chartPriceMin)) * 100 : null;
 
   return (
     <div style={{
@@ -396,50 +637,19 @@ export default function OverlandFinder() {
         backgroundSize: "60px 60px",
       }} />
 
-      <div style={{ position: "relative", maxWidth: 1100, margin: "0 auto", padding: "28px 16px" }}>
-        {/* Header */}
-        <div style={{ marginBottom: 28 }}>
-          <h1 style={{ margin: 0, fontSize: 24, fontWeight: 800, color: "var(--accent2)", letterSpacing: -0.5 }}>Vehicle Finder</h1>
-        </div>
-
+      <div style={{ position: "relative", maxWidth: 1100, margin: "0 auto", padding: "20px 16px" }}>
         <div style={{ display: "grid", gridTemplateColumns: "minmax(280px, 320px) 1fr", gap: 24, alignItems: "start" }}>
           {/* Left panel - controls */}
           <div style={{ position: "sticky", top: 16 }}>
             {/* Presets */}
             <div style={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: 12, padding: 16, marginBottom: 16 }}>
-              <div style={{ fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "var(--accent)", marginBottom: 12, fontFamily: "var(--font-mono)", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                <span>Quick Presets</span>
-                {activePreset && activePreset !== "open" && <span style={{ fontSize: 9, fontWeight: 500, color: "rgba(255,255,255,0.3)", textTransform: "none", letterSpacing: 0 }}>active: {PRESETS.find(p => p.id === activePreset)?.label}</span>}
+              <div style={{ fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "var(--accent)", marginBottom: 12, fontFamily: "var(--font-mono)" }}>
+                Quick Presets
               </div>
 
-              {/* Your Brief - full width at top */}
-              {(() => {
-                const preset = PRESETS.find(p => p.id === "your_brief");
-                const isActive = activePreset === "your_brief";
-                return (
-                  <button onClick={() => applyPreset(preset)}
-                    style={{
-                      width: "100%", padding: "12px 14px", borderRadius: 8, cursor: "pointer", textAlign: "left",
-                      background: isActive ? "rgba(122,158,109,0.15)" : "rgba(122,158,109,0.05)",
-                      border: `1.5px solid ${isActive ? "rgba(122,158,109,0.5)" : "rgba(122,158,109,0.15)"}`,
-                      transition: "all 0.2s ease", marginBottom: 10,
-                      display: "flex", flexDirection: "column", gap: 3,
-                    }}
-                    onMouseEnter={e => { if (!isActive) { e.currentTarget.style.background = "rgba(122,158,109,0.1)"; e.currentTarget.style.borderColor = "rgba(122,158,109,0.3)"; }}}
-                    onMouseLeave={e => { if (!isActive) { e.currentTarget.style.background = "rgba(122,158,109,0.05)"; e.currentTarget.style.borderColor = "rgba(122,158,109,0.15)"; }}}
-                  >
-                    <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                      <span style={{ fontSize: 14 }}>{preset.emoji}</span>
-                      <span style={{ fontSize: 13, fontWeight: 700, color: isActive ? "var(--accent2)" : "var(--accent)", fontFamily: "var(--font-body)" }}>{preset.label}</span>
-                    </div>
-                    <span style={{ fontSize: 10, color: isActive ? "rgba(200,214,195,0.6)" : "rgba(122,158,109,0.6)", lineHeight: 1.3, fontFamily: "var(--font-body)" }}>{preset.description}</span>
-                  </button>
-                );
-              })()}
-
-              {/* Other presets in 2-column grid */}
+              {/* Presets in 2-column grid */}
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6, marginBottom: 10 }}>
-                {PRESETS.filter(p => p.id !== "your_brief" && p.id !== "open").map(preset => {
+                {PRESETS.filter(p => p.id !== "open").map(preset => {
                   const isActive = activePreset === preset.id;
                   return (
                     <button key={preset.id} onClick={() => applyPreset(preset)}
@@ -453,17 +663,63 @@ export default function OverlandFinder() {
                       onMouseEnter={e => { if (!isActive) { e.currentTarget.style.background = "rgba(255,255,255,0.04)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)"; }}}
                       onMouseLeave={e => { if (!isActive) { e.currentTarget.style.background = "rgba(255,255,255,0.02)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.06)"; }}}
                     >
-                      <div style={{ display: "flex", alignItems: "center", gap: 5 }}>
-                        <span style={{ fontSize: 13 }}>{preset.emoji}</span>
-                        <span style={{ fontSize: 12, fontWeight: 700, color: isActive ? "var(--accent2)" : "rgba(255,255,255,0.6)", fontFamily: "var(--font-body)" }}>{preset.label}</span>
-                      </div>
+                      <span style={{ fontSize: 12, fontWeight: 700, color: isActive ? "var(--accent2)" : "rgba(255,255,255,0.6)", fontFamily: "var(--font-body)" }}>{preset.label}</span>
                       <span style={{ fontSize: 9.5, color: isActive ? "rgba(200,214,195,0.5)" : "rgba(255,255,255,0.22)", lineHeight: 1.3, fontFamily: "var(--font-body)" }}>{preset.description}</span>
                     </button>
                   );
                 })}
               </div>
 
-              {/* Wide Open / Reset - full width at bottom */}
+              {/* User presets */}
+              {userPresets.length > 0 && (
+                <>
+                  <div style={{ fontSize: 9, fontWeight: 600, textTransform: "uppercase", letterSpacing: 1.5, color: "rgba(255,255,255,0.25)", marginBottom: 8, marginTop: 4, fontFamily: "var(--font-mono)" }}>
+                    Your Presets
+                  </div>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 10 }}>
+                    {userPresets.map(preset => {
+                      const isActive = activePreset === preset.id;
+                      return (
+                        <div key={preset.id} style={{ position: "relative" }}>
+                          <button onClick={() => applyPreset(preset)}
+                            style={{
+                              width: "100%", padding: "10px 36px 10px 12px", borderRadius: 8, cursor: "pointer", textAlign: "left",
+                              background: isActive ? "rgba(52,152,219,0.12)" : "rgba(255,255,255,0.02)",
+                              border: `1.5px solid ${isActive ? "rgba(52,152,219,0.45)" : "rgba(255,255,255,0.06)"}`,
+                              transition: "all 0.2s ease",
+                              display: "flex", flexDirection: "column", gap: 2,
+                            }}
+                            onMouseEnter={e => { if (!isActive) { e.currentTarget.style.background = "rgba(255,255,255,0.04)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)"; }}}
+                            onMouseLeave={e => { if (!isActive) { e.currentTarget.style.background = "rgba(255,255,255,0.02)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.06)"; }}}
+                          >
+                            <span style={{ fontSize: 12, fontWeight: 700, color: isActive ? "#7cb3d9" : "rgba(255,255,255,0.6)", fontFamily: "var(--font-body)" }}>{preset.label}</span>
+                            <span style={{ fontSize: 9.5, color: isActive ? "rgba(124,179,217,0.5)" : "rgba(255,255,255,0.22)", lineHeight: 1.3, fontFamily: "var(--font-body)" }}>{preset.description}</span>
+                          </button>
+                          {/* Delete button */}
+                          <button
+                            onClick={(e) => { e.stopPropagation(); deleteUserPreset(preset.id); }}
+                            style={{
+                              position: "absolute", right: 8, top: "50%", transform: "translateY(-50%)",
+                              background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)",
+                              borderRadius: 4, width: 22, height: 22, cursor: "pointer",
+                              display: "flex", alignItems: "center", justifyContent: "center",
+                              color: "rgba(255,255,255,0.3)", fontSize: 12, lineHeight: 1,
+                              transition: "all 0.15s ease",
+                            }}
+                            onMouseEnter={e => { e.currentTarget.style.background = "rgba(231,76,60,0.2)"; e.currentTarget.style.borderColor = "rgba(231,76,60,0.4)"; e.currentTarget.style.color = "#e74c3c"; }}
+                            onMouseLeave={e => { e.currentTarget.style.background = "rgba(255,255,255,0.05)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.1)"; e.currentTarget.style.color = "rgba(255,255,255,0.3)"; }}
+                            title="Delete preset"
+                          >
+                            ×
+                          </button>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </>
+              )}
+
+              {/* Reset - full width at bottom */}
               <button onClick={resetAllFilters}
                 style={{
                   width: "100%", padding: "10px 14px", borderRadius: 8, cursor: "pointer", textAlign: "center",
@@ -475,54 +731,186 @@ export default function OverlandFinder() {
                 onMouseEnter={e => { e.currentTarget.style.background = "rgba(255,255,255,0.05)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)"; }}
                 onMouseLeave={e => { e.currentTarget.style.background = activePreset === "open" ? "rgba(255,255,255,0.06)" : "rgba(255,255,255,0.02)"; e.currentTarget.style.borderColor = activePreset === "open" ? "rgba(255,255,255,0.15)" : "rgba(255,255,255,0.06)"; }}
               >
-                <span style={{ fontSize: 12 }}>🔓</span>
                 <span style={{ fontSize: 11, fontWeight: 600, color: "rgba(255,255,255,0.5)", fontFamily: "var(--font-body)" }}>Reset All Filters</span>
               </button>
             </div>
 
-            {/* Budget - separate section */}
-            <div style={{ background: "linear-gradient(135deg, rgba(122,158,109,0.08) 0%, rgba(122,158,109,0.02) 100%)", border: "1px solid rgba(122,158,109,0.2)", borderRadius: 12, padding: 20, marginBottom: 12 }}>
-              <div style={{ fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "var(--accent)", marginBottom: 16, fontFamily: "var(--font-mono)", display: "flex", alignItems: "center", gap: 8 }}>
-                <span>💰</span>
-                <span>Budget</span>
-              </div>
-
-              <SliderControl label="Max Price" value={budget} setValue={setBudget} min={40} max={200} step={5} unit="K"
-                stops={[{ label: "$60K", value: 60 }, { label: "$85K", value: 85 }, { label: "$100K", value: 100 }, { label: "Any", value: 200 }]} />
+            {/* Price Range */}
+            <div style={{ background: "linear-gradient(135deg, rgba(122,158,109,0.08) 0%, rgba(122,158,109,0.02) 100%)", border: "1px solid rgba(122,158,109,0.2)", borderRadius: 12, padding: "14px 16px", marginBottom: 12 }}>
+              <RangeSliderControl label="Price Range" range={priceRange} setRange={setPriceRange} min={DATA_PRICE_MIN} max={DATA_PRICE_MAX} step={5} unit="K"
+                description="Filter by vehicle price" />
             </div>
 
             {/* Requirements filters */}
             <div style={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: 12, padding: 20, marginBottom: 16 }}>
               <div style={{ fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "var(--accent)", marginBottom: 16, fontFamily: "var(--font-mono)", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                 <span>Requirements</span>
-                {!activePreset && <span style={{ fontSize: 9, fontWeight: 500, padding: "2px 7px", borderRadius: 4, background: "rgba(230,126,34,0.15)", border: "1px solid rgba(230,126,34,0.3)", color: "#e67e22", textTransform: "none", letterSpacing: 0 }}>customized</span>}
+                {!filtersMatchPreset && (
+                  <button
+                    onClick={openSavePreset}
+                    style={{
+                      fontSize: 10, fontWeight: 600, padding: "4px 10px", borderRadius: 5,
+                      background: "rgba(122,158,109,0.1)", border: "1px solid rgba(122,158,109,0.3)",
+                      color: "var(--accent)", cursor: "pointer", fontFamily: "var(--font-mono)",
+                      textTransform: "none", letterSpacing: 0,
+                      transition: "all 0.15s ease",
+                    }}
+                    onMouseEnter={e => { e.currentTarget.style.background = "rgba(122,158,109,0.2)"; e.currentTarget.style.borderColor = "rgba(122,158,109,0.5)"; }}
+                    onMouseLeave={e => { e.currentTarget.style.background = "rgba(122,158,109,0.1)"; e.currentTarget.style.borderColor = "rgba(122,158,109,0.3)"; }}
+                  >
+                    Save Preset
+                  </button>
+                )}
               </div>
 
-              <SliderControl label="Min Combined MPG" value={minMpg} setValue={setMinMpg} min={14} max={30} step={1} unit=" mpg"
-                description="15 = no filter · 20 = your target · 25+ = PHEV territory"
-                stops={[{ label: "Any", value: 15 }, { label: "18+", value: 18 }, { label: "20+", value: 20 }, { label: "23+", value: 23 }]} />
+              {/* Save Preset Popover */}
+              {showSavePreset && (
+                <div style={{
+                  background: "rgba(11,16,14,0.98)", border: "1px solid rgba(122,158,109,0.3)",
+                  borderRadius: 10, padding: 16, marginBottom: 16,
+                  boxShadow: "0 8px 32px rgba(0,0,0,0.5)",
+                }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
+                    <span style={{ fontSize: 12, fontWeight: 700, color: "var(--accent2)" }}>Save Current Filters</span>
+                    <button onClick={() => setShowSavePreset(false)} style={{ background: "none", border: "none", color: "rgba(255,255,255,0.3)", cursor: "pointer", fontSize: 16, lineHeight: 1 }}>×</button>
+                  </div>
 
-              <SliderControl label="Min Off-Road" value={offroadMin} setValue={setOffroadMin} min={3} max={9} step={0.5} unit="/10"
-                description="3 = gravel roads · 6 = moderate trails · 8 = serious"
-                stops={[{ label: "Any", value: 3 }, { label: "6+", value: 6 }, { label: "7.5+", value: 7.5 }, { label: "9+", value: 9 }]} />
+                  {/* Mode toggle - only show if there are user presets */}
+                  {userPresets.length > 0 && (
+                    <div style={{ display: "flex", gap: 6, marginBottom: 14 }}>
+                      <button
+                        onClick={() => {
+                          setSavePresetMode("update");
+                          if (userPresets.length > 0) {
+                            setSavePresetTarget(userPresets[0].id);
+                            setSavePresetTitle(userPresets[0].label);
+                            setSavePresetDesc(userPresets[0].description);
+                          }
+                        }}
+                        style={{
+                          flex: 1, padding: "8px 12px", borderRadius: 6, fontSize: 11, fontWeight: 600, cursor: "pointer",
+                          background: savePresetMode === "update" ? "rgba(122,158,109,0.2)" : "rgba(255,255,255,0.03)",
+                          border: `1px solid ${savePresetMode === "update" ? "rgba(122,158,109,0.4)" : "rgba(255,255,255,0.08)"}`,
+                          color: savePresetMode === "update" ? "var(--accent2)" : "rgba(255,255,255,0.4)",
+                        }}
+                      >
+                        Update Existing
+                      </button>
+                      <button
+                        onClick={() => {
+                          setSavePresetMode("new");
+                          setSavePresetTarget(null);
+                          setSavePresetTitle("");
+                          setSavePresetDesc("");
+                        }}
+                        style={{
+                          flex: 1, padding: "8px 12px", borderRadius: 6, fontSize: 11, fontWeight: 600, cursor: "pointer",
+                          background: savePresetMode === "new" ? "rgba(122,158,109,0.2)" : "rgba(255,255,255,0.03)",
+                          border: `1px solid ${savePresetMode === "new" ? "rgba(122,158,109,0.4)" : "rgba(255,255,255,0.08)"}`,
+                          color: savePresetMode === "new" ? "var(--accent2)" : "rgba(255,255,255,0.4)",
+                        }}
+                      >
+                        Create New
+                      </button>
+                    </div>
+                  )}
 
-              <SliderControl label="Min Luxury" value={luxuryMin} setValue={setLuxuryMin} min={3} max={9} step={0.5} unit="/10"
-                stops={[{ label: "Any", value: 3 }, { label: "6+", value: 6 }, { label: "8+", value: 8 }]} />
+                  {/* Preset selector for update mode */}
+                  {savePresetMode === "update" && userPresets.length > 0 && (
+                    <div style={{ marginBottom: 12 }}>
+                      <div style={{ fontSize: 10, color: "rgba(255,255,255,0.4)", marginBottom: 6, fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1 }}>Select preset to update</div>
+                      <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+                        {userPresets.map(p => (
+                          <button
+                            key={p.id}
+                            onClick={() => {
+                              setSavePresetTarget(p.id);
+                              setSavePresetTitle(p.label);
+                              setSavePresetDesc(p.description);
+                            }}
+                            style={{
+                              padding: "8px 10px", borderRadius: 6, textAlign: "left", cursor: "pointer",
+                              background: savePresetTarget === p.id ? "rgba(122,158,109,0.15)" : "rgba(255,255,255,0.02)",
+                              border: `1px solid ${savePresetTarget === p.id ? "rgba(122,158,109,0.4)" : "rgba(255,255,255,0.06)"}`,
+                            }}
+                          >
+                            <div style={{ fontSize: 12, fontWeight: 600, color: savePresetTarget === p.id ? "var(--accent2)" : "rgba(255,255,255,0.6)" }}>{p.label}</div>
+                            <div style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", marginTop: 2 }}>{p.description}</div>
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
 
-              <SliderControl label="Min Reliability" value={reliabilityMin} setValue={setReliabilityMin} min={3} max={9} step={0.5} unit="/10"
-                stops={[{ label: "Any", value: 3 }, { label: "6+", value: 6 }, { label: "8+", value: 8 }]} />
+                  {/* Title input */}
+                  <div style={{ marginBottom: 10 }}>
+                    <div style={{ fontSize: 10, color: "rgba(255,255,255,0.4)", marginBottom: 6, fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1 }}>Title</div>
+                    <input
+                      type="text"
+                      value={savePresetTitle}
+                      onChange={e => setSavePresetTitle(e.target.value)}
+                      placeholder="My Custom Preset"
+                      style={{
+                        width: "100%", padding: "8px 10px", borderRadius: 6, fontSize: 12,
+                        background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)",
+                        color: "#fff", outline: "none", fontFamily: "var(--font-body)",
+                      }}
+                    />
+                  </div>
 
-              <SliderControl label="Min Cargo" value={cargoMin} setValue={setCargoMin} min={30} max={55} step={1} unit=" cu ft"
-                stops={[{ label: "30+", value: 30 }, { label: "37+", value: 37 }, { label: "42+", value: 42 }, { label: "50+", value: 50 }]} />
+                  {/* Description input */}
+                  <div style={{ marginBottom: 14 }}>
+                    <div style={{ fontSize: 10, color: "rgba(255,255,255,0.4)", marginBottom: 6, fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1 }}>Description</div>
+                    <input
+                      type="text"
+                      value={savePresetDesc}
+                      onChange={e => setSavePresetDesc(e.target.value)}
+                      placeholder="Brief description of this configuration"
+                      style={{
+                        width: "100%", padding: "8px 10px", borderRadius: 6, fontSize: 12,
+                        background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)",
+                        color: "#fff", outline: "none", fontFamily: "var(--font-body)",
+                      }}
+                    />
+                  </div>
 
-              <ToggleGroup label="Powertrain" active={ptFilter} toggle={togglePt}
-                options={[
-                  { value: "hybrid", label: "Hybrid", color: "rgba(46,204,113,0.15)", borderColor: "rgba(46,204,113,0.4)" },
-                  { value: "ice", label: "ICE", color: "rgba(230,126,34,0.15)", borderColor: "rgba(230,126,34,0.4)" },
-                  { value: "phev", label: "PHEV", color: "rgba(52,152,219,0.15)", borderColor: "rgba(52,152,219,0.4)" },
-                  { value: "mhybrid", label: "Mild Hybrid", color: "rgba(155,89,182,0.15)", borderColor: "rgba(155,89,182,0.4)" },
-                  { value: "ev", label: "EV", color: "rgba(26,188,156,0.15)", borderColor: "rgba(26,188,156,0.4)" },
-                ]} />
+                  {/* Save button */}
+                  <button
+                    onClick={handleSavePreset}
+                    disabled={!savePresetTitle.trim()}
+                    style={{
+                      width: "100%", padding: "10px", borderRadius: 6, fontSize: 12, fontWeight: 700, cursor: savePresetTitle.trim() ? "pointer" : "not-allowed",
+                      background: savePresetTitle.trim() ? "rgba(122,158,109,0.3)" : "rgba(255,255,255,0.05)",
+                      border: `1px solid ${savePresetTitle.trim() ? "rgba(122,158,109,0.5)" : "rgba(255,255,255,0.1)"}`,
+                      color: savePresetTitle.trim() ? "var(--accent2)" : "rgba(255,255,255,0.3)",
+                      transition: "all 0.15s ease",
+                    }}
+                  >
+                    {savePresetMode === "update" ? "Update Preset" : "Create Preset"}
+                  </button>
+                </div>
+              )}
+
+              <RangeSliderControl label="MPG" range={mpgRange} setRange={setMpgRange} min={14} max={50} step={1} unit=""
+                description="Filter by fuel efficiency range" />
+
+              <RangeSliderControl label="Off-Road" range={offroadRange} setRange={setOffroadRange} min={3} max={10} step={0.5} unit=""
+                description="3 = gravel roads · 6 = moderate trails · 8+ = serious" />
+
+              <RangeSliderControl label="Luxury" range={luxuryRange} setRange={setLuxuryRange} min={3} max={10} step={0.5} unit=""
+                description="Interior quality & comfort level" />
+
+              <RangeSliderControl label="Reliability" range={reliabilityRange} setRange={setReliabilityRange} min={3} max={10} step={0.5} unit=""
+                description="Expected dependability & repair costs" />
+
+              <RangeSliderControl label="Performance" range={performanceRange} setRange={setPerformanceRange} min={3} max={10} step={0.5} unit=""
+                description="Acceleration, power & driving dynamics" />
+
+              <RangeSliderControl label="Cargo (cu ft)" range={cargoRange} setRange={setCargoRange} min={19} max={70} step={1} unit=""
+                description="Cargo capacity behind 2nd row" />
+
+              <RangeSliderControl label="Towing (lbs)" range={towingRange} setRange={setTowingRange} min={0} max={15000} step={500} unit=""
+                description="Maximum towing capacity" />
 
               <ToggleGroup label="Size" active={sizeFilter} toggle={toggleSize}
                 options={[
@@ -539,11 +927,19 @@ export default function OverlandFinder() {
             <div style={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: 12, padding: 16, marginBottom: 16 }}>
               <div style={{ fontSize: 10, textTransform: "uppercase", letterSpacing: 1.5, color: "rgba(255,255,255,0.3)", marginBottom: 12, fontFamily: "var(--font-mono)", display: "flex", justifyContent: "space-between" }}>
                 <span>Price vs Score</span>
-                <span><span style={{ color: "var(--accent)", fontWeight: 700, fontSize: 14 }}>{filtered.length}</span><span style={{ color: "rgba(255,255,255,0.35)" }}> / {V.length} match</span></span>
+                <span><span style={{ color: "var(--accent)", fontWeight: 700, fontSize: 14 }}>{filtered.length}</span><span style={{ color: "rgba(255,255,255,0.35)" }}> / {V.length} vehicles</span></span>
               </div>
               <div style={{ position: "relative", height: 220, paddingLeft: chartPadding.left, paddingBottom: chartPadding.bottom, paddingRight: chartPadding.right, paddingTop: chartPadding.top }}>
-                {/* Y axis labels (Score) */}
-                {[40, 55, 70, 85, 100].map(score => {
+                {/* Y axis labels (Score) - dynamic based on score range */}
+                {(() => {
+                  const range = scoreMax - scoreMin;
+                  const step = range <= 30 ? 5 : range <= 50 ? 10 : 15;
+                  const labels = [];
+                  for (let s = Math.ceil(scoreMin / step) * step; s <= scoreMax; s += step) {
+                    labels.push(s);
+                  }
+                  return labels;
+                })().map(score => {
                   const yPercent = ((scoreMax - score) / (scoreMax - scoreMin)) * 100;
                   const chartAreaHeight = 220 - chartPadding.top - chartPadding.bottom;
                   const topPx = chartPadding.top + (yPercent / 100) * chartAreaHeight;
@@ -565,14 +961,14 @@ export default function OverlandFinder() {
                 })}
                 {/* X axis labels (Price) - dynamic based on price range */}
                 {(() => {
-                  const range = priceMax - priceMin;
+                  const range = chartPriceMax - chartPriceMin;
                   const step = range <= 60 ? 10 : range <= 100 ? 20 : 40;
                   const labels = [];
-                  for (let p = Math.ceil(priceMin / step) * step; p <= priceMax; p += step) {
+                  for (let p = Math.ceil(chartPriceMin / step) * step; p <= chartPriceMax; p += step) {
                     labels.push(p);
                   }
                   return labels.map(price => {
-                    const xFraction = (price - priceMin) / (priceMax - priceMin);
+                    const xFraction = (price - chartPriceMin) / (chartPriceMax - chartPriceMin);
                     return (
                       <div key={price} style={{
                         position: "absolute",
@@ -599,10 +995,72 @@ export default function OverlandFinder() {
                       <line key={`v${pct}`} x1={`${pct}%`} y1="0%" x2={`${pct}%`} y2="100%" stroke="rgba(255,255,255,0.04)" strokeDasharray="2,4" />
                     ))}
                   </svg>
+                  {/* Min price line */}
+                  {minPriceLineX !== null && minPriceLineX >= 0 && (
+                    <>
+                      <div style={{
+                        position: "absolute",
+                        left: `${minPriceLineX}%`,
+                        top: 0,
+                        bottom: 0,
+                        width: 2,
+                        background: "rgba(122,158,109,0.6)",
+                        zIndex: 5,
+                      }} />
+                      <div style={{
+                        position: "absolute",
+                        left: `${minPriceLineX}%`,
+                        bottom: 4,
+                        transform: "translateX(-50%)",
+                        fontSize: 9,
+                        fontWeight: 600,
+                        color: "var(--accent)",
+                        fontFamily: "var(--font-mono)",
+                        background: "rgba(11,16,14,0.9)",
+                        padding: "2px 6px",
+                        borderRadius: 3,
+                        zIndex: 6,
+                        whiteSpace: "nowrap",
+                      }}>
+                        ${priceRange[0]}K min
+                      </div>
+                    </>
+                  )}
+                  {/* Max price line */}
+                  {maxPriceLineX !== null && maxPriceLineX <= 100 && (
+                    <>
+                      <div style={{
+                        position: "absolute",
+                        left: `${maxPriceLineX}%`,
+                        top: 0,
+                        bottom: 0,
+                        width: 2,
+                        background: "rgba(122,158,109,0.6)",
+                        zIndex: 5,
+                      }} />
+                      <div style={{
+                        position: "absolute",
+                        left: `${maxPriceLineX}%`,
+                        top: 4,
+                        transform: "translateX(-50%)",
+                        fontSize: 9,
+                        fontWeight: 600,
+                        color: "var(--accent)",
+                        fontFamily: "var(--font-mono)",
+                        background: "rgba(11,16,14,0.9)",
+                        padding: "2px 6px",
+                        borderRadius: 3,
+                        zIndex: 6,
+                        whiteSpace: "nowrap",
+                      }}>
+                        ${priceRange[1]}K max
+                      </div>
+                    </>
+                  )}
                   {/* Plot all vehicles */}
                   {scored.map(v => {
-                    const x = ((v.price - priceMin) / (priceMax - priceMin)) * 100; // higher price = right
-                    const y = ((scoreMax - v.score) / (scoreMax - scoreMin)) * 100; // higher score = top
+                    const x = ((v.price - chartPriceMin) / (chartPriceMax - chartPriceMin)) * 100;
+                    const y = ((scoreMax - v.score) / (scoreMax - scoreMin)) * 100;
                     const isFiltered = !v.pass;
                     const isHovered = hoveredVehicle === v.id;
                     const ptColor = ptColors[v.pt] || "#888";
@@ -635,7 +1093,7 @@ export default function OverlandFinder() {
                   {hoveredVehicle && (() => {
                     const v = scored.find(x => x.id === hoveredVehicle);
                     if (!v) return null;
-                    const x = ((v.price - priceMin) / (priceMax - priceMin)) * 100;
+                    const x = ((v.price - chartPriceMin) / (chartPriceMax - chartPriceMin)) * 100;
                     const y = ((scoreMax - v.score) / (scoreMax - scoreMin)) * 100;
                     return (
                       <div style={{
@@ -662,37 +1120,146 @@ export default function OverlandFinder() {
               </div>
             </div>
 
-            {/* Sort bar with Make filter */}
-            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16, flexWrap: "wrap" }}>
-              {/* Make dropdown */}
-              <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                <span style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1.5 }}>Make:</span>
-                <select
-                  value={makeFilter}
-                  onChange={e => { setMakeFilter(e.target.value); clearPreset(); }}
+            {/* Filter bar - Makes and Powertrain */}
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 10, flexWrap: "wrap" }}>
+              {/* Make multi-select dropdown */}
+              <div style={{ position: "relative" }} ref={makeDropdownRef}>
+                <button
+                  onClick={() => setShowMakeDropdown(!showMakeDropdown)}
                   style={{
-                    padding: "4px 8px",
+                    padding: "4px 10px",
                     borderRadius: 5,
                     fontSize: 11,
-                    background: "rgba(255,255,255,0.05)",
-                    border: "1px solid rgba(255,255,255,0.1)",
-                    color: "#c8d6c3",
+                    background: makeFilter.length > 0 ? "rgba(122,158,109,0.15)" : "rgba(255,255,255,0.05)",
+                    border: `1px solid ${makeFilter.length > 0 ? "rgba(122,158,109,0.4)" : "rgba(255,255,255,0.1)"}`,
+                    color: makeFilter.length > 0 ? "var(--accent2)" : "#c8d6c3",
                     fontFamily: "var(--font-mono)",
                     cursor: "pointer",
-                    outline: "none",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 6,
                   }}
                 >
-                  <option value="all">All Makes</option>
-                  {MAKES.map(make => (
-                    <option key={make} value={make}>{make}</option>
-                  ))}
-                </select>
+                  {makeFilter.length === 0 ? "All Makes" : makeFilter.length === 1 ? makeFilter[0] : `${makeFilter.length} Makes`}
+                  <span style={{ fontSize: 8, opacity: 0.6 }}>▼</span>
+                </button>
+                {showMakeDropdown && (
+                  <div style={{
+                    position: "absolute",
+                    top: "calc(100% + 4px)",
+                    left: 0,
+                    zIndex: 1000,
+                    background: "rgba(11,16,14,0.98)",
+                    border: "1px solid rgba(255,255,255,0.15)",
+                    borderRadius: 8,
+                    padding: 8,
+                    minWidth: 180,
+                    maxHeight: 300,
+                    overflowY: "auto",
+                    boxShadow: "0 8px 32px rgba(0,0,0,0.5)",
+                  }}>
+                    <button
+                      onClick={() => { setMakeFilter([]); clearPreset(); }}
+                      style={{
+                        width: "100%",
+                        padding: "6px 10px",
+                        borderRadius: 4,
+                        fontSize: 11,
+                        textAlign: "left",
+                        background: makeFilter.length === 0 ? "rgba(122,158,109,0.2)" : "transparent",
+                        border: "none",
+                        color: makeFilter.length === 0 ? "var(--accent2)" : "rgba(255,255,255,0.6)",
+                        cursor: "pointer",
+                        fontFamily: "var(--font-mono)",
+                        fontWeight: makeFilter.length === 0 ? 600 : 400,
+                        marginBottom: 4,
+                      }}
+                    >
+                      {makeFilter.length === 0 && <span style={{ marginRight: 6 }}>✓</span>}
+                      All Makes
+                    </button>
+                    <div style={{ height: 1, background: "rgba(255,255,255,0.08)", margin: "4px 0" }} />
+                    {MAKES.map(make => {
+                      const isSelected = makeFilter.includes(make);
+                      return (
+                        <button
+                          key={make}
+                          onClick={() => {
+                            setMakeFilter(prev =>
+                              prev.includes(make)
+                                ? prev.filter(m => m !== make)
+                                : [...prev, make]
+                            );
+                            clearPreset();
+                          }}
+                          style={{
+                            width: "100%",
+                            padding: "6px 10px",
+                            borderRadius: 4,
+                            fontSize: 11,
+                            textAlign: "left",
+                            background: isSelected ? "rgba(122,158,109,0.15)" : "transparent",
+                            border: "none",
+                            color: isSelected ? "var(--accent2)" : "rgba(255,255,255,0.6)",
+                            cursor: "pointer",
+                            fontFamily: "var(--font-body)",
+                            display: "flex",
+                            alignItems: "center",
+                          }}
+                          onMouseEnter={e => { if (!isSelected) e.currentTarget.style.background = "rgba(255,255,255,0.05)"; }}
+                          onMouseLeave={e => { if (!isSelected) e.currentTarget.style.background = "transparent"; }}
+                        >
+                          <span style={{ width: 18, flexShrink: 0 }}>{isSelected ? "✓" : ""}</span>
+                          {make}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
 
-              <div style={{ width: 1, height: 16, background: "rgba(255,255,255,0.1)" }} />
+              {/* Powertrain filter - also serves as chart legend */}
+              <div style={{ display: "flex", gap: 4 }}>
+                {(["hybrid", "phev", "ice", "ev"]).map(pt => {
+                  const isActive = ptFilter.includes(pt);
+                  const color = ptColors[pt];
+                  return (
+                    <button
+                      key={pt}
+                      onClick={() => togglePt(pt)}
+                      style={{
+                        padding: "4px 10px",
+                        borderRadius: 5,
+                        fontSize: 11,
+                        fontWeight: 600,
+                        cursor: "pointer",
+                        background: isActive ? `${color}25` : "rgba(255,255,255,0.03)",
+                        border: `1px solid ${isActive ? `${color}60` : "rgba(255,255,255,0.08)"}`,
+                        color: isActive ? color : "rgba(255,255,255,0.3)",
+                        fontFamily: "var(--font-mono)",
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 5,
+                        transition: "all 0.15s ease",
+                      }}
+                    >
+                      <span style={{
+                        width: 8,
+                        height: 8,
+                        borderRadius: "50%",
+                        background: isActive ? color : "rgba(255,255,255,0.15)",
+                        flexShrink: 0,
+                      }} />
+                      {ptLabels[pt]}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
 
-              <span style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1.5 }}>Sort:</span>
-              {/* Match Score with weights popover */}
+            {/* Sort bar */}
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16, flexWrap: "wrap" }}>
+              {/* Score with weights popover */}
               <div style={{ position: "relative" }}>
                 <button onClick={() => {
                   if (sortBy === "score") {
@@ -710,14 +1277,14 @@ export default function OverlandFinder() {
                     fontFamily: "var(--font-mono)", fontWeight: 500,
                     display: "flex", alignItems: "center", gap: 6,
                   }}>
-                  Match Score{sortBy === "score" ? (sortAsc ? " ↑" : " ↓") : ""}
+                  Score{sortBy === "score" ? (sortAsc ? " ↑" : " ↓") : ""}
                   <span onClick={(e) => { e.stopPropagation(); setShowWeightsPopover(!showWeightsPopover); }}
                     style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: 16, height: 16, borderRadius: 3, background: showWeightsPopover ? "rgba(122,158,109,0.3)" : "rgba(255,255,255,0.1)", fontSize: 10, marginLeft: 2 }}>
                     ⚙
                   </span>
                 </button>
                 {showWeightsPopover && (
-                  <div style={{
+                  <div ref={weightsPopoverRef} style={{
                     position: "absolute", top: "calc(100% + 8px)", left: 0, zIndex: 1000,
                     background: "rgba(11,16,14,0.98)", border: "1px solid rgba(122,158,109,0.3)",
                     borderRadius: 10, padding: 16, minWidth: 280,
@@ -728,14 +1295,16 @@ export default function OverlandFinder() {
                       <button onClick={() => setShowWeightsPopover(false)} style={{ background: "none", border: "none", color: "rgba(255,255,255,0.3)", cursor: "pointer", fontSize: 14 }}>×</button>
                     </div>
                     <div style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", marginBottom: 12, lineHeight: 1.4 }}>
-                      Adjust how much each attribute affects the Match Score.
+                      Adjust how much each attribute affects the Score.
                     </div>
                     <PriorityControl label="Off-Road" value={priorities.offroad} pKey="offroad" />
                     <PriorityControl label="Luxury" value={priorities.luxury} pKey="luxury" />
                     <PriorityControl label="Reliability" value={priorities.reliability} pKey="reliability" />
+                    <PriorityControl label="Performance" value={priorities.performance} pKey="performance" />
                     <PriorityControl label="Fuel Econ" value={priorities.mpg} pKey="mpg" />
                     <PriorityControl label="Value" value={priorities.value} pKey="value" />
                     <PriorityControl label="Cargo" value={priorities.cargo} pKey="cargo" />
+                    <PriorityControl label="Towing" value={priorities.towing} pKey="towing" />
                   </div>
                 )}
               </div>
@@ -745,6 +1314,7 @@ export default function OverlandFinder() {
                 { key: "offroad", label: "Off-Road" },
                 { key: "luxury", label: "Luxury" },
                 { key: "reliability", label: "Reliability" },
+                { key: "performance", label: "Perf" },
               ].map(s => {
                 const isActive = sortBy === s.key;
                 return (
@@ -753,7 +1323,6 @@ export default function OverlandFinder() {
                       setSortAsc(!sortAsc);
                     } else {
                       setSortBy(s.key);
-                      // Default: price ascending (low first), others descending (high first)
                       setSortAsc(s.key === "price");
                     }
                     setShowWeightsPopover(false);
@@ -774,7 +1343,6 @@ export default function OverlandFinder() {
             {/* Results */}
             {filtered.length === 0 ? (
               <div style={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: 12, padding: 40, textAlign: "center" }}>
-                <div style={{ fontSize: 32, marginBottom: 12 }}>🏜️</div>
                 <div style={{ fontSize: 16, fontWeight: 700, color: "var(--accent2)", marginBottom: 6 }}>No vehicles match</div>
                 <div style={{ fontSize: 13, color: "rgba(255,255,255,0.4)" }}>Try loosening your filters — your requirements may be too restrictive.</div>
               </div>
@@ -805,7 +1373,28 @@ export default function OverlandFinder() {
                         </div>
                         {/* Name + tags */}
                         <div style={{ flex: 1, minWidth: 180 }}>
-                          <div style={{ fontSize: 14, fontWeight: 700, color: "#fff", marginBottom: 3, lineHeight: 1.2 }}>{v.name}</div>
+                          <div style={{ fontSize: 14, fontWeight: 700, color: "#fff", marginBottom: 3, lineHeight: 1.2, display: "flex", alignItems: "center", gap: 8 }}>
+                            {v.name}
+                            {v.url && (
+                              <a
+                                href={v.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={e => e.stopPropagation()}
+                                title="View on Edmunds"
+                                style={{
+                                  display: "inline-block", verticalAlign: "top",
+                                  marginLeft: 6, marginTop: 2,
+                                  opacity: 0.3, textDecoration: "none",
+                                  transition: "opacity 0.15s ease", flexShrink: 0,
+                                }}
+                                onMouseEnter={e => { e.currentTarget.style.opacity = "0.7"; }}
+                                onMouseLeave={e => { e.currentTarget.style.opacity = "0.3"; }}
+                              >
+                                <img src={edmundsLogo} alt="Edmunds" style={{ height: 8 }} />
+                              </a>
+                            )}
+                          </div>
                           <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
                             <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: ptColor + "20", color: ptColor, border: `1px solid ${ptColor}44`, fontFamily: "var(--font-mono)", fontWeight: 600 }}>{ptLabels[v.pt]}</span>
                             <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: "rgba(255,255,255,0.04)", color: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.06)", fontFamily: "var(--font-mono)" }}>{sizeLabels[v.size]}</span>
@@ -815,18 +1404,24 @@ export default function OverlandFinder() {
                         {/* Key stats */}
                         <div style={{ display: "flex", gap: 16, flexWrap: "wrap", alignItems: "center" }}>
                           {[
-                            { label: "Score", val: v.score, color: v.score >= 70 ? "var(--accent)" : v.score >= 50 ? "#c8d6c3" : "rgba(255,255,255,0.4)" },
-                            { label: "Price", val: `$${v.price}K` },
-                            { label: "MPG", val: v.mpg },
-                            { label: "Off-Rd", val: v.offroad },
-                            { label: "Lux", val: v.luxury },
-                            { label: "Rel", val: v.reliability },
-                          ].map((s, i) => (
-                            <div key={i} style={{ textAlign: "center", minWidth: 36 }}>
-                              <div style={{ fontSize: 14, fontWeight: 700, color: s.color || "rgba(255,255,255,0.7)", fontFamily: "var(--font-mono)" }}>{s.val}</div>
-                              <div style={{ fontSize: 9, color: "rgba(255,255,255,0.25)", fontFamily: "var(--font-mono)", textTransform: "uppercase" }}>{s.label}</div>
-                            </div>
-                          ))}
+                            { key: "score", label: "Score", val: v.score },
+                            { key: "price", label: "Price", val: `$${v.price}K` },
+                            { key: "mpg", label: "MPG", val: v.mpg },
+                            { key: "offroad", label: "Off-Rd", val: v.offroad },
+                            { key: "luxury", label: "Lux", val: v.luxury },
+                            { key: "reliability", label: "Rel", val: v.reliability },
+                          ].map((s, i) => {
+                            const isSortedCol = sortBy === s.key;
+                            const defaultColor = s.key === "score"
+                              ? (v.score >= 70 ? "var(--accent)" : v.score >= 50 ? "#c8d6c3" : "rgba(255,255,255,0.4)")
+                              : "rgba(255,255,255,0.7)";
+                            return (
+                              <div key={i} style={{ textAlign: "center", minWidth: 36 }}>
+                                <div style={{ fontSize: 14, fontWeight: 700, color: isSortedCol ? "var(--accent)" : defaultColor, fontFamily: "var(--font-mono)" }}>{s.val}</div>
+                                <div style={{ fontSize: 9, color: isSortedCol ? "rgba(122,158,109,0.6)" : "rgba(255,255,255,0.25)", fontFamily: "var(--font-mono)", textTransform: "uppercase" }}>{s.label}</div>
+                              </div>
+                            );
+                          })}
                         </div>
                         <span style={{ fontSize: 12, color: "rgba(255,255,255,0.2)", transition: "transform 0.2s", transform: isExpanded ? "rotate(180deg)" : "rotate(0)", flexShrink: 0 }}>▼</span>
                       </div>
@@ -839,9 +1434,11 @@ export default function OverlandFinder() {
                               { label: "Off-Road", val: v.offroad, max: 10 },
                               { label: "Luxury", val: v.luxury, max: 10 },
                               { label: "Reliability", val: v.reliability, max: 10 },
+                              { label: "Performance", val: v.performance, max: 10 },
                               { label: "Cargo", val: v.cargo, max: 70, unit: " cu ft" },
                               { label: "Towing", val: v.tow.toLocaleString(), raw: v.tow, max: 12000, unit: " lbs" },
-                              { label: "Ground Clear.", val: v.gc, max: 18, unit: "\"" },
+                              { label: "Ground Clear.", val: v.gc, max: 12, unit: "\"" },
+                              { label: "MPG", val: v.mpg, max: 50 },
                             ].map((s, i) => (
                               <div key={i} style={{ display: "flex", alignItems: "center", gap: 8 }}>
                                 <span style={{ width: 85, fontSize: 11, color: "rgba(255,255,255,0.4)", fontFamily: "var(--font-mono)", flexShrink: 0 }}>{s.label}</span>
@@ -851,7 +1448,7 @@ export default function OverlandFinder() {
                             ))}
                           </div>
                           <div style={{ fontSize: 13, color: "rgba(255,255,255,0.5)", lineHeight: 1.5, background: "rgba(255,255,255,0.02)", padding: "10px 12px", borderRadius: 6 }}>
-                            💡 {v.note}
+                            {v.note}
                           </div>
                         </div>
                       )}
@@ -869,22 +1466,14 @@ export default function OverlandFinder() {
                 </div>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
                   {eliminated.map(v => {
-                    const reasons = [];
-                    if (v.price > budget) reasons.push("budget");
-                    if (v.mpg < minMpg) reasons.push("mpg");
-                    if (v.offroad < offroadMin) reasons.push("off-road");
-                    if (v.luxury < luxuryMin) reasons.push("luxury");
-                    if (v.reliability < reliabilityMin) reasons.push("reliability");
-                    if (v.cargo < cargoMin) reasons.push("cargo");
-                    if (!ptFilter.includes(v.pt)) reasons.push("powertrain");
-                    if (!sizeFilter.includes(v.size)) reasons.push("size");
-                    if (makeFilter !== "all" && v.make !== makeFilter) reasons.push("make");
+                    const isHovered = hoveredVehicle === v.id;
                     return (
-                      <div key={v.id} title={`Eliminated: ${reasons.join(", ")}`}
+                      <div key={v.id}
                         onMouseEnter={() => setHoveredVehicle(v.id)}
                         onMouseLeave={() => setHoveredVehicle(null)}
-                        style={{ fontSize: 11, padding: "4px 10px", borderRadius: 6, background: hoveredVehicle === v.id ? "rgba(122,158,109,0.1)" : "rgba(255,255,255,0.02)", border: `1px solid ${hoveredVehicle === v.id ? "rgba(122,158,109,0.3)" : "rgba(255,255,255,0.04)"}`, color: hoveredVehicle === v.id ? "rgba(255,255,255,0.5)" : "rgba(255,255,255,0.2)", fontFamily: "var(--font-body)", cursor: "default", transition: "all 0.15s" }}>
-                        {v.name} <span style={{ fontSize: 9, color: "rgba(231,76,60,0.5)" }}>({reasons.join(", ")})</span>
+                        style={{ fontSize: 11, padding: "4px 10px", borderRadius: 6, background: isHovered ? "rgba(122,158,109,0.1)" : "rgba(255,255,255,0.02)", border: `1px solid ${isHovered ? "rgba(122,158,109,0.3)" : "rgba(255,255,255,0.04)"}`, color: isHovered ? "rgba(255,255,255,0.5)" : "rgba(255,255,255,0.25)", fontFamily: "var(--font-body)", cursor: "default", transition: "all 0.15s", display: "flex", alignItems: "center", gap: 6 }}>
+                        <span>{v.name}</span>
+                        <span style={{ fontSize: 10, fontWeight: 600, color: v.score >= 60 ? "rgba(122,158,109,0.6)" : "rgba(255,255,255,0.25)", fontFamily: "var(--font-mono)" }}>{v.score}</span>
                       </div>
                     );
                   })}
