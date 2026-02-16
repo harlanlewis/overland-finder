@@ -1,0 +1,525 @@
+{
+  "results": {
+    "4runner": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "4runner_ltd": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "4runner_trd_orp": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "runner_sr5": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "runner_venture": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "4runner_5g_trd_pro": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "4runner_5g_trd_or": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "4runner_5g_sr5": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "gx": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "GX 550",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "gx_prem": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "GX 550",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "gx460": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "GX 460",
+      "epaYear": "2023",
+      "currentSize": "mid"
+    },
+    "gx470": {
+      "vclass": "Sport Utility Vehicle - 4WD",
+      "epaModel": "GX 470",
+      "epaYear": "2009",
+      "currentSize": "mid"
+    },
+    "lc": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Land Cruiser",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "lc200": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Land Cruiser Wagon 4WD",
+      "epaYear": "2021",
+      "currentSize": "full"
+    },
+    "lc100": {
+      "vclass": "Sport Utility Vehicle - 4WD",
+      "epaModel": "Land Cruiser Wagon 4WD",
+      "epaYear": "2007",
+      "currentSize": "full"
+    },
+    "lc80": {
+      "vclass": "Special Purpose Vehicles",
+      "epaModel": "Land Cruiser Wagon 4WD",
+      "epaYear": "1997",
+      "currentSize": "full"
+    },
+    "lx570": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "LX 570",
+      "epaYear": "2021",
+      "currentSize": "full"
+    },
+    "sequoia": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Sequoia 4WD",
+      "epaYear": "2023",
+      "currentSize": "full"
+    },
+    "sequoia_ltd": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Sequoia 4WD",
+      "epaYear": "2023",
+      "currentSize": "full"
+    },
+    "sequoia_2g": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Sequoia 4WD",
+      "epaYear": "2022",
+      "currentSize": "full"
+    },
+    "lx": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "LX 600",
+      "epaYear": "2022",
+      "currentSize": "full"
+    },
+    "fj_cruiser": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "FJ Cruiser 4WD",
+      "epaYear": "2014",
+      "currentSize": "mid"
+    },
+    "defender": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Defender 110",
+      "epaYear": "2020",
+      "currentSize": "mid"
+    },
+    "defender_s": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Defender 110",
+      "epaYear": "2020",
+      "currentSize": "mid"
+    },
+    "defender_130": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Defender 110",
+      "epaYear": "2020",
+      "currentSize": "full"
+    },
+    "disco_lr4": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "LR4",
+      "epaYear": "2016",
+      "currentSize": "mid"
+    },
+    "disco_5": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Discovery",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "rr_sport": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "New Range Rover Sport",
+      "epaYear": "2023",
+      "currentSize": "mid"
+    },
+    "rr_full": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "New Range Rover",
+      "epaYear": "2022",
+      "currentSize": "full"
+    },
+    "gc4xe": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Grand Cherokee 4WD",
+      "epaYear": "2022",
+      "currentSize": "mid"
+    },
+    "gc4xe_ol": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Grand Cherokee 4WD",
+      "epaYear": "2022",
+      "currentSize": "mid"
+    },
+    "gc_trailhawk": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Grand Cherokee 4WD",
+      "epaYear": "2022",
+      "currentSize": "mid"
+    },
+    "gc_wk2": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Grand Cherokee 4WD",
+      "epaYear": "2021",
+      "currentSize": "mid"
+    },
+    "gc_wk2_th": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Grand Cherokee 4WD",
+      "epaYear": "2021",
+      "currentSize": "mid"
+    },
+    "wagoneer": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Grand Wagoneer 4WD",
+      "epaYear": "2022",
+      "currentSize": "full"
+    },
+    "gwagoneer": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Grand Wagoneer 4WD",
+      "epaYear": "2022",
+      "currentSize": "full"
+    },
+    "wrangler_rubicon": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "New Wrangler 4WD",
+      "epaYear": "2018",
+      "currentSize": "mid"
+    },
+    "wrangler_jl": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "Wrangler 2dr 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "wrangler_jk": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "New Wrangler 4WD",
+      "epaYear": "2018",
+      "currentSize": "mid"
+    },
+    "wrangler_tj": {
+      "vclass": "Sport Utility Vehicle - 4WD",
+      "epaModel": "Wrangler/TJ 4WD",
+      "epaYear": "2006",
+      "currentSize": "mid"
+    },
+    "bronco": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "Bronco 4WD",
+      "epaYear": "2021",
+      "currentSize": "mid"
+    },
+    "bronco_ob": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "Bronco 4WD",
+      "epaYear": "2021",
+      "currentSize": "mid"
+    },
+    "bronco_raptor": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "Bronco 4WD",
+      "epaYear": "2021",
+      "currentSize": "mid"
+    },
+    "bronco_21_24": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "Bronco 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    },
+    "expedition": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Expedition 4WD",
+      "epaYear": "2018",
+      "currentSize": "full"
+    },
+    "expedition_4g": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Expedition 4WD",
+      "epaYear": "2024",
+      "currentSize": "full"
+    },
+    "tahoe_z71": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Tahoe 4WD",
+      "epaYear": "2021",
+      "currentSize": "full"
+    },
+    "tahoe_5g": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Tahoe 4WD",
+      "epaYear": "2024",
+      "currentSize": "full"
+    },
+    "tahoe_4g": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Tahoe K1500 4WD",
+      "epaYear": "2020",
+      "currentSize": "full"
+    },
+    "yukon_at4": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Yukon 4WD",
+      "epaYear": "2021",
+      "currentSize": "full"
+    },
+    "escalade_v": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Escalade 4WD",
+      "epaYear": "2021",
+      "currentSize": "full"
+    },
+    "x5": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "X5 xDrive40i",
+      "epaYear": "2019",
+      "currentSize": "mid"
+    },
+    "x7": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "X7 xDrive40i",
+      "epaYear": "2019",
+      "currentSize": "full"
+    },
+    "xm": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "XM",
+      "epaYear": "2023",
+      "currentSize": "mid"
+    },
+    "cayenne": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Cayenne",
+      "epaYear": "2019",
+      "currentSize": "mid"
+    },
+    "cayenne_ehybrid": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Cayenne",
+      "epaYear": "2019",
+      "currentSize": "mid"
+    },
+    "cayenne_turbo": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Cayenne",
+      "epaYear": "2019",
+      "currentSize": "mid"
+    },
+    "cayenne_coupe": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Cayenne",
+      "epaYear": "2019",
+      "currentSize": "mid"
+    },
+    "q8": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Q8",
+      "epaYear": "2019",
+      "currentSize": "mid"
+    },
+    "rsq8": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "RS Q8",
+      "epaYear": "2020",
+      "currentSize": "mid"
+    },
+    "r1s": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "R1S",
+      "epaYear": "2022",
+      "currentSize": "mid"
+    },
+    "r1s_perf": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "R1S",
+      "epaYear": "2022",
+      "currentSize": "mid"
+    },
+    "hummer_ev": {
+      "vclass": "Standard Pickup Trucks 4WD",
+      "epaModel": "Hummer EV Pickup",
+      "epaYear": "2024",
+      "currentSize": "full"
+    },
+    "model_x": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Model X AWD - 60D",
+      "epaYear": "2016",
+      "currentSize": "mid"
+    },
+    "ix_xdrive50": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "iX xDrive50 (20 inch wheels)",
+      "epaYear": "2022",
+      "currentSize": "mid"
+    },
+    "montero": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "Outlander 4WD",
+      "epaYear": "2022",
+      "currentSize": "mid"
+    },
+    "montero_sport": {
+      "vclass": "Sport Utility Vehicle - 4WD",
+      "epaModel": "Montero Sport 4WD",
+      "epaYear": "2004",
+      "currentSize": "mid"
+    },
+    "montero_gen3": {
+      "vclass": "Sport Utility Vehicle - 4WD",
+      "epaModel": "Montero",
+      "epaYear": "2006",
+      "currentSize": "mid"
+    },
+    "gv80": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "GV80 AWD",
+      "epaYear": "2021",
+      "currentSize": "mid"
+    },
+    "xterra": {
+      "vclass": "Small Sport Utility Vehicle 4WD",
+      "epaModel": "Xterra 4WD",
+      "epaYear": "2015",
+      "currentSize": "mid"
+    },
+    "pathfinder_r51": {
+      "vclass": "Sport Utility Vehicle - 4WD",
+      "epaModel": "Pathfinder 4WD",
+      "epaYear": "2012",
+      "currentSize": "mid"
+    },
+    "4wd_suburban": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "Suburban K1500 4WD",
+      "epaYear": "2020",
+      "currentSize": "full"
+    },
+    "trooper": {
+      "vclass": "Sport Utility Vehicle - 4WD",
+      "epaModel": "Trooper 4WD",
+      "epaYear": "2002",
+      "currentSize": "mid"
+    },
+    "runner_sport": {
+      "vclass": "Standard Sport Utility Vehicle 4WD",
+      "epaModel": "4Runner 4WD",
+      "epaYear": "2024",
+      "currentSize": "mid"
+    }
+  },
+  "errors": [
+    {
+      "id": "defender_classic",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "excursion",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "gle",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "gle350de",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "gls",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "gwagen",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "gwagen_amg",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "gwagen_w463",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "sq8",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "cybertruck",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "cybertruck_beast",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "eqs_suv",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "g580_eq",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "xc90_recharge",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "ex90",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "patrol_y61",
+      "error": "EPA lookup failed"
+    },
+    {
+      "id": "hummer_h2",
+      "error": "EPA lookup failed"
+    }
+  ],
+  "vclassCounts": {
+    "Standard Sport Utility Vehicle 4WD": 55,
+    "Sport Utility Vehicle - 4WD": 7,
+    "Special Purpose Vehicles": 1,
+    "Small Sport Utility Vehicle 4WD": 10,
+    "Standard Pickup Trucks 4WD": 1
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "_meta": {
+    "description": "Luxury feature data for scoring calculation",
+    "updated": "2026-02-15",
+    "methodology": "Brand tier + interior materials + features + tech + quietness",
+    "formula": "raw = brand_tier + interior + features + tech + quietness; score = 1 + (raw / 8) * 9",
+    "brand_tiers": {
+      "luxury": ["Land Rover", "Mercedes-Benz", "BMW", "Porsche", "Lexus", "Lincoln", "Genesis", "Cadillac"],
+      "premium": ["Audi", "Volvo", "Acura", "Infiniti", "Rivian", "Tesla"],
+      "mainstream": ["Toyota", "Ford", "Jeep", "Chevrolet", "GMC", "Honda", "Nissan", "Subaru", "Hyundai", "Kia", "Mitsubishi", "Isuzu", "Hummer"]
+    },
+    "interior_scores": { "cloth": 0, "leatherette": 0.5, "leather": 1, "premium_leather": 1.5 },
+    "feature_points": { "ventilated_seats": 0.5, "massage_seats": 0.5, "premium_audio": 0.5, "air_suspension": 1, "pano_roof": 0.5 },
+    "tech_points": { "large_display": 0.5, "digital_cluster": 0.5, "hud": 0.5 },
+    "quietness_tiers": { "loud": 0, "average": 0.5, "quiet": 1, "very_quiet": 1.5 }
+  },
+
+  "4runner": {
+    "interior": "leatherette",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Toyota configurator 2025"
+  },
+  "4runner_ltd": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Toyota configurator 2025"
+  },
+  "4runner_trd_orp": {
+    "interior": "leatherette",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Toyota configurator 2025"
+  },
+  "runner_sr5": {
+    "interior": "cloth",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Toyota configurator 2025"
+  },
+  "runner_venture": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Toyota configurator 2025"
+  },
+  "4runner_5g_trd_pro": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Toyota specs 2024"
+  },
+  "4runner_5g_trd_or": {
+    "interior": "cloth",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Toyota specs 2024"
+  },
+  "4runner_5g_sr5": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "average",
+    "source": "Toyota specs 2024"
+  },
+  "runner_sport": {
+    "interior": "leatherette",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Toyota configurator 2025"
+  },
+
+  "gx": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Lexus configurator 2025"
+  },
+  "gx_prem": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Lexus configurator 2025"
+  },
+  "gx460": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display"],
+    "quietness": "quiet",
+    "source": "Lexus specs 2023"
+  },
+  "gx470": {
+    "interior": "leather",
+    "features": ["premium_audio"],
+    "tech": [],
+    "quietness": "quiet",
+    "source": "Lexus specs 2009"
+  },
+
+  "lc": {
+    "interior": "leatherette",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Toyota configurator 2025"
+  },
+  "lc200": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display"],
+    "quietness": "quiet",
+    "source": "Toyota specs 2021"
+  },
+  "lc100": {
+    "interior": "leather",
+    "features": ["premium_audio"],
+    "tech": [],
+    "quietness": "average",
+    "source": "Toyota specs 2007"
+  },
+  "lc80": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Toyota specs 1997"
+  },
+
+  "lx570": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio"],
+    "tech": ["large_display"],
+    "quietness": "very_quiet",
+    "source": "Lexus specs 2021"
+  },
+  "lx": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Lexus configurator 2025"
+  },
+
+  "sequoia": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Toyota configurator 2025"
+  },
+  "sequoia_ltd": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Toyota configurator 2025"
+  },
+  "sequoia_2g": {
+    "interior": "leather",
+    "features": ["premium_audio"],
+    "tech": [],
+    "quietness": "average",
+    "source": "Toyota specs 2022"
+  },
+
+  "fj_cruiser": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Toyota specs 2014"
+  },
+
+  "defender": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Land Rover configurator 2025"
+  },
+  "defender_s": {
+    "interior": "leather",
+    "features": ["air_suspension"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Land Rover configurator 2025"
+  },
+  "defender_130": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Land Rover configurator 2025"
+  },
+  "defender_classic": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Land Rover specs 2016"
+  },
+
+  "disco_lr4": {
+    "interior": "leather",
+    "features": ["air_suspension", "premium_audio"],
+    "tech": [],
+    "quietness": "average",
+    "source": "Land Rover specs 2016"
+  },
+  "disco_5": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "air_suspension", "premium_audio"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Land Rover specs 2024"
+  },
+
+  "rr_sport": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Land Rover configurator 2025"
+  },
+  "rr_full": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Land Rover configurator 2025"
+  },
+
+  "gc4xe": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Jeep configurator 2025"
+  },
+  "gc4xe_ol": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Jeep configurator 2025"
+  },
+  "gc_trailhawk": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "air_suspension"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Jeep configurator 2025"
+  },
+  "gc_wk2": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Jeep specs 2021"
+  },
+  "gc_wk2_th": {
+    "interior": "leather",
+    "features": ["air_suspension"],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Jeep specs 2021"
+  },
+
+  "wagoneer": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Jeep configurator 2025"
+  },
+  "gwagoneer": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Jeep configurator 2025"
+  },
+
+  "wrangler_rubicon": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "loud",
+    "source": "Jeep configurator 2025"
+  },
+  "wrangler_jl": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "loud",
+    "source": "Jeep specs 2024"
+  },
+  "wrangler_jk": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Jeep specs 2018"
+  },
+  "wrangler_tj": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Jeep specs 2006"
+  },
+
+  "bronco": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "loud",
+    "source": "Ford configurator 2025"
+  },
+  "bronco_ob": {
+    "interior": "leather",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Ford configurator 2025"
+  },
+  "bronco_raptor": {
+    "interior": "leather",
+    "features": [],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "loud",
+    "source": "Ford configurator 2025"
+  },
+  "bronco_21_24": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "loud",
+    "source": "Ford specs 2024"
+  },
+
+  "expedition": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Ford configurator 2025"
+  },
+  "expedition_4g": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display"],
+    "quietness": "quiet",
+    "source": "Ford specs 2024"
+  },
+  "excursion": {
+    "interior": "leather",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Ford specs 2005"
+  },
+
+  "tahoe_z71": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Chevrolet configurator 2025"
+  },
+  "tahoe_5g": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Chevrolet specs 2024"
+  },
+  "tahoe_4g": {
+    "interior": "leather",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Chevrolet specs 2020"
+  },
+
+  "yukon_at4": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "GMC configurator 2025"
+  },
+
+  "escalade_v": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Cadillac configurator 2025"
+  },
+
+  "gle": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Mercedes configurator 2025"
+  },
+  "gle350de": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Mercedes configurator 2025"
+  },
+  "gls": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Mercedes configurator 2025"
+  },
+
+  "gwagen": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Mercedes configurator 2025"
+  },
+  "gwagen_amg": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Mercedes configurator 2025"
+  },
+  "gwagen_w463": {
+    "interior": "leather",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Mercedes specs 2018"
+  },
+  "g580_eq": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Mercedes configurator 2025"
+  },
+  "eqs_suv": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Mercedes configurator 2025"
+  },
+
+  "x5": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "BMW configurator 2025"
+  },
+  "x7": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "BMW configurator 2025"
+  },
+  "xm": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "BMW configurator 2025"
+  },
+  "ix_xdrive50": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "BMW configurator 2025"
+  },
+
+  "cayenne": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Porsche configurator 2025"
+  },
+  "cayenne_ehybrid": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Porsche configurator 2025"
+  },
+  "cayenne_turbo": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Porsche configurator 2025"
+  },
+  "cayenne_coupe": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Porsche configurator 2025"
+  },
+
+  "q8": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Audi configurator 2025"
+  },
+  "sq8": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Audi configurator 2025"
+  },
+  "rsq8": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Audi configurator 2025"
+  },
+
+  "r1s": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "very_quiet",
+    "source": "Rivian configurator 2025"
+  },
+  "r1s_perf": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "very_quiet",
+    "source": "Rivian configurator 2025"
+  },
+
+  "hummer_ev": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "GMC configurator 2025"
+  },
+  "hummer_h2": {
+    "interior": "leather",
+    "features": ["premium_audio"],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Hummer specs 2009"
+  },
+
+  "cybertruck": {
+    "interior": "leatherette",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display"],
+    "quietness": "quiet",
+    "source": "Tesla configurator 2025"
+  },
+  "cybertruck_beast": {
+    "interior": "leatherette",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display"],
+    "quietness": "quiet",
+    "source": "Tesla configurator 2025"
+  },
+  "model_x": {
+    "interior": "leatherette",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display"],
+    "quietness": "very_quiet",
+    "source": "Tesla configurator 2025"
+  },
+
+  "montero": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "average",
+    "source": "Mitsubishi configurator 2025"
+  },
+  "montero_sport": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Mitsubishi specs 2004"
+  },
+  "montero_gen3": {
+    "interior": "leather",
+    "features": [],
+    "tech": [],
+    "quietness": "average",
+    "source": "Mitsubishi specs 2006"
+  },
+
+  "xc90_recharge": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Volvo configurator 2025"
+  },
+  "ex90": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Volvo configurator 2025"
+  },
+
+  "gv80": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Genesis configurator 2025"
+  },
+
+  "xterra": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Nissan specs 2015"
+  },
+  "pathfinder_r51": {
+    "interior": "leather",
+    "features": [],
+    "tech": [],
+    "quietness": "average",
+    "source": "Nissan specs 2012"
+  },
+  "patrol_y61": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Nissan specs 2013"
+  },
+
+  "4wd_suburban": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display"],
+    "quietness": "quiet",
+    "source": "Chevrolet specs 2020"
+  },
+
+  "trooper": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [],
+    "quietness": "loud",
+    "source": "Isuzu specs 2002"
+  },
+
+  "navigator": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Lincoln configurator 2025"
+  },
+  "aviator": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Lincoln configurator 2025"
+  },
+  "qx80": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Infiniti configurator 2025"
+  },
+  "mdx_type_s": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Acura configurator 2025"
+  },
+  "telluride_xpro": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Kia configurator 2025"
+  },
+  "palisade": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Hyundai configurator 2025"
+  },
+  "pilot_trailsport": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Honda configurator 2025"
+  },
+  "passport_trailsport": {
+    "interior": "leather",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Honda configurator 2025"
+  },
+  "cx90_phev": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Mazda configurator 2025"
+  },
+  "santa_fe_xrt": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Hyundai configurator 2025"
+  },
+  "outback_wilderness": {
+    "interior": "cloth",
+    "features": [],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Subaru configurator 2025"
+  },
+  "forester_wilderness": {
+    "interior": "cloth",
+    "features": [],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Subaru configurator 2025"
+  },
+  "sorento_phev": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Kia configurator 2025"
+  },
+  "gladiator_rubicon": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": ["large_display"],
+    "quietness": "loud",
+    "source": "Jeep configurator 2025"
+  },
+  "wrangler_sahara": {
+    "interior": "leather",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Jeep configurator 2025"
+  },
+  "tacoma_trd_pro": {
+    "interior": "leatherette",
+    "features": ["ventilated_seats"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "average",
+    "source": "Toyota configurator 2025"
+  },
+  "tx_550h": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Lexus configurator 2025"
+  },
+  "gv70": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Genesis configurator 2025"
+  },
+  "escalade": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "massage_seats", "premium_audio", "air_suspension"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "very_quiet",
+    "source": "Cadillac configurator 2025"
+  },
+  "defender_90": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Land Rover configurator 2025"
+  },
+  "gc_l_overland": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio", "air_suspension", "pano_roof"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Jeep configurator 2025"
+  },
+  "lc_first_ed": {
+    "interior": "leather",
+    "features": ["ventilated_seats", "premium_audio"],
+    "tech": ["large_display", "digital_cluster", "hud"],
+    "quietness": "quiet",
+    "source": "Toyota configurator 2024"
+  },
+  "qx80_2g": {
+    "interior": "premium_leather",
+    "features": ["ventilated_seats", "premium_audio", "pano_roof"],
+    "tech": ["large_display", "digital_cluster"],
+    "quietness": "quiet",
+    "source": "Infiniti specs 2024"
+  }
+}

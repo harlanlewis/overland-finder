@@ -1,25 +1,28 @@
-export type Powertrain = "hybrid" | "ice" | "phev" | "mhybrid" | "ev";
-export type Size = "mid" | "full";
-export type Condition = "new" | "used";
+export type Powertrain = "hybrid" | "gas" | "diesel" | "phev" | "ev";
+export type Size = "mid" | "full" | "compact";
 
 export interface Vehicle {
   id: string;
-  name: string;
+  make: string;
+  model: string;
+  trim: string | null;        // e.g., "TRD Pro", "Rubicon", "Z71"
+  generation: string;         // e.g., "JK", "6th Gen", "L663"
+  yearStart: number;          // Generation start year
+  yearEnd: number | null;     // Generation end year, null = current production
   price: number;
   mpg: number;
   offroad: number;
   luxury: number;
   cargo: number;
   reliability: number;
+  performance: number;
   size: Size;
   pt: Powertrain;
   tow: number;
   weight: number;
   gc: number;
-  make: string;
   note: string;
-  condition: Condition;
-  url?: string;
+  url: string;
 }
 
 export interface ScoredVehicle extends Vehicle {
@@ -31,13 +34,14 @@ export interface Preset {
   id: string;
   label: string;
   description: string;
-  budget: number;
+  price: [number, number];
   mpg: [number, number];
   offroad: [number, number];
   luxury: [number, number];
   reliability: [number, number];
+  performance: [number, number];
   cargo: [number, number];
-  pt: Powertrain[];
+  towing: [number, number];
   size: Size[];
   sortBy: string;
   makes?: string[];
@@ -48,6 +52,7 @@ export interface Priorities {
   luxury: number;
   reliability: number;
   mpg: number;
-  value: number;
   cargo: number;
+  performance: number;
+  towing: number;
 }

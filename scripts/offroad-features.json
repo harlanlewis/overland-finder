@@ -1,0 +1,470 @@
+{
+  "_comment": "Off-road features for scoring. Sources: manufacturer specs, enthusiast forums",
+  "_scoring": {
+    "4wd_system": { "awd": 1, "full_time": 2, "part_time": 2, "selectable": 3 },
+    "low_range": 2,
+    "locker_front": 1,
+    "locker_center": 1,
+    "locker_rear": 1.5,
+    "gc_bonus": { "under_8": 0, "8_to_9": 1, "9_to_10": 2, "10_to_11": 2.5, "over_11": 3 }
+  },
+  "vehicles": {
+    "4runner": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "TRD Pro: Multi-Terrain Select, Crawl Control, rear e-locker"
+    },
+    "4runner_ltd": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "Limited: Full-time 4WD with Torsen center diff"
+    },
+    "4runner_trd_orp": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "TRD Off-Road: Crawl control, rear e-locker, Multi-Terrain Select"
+    },
+    "runner_sr5": {
+      "system": "part_time", "low_range": true,
+      "note": "SR5: Part-time 4WD, no rear locker"
+    },
+    "runner_sport": {
+      "system": "part_time", "low_range": true,
+      "note": "TRD Sport: Street-tuned, part-time 4WD"
+    },
+    "runner_venture": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "Trailhunter: Old Man Emu suspension, ARB bumper, rear locker"
+    },
+    "4runner_5g_trd_pro": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "5th Gen TRD Pro: Crawl control, A-TRAC, rear locker"
+    },
+    "4runner_5g_trd_or": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "5th Gen TRD Off-Road: Rear locker, crawl control"
+    },
+    "4runner_5g_sr5": {
+      "system": "part_time", "low_range": true,
+      "note": "5th Gen SR5: Part-time 4WD, A-TRAC available"
+    },
+    "gx": {
+      "system": "full_time", "low_range": true, "locker_center": true, "locker_rear": true,
+      "note": "GX 550 Overtrail: Torsen center, e-locker rear, Crawl Control"
+    },
+    "gx_prem": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "GX 550 Premium+: Full-time 4WD, Torsen center"
+    },
+    "gx460": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "GX 460: Torsen center diff, Crawl Control optional"
+    },
+    "gx470": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "GX 470: Full-time 4WD, center diff lock"
+    },
+    "lc": {
+      "system": "full_time", "low_range": true, "locker_center": true, "locker_rear": true,
+      "note": "2025 Land Cruiser: Torsen center, e-locker rear, Crawl Control"
+    },
+    "lc200": {
+      "system": "full_time", "low_range": true, "locker_center": true, "locker_rear": true,
+      "note": "200 Series: Full-time 4WD, center lock, rear locker available"
+    },
+    "lc100": {
+      "system": "full_time", "low_range": true, "locker_center": true, "locker_rear": true,
+      "note": "100 Series: Full-time 4WD with center and rear lockers"
+    },
+    "lc80": {
+      "system": "full_time", "low_range": true, "locker_front": true, "locker_center": true, "locker_rear": true,
+      "note": "80 Series: Triple-lockable (front, center, rear) on FZJ80"
+    },
+    "lx570": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "LX 570: Same as LC200, Torsen center, KDSS"
+    },
+    "lx": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "LX 600: Full-time 4WD, Torsen center diff"
+    },
+    "sequoia": {
+      "system": "full_time", "low_range": true, "locker_rear": true,
+      "note": "Sequoia TRD Pro: Multi-Terrain Select, rear e-locker"
+    },
+    "sequoia_ltd": {
+      "system": "full_time", "low_range": false,
+      "note": "Sequoia Limited: Full-time AWD, no low range"
+    },
+    "sequoia_2g": {
+      "system": "part_time", "low_range": true,
+      "note": "2nd Gen Sequoia: Part-time 4WD, A-TRAC available"
+    },
+    "fj_cruiser": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "FJ Cruiser: Part-time 4WD, rear locker, A-TRAC, Crawl Control"
+    },
+    "defender": {
+      "system": "full_time", "low_range": true, "locker_center": true, "locker_rear": true,
+      "note": "Defender V8: Terrain Response 2, center diff, electronic rear diff"
+    },
+    "defender_s": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "Defender S: Terrain Response 2, twin-speed transfer case"
+    },
+    "defender_130": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "Defender 130: Same as 110, longer wheelbase"
+    },
+    "defender_classic": {
+      "system": "part_time", "low_range": true, "locker_center": true, "locker_rear": true,
+      "note": "Classic Defender: Solid axles, center diff lock, optional rear locker"
+    },
+    "disco_lr4": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "LR4: Terrain Response, twin-speed transfer case"
+    },
+    "disco_5": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "Discovery 5: Terrain Response 2, twin-speed transfer case"
+    },
+    "rr_sport": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "Range Rover Sport: Terrain Response 2, air suspension"
+    },
+    "rr_full": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "Range Rover: Terrain Response 2, air suspension"
+    },
+    "gc4xe": {
+      "system": "selectable", "low_range": true, "locker_rear": true,
+      "note": "GC 4xe Summit: Quadra-Drive II, electronic limited-slip rear"
+    },
+    "gc4xe_ol": {
+      "system": "selectable", "low_range": true, "locker_rear": true,
+      "note": "GC 4xe Overland: Quadra-Trac II, limited-slip rear"
+    },
+    "gc_trailhawk": {
+      "system": "selectable", "low_range": true, "locker_rear": true,
+      "note": "GC Trailhawk: Quadra-Drive II, e-limited slip rear, Selec-Speed"
+    },
+    "gc_wk2": {
+      "system": "selectable", "low_range": true,
+      "note": "WK2: Quadra-Trac II standard, limited slip available"
+    },
+    "gc_wk2_th": {
+      "system": "selectable", "low_range": true, "locker_rear": true,
+      "note": "WK2 Trailhawk: Quadra-Drive II, electronic limited-slip"
+    },
+    "wagoneer": {
+      "system": "full_time", "low_range": true,
+      "note": "Wagoneer: Quadra-Drive II, 2-speed transfer case"
+    },
+    "gwagoneer": {
+      "system": "full_time", "low_range": true,
+      "note": "Grand Wagoneer: Quadra-Drive II, 2-speed transfer case"
+    },
+    "wrangler_rubicon": {
+      "system": "part_time", "low_range": true, "locker_front": true, "locker_rear": true,
+      "note": "Rubicon 4xe: Rock-Trac, Dana 44s, front/rear lockers, sway bar disconnect"
+    },
+    "wrangler_jl": {
+      "system": "part_time", "low_range": true, "locker_front": true, "locker_rear": true,
+      "note": "JL Rubicon: Rock-Trac, Dana 44s, front/rear lockers, sway bar disconnect"
+    },
+    "wrangler_jk": {
+      "system": "part_time", "low_range": true, "locker_front": true, "locker_rear": true,
+      "note": "JK Rubicon: Rock-Trac, Dana 44s, electronic lockers front/rear"
+    },
+    "wrangler_tj": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "TJ Rubicon: Dana 44s, lockers. Non-Rubicon has Dana 35/44"
+    },
+    "bronco": {
+      "system": "selectable", "low_range": true, "locker_front": true, "locker_rear": true,
+      "note": "Bronco Badlands: G.O.A.T. modes, front/rear lockers, sway bar disconnect"
+    },
+    "bronco_ob": {
+      "system": "selectable", "low_range": true,
+      "note": "Bronco Outer Banks: Advanced 4x4, no lockers standard"
+    },
+    "bronco_raptor": {
+      "system": "selectable", "low_range": true, "locker_front": true, "locker_rear": true,
+      "note": "Bronco Raptor: Advanced 4x4, front/rear lockers, Fox shocks"
+    },
+    "bronco_21_24": {
+      "system": "selectable", "low_range": true, "locker_front": true, "locker_rear": true,
+      "note": "Bronco Badlands 2021-24: Same as current gen"
+    },
+    "expedition": {
+      "system": "selectable", "low_range": false, "locker_rear": true,
+      "note": "Expedition Timberline: No low range, limited-slip rear"
+    },
+    "expedition_4g": {
+      "system": "selectable", "low_range": false,
+      "note": "Expedition 4th Gen: Intelligent 4WD, no low range"
+    },
+    "excursion": {
+      "system": "part_time", "low_range": true,
+      "note": "Excursion: Part-time 4WD, manual shift transfer case"
+    },
+    "tahoe_z71": {
+      "system": "selectable", "low_range": true,
+      "note": "Tahoe Z71: 2-speed transfer case, auto-locking rear diff"
+    },
+    "tahoe_5g": {
+      "system": "selectable", "low_range": true,
+      "note": "5th Gen Tahoe Z71: Same as current, 2-speed transfer case"
+    },
+    "tahoe_4g": {
+      "system": "selectable", "low_range": true,
+      "note": "4th Gen Tahoe Z71: 2-speed transfer case, G80 locker available"
+    },
+    "yukon_at4": {
+      "system": "selectable", "low_range": true,
+      "note": "Yukon AT4: 2-speed transfer case, electronic limited-slip"
+    },
+    "escalade_v": {
+      "system": "awd", "low_range": false,
+      "note": "Escalade-V: Performance AWD, no off-road focus"
+    },
+    "gle": {
+      "system": "awd", "low_range": false,
+      "note": "GLE 450: 4MATIC AWD, no low range"
+    },
+    "gle350de": {
+      "system": "awd", "low_range": false,
+      "note": "GLE 350de: 4MATIC AWD, diesel PHEV"
+    },
+    "gls": {
+      "system": "awd", "low_range": false,
+      "note": "GLS 580: 4MATIC+ AWD, no low range"
+    },
+    "gwagen": {
+      "system": "full_time", "low_range": true, "locker_front": true, "locker_center": true, "locker_rear": true,
+      "note": "G 550: Three locking differentials, low range, solid axles"
+    },
+    "gwagen_amg": {
+      "system": "full_time", "low_range": true, "locker_front": true, "locker_center": true, "locker_rear": true,
+      "note": "G 63 AMG: Same triple-lock as G550, performance-tuned"
+    },
+    "gwagen_w463": {
+      "system": "full_time", "low_range": true, "locker_front": true, "locker_center": true, "locker_rear": true,
+      "note": "W463: Three locking differentials, solid axles"
+    },
+    "g580_eq": {
+      "system": "awd", "low_range": false, "locker_front": true, "locker_center": true, "locker_rear": true,
+      "note": "G 580 EQ: Quad motors = virtual lockers, tank turn capability"
+    },
+    "x5": {
+      "system": "awd", "low_range": false,
+      "note": "X5 xDrive50e: xDrive AWD, no low range"
+    },
+    "x7": {
+      "system": "awd", "low_range": false,
+      "note": "X7: xDrive AWD, air suspension available"
+    },
+    "xm": {
+      "system": "awd", "low_range": false,
+      "note": "XM: M xDrive AWD, performance focus"
+    },
+    "ix_xdrive50": {
+      "system": "awd", "low_range": false,
+      "note": "iX: Electric AWD, no off-road focus"
+    },
+    "cayenne": {
+      "system": "awd", "low_range": false,
+      "note": "Cayenne: PTM AWD, air suspension available"
+    },
+    "cayenne_ehybrid": {
+      "system": "awd", "low_range": false,
+      "note": "Cayenne E-Hybrid: PTM AWD"
+    },
+    "cayenne_turbo": {
+      "system": "awd", "low_range": false,
+      "note": "Cayenne Turbo E-Hybrid: PTM AWD, performance focus"
+    },
+    "cayenne_coupe": {
+      "system": "awd", "low_range": false,
+      "note": "Cayenne Coupe: PTM AWD"
+    },
+    "q8": {
+      "system": "awd", "low_range": false,
+      "note": "Q8: quattro AWD with sport differential"
+    },
+    "sq8": {
+      "system": "awd", "low_range": false,
+      "note": "SQ8: quattro AWD, sport differential"
+    },
+    "rsq8": {
+      "system": "awd", "low_range": false,
+      "note": "RS Q8: quattro AWD, sport differential"
+    },
+    "r1s": {
+      "system": "awd", "low_range": false, "locker_front": true, "locker_rear": true,
+      "note": "R1S: Quad motors = virtual lockers, excellent traction control"
+    },
+    "r1s_perf": {
+      "system": "awd", "low_range": false,
+      "note": "R1S Dual Max: Dual motors, still excellent off-road"
+    },
+    "hummer_ev": {
+      "system": "awd", "low_range": false, "locker_front": true, "locker_rear": true,
+      "note": "Hummer EV: Tri-motor with virtual lockers, Extract Mode, CrabWalk"
+    },
+    "cybertruck": {
+      "system": "awd", "low_range": false,
+      "note": "Cybertruck AWD: Dual motor AWD, Trail Mode via OTA"
+    },
+    "cybertruck_beast": {
+      "system": "awd", "low_range": false,
+      "note": "Cyberbeast: Tri-motor, better traction control"
+    },
+    "model_x": {
+      "system": "awd", "low_range": false,
+      "note": "Model X: Dual motor AWD, road-focused"
+    },
+    "eqs_suv": {
+      "system": "awd", "low_range": false,
+      "note": "EQS SUV: 4MATIC AWD, luxury focus"
+    },
+    "montero": {
+      "system": "awd", "low_range": false,
+      "note": "Outlander PHEV: S-AWC system, no low range"
+    },
+    "montero_sport": {
+      "system": "part_time", "low_range": true,
+      "note": "Montero Sport: Part-time 4WD, low range"
+    },
+    "montero_gen3": {
+      "system": "selectable", "low_range": true, "locker_center": true,
+      "note": "Montero 3rd Gen: Super Select 4WD, center diff lock"
+    },
+    "xc90_recharge": {
+      "system": "awd", "low_range": false,
+      "note": "XC90 Recharge: AWD via electric rear motor"
+    },
+    "ex90": {
+      "system": "awd", "low_range": false,
+      "note": "EX90: Dual motor AWD"
+    },
+    "gv80": {
+      "system": "awd", "low_range": false,
+      "note": "GV80: HTRAC AWD, road-focused"
+    },
+    "xterra": {
+      "system": "part_time", "low_range": true,
+      "note": "Xterra: Part-time 4WD, electronic locking rear optional"
+    },
+    "pathfinder_r51": {
+      "system": "selectable", "low_range": true,
+      "note": "Pathfinder R51: All-Mode 4x4, low range available"
+    },
+    "patrol_y61": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "Patrol Y61: Part-time with manual hubs, rear locker"
+    },
+    "4wd_suburban": {
+      "system": "selectable", "low_range": true,
+      "note": "Suburban 4WD: 2-speed transfer case"
+    },
+    "hummer_h2": {
+      "system": "full_time", "low_range": true, "locker_rear": true,
+      "note": "H2: Full-time 4WD, Torsen center, locking rear"
+    },
+    "trooper": {
+      "system": "selectable", "low_range": true,
+      "note": "Trooper: TOD (Torque On Demand), low range"
+    },
+
+    "navigator": {
+      "system": "awd", "low_range": false,
+      "note": "Navigator: Intelligent AWD, road-focused luxury"
+    },
+    "aviator": {
+      "system": "awd", "low_range": false,
+      "note": "Aviator: Intelligent AWD, air suspension available"
+    },
+    "qx80": {
+      "system": "selectable", "low_range": true,
+      "note": "QX80: All-Mode 4WD with low range, HBMC suspension"
+    },
+    "mdx_type_s": {
+      "system": "awd", "low_range": false,
+      "note": "MDX Type S: SH-AWD with torque vectoring, road-focused"
+    },
+    "telluride_xpro": {
+      "system": "awd", "low_range": false,
+      "note": "Telluride X-Pro: AWD with center diff lock, off-road mode"
+    },
+    "palisade": {
+      "system": "awd", "low_range": false,
+      "note": "Palisade: HTRAC AWD, road-focused"
+    },
+    "pilot_trailsport": {
+      "system": "awd", "low_range": false,
+      "note": "Pilot TrailSport: i-VTM4 AWD, TrailWatch camera system, trail modes"
+    },
+    "passport_trailsport": {
+      "system": "awd", "low_range": false,
+      "note": "Passport TrailSport: i-VTM4 AWD with torque vectoring, trail modes"
+    },
+    "cx90_phev": {
+      "system": "awd", "low_range": false,
+      "note": "CX-90 PHEV: i-ACTIV AWD, road-focused"
+    },
+    "santa_fe_xrt": {
+      "system": "awd", "low_range": false,
+      "note": "Santa Fe XRT: HTRAC AWD with terrain modes, off-road styling"
+    },
+    "outback_wilderness": {
+      "system": "awd", "low_range": false,
+      "note": "Outback Wilderness: Symmetrical AWD, X-Mode with dual-function, lifted"
+    },
+    "forester_wilderness": {
+      "system": "awd", "low_range": false,
+      "note": "Forester Wilderness: Symmetrical AWD, X-Mode, lifted"
+    },
+    "sorento_phev": {
+      "system": "awd", "low_range": false,
+      "note": "Sorento PHEV: On-demand AWD, road-focused hybrid"
+    },
+    "gladiator_rubicon": {
+      "system": "part_time", "low_range": true, "locker_front": true, "locker_rear": true,
+      "note": "Gladiator Rubicon: Rock-Trac, Dana 44s, front/rear lockers, sway bar disconnect"
+    },
+    "wrangler_sahara": {
+      "system": "part_time", "low_range": true,
+      "note": "Wrangler Sahara: Command-Trac or Selec-Trac, no lockers standard"
+    },
+    "tacoma_trd_pro": {
+      "system": "part_time", "low_range": true, "locker_rear": true,
+      "note": "Tacoma TRD Pro: Multi-Terrain Select, Crawl Control, rear e-locker"
+    },
+    "tx_550h": {
+      "system": "awd", "low_range": false,
+      "note": "TX 550h+: DIRECT4 AWD hybrid, luxury three-row"
+    },
+    "gv70": {
+      "system": "awd", "low_range": false,
+      "note": "GV70: HTRAC AWD, road-focused sport luxury"
+    },
+    "escalade": {
+      "system": "selectable", "low_range": true,
+      "note": "Escalade: 4WD with 2-speed transfer case, auto-locking diff"
+    },
+    "defender_90": {
+      "system": "full_time", "low_range": true, "locker_center": true,
+      "note": "Defender 90: Terrain Response 2, twin-speed transfer case, center diff"
+    },
+    "gc_l_overland": {
+      "system": "selectable", "low_range": true,
+      "note": "GC L Overland: Quadra-Trac II, 2-speed transfer case"
+    },
+    "lc_first_ed": {
+      "system": "full_time", "low_range": true, "locker_center": true, "locker_rear": true,
+      "note": "LC First Edition: Same as base LC, Torsen center, e-locker rear, Crawl Control"
+    },
+    "qx80_2g": {
+      "system": "selectable", "low_range": true,
+      "note": "QX80 2nd Gen: All-Mode 4WD with low range"
+    }
+  }
+}

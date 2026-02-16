@@ -1,0 +1,781 @@
+{
+  "4runner": {
+    "name": "Toyota 4Runner TRD Pro",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  },
+  "4runner_ltd": {
+    "name": "Toyota 4Runner Limited",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  },
+  "4runner_trd_orp": {
+    "name": "Toyota 4Runner TRD Off-Road Premium",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  },
+  "runner_sr5": {
+    "name": "Toyota 4Runner SR5",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  },
+  "runner_venture": {
+    "name": "Toyota 4Runner Trailhunter",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  },
+  "4runner_5g_trd_pro": {
+    "name": "Toyota 4Runner TRD Pro",
+    "generation": "5th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  },
+  "4runner_5g_trd_or": {
+    "name": "Toyota 4Runner TRD Off-Road",
+    "generation": "5th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  },
+  "4runner_5g_sr5": {
+    "name": "Toyota 4Runner SR5",
+    "generation": "5th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  },
+  "gx": {
+    "name": "Lexus GX 550 Overtrail",
+    "generation": "GX 550",
+    "url": "https://en.wikipedia.org/wiki/Lexus_GX",
+    "candidates": [
+      "Lexus_GX_(AL30)",
+      "Lexus_GX"
+    ]
+  },
+  "gx_prem": {
+    "name": "Lexus GX 550 Premium+",
+    "generation": "GX 550",
+    "url": "https://en.wikipedia.org/wiki/Lexus_GX",
+    "candidates": [
+      "Lexus_GX_(AL30)",
+      "Lexus_GX"
+    ]
+  },
+  "gx460": {
+    "name": "Lexus GX 460",
+    "generation": "J150",
+    "url": "https://en.wikipedia.org/wiki/Lexus_GX",
+    "candidates": [
+      "Lexus_GX",
+      "Lexus_GX"
+    ]
+  },
+  "gx470": {
+    "name": "Lexus GX 470",
+    "generation": "J120",
+    "url": "https://en.wikipedia.org/wiki/Lexus_GX",
+    "candidates": [
+      "Lexus_GX",
+      "Lexus_GX"
+    ]
+  },
+  "lc": {
+    "name": "Toyota Land Cruiser",
+    "generation": "J250",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J250)",
+    "candidates": [
+      "Toyota_Land_Cruiser_(J250)",
+      "Toyota_Land_Cruiser"
+    ]
+  },
+  "lc200": {
+    "name": "Toyota Land Cruiser",
+    "generation": "200 Series",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J200)",
+    "candidates": [
+      "Toyota_Land_Cruiser_(J200)",
+      "Toyota_Land_Cruiser"
+    ]
+  },
+  "lc100": {
+    "name": "Toyota Land Cruiser",
+    "generation": "100 Series",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J100)",
+    "candidates": [
+      "Toyota_Land_Cruiser_(J100)",
+      "Toyota_Land_Cruiser"
+    ]
+  },
+  "lc80": {
+    "name": "Toyota Land Cruiser",
+    "generation": "80 Series",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J80)",
+    "candidates": [
+      "Toyota_Land_Cruiser_(J80)",
+      "Toyota_Land_Cruiser"
+    ]
+  },
+  "lx570": {
+    "name": "Lexus LX 570",
+    "generation": "200 Series",
+    "url": "https://en.wikipedia.org/wiki/Lexus_LX",
+    "candidates": [
+      "Lexus_LX",
+      "Lexus_LX"
+    ]
+  },
+  "sequoia": {
+    "name": "Toyota Sequoia TRD Pro",
+    "generation": "3rd Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Sequoia",
+    "candidates": [
+      "Toyota_Sequoia"
+    ]
+  },
+  "sequoia_ltd": {
+    "name": "Toyota Sequoia Limited",
+    "generation": "3rd Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Sequoia",
+    "candidates": [
+      "Toyota_Sequoia"
+    ]
+  },
+  "sequoia_2g": {
+    "name": "Toyota Sequoia",
+    "generation": "2nd Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_Sequoia",
+    "candidates": [
+      "Toyota_Sequoia"
+    ]
+  },
+  "lx": {
+    "name": "Lexus LX 600",
+    "generation": "J300",
+    "url": "https://en.wikipedia.org/wiki/Lexus_LX_(J300)",
+    "candidates": [
+      "Lexus_LX_(J300)",
+      "Lexus_LX"
+    ]
+  },
+  "fj_cruiser": {
+    "name": "Toyota FJ Cruiser",
+    "generation": "FJ",
+    "url": "https://en.wikipedia.org/wiki/Toyota_FJ_Cruiser",
+    "candidates": [
+      "Toyota_FJ_Cruiser"
+    ]
+  },
+  "defender": {
+    "name": "Land Rover Defender 110 V8",
+    "generation": "L663",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender_(L663)",
+    "candidates": [
+      "Land_Rover_Defender_(L663)",
+      "Land_Rover_Defender"
+    ]
+  },
+  "defender_s": {
+    "name": "Land Rover Defender 110 S",
+    "generation": "L663",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender_(L663)",
+    "candidates": [
+      "Land_Rover_Defender_(L663)",
+      "Land_Rover_Defender"
+    ]
+  },
+  "defender_130": {
+    "name": "Land Rover Defender 130",
+    "generation": "L663",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender_(L663)",
+    "candidates": [
+      "Land_Rover_Defender_(L663)",
+      "Land_Rover_Defender"
+    ]
+  },
+  "defender_classic": {
+    "name": "Land Rover Defender Classic",
+    "generation": "Defender 110",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Defender_(L316)",
+    "candidates": [
+      "Land_Rover_Defender_(L316)",
+      "Land_Rover_Defender"
+    ]
+  },
+  "disco_lr4": {
+    "name": "Land Rover LR4 / Discovery 4",
+    "generation": "LR4/L319",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery",
+    "candidates": [
+      "Land_Rover_Discovery_(L319)",
+      "Land_Rover_Discovery",
+      "Land_Rover_LR4"
+    ]
+  },
+  "disco_5": {
+    "name": "Land Rover Discovery 5",
+    "generation": "L462",
+    "url": "https://en.wikipedia.org/wiki/Land_Rover_Discovery_(L462)",
+    "candidates": [
+      "Land_Rover_Discovery_(L462)",
+      "Land_Rover_Discovery"
+    ]
+  },
+  "rr_sport": {
+    "name": "Range Rover Sport",
+    "generation": "L461",
+    "url": "https://en.wikipedia.org/wiki/Range_Rover",
+    "candidates": [
+      "Range_Rover",
+      "Land_Rover_Range_Rover"
+    ]
+  },
+  "rr_full": {
+    "name": "Range Rover",
+    "generation": "L460",
+    "url": "https://en.wikipedia.org/wiki/Range_Rover",
+    "candidates": [
+      "Range_Rover",
+      "Land_Rover_Range_Rover"
+    ]
+  },
+  "gc4xe": {
+    "name": "Jeep Grand Cherokee 4xe Summit",
+    "generation": "WL",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WL)",
+    "candidates": [
+      "Jeep_Grand_Cherokee_(WL)",
+      "Jeep_Grand_Cherokee"
+    ]
+  },
+  "gc4xe_ol": {
+    "name": "Jeep Grand Cherokee 4xe Overland",
+    "generation": "WL",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WL)",
+    "candidates": [
+      "Jeep_Grand_Cherokee_(WL)",
+      "Jeep_Grand_Cherokee"
+    ]
+  },
+  "gc_trailhawk": {
+    "name": "Jeep Grand Cherokee Trailhawk 4xe",
+    "generation": "WL",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WL)",
+    "candidates": [
+      "Jeep_Grand_Cherokee_(WL)",
+      "Jeep_Grand_Cherokee"
+    ]
+  },
+  "gc_wk2": {
+    "name": "Jeep Grand Cherokee",
+    "generation": "WK2",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WK2)",
+    "candidates": [
+      "Jeep_Grand_Cherokee_(WK2)",
+      "Jeep_Grand_Cherokee"
+    ]
+  },
+  "gc_wk2_th": {
+    "name": "Jeep Grand Cherokee Trailhawk",
+    "generation": "WK2",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee_(WK2)",
+    "candidates": [
+      "Jeep_Grand_Cherokee_(WK2)",
+      "Jeep_Grand_Cherokee"
+    ]
+  },
+  "wagoneer": {
+    "name": "Jeep Wagoneer",
+    "generation": "WS",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Wagoneer_(WS)",
+    "candidates": [
+      "Jeep_Wagoneer_(WS)",
+      "Jeep_Wagoneer"
+    ]
+  },
+  "gwagoneer": {
+    "name": "Jeep Grand Wagoneer",
+    "generation": "WS",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Wagoneer_(WS)",
+    "candidates": [
+      "Jeep_Wagoneer_(WS)",
+      "Jeep_Grand_Wagoneer"
+    ]
+  },
+  "wrangler_rubicon": {
+    "name": "Jeep Wrangler Rubicon 4xe",
+    "generation": "JL",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JL)",
+    "candidates": [
+      "Jeep_Wrangler_(JL)",
+      "Jeep_Wrangler"
+    ]
+  },
+  "wrangler_jl": {
+    "name": "Jeep Wrangler Rubicon",
+    "generation": "JL",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JL)",
+    "candidates": [
+      "Jeep_Wrangler_(JL)",
+      "Jeep_Wrangler"
+    ]
+  },
+  "wrangler_jk": {
+    "name": "Jeep Wrangler Rubicon",
+    "generation": "JK",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JK)",
+    "candidates": [
+      "Jeep_Wrangler_(JK)",
+      "Jeep_Wrangler"
+    ]
+  },
+  "wrangler_tj": {
+    "name": "Jeep Wrangler",
+    "generation": "TJ",
+    "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(TJ)",
+    "candidates": [
+      "Jeep_Wrangler_(TJ)",
+      "Jeep_Wrangler"
+    ]
+  },
+  "bronco": {
+    "name": "Ford Bronco Badlands",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Ford_Bronco_(sixth_generation)",
+    "candidates": [
+      "Ford_Bronco_(sixth_generation)",
+      "Ford_Bronco_(sixth_generation)",
+      "Ford_Bronco"
+    ]
+  },
+  "bronco_ob": {
+    "name": "Ford Bronco Outer Banks",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Ford_Bronco_(sixth_generation)",
+    "candidates": [
+      "Ford_Bronco_(sixth_generation)",
+      "Ford_Bronco_(sixth_generation)",
+      "Ford_Bronco"
+    ]
+  },
+  "bronco_raptor": {
+    "name": "Ford Bronco Raptor",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Ford_Bronco_(sixth_generation)",
+    "candidates": [
+      "Ford_Bronco_(sixth_generation)",
+      "Ford_Bronco_(sixth_generation)",
+      "Ford_Bronco"
+    ]
+  },
+  "bronco_21_24": {
+    "name": "Ford Bronco Badlands",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Ford_Bronco_(sixth_generation)",
+    "candidates": [
+      "Ford_Bronco_(sixth_generation)",
+      "Ford_Bronco_(sixth_generation)",
+      "Ford_Bronco"
+    ]
+  },
+  "expedition": {
+    "name": "Ford Expedition Timberline",
+    "generation": "4th Gen",
+    "url": "https://en.wikipedia.org/wiki/Ford_Expedition",
+    "candidates": [
+      "Ford_Expedition"
+    ]
+  },
+  "expedition_4g": {
+    "name": "Ford Expedition",
+    "generation": "4th Gen",
+    "url": "https://en.wikipedia.org/wiki/Ford_Expedition",
+    "candidates": [
+      "Ford_Expedition"
+    ]
+  },
+  "excursion": {
+    "name": "Ford Excursion",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Ford_Excursion",
+    "candidates": [
+      "Ford_Excursion"
+    ]
+  },
+  "tahoe_z71": {
+    "name": "Chevy Tahoe Z71",
+    "generation": "5th Gen",
+    "url": "https://en.wikipedia.org/wiki/Chevrolet_Tahoe",
+    "candidates": [
+      "Chevrolet_Tahoe",
+      "Chevrolet_Chevy_Tahoe"
+    ]
+  },
+  "tahoe_5g": {
+    "name": "Chevrolet Tahoe Z71",
+    "generation": "5th Gen",
+    "url": "https://en.wikipedia.org/wiki/Chevrolet_Tahoe",
+    "candidates": [
+      "Chevrolet_Tahoe"
+    ]
+  },
+  "tahoe_4g": {
+    "name": "Chevrolet Tahoe Z71",
+    "generation": "4th Gen",
+    "url": "https://en.wikipedia.org/wiki/Chevrolet_Tahoe",
+    "candidates": [
+      "Chevrolet_Tahoe"
+    ]
+  },
+  "yukon_at4": {
+    "name": "GMC Yukon AT4",
+    "generation": "5th Gen",
+    "url": "https://en.wikipedia.org/wiki/GMC_Yukon",
+    "candidates": [
+      "GMC_Yukon"
+    ]
+  },
+  "escalade_v": {
+    "name": "Cadillac Escalade V",
+    "generation": "5th Gen",
+    "url": "https://en.wikipedia.org/wiki/Cadillac_Escalade",
+    "candidates": [
+      "Cadillac_Escalade"
+    ]
+  },
+  "gle": {
+    "name": "Mercedes-Benz GLE 450",
+    "generation": "W167",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE-Class",
+    "candidates": [
+      "Mercedes-Benz_GLE-Class",
+      "Mercedes-Benz_GLE"
+    ]
+  },
+  "gle350de": {
+    "name": "Mercedes-Benz GLE 350de",
+    "generation": "W167",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE-Class",
+    "candidates": [
+      "Mercedes-Benz_GLE-Class",
+      "Mercedes-Benz_GLE"
+    ]
+  },
+  "gls": {
+    "name": "Mercedes-Benz GLS 580",
+    "generation": "X167",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLS-Class",
+    "candidates": [
+      "Mercedes-Benz_GLS-Class",
+      "Mercedes-Benz_GLS"
+    ]
+  },
+  "gwagen": {
+    "name": "Mercedes-Benz G 550",
+    "generation": "W463A",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class",
+    "candidates": [
+      "Mercedes-Benz_G-Class",
+      "Mercedes-Benz_G-Class"
+    ]
+  },
+  "gwagen_amg": {
+    "name": "Mercedes-AMG G 63",
+    "generation": "W463A",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class",
+    "candidates": [
+      "Mercedes-Benz_G-Class",
+      "Mercedes-Benz_Mercedes-AMG_G"
+    ]
+  },
+  "gwagen_w463": {
+    "name": "Mercedes-Benz G-Class",
+    "generation": "W463",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class",
+    "candidates": [
+      "Mercedes-Benz_G-Class",
+      "Mercedes-Benz_G-Class"
+    ]
+  },
+  "x5": {
+    "name": "BMW X5 xDrive50e",
+    "generation": "G05",
+    "url": "https://en.wikipedia.org/wiki/BMW_X5",
+    "candidates": [
+      "BMW_X5"
+    ]
+  },
+  "x7": {
+    "name": "BMW X7 xDrive40i",
+    "generation": "G07",
+    "url": "https://en.wikipedia.org/wiki/BMW_X7",
+    "candidates": [
+      "BMW_X7"
+    ]
+  },
+  "xm": {
+    "name": "BMW XM",
+    "generation": "G09",
+    "url": "https://en.wikipedia.org/wiki/BMW_XM",
+    "candidates": [
+      "BMW_XM"
+    ]
+  },
+  "cayenne": {
+    "name": "Porsche Cayenne",
+    "generation": "E3",
+    "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+    "candidates": [
+      "Porsche_Cayenne"
+    ]
+  },
+  "cayenne_ehybrid": {
+    "name": "Porsche Cayenne E-Hybrid",
+    "generation": "E3",
+    "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+    "candidates": [
+      "Porsche_Cayenne"
+    ]
+  },
+  "cayenne_turbo": {
+    "name": "Porsche Cayenne Turbo E-Hybrid",
+    "generation": "E3",
+    "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+    "candidates": [
+      "Porsche_Cayenne"
+    ]
+  },
+  "cayenne_coupe": {
+    "name": "Porsche Cayenne Coupe",
+    "generation": "E3",
+    "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+    "candidates": [
+      "Porsche_Cayenne"
+    ]
+  },
+  "q8": {
+    "name": "Audi Q8",
+    "generation": "4M",
+    "url": "https://en.wikipedia.org/wiki/Audi_Q8",
+    "candidates": [
+      "Audi_Q8"
+    ]
+  },
+  "sq8": {
+    "name": "Audi SQ8",
+    "generation": "4M",
+    "url": "https://en.wikipedia.org/wiki/Audi_Q8",
+    "candidates": [
+      "Audi_Q8",
+      "Audi_SQ8"
+    ]
+  },
+  "rsq8": {
+    "name": "Audi RS Q8",
+    "generation": "4M",
+    "url": "https://en.wikipedia.org/wiki/Audi_Q8",
+    "candidates": [
+      "Audi_Q8",
+      "Audi_RS_Q8"
+    ]
+  },
+  "r1s": {
+    "name": "Rivian R1S Adventure",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Rivian_R1S",
+    "candidates": [
+      "Rivian_R1S"
+    ]
+  },
+  "r1s_perf": {
+    "name": "Rivian R1S Dual Max",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Rivian_R1S",
+    "candidates": [
+      "Rivian_R1S"
+    ]
+  },
+  "hummer_ev": {
+    "name": "GMC Hummer EV SUV",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/GMC_Hummer_EV",
+    "candidates": [
+      "GMC_Hummer_EV"
+    ]
+  },
+  "cybertruck": {
+    "name": "Tesla Cybertruck AWD",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+    "candidates": [
+      "Tesla_Cybertruck"
+    ]
+  },
+  "cybertruck_beast": {
+    "name": "Tesla Cybertruck Cyberbeast",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+    "candidates": [
+      "Tesla_Cybertruck"
+    ]
+  },
+  "model_x": {
+    "name": "Tesla Model X",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+    "candidates": [
+      "Tesla_Model_X"
+    ]
+  },
+  "ix_xdrive50": {
+    "name": "BMW iX xDrive50",
+    "generation": "i20",
+    "url": "https://en.wikipedia.org/wiki/BMW_iX",
+    "candidates": [
+      "BMW_iX"
+    ]
+  },
+  "eqs_suv": {
+    "name": "Mercedes-Benz EQS SUV",
+    "generation": "V297",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQS",
+    "candidates": [
+      "Mercedes-Benz_EQS"
+    ]
+  },
+  "g580_eq": {
+    "name": "Mercedes-Benz G 580 EQ",
+    "generation": "W463A EQ",
+    "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class",
+    "candidates": [
+      "Mercedes-Benz_G-Class",
+      "Mercedes-Benz_G-Class"
+    ]
+  },
+  "montero": {
+    "name": "Mitsubishi Outlander PHEV",
+    "generation": "4th Gen",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Outlander",
+    "candidates": [
+      "Mitsubishi_Outlander"
+    ]
+  },
+  "montero_sport": {
+    "name": "Mitsubishi Montero Sport",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero",
+    "candidates": [
+      "Mitsubishi_Pajero",
+      "Mitsubishi_Montero"
+    ]
+  },
+  "montero_gen3": {
+    "name": "Mitsubishi Montero",
+    "generation": "3rd Gen",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero",
+    "candidates": [
+      "Mitsubishi_Pajero",
+      "Mitsubishi_Montero"
+    ]
+  },
+  "xc90_recharge": {
+    "name": "Volvo XC90 Recharge",
+    "generation": "2nd Gen",
+    "url": "https://en.wikipedia.org/wiki/Volvo_XC90",
+    "candidates": [
+      "Volvo_XC90"
+    ]
+  },
+  "ex90": {
+    "name": "Volvo EX90",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+    "candidates": [
+      "Volvo_EX90"
+    ]
+  },
+  "gv80": {
+    "name": "Genesis GV80",
+    "generation": "1st Gen",
+    "url": "https://en.wikipedia.org/wiki/Genesis_GV80",
+    "candidates": [
+      "Genesis_GV80"
+    ]
+  },
+  "xterra": {
+    "name": "Nissan Xterra",
+    "generation": "2nd Gen",
+    "url": "https://en.wikipedia.org/wiki/Nissan_Xterra",
+    "candidates": [
+      "Nissan_Xterra"
+    ]
+  },
+  "pathfinder_r51": {
+    "name": "Nissan Pathfinder R51",
+    "generation": "R51",
+    "url": "https://en.wikipedia.org/wiki/Nissan_Pathfinder",
+    "candidates": [
+      "Nissan_Pathfinder"
+    ]
+  },
+  "patrol_y61": {
+    "name": "Nissan Patrol Y61",
+    "generation": "Y61",
+    "url": "https://en.wikipedia.org/wiki/Nissan_Patrol",
+    "candidates": [
+      "Nissan_Patrol"
+    ]
+  },
+  "4wd_suburban": {
+    "name": "Chevy Suburban 4WD",
+    "generation": "11th Gen",
+    "url": "https://en.wikipedia.org/wiki/Chevrolet_Suburban",
+    "candidates": [
+      "Chevrolet_Suburban",
+      "Chevrolet_Chevy_Suburban"
+    ]
+  },
+  "hummer_h2": {
+    "name": "Hummer H2",
+    "generation": "H2",
+    "url": "https://en.wikipedia.org/wiki/Hummer_H2",
+    "candidates": [
+      "Hummer_H2"
+    ]
+  },
+  "trooper": {
+    "name": "Isuzu Trooper",
+    "generation": "2nd Gen",
+    "url": "https://en.wikipedia.org/wiki/Isuzu_Trooper",
+    "candidates": [
+      "Isuzu_Trooper"
+    ]
+  },
+  "runner_sport": {
+    "name": "Toyota 4Runner TRD Sport",
+    "generation": "6th Gen",
+    "url": "https://en.wikipedia.org/wiki/Toyota_4Runner",
+    "candidates": [
+      "Toyota_4Runner"
+    ]
+  }
+}

@@ -1,17 +1,42 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import vehiclesData from "./vehicles.json";
-import edmundsLogo from "./edmunds-logo.svg";
 
 const V = vehiclesData;
+
+// Compute data-derived bounds for dynamic ranges
+const DATA_PRICE_MIN = Math.min(...V.map(v => v.price));
+const DATA_PRICE_MAX = Math.max(...V.map(v => v.price));
+const DATA_MPG_MIN = Math.min(...V.map(v => v.mpg));
+const DATA_MPG_MAX = Math.max(...V.map(v => v.mpg));
+const DATA_CARGO_MIN = Math.min(...V.map(v => v.cargo));
+const DATA_CARGO_MAX = Math.max(...V.map(v => v.cargo));
+
+// Migrate legacy localStorage data (ice -> gas, add compact to size filters)
+const migratePreset = (preset) => {
+  const migrated = { ...preset };
+  // Migrate size: add "compact" if missing (legacy presets only had mid/full)
+  if (migrated.size && !migrated.size.includes("compact")) {
+    migrated.size = ["compact", ...migrated.size];
+  }
+  return migrated;
+};
 
 // Load user presets from localStorage
 const loadUserPresets = () => {
   try {
     const saved = localStorage.getItem("overland-finder-presets");
-    return saved ? JSON.parse(saved) : [];
+    if (!saved) return [];
+    const presets = JSON.parse(saved);
+    return presets.map(migratePreset);
   } catch {
     return [];
   }
+};
+
+// Migrate legacy ptFilter from localStorage (ice -> gas)
+const migratePtFilter = (ptFilter) => {
+  if (!ptFilter) return null;
+  return ptFilter.map(pt => pt === "ice" ? "gas" : pt);
 };
 
 // Save user presets to localStorage
@@ -22,73 +47,136 @@ const saveUserPresets = (presets) => {
 // Extract unique manufacturers
 const MAKES = [...new Set(V.map(v => v.make))].sort();
 
-const ptLabels = { hybrid: "Hybrid", ice: "ICE", phev: "PHEV", ev: "EV" };
-const ptColors = { hybrid: "#2ecc71", ice: "#e67e22", phev: "#3498db", ev: "#9b59b6" };
-const sizeLabels = { mid: "Midsize", full: "Full-size" };
+// Single source of truth for powertrain types (order matters for UI)
+const POWERTRAINS = [
+  { id: "hybrid", label: "Hybrid", color: "#2ecc71" },
+  { id: "phev", label: "PHEV", color: "#3498db" },
+  { id: "ev", label: "EV", color: "#9b59b6" },
+  { id: "gas", label: "Gas", color: "#e67e22" },
+  { id: "diesel", label: "Diesel", color: "#95a5a6" },
+];
+const PT_IDS = POWERTRAINS.map(p => p.id);
+const ptLabels = Object.fromEntries(POWERTRAINS.map(p => [p.id, p.label]));
+const ptColors = Object.fromEntries(POWERTRAINS.map(p => [p.id, p.color]));
+// Single source of truth for sizes
+const SIZES = [
+  { id: "compact", label: "Compact" },
+  { id: "mid", label: "Midsize" },
+  { id: "full", label: "Full-size" },
+];
+
+// Compose display name from vehicle fields: Make Model Trim (Generation)
+const getDisplayName = (v) => {
+  let name = `${v.make} ${v.model}`;
+  if (v.trim) name += ` ${v.trim}`;
+  return name;
+};
+
+// Simple fuzzy match: checks if all query words appear somewhere in the target string
+const fuzzyMatch = (query, target) => {
+  if (!query) return true;
+  const q = query.toLowerCase().trim();
+  const t = target.toLowerCase();
+  // Split query into words and check if all appear in target
+  const words = q.split(/\s+/).filter(Boolean);
+  return words.every(word => t.includes(word));
+};
+
+// Get searchable text for a vehicle
+const getSearchableText = (v) => {
+  return [v.make, v.model, v.trim, v.generation].filter(Boolean).join(" ");
+};
+const SIZE_IDS = SIZES.map(s => s.id);
+const sizeLabels = Object.fromEntries(SIZES.map(s => [s.id, s.label]));
+
+// Single source of truth for vehicle attributes
+// Each attribute has: id (matches Vehicle property), labels for different contexts, range/scoring config
+// Rating scales (offroad, luxury, etc.) use 1-10; physical measurements (mpg, cargo) derive from data
+const ATTRIBUTES = [
+  { id: "mpg", label: "MPG", shortLabel: "MPG", priorityLabel: "Fuel Econ", min: DATA_MPG_MIN, max: DATA_MPG_MAX, step: 1, description: "Filter by fuel efficiency range", priority: 2, sortable: true, summaryField: true },
+  { id: "offroad", label: "Off-Road", shortLabel: "Off-Rd", priorityLabel: "Off-Road", min: 1, max: 10, step: 0.5, description: "3 = gravel roads · 6 = moderate trails · 8+ = serious", priority: 3, sortable: true, summaryField: true },
+  { id: "luxury", label: "Luxury", shortLabel: "Lux", priorityLabel: "Luxury", min: 1, max: 10, step: 0.5, description: "Interior quality & comfort level", priority: 3, sortable: true, summaryField: true },
+  { id: "reliability", label: "Reliability", shortLabel: "Rel", priorityLabel: "Reliability", min: 1, max: 10, step: 0.5, description: "Expected dependability & repair costs", priority: 3, sortable: true, summaryField: true },
+  { id: "cargo", label: "Cargo", shortLabel: "Cargo", priorityLabel: "Cargo", min: DATA_CARGO_MIN, max: DATA_CARGO_MAX, step: 1, unit: " cu ft", description: "Cargo capacity behind 2nd row", priority: 3, detailOnly: true },
+  { id: "performance", label: "Performance", shortLabel: "Perf", priorityLabel: "Performance", min: 1, max: 10, step: 0.5, description: "Acceleration, power & driving dynamics", priority: 2, sortable: true, detailOnly: true },
+  { id: "tow", label: "Towing", shortLabel: "Tow", priorityLabel: "Towing", priorityKey: "towing", presetKey: "towing", min: 0, max: 15000, step: 500, unit: " lbs", description: "Maximum towing capacity", priority: 0, detailOnly: true, noFilter: true, formatVal: v => v.toLocaleString() },
+  { id: "gc", label: "Ground Clear.", shortLabel: "GC", min: 6, max: 12, step: 0.5, unit: "\"", detailOnly: true, noFilter: true },
+];
+const ATTR_BY_ID = Object.fromEntries(ATTRIBUTES.map(a => [a.id, a]));
+const SORTABLE_ATTRS = ATTRIBUTES.filter(a => a.sortable);
+const SUMMARY_ATTRS = ATTRIBUTES.filter(a => a.summaryField);
+const DETAIL_ATTRS = ATTRIBUTES.filter(a => !a.noFilter);
+const PRIORITY_ATTRS = ATTRIBUTES.filter(a => a.priority !== undefined);
 
 // Default priorities - balanced starting point, user adjusts for their use case
-const DEFAULT_PRIORITIES = { offroad: 3, luxury: 3, reliability: 3, performance: 2, mpg: 2, value: 2, cargo: 2, towing: 1 };
-
-// Compute min price from data
-const DATA_PRICE_MIN = Math.min(...V.map(v => v.price));
-const DATA_PRICE_MAX = Math.max(...V.map(v => v.price));
+const DEFAULT_PRIORITIES = Object.fromEntries(PRIORITY_ATTRS.map(a => [a.priorityKey || a.id, a.priority]));
 
 // Range filters: [min, max] for each attribute
+// Rating scales use 1-10; mpg/cargo use data-derived bounds
 const PRESETS = [
   {
     id: "your_brief", label: "Your Brief",
-    description: "Family of 4 + dog · real off-road · luxury · 20+ mpg · reliable · ≤$100K",
-    price: [DATA_PRICE_MIN, 100], mpg: [20, 50], offroad: [7, 10], luxury: [6.5, 10], reliability: [6, 10], cargo: [34, 70],
-    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "score",
+    description: "Family of 4 + dog · real off-road · luxury · 16+ mpg · reliable · ≤$100K",
+    price: [DATA_PRICE_MIN, 100], mpg: [16, DATA_MPG_MAX], offroad: [7, 10], luxury: [6.5, 10], reliability: [6, 10], cargo: [34, DATA_CARGO_MAX],
+    performance: [1, 10], towing: [0, 15000], size: ["compact", "mid", "full"], sortBy: "score",
   },
   {
     id: "trail_hardcore", label: "Trail First",
     description: "Maximum off-road · lockers & clearance · comfort secondary",
-    price: [DATA_PRICE_MIN, 125], mpg: [14, 50], offroad: [8, 10], luxury: [3, 10], reliability: [3, 10], cargo: [30, 70],
-    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "offroad",
+    price: [DATA_PRICE_MIN, 125], mpg: [16, DATA_MPG_MAX], offroad: [8, 10], luxury: [1, 10], reliability: [1, 10], cargo: [30, DATA_CARGO_MAX],
+    performance: [1, 10], towing: [0, 15000], size: ["compact", "mid", "full"], sortBy: "offroad",
   },
   {
     id: "highway_lux", label: "Highway Luxury",
     description: "Comfort & refinement first · moderate trails only · premium interior",
-    price: [DATA_PRICE_MIN, 125], mpg: [20, 50], offroad: [3, 7], luxury: [8, 10], reliability: [3, 10], cargo: [30, 70],
-    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "luxury",
+    price: [DATA_PRICE_MIN, 125], mpg: [20, DATA_MPG_MAX], offroad: [1, 7], luxury: [8, 10], reliability: [1, 10], cargo: [30, DATA_CARGO_MAX],
+    performance: [1, 10], towing: [0, 15000], size: ["compact", "mid", "full"], sortBy: "luxury",
   },
   {
     id: "efficiency", label: "Eco Overlander",
     description: "Best MPG · EV/PHEV/hybrid · still trail-capable",
-    price: [DATA_PRICE_MIN, 125], mpg: [21, 50], offroad: [5, 10], luxury: [3, 10], reliability: [3, 10], cargo: [30, 70],
-    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "mpg",
+    price: [DATA_PRICE_MIN, 125], mpg: [21, DATA_MPG_MAX], offroad: [5, 10], luxury: [1, 10], reliability: [1, 10], cargo: [30, DATA_CARGO_MAX],
+    performance: [1, 10], towing: [0, 15000], size: ["compact", "mid", "full"], sortBy: "mpg",
   },
   {
     id: "budget_overlander", label: "Budget Build",
     description: "Under $30K · proven platforms · DIY-friendly · best value",
-    price: [DATA_PRICE_MIN, 30], mpg: [12, 50], offroad: [6, 10], luxury: [3, 10], reliability: [6, 10], cargo: [19, 70],
-    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "score",
+    price: [DATA_PRICE_MIN, 30], mpg: [16, DATA_MPG_MAX], offroad: [6, 10], luxury: [1, 10], reliability: [6, 10], cargo: [DATA_CARGO_MIN, DATA_CARGO_MAX],
+    performance: [1, 10], towing: [0, 15000], size: ["compact", "mid", "full"], sortBy: "score",
   },
   {
     id: "open", label: "Wide Open",
     description: "No filters · show everything · I want to explore",
-    price: [DATA_PRICE_MIN, DATA_PRICE_MAX], mpg: [12, 50], offroad: [3, 10], luxury: [3, 10], reliability: [3, 10], cargo: [13, 70],
-    performance: [3, 10], towing: [0, 15000], size: ["mid", "full"], sortBy: "score",
+    price: [DATA_PRICE_MIN, DATA_PRICE_MAX], mpg: [DATA_MPG_MIN, DATA_MPG_MAX], offroad: [1, 10], luxury: [1, 10], reliability: [1, 10], cargo: [DATA_CARGO_MIN, DATA_CARGO_MAX],
+    performance: [1, 10], towing: [0, 15000], size: ["compact", "mid", "full"], sortBy: "score",
   },
 ];
 
 const DEFAULT_PRESET = PRESETS[0];
 
+// Attributes that have range filters (exclude gc which has noFilter)
+const FILTER_ATTRS = ATTRIBUTES.filter(a => !a.noFilter);
+
 export default function OverlandFinder() {
   const [priceRange, setPriceRange] = useState(DEFAULT_PRESET.price);
-  const [mpgRange, setMpgRange] = useState(DEFAULT_PRESET.mpg);
-  const [offroadRange, setOffroadRange] = useState(DEFAULT_PRESET.offroad);
-  const [luxuryRange, setLuxuryRange] = useState(DEFAULT_PRESET.luxury);
-  const [reliabilityRange, setReliabilityRange] = useState(DEFAULT_PRESET.reliability);
-  const [performanceRange, setPerformanceRange] = useState(DEFAULT_PRESET.performance);
-  const [cargoRange, setCargoRange] = useState(DEFAULT_PRESET.cargo);
-  const [towingRange, setTowingRange] = useState(DEFAULT_PRESET.towing);
-  const [ptFilter, setPtFilter] = useState(["hybrid", "ice", "phev", "ev"]);
+  // Consolidated range state for all filterable attributes
+  const [ranges, setRanges] = useState(() => {
+    const initial = {};
+    FILTER_ATTRS.forEach(a => {
+      const presetKey = a.presetKey || a.id;
+      initial[a.id] = DEFAULT_PRESET[presetKey] || [a.min, a.max];
+    });
+    return initial;
+  });
+  const setRange = (id, val) => setRanges(prev => ({ ...prev, [id]: val }));
+  const [ptFilter, setPtFilter] = useState([...PT_IDS]);
   const [sizeFilter, setSizeFilter] = useState(DEFAULT_PRESET.size);
   const [makeFilter, setMakeFilter] = useState([]);
   const [showMakeDropdown, setShowMakeDropdown] = useState(false);
   const makeDropdownRef = useRef(null);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchExpanded, setSearchExpanded] = useState(false);
+  const searchInputRef = useRef(null);
   const [sortBy, setSortBy] = useState(DEFAULT_PRESET.sortBy);
   const [sortAsc, setSortAsc] = useState(false);
   const [expanded, setExpanded] = useState(null);
@@ -128,6 +216,13 @@ export default function OverlandFinder() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [showMakeDropdown]);
 
+  // Auto-focus search input when expanded
+  useEffect(() => {
+    if (searchExpanded && searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, [searchExpanded]);
+
   // Persist user presets to localStorage
   useEffect(() => {
     saveUserPresets(userPresets);
@@ -138,13 +233,12 @@ export default function OverlandFinder() {
 
   const applyPreset = useCallback((preset) => {
     setPriceRange([...preset.price]);
-    setMpgRange([...preset.mpg]);
-    setOffroadRange([...preset.offroad]);
-    setLuxuryRange([...preset.luxury]);
-    setReliabilityRange([...preset.reliability]);
-    setPerformanceRange([...preset.performance]);
-    setCargoRange([...preset.cargo]);
-    setTowingRange([...preset.towing]);
+    const newRanges = {};
+    FILTER_ATTRS.forEach(a => {
+      const presetKey = a.presetKey || a.id;
+      newRanges[a.id] = [...preset[presetKey]];
+    });
+    setRanges(newRanges);
     setSizeFilter([...preset.size]);
     setSortBy(preset.sortBy);
     setActivePreset(preset.id);
@@ -157,13 +251,12 @@ export default function OverlandFinder() {
     const openPreset = PRESETS.find(p => p.id === "open");
     if (openPreset) {
       setPriceRange([...openPreset.price]);
-      setMpgRange([...openPreset.mpg]);
-      setOffroadRange([...openPreset.offroad]);
-      setLuxuryRange([...openPreset.luxury]);
-      setReliabilityRange([...openPreset.reliability]);
-      setPerformanceRange([...openPreset.performance]);
-      setCargoRange([...openPreset.cargo]);
-      setTowingRange([...openPreset.towing]);
+      const newRanges = {};
+      FILTER_ATTRS.forEach(a => {
+        const presetKey = a.presetKey || a.id;
+        newRanges[a.id] = [...openPreset[presetKey]];
+      });
+      setRanges(newRanges);
       setSizeFilter([...openPreset.size]);
       setSortBy(openPreset.sortBy);
     }
@@ -186,18 +279,14 @@ export default function OverlandFinder() {
   }, []);
 
   // Get current filter state as a preset object (excludes makes & powertrain)
-  const getCurrentFiltersAsPreset = useCallback(() => ({
-    price: [...priceRange],
-    mpg: [...mpgRange],
-    offroad: [...offroadRange],
-    luxury: [...luxuryRange],
-    reliability: [...reliabilityRange],
-    performance: [...performanceRange],
-    cargo: [...cargoRange],
-    towing: [...towingRange],
-    size: [...sizeFilter],
-    sortBy,
-  }), [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, sizeFilter, sortBy]);
+  const getCurrentFiltersAsPreset = useCallback(() => {
+    const preset = { price: [...priceRange], size: [...sizeFilter], sortBy };
+    FILTER_ATTRS.forEach(a => {
+      const presetKey = a.presetKey || a.id;
+      preset[presetKey] = [...ranges[a.id]];
+    });
+    return preset;
+  }, [priceRange, ranges, sizeFilter, sortBy]);
 
   // Open save preset popover
   const openSavePreset = useCallback(() => {
@@ -254,89 +343,68 @@ export default function OverlandFinder() {
 
   // Check if current filters match any preset (excludes makes & powertrain)
   const filtersMatchPreset = useMemo(() => {
-    const currentFilters = {
-      price: priceRange,
-      mpg: mpgRange,
-      offroad: offroadRange,
-      luxury: luxuryRange,
-      reliability: reliabilityRange,
-      performance: performanceRange,
-      cargo: cargoRange,
-      towing: towingRange,
-      size: sizeFilter,
-    };
-
     const arraysEqual = (a, b) => a.length === b.length && a.every((v, i) => v === b[i]);
 
-    return allPresets.some(p =>
-      arraysEqual(p.price, currentFilters.price) &&
-      arraysEqual(p.mpg, currentFilters.mpg) &&
-      arraysEqual(p.offroad, currentFilters.offroad) &&
-      arraysEqual(p.luxury, currentFilters.luxury) &&
-      arraysEqual(p.reliability, currentFilters.reliability) &&
-      arraysEqual(p.performance, currentFilters.performance) &&
-      arraysEqual(p.cargo, currentFilters.cargo) &&
-      arraysEqual(p.towing, currentFilters.towing) &&
-      arraysEqual([...p.size].sort(), [...currentFilters.size].sort())
-    );
-  }, [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, sizeFilter, allPresets]);
+    return allPresets.some(p => {
+      if (!arraysEqual(p.price, priceRange)) return false;
+      if (!arraysEqual([...p.size].sort(), [...sizeFilter].sort())) return false;
+      for (const a of FILTER_ATTRS) {
+        const presetKey = a.presetKey || a.id;
+        if (!arraysEqual(p[presetKey], ranges[a.id])) return false;
+      }
+      return true;
+    });
+  }, [priceRange, ranges, sizeFilter, allPresets]);
 
   // Data ranges for proper normalization - ALL attributes normalized to actual data range
   const dataRanges = useMemo(() => {
-    return {
-      priceMin: Math.min(...V.map(v => v.price)),
-      priceMax: Math.max(...V.map(v => v.price)),
-      mpgMin: Math.min(...V.map(v => v.mpg)),
-      mpgMax: Math.max(...V.map(v => v.mpg)),
-      cargoMin: Math.min(...V.map(v => v.cargo)),
-      cargoMax: Math.max(...V.map(v => v.cargo)),
-      offroadMin: Math.min(...V.map(v => v.offroad)),
-      offroadMax: Math.max(...V.map(v => v.offroad)),
-      luxuryMin: Math.min(...V.map(v => v.luxury)),
-      luxuryMax: Math.max(...V.map(v => v.luxury)),
-      reliabilityMin: Math.min(...V.map(v => v.reliability)),
-      reliabilityMax: Math.max(...V.map(v => v.reliability)),
-      performanceMin: Math.min(...V.map(v => v.performance)),
-      performanceMax: Math.max(...V.map(v => v.performance)),
-      towMin: Math.min(...V.map(v => v.tow)),
-      towMax: Math.max(...V.map(v => v.tow)),
-    };
+    const ranges = {};
+    PRIORITY_ATTRS.forEach(a => {
+      ranges[a.id] = {
+        min: Math.min(...V.map(v => v[a.id])),
+        max: Math.max(...V.map(v => v[a.id])),
+      };
+    });
+    return ranges;
   }, []);
 
   const scored = useMemo(() => {
     const totalWeight = Object.values(priorities).reduce((a, b) => a + b, 0) || 1;
-    const {
-      priceMin, priceMax, mpgMin, mpgMax, cargoMin, cargoMax,
-      offroadMin, offroadMax, luxuryMin, luxuryMax, reliabilityMin, reliabilityMax,
-      performanceMin, performanceMax, towMin, towMax
-    } = dataRanges;
 
     return V.map(v => {
-      const passesFilters = v.price >= priceRange[0] && v.price <= priceRange[1] &&
-        v.mpg >= mpgRange[0] && v.mpg <= mpgRange[1] &&
-        v.offroad >= offroadRange[0] && v.offroad <= offroadRange[1] &&
-        v.luxury >= luxuryRange[0] && v.luxury <= luxuryRange[1] &&
-        v.reliability >= reliabilityRange[0] && v.reliability <= reliabilityRange[1] &&
-        v.performance >= performanceRange[0] && v.performance <= performanceRange[1] &&
-        v.cargo >= cargoRange[0] && v.cargo <= cargoRange[1] &&
-        v.tow >= towingRange[0] && v.tow <= towingRange[1] &&
-        ptFilter.includes(v.pt) && sizeFilter.includes(v.size) && (makeFilter.length === 0 || makeFilter.includes(v.make));
+      // Check price filter and enum filters
+      let passesFilters = v.price >= priceRange[0] && v.price <= priceRange[1] &&
+        ptFilter.includes(v.pt) && sizeFilter.includes(v.size) &&
+        (makeFilter.length === 0 || makeFilter.includes(v.make)) &&
+        fuzzyMatch(searchQuery, getSearchableText(v));
 
-      // ALL scores normalized to 0-1 range based on actual data spread
-      // This ensures weights work as expected - a weight of 4 is truly 2x a weight of 2
-      const offroadScore = ((v.offroad - offroadMin) / (offroadMax - offroadMin)) * priorities.offroad;
-      const luxuryScore = ((v.luxury - luxuryMin) / (luxuryMax - luxuryMin)) * priorities.luxury;
-      const reliabilityScore = ((v.reliability - reliabilityMin) / (reliabilityMax - reliabilityMin)) * priorities.reliability;
-      const mpgScore = ((v.mpg - mpgMin) / (mpgMax - mpgMin)) * priorities.mpg;
-      const valueScore = ((priceMax - v.price) / (priceMax - priceMin)) * priorities.value;
-      const cargoScore = ((v.cargo - cargoMin) / (cargoMax - cargoMin)) * priorities.cargo;
-      const performanceScore = ((v.performance - performanceMin) / (performanceMax - performanceMin)) * priorities.performance;
-      const towScore = ((v.tow - towMin) / (towMax - towMin)) * priorities.towing;
+      // Check all attribute range filters
+      if (passesFilters) {
+        for (const a of FILTER_ATTRS) {
+          const range = ranges[a.id];
+          if (v[a.id] < range[0] || v[a.id] > range[1]) {
+            passesFilters = false;
+            break;
+          }
+        }
+      }
 
-      const score = ((offroadScore + luxuryScore + reliabilityScore + mpgScore + valueScore + cargoScore + performanceScore + towScore) / totalWeight) * 100;
+      // Calculate score from all priority attributes
+      let totalScore = 0;
+      for (const a of PRIORITY_ATTRS) {
+        const pKey = a.priorityKey || a.id;
+        const weight = priorities[pKey];
+        if (weight > 0) {
+          const dr = dataRanges[a.id];
+          const normalized = (v[a.id] - dr.min) / (dr.max - dr.min);
+          totalScore += normalized * weight;
+        }
+      }
+
+      const score = (totalScore / totalWeight) * 100;
       return { ...v, pass: passesFilters, score: Math.round(score) };
     });
-  }, [priceRange, mpgRange, offroadRange, luxuryRange, reliabilityRange, performanceRange, cargoRange, towingRange, ptFilter, sizeFilter, makeFilter, priorities, dataRanges]);
+  }, [priceRange, ranges, ptFilter, sizeFilter, makeFilter, searchQuery, priorities, dataRanges]);
 
   const filtered = useMemo(() => {
     const f = scored.filter(v => v.pass);
@@ -353,6 +421,103 @@ export default function OverlandFinder() {
   }, [scored, sortBy, sortAsc]);
 
   const eliminated = scored.filter(v => !v.pass).sort((a, b) => b.score - a.score);
+
+  // Compute filter reasons for a vehicle - returns array of {label, type, current, required}
+  const getFilterReasons = useCallback((v) => {
+    const reasons = [];
+
+    // Price
+    if (v.price < priceRange[0]) {
+      reasons.push({ label: "Price", type: "price", detail: `$${v.price}K < $${priceRange[0]}K` });
+    } else if (v.price > priceRange[1]) {
+      reasons.push({ label: "Price", type: "price", detail: `$${v.price}K > $${priceRange[1]}K` });
+    }
+
+    // Powertrain
+    if (!ptFilter.includes(v.pt)) {
+      reasons.push({ label: ptLabels[v.pt], type: "pt", detail: "excluded" });
+    }
+
+    // Size
+    if (!sizeFilter.includes(v.size)) {
+      reasons.push({ label: sizeLabels[v.size], type: "size", detail: "excluded" });
+    }
+
+    // Make
+    if (makeFilter.length > 0 && !makeFilter.includes(v.make)) {
+      reasons.push({ label: v.make, type: "make", detail: "not selected" });
+    }
+
+    // Search
+    if (searchQuery && !fuzzyMatch(searchQuery, getSearchableText(v))) {
+      reasons.push({ label: "Search", type: "search", detail: "no match" });
+    }
+
+    // Attribute range filters
+    for (const a of FILTER_ATTRS) {
+      const range = ranges[a.id];
+      const val = v[a.id];
+      const unit = a.unit || "";
+      if (val < range[0]) {
+        reasons.push({ label: a.shortLabel, type: "range", attr: a.id, detail: `${val}${unit} < ${range[0]}${unit}` });
+      } else if (val > range[1]) {
+        reasons.push({ label: a.shortLabel, type: "range", attr: a.id, detail: `${val}${unit} > ${range[1]}${unit}` });
+      }
+    }
+
+    return reasons;
+  }, [priceRange, ptFilter, sizeFilter, makeFilter, searchQuery, ranges]);
+
+  // Relax filters to include a specific vehicle
+  const includeVehicle = useCallback((v) => {
+    // Relax price if needed
+    let newPriceRange = [...priceRange];
+    if (v.price < priceRange[0]) newPriceRange[0] = v.price;
+    if (v.price > priceRange[1]) newPriceRange[1] = v.price;
+    if (newPriceRange[0] !== priceRange[0] || newPriceRange[1] !== priceRange[1]) {
+      setPriceRange(newPriceRange);
+    }
+
+    // Add powertrain if missing
+    if (!ptFilter.includes(v.pt)) {
+      setPtFilter(prev => [...prev, v.pt]);
+    }
+
+    // Add size if missing
+    if (!sizeFilter.includes(v.size)) {
+      setSizeFilter(prev => [...prev, v.size]);
+    }
+
+    // Add make if make filter is active and this make is missing
+    if (makeFilter.length > 0 && !makeFilter.includes(v.make)) {
+      setMakeFilter(prev => [...prev, v.make]);
+    }
+
+    // Clear search if it's blocking
+    if (searchQuery && !fuzzyMatch(searchQuery, getSearchableText(v))) {
+      setSearchQuery("");
+    }
+
+    // Relax attribute ranges
+    const newRanges = { ...ranges };
+    let rangesChanged = false;
+    for (const a of FILTER_ATTRS) {
+      const range = newRanges[a.id];
+      const val = v[a.id];
+      if (val < range[0]) {
+        newRanges[a.id] = [val, range[1]];
+        rangesChanged = true;
+      } else if (val > range[1]) {
+        newRanges[a.id] = [range[0], val];
+        rangesChanged = true;
+      }
+    }
+    if (rangesChanged) {
+      setRanges(newRanges);
+    }
+
+    clearPreset();
+  }, [priceRange, ptFilter, sizeFilter, makeFilter, searchQuery, ranges, clearPreset]);
 
   const SliderControl = ({ label, value, setValue, min, max, step, unit, stops, description }) => (
     <div style={{ marginBottom: 18 }}>
@@ -626,7 +791,7 @@ export default function OverlandFinder() {
       <div style={{ position: "relative", maxWidth: 1100, margin: "0 auto", padding: "20px 16px" }}>
         <div style={{ display: "grid", gridTemplateColumns: "minmax(280px, 320px) 1fr", gap: 24, alignItems: "start" }}>
           {/* Left panel - controls */}
-          <div style={{ position: "sticky", top: 16 }}>
+          <div style={{ position: "sticky", top: 16, maxHeight: "calc(100vh - 32px)", overflowY: "auto" }}>
             {/* Presets */}
             <div style={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: 12, padding: 16, marginBottom: 16 }}>
               <div style={{ fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "var(--accent)", marginBottom: 12, fontFamily: "var(--font-mono)" }}>
@@ -877,32 +1042,19 @@ export default function OverlandFinder() {
                 </div>
               )}
 
-              <RangeSliderControl label="MPG" range={mpgRange} setRange={setMpgRange} min={14} max={50} step={1} unit=""
-                description="Filter by fuel efficiency range" />
-
-              <RangeSliderControl label="Off-Road" range={offroadRange} setRange={setOffroadRange} min={3} max={10} step={0.5} unit=""
-                description="3 = gravel roads · 6 = moderate trails · 8+ = serious" />
-
-              <RangeSliderControl label="Luxury" range={luxuryRange} setRange={setLuxuryRange} min={3} max={10} step={0.5} unit=""
-                description="Interior quality & comfort level" />
-
-              <RangeSliderControl label="Reliability" range={reliabilityRange} setRange={setReliabilityRange} min={3} max={10} step={0.5} unit=""
-                description="Expected dependability & repair costs" />
-
-              <RangeSliderControl label="Performance" range={performanceRange} setRange={setPerformanceRange} min={3} max={10} step={0.5} unit=""
-                description="Acceleration, power & driving dynamics" />
-
-              <RangeSliderControl label="Cargo (cu ft)" range={cargoRange} setRange={setCargoRange} min={19} max={70} step={1} unit=""
-                description="Cargo capacity behind 2nd row" />
-
-              <RangeSliderControl label="Towing (lbs)" range={towingRange} setRange={setTowingRange} min={0} max={15000} step={500} unit=""
-                description="Maximum towing capacity" />
-
-              <ToggleGroup label="Size" active={sizeFilter} toggle={toggleSize}
-                options={[
-                  { value: "mid", label: "Midsize" },
-                  { value: "full", label: "Full-size" },
-                ]} />
+              {FILTER_ATTRS.map(a => (
+                <RangeSliderControl
+                  key={a.id}
+                  label={a.unit ? `${a.label} (${a.unit.trim()})` : a.label}
+                  range={ranges[a.id]}
+                  setRange={val => setRange(a.id, val)}
+                  min={a.min}
+                  max={a.max}
+                  step={a.step}
+                  unit=""
+                  description={a.description}
+                />
+              ))}
             </div>
 
           </div>
@@ -1050,6 +1202,8 @@ export default function OverlandFinder() {
                     const isFiltered = !v.pass;
                     const isHovered = hoveredVehicle === v.id;
                     const ptColor = ptColors[v.pt] || "#888";
+                    const isHistorical = v.yearEnd !== null;
+                    const size = isHovered ? 14 : 12;
                     return (
                       <div
                         key={v.id}
@@ -1058,21 +1212,37 @@ export default function OverlandFinder() {
                         onClick={() => setExpanded(expanded === v.id ? null : v.id)}
                         style={{
                           position: "absolute",
-                          left: `calc(${Math.max(2, Math.min(98, x))}% - 6px)`,
-                          top: `calc(${Math.max(2, Math.min(98, y))}% - 6px)`,
-                          width: isHovered ? 14 : 12,
-                          height: isHovered ? 14 : 12,
-                          borderRadius: "50%",
-                          background: ptColor,
-                          border: `2px solid ${isHovered ? "#fff" : ptColor}`,
+                          left: `calc(${Math.max(2, Math.min(98, x))}% - ${size / 2}px)`,
+                          top: `calc(${Math.max(2, Math.min(98, y))}% - ${size / 2}px)`,
+                          width: size,
+                          height: size,
                           opacity: isFiltered ? 0.15 : (isHovered ? 1 : 0.8),
                           cursor: "pointer",
                           transition: "all 0.15s ease",
-                          zIndex: isHovered ? 100 : (isFiltered ? 1 : 10),
+                          zIndex: isHovered ? 100 : (isFiltered ? 10 : 1),
                           transform: isHovered ? "scale(1.3)" : "scale(1)",
                         }}
-                        title={`${v.name}\nScore: ${v.score} · $${v.price}K`}
-                      />
+                        title={`${getDisplayName(v)}\nScore: ${v.score} · $${v.price}K`}
+                      >
+                        {isHistorical ? (
+                          <svg width={size} height={size} viewBox="0 0 12 12" style={{ display: "block" }}>
+                            <polygon
+                              points="6,0 12,12 0,12"
+                              fill={ptColor}
+                              stroke={isHovered ? "#fff" : ptColor}
+                              strokeWidth="2"
+                            />
+                          </svg>
+                        ) : (
+                          <div style={{
+                            width: "100%",
+                            height: "100%",
+                            borderRadius: "50%",
+                            background: ptColor,
+                            border: `2px solid ${isHovered ? "#fff" : ptColor}`,
+                          }} />
+                        )}
+                      </div>
                     );
                   })}
                   {/* Hover tooltip */}
@@ -1097,7 +1267,12 @@ export default function OverlandFinder() {
                         zIndex: 200,
                         pointerEvents: "none",
                       }}>
-                        <div style={{ fontWeight: 700, marginBottom: 2 }}>{v.name}</div>
+                        <div style={{ fontWeight: 700, marginBottom: 2 }}>{getDisplayName(v)}</div>
+                        {v.generation && (
+                          <div style={{ color: "rgba(255,255,255,0.4)", fontSize: 10, marginBottom: 2 }}>
+                            {v.generation} · {v.yearStart}{v.yearEnd ? `–${v.yearEnd}` : '–'}
+                          </div>
+                        )}
                         <div style={{ color: "rgba(255,255,255,0.6)" }}>Score: <span style={{ color: "var(--accent)" }}>{v.score}</span> · ${v.price}K</div>
                       </div>
                     );
@@ -1108,6 +1283,105 @@ export default function OverlandFinder() {
 
             {/* Filter bar - Makes and Powertrain */}
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 10, flexWrap: "wrap" }}>
+              {/* Search */}
+              <div style={{ position: "relative", display: "flex", alignItems: "center" }}>
+                {searchExpanded ? (
+                  <div style={{
+                    display: "flex",
+                    alignItems: "center",
+                    background: "rgba(255,255,255,0.05)",
+                    border: "1px solid rgba(122,158,109,0.4)",
+                    borderRadius: 5,
+                    padding: "0 8px",
+                    gap: 6,
+                  }}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="11" cy="11" r="8" />
+                      <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                    <input
+                      ref={searchInputRef}
+                      type="text"
+                      value={searchQuery}
+                      onChange={e => setSearchQuery(e.target.value)}
+                      onKeyDown={e => {
+                        if (e.key === "Escape") {
+                          setSearchQuery("");
+                          setSearchExpanded(false);
+                        }
+                      }}
+                      onBlur={() => {
+                        if (!searchQuery) setSearchExpanded(false);
+                      }}
+                      placeholder="Search vehicles..."
+                      style={{
+                        width: 140,
+                        padding: "5px 0",
+                        background: "transparent",
+                        border: "none",
+                        outline: "none",
+                        color: "#fff",
+                        fontSize: 11,
+                        fontFamily: "var(--font-body)",
+                      }}
+                    />
+                    {searchQuery && (
+                      <button
+                        onClick={() => {
+                          setSearchQuery("");
+                          searchInputRef.current?.focus();
+                        }}
+                        style={{
+                          background: "none",
+                          border: "none",
+                          color: "rgba(255,255,255,0.4)",
+                          cursor: "pointer",
+                          padding: 0,
+                          fontSize: 14,
+                          lineHeight: 1,
+                          display: "flex",
+                          alignItems: "center",
+                        }}
+                      >
+                        ×
+                      </button>
+                    )}
+                  </div>
+                ) : (
+                  <button
+                    onClick={() => setSearchExpanded(true)}
+                    style={{
+                      padding: "4px 8px",
+                      borderRadius: 5,
+                      background: "rgba(255,255,255,0.05)",
+                      border: "1px solid rgba(255,255,255,0.1)",
+                      cursor: "pointer",
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 4,
+                      color: "rgba(255,255,255,0.5)",
+                      fontSize: 11,
+                      fontFamily: "var(--font-mono)",
+                      transition: "all 0.15s ease",
+                    }}
+                    onMouseEnter={e => {
+                      e.currentTarget.style.background = "rgba(255,255,255,0.08)";
+                      e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
+                    }}
+                    onMouseLeave={e => {
+                      e.currentTarget.style.background = "rgba(255,255,255,0.05)";
+                      e.currentTarget.style.borderColor = "rgba(255,255,255,0.1)";
+                    }}
+                    title="Search vehicles"
+                  >
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="11" cy="11" r="8" />
+                      <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                  </button>
+                )}
+              </div>
+
               {/* Make multi-select dropdown */}
               <div style={{ position: "relative" }} ref={makeDropdownRef}>
                 <button
@@ -1204,9 +1478,9 @@ export default function OverlandFinder() {
                 )}
               </div>
 
-              {/* Powertrain filter - also serves as chart legend */}
+              {/* Powertrain filter */}
               <div style={{ display: "flex", gap: 4 }}>
-                {(["hybrid", "phev", "ice", "ev"]).map(pt => {
+                {PT_IDS.map(pt => {
                   const isActive = ptFilter.includes(pt);
                   const color = ptColors[pt];
                   return (
@@ -1223,19 +1497,9 @@ export default function OverlandFinder() {
                         border: `1px solid ${isActive ? `${color}60` : "rgba(255,255,255,0.08)"}`,
                         color: isActive ? color : "rgba(255,255,255,0.3)",
                         fontFamily: "var(--font-mono)",
-                        display: "flex",
-                        alignItems: "center",
-                        gap: 5,
                         transition: "all 0.15s ease",
                       }}
                     >
-                      <span style={{
-                        width: 8,
-                        height: 8,
-                        borderRadius: "50%",
-                        background: isActive ? color : "rgba(255,255,255,0.15)",
-                        flexShrink: 0,
-                      }} />
                       {ptLabels[pt]}
                     </button>
                   );
@@ -1283,24 +1547,16 @@ export default function OverlandFinder() {
                     <div style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", marginBottom: 12, lineHeight: 1.4 }}>
                       Adjust how much each attribute affects the Score.
                     </div>
-                    <PriorityControl label="Off-Road" value={priorities.offroad} pKey="offroad" />
-                    <PriorityControl label="Luxury" value={priorities.luxury} pKey="luxury" />
-                    <PriorityControl label="Reliability" value={priorities.reliability} pKey="reliability" />
-                    <PriorityControl label="Performance" value={priorities.performance} pKey="performance" />
-                    <PriorityControl label="Fuel Econ" value={priorities.mpg} pKey="mpg" />
-                    <PriorityControl label="Value" value={priorities.value} pKey="value" />
-                    <PriorityControl label="Cargo" value={priorities.cargo} pKey="cargo" />
-                    <PriorityControl label="Towing" value={priorities.towing} pKey="towing" />
+                    {PRIORITY_ATTRS.map(a => {
+                      const pKey = a.priorityKey || a.id;
+                      return <PriorityControl key={pKey} label={a.priorityLabel} value={priorities[pKey]} pKey={pKey} />;
+                    })}
                   </div>
                 )}
               </div>
               {[
                 { key: "price", label: "Price" },
-                { key: "mpg", label: "MPG" },
-                { key: "offroad", label: "Off-Road" },
-                { key: "luxury", label: "Luxury" },
-                { key: "reliability", label: "Reliability" },
-                { key: "performance", label: "Perf" },
+                ...SORTABLE_ATTRS.map(a => ({ key: a.id, label: a.shortLabel })),
               ].map(s => {
                 const isActive = sortBy === s.key;
                 return (
@@ -1359,32 +1615,43 @@ export default function OverlandFinder() {
                         </div>
                         {/* Name + tags */}
                         <div style={{ flex: 1, minWidth: 180 }}>
-                          <div style={{ fontSize: 14, fontWeight: 700, color: "#fff", marginBottom: 3, lineHeight: 1.2, display: "flex", alignItems: "center", gap: 8 }}>
-                            {v.name}
+                          <div style={{ fontSize: 14, color: "#fff", marginBottom: 3, lineHeight: 1.2, display: "flex", alignItems: "center", gap: 8 }}>
+                            <span>
+                              <span style={{ fontWeight: 700 }}>{getDisplayName(v)}</span>
+                              {v.yearStart && (
+                                <span style={{ fontWeight: 400, color: "rgba(255,255,255,0.5)" }}> ({v.yearStart}{v.yearEnd ? `–${v.yearEnd}` : '–'})</span>
+                              )}
+                            </span>
                             {v.url && (
                               <a
                                 href={v.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 onClick={e => e.stopPropagation()}
-                                title="View on Edmunds"
+                                title="View on Wikipedia"
                                 style={{
                                   display: "inline-block", verticalAlign: "top",
-                                  marginLeft: 6, marginTop: 2,
-                                  opacity: 0.3, textDecoration: "none",
+                                  marginLeft: 6,
+                                  opacity: 0.35, textDecoration: "none",
                                   transition: "opacity 0.15s ease", flexShrink: 0,
+                                  fontSize: 9, fontFamily: "var(--font-mono)",
+                                  color: "rgba(255,255,255,0.6)",
                                 }}
                                 onMouseEnter={e => { e.currentTarget.style.opacity = "0.7"; }}
-                                onMouseLeave={e => { e.currentTarget.style.opacity = "0.3"; }}
+                                onMouseLeave={e => { e.currentTarget.style.opacity = "0.35"; }}
                               >
-                                <img src={edmundsLogo} alt="Edmunds" style={{ height: 8 }} />
+                                ↗ wiki
                               </a>
                             )}
                           </div>
                           <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
                             <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: ptColor + "20", color: ptColor, border: `1px solid ${ptColor}44`, fontFamily: "var(--font-mono)", fontWeight: 600 }}>{ptLabels[v.pt]}</span>
                             <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: "rgba(255,255,255,0.04)", color: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.06)", fontFamily: "var(--font-mono)" }}>{sizeLabels[v.size]}</span>
-                            <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: "rgba(255,255,255,0.04)", color: "rgba(255,255,255,0.35)", border: "1px solid rgba(255,255,255,0.06)", fontFamily: "var(--font-mono)" }}>{v.make}</span>
+                            {v.generation && (
+                              <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: "rgba(255,255,255,0.03)", color: "rgba(255,255,255,0.3)", border: "1px solid rgba(255,255,255,0.05)", fontFamily: "var(--font-mono)" }}>
+                                {v.generation}
+                              </span>
+                            )}
                           </div>
                         </div>
                         {/* Key stats */}
@@ -1392,10 +1659,7 @@ export default function OverlandFinder() {
                           {[
                             { key: "score", label: "Score", val: v.score },
                             { key: "price", label: "Price", val: `$${v.price}K` },
-                            { key: "mpg", label: "MPG", val: v.mpg },
-                            { key: "offroad", label: "Off-Rd", val: v.offroad },
-                            { key: "luxury", label: "Lux", val: v.luxury },
-                            { key: "reliability", label: "Rel", val: v.reliability },
+                            ...SUMMARY_ATTRS.map(a => ({ key: a.id, label: a.shortLabel, val: v[a.id] })),
                           ].map((s, i) => {
                             const isSortedCol = sortBy === s.key;
                             const defaultColor = s.key === "score"
@@ -1416,16 +1680,13 @@ export default function OverlandFinder() {
                         <div style={{ marginTop: 14, paddingTop: 14, borderTop: "1px solid var(--border)" }}
                           onClick={e => e.stopPropagation()}>
                           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 12 }}>
-                            {[
-                              { label: "Off-Road", val: v.offroad, max: 10 },
-                              { label: "Luxury", val: v.luxury, max: 10 },
-                              { label: "Reliability", val: v.reliability, max: 10 },
-                              { label: "Performance", val: v.performance, max: 10 },
-                              { label: "Cargo", val: v.cargo, max: 70, unit: " cu ft" },
-                              { label: "Towing", val: v.tow.toLocaleString(), raw: v.tow, max: 12000, unit: " lbs" },
-                              { label: "Ground Clear.", val: v.gc, max: 12, unit: "\"" },
-                              { label: "MPG", val: v.mpg, max: 50 },
-                            ].map((s, i) => (
+                            {DETAIL_ATTRS.map(a => ({
+                              label: a.label,
+                              val: a.formatVal ? a.formatVal(v[a.id]) : v[a.id],
+                              raw: v[a.id],
+                              max: a.max,
+                              unit: a.unit || "",
+                            })).map((s, i) => (
                               <div key={i} style={{ display: "flex", alignItems: "center", gap: 8 }}>
                                 <span style={{ width: 85, fontSize: 11, color: "rgba(255,255,255,0.4)", fontFamily: "var(--font-mono)", flexShrink: 0 }}>{s.label}</span>
                                 <Bar val={s.raw || (typeof s.val === "number" ? s.val : 0)} max={s.max} width={80} />
@@ -1453,13 +1714,166 @@ export default function OverlandFinder() {
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
                   {eliminated.map(v => {
                     const isHovered = hoveredVehicle === v.id;
+                    const isExpanded = expanded === v.id;
+                    const reasons = getFilterReasons(v);
+                    const ptColor = ptColors[v.pt] || "#888";
                     return (
-                      <div key={v.id}
-                        onMouseEnter={() => setHoveredVehicle(v.id)}
-                        onMouseLeave={() => setHoveredVehicle(null)}
-                        style={{ fontSize: 11, padding: "4px 10px", borderRadius: 6, background: isHovered ? "rgba(122,158,109,0.1)" : "rgba(255,255,255,0.02)", border: `1px solid ${isHovered ? "rgba(122,158,109,0.3)" : "rgba(255,255,255,0.04)"}`, color: isHovered ? "rgba(255,255,255,0.5)" : "rgba(255,255,255,0.25)", fontFamily: "var(--font-body)", cursor: "default", transition: "all 0.15s", display: "flex", alignItems: "center", gap: 6 }}>
-                        <span>{v.name}</span>
-                        <span style={{ fontSize: 10, fontWeight: 600, color: v.score >= 60 ? "rgba(122,158,109,0.6)" : "rgba(255,255,255,0.25)", fontFamily: "var(--font-mono)" }}>{v.score}</span>
+                      <div key={v.id} style={{ width: isExpanded ? "100%" : "auto" }}>
+                        <div
+                          onClick={() => setExpanded(isExpanded ? null : v.id)}
+                          onMouseEnter={() => setHoveredVehicle(v.id)}
+                          onMouseLeave={() => setHoveredVehicle(null)}
+                          style={{
+                            fontSize: 11, padding: "6px 10px", borderRadius: isExpanded ? "6px 6px 0 0" : 6,
+                            background: isExpanded ? "rgba(255,255,255,0.04)" : (isHovered ? "rgba(122,158,109,0.1)" : "rgba(255,255,255,0.02)"),
+                            border: `1px solid ${isExpanded ? "rgba(255,255,255,0.08)" : (isHovered ? "rgba(122,158,109,0.3)" : "rgba(255,255,255,0.04)")}`,
+                            borderBottom: isExpanded ? "none" : undefined,
+                            color: isHovered || isExpanded ? "rgba(255,255,255,0.5)" : "rgba(255,255,255,0.25)",
+                            fontFamily: "var(--font-body)", cursor: "pointer", transition: "all 0.15s",
+                            display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap",
+                          }}>
+                          <span>
+                            <span style={{ fontWeight: 600, color: "rgba(255,255,255,0.75)" }}>{getDisplayName(v)}</span>
+                            {v.yearStart && (
+                              <span style={{ fontWeight: 400, color: "rgba(255,255,255,0.25)" }}> ({v.yearStart}{v.yearEnd ? `–${v.yearEnd}` : '–'})</span>
+                            )}
+                          </span>
+                          <span style={{ fontSize: 10, fontWeight: 600, color: v.score >= 60 ? "rgba(122,158,109,0.6)" : "rgba(255,255,255,0.25)", fontFamily: "var(--font-mono)" }}>{v.score}</span>
+                          {/* Filter reasons */}
+                          <span style={{ display: "flex", gap: 4, flexWrap: "wrap" }}>
+                            {reasons.map((r, i) => (
+                              <span key={i} style={{
+                                fontSize: 9, padding: "1px 5px", borderRadius: 3,
+                                background: "rgba(180,100,90,0.08)", color: "rgba(180,100,90,0.5)",
+                                border: "1px solid rgba(180,100,90,0.12)", fontFamily: "var(--font-mono)",
+                              }}>
+                                {r.label}
+                              </span>
+                            ))}
+                          </span>
+                          <span style={{ fontSize: 10, color: "rgba(255,255,255,0.15)", marginLeft: "auto", transition: "transform 0.2s", transform: isExpanded ? "rotate(180deg)" : "rotate(0)" }}>▼</span>
+                        </div>
+                        {/* Expanded detail for filtered vehicle */}
+                        {isExpanded && (
+                          <div style={{
+                            background: "rgba(255,255,255,0.02)", border: "1px solid rgba(255,255,255,0.08)",
+                            borderTop: "none", borderRadius: "0 0 6px 6px", padding: "12px 14px",
+                          }} onClick={e => e.stopPropagation()}>
+                            {/* Main info row */}
+                            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 12, flexWrap: "wrap" }}>
+                              {/* Name + tags */}
+                              <div style={{ flex: 1, minWidth: 180 }}>
+                                <div style={{ fontSize: 14, color: "#fff", marginBottom: 3, lineHeight: 1.2, display: "flex", alignItems: "center", gap: 8 }}>
+                                  <span>
+                                    <span style={{ fontWeight: 700 }}>{getDisplayName(v)}</span>
+                                    {v.yearStart && (
+                                      <span style={{ fontWeight: 400, color: "rgba(255,255,255,0.5)" }}> ({v.yearStart}{v.yearEnd ? `–${v.yearEnd}` : '–'})</span>
+                                    )}
+                                  </span>
+                                  {v.url && (
+                                    <a
+                                      href={v.url}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      onClick={e => e.stopPropagation()}
+                                      title="View on Wikipedia"
+                                      style={{
+                                        display: "inline-block", verticalAlign: "top",
+                                        marginLeft: 6,
+                                        opacity: 0.35, textDecoration: "none",
+                                        transition: "opacity 0.15s ease", flexShrink: 0,
+                                        fontSize: 9, fontFamily: "var(--font-mono)",
+                                        color: "rgba(255,255,255,0.6)",
+                                      }}
+                                      onMouseEnter={e => { e.currentTarget.style.opacity = "0.7"; }}
+                                      onMouseLeave={e => { e.currentTarget.style.opacity = "0.35"; }}
+                                    >
+                                      ↗ wiki
+                                    </a>
+                                  )}
+                                </div>
+                                <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
+                                  <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: ptColor + "20", color: ptColor, border: `1px solid ${ptColor}44`, fontFamily: "var(--font-mono)", fontWeight: 600 }}>{ptLabels[v.pt]}</span>
+                                  <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: "rgba(255,255,255,0.04)", color: "rgba(255,255,255,0.4)", border: "1px solid rgba(255,255,255,0.06)", fontFamily: "var(--font-mono)" }}>{sizeLabels[v.size]}</span>
+                                  {v.generation && (
+                                    <span style={{ fontSize: 10, padding: "1px 7px", borderRadius: 3, background: "rgba(255,255,255,0.03)", color: "rgba(255,255,255,0.3)", border: "1px solid rgba(255,255,255,0.05)", fontFamily: "var(--font-mono)" }}>
+                                      {v.generation}
+                                    </span>
+                                  )}
+                                </div>
+                              </div>
+                              {/* Key stats */}
+                              <div style={{ display: "flex", gap: 16, flexWrap: "wrap", alignItems: "center" }}>
+                                {[
+                                  { key: "score", label: "Score", val: v.score },
+                                  { key: "price", label: "Price", val: `$${v.price}K` },
+                                  ...SUMMARY_ATTRS.map(a => ({ key: a.id, label: a.shortLabel, val: v[a.id] })),
+                                ].map((s, i) => {
+                                  const defaultColor = s.key === "score"
+                                    ? (v.score >= 70 ? "var(--accent)" : v.score >= 50 ? "#c8d6c3" : "rgba(255,255,255,0.4)")
+                                    : "rgba(255,255,255,0.7)";
+                                  return (
+                                    <div key={i} style={{ textAlign: "center", minWidth: 36 }}>
+                                      <div style={{ fontSize: 14, fontWeight: 700, color: defaultColor, fontFamily: "var(--font-mono)" }}>{s.val}</div>
+                                      <div style={{ fontSize: 9, color: "rgba(255,255,255,0.25)", fontFamily: "var(--font-mono)", textTransform: "uppercase" }}>{s.label}</div>
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            </div>
+                            {/* Attribute bars */}
+                            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 12 }}>
+                              {DETAIL_ATTRS.map(a => ({
+                                label: a.label,
+                                val: a.formatVal ? a.formatVal(v[a.id]) : v[a.id],
+                                raw: v[a.id],
+                                max: a.max,
+                                unit: a.unit || "",
+                              })).map((s, i) => (
+                                <div key={i} style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                                  <span style={{ width: 85, fontSize: 11, color: "rgba(255,255,255,0.4)", fontFamily: "var(--font-mono)", flexShrink: 0 }}>{s.label}</span>
+                                  <Bar val={s.raw || (typeof s.val === "number" ? s.val : 0)} max={s.max} width={80} />
+                                  <span style={{ fontSize: 12, color: "rgba(255,255,255,0.6)", fontFamily: "var(--font-mono)", fontWeight: 600 }}>{s.val}{s.unit || ""}</span>
+                                </div>
+                              ))}
+                            </div>
+                            {/* Note */}
+                            {v.note && (
+                              <div style={{ fontSize: 13, color: "rgba(255,255,255,0.5)", lineHeight: 1.5, background: "rgba(255,255,255,0.02)", padding: "10px 12px", borderRadius: 6, marginBottom: 12 }}>
+                                {v.note}
+                              </div>
+                            )}
+                            {/* Filter reasons detail + Include button */}
+                            <div style={{ display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap", paddingTop: 10, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+                              <div style={{ flex: 1, display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
+                                <span style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1 }}>Excluded by:</span>
+                                {reasons.map((r, i) => (
+                                  <span key={i} title={r.detail} style={{
+                                    fontSize: 10, padding: "2px 8px", borderRadius: 4,
+                                    background: "rgba(231,76,60,0.1)", color: "rgba(231,76,60,0.8)",
+                                    border: "1px solid rgba(231,76,60,0.2)", fontFamily: "var(--font-mono)",
+                                    cursor: "help",
+                                  }}>
+                                    {r.label}: {r.detail}
+                                  </span>
+                                ))}
+                              </div>
+                              <button
+                                onClick={() => includeVehicle(v)}
+                                style={{
+                                  padding: "6px 14px", borderRadius: 6, fontSize: 11, fontWeight: 600, cursor: "pointer",
+                                  background: "rgba(122,158,109,0.15)", border: "1px solid rgba(122,158,109,0.35)",
+                                  color: "#7a9e6d", fontFamily: "var(--font-mono)", textTransform: "uppercase",
+                                  letterSpacing: 0.5, transition: "all 0.15s ease",
+                                }}
+                                onMouseEnter={e => { e.currentTarget.style.background = "rgba(122,158,109,0.25)"; e.currentTarget.style.borderColor = "rgba(122,158,109,0.5)"; }}
+                                onMouseLeave={e => { e.currentTarget.style.background = "rgba(122,158,109,0.15)"; e.currentTarget.style.borderColor = "rgba(122,158,109,0.35)"; }}
+                              >
+                                Include
+                              </button>
+                            </div>
+                          </div>
+                        )}
                       </div>
                     );
                   })}

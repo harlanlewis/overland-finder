@@ -6,7 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate": "node scripts/validate-vehicles.mjs",
+    "calc:luxury": "node scripts/calculate-luxury-scores.mjs",
+    "calc:offroad": "node scripts/calculate-offroad-scores.mjs",
+    "calc:performance": "node scripts/calculate-performance-scores.mjs",
+    "calc:all": "npm run calc:luxury && npm run calc:offroad && npm run calc:performance",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "precommit": "npm run validate && npm run test",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -14,6 +23,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "husky": "^9.1.7",
+    "vitest": "^3.0.5",
     "vite": "^6.0.7"
   }
 }
