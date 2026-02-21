@@ -51,6 +51,13 @@ const BRAND_TIERS = {
   'Mitsubishi': 0,
   'Isuzu': 0,
   'Hummer': 0,
+  'Dodge': 0,
+  'Mazda': 0,
+  'Ineos': 0,
+  'Volkswagen': 0,
+  'Ram': 0,
+  'Suzuki': 0,
+  'Geo': 0,
 };
 
 // Interior scores

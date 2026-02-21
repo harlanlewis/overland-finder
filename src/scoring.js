@@ -22,7 +22,13 @@ export function computeDataRanges(vehicles, attributes) {
 }
 
 /**
- * Calculate weighted score for a vehicle
+ * Calculate weighted score for a vehicle using weighted geometric mean.
+ *
+ * Geometric mean penalizes weak spots more than arithmetic mean:
+ * - A vehicle excellent at one thing but poor at another scores lower
+ * - A vehicle balanced across priorities scores higher
+ * - This prevents "jack of all trades" vehicles from dominating
+ *
  * @param {Object} vehicle - Vehicle object
  * @param {Object} priorities - Map of attribute id to weight (0-5)
  * @param {Object} dataRanges - Map of attribute id to {min, max}
@@ -30,9 +36,11 @@ export function computeDataRanges(vehicles, attributes) {
  * @returns {number} Score from 0-100
  */
 export function calculateScore(vehicle, priorities, dataRanges, priorityAttrs) {
-  const totalWeight = Object.values(priorities).reduce((a, b) => a + b, 0) || 1;
+  const EPSILON = 0.05; // Floor to prevent log(0) and extreme penalties
 
-  let totalScore = 0;
+  let weightedLogSum = 0;
+  let totalWeight = 0;
+
   for (const a of priorityAttrs) {
     const pKey = a.priorityKey || a.id;
     const weight = priorities[pKey] || 0;
@@ -40,12 +48,19 @@ export function calculateScore(vehicle, priorities, dataRanges, priorityAttrs) {
       const dr = dataRanges[a.id];
       if (dr && dr.max !== dr.min) {
         const normalized = (vehicle[a.id] - dr.min) / (dr.max - dr.min);
-        totalScore += normalized * weight;
+        // Clamp to [EPSILON, 1] to avoid log(0) and extreme outlier penalties
+        const safeNormalized = Math.max(normalized, EPSILON);
+        weightedLogSum += weight * Math.log(safeNormalized);
+        totalWeight += weight;
       }
     }
   }
 
-  return Math.round((totalScore / totalWeight) * 100);
+  if (totalWeight === 0) return 0;
+
+  // Weighted geometric mean: exp(sum(w*log(x)) / sum(w))
+  const geometricMean = Math.exp(weightedLogSum / totalWeight);
+  return Math.round(geometricMean * 100);
 }
 
 /**

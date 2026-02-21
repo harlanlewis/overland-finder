@@ -1,0 +1,657 @@
+{
+  "_meta": {
+    "description": "Body type classification data for all vehicles",
+    "updated": "2026-02-16",
+    "types": {
+      "suv": "Body-on-frame SUVs and larger unibody SUVs",
+      "truck": "Pickup trucks",
+      "cuv": "Compact crossovers and unibody crossover SUVs",
+      "wagon": "Station wagons and lifted wagons"
+    }
+  },
+  "4runner": {
+    "body": "suv"
+  },
+  "4runner_ltd": {
+    "body": "suv"
+  },
+  "4runner_trd_orp": {
+    "body": "suv"
+  },
+  "runner_sr5": {
+    "body": "suv"
+  },
+  "runner_venture": {
+    "body": "suv"
+  },
+  "4runner_5g_trd_pro": {
+    "body": "suv"
+  },
+  "4runner_5g_trd_or": {
+    "body": "suv"
+  },
+  "4runner_5g_sr5": {
+    "body": "suv"
+  },
+  "runner_sport": {
+    "body": "suv"
+  },
+  "4runner_4th_gen_v8": {
+    "body": "suv"
+  },
+  "gx": {
+    "body": "suv"
+  },
+  "gx_prem": {
+    "body": "suv"
+  },
+  "gx460": {
+    "body": "suv"
+  },
+  "gx470": {
+    "body": "suv"
+  },
+  "lc": {
+    "body": "suv"
+  },
+  "lc200": {
+    "body": "suv"
+  },
+  "lc100": {
+    "body": "suv"
+  },
+  "lc80": {
+    "body": "suv"
+  },
+  "lc_first_ed": {
+    "body": "suv"
+  },
+  "land_cruiser_80": {
+    "body": "suv"
+  },
+  "land_cruiser_100": {
+    "body": "suv"
+  },
+  "lx570": {
+    "body": "suv"
+  },
+  "lx": {
+    "body": "suv"
+  },
+  "lx700h": {
+    "body": "suv"
+  },
+  "lx700h_ot": {
+    "body": "suv"
+  },
+  "sequoia": {
+    "body": "suv"
+  },
+  "sequoia_ltd": {
+    "body": "suv"
+  },
+  "sequoia_2g": {
+    "body": "suv"
+  },
+  "fj_cruiser": {
+    "body": "suv"
+  },
+  "defender": {
+    "body": "suv"
+  },
+  "defender_s": {
+    "body": "suv"
+  },
+  "defender_130": {
+    "body": "suv"
+  },
+  "defender_90": {
+    "body": "suv"
+  },
+  "defender_classic": {
+    "body": "suv"
+  },
+  "disco_lr4": {
+    "body": "suv"
+  },
+  "disco_5": {
+    "body": "suv"
+  },
+  "discovery_3_lr3": {
+    "body": "suv"
+  },
+  "rr_sport": {
+    "body": "suv"
+  },
+  "rr_full": {
+    "body": "suv"
+  },
+  "gc4xe": {
+    "body": "suv"
+  },
+  "gc4xe_ol": {
+    "body": "suv"
+  },
+  "gc_trailhawk": {
+    "body": "suv"
+  },
+  "gc_wk2": {
+    "body": "suv"
+  },
+  "gc_wk2_th": {
+    "body": "suv"
+  },
+  "gc_l_overland": {
+    "body": "suv"
+  },
+  "wagoneer": {
+    "body": "suv"
+  },
+  "gwagoneer": {
+    "body": "suv"
+  },
+  "wrangler_rubicon": {
+    "body": "suv"
+  },
+  "wrangler_jl": {
+    "body": "suv"
+  },
+  "wrangler_jk": {
+    "body": "suv"
+  },
+  "wrangler_tj": {
+    "body": "suv"
+  },
+  "wrangler_sahara": {
+    "body": "suv"
+  },
+  "wrangler_4xe_sahara": {
+    "body": "suv"
+  },
+  "cherokee_xj": {
+    "body": "suv"
+  },
+  "bronco": {
+    "body": "suv"
+  },
+  "bronco_ob": {
+    "body": "suv"
+  },
+  "bronco_raptor": {
+    "body": "suv"
+  },
+  "bronco_21_24": {
+    "body": "suv"
+  },
+  "bronco_5th_gen": {
+    "body": "suv"
+  },
+  "expedition": {
+    "body": "suv"
+  },
+  "expedition_4g": {
+    "body": "suv"
+  },
+  "excursion": {
+    "body": "suv"
+  },
+  "tahoe_z71": {
+    "body": "suv"
+  },
+  "tahoe_5g": {
+    "body": "suv"
+  },
+  "tahoe_4g": {
+    "body": "suv"
+  },
+  "4wd_suburban": {
+    "body": "suv"
+  },
+  "yukon_at4": {
+    "body": "suv"
+  },
+  "escalade": {
+    "body": "suv"
+  },
+  "escalade_v": {
+    "body": "suv"
+  },
+  "navigator": {
+    "body": "suv"
+  },
+  "gwagen": {
+    "body": "suv"
+  },
+  "gwagen_amg": {
+    "body": "suv"
+  },
+  "gwagen_w463": {
+    "body": "suv"
+  },
+  "g580_eq": {
+    "body": "suv"
+  },
+  "hummer_h2": {
+    "body": "suv"
+  },
+  "hummer_ev": {
+    "body": "suv"
+  },
+  "xterra": {
+    "body": "suv"
+  },
+  "pathfinder_r51": {
+    "body": "suv"
+  },
+  "patrol_y61": {
+    "body": "suv"
+  },
+  "trooper": {
+    "body": "suv"
+  },
+  "montero_sport": {
+    "body": "suv"
+  },
+  "montero_gen3": {
+    "body": "suv"
+  },
+  "qx80": {
+    "body": "suv"
+  },
+  "qx80_2g": {
+    "body": "suv"
+  },
+  "samurai": {
+    "body": "suv"
+  },
+  "sidekick": {
+    "body": "suv"
+  },
+  "tracker": {
+    "body": "suv"
+  },
+  "grand_vitara": {
+    "body": "suv"
+  },
+  "rodeo": {
+    "body": "suv"
+  },
+  "amigo": {
+    "body": "suv"
+  },
+  "telluride_xpro": {
+    "body": "suv"
+  },
+  "palisade": {
+    "body": "suv"
+  },
+  "pilot_trailsport": {
+    "body": "suv"
+  },
+  "passport_trailsport": {
+    "body": "suv"
+  },
+  "highlander_hybrid": {
+    "body": "suv"
+  },
+  "tx_550h": {
+    "body": "suv"
+  },
+  "tx_500h": {
+    "body": "suv"
+  },
+  "mdx_type_s": {
+    "body": "suv"
+  },
+  "aviator": {
+    "body": "suv"
+  },
+  "gls": {
+    "body": "suv"
+  },
+  "x7": {
+    "body": "suv"
+  },
+  "cayenne": {
+    "body": "suv"
+  },
+  "cayenne_ehybrid": {
+    "body": "suv"
+  },
+  "cayenne_turbo": {
+    "body": "suv"
+  },
+  "cayenne_coupe": {
+    "body": "suv"
+  },
+  "q8": {
+    "body": "suv"
+  },
+  "sq8": {
+    "body": "suv"
+  },
+  "rsq8": {
+    "body": "suv"
+  },
+  "r1s": {
+    "body": "suv"
+  },
+  "r1s_perf": {
+    "body": "suv"
+  },
+  "xc90_recharge": {
+    "body": "suv"
+  },
+  "ex90": {
+    "body": "suv"
+  },
+  "gv80": {
+    "body": "suv"
+  },
+  "cx90_phev": {
+    "body": "suv"
+  },
+  "sorento_phev": {
+    "body": "suv"
+  },
+  "sorento_hybrid": {
+    "body": "suv"
+  },
+  "santa_fe_xrt": {
+    "body": "suv"
+  },
+  "santa_fe_hybrid": {
+    "body": "suv"
+  },
+  "ev9": {
+    "body": "suv"
+  },
+  "gle": {
+    "body": "cuv"
+  },
+  "gle350de": {
+    "body": "cuv"
+  },
+  "eqs_suv": {
+    "body": "cuv"
+  },
+  "x5": {
+    "body": "cuv"
+  },
+  "xm": {
+    "body": "cuv"
+  },
+  "ix_xdrive50": {
+    "body": "cuv"
+  },
+  "model_x": {
+    "body": "cuv"
+  },
+  "gv70": {
+    "body": "cuv"
+  },
+  "montero": {
+    "body": "cuv"
+  },
+  "rav4_trd_or": {
+    "body": "cuv"
+  },
+  "rav4_hybrid": {
+    "body": "cuv"
+  },
+  "rav4_prime": {
+    "body": "cuv"
+  },
+  "venza": {
+    "body": "cuv"
+  },
+  "crv_hybrid": {
+    "body": "cuv"
+  },
+  "tucson_xrt": {
+    "body": "cuv"
+  },
+  "tucson_hybrid": {
+    "body": "cuv"
+  },
+  "tucson_phev": {
+    "body": "cuv"
+  },
+  "sportage_xpro": {
+    "body": "cuv"
+  },
+  "sportage_hybrid": {
+    "body": "cuv"
+  },
+  "sportage_phev": {
+    "body": "cuv"
+  },
+  "escape_hybrid": {
+    "body": "cuv"
+  },
+  "escape_phev": {
+    "body": "cuv"
+  },
+  "nx_350h": {
+    "body": "cuv"
+  },
+  "nx_450h_plus": {
+    "body": "cuv"
+  },
+  "rx_350h": {
+    "body": "cuv"
+  },
+  "rx_450h_plus": {
+    "body": "cuv"
+  },
+  "crosstrek_wilderness": {
+    "body": "cuv"
+  },
+  "forester_wilderness": {
+    "body": "cuv"
+  },
+  "bronco_sport_badlands": {
+    "body": "cuv"
+  },
+  "cx50_meridian": {
+    "body": "cuv"
+  },
+  "renegade_trailhawk": {
+    "body": "cuv"
+  },
+  "compass_trailhawk": {
+    "body": "cuv"
+  },
+  "atlas_cross_sport_4motion": {
+    "body": "cuv"
+  },
+  "gladiator_rubicon": {
+    "body": "truck"
+  },
+  "gladiator_ecodiesel": {
+    "body": "truck"
+  },
+  "tacoma_trd_pro": {
+    "body": "truck"
+  },
+  "f150_raptor": {
+    "body": "truck"
+  },
+  "f150_tremor": {
+    "body": "truck"
+  },
+  "f150_powerstroke": {
+    "body": "truck"
+  },
+  "f150_lightning": {
+    "body": "truck"
+  },
+  "f150_powerboost": {
+    "body": "truck"
+  },
+  "tundra_trd_pro": {
+    "body": "truck"
+  },
+  "tundra_1794": {
+    "body": "truck"
+  },
+  "silverado_zr2": {
+    "body": "truck"
+  },
+  "silverado_duramax": {
+    "body": "truck"
+  },
+  "silverado_ev": {
+    "body": "truck"
+  },
+  "colorado_zr2": {
+    "body": "truck"
+  },
+  "ram_trx": {
+    "body": "truck"
+  },
+  "ram_rebel": {
+    "body": "truck"
+  },
+  "ram_1500_ecodiesel": {
+    "body": "truck"
+  },
+  "ranger_raptor": {
+    "body": "truck"
+  },
+  "canyon_at4x": {
+    "body": "truck"
+  },
+  "sierra_at4x": {
+    "body": "truck"
+  },
+  "cybertruck": {
+    "body": "truck"
+  },
+  "cybertruck_beast": {
+    "body": "truck"
+  },
+  "hummer_ev_pickup": {
+    "body": "truck"
+  },
+  "r1t": {
+    "body": "truck"
+  },
+  "outback_wilderness": {
+    "body": "wagon"
+  },
+  "v60_cross_country": {
+    "body": "wagon"
+  },
+  "v90_cross_country": {
+    "body": "wagon"
+  },
+  "xterra_pro4x": {
+    "body": "suv"
+  },
+  "montero_sport_xls": {
+    "body": "suv"
+  },
+  "wrangler_2dr_jl": {
+    "body": "suv"
+  },
+  "wrangler_2dr_jk": {
+    "body": "suv"
+  },
+  "wrangler_2dr_tj": {
+    "body": "suv"
+  },
+  "bronco_2dr_badlands": {
+    "body": "suv"
+  },
+  "maverick_tremor": {
+    "body": "truck"
+  },
+  "santa_cruz_sel": {
+    "body": "truck"
+  },
+  "frontier_pro4x": {
+    "body": "truck"
+  },
+  "tacoma_trd_or": {
+    "body": "truck"
+  },
+  "ranger_xlt": {
+    "body": "truck"
+  },
+  "ascent_onyx": {
+    "body": "suv"
+  },
+  "cx70_phev": {
+    "body": "cuv"
+  },
+  "tiguan_se_rline": {
+    "body": "cuv"
+  },
+  "rdx_aspec": {
+    "body": "cuv"
+  },
+  "grenadier_trialmaster": {
+    "body": "suv"
+  },
+  "f150_xlt": {
+    "body": "truck"
+  },
+  "tacoma_sr5": {
+    "body": "truck"
+  },
+  "silverado_trail_boss": {
+    "body": "truck"
+  },
+  "ram_1500_big_horn": {
+    "body": "truck"
+  },
+  "crv_exl": {
+    "body": "cuv"
+  },
+  "hrv_exl": {
+    "body": "cuv"
+  },
+  "ridgeline_rtl": {
+    "body": "truck"
+  },
+  "q5_quattro": {
+    "body": "cuv"
+  },
+  "q7_quattro": {
+    "body": "suv"
+  },
+  "q8_etron": {
+    "body": "suv"
+  },
+  "a6_allroad": {
+    "body": "wagon"
+  },
+  "crosstrek_premium": {
+    "body": "cuv"
+  },
+  "atlas_se": {
+    "body": "suv"
+  },
+  "durango_rt": {
+    "body": "suv"
+  },
+  "explorer_timberline": {
+    "body": "suv"
+  },
+  "armada_platinum": {
+    "body": "suv"
+  },
+  "rogue_sl": {
+    "body": "cuv"
+  },
+  "equinox_rs": {
+    "body": "cuv"
+  },
+  "cx5_turbo": {
+    "body": "cuv"
+  },
+  "x3_xdrive": {
+    "body": "cuv"
+  }
+}
