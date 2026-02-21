@@ -4,7 +4,6 @@
     "updated": "2026-02-15",
     "notes": "yearEnd: null means currently in production"
   },
-
   "4runner": {
     "yearStart": 2024,
     "yearEnd": null,
@@ -60,7 +59,6 @@
     "generation": "5th Gen",
     "source": "Wikipedia: Toyota 4Runner (fifth generation)"
   },
-
   "gx": {
     "yearStart": 2024,
     "yearEnd": null,
@@ -85,7 +83,6 @@
     "generation": "J120",
     "source": "Wikipedia: Lexus GX (first generation)"
   },
-
   "lc": {
     "yearStart": 2024,
     "yearEnd": null,
@@ -110,7 +107,6 @@
     "generation": "80 Series",
     "source": "Wikipedia: Toyota Land Cruiser (J80)"
   },
-
   "lx570": {
     "yearStart": 2008,
     "yearEnd": 2021,
@@ -123,7 +119,18 @@
     "generation": "J300",
     "source": "Wikipedia: Lexus LX (fourth generation)"
   },
-
+  "lx700h": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "J300",
+    "source": "Lexus LX 700h hybrid (2025 model year introduction)"
+  },
+  "lx700h_ot": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "J300",
+    "source": "Lexus LX 700h Overtrail (2025 model year introduction)"
+  },
   "sequoia": {
     "yearStart": 2023,
     "yearEnd": null,
@@ -142,14 +149,12 @@
     "generation": "2nd Gen",
     "source": "Wikipedia: Toyota Sequoia (second generation)"
   },
-
   "fj_cruiser": {
     "yearStart": 2007,
     "yearEnd": 2014,
     "generation": "FJ",
     "source": "Wikipedia: Toyota FJ Cruiser"
   },
-
   "defender": {
     "yearStart": 2020,
     "yearEnd": null,
@@ -175,7 +180,6 @@
     "generation": "Defender 110",
     "source": "Wikipedia: Land Rover Defender"
   },
-
   "disco_lr4": {
     "yearStart": 2010,
     "yearEnd": 2016,
@@ -188,7 +192,6 @@
     "generation": "L462",
     "source": "Wikipedia: Land Rover Discovery (fifth generation)"
   },
-
   "rr_sport": {
     "yearStart": 2023,
     "yearEnd": null,
@@ -201,7 +204,6 @@
     "generation": "L460",
     "source": "Wikipedia: Range Rover (fifth generation)"
   },
-
   "gc4xe": {
     "yearStart": 2022,
     "yearEnd": null,
@@ -233,7 +235,6 @@
     "source": "Wikipedia: Jeep Grand Cherokee (WK2)",
     "notes": "Trailhawk trim introduced 2017"
   },
-
   "wagoneer": {
     "yearStart": 2022,
     "yearEnd": null,
@@ -246,7 +247,6 @@
     "generation": "WS",
     "source": "Wikipedia: Jeep Grand Wagoneer (WS)"
   },
-
   "wrangler_rubicon": {
     "yearStart": 2018,
     "yearEnd": null,
@@ -272,9 +272,8 @@
     "generation": "TJ",
     "source": "Wikipedia: Jeep Wrangler (TJ)"
   },
-
   "bronco": {
-    "yearStart": 2021,
+    "yearStart": 2025,
     "yearEnd": null,
     "generation": "6th Gen",
     "source": "Wikipedia: Ford Bronco (sixth generation)"
@@ -298,7 +297,6 @@
     "generation": "6th Gen",
     "source": "Wikipedia: Ford Bronco (sixth generation)"
   },
-
   "expedition": {
     "yearStart": 2018,
     "yearEnd": null,
@@ -317,9 +315,8 @@
     "generation": "1st Gen",
     "source": "Wikipedia: Ford Excursion"
   },
-
   "tahoe_z71": {
-    "yearStart": 2021,
+    "yearStart": 2025,
     "yearEnd": null,
     "generation": "5th Gen",
     "source": "Wikipedia: Chevrolet Tahoe (fifth generation)"
@@ -336,14 +333,12 @@
     "generation": "4th Gen",
     "source": "Wikipedia: Chevrolet Tahoe (fourth generation)"
   },
-
   "yukon_at4": {
     "yearStart": 2021,
     "yearEnd": null,
     "generation": "5th Gen",
     "source": "Wikipedia: GMC Yukon (fifth generation)"
   },
-
   "escalade_v": {
     "yearStart": 2021,
     "yearEnd": null,
@@ -351,7 +346,6 @@
     "source": "Wikipedia: Cadillac Escalade (fifth generation)",
     "notes": "Escalade-V introduced 2023"
   },
-
   "gle": {
     "yearStart": 2019,
     "yearEnd": null,
@@ -364,14 +358,12 @@
     "generation": "W167",
     "source": "Wikipedia: Mercedes-Benz GLE-Class (W167)"
   },
-
   "gls": {
     "yearStart": 2020,
     "yearEnd": null,
     "generation": "X167",
     "source": "Wikipedia: Mercedes-Benz GLS-Class (X167)"
   },
-
   "gwagen": {
     "yearStart": 2019,
     "yearEnd": null,
@@ -396,7 +388,6 @@
     "generation": "W463A EQ",
     "source": "Wikipedia: Mercedes-Benz G-Class (W463A)"
   },
-
   "x5": {
     "yearStart": 2019,
     "yearEnd": null,
@@ -421,7 +412,6 @@
     "generation": "i20",
     "source": "Wikipedia: BMW iX"
   },
-
   "cayenne": {
     "yearStart": 2019,
     "yearEnd": null,
@@ -447,7 +437,6 @@
     "source": "Wikipedia: Porsche Cayenne (E3)",
     "notes": "Coupe variant introduced 2019"
   },
-
   "q8": {
     "yearStart": 2019,
     "yearEnd": null,
@@ -466,7 +455,6 @@
     "generation": "4M",
     "source": "Wikipedia: Audi RS Q8"
   },
-
   "r1s": {
     "yearStart": 2022,
     "yearEnd": null,
@@ -479,14 +467,12 @@
     "generation": "1st Gen",
     "source": "Wikipedia: Rivian R1S"
   },
-
   "hummer_ev": {
     "yearStart": 2024,
     "yearEnd": null,
     "generation": "1st Gen",
     "source": "Wikipedia: GMC Hummer EV"
   },
-
   "cybertruck": {
     "yearStart": 2024,
     "yearEnd": null,
@@ -499,7 +485,6 @@
     "generation": "1st Gen",
     "source": "Wikipedia: Tesla Cybertruck"
   },
-
   "model_x": {
     "yearStart": 2016,
     "yearEnd": null,
@@ -507,14 +492,12 @@
     "source": "Wikipedia: Tesla Model X",
     "notes": "Refreshed 2021, same generation"
   },
-
   "eqs_suv": {
     "yearStart": 2023,
     "yearEnd": null,
     "generation": "V297",
     "source": "Wikipedia: Mercedes-Benz EQS SUV"
   },
-
   "montero": {
     "yearStart": 2022,
     "yearEnd": null,
@@ -533,7 +516,6 @@
     "generation": "3rd Gen",
     "source": "Wikipedia: Mitsubishi Pajero (third generation)"
   },
-
   "xc90_recharge": {
     "yearStart": 2015,
     "yearEnd": null,
@@ -546,14 +528,12 @@
     "generation": "1st Gen",
     "source": "Wikipedia: Volvo EX90"
   },
-
   "gv80": {
     "yearStart": 2021,
     "yearEnd": null,
     "generation": "1st Gen",
     "source": "Wikipedia: Genesis GV80"
   },
-
   "xterra": {
     "yearStart": 2005,
     "yearEnd": 2015,
@@ -572,28 +552,24 @@
     "generation": "Y61",
     "source": "Wikipedia: Nissan Patrol (Y61)"
   },
-
   "4wd_suburban": {
     "yearStart": 2015,
     "yearEnd": 2020,
     "generation": "11th Gen",
     "source": "Wikipedia: Chevrolet Suburban (eleventh generation)"
   },
-
   "hummer_h2": {
     "yearStart": 2003,
     "yearEnd": 2009,
     "generation": "H2",
     "source": "Wikipedia: Hummer H2"
   },
-
   "trooper": {
     "yearStart": 1992,
     "yearEnd": 2002,
     "generation": "2nd Gen",
     "source": "Wikipedia: Isuzu Trooper (second generation)"
   },
-
   "navigator": {
     "yearStart": 2018,
     "yearEnd": null,
@@ -731,5 +707,613 @@
     "yearEnd": 2024,
     "generation": "2nd Gen",
     "source": "Wikipedia: Infiniti QX80 (second generation)"
+  },
+  "f150_raptor": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "14th Gen",
+    "source": "Wikipedia: Ford F-Series (fourteenth generation)"
+  },
+  "f150_tremor": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "14th Gen",
+    "source": "Wikipedia: Ford F-Series (fourteenth generation)"
+  },
+  "tundra_trd_pro": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Wikipedia: Toyota Tundra (third generation)"
+  },
+  "tundra_1794": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Wikipedia: Toyota Tundra (third generation)"
+  },
+  "silverado_zr2": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Chevrolet Silverado (fourth generation)",
+    "notes": "ZR2 trim introduced 2022"
+  },
+  "colorado_zr2": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Wikipedia: Chevrolet Colorado (third generation)"
+  },
+  "ram_trx": {
+    "yearStart": 2021,
+    "yearEnd": 2024,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Ram 1500 (fifth generation)",
+    "notes": "TRX discontinued after 2024 model year"
+  },
+  "ram_rebel": {
+    "yearStart": 2019,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Ram 1500 (fifth generation)"
+  },
+  "ranger_raptor": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "7th Gen",
+    "source": "Wikipedia: Ford Ranger (T6/Americas)"
+  },
+  "renegade_trailhawk": {
+    "yearStart": 2015,
+    "yearEnd": 2023,
+    "generation": "BU",
+    "source": "Wikipedia: Jeep Renegade (BU)",
+    "notes": "Discontinued in US after 2023"
+  },
+  "compass_trailhawk": {
+    "yearStart": 2017,
+    "yearEnd": null,
+    "generation": "MP",
+    "source": "Wikipedia: Jeep Compass (MP)",
+    "notes": "Major refresh 2022"
+  },
+  "rav4_trd_or": {
+    "yearStart": 2020,
+    "yearEnd": 2024,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Toyota RAV4 (fifth generation)",
+    "notes": "TRD Off-Road trim discontinued after 2024"
+  },
+  "crosstrek_wilderness": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Wikipedia: Subaru Crosstrek (third generation)",
+    "notes": "Wilderness trim introduced 2024"
+  },
+  "bronco_sport_badlands": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Ford Bronco Sport"
+  },
+  "cx50_meridian": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Mazda CX-50"
+  },
+  "tucson_xrt": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Hyundai Tucson (fourth generation)",
+    "notes": "XRT trim introduced 2024"
+  },
+  "sportage_xpro": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Kia Sportage (fifth generation)",
+    "notes": "X-Pro trim introduced 2023"
+  },
+  "samurai": {
+    "yearStart": 1986,
+    "yearEnd": 1995,
+    "generation": "SJ Series",
+    "source": "Wikipedia: Suzuki Jimny (second generation)",
+    "notes": "US-market Samurai (SJ413), known as Jimny elsewhere"
+  },
+  "sidekick": {
+    "yearStart": 1989,
+    "yearEnd": 1998,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Suzuki Vitara (first generation)",
+    "notes": "Known as Escudo in Japan, Vitara elsewhere"
+  },
+  "tracker": {
+    "yearStart": 1989,
+    "yearEnd": 1998,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Chevrolet Tracker (Americas)",
+    "notes": "GM-badged Suzuki Sidekick/Vitara"
+  },
+  "grand_vitara": {
+    "yearStart": 2006,
+    "yearEnd": 2013,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Suzuki Grand Vitara (second generation)",
+    "notes": "Last Suzuki SUV sold in US"
+  },
+  "rodeo": {
+    "yearStart": 1998,
+    "yearEnd": 2004,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Isuzu Rodeo (second generation)"
+  },
+  "amigo": {
+    "yearStart": 1998,
+    "yearEnd": 2000,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Isuzu MU (second generation)",
+    "notes": "Also sold as Honda Passport in earlier generation"
+  },
+  "rav4_hybrid": {
+    "yearStart": 2019,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Toyota RAV4 (fifth generation)"
+  },
+  "highlander_hybrid": {
+    "yearStart": 2020,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Toyota Highlander (fourth generation)"
+  },
+  "venza": {
+    "yearStart": 2021,
+    "yearEnd": 2024,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Toyota Venza (second generation)",
+    "notes": "Hybrid-only, discontinued after 2024"
+  },
+  "crv_hybrid": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "6th Gen",
+    "source": "Wikipedia: Honda CR-V (sixth generation)"
+  },
+  "tucson_hybrid": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Hyundai Tucson (fourth generation)"
+  },
+  "santa_fe_hybrid": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Hyundai Santa Fe (fifth generation)"
+  },
+  "sportage_hybrid": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Kia Sportage (fifth generation)"
+  },
+  "sorento_hybrid": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Kia Sorento (fourth generation)"
+  },
+  "escape_hybrid": {
+    "yearStart": 2020,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Ford Escape (fourth generation)"
+  },
+  "nx_350h": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Lexus NX (second generation)"
+  },
+  "rx_350h": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Lexus RX (fifth generation)"
+  },
+  "tucson_phev": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia"
+  },
+  "sportage_phev": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia"
+  },
+  "escape_phev": {
+    "yearStart": 2020,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia"
+  },
+  "nx_450h_plus": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia"
+  },
+  "rx_450h_plus": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia"
+  },
+  "land_cruiser_80": {
+    "yearStart": 1990,
+    "yearEnd": 1997,
+    "generation": "J80",
+    "source": "Wikipedia"
+  },
+  "land_cruiser_100": {
+    "yearStart": 1998,
+    "yearEnd": 2007,
+    "generation": "J100",
+    "source": "Wikipedia"
+  },
+  "cherokee_xj": {
+    "yearStart": 1984,
+    "yearEnd": 2001,
+    "generation": "XJ",
+    "source": "Wikipedia"
+  },
+  "4runner_4th_gen_v8": {
+    "yearStart": 2003,
+    "yearEnd": 2009,
+    "generation": "4th Gen",
+    "source": "Wikipedia"
+  },
+  "discovery_3_lr3": {
+    "yearStart": 2005,
+    "yearEnd": 2009,
+    "generation": "3rd Gen",
+    "source": "Wikipedia"
+  },
+  "bronco_5th_gen": {
+    "yearStart": 1992,
+    "yearEnd": 1996,
+    "generation": "5th Gen",
+    "source": "Wikipedia"
+  },
+  "atlas_cross_sport_4motion": {
+    "yearStart": 2020,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia"
+  },
+  "v60_cross_country": {
+    "yearStart": 2019,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia"
+  },
+  "v90_cross_country": {
+    "yearStart": 2017,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia"
+  },
+  "canyon_at4x": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Wikipedia"
+  },
+  "sierra_at4x": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia"
+  },
+  "ram_1500_ecodiesel": {
+    "yearStart": 2020,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Ram Pickup (DS/DT)"
+  },
+  "silverado_duramax": {
+    "yearStart": 2019,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Chevrolet Silverado (fourth generation)"
+  },
+  "gladiator_ecodiesel": {
+    "yearStart": 2021,
+    "yearEnd": 2023,
+    "generation": "JT",
+    "source": "Wikipedia: Jeep Gladiator (JT)"
+  },
+  "f150_powerstroke": {
+    "yearStart": 2018,
+    "yearEnd": 2021,
+    "generation": "14th Gen",
+    "source": "Wikipedia: Ford F-Series (14th generation)"
+  },
+  "f150_lightning": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "14th Gen",
+    "source": "Wikipedia"
+  },
+  "f150_powerboost": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "14th Gen",
+    "source": "Wikipedia"
+  },
+  "silverado_ev": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia"
+  },
+  "hummer_ev_pickup": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia"
+  },
+  "rav4_prime": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia"
+  },
+  "r1t": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia"
+  },
+  "tx_500h": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia"
+  },
+  "ev9": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia"
+  },
+  "wrangler_4xe_sahara": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "JL",
+    "source": "Wikipedia"
+  },
+  "xterra_pro4x": {
+    "yearStart": 2005,
+    "yearEnd": 2015,
+    "generation": "2nd Gen",
+    "source": "Wikipedia"
+  },
+  "montero_sport_xls": {
+    "yearStart": 1997,
+    "yearEnd": 2004,
+    "generation": "1st Gen",
+    "source": "Wikipedia"
+  },
+  "wrangler_2dr_jl": {
+    "yearStart": 2018,
+    "yearEnd": null,
+    "generation": "JL",
+    "source": "Wikipedia"
+  },
+  "wrangler_2dr_jk": {
+    "yearStart": 2007,
+    "yearEnd": 2018,
+    "generation": "JK",
+    "source": "Wikipedia"
+  },
+  "wrangler_2dr_tj": {
+    "yearStart": 1997,
+    "yearEnd": 2006,
+    "generation": "TJ",
+    "source": "Wikipedia"
+  },
+  "bronco_2dr_badlands": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "6th Gen",
+    "source": "Wikipedia"
+  },
+  "maverick_tremor": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Web research Feb 2026 - Wikipedia Ford Maverick"
+  },
+  "santa_cruz_sel": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Web research Feb 2026 - Wikipedia Hyundai Santa Cruz"
+  },
+  "frontier_pro4x": {
+    "yearStart": 2022,
+    "yearEnd": null,
+    "generation": "3rd Gen (D41)",
+    "source": "Web research Feb 2026 - Wikipedia Nissan Frontier"
+  },
+  "tacoma_trd_or": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Web research Feb 2026 - Wikipedia Toyota Tacoma"
+  },
+  "ranger_xlt": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "7th Gen",
+    "source": "Web research Feb 2026 - Wikipedia Ford Ranger"
+  },
+  "ascent_onyx": {
+    "yearStart": 2019,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Web research Feb 2026 - Wikipedia Subaru Ascent"
+  },
+  "cx70_phev": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Web research Feb 2026 - Wikipedia Mazda CX-70"
+  },
+  "tiguan_se_rline": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Web research Feb 2026 - Wikipedia Volkswagen Tiguan"
+  },
+  "rdx_aspec": {
+    "yearStart": 2019,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Web research Feb 2026 - Wikipedia Acura RDX"
+  },
+  "grenadier_trialmaster": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Web research Feb 2026 - Wikipedia Ineos Grenadier"
+  },
+  "f150_xlt": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "14th Gen",
+    "source": "Wikipedia: Ford F-Series (fourteenth generation)"
+  },
+  "tacoma_sr5": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Toyota Tacoma (fourth generation)"
+  },
+  "silverado_trail_boss": {
+    "yearStart": 2019,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Chevrolet Silverado (fourth generation)"
+  },
+  "ram_1500_big_horn": {
+    "yearStart": 2019,
+    "yearEnd": null,
+    "generation": "5th Gen (DT)",
+    "source": "Wikipedia: Ram 1500 (fifth generation)"
+  },
+  "crv_exl": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "6th Gen",
+    "source": "Wikipedia: Honda CR-V (sixth generation)"
+  },
+  "hrv_exl": {
+    "yearStart": 2023,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Wikipedia: Honda HR-V (third generation)"
+  },
+  "ridgeline_rtl": {
+    "yearStart": 2017,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Honda Ridgeline (second generation)"
+  },
+  "q5_quattro": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "3rd Gen (B10)",
+    "source": "Wikipedia: Audi Q5 (third generation)"
+  },
+  "q7_quattro": {
+    "yearStart": 2017,
+    "yearEnd": null,
+    "generation": "2nd Gen (4M)",
+    "source": "Wikipedia: Audi Q7 (second generation)"
+  },
+  "q8_etron": {
+    "yearStart": 2019,
+    "yearEnd": 2024,
+    "generation": "GE",
+    "source": "Wikipedia: Audi Q8 e-tron. Production ended Feb 2025."
+  },
+  "a6_allroad": {
+    "yearStart": 2020,
+    "yearEnd": null,
+    "generation": "C8",
+    "source": "Wikipedia: Audi A6 (C8). US allroad from 2020."
+  },
+  "crosstrek_premium": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "3rd Gen",
+    "source": "Wikipedia: Subaru Crosstrek (third generation)"
+  },
+  "atlas_se": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "1st Gen (Refresh)",
+    "source": "Wikipedia: VW Atlas. Major 2024 refresh."
+  },
+  "durango_rt": {
+    "yearStart": 2011,
+    "yearEnd": null,
+    "generation": "3rd Gen (WD)",
+    "source": "Wikipedia: Dodge Durango"
+  },
+  "explorer_timberline": {
+    "yearStart": 2022,
+    "yearEnd": 2024,
+    "generation": "6th Gen",
+    "source": "Wikipedia: Ford Explorer"
+  },
+  "armada_platinum": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "3rd Gen (Y63)",
+    "source": "Wikipedia: Nissan Armada"
+  },
+  "rogue_sl": {
+    "yearStart": 2021,
+    "yearEnd": null,
+    "generation": "3rd Gen (T33)",
+    "source": "Wikipedia: Nissan Rogue"
+  },
+  "equinox_rs": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Chevrolet Equinox"
+  },
+  "cx5_turbo": {
+    "yearStart": 2017,
+    "yearEnd": 2025,
+    "generation": "2nd Gen (KF)",
+    "source": "Wikipedia: Mazda CX-5"
+  },
+  "x3_xdrive": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "4th Gen (G45)",
+    "source": "Wikipedia: BMW X3"
   }
 }

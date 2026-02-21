@@ -5,124 +5,772 @@
     "methodology": "EPA VClass where definitive; interior volume for Standard SUVs",
     "notes": "EPA 'Small Sport Utility Vehicle 4WD' = mid. 'Standard Sport Utility Vehicle 4WD' requires additional criteria (interior volume, wheelbase) to distinguish mid vs full."
   },
-
-  "4runner": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "4runner_ltd": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "4runner_trd_orp": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "runner_sr5": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "runner_venture": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "runner_sport": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "4runner_5g_trd_pro": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "4runner_5g_trd_or": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "4runner_5g_sr5": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "gx": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "gx_prem": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "gx460": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "gx470": { "size": "mid", "source": "EPA VClass: SUV 4WD (pre-2008), interior <100 cu ft" },
-
-  "lc": { "size": "mid", "source": "EPA VClass: Standard SUV, 2024 Land Cruiser is Prado-based (mid-size)" },
-  "lc200": { "size": "full", "source": "EPA VClass: Standard SUV, interior >130 cu ft, full-size body-on-frame" },
-  "lc100": { "size": "full", "source": "EPA VClass: SUV 4WD (pre-2008), interior >130 cu ft" },
-  "lc80": { "size": "full", "source": "EPA VClass: Special Purpose, full-size body-on-frame" },
-
-  "lx570": { "size": "full", "source": "EPA VClass: Standard SUV, based on LC200 platform" },
-  "lx": { "size": "full", "source": "EPA VClass: Standard SUV, full-size body-on-frame flagship" },
-
-  "sequoia": { "size": "full", "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame" },
-  "sequoia_ltd": { "size": "full", "source": "EPA VClass: Standard SUV, interior >120 cu ft" },
-  "sequoia_2g": { "size": "full", "source": "EPA VClass: Standard SUV, interior >150 cu ft" },
-
-  "fj_cruiser": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-
-  "defender": { "size": "mid", "source": "EPA VClass: Standard SUV, 110 wheelbase is mid-size" },
-  "defender_s": { "size": "mid", "source": "EPA VClass: Standard SUV, 110 wheelbase is mid-size" },
-  "defender_130": { "size": "full", "source": "EPA VClass: Standard SUV, 130 wheelbase is full-size" },
-  "defender_classic": { "size": "mid", "source": "Manual: Defender 110 is mid-size" },
-
-  "disco_lr4": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "disco_5": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "rr_sport": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "rr_full": { "size": "full", "source": "EPA VClass: Standard SUV, full-size flagship" },
-
-  "gc4xe": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "gc4xe_ol": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "gc_trailhawk": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "gc_wk2": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "gc_wk2_th": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "wagoneer": { "size": "full", "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame" },
-  "gwagoneer": { "size": "full", "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame" },
-
-  "wrangler_rubicon": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-  "wrangler_jl": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-  "wrangler_jk": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-  "wrangler_tj": { "size": "mid", "source": "EPA VClass: SUV 4WD (pre-2008)" },
-
-  "bronco": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-  "bronco_ob": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-  "bronco_raptor": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-  "bronco_21_24": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-
-  "expedition": { "size": "full", "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame" },
-  "expedition_4g": { "size": "full", "source": "EPA VClass: Standard SUV, interior >120 cu ft" },
-  "excursion": { "size": "full", "source": "Manual: largest SUV ever produced" },
-
-  "tahoe_z71": { "size": "full", "source": "EPA VClass: Standard SUV, full-size body-on-frame" },
-  "tahoe_5g": { "size": "full", "source": "EPA VClass: Standard SUV, full-size body-on-frame" },
-  "tahoe_4g": { "size": "full", "source": "EPA VClass: Standard SUV, full-size body-on-frame" },
-
-  "yukon_at4": { "size": "full", "source": "EPA VClass: Standard SUV, full-size body-on-frame" },
-  "escalade_v": { "size": "full", "source": "EPA VClass: Standard SUV, full-size body-on-frame" },
-  "4wd_suburban": { "size": "full", "source": "EPA VClass: Standard SUV, full-size extended body-on-frame" },
-
-  "gle": { "size": "mid", "source": "Manual: Mercedes mid-size SUV" },
-  "gle350de": { "size": "mid", "source": "Manual: Mercedes mid-size SUV" },
-  "gls": { "size": "full", "source": "Manual: Mercedes full-size SUV (GLE-based stretched)" },
-  "gwagen": { "size": "mid", "source": "Manual: G-Class is mid-size despite ruggedness" },
-  "gwagen_amg": { "size": "mid", "source": "Manual: G-Class is mid-size" },
-  "gwagen_w463": { "size": "mid", "source": "Manual: G-Class is mid-size" },
-  "g580_eq": { "size": "mid", "source": "Manual: G-Class is mid-size" },
-  "eqs_suv": { "size": "full", "source": "Manual: Mercedes full-size EV SUV" },
-
-  "x5": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "x7": { "size": "full", "source": "EPA VClass: Standard SUV, 3-row full-size" },
-  "xm": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "ix_xdrive50": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "cayenne": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "cayenne_ehybrid": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "cayenne_turbo": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "cayenne_coupe": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "q8": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "sq8": { "size": "mid", "source": "Manual: Same platform as Q8" },
-  "rsq8": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "r1s": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-  "r1s_perf": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "hummer_ev": { "size": "full", "source": "EPA VClass: Standard Pickup Trucks 4WD, massive dimensions" },
-  "hummer_h2": { "size": "full", "source": "Manual: Full-size truck-based SUV" },
-
-  "cybertruck": { "size": "full", "source": "Manual: Full-size pickup truck dimensions" },
-  "cybertruck_beast": { "size": "full", "source": "Manual: Full-size pickup truck dimensions" },
-
-  "model_x": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "montero": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-  "montero_sport": { "size": "mid", "source": "EPA VClass: SUV 4WD (pre-2008)" },
-  "montero_gen3": { "size": "mid", "source": "EPA VClass: SUV 4WD (pre-2008)" },
-
-  "xc90_recharge": { "size": "mid", "source": "Manual: Volvo mid-size SUV, interior <100 cu ft" },
-  "ex90": { "size": "mid", "source": "Manual: Volvo mid-size SUV, XC90 successor" },
-
-  "gv80": { "size": "mid", "source": "EPA VClass: Standard SUV, interior <100 cu ft" },
-
-  "xterra": { "size": "mid", "source": "EPA VClass: Small Sport Utility Vehicle 4WD" },
-  "pathfinder_r51": { "size": "mid", "source": "EPA VClass: SUV 4WD (pre-2008)" },
-  "patrol_y61": { "size": "full", "source": "Manual: Full-size body-on-frame, global flagship" },
-
-  "trooper": { "size": "mid", "source": "EPA VClass: SUV 4WD (pre-2008)" }
+  "4runner": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "4runner_ltd": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "4runner_trd_orp": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "runner_sr5": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "runner_venture": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "runner_sport": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "4runner_5g_trd_pro": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "4runner_5g_trd_or": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "4runner_5g_sr5": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "gx": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "gx_prem": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "gx460": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "gx470": {
+    "size": "mid",
+    "source": "EPA VClass: SUV 4WD (pre-2008), interior <100 cu ft"
+  },
+  "lc": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, 2024 Land Cruiser is Prado-based (mid-size)"
+  },
+  "lc200": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, interior >130 cu ft, full-size body-on-frame"
+  },
+  "lc100": {
+    "size": "full",
+    "source": "EPA VClass: SUV 4WD (pre-2008), interior >130 cu ft"
+  },
+  "lc80": {
+    "size": "full",
+    "source": "EPA VClass: Special Purpose, full-size body-on-frame"
+  },
+  "lx570": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, based on LC200 platform"
+  },
+  "lx": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, full-size body-on-frame flagship"
+  },
+  "lx700h": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, same as LX 600"
+  },
+  "lx700h_ot": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, same as LX 600"
+  },
+  "sequoia": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame"
+  },
+  "sequoia_ltd": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, interior >120 cu ft"
+  },
+  "sequoia_2g": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, interior >150 cu ft"
+  },
+  "fj_cruiser": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "defender": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, 110 wheelbase is mid-size"
+  },
+  "defender_s": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, 110 wheelbase is mid-size"
+  },
+  "defender_130": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, 130 wheelbase is full-size"
+  },
+  "defender_classic": {
+    "size": "mid",
+    "source": "Manual: Defender 110 is mid-size"
+  },
+  "disco_lr4": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "disco_5": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "rr_sport": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "rr_full": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, full-size flagship"
+  },
+  "gc4xe": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "gc4xe_ol": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "gc_trailhawk": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "gc_wk2": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "gc_wk2_th": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "wagoneer": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame"
+  },
+  "gwagoneer": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame"
+  },
+  "wrangler_rubicon": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "wrangler_jl": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "wrangler_jk": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "wrangler_tj": {
+    "size": "mid",
+    "source": "EPA VClass: SUV 4WD (pre-2008)"
+  },
+  "bronco": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "bronco_ob": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "bronco_raptor": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "bronco_21_24": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "expedition": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame"
+  },
+  "expedition_4g": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, interior >120 cu ft"
+  },
+  "excursion": {
+    "size": "full",
+    "source": "Manual: largest SUV ever produced"
+  },
+  "tahoe_z71": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, full-size body-on-frame"
+  },
+  "tahoe_5g": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, full-size body-on-frame"
+  },
+  "tahoe_4g": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, full-size body-on-frame"
+  },
+  "yukon_at4": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, full-size body-on-frame"
+  },
+  "escalade_v": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, full-size body-on-frame"
+  },
+  "4wd_suburban": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, full-size extended body-on-frame"
+  },
+  "gle": {
+    "size": "mid",
+    "source": "Manual: Mercedes mid-size SUV"
+  },
+  "gle350de": {
+    "size": "mid",
+    "source": "Manual: Mercedes mid-size SUV"
+  },
+  "gls": {
+    "size": "full",
+    "source": "Manual: Mercedes full-size SUV (GLE-based stretched)"
+  },
+  "gwagen": {
+    "size": "mid",
+    "source": "Manual: G-Class is mid-size despite ruggedness"
+  },
+  "gwagen_amg": {
+    "size": "mid",
+    "source": "Manual: G-Class is mid-size"
+  },
+  "gwagen_w463": {
+    "size": "mid",
+    "source": "Manual: G-Class is mid-size"
+  },
+  "g580_eq": {
+    "size": "mid",
+    "source": "Manual: G-Class is mid-size"
+  },
+  "eqs_suv": {
+    "size": "full",
+    "source": "Manual: Mercedes full-size EV SUV"
+  },
+  "x5": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "x7": {
+    "size": "full",
+    "source": "EPA VClass: Standard SUV, 3-row full-size"
+  },
+  "xm": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "ix_xdrive50": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "cayenne": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "cayenne_ehybrid": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "cayenne_turbo": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "cayenne_coupe": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "q8": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "sq8": {
+    "size": "mid",
+    "source": "Manual: Same platform as Q8"
+  },
+  "rsq8": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "r1s": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "r1s_perf": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "hummer_ev": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD, massive dimensions"
+  },
+  "hummer_h2": {
+    "size": "full",
+    "source": "Manual: Full-size truck-based SUV"
+  },
+  "cybertruck": {
+    "size": "full",
+    "source": "Manual: Full-size pickup truck dimensions"
+  },
+  "cybertruck_beast": {
+    "size": "full",
+    "source": "Manual: Full-size pickup truck dimensions"
+  },
+  "model_x": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "montero": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "montero_sport": {
+    "size": "mid",
+    "source": "EPA VClass: SUV 4WD (pre-2008)"
+  },
+  "montero_gen3": {
+    "size": "mid",
+    "source": "EPA VClass: SUV 4WD (pre-2008)"
+  },
+  "xc90_recharge": {
+    "size": "mid",
+    "source": "Manual: Volvo mid-size SUV, interior <100 cu ft"
+  },
+  "ex90": {
+    "size": "mid",
+    "source": "Manual: Volvo mid-size SUV, XC90 successor"
+  },
+  "gv80": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "xterra": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "pathfinder_r51": {
+    "size": "mid",
+    "source": "EPA VClass: SUV 4WD (pre-2008)"
+  },
+  "patrol_y61": {
+    "size": "full",
+    "source": "Manual: Full-size body-on-frame, global flagship"
+  },
+  "trooper": {
+    "size": "mid",
+    "source": "EPA VClass: SUV 4WD (pre-2008)"
+  },
+  "f150_raptor": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD"
+  },
+  "f150_tremor": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD"
+  },
+  "tundra_trd_pro": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD"
+  },
+  "tundra_1794": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD"
+  },
+  "silverado_zr2": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD"
+  },
+  "colorado_zr2": {
+    "size": "mid",
+    "source": "EPA VClass: Small Pickup Trucks 4WD"
+  },
+  "ram_trx": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD"
+  },
+  "ram_rebel": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD"
+  },
+  "ranger_raptor": {
+    "size": "mid",
+    "source": "EPA VClass: Small Pickup Trucks 4WD"
+  },
+  "renegade_trailhawk": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "compass_trailhawk": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "rav4_trd_or": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "crosstrek_wilderness": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "bronco_sport_badlands": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "cx50_meridian": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "tucson_xrt": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "sportage_xpro": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "samurai": {
+    "size": "compact",
+    "source": "Manual: Subcompact mini-SUV (135\" length)"
+  },
+  "sidekick": {
+    "size": "compact",
+    "source": "Manual: Compact SUV, predecessor to modern small SUVs"
+  },
+  "tracker": {
+    "size": "compact",
+    "source": "Manual: Same as Sidekick (GM rebadge)"
+  },
+  "grand_vitara": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "rodeo": {
+    "size": "mid",
+    "source": "Manual: Mid-size SUV, larger than compact class"
+  },
+  "amigo": {
+    "size": "compact",
+    "source": "Manual: Compact 2-door SUV"
+  },
+  "rav4_hybrid": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "highlander_hybrid": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "venza": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "crv_hybrid": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "tucson_hybrid": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "santa_fe_hybrid": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior >90 cu ft"
+  },
+  "sportage_hybrid": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "sorento_hybrid": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, 3-row available"
+  },
+  "escape_hybrid": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "nx_350h": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD"
+  },
+  "rx_350h": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV, interior <100 cu ft"
+  },
+  "tucson_phev": {
+    "size": "compact",
+    "source": "EPA VClass"
+  },
+  "sportage_phev": {
+    "size": "compact",
+    "source": "EPA VClass"
+  },
+  "escape_phev": {
+    "size": "compact",
+    "source": "EPA VClass"
+  },
+  "nx_450h_plus": {
+    "size": "compact",
+    "source": "EPA VClass"
+  },
+  "rx_450h_plus": {
+    "size": "mid",
+    "source": "EPA VClass"
+  },
+  "land_cruiser_80": {
+    "size": "full",
+    "source": "Interior volume"
+  },
+  "land_cruiser_100": {
+    "size": "full",
+    "source": "Interior volume"
+  },
+  "cherokee_xj": {
+    "size": "mid",
+    "source": "Interior volume"
+  },
+  "4runner_4th_gen_v8": {
+    "size": "mid",
+    "source": "Interior volume"
+  },
+  "discovery_3_lr3": {
+    "size": "full",
+    "source": "Interior volume"
+  },
+  "bronco_5th_gen": {
+    "size": "full",
+    "source": "Interior volume"
+  },
+  "atlas_cross_sport_4motion": {
+    "size": "mid",
+    "source": "Interior volume"
+  },
+  "v60_cross_country": {
+    "size": "mid",
+    "source": "Interior volume"
+  },
+  "v90_cross_country": {
+    "size": "mid",
+    "source": "Interior volume"
+  },
+  "canyon_at4x": {
+    "size": "mid",
+    "source": "EPA VClass"
+  },
+  "sierra_at4x": {
+    "size": "full",
+    "source": "EPA VClass"
+  },
+  "ram_1500_ecodiesel": {
+    "size": "full",
+    "source": "EPA: Standard Pickup Trucks"
+  },
+  "silverado_duramax": {
+    "size": "full",
+    "source": "EPA: Standard Pickup Trucks"
+  },
+  "gladiator_ecodiesel": {
+    "size": "mid",
+    "source": "EPA: Standard Pickup Trucks (mid-size)"
+  },
+  "f150_powerstroke": {
+    "size": "full",
+    "source": "EPA: Standard Pickup Trucks"
+  },
+  "f150_lightning": {
+    "size": "full",
+    "source": "EPA VClass"
+  },
+  "f150_powerboost": {
+    "size": "full",
+    "source": "EPA VClass"
+  },
+  "silverado_ev": {
+    "size": "full",
+    "source": "EPA VClass"
+  },
+  "hummer_ev_pickup": {
+    "size": "full",
+    "source": "EPA VClass"
+  },
+  "rav4_prime": {
+    "size": "compact",
+    "source": "EPA VClass"
+  },
+  "r1t": {
+    "size": "mid",
+    "source": "EPA VClass"
+  },
+  "tx_500h": {
+    "size": "mid",
+    "source": "EPA VClass"
+  },
+  "ev9": {
+    "size": "mid",
+    "source": "EPA VClass"
+  },
+  "wrangler_4xe_sahara": {
+    "size": "mid",
+    "source": "EPA VClass"
+  },
+  "xterra_pro4x": {
+    "size": "mid",
+    "source": "Interior volume"
+  },
+  "montero_sport_xls": {
+    "size": "mid",
+    "source": "Interior volume"
+  },
+  "wrangler_2dr_jl": {
+    "size": "compact",
+    "source": "Interior volume"
+  },
+  "wrangler_2dr_jk": {
+    "size": "compact",
+    "source": "Interior volume"
+  },
+  "wrangler_2dr_tj": {
+    "size": "compact",
+    "source": "Interior volume"
+  },
+  "bronco_2dr_badlands": {
+    "size": "compact",
+    "source": "Interior volume"
+  },
+  "maverick_tremor": {
+    "size": "compact",
+    "source": "Web research Feb 2026 - Ford Maverick"
+  },
+  "santa_cruz_sel": {
+    "size": "compact",
+    "source": "Web research Feb 2026 - Hyundai Santa Cruz"
+  },
+  "frontier_pro4x": {
+    "size": "mid",
+    "source": "Web research Feb 2026 - Nissan Frontier"
+  },
+  "tacoma_trd_or": {
+    "size": "mid",
+    "source": "Web research Feb 2026 - Toyota Tacoma"
+  },
+  "ranger_xlt": {
+    "size": "mid",
+    "source": "Web research Feb 2026 - Ford Ranger"
+  },
+  "ascent_onyx": {
+    "size": "mid",
+    "source": "Web research Feb 2026 - Subaru Ascent"
+  },
+  "cx70_phev": {
+    "size": "mid",
+    "source": "Web research Feb 2026 - Mazda CX-70"
+  },
+  "tiguan_se_rline": {
+    "size": "compact",
+    "source": "Web research Feb 2026 - Volkswagen Tiguan"
+  },
+  "rdx_aspec": {
+    "size": "compact",
+    "source": "Web research Feb 2026 - Acura RDX"
+  },
+  "grenadier_trialmaster": {
+    "size": "mid",
+    "source": "Web research Feb 2026 - Ineos Grenadier"
+  },
+  "f150_xlt": {
+    "size": "full",
+    "source": "Full-size pickup truck"
+  },
+  "tacoma_sr5": {
+    "size": "mid",
+    "source": "Mid-size pickup truck"
+  },
+  "silverado_trail_boss": {
+    "size": "full",
+    "source": "Full-size pickup truck"
+  },
+  "ram_1500_big_horn": {
+    "size": "full",
+    "source": "Full-size pickup truck"
+  },
+  "crv_exl": {
+    "size": "compact",
+    "source": "Compact crossover SUV"
+  },
+  "hrv_exl": {
+    "size": "compact",
+    "source": "Subcompact crossover SUV"
+  },
+  "ridgeline_rtl": {
+    "size": "mid",
+    "source": "Mid-size unibody truck"
+  },
+  "q5_quattro": {
+    "size": "mid",
+    "source": "Compact luxury crossover (mid by interior volume)"
+  },
+  "q7_quattro": {
+    "size": "full",
+    "source": "3-row luxury SUV"
+  },
+  "q8_etron": {
+    "size": "mid",
+    "source": "Mid-size electric SUV"
+  },
+  "a6_allroad": {
+    "size": "mid",
+    "source": "Mid-size lifted wagon"
+  },
+  "crosstrek_premium": {
+    "size": "compact",
+    "source": "Compact crossover SUV"
+  },
+  "atlas_se": {
+    "size": "mid",
+    "source": "3-row mid-size SUV (interior ~105 cu ft but crossover positioning)"
+  },
+  "durango_rt": {
+    "size": "full",
+    "source": "EPA VClass / segment classification"
+  },
+  "explorer_timberline": {
+    "size": "mid",
+    "source": "EPA VClass / segment classification"
+  },
+  "armada_platinum": {
+    "size": "full",
+    "source": "EPA VClass / segment classification"
+  },
+  "rogue_sl": {
+    "size": "compact",
+    "source": "EPA VClass / segment classification"
+  },
+  "equinox_rs": {
+    "size": "compact",
+    "source": "EPA VClass / segment classification"
+  },
+  "cx5_turbo": {
+    "size": "compact",
+    "source": "EPA VClass / segment classification"
+  },
+  "x3_xdrive": {
+    "size": "compact",
+    "source": "EPA VClass / segment classification"
+  }
 }

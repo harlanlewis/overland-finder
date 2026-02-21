@@ -2,469 +2,1523 @@
   "_comment": "Manually researched vehicle specs. Sources: manufacturer specs, EPA, Wikipedia",
   "vehicles": {
     "4runner": {
-      "weight": 4870, "tow": 6000, "cargo": 42, "gc": 9.3,
+      "weight": 4870,
+      "tow": 6000,
+      "cargo": 42,
+      "gc": 9.3,
       "source": "Toyota 2025 4Runner TRD Pro specs"
     },
     "4runner_ltd": {
-      "weight": 5411, "tow": 6000, "cargo": 42, "gc": 8.9,
+      "weight": 5411,
+      "tow": 6000,
+      "cargo": 42,
+      "gc": 8.9,
       "source": "Toyota 2025 4Runner Limited (hybrid)"
     },
     "4runner_trd_orp": {
-      "weight": 5350, "tow": 6000, "cargo": 42, "gc": 9.0,
+      "weight": 5350,
+      "tow": 6000,
+      "cargo": 42,
+      "gc": 9,
       "source": "Toyota 2025 4Runner TRD Off-Road Premium"
     },
     "runner_sr5": {
-      "weight": 4870, "tow": 6000, "cargo": 42, "gc": 8.5,
+      "weight": 4870,
+      "tow": 6000,
+      "cargo": 42,
+      "gc": 8.5,
       "source": "Toyota 2025 4Runner SR5"
     },
     "runner_sport": {
-      "weight": 4870, "tow": 6000, "cargo": 42, "gc": 8.5,
+      "weight": 4870,
+      "tow": 6000,
+      "cargo": 42,
+      "gc": 8.5,
       "source": "Toyota 2025 4Runner TRD Sport"
     },
     "runner_venture": {
-      "weight": 5450, "tow": 6000, "cargo": 42, "gc": 10.3,
+      "weight": 5450,
+      "tow": 6000,
+      "cargo": 42,
+      "gc": 10.3,
       "source": "Toyota 2025 4Runner Trailhunter (hybrid, lifted)"
     },
     "4runner_5g_trd_pro": {
-      "weight": 4750, "tow": 5000, "cargo": 47, "gc": 9.6,
+      "weight": 4750,
+      "tow": 5000,
+      "cargo": 47,
+      "gc": 9.6,
       "source": "Toyota 5th Gen 4Runner TRD Pro (2015-2024)"
     },
     "4runner_5g_trd_or": {
-      "weight": 4675, "tow": 5000, "cargo": 47, "gc": 9.0,
+      "weight": 4675,
+      "tow": 5000,
+      "cargo": 47,
+      "gc": 9,
       "source": "Toyota 5th Gen 4Runner TRD Off-Road"
     },
     "4runner_5g_sr5": {
-      "weight": 4575, "tow": 5000, "cargo": 47, "gc": 9.0,
+      "weight": 4575,
+      "tow": 5000,
+      "cargo": 47,
+      "gc": 9,
       "source": "Toyota 5th Gen 4Runner SR5"
     },
     "gx": {
-      "weight": 5665, "tow": 8000, "cargo": 46, "gc": 9.8,
+      "weight": 5665,
+      "tow": 8000,
+      "cargo": 46,
+      "gc": 9.8,
       "source": "Lexus 2025 GX 550 Overtrail"
     },
     "gx_prem": {
-      "weight": 5550, "tow": 8000, "cargo": 46, "gc": 8.6,
+      "weight": 5550,
+      "tow": 8000,
+      "cargo": 46,
+      "gc": 8.6,
       "source": "Lexus 2025 GX 550 Premium+"
     },
     "gx460": {
-      "weight": 5180, "tow": 6500, "cargo": 65, "gc": 8.1,
+      "weight": 5180,
+      "tow": 6500,
+      "cargo": 65,
+      "gc": 8.1,
       "source": "Lexus GX 460 (2010-2023)"
     },
     "gx470": {
-      "weight": 4900, "tow": 6500, "cargo": 65, "gc": 8.3,
+      "weight": 4900,
+      "tow": 6500,
+      "cargo": 65,
+      "gc": 8.3,
       "source": "Lexus GX 470 (2003-2009)"
     },
     "lc": {
-      "weight": 5215, "tow": 8000, "cargo": 43, "gc": 8.7,
+      "weight": 5215,
+      "tow": 8000,
+      "cargo": 43,
+      "gc": 8.7,
       "source": "Toyota 2025 Land Cruiser"
     },
     "lc200": {
-      "weight": 5815, "tow": 8100, "cargo": 82, "gc": 8.9,
+      "weight": 5815,
+      "tow": 8100,
+      "cargo": 82,
+      "gc": 8.9,
       "source": "Land Cruiser 200 Series (2008-2021)"
     },
     "lc100": {
-      "weight": 5470, "tow": 6500, "cargo": 82, "gc": 8.9,
+      "weight": 5470,
+      "tow": 6500,
+      "cargo": 82,
+      "gc": 8.9,
       "source": "Land Cruiser 100 Series (1998-2007)"
     },
     "lc80": {
-      "weight": 4900, "tow": 5000, "cargo": 91, "gc": 8.7,
+      "weight": 4900,
+      "tow": 5000,
+      "cargo": 91,
+      "gc": 8.7,
       "source": "Land Cruiser 80 Series (1990-1997)"
     },
     "lx": {
-      "weight": 6000, "tow": 8000, "cargo": 44, "gc": 8.0,
+      "weight": 6000,
+      "tow": 8000,
+      "cargo": 44,
+      "gc": 8,
       "source": "Lexus 2025 LX 600"
     },
+    "lx700h": {
+      "weight": 6000,
+      "tow": 8000,
+      "cargo": 31,
+      "gc": 8,
+      "source": "Lexus 2025 LX 700h (cargo reduced due to hybrid battery)"
+    },
+    "lx700h_ot": {
+      "weight": 6230,
+      "tow": 8000,
+      "cargo": 31,
+      "gc": 8,
+      "source": "Lexus 2025 LX 700h Overtrail (Edmunds, The Drive)"
+    },
     "lx570": {
-      "weight": 6000, "tow": 7000, "cargo": 83, "gc": 8.0,
+      "weight": 6000,
+      "tow": 7000,
+      "cargo": 83,
+      "gc": 8,
       "source": "Lexus LX 570 (2008-2021)"
     },
     "sequoia": {
-      "weight": 6150, "tow": 9000, "cargo": 49, "gc": 10.0,
+      "weight": 6150,
+      "tow": 9000,
+      "cargo": 49,
+      "gc": 10,
       "source": "Toyota 2025 Sequoia TRD Pro"
     },
     "sequoia_ltd": {
-      "weight": 6010, "tow": 9520, "cargo": 49, "gc": 8.0,
+      "weight": 6010,
+      "tow": 9520,
+      "cargo": 49,
+      "gc": 8,
       "source": "Toyota 2025 Sequoia Limited"
     },
     "sequoia_2g": {
-      "weight": 5730, "tow": 7400, "cargo": 120, "gc": 10.0,
+      "weight": 5730,
+      "tow": 7400,
+      "cargo": 120,
+      "gc": 10,
       "source": "Sequoia 2nd Gen (2008-2022)"
     },
     "fj_cruiser": {
-      "weight": 4340, "tow": 5000, "cargo": 28, "gc": 9.6,
+      "weight": 4340,
+      "tow": 5000,
+      "cargo": 28,
+      "gc": 9.6,
       "source": "Toyota FJ Cruiser (2007-2014)"
     },
     "defender": {
-      "weight": 5700, "tow": 8201, "cargo": 45, "gc": 11.5,
+      "weight": 5700,
+      "tow": 8201,
+      "cargo": 45,
+      "gc": 11.5,
       "source": "Land Rover 2025 Defender 110 V8"
     },
     "defender_s": {
-      "weight": 5200, "tow": 8201, "cargo": 45, "gc": 11.5,
+      "weight": 5200,
+      "tow": 8201,
+      "cargo": 45,
+      "gc": 11.5,
       "source": "Land Rover 2025 Defender 110 S"
     },
     "defender_130": {
-      "weight": 5900, "tow": 8201, "cargo": 65, "gc": 11.5,
+      "weight": 5900,
+      "tow": 8201,
+      "cargo": 65,
+      "gc": 11.5,
       "source": "Land Rover 2025 Defender 130"
     },
     "defender_classic": {
-      "weight": 4200, "tow": 7700, "cargo": 35, "gc": 10.0,
+      "weight": 4200,
+      "tow": 7700,
+      "cargo": 35,
+      "gc": 10,
       "source": "Land Rover Defender 110 Classic (1990-2016)"
     },
     "discovery": {
-      "weight": 5280, "tow": 8201, "cargo": 45, "gc": 8.3,
+      "weight": 5280,
+      "tow": 8201,
+      "cargo": 45,
+      "gc": 8.3,
       "source": "Land Rover 2025 Discovery"
     },
     "disco_5": {
-      "weight": 4900, "tow": 8201, "cargo": 45, "gc": 8.3,
+      "weight": 4900,
+      "tow": 8201,
+      "cargo": 45,
+      "gc": 8.3,
       "source": "Land Rover Discovery 5 (2017-2024)"
     },
     "disco_lr4": {
-      "weight": 5800, "tow": 7716, "cargo": 43, "gc": 9.1,
+      "weight": 5800,
+      "tow": 7716,
+      "cargo": 43,
+      "gc": 9.1,
       "source": "Land Rover LR4 (2010-2016)"
     },
     "rr_sport": {
-      "weight": 5810, "tow": 7716, "cargo": 27, "gc": 8.6,
+      "weight": 5810,
+      "tow": 7716,
+      "cargo": 27,
+      "gc": 8.6,
       "source": "Land Rover 2025 Range Rover Sport"
     },
     "rr_full": {
-      "weight": 5875, "tow": 7716, "cargo": 30, "gc": 11.6,
+      "weight": 5875,
+      "tow": 7716,
+      "cargo": 30,
+      "gc": 11.6,
       "source": "Land Rover 2025 Range Rover (with air suspension)"
     },
     "wrangler_jl": {
-      "weight": 4450, "tow": 3500, "cargo": 31, "gc": 10.8,
+      "weight": 4450,
+      "tow": 3500,
+      "cargo": 31,
+      "gc": 10.8,
       "source": "Jeep 2025 Wrangler Rubicon 4dr"
     },
     "wrangler_rubicon": {
-      "weight": 4800, "tow": 3500, "cargo": 31, "gc": 10.8,
+      "weight": 4800,
+      "tow": 3500,
+      "cargo": 31,
+      "gc": 10.8,
       "source": "Jeep 2025 Wrangler Rubicon 392"
     },
     "wrangler_jk": {
-      "weight": 4200, "tow": 3500, "cargo": 31, "gc": 10.0,
+      "weight": 4200,
+      "tow": 3500,
+      "cargo": 31,
+      "gc": 10,
       "source": "Jeep Wrangler JK (2007-2018)"
     },
     "wrangler_tj": {
-      "weight": 3650, "tow": 2000, "cargo": 8, "gc": 8.3,
+      "weight": 3650,
+      "tow": 2000,
+      "cargo": 8,
+      "gc": 8.3,
       "source": "Jeep Wrangler TJ (1997-2006)"
     },
     "gc_trailhawk": {
-      "weight": 5020, "tow": 6200, "cargo": 37, "gc": 10.9,
+      "weight": 5020,
+      "tow": 6200,
+      "cargo": 37,
+      "gc": 10.9,
       "source": "Jeep 2025 Grand Cherokee Trailhawk"
     },
     "gc4xe": {
-      "weight": 5600, "tow": 6000, "cargo": 37, "gc": 10.9,
+      "weight": 5600,
+      "tow": 6000,
+      "cargo": 37,
+      "gc": 10.9,
       "source": "Jeep 2025 Grand Cherokee 4xe"
     },
     "gc4xe_ol": {
-      "weight": 5600, "tow": 6000, "cargo": 37, "gc": 10.9,
+      "weight": 5600,
+      "tow": 6000,
+      "cargo": 37,
+      "gc": 10.9,
       "source": "Jeep 2025 Grand Cherokee 4xe Overland"
     },
     "gc_wk2": {
-      "weight": 4950, "tow": 7200, "cargo": 36, "gc": 8.6,
+      "weight": 4950,
+      "tow": 7200,
+      "cargo": 36,
+      "gc": 8.6,
       "source": "Jeep Grand Cherokee WK2 (2011-2021)"
     },
     "gc_wk2_th": {
-      "weight": 5100, "tow": 7200, "cargo": 36, "gc": 10.8,
+      "weight": 5100,
+      "tow": 7200,
+      "cargo": 36,
+      "gc": 10.8,
       "source": "Jeep Grand Cherokee WK2 Trailhawk"
     },
     "gwagoneer": {
-      "weight": 6620, "tow": 9850, "cargo": 44, "gc": 10.0,
+      "weight": 6620,
+      "tow": 9850,
+      "cargo": 44,
+      "gc": 10,
       "source": "Jeep 2025 Grand Wagoneer"
     },
     "wagoneer": {
-      "weight": 6200, "tow": 10000, "cargo": 44, "gc": 10.0,
+      "weight": 6200,
+      "tow": 10000,
+      "cargo": 44,
+      "gc": 10,
       "source": "Jeep 2025 Wagoneer"
     },
     "bronco": {
-      "weight": 4700, "tow": 3500, "cargo": 36, "gc": 11.6,
+      "weight": 4700,
+      "tow": 3500,
+      "cargo": 36,
+      "gc": 11.6,
       "source": "Ford 2025 Bronco Badlands"
     },
     "bronco_ob": {
-      "weight": 4700, "tow": 3500, "cargo": 36, "gc": 11.6,
+      "weight": 4700,
+      "tow": 3500,
+      "cargo": 36,
+      "gc": 11.6,
       "source": "Ford 2025 Bronco Outer Banks"
     },
     "bronco_raptor": {
-      "weight": 5070, "tow": 4500, "cargo": 32, "gc": 13.1,
+      "weight": 5070,
+      "tow": 4500,
+      "cargo": 32,
+      "gc": 13.1,
       "source": "Ford 2025 Bronco Raptor"
     },
     "bronco_21_24": {
-      "weight": 4500, "tow": 3500, "cargo": 35, "gc": 11.5,
+      "weight": 4500,
+      "tow": 3500,
+      "cargo": 35,
+      "gc": 11.5,
       "source": "Ford Bronco (2021-2024)"
     },
     "expedition": {
-      "weight": 5860, "tow": 9300, "cargo": 36, "gc": 9.8,
+      "weight": 5860,
+      "tow": 9300,
+      "cargo": 36,
+      "gc": 9.8,
       "source": "Ford 2025 Expedition"
     },
     "expedition_4g": {
-      "weight": 5600, "tow": 9200, "cargo": 36, "gc": 9.5,
+      "weight": 5600,
+      "tow": 9200,
+      "cargo": 36,
+      "gc": 9.5,
       "source": "Ford Expedition 4th Gen (2018-2024)"
     },
     "excursion": {
-      "weight": 7190, "tow": 11000, "cargo": 50, "gc": 8.5,
+      "weight": 7190,
+      "tow": 11000,
+      "cargo": 50,
+      "gc": 8.5,
       "source": "Ford Excursion (2000-2005)"
     },
     "tahoe_5g": {
-      "weight": 5600, "tow": 8200, "cargo": 25, "gc": 8.0,
+      "weight": 5600,
+      "tow": 8200,
+      "cargo": 25,
+      "gc": 8,
       "source": "Chevy 2025 Tahoe"
     },
     "tahoe_z71": {
-      "weight": 5700, "tow": 8200, "cargo": 25, "gc": 10.0,
+      "weight": 5700,
+      "tow": 8200,
+      "cargo": 25,
+      "gc": 10,
       "source": "Chevy 2025 Tahoe Z71"
     },
     "tahoe_4g": {
-      "weight": 5500, "tow": 8600, "cargo": 15, "gc": 7.9,
+      "weight": 5500,
+      "tow": 8600,
+      "cargo": 15,
+      "gc": 7.9,
       "source": "Chevy Tahoe 4th Gen (2015-2020)"
     },
     "suburban": {
-      "weight": 5800, "tow": 8300, "cargo": 41, "gc": 8.0,
+      "weight": 5800,
+      "tow": 8300,
+      "cargo": 41,
+      "gc": 8,
       "source": "Chevy 2025 Suburban"
     },
     "4wd_suburban": {
-      "weight": 5700, "tow": 8000, "cargo": 39, "gc": 7.9,
+      "weight": 5700,
+      "tow": 8000,
+      "cargo": 39,
+      "gc": 7.9,
       "source": "Chevy Suburban 4WD (2015-2020)"
     },
     "yukon_at4": {
-      "weight": 5800, "tow": 8400, "cargo": 25, "gc": 10.0,
+      "weight": 5800,
+      "tow": 8400,
+      "cargo": 25,
+      "gc": 10,
       "source": "GMC 2025 Yukon AT4"
     },
     "escalade_v": {
-      "weight": 6200, "tow": 7000, "cargo": 25, "gc": 7.9,
+      "weight": 6200,
+      "tow": 7000,
+      "cargo": 25,
+      "gc": 7.9,
       "source": "Cadillac 2025 Escalade-V"
     },
     "gwagen": {
-      "weight": 5940, "tow": 7000, "cargo": 19, "gc": 9.5,
+      "weight": 5940,
+      "tow": 7000,
+      "cargo": 19,
+      "gc": 9.5,
       "source": "Mercedes 2025 G 550"
     },
     "gwagen_amg": {
-      "weight": 5940, "tow": 7000, "cargo": 19, "gc": 9.5,
+      "weight": 5940,
+      "tow": 7000,
+      "cargo": 19,
+      "gc": 9.5,
       "source": "Mercedes 2025 G 63 AMG"
     },
     "gwagen_w463": {
-      "weight": 5700, "tow": 7000, "cargo": 19, "gc": 8.4,
+      "weight": 5700,
+      "tow": 7000,
+      "cargo": 19,
+      "gc": 8.4,
       "source": "Mercedes G-Class W463 (2013-2018)"
     },
     "g580_eq": {
-      "weight": 6650, "tow": 4400, "cargo": 19, "gc": 9.8,
+      "weight": 6650,
+      "tow": 4400,
+      "cargo": 19,
+      "gc": 9.8,
       "source": "Mercedes 2025 G 580 EQ (electric)"
     },
     "gle": {
-      "weight": 5040, "tow": 7700, "cargo": 33, "gc": 8.0,
+      "weight": 5040,
+      "tow": 7700,
+      "cargo": 33,
+      "gc": 8,
       "source": "Mercedes 2025 GLE 450"
     },
     "gle350de": {
-      "weight": 5500, "tow": 5500, "cargo": 30, "gc": 8.0,
+      "weight": 5500,
+      "tow": 5500,
+      "cargo": 30,
+      "gc": 8,
       "source": "Mercedes GLE 350de (diesel PHEV)"
     },
     "gls": {
-      "weight": 5700, "tow": 7500, "cargo": 35, "gc": 8.0,
+      "weight": 5700,
+      "tow": 7500,
+      "cargo": 35,
+      "gc": 8,
       "source": "Mercedes 2025 GLS 450"
     },
     "eqs_suv": {
-      "weight": 6060, "tow": 3500, "cargo": 34, "gc": 6.5,
+      "weight": 6060,
+      "tow": 3500,
+      "cargo": 34,
+      "gc": 6.5,
       "source": "Mercedes 2025 EQS SUV"
     },
     "x5": {
-      "weight": 5335, "tow": 7200, "cargo": 33, "gc": 8.7,
+      "weight": 5335,
+      "tow": 7200,
+      "cargo": 33,
+      "gc": 8.7,
       "source": "BMW 2025 X5 xDrive50e (PHEV)"
     },
     "x7": {
-      "weight": 5900, "tow": 7500, "cargo": 36, "gc": 8.7,
+      "weight": 5900,
+      "tow": 7500,
+      "cargo": 36,
+      "gc": 8.7,
       "source": "BMW 2025 X7"
     },
     "ix_xdrive50": {
-      "weight": 5600, "tow": 5500, "cargo": 36, "gc": 7.3,
+      "weight": 5600,
+      "tow": 5500,
+      "cargo": 36,
+      "gc": 7.3,
       "source": "BMW 2025 iX xDrive50"
     },
     "xm": {
-      "weight": 6092, "tow": 6000, "cargo": 20, "gc": 8.0,
+      "weight": 6092,
+      "tow": 6000,
+      "cargo": 20,
+      "gc": 8,
       "source": "BMW 2025 XM"
     },
     "cayenne": {
-      "weight": 4560, "tow": 7700, "cargo": 26, "gc": 8.2,
+      "weight": 4560,
+      "tow": 7700,
+      "cargo": 26,
+      "gc": 8.2,
       "source": "Porsche 2025 Cayenne"
     },
     "cayenne_coupe": {
-      "weight": 4590, "tow": 7700, "cargo": 22, "gc": 8.2,
+      "weight": 4590,
+      "tow": 7700,
+      "cargo": 22,
+      "gc": 8.2,
       "source": "Porsche 2025 Cayenne Coupe"
     },
     "cayenne_ehybrid": {
-      "weight": 5400, "tow": 7700, "cargo": 24, "gc": 7.5,
+      "weight": 5400,
+      "tow": 7700,
+      "cargo": 24,
+      "gc": 7.5,
       "source": "Porsche 2025 Cayenne E-Hybrid"
     },
     "cayenne_turbo": {
-      "weight": 5300, "tow": 7700, "cargo": 26, "gc": 8.2,
+      "weight": 5300,
+      "tow": 7700,
+      "cargo": 26,
+      "gc": 8.2,
       "source": "Porsche 2025 Cayenne Turbo E-Hybrid"
     },
     "q8": {
-      "weight": 5070, "tow": 7700, "cargo": 30, "gc": 8.4,
+      "weight": 5070,
+      "tow": 7700,
+      "cargo": 30,
+      "gc": 8.4,
       "source": "Audi 2025 Q8 55 TFSI quattro"
     },
     "sq8": {
-      "weight": 5380, "tow": 7700, "cargo": 30, "gc": 8.4,
+      "weight": 5380,
+      "tow": 7700,
+      "cargo": 30,
+      "gc": 8.4,
       "source": "Audi 2025 SQ8"
     },
     "rsq8": {
-      "weight": 5500, "tow": 7700, "cargo": 30, "gc": 8.4,
+      "weight": 5500,
+      "tow": 7700,
+      "cargo": 30,
+      "gc": 8.4,
       "source": "Audi 2025 RS Q8"
     },
     "r1s": {
-      "weight": 6975, "tow": 7700, "cargo": 34, "gc": 14.9,
+      "weight": 6975,
+      "tow": 7700,
+      "cargo": 34,
+      "gc": 14.9,
       "source": "Rivian 2025 R1S"
     },
     "r1s_perf": {
-      "weight": 6975, "tow": 7700, "cargo": 34, "gc": 14.9,
+      "weight": 6975,
+      "tow": 7700,
+      "cargo": 34,
+      "gc": 14.9,
       "source": "Rivian 2025 R1S Performance"
     },
     "model_x": {
-      "weight": 5390, "tow": 5000, "cargo": 88, "gc": 6.6,
+      "weight": 5390,
+      "tow": 5000,
+      "cargo": 88,
+      "gc": 6.6,
       "source": "Tesla 2025 Model X"
     },
     "cybertruck": {
-      "weight": 6670, "tow": 11000, "cargo": 54, "gc": 11.0,
+      "weight": 6670,
+      "tow": 11000,
+      "cargo": 54,
+      "gc": 11,
       "source": "Tesla 2025 Cybertruck AWD"
     },
     "cybertruck_beast": {
-      "weight": 6843, "tow": 11000, "cargo": 54, "gc": 17.0,
+      "weight": 6843,
+      "tow": 11000,
+      "cargo": 54,
+      "gc": 17,
       "source": "Tesla 2025 Cybertruck Cyberbeast"
     },
     "hummer_ev": {
-      "weight": 9046, "tow": 7500, "cargo": 35, "gc": 16.0,
+      "weight": 9046,
+      "tow": 7500,
+      "cargo": 35,
+      "gc": 16,
       "source": "GMC 2025 Hummer EV SUV"
     },
     "xc90_recharge": {
-      "weight": 5500, "tow": 5000, "cargo": 41, "gc": 8.8,
+      "weight": 5500,
+      "tow": 5000,
+      "cargo": 41,
+      "gc": 8.8,
       "source": "Volvo 2025 XC90 Recharge"
     },
     "ex90": {
-      "weight": 6000, "tow": 5500, "cargo": 35, "gc": 8.3,
+      "weight": 6000,
+      "tow": 5500,
+      "cargo": 35,
+      "gc": 8.3,
       "source": "Volvo 2025 EX90"
     },
     "gv80": {
-      "weight": 5105, "tow": 6000, "cargo": 35, "gc": 8.0,
+      "weight": 5105,
+      "tow": 6000,
+      "cargo": 35,
+      "gc": 8,
       "source": "Genesis 2025 GV80"
     },
     "xterra": {
-      "weight": 4350, "tow": 5000, "cargo": 36, "gc": 9.5,
+      "weight": 4350,
+      "tow": 5000,
+      "cargo": 36,
+      "gc": 9.5,
       "source": "Nissan Xterra (2005-2015)"
     },
     "pathfinder_r51": {
-      "weight": 4550, "tow": 7000, "cargo": 80, "gc": 9.1,
+      "weight": 4550,
+      "tow": 7000,
+      "cargo": 80,
+      "gc": 9.1,
       "source": "Nissan Pathfinder R51 (2005-2012)"
     },
     "patrol_y61": {
-      "weight": 5400, "tow": 7700, "cargo": 90, "gc": 8.7,
+      "weight": 5400,
+      "tow": 7700,
+      "cargo": 90,
+      "gc": 8.7,
       "source": "Nissan Patrol Y61 (1997-2013)"
     },
     "montero": {
-      "weight": 5200, "tow": 7000, "cargo": 83, "gc": 9.1,
+      "weight": 5200,
+      "tow": 7000,
+      "cargo": 83,
+      "gc": 9.1,
       "source": "Mitsubishi Montero (2001-2006)"
     },
     "montero_gen3": {
-      "weight": 4900, "tow": 6500, "cargo": 83, "gc": 9.1,
+      "weight": 4900,
+      "tow": 6500,
+      "cargo": 83,
+      "gc": 9.1,
       "source": "Mitsubishi Montero 3rd Gen (1991-1999)"
     },
     "montero_sport": {
-      "weight": 4200, "tow": 5000, "cargo": 40, "gc": 8.5,
+      "weight": 4200,
+      "tow": 5000,
+      "cargo": 40,
+      "gc": 8.5,
       "source": "Mitsubishi Montero Sport (1997-2004)"
     },
     "hummer_h2": {
-      "weight": 6400, "tow": 8200, "cargo": 38, "gc": 10.0,
+      "weight": 6400,
+      "tow": 8200,
+      "cargo": 38,
+      "gc": 10,
       "source": "Hummer H2 (2003-2009)"
     },
     "trooper": {
-      "weight": 4200, "tow": 5000, "cargo": 38, "gc": 8.0,
+      "weight": 4200,
+      "tow": 5000,
+      "cargo": 38,
+      "gc": 8,
       "source": "Isuzu Trooper (1992-2002)"
     },
-
     "navigator": {
-      "weight": 5929, "tow": 8700, "cargo": 23, "gc": 8.9,
+      "weight": 5929,
+      "tow": 8700,
+      "cargo": 23,
+      "gc": 8.9,
       "source": "Lincoln 2025 Navigator Reserve (standard wb)"
     },
     "aviator": {
-      "weight": 4862, "tow": 5000, "cargo": 43, "gc": 8.0,
+      "weight": 4862,
+      "tow": 5000,
+      "cargo": 43,
+      "gc": 8,
       "source": "Lincoln 2025 Aviator Black Label AWD"
     },
     "qx80": {
-      "weight": 6204, "tow": 8500, "cargo": 22, "gc": 7.9,
+      "weight": 6204,
+      "tow": 8500,
+      "cargo": 22,
+      "gc": 7.9,
       "source": "Infiniti 2025 QX80 (10\" with air in off-road mode)"
     },
     "mdx_type_s": {
-      "weight": 4788, "tow": 5000, "cargo": 36, "gc": 7.3,
+      "weight": 4788,
+      "tow": 5000,
+      "cargo": 36,
+      "gc": 7.3,
       "source": "Acura 2025 MDX Type S Advance (6.7-9.4\" with air)"
     },
     "telluride_xpro": {
-      "weight": 4450, "tow": 5500, "cargo": 21, "gc": 8.4,
+      "weight": 4450,
+      "tow": 5500,
+      "cargo": 21,
+      "gc": 8.4,
       "source": "Kia 2025 Telluride SX Prestige X-Pro AWD"
     },
     "palisade": {
-      "weight": 4500, "tow": 5000, "cargo": 18, "gc": 7.9,
+      "weight": 4500,
+      "tow": 5000,
+      "cargo": 18,
+      "gc": 7.9,
       "source": "Hyundai 2025 Palisade Calligraphy AWD"
     },
     "pilot_trailsport": {
-      "weight": 4685, "tow": 5000, "cargo": 17, "gc": 8.3,
+      "weight": 4685,
+      "tow": 5000,
+      "cargo": 17,
+      "gc": 8.3,
       "source": "Honda 2025 Pilot TrailSport AWD"
     },
     "passport_trailsport": {
-      "weight": 4200, "tow": 5000, "cargo": 41, "gc": 8.3,
+      "weight": 4200,
+      "tow": 5000,
+      "cargo": 41,
+      "gc": 8.3,
       "source": "Honda 2025 Passport TrailSport AWD"
     },
     "cx90_phev": {
-      "weight": 5100, "tow": 3500, "cargo": 20, "gc": 8.0,
+      "weight": 5100,
+      "tow": 3500,
+      "cargo": 20,
+      "gc": 8,
       "source": "Mazda 2025 CX-90 PHEV Premium Plus AWD"
     },
     "santa_fe_xrt": {
-      "weight": 4486, "tow": 4500, "cargo": 36, "gc": 8.3,
+      "weight": 4486,
+      "tow": 4500,
+      "cargo": 36,
+      "gc": 8.3,
       "source": "Hyundai 2025 Santa Fe XRT AWD"
     },
     "outback_wilderness": {
-      "weight": 3922, "tow": 3500, "cargo": 33, "gc": 9.5,
+      "weight": 3922,
+      "tow": 3500,
+      "cargo": 33,
+      "gc": 9.5,
       "source": "Subaru 2025 Outback Wilderness"
     },
     "forester_wilderness": {
-      "weight": 3510, "tow": 3000, "cargo": 27, "gc": 9.2,
+      "weight": 3510,
+      "tow": 3000,
+      "cargo": 27,
+      "gc": 9.2,
       "source": "Subaru 2025 Forester Wilderness"
     },
     "sorento_phev": {
-      "weight": 4270, "tow": 4500, "cargo": 13, "gc": 6.9,
+      "weight": 4270,
+      "tow": 4500,
+      "cargo": 13,
+      "gc": 6.9,
       "source": "Kia 2025 Sorento SX Prestige PHEV AWD"
     },
     "gladiator_rubicon": {
-      "weight": 5031, "tow": 7000, "cargo": 35, "gc": 11.1,
+      "weight": 5031,
+      "tow": 7000,
+      "cargo": 35,
+      "gc": 11.1,
       "source": "Jeep 2025 Gladiator Rubicon"
     },
     "wrangler_sahara": {
-      "weight": 4400, "tow": 5000, "cargo": 31, "gc": 10.0,
+      "weight": 4400,
+      "tow": 5000,
+      "cargo": 31,
+      "gc": 10,
       "source": "Jeep 2025 Wrangler Sahara 4-door"
     },
     "tacoma_trd_pro": {
-      "weight": 5100, "tow": 6000, "cargo": 35, "gc": 11.5,
+      "weight": 5100,
+      "tow": 6000,
+      "cargo": 35,
+      "gc": 11.5,
       "source": "Toyota 2025 Tacoma TRD Pro Double Cab"
     },
     "tx_550h": {
-      "weight": 4970, "tow": 5000, "cargo": 20, "gc": 7.9,
+      "weight": 4970,
+      "tow": 5000,
+      "cargo": 20,
+      "gc": 7.9,
       "source": "Lexus 2025 TX 550h+ Luxury AWD"
     },
     "gv70": {
-      "weight": 4500, "tow": 3500, "cargo": 28, "gc": 7.3,
+      "weight": 4500,
+      "tow": 3500,
+      "cargo": 28,
+      "gc": 7.3,
       "source": "Genesis 2025 GV70 3.5T Sport AWD"
     },
     "escalade": {
-      "weight": 6014, "tow": 8100, "cargo": 25, "gc": 7.9,
+      "weight": 6014,
+      "tow": 8100,
+      "cargo": 25,
+      "gc": 7.9,
       "source": "Cadillac 2025 Escalade Sport 4WD"
     },
     "defender_90": {
-      "weight": 5207, "tow": 8201, "cargo": 16, "gc": 11.5,
+      "weight": 5207,
+      "tow": 8201,
+      "cargo": 16,
+      "gc": 11.5,
       "source": "Land Rover 2025 Defender 90 S (air suspension) - Edmunds, KBB"
     },
     "gc_l_overland": {
-      "weight": 4997, "tow": 6200, "cargo": 17, "gc": 10.9,
+      "weight": 4997,
+      "tow": 6200,
+      "cargo": 17,
+      "gc": 10.9,
       "source": "Jeep 2025 Grand Cherokee L Overland 4x4 - Edmunds, Jeep.com"
     },
     "lc_first_ed": {
-      "weight": 5038, "tow": 6000, "cargo": 38, "gc": 8.7,
+      "weight": 5038,
+      "tow": 6000,
+      "cargo": 38,
+      "gc": 8.7,
       "source": "Toyota 2024 Land Cruiser First Edition - Edmunds"
     },
     "qx80_2g": {
-      "weight": 5948, "tow": 8500, "cargo": 16, "gc": 9.2,
+      "weight": 5948,
+      "tow": 8500,
+      "cargo": 16,
+      "gc": 9.2,
       "source": "Infiniti QX80 2nd Gen (2014-2024) - Edmunds, AutoPadre"
+    },
+    "f150_raptor": {
+      "weight": 5950,
+      "tow": 8200,
+      "cargo": 52,
+      "gc": 12,
+      "source": "2024 Ford F-150 Raptor - Ford media specs, Edmunds"
+    },
+    "f150_tremor": {
+      "weight": 5235,
+      "tow": 12000,
+      "cargo": 52,
+      "gc": 9.8,
+      "source": "2024 Ford F-150 Tremor - Ford specs, The Drive"
+    },
+    "tundra_trd_pro": {
+      "weight": 6015,
+      "tow": 11175,
+      "cargo": 55,
+      "gc": 9,
+      "source": "2024 Toyota Tundra TRD Pro - Toyota specs, Edmunds"
+    },
+    "tundra_1794": {
+      "weight": 5700,
+      "tow": 11050,
+      "cargo": 55,
+      "gc": 8.5,
+      "source": "2024 Toyota Tundra 1794 Edition - Toyota specs, J.D. Power"
+    },
+    "silverado_zr2": {
+      "weight": 5710,
+      "tow": 8800,
+      "cargo": 60,
+      "gc": 11.2,
+      "source": "2024 Chevrolet Silverado 1500 ZR2 - GM specs, Cars.com"
+    },
+    "colorado_zr2": {
+      "weight": 4950,
+      "tow": 6000,
+      "cargo": 41,
+      "gc": 10.7,
+      "source": "2024 Chevrolet Colorado ZR2 - GM Authority, U.S. News"
+    },
+    "ram_trx": {
+      "weight": 6400,
+      "tow": 8100,
+      "cargo": 54,
+      "gc": 11.8,
+      "source": "2024 Ram 1500 TRX - Ram specs, Edmunds"
+    },
+    "ram_rebel": {
+      "weight": 5500,
+      "tow": 12750,
+      "cargo": 54,
+      "gc": 9.7,
+      "source": "2024 Ram 1500 Rebel - Ram specs, Edmunds"
+    },
+    "ranger_raptor": {
+      "weight": 5325,
+      "tow": 5510,
+      "cargo": 50,
+      "gc": 11.1,
+      "source": "2024 Ford Ranger Raptor - Ford media specs, Hagerty"
+    },
+    "renegade_trailhawk": {
+      "weight": 3337,
+      "tow": 2000,
+      "cargo": 18.5,
+      "gc": 8.7,
+      "source": "2023 Jeep Renegade Trailhawk - Edmunds (discontinued after 2023)"
+    },
+    "compass_trailhawk": {
+      "weight": 3558,
+      "tow": 2000,
+      "cargo": 27.2,
+      "gc": 8.6,
+      "source": "2025 Jeep Compass Trailhawk - Edmunds, Jeep.com"
+    },
+    "rav4_trd_or": {
+      "weight": 3710,
+      "tow": 3500,
+      "cargo": 37.5,
+      "gc": 8.6,
+      "source": "2024 Toyota RAV4 TRD Off-Road - Toyota specs (discontinued for 2025)"
+    },
+    "crosstrek_wilderness": {
+      "weight": 3369,
+      "tow": 3500,
+      "cargo": 20.8,
+      "gc": 9.3,
+      "source": "2025 Subaru Crosstrek Wilderness - Subaru.com, Edmunds"
+    },
+    "bronco_sport_badlands": {
+      "weight": 3706,
+      "tow": 2700,
+      "cargo": 29.4,
+      "gc": 9,
+      "source": "2025 Ford Bronco Sport Badlands - Ford.com, Edmunds"
+    },
+    "cx50_meridian": {
+      "weight": 3875,
+      "tow": 3500,
+      "cargo": 31.4,
+      "gc": 8.5,
+      "source": "2025 Mazda CX-50 Meridian Edition - Edmunds, MazdaUSA"
+    },
+    "tucson_xrt": {
+      "weight": 3715,
+      "tow": 2000,
+      "cargo": 38.7,
+      "gc": 8.3,
+      "source": "2025 Hyundai Tucson XRT - Hyundai specs, Edmunds"
+    },
+    "sportage_xpro": {
+      "weight": 3814,
+      "tow": 2500,
+      "cargo": 39.6,
+      "gc": 8.3,
+      "source": "2025 Kia Sportage X-Pro - Kia specs, Edmunds"
+    },
+    "samurai": {
+      "weight": 2094,
+      "tow": 1000,
+      "cargo": 28,
+      "gc": 8.1,
+      "source": "Suzuki Samurai (1986-1995) - Zuki Offroad, Off-Road.com"
+    },
+    "sidekick": {
+      "weight": 2950,
+      "tow": 1500,
+      "cargo": 21,
+      "gc": 7.9,
+      "source": "Suzuki Sidekick (1989-1998) - Edmunds, AutoPadre"
+    },
+    "tracker": {
+      "weight": 2380,
+      "tow": 1500,
+      "cargo": 21,
+      "gc": 7.9,
+      "source": "Geo Tracker (1989-1998) - Zuki Offroad, Ultimate Specs"
+    },
+    "grand_vitara": {
+      "weight": 3527,
+      "tow": 3000,
+      "cargo": 25,
+      "gc": 8.3,
+      "source": "Suzuki Grand Vitara 2nd Gen (2006-2013) - Edmunds, AutoEvolution"
+    },
+    "rodeo": {
+      "weight": 3900,
+      "tow": 4500,
+      "cargo": 33,
+      "gc": 8.2,
+      "source": "Isuzu Rodeo 2nd Gen (1998-2004) - AutoPadre, Edmunds"
+    },
+    "amigo": {
+      "weight": 4250,
+      "tow": 3500,
+      "cargo": 22,
+      "gc": 8.2,
+      "source": "Isuzu Amigo 2nd Gen (1998-2000) - Carweek, Edmunds"
+    },
+    "rav4_hybrid": {
+      "weight": 3690,
+      "tow": 1750,
+      "cargo": 37.5,
+      "gc": 8.4,
+      "source": "2025 Toyota RAV4 Hybrid XSE AWD - Toyota.com, Edmunds"
+    },
+    "highlander_hybrid": {
+      "weight": 4595,
+      "tow": 3500,
+      "cargo": 48.4,
+      "gc": 8,
+      "source": "2025 Toyota Highlander Hybrid XLE AWD - Toyota.com, Edmunds"
+    },
+    "venza": {
+      "weight": 3891,
+      "tow": 1750,
+      "cargo": 28,
+      "gc": 8.2,
+      "source": "2024 Toyota Venza XLE AWD - Toyota.com, Edmunds (discontinued)"
+    },
+    "crv_hybrid": {
+      "weight": 3926,
+      "tow": 1500,
+      "cargo": 36,
+      "gc": 8.2,
+      "source": "2025 Honda CR-V Sport Touring Hybrid AWD - Honda.com, Edmunds"
+    },
+    "tucson_hybrid": {
+      "weight": 3900,
+      "tow": 2000,
+      "cargo": 38.7,
+      "gc": 8.3,
+      "source": "2025 Hyundai Tucson Hybrid Limited AWD - Hyundai.com, Edmunds"
+    },
+    "santa_fe_hybrid": {
+      "weight": 4400,
+      "tow": 2000,
+      "cargo": 40.5,
+      "gc": 8.3,
+      "source": "2025 Hyundai Santa Fe Hybrid SEL AWD - Hyundai.com, Edmunds"
+    },
+    "sportage_hybrid": {
+      "weight": 3800,
+      "tow": 2500,
+      "cargo": 39.5,
+      "gc": 8.3,
+      "source": "2025 Kia Sportage Hybrid SX-Prestige AWD - Kia.com, Edmunds"
+    },
+    "sorento_hybrid": {
+      "weight": 4300,
+      "tow": 1650,
+      "cargo": 38.5,
+      "gc": 7.3,
+      "source": "2025 Kia Sorento Hybrid SX-Prestige AWD - Kia.com, Edmunds"
+    },
+    "escape_hybrid": {
+      "weight": 3700,
+      "tow": 1500,
+      "cargo": 37,
+      "gc": 6.9,
+      "source": "2025 Ford Escape Hybrid ST-Line AWD - Ford.com, Edmunds"
+    },
+    "nx_350h": {
+      "weight": 4200,
+      "tow": 2000,
+      "cargo": 22.7,
+      "gc": 8.1,
+      "source": "2025 Lexus NX 350h Luxury AWD - Lexus.com, Edmunds"
+    },
+    "rx_350h": {
+      "weight": 4500,
+      "tow": 3500,
+      "cargo": 29.6,
+      "gc": 8.2,
+      "source": "2025 Lexus RX 350h Luxury AWD - Lexus.com, Edmunds"
+    },
+    "tucson_phev": {
+      "weight": 4265,
+      "tow": 2000,
+      "cargo": 31.9,
+      "gc": 8.3,
+      "source": "Hyundai USA, Edmunds, U.S. News"
+    },
+    "sportage_phev": {
+      "weight": 4215,
+      "tow": 2500,
+      "cargo": 34.5,
+      "gc": 8.3,
+      "source": "Kia Media, U.S. News, Edmunds"
+    },
+    "escape_phev": {
+      "weight": 3904,
+      "tow": 1500,
+      "cargo": 34.4,
+      "gc": 6.9,
+      "source": "Ford Media, Edmunds, U.S. News"
+    },
+    "nx_450h_plus": {
+      "weight": 3790,
+      "tow": 2000,
+      "cargo": 22.7,
+      "gc": 7.7,
+      "source": "Lexus USA, Edmunds, Cars.com"
+    },
+    "rx_450h_plus": {
+      "weight": 4810,
+      "tow": 3500,
+      "cargo": 29.6,
+      "gc": 8.1,
+      "source": "Lexus USA, Edmunds, Clean Fleet Report"
+    },
+    "land_cruiser_80": {
+      "weight": 5200,
+      "tow": 5500,
+      "cargo": 48,
+      "gc": 8.9,
+      "source": "FLEX Automotive, RoughTrax, Automobile-Catalog"
+    },
+    "land_cruiser_100": {
+      "weight": 5390,
+      "tow": 6500,
+      "cargo": 39,
+      "gc": 9.8,
+      "source": "Cool Cruisers, FLEX Automotive, encyCARpedia"
+    },
+    "cherokee_xj": {
+      "weight": 3300,
+      "tow": 5000,
+      "cargo": 34,
+      "gc": 8,
+      "source": "Jeep Database, Edmunds, encyCARpedia"
+    },
+    "4runner_4th_gen_v8": {
+      "weight": 4450,
+      "tow": 7000,
+      "cargo": 42,
+      "gc": 9.1,
+      "source": "autoevolution, CarBuzz, Edmunds"
+    },
+    "discovery_3_lr3": {
+      "weight": 5426,
+      "tow": 7700,
+      "cargo": 45,
+      "gc": 9.4,
+      "source": "autoevolution, Edmunds, HotCars"
+    },
+    "bronco_5th_gen": {
+      "weight": 4587,
+      "tow": 6000,
+      "cargo": 50,
+      "gc": 7,
+      "source": "Edmunds, autoevolution, automobile-catalog"
+    },
+    "atlas_cross_sport_4motion": {
+      "weight": 4345,
+      "tow": 5000,
+      "cargo": 40,
+      "gc": 6.3,
+      "source": "Volkswagen USA, Edmunds, Elk Grove VW"
+    },
+    "v60_cross_country": {
+      "weight": 4004,
+      "tow": 2000,
+      "cargo": 18.3,
+      "gc": 8.1,
+      "source": "Volvo Cars, Edmunds, CarBuzz"
+    },
+    "v90_cross_country": {
+      "weight": 4300,
+      "tow": 3500,
+      "cargo": 25.2,
+      "gc": 8.3,
+      "source": "Volvo Cars, Edmunds, Cars.com"
+    },
+    "canyon_at4x": {
+      "weight": 4800,
+      "tow": 6000,
+      "cargo": 42,
+      "gc": 10.7,
+      "source": "GMC, Edmunds, KBB"
+    },
+    "sierra_at4x": {
+      "weight": 5500,
+      "tow": 9000,
+      "cargo": 62,
+      "gc": 11.1,
+      "source": "GMC, U.S. News, Edmunds"
+    },
+    "ram_1500_ecodiesel": {
+      "weight": 5500,
+      "tow": 12560,
+      "cargo": 53,
+      "gc": 8.6,
+      "source": "Ram Trucks official specs, Edmunds"
+    },
+    "silverado_duramax": {
+      "weight": 5200,
+      "tow": 13300,
+      "cargo": 53,
+      "gc": 8,
+      "source": "Chevrolet official specs, Edmunds"
+    },
+    "gladiator_ecodiesel": {
+      "weight": 5352,
+      "tow": 6500,
+      "cargo": 35,
+      "gc": 11.1,
+      "source": "Jeep official specs, UltimateSpecs.com"
+    },
+    "f150_powerstroke": {
+      "weight": 5000,
+      "tow": 11500,
+      "cargo": 52,
+      "gc": 8.3,
+      "source": "Ford Media tech specs PDF, Edmunds"
+    },
+    "f150_lightning": {
+      "weight": 6500,
+      "tow": 10000,
+      "cargo": 52.8,
+      "gc": 8.4,
+      "source": "Ford.com, Edmunds, KBB"
+    },
+    "f150_powerboost": {
+      "weight": 5540,
+      "tow": 11200,
+      "cargo": 52.8,
+      "gc": 8.4,
+      "source": "Ford.com, Car and Driver, Edmunds"
+    },
+    "silverado_ev": {
+      "weight": 8800,
+      "tow": 12500,
+      "cargo": 52,
+      "gc": 8.9,
+      "source": "Chevrolet.com, Edmunds, GM"
+    },
+    "hummer_ev_pickup": {
+      "weight": 10000,
+      "tow": 12000,
+      "cargo": 29,
+      "gc": 15.9,
+      "source": "GMC.com, Edmunds, U.S. News"
+    },
+    "rav4_prime": {
+      "weight": 4230,
+      "tow": 2500,
+      "cargo": 33.5,
+      "gc": 8.4,
+      "source": "Toyota.com, Edmunds, U.S. News"
+    },
+    "r1t": {
+      "weight": 7000,
+      "tow": 11000,
+      "cargo": 29.2,
+      "gc": 14.9,
+      "source": "Rivian.com, Edmunds, KBB"
+    },
+    "tx_500h": {
+      "weight": 5000,
+      "tow": 5000,
+      "cargo": 20.2,
+      "gc": 8,
+      "source": "Lexus.com, Edmunds, Cars.com"
+    },
+    "ev9": {
+      "weight": 5840,
+      "tow": 5000,
+      "cargo": 20.2,
+      "gc": 7.8,
+      "source": "Kia.com, Kia Media, Edmunds"
+    },
+    "wrangler_4xe_sahara": {
+      "weight": 5025,
+      "tow": 3500,
+      "cargo": 31,
+      "gc": 10.1,
+      "source": "Jeep.com, Edmunds, Auto123"
+    },
+    "xterra_pro4x": {
+      "weight": 4140,
+      "tow": 5000,
+      "cargo": 36.3,
+      "gc": 9.5,
+      "source": "Edmunds, KBB, JD Power"
+    },
+    "montero_sport_xls": {
+      "weight": 3970,
+      "tow": 5000,
+      "cargo": 36,
+      "gc": 8.6,
+      "source": "Edmunds, KBB, automobile-catalog"
+    },
+    "wrangler_2dr_jl": {
+      "weight": 4222,
+      "tow": 2000,
+      "cargo": 12.9,
+      "gc": 10.8,
+      "source": "Jeep, Edmunds, KBB"
+    },
+    "wrangler_2dr_jk": {
+      "weight": 4055,
+      "tow": 2000,
+      "cargo": 12.8,
+      "gc": 10.3,
+      "source": "Quadratec, Edmunds, Autoblog"
+    },
+    "wrangler_2dr_tj": {
+      "weight": 3850,
+      "tow": 3500,
+      "cargo": 11.3,
+      "gc": 9.3,
+      "source": "Quadratec, Edmunds, KBB"
+    },
+    "bronco_2dr_badlands": {
+      "weight": 4500,
+      "tow": 3500,
+      "cargo": 22.4,
+      "gc": 10.5,
+      "source": "Ford, Edmunds, U.S. News"
+    },
+    "maverick_tremor": {
+      "weight": 3731,
+      "tow": 2000,
+      "cargo": 33,
+      "gc": 8.6,
+      "source": "Web research Feb 2026 - Ford Maverick Tremor"
+    },
+    "santa_cruz_sel": {
+      "weight": 4295,
+      "tow": 3500,
+      "cargo": 27,
+      "gc": 8.6,
+      "source": "Web research Feb 2026 - Hyundai Santa Cruz SEL AWD"
+    },
+    "frontier_pro4x": {
+      "weight": 4763,
+      "tow": 7150,
+      "cargo": 43,
+      "gc": 9.8,
+      "source": "Web research Feb 2026 - Nissan Frontier PRO-4X"
+    },
+    "tacoma_trd_or": {
+      "weight": 4630,
+      "tow": 6500,
+      "cargo": 34,
+      "gc": 11,
+      "source": "Web research Feb 2026 - Toyota Tacoma TRD Off-Road"
+    },
+    "ranger_xlt": {
+      "weight": 4408,
+      "tow": 7500,
+      "cargo": 44,
+      "gc": 8.9,
+      "source": "Web research Feb 2026 - Ford Ranger XLT 4WD"
+    },
+    "ascent_onyx": {
+      "weight": 4600,
+      "tow": 5000,
+      "cargo": 44,
+      "gc": 8.7,
+      "source": "Web research Feb 2026 - Subaru Ascent Onyx Edition"
+    },
+    "cx70_phev": {
+      "weight": 5198,
+      "tow": 3500,
+      "cargo": 40,
+      "gc": 8.1,
+      "source": "Web research Feb 2026 - Mazda CX-70 PHEV"
+    },
+    "tiguan_se_rline": {
+      "weight": 3801,
+      "tow": 1800,
+      "cargo": 27,
+      "gc": 7,
+      "source": "Web research Feb 2026 - Volkswagen Tiguan SE R-Line 4MOTION"
+    },
+    "rdx_aspec": {
+      "weight": 4058,
+      "tow": 1500,
+      "cargo": 30,
+      "gc": 8.2,
+      "source": "Web research Feb 2026 - Acura RDX A-Spec SH-AWD"
+    },
+    "grenadier_trialmaster": {
+      "weight": 5875,
+      "tow": 7716,
+      "cargo": 41,
+      "gc": 10.4,
+      "source": "Web research Feb 2026 - Ineos Grenadier Trialmaster"
+    },
+    "f150_xlt": {
+      "weight": 4941,
+      "tow": 7500,
+      "cargo": 53,
+      "gc": 9.4,
+      "source": "2025 Ford F-150 XLT SuperCrew 4WD, 2.7L EcoBoost — ford.com, dealer spec pages"
+    },
+    "tacoma_sr5": {
+      "weight": 4550,
+      "tow": 6400,
+      "cargo": 34,
+      "gc": 9.5,
+      "source": "2025 Toyota Tacoma SR5 Double Cab 4WD, 2.4T — toyota.com, tacoma4g.com"
+    },
+    "silverado_trail_boss": {
+      "weight": 4883,
+      "tow": 9200,
+      "cargo": 63,
+      "gc": 11.1,
+      "source": "2025 Chevrolet Silverado 1500 LT Trail Boss, 5.3L V8 — chevrolet.com, JD Power"
+    },
+    "ram_1500_big_horn": {
+      "weight": 5100,
+      "tow": 11610,
+      "cargo": 54,
+      "gc": 8.3,
+      "source": "2025 Ram 1500 Big Horn Crew Cab 4WD, 5.7L HEMI — ramtrucks.com, cars.usnews.com"
+    },
+    "crv_exl": {
+      "weight": 3472,
+      "tow": 1500,
+      "cargo": 39,
+      "gc": 8.2,
+      "source": "2025 Honda CR-V EX-L AWD, 1.5T — honda.com, Edmunds"
+    },
+    "hrv_exl": {
+      "weight": 3276,
+      "tow": 0,
+      "cargo": 24,
+      "gc": 7,
+      "source": "2025 Honda HR-V EX-L AWD, 2.0L — honda.com, KBB"
+    },
+    "ridgeline_rtl": {
+      "weight": 4480,
+      "tow": 5000,
+      "cargo": 34,
+      "gc": 7.6,
+      "source": "2025 Honda Ridgeline RTL AWD, 3.5L V6 — hondainfocenter.com"
+    },
+    "q5_quattro": {
+      "weight": 4150,
+      "tow": 4400,
+      "cargo": 26,
+      "gc": 8.2,
+      "source": "2025 Audi Q5 Premium Plus 45 Quattro, 2.0T — audiusa.com, Edmunds"
+    },
+    "q7_quattro": {
+      "weight": 5135,
+      "tow": 7700,
+      "cargo": 36,
+      "gc": 8.3,
+      "source": "2025 Audi Q7 PP 55 TFSI Quattro — Edmunds, JD Power"
+    },
+    "q8_etron": {
+      "weight": 5798,
+      "tow": 4000,
+      "cargo": 29,
+      "gc": 7.9,
+      "source": "2024 Audi Q8 e-tron Prestige — Edmunds, Audi media specs"
+    },
+    "a6_allroad": {
+      "weight": 4486,
+      "tow": 0,
+      "cargo": 30,
+      "gc": 7.3,
+      "source": "2025 Audi A6 Allroad PP — Edmunds, JD Power. No US tow rating."
+    },
+    "crosstrek_premium": {
+      "weight": 3277,
+      "tow": 1500,
+      "cargo": 20,
+      "gc": 8.7,
+      "source": "2025 Subaru Crosstrek Premium AWD — Subaru media, JD Power"
+    },
+    "atlas_se": {
+      "weight": 4345,
+      "tow": 5000,
+      "cargo": 56,
+      "gc": 6.3,
+      "source": "2025 VW Atlas SE 4MOTION — Edmunds, JD Power"
+    },
+    "durango_rt": {
+      "weight": 5331,
+      "tow": 7400,
+      "cargo": 43,
+      "gc": 8.1,
+      "source": "Dodge Durango R/T AWD specs (Edmunds, manufacturer)"
+    },
+    "explorer_timberline": {
+      "weight": 4437,
+      "tow": 5300,
+      "cargo": 48,
+      "gc": 8.7,
+      "source": "Ford Explorer Timberline 4WD specs (Edmunds, manufacturer)"
+    },
+    "armada_platinum": {
+      "weight": 5677,
+      "tow": 8500,
+      "cargo": 56,
+      "gc": 9.6,
+      "source": "Nissan Armada Platinum 4WD specs (Edmunds, manufacturer)"
+    },
+    "rogue_sl": {
+      "weight": 3694,
+      "tow": 1500,
+      "cargo": 37,
+      "gc": 8.2,
+      "source": "Nissan Rogue SL AWD specs (Edmunds, manufacturer)"
+    },
+    "equinox_rs": {
+      "weight": 3629,
+      "tow": 1500,
+      "cargo": 30,
+      "gc": 7.9,
+      "source": "Chevrolet Equinox RS AWD specs (Edmunds, manufacturer)"
+    },
+    "cx5_turbo": {
+      "weight": 3871,
+      "tow": 2000,
+      "cargo": 31,
+      "gc": 7.9,
+      "source": "Mazda CX-5 2.5 Turbo Premium AWD specs (Edmunds, manufacturer)"
+    },
+    "x3_xdrive": {
+      "weight": 4176,
+      "tow": 4000,
+      "cargo": 32,
+      "gc": 8.5,
+      "source": "BMW X3 xDrive30i specs (Edmunds, manufacturer)"
     }
   }
 }

@@ -7,121 +7,1085 @@
     "Consumer Reports reliability data"
   ],
   "vehicles": {
-    "4runner": { "price": 67, "pt": "hybrid", "reliability": 8.7 },
-    "4runner_ltd": { "price": 55, "pt": "hybrid", "reliability": 8.7 },
-    "4runner_trd_orp": { "price": 52, "pt": "hybrid", "reliability": 8.7 },
-    "runner_sr5": { "price": 41, "pt": "gas", "reliability": 8.7 },
-    "runner_sport": { "price": 45, "pt": "gas", "reliability": 8.7 },
-    "runner_venture": { "price": 67, "pt": "hybrid", "reliability": 8.7 },
-    "4runner_5g_trd_pro": { "price": 42, "pt": "gas", "reliability": 9.0 },
-    "4runner_5g_trd_or": { "price": 32, "pt": "gas", "reliability": 9.0 },
-    "4runner_5g_sr5": { "price": 25, "pt": "gas", "reliability": 9.0 },
-    "gx": { "price": 79, "pt": "gas", "reliability": 8.9 },
-    "gx_prem": { "price": 72, "pt": "gas", "reliability": 8.9 },
-    "gx460": { "price": 35, "pt": "gas", "reliability": 9.0 },
-    "gx470": { "price": 18, "pt": "gas", "reliability": 8.5 },
-    "lc": { "price": 57, "pt": "hybrid", "reliability": 8.7 },
-    "lc200": { "price": 55, "pt": "gas", "reliability": 9.0 },
-    "lc100": { "price": 28, "pt": "gas", "reliability": 8.5 },
-    "lc80": { "price": 35, "pt": "gas", "reliability": 8.0 },
-    "lx570": { "price": 58, "pt": "gas", "reliability": 9.0 },
-    "sequoia": { "price": 80, "pt": "hybrid", "reliability": 8.5 },
-    "sequoia_ltd": { "price": 72, "pt": "hybrid", "reliability": 8.5 },
-    "sequoia_2g": { "price": 30, "pt": "gas", "reliability": 8.5 },
-    "lx": { "price": 98, "pt": "hybrid", "reliability": 8.9 },
-    "fj_cruiser": { "price": 30, "pt": "gas", "reliability": 9.0 },
-    "defender": { "price": 114, "pt": "gas", "reliability": 8.2 },
-    "defender_s": { "price": 58, "pt": "gas", "reliability": 8.2 },
-    "defender_130": { "price": 80, "pt": "gas", "reliability": 8.2 },
-    "defender_classic": { "price": 55, "pt": "gas", "reliability": 6.0 },
-    "disco_5": { "price": 60, "pt": "gas", "reliability": 7.0 },
-    "disco_lr4": { "price": 25, "pt": "gas", "reliability": 6.5 },
-    "rr_sport": { "price": 86, "pt": "gas", "reliability": 7.5 },
-    "rr_full": { "price": 115, "pt": "gas", "reliability": 7.5 },
-    "gc4xe": { "price": 75, "pt": "phev", "reliability": 7.5 },
-    "gc4xe_ol": { "price": 68, "pt": "phev", "reliability": 7.5 },
-    "gc_trailhawk": { "price": 63, "pt": "phev", "reliability": 7.5 },
-    "gc_wk2": { "price": 25, "pt": "gas", "reliability": 7.0 },
-    "gc_wk2_th": { "price": 28, "pt": "gas", "reliability": 7.0 },
-    "wagoneer": { "price": 60, "pt": "gas", "reliability": 7.5 },
-    "gwagoneer": { "price": 87, "pt": "gas", "reliability": 7.5 },
-    "wrangler_jl": { "price": 55, "pt": "gas", "reliability": 7.5 },
-    "wrangler_rubicon": { "price": 62, "pt": "phev", "reliability": 7.5 },
-    "wrangler_jk": { "price": 25, "pt": "gas", "reliability": 7.5 },
-    "wrangler_tj": { "price": 15, "pt": "gas", "reliability": 7.5 },
-    "bronco": { "price": 50, "pt": "gas", "reliability": 7.0 },
-    "bronco_ob": { "price": 44, "pt": "gas", "reliability": 7.0 },
-    "bronco_raptor": { "price": 82, "pt": "gas", "reliability": 7.0 },
-    "bronco_21_24": { "price": 38, "pt": "gas", "reliability": 7.0 },
-    "expedition": { "price": 76, "pt": "gas", "reliability": 7.5 },
-    "expedition_4g": { "price": 35, "pt": "gas", "reliability": 7.5 },
-    "excursion": { "price": 25, "pt": "diesel", "reliability": 7.0 },
-    "tahoe_z71": { "price": 71, "pt": "gas", "reliability": 8.0 },
-    "tahoe_5g": { "price": 61, "pt": "gas", "reliability": 8.0 },
-    "tahoe_4g": { "price": 28, "pt": "gas", "reliability": 8.0 },
-    "suburban": { "price": 65, "pt": "gas", "reliability": 8.0 },
-    "4wd_suburban": { "price": 30, "pt": "gas", "reliability": 8.0 },
-    "yukon_at4": { "price": 78, "pt": "gas", "reliability": 8.0 },
-    "escalade_v": { "price": 155, "pt": "gas", "reliability": 7.5 },
-    "gle": { "price": 71, "pt": "hybrid", "reliability": 7.5 },
-    "gle350de": { "price": 74, "pt": "phev", "reliability": 7.5 },
-    "gls": { "price": 89, "pt": "hybrid", "reliability": 7.5 },
-    "gwagen": { "price": 148, "pt": "gas", "reliability": 7.5 },
-    "gwagen_amg": { "price": 186, "pt": "gas", "reliability": 7.5 },
-    "gwagen_w463": { "price": 85, "pt": "gas", "reliability": 7.0 },
-    "g580_eq": { "price": 163, "pt": "ev", "reliability": 7.0 },
-    "eqs_suv": { "price": 108, "pt": "ev", "reliability": 7.0 },
-    "x5": { "price": 73, "pt": "phev", "reliability": 7.5 },
-    "x7": { "price": 82, "pt": "gas", "reliability": 7.5 },
-    "ix_xdrive50": { "price": 89, "pt": "ev", "reliability": 7.0 },
-    "xm": { "price": 160, "pt": "phev", "reliability": 6.5 },
-    "cayenne": { "price": 82, "pt": "gas", "reliability": 7.5 },
-    "cayenne_coupe": { "price": 88, "pt": "gas", "reliability": 7.5 },
-    "cayenne_ehybrid": { "price": 95, "pt": "phev", "reliability": 7.5 },
-    "cayenne_turbo": { "price": 157, "pt": "phev", "reliability": 7.5 },
-    "q8": { "price": 72, "pt": "gas", "reliability": 7.5 },
-    "sq8": { "price": 98, "pt": "gas", "reliability": 7.5 },
-    "rsq8": { "price": 137, "pt": "gas", "reliability": 7.5 },
-    "r1s": { "price": 76, "pt": "ev", "reliability": 7.0 },
-    "r1s_perf": { "price": 106, "pt": "ev", "reliability": 7.0 },
-    "hummer_ev": { "price": 99, "pt": "ev", "reliability": 6.5 },
-    "cybertruck": { "price": 80, "pt": "ev", "reliability": 6.0 },
-    "cybertruck_beast": { "price": 100, "pt": "ev", "reliability": 6.0 },
-    "model_x": { "price": 90, "pt": "ev", "reliability": 6.5 },
-    "montero": { "price": 44, "pt": "phev", "reliability": 7.5 },
-    "montero_sport": { "price": 12, "pt": "gas", "reliability": 7.5 },
-    "montero_gen3": { "price": 10, "pt": "gas", "reliability": 7.0 },
-    "xc90_recharge": { "price": 73, "pt": "phev", "reliability": 7.5 },
-    "ex90": { "price": 81, "pt": "ev", "reliability": 7.0 },
-    "gv80": { "price": 58, "pt": "gas", "reliability": 8.0 },
-    "xterra": { "price": 15, "pt": "gas", "reliability": 8.0 },
-    "pathfinder_r51": { "price": 12, "pt": "gas", "reliability": 7.5 },
-    "patrol_y61": { "price": 25, "pt": "gas", "reliability": 8.0 },
-    "hummer_h2": { "price": 20, "pt": "gas", "reliability": 6.0 },
-    "trooper": { "price": 8, "pt": "gas", "reliability": 7.0 },
-
-    "navigator": { "price": 100, "pt": "gas", "reliability": 7.5 },
-    "aviator": { "price": 89, "pt": "gas", "reliability": 7.5 },
-    "qx80": { "price": 84, "pt": "gas", "reliability": 7.5 },
-    "mdx_type_s": { "price": 76, "pt": "gas", "reliability": 8.3 },
-    "telluride_xpro": { "price": 54, "pt": "gas", "reliability": 8.5 },
-    "palisade": { "price": 52, "pt": "gas", "reliability": 8.5 },
-    "pilot_trailsport": { "price": 49, "pt": "gas", "reliability": 8.0 },
-    "passport_trailsport": { "price": 42, "pt": "gas", "reliability": 8.0 },
-    "cx90_phev": { "price": 55, "pt": "phev", "reliability": 7.5 },
-    "santa_fe_xrt": { "price": 41, "pt": "gas", "reliability": 8.0 },
-    "outback_wilderness": { "price": 42, "pt": "gas", "reliability": 8.0 },
-    "forester_wilderness": { "price": 35, "pt": "gas", "reliability": 8.0 },
-    "sorento_phev": { "price": 47, "pt": "phev", "reliability": 8.0 },
-    "gladiator_rubicon": { "price": 51, "pt": "gas", "reliability": 7.5 },
-    "wrangler_sahara": { "price": 49, "pt": "gas", "reliability": 7.5 },
-    "tacoma_trd_pro": { "price": 64, "pt": "hybrid", "reliability": 8.5 },
-    "tx_550h": { "price": 77, "pt": "phev", "reliability": 8.5 },
-    "gv70": { "price": 60, "pt": "gas", "reliability": 8.0 },
-    "escalade": { "price": 97, "pt": "gas", "reliability": 7.5 },
-    "defender_90": { "price": 58, "pt": "gas", "reliability": 8.2 },
-    "gc_l_overland": { "price": 58, "pt": "gas", "reliability": 7.5 },
-    "lc_first_ed": { "price": 77, "pt": "hybrid", "reliability": 8.7 },
-    "qx80_2g": { "price": 30, "pt": "gas", "reliability": 7.5 }
+    "4runner": {
+      "price": 67,
+      "pt": "hybrid",
+      "reliability": 8.7
+    },
+    "4runner_ltd": {
+      "price": 55,
+      "pt": "hybrid",
+      "reliability": 8.7
+    },
+    "4runner_trd_orp": {
+      "price": 52,
+      "pt": "hybrid",
+      "reliability": 8.7
+    },
+    "runner_sr5": {
+      "price": 41,
+      "pt": "gas",
+      "reliability": 8.7
+    },
+    "runner_sport": {
+      "price": 45,
+      "pt": "gas",
+      "reliability": 8.7
+    },
+    "runner_venture": {
+      "price": 67,
+      "pt": "hybrid",
+      "reliability": 8.7
+    },
+    "4runner_5g_trd_pro": {
+      "price": 42,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "4runner_5g_trd_or": {
+      "price": 32,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "4runner_5g_sr5": {
+      "price": 25,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "gx": {
+      "price": 79,
+      "pt": "gas",
+      "reliability": 8.9
+    },
+    "gx_prem": {
+      "price": 72,
+      "pt": "gas",
+      "reliability": 8.9
+    },
+    "gx460": {
+      "price": 35,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "gx470": {
+      "price": 18,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "lc": {
+      "price": 57,
+      "pt": "hybrid",
+      "reliability": 8.7
+    },
+    "lc200": {
+      "price": 55,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "lc100": {
+      "price": 28,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "lc80": {
+      "price": 35,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "lx570": {
+      "price": 58,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "sequoia": {
+      "price": 80,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "sequoia_ltd": {
+      "price": 72,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "sequoia_2g": {
+      "price": 30,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "lx": {
+      "price": 98,
+      "pt": "hybrid",
+      "reliability": 8.9
+    },
+    "lx700h": {
+      "price": 115,
+      "pt": "hybrid",
+      "reliability": 9
+    },
+    "lx700h_ot": {
+      "price": 118,
+      "pt": "hybrid",
+      "reliability": 9
+    },
+    "fj_cruiser": {
+      "price": 30,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "defender": {
+      "price": 114,
+      "pt": "gas",
+      "reliability": 8.2
+    },
+    "defender_s": {
+      "price": 58,
+      "pt": "gas",
+      "reliability": 8.2
+    },
+    "defender_130": {
+      "price": 80,
+      "pt": "gas",
+      "reliability": 8.2
+    },
+    "defender_classic": {
+      "price": 55,
+      "pt": "gas",
+      "reliability": 6
+    },
+    "disco_5": {
+      "price": 60,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "disco_lr4": {
+      "price": 25,
+      "pt": "gas",
+      "reliability": 6.5
+    },
+    "rr_sport": {
+      "price": 86,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "rr_full": {
+      "price": 115,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "gc4xe": {
+      "price": 75,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "gc4xe_ol": {
+      "price": 68,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "gc_trailhawk": {
+      "price": 63,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "gc_wk2": {
+      "price": 25,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "gc_wk2_th": {
+      "price": 28,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "wagoneer": {
+      "price": 60,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "gwagoneer": {
+      "price": 87,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "wrangler_jl": {
+      "price": 55,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "wrangler_rubicon": {
+      "price": 62,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "wrangler_jk": {
+      "price": 25,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "wrangler_tj": {
+      "price": 15,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "bronco": {
+      "price": 50,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "bronco_ob": {
+      "price": 44,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "bronco_raptor": {
+      "price": 82,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "bronco_21_24": {
+      "price": 38,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "expedition": {
+      "price": 76,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "expedition_4g": {
+      "price": 35,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "excursion": {
+      "price": 25,
+      "pt": "diesel",
+      "reliability": 7
+    },
+    "tahoe_z71": {
+      "price": 71,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "tahoe_5g": {
+      "price": 61,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "tahoe_4g": {
+      "price": 28,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "suburban": {
+      "price": 65,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "4wd_suburban": {
+      "price": 30,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "yukon_at4": {
+      "price": 78,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "escalade_v": {
+      "price": 155,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "gle": {
+      "price": 71,
+      "pt": "hybrid",
+      "reliability": 7.5
+    },
+    "gle350de": {
+      "price": 74,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "gls": {
+      "price": 89,
+      "pt": "hybrid",
+      "reliability": 7.5
+    },
+    "gwagen": {
+      "price": 148,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "gwagen_amg": {
+      "price": 186,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "gwagen_w463": {
+      "price": 85,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "g580_eq": {
+      "price": 163,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "eqs_suv": {
+      "price": 108,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "x5": {
+      "price": 73,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "x7": {
+      "price": 82,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "ix_xdrive50": {
+      "price": 89,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "xm": {
+      "price": 160,
+      "pt": "phev",
+      "reliability": 6.5
+    },
+    "cayenne": {
+      "price": 82,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "cayenne_coupe": {
+      "price": 88,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "cayenne_ehybrid": {
+      "price": 95,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "cayenne_turbo": {
+      "price": 157,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "q8": {
+      "price": 72,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "sq8": {
+      "price": 98,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "rsq8": {
+      "price": 137,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "r1s": {
+      "price": 76,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "r1s_perf": {
+      "price": 106,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "hummer_ev": {
+      "price": 99,
+      "pt": "ev",
+      "reliability": 6.5
+    },
+    "cybertruck": {
+      "price": 80,
+      "pt": "ev",
+      "reliability": 6
+    },
+    "cybertruck_beast": {
+      "price": 100,
+      "pt": "ev",
+      "reliability": 6
+    },
+    "model_x": {
+      "price": 90,
+      "pt": "ev",
+      "reliability": 6.5
+    },
+    "montero": {
+      "price": 44,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "montero_sport": {
+      "price": 12,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "montero_gen3": {
+      "price": 10,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "xc90_recharge": {
+      "price": 73,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "ex90": {
+      "price": 81,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "gv80": {
+      "price": 58,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "xterra": {
+      "price": 15,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "pathfinder_r51": {
+      "price": 12,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "patrol_y61": {
+      "price": 25,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "hummer_h2": {
+      "price": 20,
+      "pt": "gas",
+      "reliability": 6
+    },
+    "trooper": {
+      "price": 8,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "navigator": {
+      "price": 100,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "aviator": {
+      "price": 89,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "qx80": {
+      "price": 84,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "mdx_type_s": {
+      "price": 76,
+      "pt": "gas",
+      "reliability": 8.3
+    },
+    "telluride_xpro": {
+      "price": 54,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "palisade": {
+      "price": 52,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "pilot_trailsport": {
+      "price": 49,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "passport_trailsport": {
+      "price": 42,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "cx90_phev": {
+      "price": 55,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "santa_fe_xrt": {
+      "price": 41,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "outback_wilderness": {
+      "price": 42,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "forester_wilderness": {
+      "price": 35,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "sorento_phev": {
+      "price": 47,
+      "pt": "phev",
+      "reliability": 8
+    },
+    "gladiator_rubicon": {
+      "price": 51,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "wrangler_sahara": {
+      "price": 49,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "tacoma_trd_pro": {
+      "price": 64,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "tx_550h": {
+      "price": 77,
+      "pt": "phev",
+      "reliability": 8.5
+    },
+    "gv70": {
+      "price": 60,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "escalade": {
+      "price": 97,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "defender_90": {
+      "price": 58,
+      "pt": "gas",
+      "reliability": 8.2
+    },
+    "gc_l_overland": {
+      "price": 58,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "lc_first_ed": {
+      "price": 77,
+      "pt": "hybrid",
+      "reliability": 8.7
+    },
+    "qx80_2g": {
+      "price": 30,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "f150_raptor": {
+      "price": 78,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "f150_tremor": {
+      "price": 58,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "tundra_trd_pro": {
+      "price": 72,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "tundra_1794": {
+      "price": 62,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "silverado_zr2": {
+      "price": 70,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "colorado_zr2": {
+      "price": 48,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "ram_trx": {
+      "price": 96,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "ram_rebel": {
+      "price": 58,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "ranger_raptor": {
+      "price": 56,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "renegade_trailhawk": {
+      "price": 33,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "compass_trailhawk": {
+      "price": 33,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "rav4_trd_or": {
+      "price": 40,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "crosstrek_wilderness": {
+      "price": 33,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "bronco_sport_badlands": {
+      "price": 40,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "cx50_meridian": {
+      "price": 43,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "tucson_xrt": {
+      "price": 34,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "sportage_xpro": {
+      "price": 37,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "samurai": {
+      "price": 14,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "sidekick": {
+      "price": 8,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "tracker": {
+      "price": 8,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "grand_vitara": {
+      "price": 7,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "rodeo": {
+      "price": 5,
+      "pt": "gas",
+      "reliability": 6.5
+    },
+    "amigo": {
+      "price": 5,
+      "pt": "gas",
+      "reliability": 6.5
+    },
+    "rav4_hybrid": {
+      "price": 35,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "highlander_hybrid": {
+      "price": 47,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "venza": {
+      "price": 35,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "crv_hybrid": {
+      "price": 41,
+      "pt": "hybrid",
+      "reliability": 8
+    },
+    "tucson_hybrid": {
+      "price": 41,
+      "pt": "hybrid",
+      "reliability": 8
+    },
+    "santa_fe_hybrid": {
+      "price": 42,
+      "pt": "hybrid",
+      "reliability": 8
+    },
+    "sportage_hybrid": {
+      "price": 38,
+      "pt": "hybrid",
+      "reliability": 8
+    },
+    "sorento_hybrid": {
+      "price": 46,
+      "pt": "hybrid",
+      "reliability": 8
+    },
+    "escape_hybrid": {
+      "price": 32,
+      "pt": "hybrid",
+      "reliability": 7
+    },
+    "nx_350h": {
+      "price": 50,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "rx_350h": {
+      "price": 54,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "tucson_phev": {
+      "price": 47,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "sportage_phev": {
+      "price": 42,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "escape_phev": {
+      "price": 38,
+      "pt": "phev",
+      "reliability": 6.5
+    },
+    "nx_450h_plus": {
+      "price": 61,
+      "pt": "phev",
+      "reliability": 8.5
+    },
+    "rx_450h_plus": {
+      "price": 72,
+      "pt": "phev",
+      "reliability": 8.5
+    },
+    "land_cruiser_80": {
+      "price": 25,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "land_cruiser_100": {
+      "price": 22,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "cherokee_xj": {
+      "price": 13,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "4runner_4th_gen_v8": {
+      "price": 16,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "discovery_3_lr3": {
+      "price": 10,
+      "pt": "gas",
+      "reliability": 4
+    },
+    "bronco_5th_gen": {
+      "price": 25,
+      "pt": "gas",
+      "reliability": 6.5
+    },
+    "atlas_cross_sport_4motion": {
+      "price": 45,
+      "pt": "gas",
+      "reliability": 6.5
+    },
+    "v60_cross_country": {
+      "price": 51,
+      "pt": "hybrid",
+      "reliability": 7
+    },
+    "v90_cross_country": {
+      "price": 61,
+      "pt": "hybrid",
+      "reliability": 7
+    },
+    "canyon_at4x": {
+      "price": 55,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "sierra_at4x": {
+      "price": 79,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "ram_1500_ecodiesel": {
+      "price": 58,
+      "pt": "diesel",
+      "reliability": 6.5
+    },
+    "silverado_duramax": {
+      "price": 55,
+      "pt": "diesel",
+      "reliability": 6
+    },
+    "gladiator_ecodiesel": {
+      "price": 48,
+      "pt": "diesel",
+      "reliability": 6.5
+    },
+    "f150_powerstroke": {
+      "price": 38,
+      "pt": "diesel",
+      "reliability": 7
+    },
+    "f150_lightning": {
+      "price": 70,
+      "pt": "ev",
+      "reliability": 6.5
+    },
+    "f150_powerboost": {
+      "price": 75,
+      "pt": "hybrid",
+      "reliability": 7
+    },
+    "silverado_ev": {
+      "price": 80,
+      "pt": "ev",
+      "reliability": 6
+    },
+    "hummer_ev_pickup": {
+      "price": 99,
+      "pt": "ev",
+      "reliability": 5
+    },
+    "rav4_prime": {
+      "price": 49,
+      "pt": "phev",
+      "reliability": 8.5
+    },
+    "r1t": {
+      "price": 72,
+      "pt": "ev",
+      "reliability": 6
+    },
+    "tx_500h": {
+      "price": 69,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "ev9": {
+      "price": 70,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "wrangler_4xe_sahara": {
+      "price": 58,
+      "pt": "phev",
+      "reliability": 7.5
+    },
+    "xterra_pro4x": {
+      "price": 15,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "montero_sport_xls": {
+      "price": 7,
+      "pt": "gas",
+      "reliability": 6.5
+    },
+    "wrangler_2dr_jl": {
+      "price": 47,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "wrangler_2dr_jk": {
+      "price": 18,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "wrangler_2dr_tj": {
+      "price": 15,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "bronco_2dr_badlands": {
+      "price": 49,
+      "pt": "gas",
+      "reliability": 6.5
+    },
+    "maverick_tremor": {
+      "price": 41,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "santa_cruz_sel": {
+      "price": 32,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "frontier_pro4x": {
+      "price": 42,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "tacoma_trd_or": {
+      "price": 43,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "ranger_xlt": {
+      "price": 35,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "ascent_onyx": {
+      "price": 44,
+      "pt": "gas",
+      "reliability": 6.5
+    },
+    "cx70_phev": {
+      "price": 54,
+      "pt": "phev",
+      "reliability": 7
+    },
+    "tiguan_se_rline": {
+      "price": 39,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "rdx_aspec": {
+      "price": 48,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "grenadier_trialmaster": {
+      "price": 95,
+      "pt": "gas",
+      "reliability": 5
+    },
+    "f150_xlt": {
+      "price": 52,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "tacoma_sr5": {
+      "price": 37,
+      "pt": "gas",
+      "reliability": 6
+    },
+    "silverado_trail_boss": {
+      "price": 59,
+      "pt": "gas",
+      "reliability": 9
+    },
+    "ram_1500_big_horn": {
+      "price": 47,
+      "pt": "gas",
+      "reliability": 6
+    },
+    "crv_exl": {
+      "price": 37,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "hrv_exl": {
+      "price": 31,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "ridgeline_rtl": {
+      "price": 43,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "q5_quattro": {
+      "price": 57,
+      "pt": "gas",
+      "reliability": 5
+    },
+    "q7_quattro": {
+      "price": 70,
+      "pt": "gas",
+      "reliability": 4
+    },
+    "q8_etron": {
+      "price": 85,
+      "pt": "ev",
+      "reliability": 5
+    },
+    "a6_allroad": {
+      "price": 72,
+      "pt": "gas",
+      "reliability": 5
+    },
+    "crosstrek_premium": {
+      "price": 27,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "atlas_se": {
+      "price": 40,
+      "pt": "gas",
+      "reliability": 5
+    },
+    "durango_rt": {
+      "price": 54,
+      "pt": "gas",
+      "reliability": 5
+    },
+    "explorer_timberline": {
+      "price": 49,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "armada_platinum": {
+      "price": 73,
+      "pt": "gas",
+      "reliability": 6
+    },
+    "rogue_sl": {
+      "price": 37,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "equinox_rs": {
+      "price": 35,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "cx5_turbo": {
+      "price": 38,
+      "pt": "gas",
+      "reliability": 7
+    },
+    "x3_xdrive": {
+      "price": 50,
+      "pt": "gas",
+      "reliability": 5
+    }
   }
 }

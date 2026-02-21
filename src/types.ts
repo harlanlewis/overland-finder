@@ -1,5 +1,6 @@
 export type Powertrain = "hybrid" | "gas" | "diesel" | "phev" | "ev";
 export type Size = "mid" | "full" | "compact";
+export type Body = "suv" | "truck" | "cuv" | "wagon";
 
 export interface Vehicle {
   id: string;
@@ -17,6 +18,7 @@ export interface Vehicle {
   reliability: number;
   performance: number;
   size: Size;
+  body: Body;
   pt: Powertrain;
   tow: number;
   weight: number;
@@ -30,6 +32,57 @@ export interface ScoredVehicle extends Vehicle {
   score: number;
 }
 
+export interface Weights {
+  mpg: number;
+  offroad: number;
+  luxury: number;
+  reliability: number;
+  cargo: number;
+  performance: number;
+  towing: number;
+}
+
+export interface ScenarioFilters {
+  // Range filters [min, max] - null means no limit
+  mpg?: [number | null, number | null];
+  offroad?: [number | null, number | null];
+  luxury?: [number | null, number | null];
+  reliability?: [number | null, number | null];
+  cargo?: [number | null, number | null];
+  performance?: [number | null, number | null];
+  price?: [number | null, number | null];      // in $k
+  tow?: [number | null, number | null];        // towing capacity in lbs
+  gc?: [number | null, number | null];         // ground clearance in inches
+  // Enum filters - array of allowed values (empty/undefined = all allowed)
+  size?: Size[];
+  body?: Body[];
+  pt?: Powertrain[];
+}
+
+export interface Scenario {
+  id: string;
+  label: string;
+  description: string;
+  filters: ScenarioFilters;
+  weights: Weights;
+  builtIn: boolean;
+  createdAt?: number;
+  modifiedAt?: number;
+  basedOn?: string;
+}
+
+export interface ScenarioState {
+  custom: Scenario[];
+  hidden: string[];
+  activeId: string | null;
+  order: string[] | null;
+  customState?: {
+    weights: Weights;
+    filters: ScenarioFilters;
+  };
+}
+
+// Legacy - keep for migration
 export interface Preset {
   id: string;
   label: string;
@@ -47,12 +100,5 @@ export interface Preset {
   makes?: string[];
 }
 
-export interface Priorities {
-  offroad: number;
-  luxury: number;
-  reliability: number;
-  mpg: number;
-  cargo: number;
-  performance: number;
-  towing: number;
-}
+// Legacy alias
+export type Priorities = Weights;

@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import OverlandFinder from "./OverlandFinder";
+import App from "./App";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <OverlandFinder />
+    <App />
   </StrictMode>
 );
