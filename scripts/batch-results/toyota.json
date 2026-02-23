@@ -1,0 +1,437 @@
+{
+  "4runner_ltd": {
+    "community": 2,
+    "aftermarket": 1,
+    "heritage": 1.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/4Runner ~180K+ subs, T4R.org, Trail4Runner.com; Limited trim discussed but less than TRD trims; ih8mud tangential",
+      "aftermarket": "6th gen aftermarket still developing; Limited buyers less likely to mod; some lift kits and roof racks available but Limited-specific builds uncommon",
+      "heritage": "4Runner nameplate since 1984, 6th gen hybrid is newest evolution; Limited is luxury-oriented, carries the nameplate weight",
+      "identity": "Limited buyers are comfort-first; attend fewer trail runs; some 4Runner pride but not the core enthusiast trim",
+      "resale": "4Runners hold value well; Limited trim retains decently but no irrational premium like TRD Pro; new 6th gen demand helps"
+    },
+    "note": "Comfort trim of an enthusiast vehicle — benefits from 4Runner community halo but Limited buyers are less tribal"
+  },
+  "4runner_trd_orp": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/4Runner ~180K+ subs, T4R.org, Trail4Runner.com; TRD Off-Road Premium is a popular build base; active in build threads",
+      "aftermarket": "6th gen aftermarket growing fast; TRD ORP is the sweet-spot build platform with crawl control and multi-terrain select; CBI, C4 Fab, Icon, OME all developing 6th gen parts",
+      "heritage": "4Runner nameplate since 1984; TRD Off-Road lineage carries trail credibility",
+      "identity": "Core enthusiast trim for budget-conscious trail runners; active in meetups and trail groups; strong community identity",
+      "resale": "TRD Off-Road trims hold value well above segment; slight premium over SR5 but not TRD Pro-level"
+    },
+    "note": "Sweet spot 6th gen — serious enough to attract enthusiasts, affordable enough for broad appeal"
+  },
+  "runner_sr5": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 1.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/4Runner community but SR5 content is entry-level; many SR5 buyers are not forum-active enthusiasts",
+      "aftermarket": "Basic lift kits and accessories available; 6th gen SR5 is gas-only (no hybrid) so slightly different build path; fewer SR5-specific builds",
+      "heritage": "Carries 4Runner nameplate heritage since 1984; SR5 is the volume trim",
+      "identity": "SR5 buyers often view it as a practical capable SUV rather than a lifestyle; some 4Runner pride but minimal tribal behavior",
+      "resale": "4Runners hold value well across all trims; SR5 benefits from nameplate reputation but no irrational premium"
+    },
+    "note": "Entry-level 4Runner — benefits from the brand but SR5 buyers are more practical than passionate"
+  },
+  "runner_venture": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "Shares r/4Runner ~180K+; Trailhunter generates intense discussion as factory overlander; featured heavily on overland forums and YouTube channels",
+      "aftermarket": "Factory ARB bumper and OME suspension make it a ready-made build platform; aftermarket adds to the factory overland setup; strong ecosystem",
+      "heritage": "4Runner nameplate since 1984; Trailhunter is Toyota's first factory overland trim, significant for the brand",
+      "identity": "Trailhunter buyers are committed overlanders; factory snorkel-ready, ARB bumper signals serious intent; strong identity among overland community",
+      "resale": "Limited production Trailhunter commands dealer markup; at $67K it targets committed buyers; early demand strong with waitlists"
+    },
+    "note": "Toyota's factory overlander — the most enthusiast-targeted 4Runner trim, commands premiums and attracts dedicated community"
+  },
+  "4runner_5g_trd_pro": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/4Runner ~180K+, T4R.org, Trail4Runner.com; 5th gen TRD Pro is the most discussed and built trim; ih8mud covers 4Runner as well",
+      "aftermarket": "Massive 5th gen aftermarket: Icon, King, Fox for suspension; CBI, C4 Fab, RCI for armor; Gobi, Prinsu for racks; full build-out ecosystem matured over 14 years",
+      "heritage": "4Runner since 1984; 5th gen ran 2010-2024 making it one of the longest-running generations; TRD Pro introduced 2015 became the halo trim",
+      "identity": "5th gen TRD Pro is the most modded and trail-run 4Runner; #4RunnerMafia, Instagram culture; strong owner loyalty and advocacy",
+      "resale": "5th gen TRD Pro commands $5-10K premiums over other trims in used market; retains value exceptionally; some colors (Lunar Rock, Lime Rush) command extra premium"
+    },
+    "note": "The definitive enthusiast 4Runner — proven platform with 14 years of aftermarket depth and strong resale"
+  },
+  "4runner_5g_trd_or": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares full r/4Runner community; TRD Off-Road is the most popular enthusiast build base for 5th gen; extensively covered on T4R.org",
+      "aftermarket": "Same massive 5th gen aftermarket as TRD Pro; TRD OR is actually the more common build platform since it's cheaper and has rear locker + crawl control",
+      "heritage": "4Runner since 1984; TRD Off-Road trim carries legitimate trail heritage",
+      "identity": "Popular with trail community but slightly less tribal than TRD Pro; builds are common but identity is 'smart value' rather than 'flagship'",
+      "resale": "Holds value well above segment average; strong but not the extreme premium of TRD Pro; 5-year retention ~65%"
+    },
+    "note": "The smart enthusiast's 4Runner — same capability as TRD Pro for less money, massive aftermarket support"
+  },
+  "4runner_5g_sr5": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 1.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/4Runner but SR5 owners are less forum-active; part-time 4WD SR5 gets some build threads as budget trail rigs",
+      "aftermarket": "5th gen parts fit SR5 but fewer SR5 owners invest in full builds; suspension and armor kits available; limited by part-time 4WD system",
+      "heritage": "Carries 4Runner nameplate; SR5 has been the base trim throughout the model's history",
+      "identity": "SR5 buyers are practical — reliable daily driver that can handle some dirt; minimal tribal identity compared to TRD trims",
+      "resale": "Benefits from 4Runner brand resale halo; holds value above segment but no irrational premium"
+    },
+    "note": "Budget 4Runner — benefits from nameplate resale halo but SR5 buyers are practical, not passionate"
+  },
+  "lc": {
+    "community": 2,
+    "aftermarket": 1,
+    "heritage": 2,
+    "identity": 1,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/LandCruisers ~90K+ subs covers the J250; ih8mud has active J250 section; new LC generating intense discussion but community still forming around the new platform",
+      "aftermarket": "J250 aftermarket just beginning; some early lift kits and accessories from ARB, but ecosystem immature compared to 200/100/80 series; shares GX platform so some parts cross over",
+      "heritage": "Land Cruiser nameplate since 1951 — 70+ years of heritage; J250 is divisive (smaller, no V8, hybrid) but carries the legendary name",
+      "identity": "New LC buyers are enthusiastic but identity is forming; some purists disappointed by downsizing; attracts new younger buyers alongside LC loyalists",
+      "resale": "Dealer markups of $5-15K over MSRP on J250s in 2024; strong initial demand; too new for long-term data but LC nameplate guarantees strong retention"
+    },
+    "note": "Heritage nameplate reborn — massive name recognition but divisive reception among LC purists; community and aftermarket still forming"
+  },
+  "lc_first_ed": {
+    "community": 2,
+    "aftermarket": 1,
+    "heritage": 2,
+    "identity": 1,
+    "resale_premium": 1.5,
+    "sources": {
+      "community": "Same community as lc (J250) — r/LandCruisers, ih8mud; First Edition generates collector discussion",
+      "aftermarket": "Same nascent J250 aftermarket; First Edition-specific mods unlikely given limited production and collector mentality",
+      "heritage": "Same Land Cruiser heritage since 1951; First Edition adds launch scarcity — 2024 model year only",
+      "identity": "First Edition buyers are LC brand loyalists securing a collector piece; identity is LC heritage-driven",
+      "resale": "Extreme scarcity — 2024 only, limited numbers, dealer markups of $15-30K reported; will likely appreciate as collector item"
+    },
+    "note": "Collector's version of the new LC — same platform but extreme resale premium from scarcity and launch hype"
+  },
+  "lc100": {
+    "community": 2.5,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "ih8mud.com 100 Series section is deeply active; r/LandCruisers ~90K+; TLCA chapters; per-capita engagement among highest of any vehicle",
+      "aftermarket": "Slee Off-Road, TLC Products, ARB, OME; full overland build ecosystem for 100 Series; bumpers, suspension, armor, electrical all covered by multiple brands",
+      "heritage": "Land Cruiser since 1951; 100 Series (1998-2007) considered peak LC by many — last with solid front axle option (early models), improved V8 power; global expedition use",
+      "identity": "'Never sell your Land Cruiser' mantra applies strongly to 100 Series owners; multi-generational ownership; deep loyalty measured in decades",
+      "resale": "100 Series prices have appreciated significantly — clean examples now $25-40K+ despite being 18-27 years old; defies all depreciation logic for this age"
+    },
+    "note": "The accessible classic Land Cruiser — ih8mud community is legendary, prices rising steadily"
+  },
+  "lc80": {
+    "community": 2.5,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 1.5,
+    "resale_premium": 1.5,
+    "sources": {
+      "community": "ih8mud.com 80 Series section is one of the most active vehicle-specific forums ever; r/LandCruisers; TLCA; global 80 Series community is massive relative to production numbers",
+      "aftermarket": "Slee Off-Road, TLC Products, ARB, OME, Cruiser Outfitters; full restoration and build ecosystem; solid axle platform makes it the preferred LC build base",
+      "heritage": "Land Cruiser since 1951; 80 Series (1990-1997) is the cult classic — solid axles front and rear, factory triple-lockable diffs; the definitive overland platform",
+      "identity": "'Never sell your Land Cruiser' is most powerful for 80 Series owners; restoration is a lifestyle; owners spend more on builds than the vehicle cost; deep tribal bond",
+      "resale": "80 Series prices have skyrocketed — clean examples now $30-60K+ for a vehicle from the 1990s; triple-locked FZJ80s command extreme premiums; appreciating asset"
+    },
+    "note": "The cult classic Land Cruiser — solid axles, triple lockers, and prices that only go up. Community devotion is legendary."
+  },
+  "land_cruiser_80": {
+    "community": 2.5,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 1.5,
+    "resale_premium": 1.5,
+    "sources": {
+      "community": "Same as lc80 — ih8mud.com 80 Series section, r/LandCruisers, TLCA; this is the used-condition listing of the same vehicle",
+      "aftermarket": "Same deep 80 Series aftermarket: Slee, TLC Products, ARB, OME, Cruiser Outfitters; full build ecosystem",
+      "heritage": "Same — Land Cruiser since 1951; 80 Series solid axles and triple lockers",
+      "identity": "Same devotion — 80 Series owners are among the most dedicated vehicle enthusiasts anywhere",
+      "resale": "Same extreme appreciation — used 80 Series prices defy all logic for a 30-year-old vehicle"
+    },
+    "note": "Duplicate entry for LC 80 Series in used condition — same passion scores as lc80"
+  },
+  "land_cruiser_100": {
+    "community": 2.5,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "Same as lc100 — ih8mud.com, r/LandCruisers, TLCA; used-condition listing of same vehicle",
+      "aftermarket": "Same 100 Series ecosystem: Slee Off-Road, TLC Products, ARB, OME; comprehensive",
+      "heritage": "Same — Land Cruiser since 1951; 100 Series is a heritage icon",
+      "identity": "Same deep owner loyalty and 'never sell' mentality",
+      "resale": "Same appreciation trend — 100 Series prices rising steadily despite age"
+    },
+    "note": "Duplicate entry for LC 100 Series in used condition — same passion scores as lc100"
+  },
+  "sequoia": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/ToyotaSequoia small ~5-8K subs; SequoiaForum.com/ToyotaNation covers Sequoia; 3rd gen TRD Pro generates some overland discussion but niche",
+      "aftermarket": "Limited 3rd gen aftermarket; some lift kits emerging (Westcott Designs, Dobinsons); TRD Pro gets FOX shocks factory; far fewer aftermarket options than 4Runner/Tacoma",
+      "heritage": "Sequoia nameplate since 2000; 3rd gen (2023+) is a significant upgrade but Sequoia has never had strong cultural cachet beyond 'big Toyota'",
+      "identity": "TRD Pro adds some overland aspiration but Sequoia buyers are primarily family/towing buyers; minimal tribal identity even in TRD Pro trim",
+      "resale": "3rd gen holds value decently; TRD Pro trim at $80K has some demand but full-size SUV market is competitive; slight Toyota brand premium"
+    },
+    "note": "TRD Pro trim tries to build enthusiasm but Sequoia remains a family hauler first; benefits from Toyota quality reputation not enthusiast culture"
+  },
+  "sequoia_ltd": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares small r/ToyotaSequoia; Limited buyers even less forum-active than TRD Pro buyers; mostly ownership/maintenance discussions",
+      "aftermarket": "Essentially no aftermarket for Sequoia Limited; luxury buyers don't mod; OEM accessories only",
+      "heritage": "Same Sequoia nameplate since 2000; Limited trim has no additional heritage significance",
+      "identity": "Sequoia Limited buyers view it as practical family transportation; no tribal identity whatsoever",
+      "resale": "Holds value as a Toyota full-size; no irrational premium but reliable depreciation curve"
+    },
+    "note": "Luxury family hauler — essentially zero enthusiast culture, pure transportation appliance with Toyota quality"
+  },
+  "sequoia_2g": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/ToyotaSequoia; 2nd gen ran 2008-2022, long production built some owner community; ToyotaNation Sequoia section has maintenance discussions",
+      "aftermarket": "Some lift kits (Bilstein, OME); basic overland builds exist using 2nd gen as affordable full-size platform; small but present aftermarket",
+      "heritage": "Sequoia since 2000; 2nd gen V8 has some following as affordable full-size Toyota with Tundra underpinnings",
+      "identity": "Small but real community of 2nd gen enthusiasts who appreciate it as a budget full-size Toyota; some overland builds; mild affinity",
+      "resale": "2nd gen holds value decently for age; V8 reliability gives some premium over competitors; nothing irrational"
+    },
+    "note": "Budget full-size Toyota — small dedicated following appreciates V8 reliability and size, mild enthusiasm"
+  },
+  "fj_cruiser": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 1.5,
+    "sources": {
+      "community": "r/FJCruiser ~40K+ subs (exceptional for discontinued vehicle); FJCruiserForums.com active; ih8mud covers FJ; dedicated Facebook groups thriving",
+      "aftermarket": "Metal Tech 4x4, Demello Off-Road, Expedition One bumpers; ARB, OME suspension; full overland build ecosystem; companies still making FJ parts despite 2014 discontinuation",
+      "heritage": "FJ Cruiser (2007-2014) was a retro homage to FJ40; nameplate carries Land Cruiser heritage; instantly recognizable design became an icon",
+      "identity": "FJ owners are devoted — 'never sell your FJ' echoes LC culture; active meetup scene; distinctive styling creates strong owner identity and recognition",
+      "resale": "Extreme resale — used FJs command near-original MSRP or higher despite being 10+ years old; prices have appreciated post-discontinuation; one of the strongest resale stories in the market"
+    },
+    "note": "Discontinued cult classic with appreciating prices and devoted community — one of the strongest passion vehicles per unit sold"
+  },
+  "runner_sport": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 1.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/4Runner ~180K+; TRD Sport is street-focused and less discussed in trail/overland contexts; some presence on forums",
+      "aftermarket": "6th gen parts fit but Sport buyers less likely to do trail builds; sport-tuned suspension means different mod path; some cosmetic aftermarket",
+      "heritage": "4Runner nameplate since 1984; TRD Sport is the on-road performance trim, less trail heritage",
+      "identity": "Sport buyers want a capable daily driver, not a trail rig; minimal tribal identity; appreciate the 4Runner but don't live the lifestyle",
+      "resale": "Benefits from 4Runner brand resale strength; no Sport-specific premium"
+    },
+    "note": "Street-focused 4Runner — benefits from nameplate but Sport buyers are practical drivers, not trail enthusiasts"
+  },
+  "tacoma_trd_pro": {
+    "community": 2.5,
+    "aftermarket": 2,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/ToyotaTacoma ~250K+ subs; TacomaWorld.com ~750K+ members (one of the largest vehicle forums); multiple Facebook groups with 100K+ members; Tacoma community is massive",
+      "aftermarket": "Industry unto itself — entire companies exist for Tacoma: CBI Offroad, C4 Fabrication, RCI Metalworks, Prinsu, Pelfreybilt; ARB, Icon, Fox, King all have Tacoma-specific products; 4WP/ExtremeTerrain carry thousands of Tacoma SKUs",
+      "heritage": "Tacoma since 1995 (Hilux lineage to 1968); TRD Pro introduced 2015; mid-size truck icon; known for go-anywhere reliability; military/government fleet use globally via Hilux",
+      "identity": "Strong Tacoma tribe — #TacomaLifestyle, #TacoTuesday culture; trail meetups, overland rallies; owners display strong brand loyalty; TRD Pro is the flagship",
+      "resale": "Tacoma TRD Pro commands significant used premiums; consistently top 3 in truck resale; retains ~70-75% value at 5 years; special colors (Lunar Rock, Electric Lime) command extra"
+    },
+    "note": "The mid-size truck passion king — TacomaWorld is one of the largest vehicle forums on the internet; aftermarket is an industry"
+  },
+  "tacoma_trd_or": {
+    "community": 2.5,
+    "aftermarket": 2,
+    "heritage": 1.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same massive r/ToyotaTacoma ~250K+ and TacomaWorld ~750K+; TRD Off-Road is the most popular build base on TacomaWorld",
+      "aftermarket": "Same industry-level aftermarket as TRD Pro; TRD OR is actually the most common build platform due to lower price and rear locker",
+      "heritage": "Same Tacoma heritage since 1995; TRD Off-Road carries legitimate trail credibility",
+      "identity": "Strong community but TRD OR owners are the practical enthusiasts — capable builds without the TRD Pro markup; slightly less tribal than Pro",
+      "resale": "Holds value very well but not the extreme premium of TRD Pro; benefits from Tacoma brand strength"
+    },
+    "note": "The smart builder's Tacoma — same aftermarket depth as TRD Pro, slightly less identity premium"
+  },
+  "tacoma_sr5": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/ToyotaTacoma and TacomaWorld; SR5 is the volume trim with many owners just using it as a truck; still benefits from massive community",
+      "aftermarket": "Most Tacoma aftermarket parts fit SR5; some SR5 owners do build but fewer than TRD trims; basic lifts and accessories common",
+      "heritage": "Same Tacoma nameplate since 1995; SR5 is the workhorse trim",
+      "identity": "SR5 buyers often view it as a reliable work truck; some Tacoma pride but less tribal than TRD trims; many never visit TacomaWorld",
+      "resale": "Benefits from legendary Tacoma resale; SR5 holds value well but no irrational premium beyond the nameplate halo"
+    },
+    "note": "Volume Tacoma — massive community exists but SR5 buyers are more practical; still benefits enormously from Tacoma resale reputation"
+  },
+  "tundra_trd_pro": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/ToyotaTundra ~50K+ subs; TundraHeadquarters, TundraTalk forums; active but overshadowed by Tacoma community; TRD Pro generates more discussion",
+      "aftermarket": "Growing 3rd gen aftermarket; FOX shocks factory on TRD Pro; some lift kits (Icon, Dobinsons) and bumpers (CBI, ARB); not as deep as Tacoma ecosystem",
+      "heritage": "Tundra since 1999 (T100 lineage to 1993); made-in-America Toyota truck; known for reliability over excitement; TRD Pro adds trail credibility",
+      "identity": "Tundra owners appreciate Toyota reliability in full-size truck segment; TRD Pro adds some trail identity; some loyalty but less tribal than Tacoma/4Runner",
+      "resale": "Tundra holds value better than domestic competitors; TRD Pro retains slightly more; not extreme but above expected"
+    },
+    "note": "Toyota reliability in full-size truck form — TRD Pro adds enthusiasm but Tundra culture is quieter than Tacoma"
+  },
+  "tundra_1794": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/ToyotaTundra; 1794 Edition discussed less than TRD Pro; luxury truck buyers less forum-active",
+      "aftermarket": "Minimal aftermarket interest for 1794 — luxury truck buyers don't typically mod; some basic accessories",
+      "heritage": "Tundra since 1999; 1794 Edition named after the ranch where San Antonio plant sits; nice heritage touch but niche",
+      "identity": "1794 buyers are ranch/luxury truck buyers; appreciate Toyota quality but view it as premium transportation, not a lifestyle",
+      "resale": "Holds value as a Toyota truck; 1794 trim retains decently but no specific enthusiasm premium"
+    },
+    "note": "Luxury Tundra trim — ranch elegance over trail enthusiasm; benefits from Tundra reliability reputation"
+  },
+  "rav4_trd_or": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/RAV4 ~80K+ subs but mostly ownership/MPG discussions; RAV4World forum; TRD Off-Road gets some trail discussion but small niche",
+      "aftermarket": "Very limited — LP Aventure lift kits, some skid plates; TRD Off-Road suspension is factory-tuned but minimal third-party off-road ecosystem",
+      "heritage": "RAV4 since 1994 but as a compact crossover, zero off-road heritage; TRD Off-Road badge is a marketing exercise on a CUV platform",
+      "identity": "Zero tribal identity; RAV4 TRD OR buyers want a slightly tougher-looking daily driver; no meetups, no lifestyle culture",
+      "resale": "RAV4 holds value well as a segment leader but TRD Off-Road commands no enthusiasm premium — depreciation matches segment"
+    },
+    "note": "TRD badge on a crossover — minimal real off-road culture despite the branding"
+  },
+  "rav4_hybrid": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/RAV4 ~80K+ but practical ownership discussions; RAV4World forum; hybrid discussions focus on MPG and reliability, not enthusiasm",
+      "aftermarket": "No meaningful off-road or enthusiast aftermarket; OEM accessories and generic crossover parts only",
+      "heritage": "RAV4 since 1994; hybrid since 2016; competent appliance with zero cultural resonance",
+      "identity": "RAV4 Hybrid buyers are practical — excellent fuel economy, reliability, and value are the draws; no tribal identity",
+      "resale": "RAV4 Hybrid holds value well due to segment demand and Toyota reliability; slight premium over gas models reflecting practical value not passion"
+    },
+    "note": "Quintessential practical crossover — high volume, excellent vehicle, zero passion culture"
+  },
+  "rav4_prime": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/RAV4Prime ~30K+ subs (notably active for a trim subreddit); discussions focus on charging, EV range, efficiency — tech enthusiasm not off-road passion",
+      "aftermarket": "No off-road/enthusiast aftermarket; EV charging accessories; OEM-only territory",
+      "heritage": "RAV4 since 1994; Prime is the PHEV variant; no cultural significance beyond being an efficient vehicle",
+      "identity": "Prime buyers are tech/efficiency enthusiasts, not vehicle lifestyle enthusiasts; they love the MPGe numbers, not the vehicle itself",
+      "resale": "RAV4 Prime has commanded dealer markups due to limited production and EV tax credit eligibility; this is supply/demand not passion premium"
+    },
+    "note": "Tech-efficient crossover with supply-driven premiums — active subreddit is about EV optimization, not vehicle passion"
+  },
+  "highlander_hybrid": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/Highlander small (~10-15K subs); HighlanderForum.com exists but low-activity; family SUV with maintenance-focused discussions",
+      "aftermarket": "No meaningful enthusiast aftermarket; generic accessories (roof racks, cargo organizers); zero off-road ecosystem",
+      "heritage": "Highlander since 2000; three-row family SUV with no cultural significance; pure family transportation",
+      "identity": "Zero tribal identity; Highlander buyers are families who want reliable, efficient 3-row SUV; no gatherings, no lifestyle",
+      "resale": "Holds value in line with midsize family SUV segment; Toyota reliability helps but no enthusiasm premium"
+    },
+    "note": "Family transportation appliance — competent vehicle with zero enthusiast culture"
+  },
+  "venza": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "No dedicated Venza subreddit of note; minimal forum presence; ToyotaNation has a small Venza section; discontinued after 2024",
+      "aftermarket": "No aftermarket ecosystem; OEM accessories only; hybrid-only crossover with no modification culture",
+      "heritage": "Venza nameplate 2009-2015 then 2021-2024; no cultural significance; a niche crossover between RAV4 and Highlander",
+      "identity": "Zero tribal identity; Venza buyers chose it for styling and efficiency; no community, no gatherings",
+      "resale": "Depreciates normally for segment; no premium; discontinued status may slightly help or hurt depending on supply"
+    },
+    "note": "Discontinued niche crossover — zero enthusiast culture, pure transportation"
+  },
+  "4runner_4th_gen_v8": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/4Runner ~180K+; 4th gen V8 has dedicated following on T4R.org; V8 specifically coveted within the 4Runner community; ih8mud covers 4th gen",
+      "aftermarket": "Mature 4th gen aftermarket; Toytec, Icon, Bilstein for suspension; budget builder friendly; lots of used parts available; V8 adds engine swap appeal to other Toyotas",
+      "heritage": "4Runner since 1984; 4th gen (2003-2009) was last with V8 option; 4.7L 2UZ-FE engine shared with LC100 and Tundra, highly respected",
+      "identity": "4th gen V8 owners are proud of the V8 rarity in a 4Runner; 'last V8 4Runner' carries cachet; trail capable but more daily driver than 5th gen crowd",
+      "resale": "4th gen V8s hold value above expected for age; V8 commands modest premium over V6; appreciated by builders but not extreme resale"
+    },
+    "note": "Last V8 4Runner — carries special cachet within the community; the 2UZ-FE is a beloved engine"
+  }
+}

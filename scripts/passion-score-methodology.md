@@ -173,6 +173,20 @@ waitlists or persistent dealer markups get top marks.
 
 ---
 
+## Sub-Factor Weight Rationale
+
+| Factor | Max Points | Why this weight? |
+|--------|-----------|------------------|
+| Community Scale | 2.5 | Most direct measure of passion; hardest to manufacture with marketing |
+| Aftermarket Depth | 2.0 | Market-driven validation; requires sustained demand |
+| Heritage & Icon | 2.0 | Proves multi-generational appeal; cultural staying power |
+| Owner Identity | 2.0 | Behavioral signal of tribal belonging |
+| Resale Premium | 1.5 | Economic proxy; confounded by reliability/practicality |
+
+Resale is weighted lowest because it conflates passion with other factors (Toyota reliability creates resale premium independent of passion). The other four factors more purely measure enthusiasm.
+
+---
+
 ## Formula
 
 ```
@@ -191,11 +205,70 @@ heritage and identity but no Reddit presence still scores well.
 
 ---
 
+## Data Structure
+
+The `passion-data.json` file follows the standard pattern used by other scoring data files:
+
+```json
+{
+  "_meta": {
+    "description": "Passion score sub-factor data for all vehicles",
+    "updated": "YYYY-MM-DD",
+    "methodology": "Community + aftermarket + heritage + identity + resale_premium",
+    "formula": "raw = sum of sub-factors (max 10); score = 1 + (raw / 10) * 9",
+    "rounding": "nearest 0.5"
+  },
+  "vehicle_id": {
+    "community": 0-2.5,
+    "aftermarket": 0-2,
+    "heritage": 0-2,
+    "identity": 0-2,
+    "resale_premium": 0-1.5,
+    "sources": {
+      "community": "Reddit/forum sources",
+      "aftermarket": "Brand counts, retailer catalogs",
+      "heritage": "Years in production, cultural impact",
+      "identity": "Owner signals, club activity",
+      "resale": "Depreciation data source"
+    },
+    "note": "Optional editorial context"
+  }
+}
+```
+
+**Example entry:**
+
+```json
+"wrangler_rubicon": {
+  "community": 2.5,
+  "aftermarket": 2.0,
+  "heritage": 2.0,
+  "identity": 2.0,
+  "resale_premium": 1.5,
+  "sources": {
+    "community": "r/Wrangler 245K, wranglerforum.com 500K posts",
+    "aftermarket": "ExtremeTerrain 15K+ parts, 50+ dedicated brands",
+    "heritage": "1941-present, WWII icon, global recognition",
+    "identity": "Jeep Wave, annual Jamborees, extreme owner loyalty",
+    "resale": "5-yr: 79% value retention (KBB)"
+  },
+  "note": "Maximum passion vehicle across all axes"
+}
+```
+
+---
+
 ## Calibration Anchors
 
 These reference vehicles establish the range before scoring the full dataset.
-If the formula doesn't produce these approximate results, adjust the data, not
-the formula.
+
+If the formula doesn't produce these approximate results:
+
+1. **First**, verify your sub-factor data is accurate (re-research if needed)
+2. **Second**, check if your tier thresholds are too strict/loose
+3. **Last resort**, adjust the formula weights, but document why
+
+The formula is intentionally simple. If it's fundamentally wrong, the sub-factor definitions or tier cutoffs are more likely the issue than the math.
 
 | Vehicle | Expected | Rationale |
 |---------|----------|-----------|
@@ -231,34 +304,315 @@ but for different reasons (status vs. capability). Score based on the same
 criteria — if G-Wagon owners don't have trail meetups and aftermarket build
 culture, score accordingly.
 
+**Platform sharers** (Lexus LX/Land Cruiser, Nissan Armada/Patrol): Score the
+dominant US nameplate's community, then reduce by 0.5-1.0 for the rebadge.
+LX benefits from Land Cruiser community but owners don't identify as strongly.
+
+**Brand halo effect** (all Jeeps benefit from Wrangler): Don't double-count.
+Renegade doesn't get Wrangler's community score just because both are Jeeps.
+
+**Fading classics** (FJ Cruiser, H2): Community may be smaller now but very
+dedicated per capita. Score based on current activity, not peak.
+
+**New but hyped** (Grenadier, new Defender): Can score high on early community
+enthusiasm and aftermarket trajectory, but heritage/identity are forming. Note
+for future revision as market matures.
+
+**Regional variations** (Patrol common globally, rare in US): Score based on
+US market presence only. Global passion doesn't translate to US aftermarket.
+
+---
+
+## Quick Reference: Research Queries
+
+These search patterns will accelerate data collection:
+
+### Community Scale
+```bash
+# Reddit
+site:reddit.com/r/{model}  # Check subscriber count, posts/week
+
+# Forums
+"{make} {model} forum" OR "ih8mud" OR "tacomaworld" OR "wranglerforum"
+
+# Facebook (via search)
+"{make} {model} owners group" site:facebook.com
+```
+
+### Aftermarket Depth
+```bash
+# Major retailers (check parts catalog depth)
+site:extremeterrain.com {make} {model}
+site:4wheelparts.com {make} {model}
+site:realtruck.com {make} {model}
+
+# Count distinct brands offering parts
+```
+
+### Heritage & Icon Status
+```bash
+"{make} {model}" "cultural icon" OR "legendary" OR "camel trophy" OR "expedition"
+"{make} {model}" wikipedia  # Production years, notable uses
+"{make} {model}" "film" OR "movie" OR "tv"
+```
+
+### Owner Identity
+```bash
+"{make} {model}" "wave" OR "club" OR "meetup" OR "jamboree"
+"{make} {model}" "would never sell" OR "keeper" OR "forever car"
+```
+
+### Resale Premium
+```bash
+# KBB/Edmunds 5-year depreciation
+"{year} {make} {model}" "resale value" OR "depreciation" site:kbb.com
+"{year} {make} {model}" "resale value" site:edmunds.com
+
+# Market markup signals
+"{make} {model}" "waitlist" OR "market adjustment" OR "dealer markup"
+```
+
 ---
 
 ## Research Plan
 
-### Phase 1: Anchor vehicles
-Score the ~10 calibration anchors above plus 5–10 additional well-known
-platforms. Validate the formula produces a sensible ranking. Adjust tier
-definitions if needed.
+### Research Shortcuts & Prioritization
 
-### Phase 2: Full dataset
-Score all 114 vehicles. Most will cluster in the 1–4 range — a quick Reddit
-search, aftermarket catalog check, and heritage assessment per vehicle. Budget
-~5 minutes per obscure vehicle, ~15 for well-known ones.
+**Current dataset**: 215 vehicles × 5-15 min = 18-54 hours naive approach
 
-### Phase 3: Sanity check
-Review the full ranked list. Look for anything that feels wrong — a vehicle
-ranked higher or lower than gut instinct suggests. Investigate and adjust
-individual scores where the data supports it. The goal is a list where any
-knowledgeable overlander would look at the top 10 and bottom 10 and nod.
+**Tier 1: High-confidence batch scoring (5 min each)**
+Vehicles with obvious passion levels can be scored quickly:
+
+- **Score 1-2 (appliances)**: Tucson base, Equinox, HR-V, Rogue, etc.
+  - Quick check: No dedicated subreddit or <5K subs
+  - Formula: 0 + 0 + 0 + 0 + 0 = 1.0
+
+- **Score 8-10 (icons)**: Wrangler, Land Cruiser, Defender, Bronco
+  - Research fully (calibration anchors)
+
+**Tier 2: Platform sharing (2 min each)**
+Many vehicles share communities:
+- Tacoma/4Runner/Tundra → r/ToyotaTrucks, TacomaWorld spillover
+- F-150/Bronco/Ranger → F150forum.com, Bronco6G
+- Grand Cherokee/Wrangler → Jeep halo effect
+- LX 600/Land Cruiser 300 → ih8mud.com shared community
+
+**Tier 3: Quick web searches (3-5 min each)**
+For mid-range vehicles, use a single combined search:
+```bash
+"{make} {model} reddit forum aftermarket resale community"
+```
+
+**Parallel research batches:**
+Group by make to reuse aftermarket/brand research:
+1. All Toyota models (reuse ih8mud, ToyotaNation research)
+2. All Jeep models (reuse Jeep Forums, JeepForum.com)
+3. All Land Rover models (reuse DefenderSource, Rovers North)
+4. All luxury (likely low scores across board)
+
+### Phase 1: Anchor vehicles (20 vehicles, ~4 hours)
+
+Score these in order to calibrate:
+
+**Tier 1 (maximum passion, 9.5-10):**
+- Jeep Wrangler Rubicon JL
+- Toyota Land Cruiser 200 Series
+- Land Rover Defender (classic)
+
+**Tier 2 (high passion, 7.5-9):**
+- Toyota 4Runner TRD Pro
+- Ford Bronco (new)
+- Jeep Gladiator Rubicon
+- Toyota Tacoma TRD Off-Road
+
+**Tier 3 (moderate passion, 5-7):**
+- Jeep Grand Cherokee
+- Subaru Outback Wilderness
+- Ford F-150 Raptor
+
+**Tier 4 (low passion, 3-5):**
+- Subaru Crosstrek
+- Honda CR-V
+- Ford Explorer
+
+**Tier 5 (appliances, 1-2):**
+- Chevrolet Equinox
+- Nissan Rogue
+- Hyundai Tucson
+
+Validate: Does the formula produce expected scores? If not, adjust tier thresholds before proceeding.
+
+### Phase 2: Full dataset (195 vehicles, ~12-20 hours)
+
+**Batch strategy** (most efficient):
+
+1. **Score all Toyotas** (~25 vehicles, 2 hours)
+   - Research ih8mud.com, ToyotaNation.com, r/ToyotaTacoma, r/4Runner once
+   - Apply learned patterns to all models
+
+2. **Score all Jeeps** (~18 vehicles, 1.5 hours)
+   - JeepForum.com, WranglerForum.com research applies to all
+
+3. **Score all Land Rovers** (~8 vehicles, 1 hour)
+   - DefenderSource.com, LandRoverForums.com
+
+4. **Score all luxury** (~40 vehicles, 3 hours)
+   - Most will score 1.5-3.5; batch quickly
+
+5. **Score all trucks** (~34 vehicles, 3 hours)
+   - High variance; F-150/Tacoma/Wrangler high, others moderate
+
+6. **Score remaining** (~90 vehicles, 6 hours)
+   - Compact CUVs mostly low scores; batch efficiently
+
+### Phase 3: Sanity check (2 hours)
+
+Sort by final score. Review these for errors:
+- Top 20: Should all be recognizable passion vehicles
+- Bottom 20: Should all be appliances
+- Any surprises in middle: Investigate and adjust
+
+The goal is a list where any knowledgeable overlander would look at the top 10 and bottom 10 and nod.
 
 ---
 
 ## Integration
 
-Once data is populated in `passion-data.json`:
+### 1. Create data file and calculation script
 
-1. Run `node scripts/calculate-passion-scores.mjs` to compute scores
-2. Add `passion` as a scoring dimension in `OverlandFinder.jsx`
-3. Add passion as a user-adjustable priority weight (default: 2)
-4. Add passion to the filter panel (1–10 range slider)
-5. Update tests for the new field
+```bash
+# Create scripts/passion-data.json (see Data Structure section)
+# Create scripts/calculate-passion-scores.mjs (pattern: calculate-luxury-scores.mjs)
+
+node scripts/calculate-passion-scores.mjs --dry-run  # preview
+node scripts/calculate-passion-scores.mjs             # write to vehicles.json
+```
+
+### 2. Add to package.json
+
+```json
+{
+  "scripts": {
+    "calc:passion": "node scripts/calculate-passion-scores.mjs",
+    "calc:all": "npm run calc:offroad && npm run calc:performance && npm run calc:luxury && npm run calc:passion"
+  }
+}
+```
+
+### 3. Update UI components
+
+**FilterBar.jsx** (add passion filter):
+- Add slider: `passion: [1, 10]` (pattern: see `offroad` filter)
+- Display as "Passion/Community" in the UI
+
+**TuneModal.jsx** (add passion weight):
+- Add slider: `passion: 2` (default weight)
+- Display name: "Passion/Community"
+- Help text: "How much does owner enthusiasm matter?"
+
+**VehicleCard.jsx** (display passion score):
+- Add badge similar to offroad/luxury badges
+- Icon: 🔥 or ❤️
+- Color: gradient from gray (low) to red/orange (high)
+
+**VehicleDetail.jsx** (show passion in details):
+- Add row with passion score
+- Optional: Show sub-factor breakdown (community, aftermarket, heritage, identity, resale)
+
+**Sidebar.jsx** (add to dimensions):
+- Add "Passion" to the scoring dimensions list
+
+### 4. Update validation
+
+**scripts/validate-vehicles.mjs**: Add passion field validation
+```javascript
+// Required fields check
+if (typeof vehicle.passion !== 'number') {
+  errors.push(`${vehicle.id}: missing passion score`)
+}
+if (vehicle.passion < 1 || vehicle.passion > 10) {
+  errors.push(`${vehicle.id}: passion out of range (${vehicle.passion})`)
+}
+if (vehicle.passion % 0.5 !== 0) {
+  errors.push(`${vehicle.id}: passion not rounded to 0.5 (${vehicle.passion})`)
+}
+```
+
+### 5. Update tests
+
+Add passion to test coverage in existing test files:
+- Verify passion field exists on all vehicles
+- Verify passion is in range [1, 10]
+- Verify passion is rounded to nearest 0.5
+- Verify passion weight affects final scoring
+
+---
+
+## Calculation Script Template
+
+The `scripts/calculate-passion-scores.mjs` script should follow the pattern of `calculate-luxury-scores.mjs`:
+
+```javascript
+#!/usr/bin/env node
+
+import fs from 'fs'
+
+const passionDataPath = './scripts/passion-data.json'
+const vehiclesPath = './src/vehicles.json'
+
+// Parse command line args
+const dryRun = process.argv.includes('--dry-run')
+
+// Load data
+const passionData = JSON.parse(fs.readFileSync(passionDataPath, 'utf-8'))
+const vehicles = JSON.parse(fs.readFileSync(vehiclesPath, 'utf-8'))
+
+console.log(`Calculating passion scores for ${vehicles.length} vehicles...\n`)
+
+let updated = 0
+let missing = 0
+
+for (const vehicle of vehicles) {
+  const data = passionData[vehicle.id]
+
+  if (!data) {
+    console.warn(`⚠️  No passion data for ${vehicle.id}`)
+    missing++
+    continue
+  }
+
+  // Calculate raw score
+  const raw = (data.community || 0) +
+              (data.aftermarket || 0) +
+              (data.heritage || 0) +
+              (data.identity || 0) +
+              (data.resale_premium || 0)
+
+  // Normalize to 1-10 scale
+  const score = 1 + (raw / 10) * 9
+
+  // Round to nearest 0.5
+  const rounded = Math.round(score * 2) / 2
+
+  // Update vehicle
+  const oldScore = vehicle.passion
+  vehicle.passion = rounded
+
+  if (oldScore !== rounded) {
+    console.log(`${vehicle.id}: ${oldScore || 'none'} → ${rounded}`)
+    updated++
+  }
+}
+
+console.log(`\n✅ Updated: ${updated}`)
+console.log(`⚠️  Missing data: ${missing}`)
+console.log(`📊 Total vehicles: ${vehicles.length}`)
+
+// Write results
+if (!dryRun) {
+  fs.writeFileSync(vehiclesPath, JSON.stringify(vehicles, null, 2) + '\n')
+  console.log(`\n💾 Wrote to ${vehiclesPath}`)
+} else {
+  console.log(`\n🔍 Dry run - no changes written`)
+}
+```

@@ -1,0 +1,302 @@
+{
+  "wrangler_jl": {
+    "community": 2.5,
+    "aftermarket": 2,
+    "heritage": 2,
+    "identity": 2,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/Jeep ~800K subs, r/Wrangler ~100K+; JeepForum.com, JLWranglerForums.com (dedicated JL forum with hundreds of thousands of posts); JL shares full Wrangler community ecosystem which defines the off-road subculture",
+      "aftermarket": "Identical to Rubicon — Quadratec, ExtremeTerrain, Rugged Ridge, Bestop, Smittybilt, Metalcloak, TeraFlex, Genright all support JL platform; thousands of SKUs; the 4-door JL Unlimited is now the best-selling Wrangler configuration",
+      "heritage": "Same Willys MB 1941 lineage as Rubicon; JL is the current-generation Wrangler (2018+); 'Jeep' is globally synonymous with off-road vehicle; the nameplate is legendary",
+      "identity": "Full Jeep Wave participation; ducking culture; doors-off lifestyle; Easter eggs; Jeep Jamboree; 'It's a Jeep thing' — 4-door JL Unlimited owners are core Wrangler tribe",
+      "resale": "JL Wranglers retain value exceptionally well (~65-70% at 5 years per KBB); slightly less than Rubicon trim which commands the highest premiums, but still well above segment average"
+    },
+    "note": "4-door JL Unlimited is the volume Wrangler; full access to the Wrangler ecosystem but slightly less resale premium than the Rubicon trim specifically"
+  },
+  "wrangler_jk": {
+    "community": 2.5,
+    "aftermarket": 2,
+    "heritage": 2,
+    "identity": 2,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/Jeep ~800K, r/Wrangler ~100K+; JKOwners.com is one of the most active generation-specific forums ever created; JeepForum.com JK section extremely active; the JK generation (2007-2018) built the modern Wrangler community",
+      "aftermarket": "JK has the deepest aftermarket of any Wrangler generation — 11 years of production means the most mature parts catalog; every major aftermarket brand (Quadratec, ExtremeTerrain, Smittybilt, Bestop, Rough Country, Metalcloak) has comprehensive JK coverage",
+      "heritage": "Same Willys lineage; JK modernized the Wrangler and brought it mainstream; 4-door Unlimited introduced in JK generation (2007) which transformed the platform's popularity",
+      "identity": "Full Jeep Wave, full tribal identity; JK owners are often the most modification-heavy generation due to vehicle age and affordability; massive Instagram and YouTube build culture",
+      "resale": "JK Wranglers (now 7-18 years old) hold value remarkably well for their age; used JK Rubicons still command $25-35K regularly; value retention defies age and mileage expectations"
+    },
+    "note": "The JK built the modern Wrangler community and has the most mature aftermarket; used values remain strong despite age"
+  },
+  "wrangler_tj": {
+    "community": 2.5,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 2,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/Jeep ~800K, r/Wrangler ~100K+; JeepForum.com TJ section very active; TJ is celebrated as 'the last simple Wrangler' with dedicated following; WranglerForum TJ section active despite 2006 end of production",
+      "aftermarket": "Strong aftermarket but narrower than JK/JL due to age and 2-door-only production; TeraFlex, Rough Country, Smittybilt, Bestop all support TJ; some TJ-specific companies winding down but catalog still deep; slightly less than JK/JL's breadth",
+      "heritage": "Last Wrangler with the legendary 4.0L inline-6; coil spring upgrade from YJ; first Wrangler with coil link front suspension; seen as the 'pure' analog Wrangler; shares full Willys lineage",
+      "identity": "TJ owners are often the most passionate purists in the Wrangler community; 'last real Wrangler' sentiment; full Jeep Wave participation; strong trail rig culture; these vehicles are built, driven hard, and kept forever",
+      "resale": "Clean TJ Rubicons (2003-2006) command $15K-25K despite being 20+ years old; 4.0L I6 TJs hold value well above what age/mileage predict; not quite as extreme as JK/JL but very strong for a 1997-2006 vehicle"
+    },
+    "note": "The purist's Wrangler — last 4.0L I6, last simple analog Jeep; owners are fiercely loyal and aftermarket remains strong for a 20+ year old platform"
+  },
+  "wrangler_2dr_jl": {
+    "community": 2.5,
+    "aftermarket": 2,
+    "heritage": 2,
+    "identity": 2,
+    "resale_premium": 1.5,
+    "sources": {
+      "community": "Same massive Wrangler community (r/Jeep 800K, r/Wrangler 100K+, JLWranglerForums.com); 2-door JL is the purist's choice and celebrated within the community as the 'real' Wrangler; smaller sales volume but disproportionate community respect",
+      "aftermarket": "Same full JL aftermarket (Quadratec, ExtremeTerrain, etc.); all JL parts fit; 2-door specific items like half doors and bikini tops; same depth as 4-door",
+      "heritage": "The 2-door IS the original Wrangler form factor — CJ, YJ, TJ were all 2-door; represents the purest expression of the Willys lineage; 2-door outsold by 4-door since JK but remains the icon",
+      "identity": "2-door owners often see themselves as the 'real' Jeep people; stronger identity signal than Unlimited; trail preference for short wheelbase; the original Jeep silhouette",
+      "resale": "2-door Rubicon JL commands extreme premiums — rarer than Unlimited, more desirable for crawling; used prices near or above MSRP for low-mile examples; waitlists for special editions"
+    },
+    "note": "The purest current Wrangler — short wheelbase Rubicon is the ultimate trail rig and commands the highest resale premiums in the lineup"
+  },
+  "wrangler_2dr_jk": {
+    "community": 2.5,
+    "aftermarket": 2,
+    "heritage": 2,
+    "identity": 2,
+    "resale_premium": 1,
+    "sources": {
+      "community": "Full Wrangler community access; JKOwners.com; 2-door JK is less common than Unlimited but equally celebrated; strong trail and rock crawling community presence",
+      "aftermarket": "Full JK aftermarket applies — deepest catalog of any Wrangler generation; 2-door specific parts (soft tops, roll cages) widely available from Bestop, Smittybilt, etc.",
+      "heritage": "Same Willys lineage; 2-door JK represents the classic Wrangler form in the modern era; last 2-door Wrangler generation widely available used at accessible prices",
+      "identity": "Full Jeep tribal identity; 2-door JK owners are often dedicated trail builders; short wheelbase crawling culture; strong 'keep it simple' ethos",
+      "resale": "2-door JK Rubicons hold value very well for 2007-2018 vehicles; $20-30K for clean examples; strong but not as extreme as current-gen 2dr JL"
+    },
+    "note": "Classic modern short-wheelbase Wrangler; full community access, strong resale for its age, the accessible entry to 2-door Jeep culture"
+  },
+  "wrangler_2dr_tj": {
+    "community": 2.5,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 2,
+    "resale_premium": 1,
+    "sources": {
+      "community": "Full Wrangler community; TJ is beloved as the ultimate simple Wrangler; all TJs were 2-door (no Unlimited until LJ long-wheelbase variant); strong JeepForum presence",
+      "aftermarket": "TJ aftermarket still strong but narrowing with age; TeraFlex, Rough Country, Smittybilt, Bestop support TJ; slightly less breadth than JK/JL platforms but full build-out still possible",
+      "heritage": "The TJ is the purest form — only 2-door, legendary 4.0L I6, coil springs, analog everything; the Wrangler that many enthusiasts consider the high-water mark for simplicity",
+      "identity": "TJ owners are among the most passionate in the Jeep world; 'last real Wrangler' sentiment is extremely strong; vehicles are modified extensively and kept indefinitely; full Jeep Wave participation",
+      "resale": "Clean TJ Rubicons (2003-2006) command $15-25K despite 20+ years of age; exceptional value retention for the era; 4.0L I6 models especially prized"
+    },
+    "note": "All TJs were 2-door — this IS the TJ; scores mirror wrangler_tj since the generation was exclusively short wheelbase"
+  },
+  "wrangler_sahara": {
+    "community": 2.5,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 1.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Full access to r/Jeep 800K, r/Wrangler 100K+, JLWranglerForums.com; Sahara owners are part of the Wrangler community but tend toward lifestyle/daily-driver discussions rather than trail reports",
+      "aftermarket": "Same JL platform so most parts fit, but Sahara buyers are less likely to build out; Sahara-specific aftermarket skews toward appearance mods (wheels, tires, light bars) rather than full off-road builds; deep catalog available but engagement is lower",
+      "heritage": "Same Willys/Wrangler lineage; Sahara trim has existed since the YJ generation (1987); positioned as the more refined Wrangler",
+      "identity": "Sahara owners participate in Jeep Wave and Jeep culture but identity is somewhat diluted — Sahara is the 'mall crawler' in Rubicon owner parlance; visible Jeep tribal membership but less trail-focused identity",
+      "resale": "Sahara holds value well for the segment but not the extreme premium of Rubicon; more typical SUV depreciation curve; no significant irrational premium beyond general Wrangler brand strength"
+    },
+    "note": "The street-oriented Wrangler — benefits from the full community ecosystem but identity and resale are softer than Rubicon; the 'daily driver' Wrangler"
+  },
+  "wrangler_4xe_sahara": {
+    "community": 2,
+    "aftermarket": 1,
+    "heritage": 2,
+    "identity": 1.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Part of broader Wrangler community but 4xe has mixed reception; some enthusiasts view PHEV as contrary to Wrangler ethos; dedicated 4xe discussions on JLWranglerForums.com but often focused on EV range and tax credits rather than trail capability; r/Jeep covers 4xe but it's a niche within the community",
+      "aftermarket": "JL platform parts largely fit but 4xe has weight and battery considerations that affect suspension choices; fewer 4xe-specific builds due to warranty concerns with battery system and heavier curb weight; aftermarket engagement is lower than gas Wrangler",
+      "heritage": "Same Willys nameplate heritage; the 4xe represents Jeep's electrification future but purists are ambivalent; inherits the heritage score of the nameplate, not the powertrain",
+      "identity": "4xe Sahara owners participate in Jeep culture but motivation is often split between Jeep lifestyle and PHEV efficiency/tax credits; less trail-focused than Rubicon buyers; moderate Jeep tribal membership",
+      "resale": "4xe pricing was heavily influenced by federal EV tax credits ($7,500); as credits phase out, used values are adjusting; resale is average to slightly above average for the segment but lacks the Rubicon's irrational premium"
+    },
+    "note": "The eco-conscious Wrangler — full heritage but community reception is mixed; buyers are often motivated by tax credits as much as Jeep lifestyle"
+  },
+  "gladiator_rubicon": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/JeepGladiator ~30K subs; GladiatorForum.com active; benefits from r/Jeep 800K ecosystem; multiple thriving communities but distinctly less than Wrangler-specific forums; Gladiator has its own growing identity separate from Wrangler",
+      "aftermarket": "Shares JL Wrangler platform so many parts cross over; bed-specific accessories (rack systems, bed caps, RTTs); Bestop, Mopar, AEV, Warn, ARB support the JT; growing but less mature than Wrangler aftermarket; full build-out possible",
+      "heritage": "Gladiator nameplate revived from 1963-1988 Jeep truck; Wrangler-based truck is unique in the market; however the JT is only one generation old (2020+); heritage score reflects strong Jeep brand halo but shorter truck-specific lineage",
+      "identity": "Gladiator owners participate in Jeep Wave and trail culture; Rubicon Gladiator owners are trail-focused; growing meetup scene; some identity tension between 'Wrangler people' and 'truck people'; Rubicon trim buyers lean enthusiast",
+      "resale": "Gladiator Rubicon holds value well but not the extreme premium of Wrangler Rubicon; slightly above average for midsize truck segment; Mojave trim competes for attention"
+    },
+    "note": "Wrangler-based truck with growing community; benefits from Jeep ecosystem but distinct from Wrangler identity; Rubicon trim is the enthusiast's choice"
+  },
+  "gladiator_ecodiesel": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1,
+    "resale_premium": 1,
+    "sources": {
+      "community": "Same Gladiator community (r/JeepGladiator ~30K, GladiatorForum.com); EcoDiesel discussions are a niche within the Gladiator community; some dedicated EcoDiesel threads on JeepForum; benefits from broader Jeep ecosystem",
+      "aftermarket": "Same JT platform aftermarket as gas Gladiator; diesel-specific tuning and exhaust options from Banks Power, AFE; otherwise shares full Gladiator/JL parts catalog",
+      "heritage": "Same Gladiator heritage as Rubicon; the EcoDiesel adds the diesel/overlanding cache; only diesel Jeep Gladiator ever made (2021-2023 only); short production run adds collector interest",
+      "identity": "EcoDiesel Gladiator owners are often overlanding-focused; diesel's torque and range appeal to expedition-minded buyers; niche within the Gladiator tribe but strongly identified with the overland lifestyle",
+      "resale": "Discontinued after only 3 model years (2021-2023); limited production diesel in a Wrangler-based truck creates scarcity premium; used EcoDiesel Gladiators hold value notably above gas versions; 'only diesel Gladiator ever made' cachet"
+    },
+    "note": "Discontinued diesel Gladiator — short production run creates scarcity premium; same community/aftermarket as Gladiator Rubicon but better resale due to rarity"
+  },
+  "gc4xe": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/GrandCherokee ~25K subs; JeepGarage.org; GrandCherokeeForums.com; 4xe discussions are a subset focused on EV range and tax credits; GC is well represented but overshadowed by Wrangler in r/Jeep",
+      "aftermarket": "Limited 4xe-specific aftermarket due to PHEV complexity; some lift kits from Rocky Road Outfitters; Mopar accessories; battery and weight considerations limit modification culture; far less than Wrangler",
+      "heritage": "Grand Cherokee nameplate since 1993; famous Cobo Hall debut; created the premium SUV segment; strong Jeep brand heritage; Summit trim is luxury-focused which distances it from trail heritage",
+      "identity": "Summit 4xe buyers are luxury/efficiency-motivated, not trail enthusiasts; minimal Jeep Wave participation from GC owners; viewed more as premium PHEV SUV than Jeep lifestyle vehicle",
+      "resale": "4xe benefited from EV tax credits driving demand; as credits phase out, values normalizing; slight premium from Jeep brand but not irrational"
+    },
+    "note": "Luxury PHEV Grand Cherokee — Jeep heritage and brand halo but Summit trim buyers are comfort-first, not trail-first"
+  },
+  "gc4xe_ol": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same GC community as gc4xe (r/GrandCherokee ~25K, JeepGarage.org); Overland trim discussions overlap with Summit; no Overland-specific community differentiation",
+      "aftermarket": "Same limited 4xe aftermarket as Summit; Overland trim does not change aftermarket engagement; some Mopar accessories and lift kits available",
+      "heritage": "Same Grand Cherokee 1993+ heritage; Overland trim name carries some off-road cache but 4xe powertrain focuses buyers on efficiency",
+      "identity": "Overland 4xe buyers are value-oriented within the GC lineup; slightly more trail-curious than Summit buyers but still primarily comfort/efficiency motivated; minimal tribal identity",
+      "resale": "Similar to gc4xe Summit — tax credit influence, normalizing values; Overland is less expensive so slightly different buyer profile but similar resale dynamics"
+    },
+    "note": "More affordable 4xe Grand Cherokee — same scoring as Summit since community/aftermarket/identity differences are negligible between trims"
+  },
+  "gc_wk2": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/GrandCherokee ~25K subs covers WK2 heavily (it was current gen for a decade); JeepGarage.org strong WK2 section; WK2 Facebook groups active; GrandCherokeeForums.com; solid single-platform community",
+      "aftermarket": "WK2 has the strongest GC aftermarket — Rocky Road Outfitters, Rough Country, Iron Rock Off-Road for lifts and armor; 10-year production run created mature parts catalog; SRT/Trackhawk performance aftermarket adds depth; more developed than WL",
+      "heritage": "Grand Cherokee nameplate since 1993; WK2 (2011-2021) was a 10-year run that defined the modern GC; Hemi V8 availability, air suspension on higher trims; Trail Rated from factory; strong nameplate weight",
+      "identity": "WK2 owners appreciate capability but most are mainstream SUV buyers; some trail enthusiasts especially with V8 and air suspension; Jeep brand pride present but not Wrangler-level tribal; WK2 is 'the sensible Jeep'",
+      "resale": "Used WK2s are excellent value — they depreciated normally for the first few years and now trade at affordable prices; Trackhawk is the exception with strong premiums; standard WK2 resale is average"
+    },
+    "note": "The long-running WK2 built a solid community and aftermarket over its decade of production; best value Grand Cherokee on the used market"
+  },
+  "gc_wk2_th": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same WK2 community as gc_wk2; Trailhawk-specific threads on JeepGarage and GrandCherokeeForums; Trailhawk buyers are more likely to engage in off-road discussions; benefits from r/GrandCherokee and broader Jeep ecosystem",
+      "aftermarket": "Same WK2 aftermarket with Trailhawk-specific lift considerations (air suspension equipped); Rocky Road, Rough Country, Iron Rock support; Trailhawk-specific skid plates and bumpers exist; decent depth",
+      "heritage": "Same GC heritage; Trailhawk badge added 2017 — Trail Rated certification with meaningful off-road hardware (Quadra-Drive II, electronic limited-slip diff, air suspension); represents GC's trail capability pinnacle for WK2",
+      "identity": "WK2 Trailhawk owners are notably more enthusiastic than base GC owners; trail runs, off-road meetups; the Trailhawk badge signals 'I actually use this off-road'; visible owner engagement above standard GC",
+      "resale": "Trailhawk WK2 commands slight used premium over equivalent Overland/Limited trims; not extreme but consistent $2-3K premium for Trailhawk equipment; tracks close to segment average"
+    },
+    "note": "The trail-focused WK2 — scores higher on identity than base GC because Trailhawk buyers are genuinely more engaged off-road enthusiasts"
+  },
+  "gc_l_overland": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/GrandCherokee covers GC L but it's the least enthusiast-focused variant; GC L discussions center on third-row usability, family hauling, not trail capability; minimal dedicated GC L community presence",
+      "aftermarket": "Very limited — some lift kits available from Rocky Road but the 3-row GC L is rarely modified; longer wheelbase limits trail utility; Mopar accessories exist but no enthusiast build culture",
+      "heritage": "Inherits Grand Cherokee nameplate heritage from 1993; GC L is new for 2021 (WL generation); the 'L' is a family-hauler variant that trades off-road capability for passenger space; Overland trim has some heritage in the name",
+      "identity": "GC L buyers are family-first; the third row signals practical needs over lifestyle; minimal Jeep tribal identity; these are transportation purchases with Jeep brand preference, not lifestyle vehicles",
+      "resale": "Three-row SUV segment is competitive; GC L depreciates as expected for its class; Overland trim holds slightly better than base but no irrational premium; new enough to lack long-term data"
+    },
+    "note": "The family hauler Grand Cherokee — three rows signal practical intent; lowest passion score in the GC family"
+  },
+  "wagoneer": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/Wagoneer very small; JeepGarage and Full-Size Jeep Network cover Wagoneer sparingly; new platform (2022+) with growing but still small owner community; most Wagoneer discussion happens within general Jeep forums",
+      "aftermarket": "Essentially OEM/Mopar only; no independent aftermarket ecosystem for the WS platform; too new, too luxury, and too niche for aftermarket companies to invest; some generic full-size SUV accessories (roof racks, steps) fit",
+      "heritage": "Wagoneer nameplate dates to 1963 — the original luxury SUV; classic Wagoneer (Grand Wagoneer SJ) is a collectible icon; however the 2022+ WS shares no platform heritage with the classic; nameplate carries significant weight in automotive history",
+      "identity": "New Wagoneer buyers are luxury full-size SUV shoppers comparing against Tahoe, Expedition, Sequoia; minimal Jeep tribal identity; not part of Jeep Wave culture; purchased for space and luxury, not off-road lifestyle",
+      "resale": "New platform with dealer discounting reported in 2024-2025; depreciating as expected for large luxury SUV; no premium — some dealer incentives suggest slightly worse than segment average"
+    },
+    "note": "Heritage nameplate on a new luxury platform — the classic Wagoneer's cultural capital does not transfer to the modern buyer's identity or community"
+  },
+  "gwagoneer": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Same nascent Wagoneer community; Grand Wagoneer discussions overlap with Wagoneer; even smaller owner base given $87K+ price; luxury SUV buyer forums (not Jeep enthusiast forums) are where owners congregate",
+      "aftermarket": "Same as Wagoneer — OEM/Mopar only; $87K luxury SUV buyers do not modify their vehicles; no aftermarket ecosystem exists or is developing",
+      "heritage": "Grand Wagoneer nameplate is arguably more iconic than Wagoneer — the classic SJ Grand Wagoneer (1984-1991) is a blue-chip collectible; wood-paneled American luxury icon; but the modern GW shares only the name",
+      "identity": "Grand Wagoneer buyers are American luxury buyers competing with Navigator, Escalade; some buyers appreciate the Jeep brand but purchase motivation is luxury and space, not off-road or Jeep lifestyle",
+      "resale": "Heavy discounting reported; depreciating faster than expected for its price point; competing against established luxury full-size SUVs with stronger brand recognition; no premium"
+    },
+    "note": "Flagship luxury Jeep — iconic nameplate but modern buyer profile is luxury-focused with no enthusiast culture; scores match standard Wagoneer"
+  },
+  "renegade_trailhawk": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/JeepRenegade ~15K subs (modest); JeepRenegadeForum.com exists with moderate activity; Facebook groups for Renegade owners; some Trailhawk-specific threads but overall small community; benefits slightly from r/Jeep umbrella",
+      "aftermarket": "Basic aftermarket from Rough Country (lift kits), Daystar (lift spacers); some LED lighting and roof rack options; very limited compared to Wrangler/GC; no Renegade-specific aftermarket companies; Trail Rated badge but limited modification culture",
+      "heritage": "Renegade nameplate used briefly in 1970s-80s on CJs; modern Renegade (2015-2023) is Fiat 500X-based, Italian-built; minimal heritage connection to Jeep's off-road legacy; Trailhawk badge provides Trail Rated certification",
+      "identity": "Renegade owners appreciate affordability and Trail Rated capability for the size; some mild Jeep pride; not part of the Jeep Wave tradition in practice; minimal tribal identity; viewed as 'baby Jeep'",
+      "resale": "Discontinued after 2023; depreciated as expected for subcompact CUV segment; no premium; Trailhawk badge doesn't command meaningful premium on resale"
+    },
+    "note": "Entry-level Jeep with Trailhawk badge — Trail Rated but Fiat-based platform limits enthusiast credibility; discontinued 2023"
+  },
+  "compass_trailhawk": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/JeepCompass ~10K subs (small); JeepCompassForum.com exists but low activity; Facebook owner groups are small; Compass discussion within r/Jeep is rare; minimal dedicated community",
+      "aftermarket": "Similar to Renegade — basic lift spacers from Daystar, some LED and appearance mods; Rough Country basic kits; no Compass-specific companies; Trailhawk badge doesn't drive modification culture",
+      "heritage": "Compass nameplate since 2007 (replaced Jeep Liberty market position); no significant heritage; current generation (2017+) is FCA compact architecture; Trailhawk badge provides Trail Rated certification but platform limits capability",
+      "identity": "Compass buyers are compact CUV shoppers who liked the Jeep brand; minimal tribal identity; not included in Jeep Wave culture; practical transportation purchase; Trailhawk adds mild aspirational element",
+      "resale": "Depreciates as expected for compact CUV segment; Trailhawk trim holds very slightly better than base but no meaningful premium; competitive with CR-V, RAV4, etc. in depreciation"
+    },
+    "note": "Compact CUV with Jeep badge — Trail Rated Trailhawk but fundamentally a transportation appliance; similar profile to Renegade Trailhawk"
+  },
+  "cherokee_xj": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/CherokeeXJ ~95K subs (extraordinary for a vehicle discontinued in 2001 — demonstrates intense per-capita enthusiasm); NAXJA.org (National Alliance of XJ Associations); dedicated XJ sections on JeepForum.com with decades of build threads; Facebook XJ groups are very active; community engagement per vehicle sold is exceptional",
+      "aftermarket": "Iron Rock Off-Road, Rusty's Off-Road, Rough Country, Zone Offroad, JCR Offroad — all have extensive XJ catalogs; full unibody cage kits, long-arm suspension systems, custom bumpers, skid plates; the XJ aftermarket is remarkably deep for a 25+ year old vehicle; nearly any modification is well-documented",
+      "heritage": "Produced 1984-2001; invented the modern unibody SUV segment; the 4.0L AMC/Chrysler inline-6 is legendary for reliability and simplicity; military and police use worldwide; the XJ proved unibody could be as capable as body-on-frame; widely regarded as one of the best off-road platforms ever made",
+      "identity": "XJ owners are deeply dedicated; 'never sell your XJ' sentiment mirrors Land Cruiser culture; owners invest thousands in vehicles worth $5-15K; organized trail runs, XJ-specific meetups, restoration culture; strong us-vs-them identity within the Jeep world ('XJ people' are distinct from 'Wrangler people')",
+      "resale": "Clean XJs have appreciated significantly — rust-free examples that were $3-5K in 2015 now command $10-20K; low-mile, unmodified XJs are genuinely collectible; resale defies what a 25+ year old unibody SUV 'should' be worth; the 4.0L I6 premium is real"
+    },
+    "note": "Cult classic — 95K Reddit subscribers for a vehicle discontinued in 2001 is extraordinary; the XJ is a genuine passion vehicle with rising collector values"
+  }
+}

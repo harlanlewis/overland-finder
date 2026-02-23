@@ -42,6 +42,7 @@ Vehicle specs are stored in `src/vehicles.json` (215+ vehicles).
 | `cargo` | number | Cargo space in cubic feet |
 | `reliability` | number | Reliability rating (1-10) |
 | `performance` | number | Performance rating (1-10) |
+| `passion` | number | Owner enthusiasm/community (1-10) |
 | `size` | enum | "compact", "mid", or "full" |
 | `body` | enum | Body type: "suv", "truck", "cuv", "wagon" |
 | `pt` | enum | Powertrain: "gas", "diesel", "hybrid", "phev", "ev" |
@@ -64,6 +65,7 @@ Vehicle specs are stored in `src/vehicles.json` (215+ vehicles).
 | `offroad` | Feature-based formula (4WD system, lockers, ground clearance) |
 | `performance` | Power-to-weight formula (hp/weight normalized) |
 | `luxury` | Feature-based formula (brand tier, interior, features, tech, quietness) |
+| `passion` | Community-based formula (forums, aftermarket, heritage, identity, resale) |
 | `yearStart`, `yearEnd`, `generation` | Wikipedia vehicle infoboxes |
 
 ### Scales
@@ -80,6 +82,7 @@ Vehicle specs are stored in `src/vehicles.json` (215+ vehicles).
 | `offroad` | 1-10 | Capability rating (10 = best) |
 | `luxury` | 1-10 | Interior/comfort rating (10 = best) |
 | `performance` | 1-10 | Power/handling rating (10 = best) |
+| `passion` | 1-10 | Owner enthusiasm rating (10 = best) |
 | `yearStart` | Year | Generation start year |
 
 ### Derived Score Formulas
@@ -112,6 +115,21 @@ Interior: cloth=0, leatherette=0.5, leather=1, premium_leather=1.5
 Features: ventilated_seats=0.5, massage=0.5, premium_audio=0.5, air_suspension=1, pano_roof=0.5
 Tech: large_display=0.5, digital_cluster=0.5, HUD=0.5
 Quietness: loud=0, average=0.5, quiet=1, very_quiet=1.5
+```
+
+**Passion** (community-based):
+```
+raw = community + aftermarket + heritage + identity + resale_premium
+max_raw = 2.5 + 2 + 2 + 2 + 1.5 = 10
+
+score = 1 + (raw / 10) * 9    // Normalized to 1-10
+rounded = Math.round(score * 2) / 2   // Round to nearest 0.5
+
+Community (0-2.5): Reddit/forum size & activity relative to sales volume
+Aftermarket (0-2): Depth of parts ecosystem (brands, availability, dedicated companies)
+Heritage (0-2): Nameplate longevity, cultural significance, icon status
+Identity (0-2): Owner tribal signals (waves, clubs, loyalty, lifestyle integration)
+Resale Premium (0-1.5): Value retention beyond reliability/practicality
 ```
 
 **Size classification** (EPA VClass mapping):
@@ -170,6 +188,7 @@ All scripts support `--dry-run` to preview changes without writing.
 | `calculate-offroad-scores.mjs` | `offroad-features.json` + `gc` | `offroad` |
 | `calculate-performance-scores.mjs` | `horsepower-data.json` + `weight` | `performance` |
 | `calculate-luxury-scores.mjs` | `luxury-features.json` + `make` | `luxury` |
+| `calculate-passion-scores.mjs` | `passion-data.json` | `passion` |
 
 #### Utility Scripts
 
@@ -189,6 +208,7 @@ All scripts support `--dry-run` to preview changes without writing.
 | `offroad-features.json` | `system`, `low_range`, `locker_*` | Manual research from spec sheets |
 | `horsepower-data.json` | `hp` | Manual research or EPA data |
 | `luxury-features.json` | `interior`, `features`, `tech`, `quietness` | Manual research |
+| `passion-data.json` | `community`, `aftermarket`, `heritage`, `identity`, `resale_premium` | Manual research (forums, Reddit, aftermarket sites, resale data) |
 | `size-data.json` | `size`, `source` | EPA VClass or interior volume |
 | `body-data.json` | `body` | Body type classification (suv/truck/cuv/wagon) |
 
@@ -221,6 +241,7 @@ node scripts/apply-generation-data.mjs     # year ranges
 node scripts/calculate-offroad-scores.mjs
 node scripts/calculate-performance-scores.mjs
 node scripts/calculate-luxury-scores.mjs
+node scripts/calculate-passion-scores.mjs
 
 # 6. Validate final result
 node scripts/validate-vehicles.mjs
@@ -242,6 +263,7 @@ node scripts/validate-vehicles.mjs
    - `offroad-features.json` (system, lockers, low_range)
    - `horsepower-data.json` (hp)
    - `luxury-features.json` (interior, features, tech, quietness)
+   - `passion-data.json` (community, aftermarket, heritage, identity, resale_premium)
    - `size-data.json` (size)
 4. Run apply scripts to update `vehicles.json` from the data files
 5. Run calculate scripts to compute derived scores
@@ -252,7 +274,7 @@ node scripts/validate-vehicles.mjs
 For adding multiple vehicles at once, follow the same process as single vehicles but write a temporary script to insert data into all JSON files at once:
 
 1. **Research specs** for all vehicles via web search (can be done in parallel)
-2. Write a temporary Node.js script that adds entries to `vehicles.json` and all auxiliary JSON files (`manual-specs.json`, `verified-updates.json`, `generation-data.json`, `offroad-features.json`, `horsepower-data.json`, `luxury-features.json`, `size-data.json`, `body-data.json`)
+2. Write a temporary Node.js script that adds entries to `vehicles.json` and all auxiliary JSON files (`manual-specs.json`, `verified-updates.json`, `generation-data.json`, `offroad-features.json`, `horsepower-data.json`, `luxury-features.json`, `passion-data.json`, `size-data.json`, `body-data.json`)
 3. Run the script, then apply and calculate:
    ```bash
    node scripts/add-batch-N.mjs     # Run your temporary script
@@ -284,6 +306,7 @@ pnpm apply:body       # Apply body-data.json
 pnpm calc:offroad     # Calculate offroad scores
 pnpm calc:performance # Calculate performance scores
 pnpm calc:luxury      # Calculate luxury scores
+pnpm calc:passion     # Calculate passion scores
 
 # Testing
 pnpm test             # Run tests

@@ -1,0 +1,512 @@
+{
+  "xterra": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/XTerra ~30K+ subs with strong engagement relative to a discontinued vehicle; TheNewX.org is a dedicated forum with years of build threads and trail reports; ClubXterra.com; Xterra Nation Facebook groups active; impressive community persistence post-discontinuation in 2015",
+      "aftermarket": "Shrockworks bumpers and skid plates (Xterra-specific company); Calmini lift kits; Nisstec Lifts; PRG Products; not as deep as 4Runner/Wrangler but multiple brands covering lifts, bumpers, skid plates, roof racks; full trail build possible",
+      "heritage": "Produced 2000-2015; designed as an affordable genuine off-roader with rear-mounted first-aid kit and rooftop cargo rails; won Petersen's 4-Wheel & Off-Road 4x4 of the Year; recognized in off-road community as a capable but underrated platform",
+      "identity": "Dedicated owner community that strongly identifies with the 'affordable adventure' ethos; active trail meetups; owners resist selling ('you don't sell an X'); the discontinued status has intensified cult following similar to FJ Cruiser effect",
+      "resale": "Discontinued in 2015 but clean examples hold value well above comparable age/mileage CUVs; Pro-4X trims command premium; not Land Cruiser-level absurd but clearly above what specs predict for a discontinued Nissan"
+    },
+    "note": "Discontinued cult classic — the affordable off-roader that won't die; community punches well above its weight for a dead Nissan nameplate"
+  },
+  "xterra_pro4x": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "Shares community with base Xterra — r/XTerra, TheNewX.org; Pro-4X owners are often the most active community members and build thread contributors; same community, slightly more engaged subset",
+      "aftermarket": "Same ecosystem as Xterra; Pro-4X comes with factory e-locker and Bilstein shocks, making it a better starting point for builds; same aftermarket brands apply (Shrockworks, Calmini, Nisstec)",
+      "heritage": "Pro-4X is the pinnacle trim of the Xterra line (2009-2015); factory e-locker made it the most capable factory Xterra; sought-after status within the community",
+      "identity": "Pro-4X owners are the core of Xterra enthusiasm; these are the trail-runners and build-thread creators; slightly stronger identity than base Xterra owners",
+      "resale": "Pro-4X commands notable premium over base Xterra; clean manual-transmission Pro-4X examples are particularly sought after; strongest resale in the Xterra lineup"
+    },
+    "note": "Same community and passion as base Xterra; Pro-4X is the most desirable trim and often the center of the enthusiast community"
+  },
+  "patrol_y61": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "PatrolForSale.com, Patrol4x4.com (primarily Australian), Middle East forums; r/Nissan has some Patrol content; small US community via 25-year import rule; globally significant but US-specific presence is limited; strong in Australia, Middle East, Africa",
+      "aftermarket": "ARB, Ironman 4x4, Dobinsons (primarily Australian market); suspension, bumpers, snorkels widely available in global markets; US-specific aftermarket very limited due to non-US-market vehicle; strong global ecosystem",
+      "heritage": "Nissan Patrol lineage since 1951 (Y60/Y61/Y62); Y61 (1997-2021) served military, UN, and expedition use globally; strong heritage globally but never officially sold in US market as 'Patrol' — scored for US context where recognition is limited to enthusiasts who know the platform",
+      "identity": "Strong identity in Australia/Middle East where it's a lifestyle vehicle; US owners of imported examples are dedicated enthusiasts by necessity; globally strong tribal identity but US-specific identity is niche import-collector territory",
+      "resale": "In US, import examples hold moderate value; globally, Y61s retain value well in markets where they were sold; no irrational US premium but imports carry inherent cost premium from the import process itself"
+    },
+    "note": "Global off-road icon with heritage rivaling Land Cruiser — but scored for US market where it's a niche import, not a mainstream presence"
+  },
+  "pathfinder_r51": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "NissanPathfinders.net has R51-specific subforum; r/NissanPathfinder is small; some presence on NissanClub.com; community is modest but dedicated among body-on-frame Pathfinder loyalists who distinguish R51 from the unibody R52+",
+      "aftermarket": "Calmini lift kits; some Shrockworks skid plates; shares some parts with Xterra/Frontier platform (shared VQ40 engine, shared frame); limited dedicated aftermarket but platform commonality helps",
+      "heritage": "R51 (2005-2012) was the last body-on-frame Pathfinder; original Pathfinder (1986) was a genuine off-roader; R51 generation is viewed nostalgically as 'the last real Pathfinder' before unibody transition",
+      "identity": "Small group of owners who value the body-on-frame distinction; some trail use and mild modifications; identity is more about what it represents (last BOF generation) than active tribal culture",
+      "resale": "Slight premium for clean examples vs comparable age unibody CUVs; V6 models with 4WD hold value modestly; nothing irrational but slightly better than expected for age"
+    },
+    "note": "The 'last real Pathfinder' — small but genuine following among body-on-frame loyalists; shares platform DNA with Xterra/Frontier"
+  },
+  "frontier_pro4x": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "ClubFrontier.org is a well-established dedicated forum with active build threads; r/NissanFrontier ~15-20K subs; TitanXD.com covers some crossover; Facebook groups active; moderate but genuine community",
+      "aftermarket": "Calmini, Nisstec, PRG Products for lifts; Shrockworks for bumpers/armor; Leer/ARE caps; bed rack systems; moderate ecosystem — not deep but covers essential categories for trail/overland builds",
+      "heritage": "Frontier nameplate since 1997; the truck that refused to change (D40 sold 2005-2021 largely unchanged); Pro-4X adds factory Bilstein shocks and e-locker; no significant cultural cachet beyond truck community",
+      "identity": "Frontier owners appreciate the truck's simplicity and value; Pro-4X buyers are more enthusiast-oriented; mild tribal identity — owners respect the platform but don't organize lives around it",
+      "resale": "Frontiers hold value reasonably for midsize trucks; Pro-4X trims slightly better; the famously unchanged D40 actually gained some cult value for its longevity; modest premium"
+    },
+    "note": "Solid midsize truck with a genuine but moderate enthusiast following; Pro-4X is the enthusiast's choice with factory off-road equipment"
+  },
+  "armada_platinum": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/NissanArmada small; NissanArmadaForum.com exists with moderate activity; ArmadaForum.com; community is small but present; Platinum trim attracts luxury buyers not enthusiasts",
+      "aftermarket": "Limited aftermarket — some leveling kits, basic accessories; shares Y62 Patrol platform globally but US-specific aftermarket is thin; not a platform people heavily modify",
+      "heritage": "Based on Nissan Patrol/Y62 platform globally; Armada nameplate since 2004; benefits from Patrol heritage but the 'Armada' name carries less weight than 'Patrol'; Platinum is the luxury trim",
+      "identity": "Owners are primarily family/towing buyers; Platinum trim is luxury-oriented; minimal tribal identity; some appreciation for Patrol DNA among knowledgeable owners",
+      "resale": "Full-size SUV segment retains value decently; Armada holds value in line with segment; no irrational premium but competitive retention"
+    },
+    "note": "Patrol DNA in a luxury wrapper — appreciated by those who know the platform but primarily a family hauler in the US market"
+  },
+  "rogue_sl": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/NissanRogue very small; no dedicated enthusiast forum of note; owner groups focused on maintenance issues; Nissan's best-selling vehicle but volume does not equal enthusiasm",
+      "aftermarket": "Essentially OEM-only; generic accessories (roof racks, floor mats); no off-road or performance aftermarket; SL is a comfort trim",
+      "heritage": "Rogue nameplate since 2008; replaced the X-Trail in US; no cultural significance; purely a transportation appliance",
+      "identity": "Zero tribal identity; owners view as reliable affordable transportation; no gatherings, no signals, no lifestyle association",
+      "resale": "Depreciates as expected for compact CUV segment; Nissan's CVT concerns may actually hurt resale slightly; no premium"
+    },
+    "note": "Pure appliance — Nissan's volume seller with zero passion culture"
+  },
+  "palisade": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/HyundaiPalisade ~15-20K subs; PalisadeForum.com has moderate activity; strong initial enthusiasm from 2020 launch buzz; more 'satisfied owner' than 'enthusiast' vibe; Facebook groups active with purchase/ownership discussions",
+      "aftermarket": "Minimal — roof racks, cross bars, tow accessories; no lift kits, bumpers, or off-road aftermarket; OEM accessories dominate; not a platform people modify significantly",
+      "heritage": "First generation launched 2020; no nameplate history; created as Hyundai's three-row flagship; no cultural significance beyond being a well-reviewed family SUV",
+      "identity": "Owners are genuinely enthusiastic about the value proposition; some brand pride from Hyundai's quality improvement narrative; mild affinity but not lifestyle identity",
+      "resale": "Strong initial demand led to dealer markups in 2021-2022; has settled to modest above-segment retention; benefits from three-row SUV demand"
+    },
+    "note": "Surprisingly enthusiastic ownership satisfaction for a Hyundai — but enthusiasm is about value, not passion culture"
+  },
+  "telluride_xpro": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/KiaTelluride ~20-25K subs with active engagement; TellurideForum.com; strong enthusiasm for a Kia — won multiple SUV of the Year awards driving genuine fan base; X-Pro adds mild off-road appeal; Facebook groups very active",
+      "aftermarket": "X-Pro is a factory off-road package; some aftermarket lift kits emerging (ReadyLift); roof racks and basic accessories; Kia's aftermarket ecosystem is thin — no dedicated Telluride aftermarket companies",
+      "heritage": "First generation 2020; no nameplate history; named after Telluride, Colorado; design award winner but no cultural heritage; X-Pro trim adds rugged aspiration",
+      "identity": "Owners are passionate about the value-for-money story; Kia brand pride is growing; X-Pro buyers have mild adventure identity; not lifestyle-level but genuine appreciation",
+      "resale": "Initial 2020-2022 dealer markups of $5K-$10K over MSRP; demand has normalized; retains value slightly above three-row SUV average; not irrational but strong"
+    },
+    "note": "The Kia that made people enthusiastic about a Kia — genuine but modest passion driven by value proposition and design"
+  },
+  "santa_fe_xrt": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/SantaFe very small; no dedicated enthusiast forum; some owner groups on Facebook; XRT is a cosmetic package that doesn't generate enthusiast discussion",
+      "aftermarket": "XRT is a factory appearance package; no meaningful aftermarket ecosystem; generic accessories only",
+      "heritage": "Santa Fe nameplate since 2001; named after Santa Fe, New Mexico; no cultural significance; reliable family CUV",
+      "identity": "Zero tribal identity; owners view as practical family transportation; XRT adds visual differentiation but no lifestyle signaling",
+      "resale": "Retains value in line with midsize CUV segment; Hyundai brand improvement helps; no irrational premium"
+    },
+    "note": "Competent family CUV with cosmetic XRT package — no passion culture"
+  },
+  "santa_fe_hybrid": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares small Santa Fe community; hybrid adds fuel-efficiency discussion but not enthusiasm; no dedicated hybrid Santa Fe community",
+      "aftermarket": "No aftermarket; OEM accessories only; hybrid drivetrain limits modification interest",
+      "heritage": "Santa Fe nameplate since 2001; hybrid variant adds no heritage value",
+      "identity": "Practical efficiency buyers; no tribal identity whatsoever",
+      "resale": "Hybrid models retain value slightly better than ICE counterparts due to fuel efficiency demand; modest segment-appropriate retention"
+    },
+    "note": "Efficiency-focused variant of an already-appliance vehicle"
+  },
+  "tucson_hybrid": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/HyundaiTucson very small; no dedicated forum; hybrid variant generates no additional enthusiasm beyond fuel economy discussions",
+      "aftermarket": "No aftermarket; generic accessories only; same as Tucson XRT situation",
+      "heritage": "Tucson nameplate since 2004; no cultural significance; hybrid is a powertrain option not a heritage element",
+      "identity": "Zero tribal identity; practical buyers seeking fuel efficiency",
+      "resale": "Compact hybrid CUVs retain value well due to fuel efficiency demand; Tucson Hybrid holds value competitively within segment"
+    },
+    "note": "Competent compact hybrid CUV — scores identically to Tucson XRT"
+  },
+  "tucson_phev": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same minimal Tucson community; PHEV generates some EV-curious discussion but not enthusiast culture",
+      "aftermarket": "No aftermarket; OEM parts only",
+      "heritage": "No heritage value from PHEV variant of Tucson",
+      "identity": "Practical efficiency buyers; many purchased for EV tax credit incentive",
+      "resale": "PHEV models benefit from EV tax credit demand; slightly better retention than ICE Tucson"
+    },
+    "note": "Tax-credit-driven purchase for many; no passion culture"
+  },
+  "santa_cruz_sel": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/HyundaiSantaCruz ~10-15K subs; SantaCruzForums.com; small but genuinely enthusiastic community for a unique vehicle concept; Facebook groups active with build ideas and camping setups",
+      "aftermarket": "Emerging — bed racks, tonneau covers, some suspension modifications; a few companies making Santa Cruz-specific accessories; very early-stage ecosystem; limited but growing",
+      "heritage": "First generation 2022; completely new concept for Hyundai; no nameplate history; unique 'sport adventure vehicle' positioning but no heritage",
+      "identity": "Small enthusiast community appreciates the unique form factor; camping and adventure use common among owners; mild identity forming around the 'not-a-truck truck' concept",
+      "resale": "Depreciates normally for the segment; initial demand normalized; no premium"
+    },
+    "note": "Unique form factor generates genuine if modest enthusiasm — the 'fun little truck' community is small but real"
+  },
+  "sorento_phev": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/KiaSorento small; no dedicated forum; PHEV variant has some EV-curious discussion; no enthusiast culture",
+      "aftermarket": "No meaningful aftermarket; OEM accessories only",
+      "heritage": "Sorento nameplate since 2002; no cultural significance; PHEV is a powertrain option",
+      "identity": "Practical family buyers attracted by EV tax credit and fuel efficiency; no tribal identity",
+      "resale": "PHEV models benefit from EV incentive demand; holds value modestly above ICE Sorento"
+    },
+    "note": "Family three-row PHEV — purchased for practicality and tax credits, not passion"
+  },
+  "sorento_hybrid": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same minimal Sorento community; hybrid variant adds no enthusiasm",
+      "aftermarket": "No aftermarket ecosystem",
+      "heritage": "No heritage value from hybrid Sorento",
+      "identity": "Practical family transportation buyers",
+      "resale": "Hybrid retention modestly above ICE counterpart"
+    },
+    "note": "Efficient family hauler — competent appliance"
+  },
+  "sportage_xpro": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/KiaSportage very small; no dedicated forum; X-Pro is a relatively new off-road-styled trim; no enthusiast following",
+      "aftermarket": "X-Pro is a factory package; no aftermarket ecosystem for Sportage off-road builds",
+      "heritage": "Sportage nameplate since 1993; first-gen had mild cult following but modern Sportage is mainstream CUV; X-Pro trim is new",
+      "identity": "No tribal identity; X-Pro adds visual differentiation but owners don't identify as off-roaders",
+      "resale": "Retains value within compact CUV segment norms"
+    },
+    "note": "Factory off-road styling on a mainstream CUV — no passion culture despite the X-Pro badge"
+  },
+  "sportage_hybrid": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "No dedicated community; shares minimal Sportage online presence",
+      "aftermarket": "No aftermarket",
+      "heritage": "No heritage value",
+      "identity": "Practical efficiency buyers",
+      "resale": "Hybrid CUV segment holds value modestly"
+    },
+    "note": "Compact hybrid CUV appliance"
+  },
+  "sportage_phev": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "No dedicated community",
+      "aftermarket": "No aftermarket",
+      "heritage": "No heritage value",
+      "identity": "Practical efficiency and tax-credit buyers",
+      "resale": "PHEV demand supports modest value retention"
+    },
+    "note": "PHEV compact CUV — tax credit and efficiency driven"
+  },
+  "ev9": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/KiaEV9 emerging (~5-10K subs); EV9Forum.com starting; EV early-adopter enthusiasm present; community is growing but very new; tech-forward discussion rather than off-road/adventure culture",
+      "aftermarket": "No aftermarket; EV platform limits traditional modification; OEM accessories only; too new for ecosystem development",
+      "heritage": "First generation 2024; no nameplate history; innovative three-row EV concept but no heritage",
+      "identity": "EV early-adopter identity present; owners enthusiastic about the tech and design; mild tribal identity forming around 'best family EV' narrative; not adventure/off-road identity",
+      "resale": "Too new for meaningful resale data; EV depreciation generally steeper than ICE; no premium expected"
+    },
+    "note": "Tech-forward family EV with growing enthusiast base — enthusiasm is about EV innovation, not traditional vehicle passion"
+  },
+  "pilot_trailsport": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "HondaPilot.org is a well-established forum; r/hondapilot modest size; TrailSport discussion emerging but Pilot community is primarily maintenance and family-use focused; some trail-capable builds appearing",
+      "aftermarket": "TrailSport adds factory off-road package; some aftermarket emerging — Jsport (Honda dealer accessory brand) offers Pilot accessories; ReadyLift leveling kits; modest roof rack/accessory options; early-stage trail ecosystem",
+      "heritage": "Pilot nameplate since 2003; Honda's three-row SUV; TrailSport trim new (2023+); no off-road heritage; Honda brand associated with reliability not adventure",
+      "identity": "Pilot owners are practical family buyers; TrailSport trim attracts mild adventure interest; not lifestyle identity; Honda brand loyalty exists but not vehicle-specific tribal culture",
+      "resale": "Honda vehicles retain value well generally; Pilot holds value within three-row SUV segment; modest benefit from Honda brand premium"
+    },
+    "note": "Honda reliability meets mild trail aspiration — TrailSport is genuine but community is growing from a mainstream family base"
+  },
+  "passport_trailsport": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/hondapassport ~10-15K subs; PassportForum exists; community is modest but more adventure-oriented than Pilot; TrailSport trim generates more enthusiast discussion; some overlap with Honda off-road community",
+      "aftermarket": "Similar to Pilot TrailSport — Jsport accessories, ReadyLift leveling kits, aftermarket roof racks; slightly more adventure-focused builds appearing; Passport's simpler body (no third row) appeals to overland builders",
+      "heritage": "Passport nameplate original 1994-2002 (Isuzu Rodeo rebadge), revived 2019; mid-size two-row SUV positioning; TrailSport (2023+) adds off-road aspiration; modest heritage from original nameplate",
+      "identity": "Passport buyers skew slightly more adventure-oriented than Pilot; TrailSport appeals to outdoor lifestyle; mild emerging identity but not strong tribal culture",
+      "resale": "Honda brand retention; Passport holds value modestly within segment; no irrational premium"
+    },
+    "note": "The more adventure-oriented Honda SUV — TrailSport community growing but still early"
+  },
+  "crv_hybrid": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/crv exists but focused on ownership questions; CRVOwnersClub.com is maintenance-focused; no enthusiast culture; massive sales volume (bestselling Honda) but no passion community",
+      "aftermarket": "No meaningful aftermarket beyond generic accessories; CR-V is not modified by owners",
+      "heritage": "CR-V nameplate since 1997; pioneered compact CUV segment; recognized as reliable transportation but no cultural significance",
+      "identity": "Pure practical transportation; no tribal identity; owners appreciate reliability but don't identify with the vehicle",
+      "resale": "Honda CR-V retains value well — consistently top of compact CUV segment for resale; Honda brand premium plus segment-leading reliability reputation"
+    },
+    "note": "Bestselling Honda with excellent resale — but enthusiasm is about reliability, not passion"
+  },
+  "crv_exl": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same CR-V community — maintenance and ownership focused, not enthusiast; EX-L is a mid-level comfort trim",
+      "aftermarket": "No aftermarket",
+      "heritage": "No heritage beyond CR-V nameplate longevity",
+      "identity": "Pure appliance — EX-L buyers want leather seats and comfort features",
+      "resale": "Honda CR-V retains value well; EX-L is a popular trim with good retention"
+    },
+    "note": "Comfort-oriented trim of Honda's bestselling appliance CUV"
+  },
+  "hrv_exl": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "No meaningful dedicated community; r/hrv very small; subcompact CUV with no enthusiast following",
+      "aftermarket": "No aftermarket; OEM accessories only",
+      "heritage": "HR-V nameplate since 2016 in US; subcompact CUV with no cultural significance",
+      "identity": "Zero tribal identity; entry-level Honda buyers seeking affordable reliable transportation",
+      "resale": "Honda brand helps retention; HR-V holds value modestly within subcompact CUV segment; generic Honda brand premium but nothing vehicle-specific"
+    },
+    "note": "Entry-level Honda subcompact CUV — pure transportation appliance"
+  },
+  "ridgeline_rtl": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/HondaRidgeline ~15K subs; RidgelineOwnersClub.com has dedicated following; community is small but passionate about defending the unibody truck concept against traditional truck enthusiasts; genuinely engaged owner base",
+      "aftermarket": "Limited but present — tonneau covers, bed racks, some mild lift solutions; Honda Jsport accessories; no deep off-road ecosystem; aftermarket reflects the truck's lifestyle/utility focus rather than trail building",
+      "heritage": "Ridgeline since 2006; unique unibody truck concept; in-bed trunk is iconic feature; won truck comparisons on livability metrics; recognized within auto community as the 'anti-truck truck'",
+      "identity": "Ridgeline owners have a distinct identity as the 'smart truck buyer'; often defensive of their choice; mild tribal quality — they'll explain why unibody is better unprompted; practical identity not adventure identity",
+      "resale": "Holds value in line with midsize truck segment; Honda brand helps; no premium — Ridgeline is appreciated but not irrationally valued"
+    },
+    "note": "The truck for people who don't want a truck — small but genuinely passionate community that loves defending their choice"
+  },
+  "forester_wilderness": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/SubaruForester ~50K+ subs (active); SubaruForester.org well-established forum; Wilderness trim generates dedicated threads and build discussions; r/battlewagon captures the lifted Subaru subculture; Facebook Wilderness-specific groups emerging",
+      "aftermarket": "LP Aventure (dedicated Subaru off-road company) offers full lineup — lift kits, skid plates, bumper guards, wheels; Primitive Racing skid plates; Prinsu roof racks; Rally Innovations; multiple brands serving Subaru off-road niche; genuine ecosystem",
+      "heritage": "Forester nameplate since 1997; Subaru's core outdoor/adventure vehicle; Wilderness trim added 2022 with genuine off-road improvements (not just cosmetic); Subaru's outdoorsy brand DNA adds context",
+      "identity": "Wilderness owners are the enthusiast subset of Forester ownership; LP Aventure builds are aspirational; Subaru brand has strong outdoor/adventure identity that Wilderness amplifies; active in outdoor communities; mild-to-moderate tribal quality",
+      "resale": "Wilderness trim commands modest used premium over base Forester; Subarus generally hold value well; not irrational but slightly above expected"
+    },
+    "note": "The serious off-road Subaru — LP Aventure ecosystem and r/battlewagon culture give it genuine enthusiast credentials beyond typical CUV"
+  },
+  "crosstrek_wilderness": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/Crosstrek ~70K+ subs (very active for a small CUV); r/XVcrosstrek also active; Wilderness discussions prominent; r/battlewagon includes many Crosstreks; SubaruXVCrosstrek.com forum; strong per-sales-volume community",
+      "aftermarket": "LP Aventure lift kits, skid plates, wheels; Primitive Racing; same Subaru off-road ecosystem as Forester; Crosstrek is actually LP Aventure's most popular platform; roof racks, lighting from multiple brands",
+      "heritage": "Crosstrek nameplate since 2013 (XV Crosstrek); evolved from Impreza; Wilderness trim added 2024; short nameplate history but strong Subaru brand context",
+      "identity": "Crosstrek owners enjoy the outdoorsy Subaru identity; Wilderness trim amplifies this; active in hiking/camping/mountain biking communities; identity is Subaru-outdoor rather than vehicle-specific",
+      "resale": "Crosstrek retains value well for subcompact CUV; Wilderness trim adds modest premium; Subaru brand retention helps"
+    },
+    "note": "Most popular LP Aventure platform — strong Subaru outdoor identity but Wilderness is newer and identity is more brand-level than vehicle-level"
+  },
+  "ascent_onyx": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/SubaruAscent ~10-15K subs; AscentForums.com; small community for Subaru's three-row; Onyx is a mildly rugged trim; enthusiasts exist but it's primarily a family vehicle discussion forum",
+      "aftermarket": "LP Aventure offers Ascent accessories (lift kit, skid plates); limited compared to Forester/Crosstrek selection; some roof rack and accessory options; early-stage",
+      "heritage": "Ascent launched 2019; no nameplate history; Subaru's first modern three-row; Onyx trim adds mild outdoor styling; no heritage value",
+      "identity": "Subaru brand identity applies at a low level; Onyx buyers appreciate the outdoor styling; mild Subaru tribal belonging but primarily family transportation",
+      "resale": "Retains value in line with three-row CUV segment; no particular premium"
+    },
+    "note": "Subaru's family hauler — benefits from brand outdoor identity but is fundamentally a practical three-row"
+  },
+  "crosstrek_premium": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Same r/Crosstrek ~70K+ community but Premium trim is the volume seller — less enthusiast-focused than Wilderness; mainstream buyers dominate Premium ownership",
+      "aftermarket": "Same LP Aventure/Primitive Racing ecosystem available but fewer Premium owners actually modify; aftermarket exists but adoption rate is lower for the base-ish trim",
+      "heritage": "Crosstrek nameplate since 2013; Premium is a mid-level trim with no particular distinction",
+      "identity": "Mild Subaru outdoor identity; Premium buyers are more practical than Wilderness buyers; general Subaru affinity but not vehicle-specific passion",
+      "resale": "Good retention for subcompact CUV segment; standard Subaru brand premium but no trim-specific bonus"
+    },
+    "note": "Volume trim of a vehicle with genuine enthusiast potential — benefits from Subaru ecosystem but Premium buyers are less engaged than Wilderness buyers"
+  },
+  "cx90_phev": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/MazdaCX90 very small and new; CX90Forum.com emerging; Mazda enthusiast community is strong for sports cars (Miata, Mazda3) but CUV/SUV buyers are practical luxury seekers",
+      "aftermarket": "No aftermarket; PHEV drivetrain and luxury positioning don't attract modifiers; OEM accessories only",
+      "heritage": "CX-90 launched 2024; replaced CX-9 nameplate (2007-2023); no cultural significance; Mazda's driving dynamics reputation doesn't translate to three-row SUV enthusiasm",
+      "identity": "Buyers appreciate Mazda's driving feel and interior quality; no tribal identity; luxury-leaning practical buyers",
+      "resale": "Too new for meaningful data; PHEV three-row SUVs are a small segment; expected to depreciate normally"
+    },
+    "note": "Mazda's premium three-row — appreciated for driving dynamics and interior quality but not a passion vehicle"
+  },
+  "cx50_meridian": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/MazdaCX50 ~5-10K subs; CX50Forum.com has moderate activity; Meridian trim generates some outdoor/adventure discussion; Mazda's driving enthusiast base shows some interest in the more rugged CX-50 concept",
+      "aftermarket": "Meridian is a factory off-road trim; some aftermarket emerging — lift kits, all-terrain tires, roof rack solutions; LP Aventure makes CX-50 lift kits; early but genuine niche",
+      "heritage": "CX-50 launched 2023; new nameplate designed to be more rugged than CX-5; no heritage; Meridian trim adds turbo and off-road capability",
+      "identity": "Mild adventure identity forming; Mazda brand enthusiasts (who usually love Miatas) showing interest in CX-50 Meridian as driving-focused off-roader; emerging but very early",
+      "resale": "New vehicle; retains value within compact CUV segment norms; no premium"
+    },
+    "note": "The outdoor Mazda — Meridian trim has genuine mild enthusiasm from Mazda driving enthusiasts who want something trail-adjacent"
+  },
+  "cx70_phev": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Brand new vehicle (2025); no established community; r/MazdaCX70 barely exists; too new for forum presence",
+      "aftermarket": "No aftermarket; new PHEV platform with no modification ecosystem",
+      "heritage": "New nameplate 2025; two-row version of CX-90; no heritage",
+      "identity": "No established owner identity; practical luxury PHEV buyers",
+      "resale": "Too new for data; no premium expected"
+    },
+    "note": "Brand new Mazda two-row luxury PHEV — too early for any passion scores"
+  },
+  "cx5_turbo": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/CX5 ~30K+ subs; CX5Forum.com active; Mazda's CUV community is the most engaged of any mainstream CUV brand; Turbo adds performance discussion; dedicated following among Mazda brand loyalists",
+      "aftermarket": "Very limited — mostly cosmetic (wheels, tinting, exhaust tips); no off-road or performance aftermarket despite turbo engine; not a platform people build",
+      "heritage": "CX-5 since 2013; Mazda's bestselling vehicle; Turbo added later as performance option; some enthusiast recognition for driving dynamics but no off-road or adventure heritage",
+      "identity": "Mazda CUV owners appreciate driving dynamics more than typical CUV buyers; CX-5 Turbo owners have mild performance-adjacent identity; Mazda brand loyalty is genuine but not lifestyle-level for CUVs",
+      "resale": "CX-5 retains value well within compact CUV segment; Turbo trim no particular premium; competitive but not exceptional"
+    },
+    "note": "The most engaged community of any mainstream CUV brand — but enthusiasm is about Mazda driving quality, not vehicle-specific passion"
+  }
+}

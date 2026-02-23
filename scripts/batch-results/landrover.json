@@ -1,0 +1,137 @@
+{
+  "defender": {
+    "community": 2.0,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.0,
+    "resale_premium": 1.0,
+    "sources": {
+      "community": "r/LandRover ~65K subs (shared all LR), r/LandRoverDefender ~15-20K dedicated; DefenderSource.com active new Defender sections; Defender2.net covers L663; Facebook groups (New Defender Forum, Defender Life) growing rapidly; multiple thriving communities across platforms",
+      "aftermarket": "ARB (bumpers, lockers), Terrafirma (suspension, armor), Safety Devices (roll cages), Twisted (UK builds), Front Runner (racks), Goose Gear (storage), Cali Raised LED, Warn (winches), Prospeed; dozens of brands covering bumpers, racks, suspension, armor, lighting, storage; full overland build-out possible on L663 platform",
+      "heritage": "Defender nameplate traces to 1948 Series I (78 years); Camel Trophy vehicle, military service in 100+ nations, Queen's personal vehicle; L663 is a heritage revival so scores nameplate (1.5) not full classic heritage (2.0); controversial among purists but building its own legend; V8 is the halo model",
+      "identity": "Growing Defender wave culture among new owners; overland build culture thriving on Instagram/YouTube; Land Rover Experience centers foster community; V8 owners are enthusiasts paying $100K+ signaling commitment; less established tribal identity than classic but clearly emerging",
+      "resale": "V8 Defender commanded $10K-$20K dealer markups at launch (2022-2023); used V8 examples hold near MSRP; strong value retention for a $100K+ luxury off-roader; scarcity of V8 allocation supports premium"
+    },
+    "note": "Halo variant of the new Defender; V8 commands genuine enthusiasm and strong resale; benefits from legendary nameplate while building its own following"
+  },
+  "defender_s": {
+    "community": 2.0,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same community infrastructure as Defender V8: r/LandRover ~65K, r/LandRoverDefender ~15-20K, DefenderSource.com, Defender2.net; S trim is the volume seller so well-represented in all forums and groups",
+      "aftermarket": "Same L663 platform as V8 -- all aftermarket parts fit; ARB, Terrafirma, Front Runner, Safety Devices, Twisted, Goose Gear, Warn all make 110-compatible parts; S buyers are active in the mod community as the lower price leaves budget for accessories",
+      "heritage": "Same Defender nameplate heritage as V8 (1948 lineage); S trim has no additional heritage significance; benefits equally from the legendary nameplate",
+      "identity": "S is the entry-level 110 trim; many buyers are practical purchasers choosing value over statement; some enthusiasts but less tribal signaling than V8 or 90; 'my first Defender' trim rather than lifestyle vehicle",
+      "resale": "Holds value well for segment but no significant irrational premium; used S models available near depreciation expectations for a $55-60K SUV; slight Land Rover brand premium but not remarkable"
+    },
+    "note": "Entry-level Defender 110; same great platform and community but attracts more practical buyers; lower identity and resale scores reflect trim positioning"
+  },
+  "defender_130": {
+    "community": 1.5,
+    "aftermarket": 1.0,
+    "heritage": 1.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares broader Defender community (r/LandRover, r/LandRoverDefender, DefenderSource) but 130 is a niche within the niche; fewer dedicated discussions; 130 owners are a smaller subset of the already-growing Defender community; Facebook 130-specific groups are small",
+      "aftermarket": "L663 platform parts mostly fit but 130's extended wheelbase limits some accessories (bumpers, racks need 130-specific fitment); fewer 130-specific SKUs; Front Runner and some rack companies offer 130 variants; armor and suspension mostly shared with 110; growing but less developed than 110",
+      "heritage": "Same Defender nameplate heritage; '130' designation historically denoted the crew cab/utility variant of the classic Defender; recognized within Land Rover circles but 130 designation less iconic than 90 or 110",
+      "identity": "130 buyers are primarily family/utility focused -- choosing 8 seats and cargo over trail credentials; less lifestyle signaling; overlanding builds on 130 exist but are the minority; practical choice rather than passion statement",
+      "resale": "Decent value retention from Defender brand premium; 130 is newer to market (2023+) so limited used data; holds value in line with luxury 3-row SUV segment; no irrational premium observed"
+    },
+    "note": "The practical family variant of the Defender lineup; benefits from the nameplate but diluted enthusiasm from utility-first buyer profile"
+  },
+  "defender_90": {
+    "community": 2.0,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares all Defender communities (r/LandRover ~65K, r/LandRoverDefender ~15-20K, DefenderSource, Defender2.net); 90 generates disproportionate discussion as the 'purist' short-wheelbase choice; well-represented in forums and on social media",
+      "aftermarket": "Same L663 platform -- most 110 aftermarket fits the 90; ARB, Terrafirma, Front Runner, Safety Devices all offer 90-specific variants; short wheelbase is popular for aggressive off-road builds; some 90-specific roof rack and storage solutions from Goose Gear, Front Runner",
+      "heritage": "Defender 90 designation traces directly to the short-wheelbase classic (1948 Series I was an 80-inch wheelbase, evolved to 90-inch); the 90 is spiritually closest to the original Defender; purists gravitate to the 2-door as the 'real' Defender",
+      "identity": "Choosing a 2-door SUV in 2024 is an inherently enthusiast decision -- you sacrifice practicality for character; 90 owners are more vocal advocates than 110 buyers; stronger presence at overlanding events relative to sales volume; emerging wave culture",
+      "resale": "Holds value well but 90 is the lowest-volume Defender variant in the US; limited production helps value but not enough data for irrational premium classification; slight brand premium typical of Land Rover"
+    },
+    "note": "The purist's new Defender -- 2-door choice signals enthusiasm over practicality; spiritually closest to the classic but still building its own identity"
+  },
+  "disco_lr4": {
+    "community": 1.0,
+    "aftermarket": 0.5,
+    "heritage": 1.0,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/LandRover (shared); LandRoverForums.com has active LR4/Discovery 4 sections; DiscoveryOwnersForums (UK); LandyZone; no dedicated LR4 subreddit but LR4 overlanding content generates engagement; small but genuine enthusiast following that appreciates LR4's capability-to-price ratio",
+      "aftermarket": "Lucky8 was a dedicated LR4 outfitter (closed but influential); Front Runner roof racks; Terrafirma lift kits and skid plates; ARB makes some LR4-compatible parts; Rocky Road Outfitters offers LR4 accessories; limited but functional ecosystem for basic overland builds",
+      "heritage": "Discovery nameplate since 1989 (35+ years); LR4 is the US-market name for Discovery 4 (2010-2016); Discovery participated in Camel Trophy events; Terrain Response system introduced on Discovery 3 refined in LR4; recognized as a capable platform within the automotive community",
+      "identity": "Small dedicated 'LR4 overlanding' community; 'best value overlander under $25K' narrative on forums and YouTube; owners appreciate the air suspension and Terrain Response capability; some organized trail runs; appreciation community rather than tribal lifestyle",
+      "resale": "LR4s depreciated heavily initially (reliability fears, $60K new to $15-25K used) but well-maintained examples have stabilized and begun modest appreciation; slight premium for V8 models with full service history; not irrational but better than reliability reputation suggests"
+    },
+    "note": "The overlooked overlander -- genuinely capable and increasingly appreciated by budget-minded enthusiasts who accept the maintenance commitment"
+  },
+  "disco_5": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 1.0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/LandRover (shared) with less D5-specific engagement; LandRoverForums D5 sections exist but lower activity than LR4; controversial 2017 redesign alienated Discovery enthusiasts; Facebook groups exist but skew toward ownership questions not enthusiasm",
+      "aftermarket": "Minimal off-road aftermarket; Front Runner offers racks; some generic accessories; most LR4 aftermarket doesn't transfer to the unibody L462 platform; luxury accessory market (Kahn Design) but not off-road focused; no Discovery 5-specific aftermarket companies",
+      "heritage": "Benefits from same Discovery nameplate heritage (since 1989); however the L462 design was widely criticized for abandoning Discovery's rugged boxy character in favor of Range Rover-like styling; heritage somewhat diminished by the controversial redesign direction",
+      "identity": "D5 owners are predominantly luxury SUV buyers, not overlanders; the vehicle lost its adventure identity with the redesign; no tribal community signals; owners view it as comfortable transportation rather than capability statement",
+      "resale": "Discovery 5 depreciates in line with or slightly worse than luxury SUV segment; no irrational premium; reliability concerns and design controversy suppress demand relative to competitors"
+    },
+    "note": "The controversial Discovery redesign that traded rugged character for luxury refinement -- lost the enthusiast community the LR4 cultivated"
+  },
+  "discovery_3_lr3": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/LandRover (shared); LandRoverForums LR3 sections; LandyZone (UK); small but dedicated community of budget Land Rover enthusiasts; YouTube channels featuring LR3 builds exist but are niche; 'cheapest proper Land Rover' narrative generates some community interest",
+      "aftermarket": "Very limited dedicated aftermarket; some LR4 parts cross-compatible; Terrafirma and Britpart offer basic suspension and body protection; roof racks from generic brands; mostly a repair/maintenance parts ecosystem rather than performance aftermarket; no LR3-specific aftermarket companies",
+      "heritage": "Discovery 3 (LR3 in US, 2005-2009) introduced the Terrain Response system and integrated body frame; first Discovery with fully independent suspension; recognized within Land Rover circles but overshadowed by LR4 and classic Discoverys; heritage score reflects it being the less-remembered generation",
+      "identity": "Very small community; LR3 owners bond over repair challenges and off-road surprise capability; 'budget overlander' identity emerging on YouTube; owners who stick with the platform are loyal but most owners are just trying to keep them running affordably",
+      "resale": "LR3s are inexpensive ($5K-$15K typically); heavy depreciation driven by reliability concerns and age; no irrational premium; prices reflect actual market value for an aging luxury SUV with known issues"
+    },
+    "note": "Affordable entry to Land Rover capability; tiny but loyal community of owners who accept the maintenance trade-off for genuine off-road ability"
+  },
+  "rr_sport": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/RangeRover ~10-15K subs (shared with full-size); RangeRoverSport.net forum with moderate activity; Facebook groups exist for RR Sport but focused on ownership/luxury lifestyle not off-road; less community depth than full-size Range Rover",
+      "aftermarket": "Effectively zero off-road/overland aftermarket; luxury modifications available (Kahn Design, Urban Automotive, Mansory, Startech) but these are aesthetic/performance, not capability; no lift kits, bumpers, or overland accessories to speak of; wheel and brake upgrades from aftermarket",
+      "heritage": "Range Rover Sport nameplate since 2005 (3 generations); derived from full-size Range Rover prestige; recognized luxury performance SUV; some motorsport credentials (Dakar, Pikes Peak record); but heritage is secondary to the full-size Range Rover",
+      "identity": "Range Rover brand conveys luxury status; Sport buyers identify with performance-luxury lifestyle; some brand loyalty but it's a prestige purchase not a tribal identity; no wave, no organized community gatherings; owners appreciate the vehicle but don't organize around it",
+      "resale": "Range Rover Sports depreciate significantly -- typical luxury SUV curve; 3-5 year old examples lose 40-50% of value; no irrational premium; depreciation in line with or slightly worse than segment"
+    },
+    "note": "Luxury performance SUV with minimal overlanding relevance; Range Rover brand recognition provides some heritage and identity but no trail culture"
+  },
+  "rr_full": {
+    "community": 1.0,
+    "aftermarket": 0,
+    "heritage": 1.5,
+    "identity": 1.0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/RangeRover ~10-15K subs; RangeRovers.net is a well-established dedicated forum with decades of history; RangeRover.com owner communities; Facebook groups with luxury/lifestyle focus; moderate but established community presence, though oriented toward luxury ownership not off-road",
+      "aftermarket": "No meaningful off-road/overland aftermarket; luxury tuning ecosystem exists (Mansory, Startech, Kahn, Urban Automotive, Lumma, Overfinch) but entirely aesthetic/performance focused; no lift kits, armor, or overlanding accessories; the aftermarket that exists serves luxury modification not capability",
+      "heritage": "Range Rover nameplate since 1970 (55+ years); defined the luxury 4x4 segment globally; driven by Queen Elizabeth II; featured in countless films; recognized worldwide as the definitive luxury SUV; 'Range Rover' is nearly a generic term for luxury SUV in some markets; cultural icon beyond automotive",
+      "identity": "Range Rover IS a lifestyle statement -- ownership conveys status, taste, and success; strong brand loyalty with multi-generational ownership families; celebrity/royalty associations reinforce identity; but this is luxury prestige identity, not trail/overlanding tribal culture",
+      "resale": "Range Rovers depreciate heavily -- among the worst in the luxury SUV segment for value retention; 5-year depreciation of 50-60% is typical; notorious depreciation is a known ownership cost; no irrational premium, quite the opposite"
+    },
+    "note": "The definitive luxury SUV with genuine cultural icon status and strong brand identity -- but heritage and identity are luxury-prestige axes, not overlanding/trail culture"
+  }
+}

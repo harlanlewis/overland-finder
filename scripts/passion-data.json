@@ -1,0 +1,199 @@
+{
+  "_meta": {
+    "description": "Passion score sub-factor data for all vehicles",
+    "updated": "2026-02-22",
+    "methodology": "Community + aftermarket + heritage + identity + resale_premium",
+    "formula": "raw = sum of sub-factors (max 10); score = 1 + (raw / 10) * 9",
+    "rounding": "nearest 0.5",
+    "sub_factors": {
+      "community": {
+        "max": 2.5,
+        "description": "Size and activity of dedicated enthusiast communities",
+        "tiers": {
+          "0": "No meaningful dedicated community",
+          "1": "Active subreddit or forum with moderate engagement",
+          "2": "Multiple thriving communities across platforms",
+          "2.5": "Legendary community presence — vehicle defines a subculture"
+        }
+      },
+      "aftermarket": {
+        "max": 2,
+        "description": "Breadth of aftermarket parts and accessories ecosystem",
+        "tiers": {
+          "0": "OEM parts only, minimal aftermarket",
+          "1": "Healthy ecosystem (multiple brands, variety of categories)",
+          "2": "Industry unto itself (entire companies exist for this platform)",
+          "0.5": "Basic aftermarket (lift kits or bumpers from 1-2 brands)",
+          "1.5": "Deep aftermarket (dozens of brands, full build-out possible)"
+        }
+      },
+      "heritage": {
+        "max": 2,
+        "description": "Cultural significance, nameplate longevity, recognition",
+        "tiers": {
+          "0": "No particular cultural resonance",
+          "1": "Strong heritage; nameplate carries weight and history",
+          "2": "Legendary; vehicle is synonymous with a concept",
+          "0.5": "Some heritage; recognized within automotive community",
+          "1.5": "Cultural icon; recognized well beyond car enthusiasts"
+        }
+      },
+      "identity": {
+        "max": 2,
+        "description": "How strongly owners identify with the vehicle as a lifestyle",
+        "tiers": {
+          "0": "Owners view it as transportation; no tribal identity",
+          "1": "Visible owner community with signals and moderate loyalty",
+          "2": "Vehicle is a lifestyle; owners organize lives around it",
+          "0.5": "Mild affinity; appreciate but don't build identity around it",
+          "1.5": "Strong tribal identity; owners wave, gather, advocate"
+        }
+      },
+      "resale_premium": {
+        "max": 1.5,
+        "description": "Value retention beyond objective qualities",
+        "tiers": {
+          "0": "Depreciates as expected or worse",
+          "1": "Notable premium — prices reliability/specs don't explain",
+          "0.5": "Holds value slightly better than specs predict",
+          "1.5": "Extreme premium — used near MSRP; waitlists; market markup"
+        }
+      }
+    }
+  },
+  "gc_trailhawk": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/GrandCherokee ~25K subs; JeepGarage.org and GrandCherokeeForums active but GC overshadowed by Wrangler in r/Jeep (~500K+); Facebook GC groups exist with moderate membership",
+      "aftermarket": "Lift kits from Rocky Road Outfitters, Rough Country; some bumpers and skid plates available; ExtremeTerrain/RealTruck carry GC parts but catalog ~1/10th of Wrangler; no GC-specific companies",
+      "heritage": "Grand Cherokee nameplate since 1993 (ZJ); iconic 1992 Cobo Hall debut; created premium SUV segment; Jeep brand halo; Trailhawk badge carries Trail Rated weight",
+      "identity": "Moderate Jeep pride but GC owners often excluded from Jeep wave tradition; Trailhawk buyers slightly more enthusiastic; some trail runs but far less organized than Wrangler community",
+      "resale": "Decent value retention from Jeep brand premium; 4xe benefited from EV tax credit demand; depreciation roughly in line with midsize premium SUV segment"
+    },
+    "note": "Benefits from Jeep brand halo but community/identity are distinctly weaker than Wrangler; more premium buyer than enthusiast buyer"
+  },
+  "outback_wilderness": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/Subaru_Outback ~35K subs; SubaruOutback.org active forum; Wilderness trim generated dedicated discussion threads and small Facebook groups; r/Subaru ~250K+ covers all models",
+      "aftermarket": "LP Aventure (Subaru-focused company) offers lift kits, skid plates, bumper guards; Prinsu roof racks; Rally Innovations light bars; Subtle Solutions lift spacers; growing but modest ecosystem",
+      "heritage": "Outback nameplate since 1994 (Legacy trim), standalone since 2000; Subaru's outdoorsy 'Love' branding; associated with PNW/Colorado lifestyle; Wilderness trim new in 2022",
+      "identity": "Subaru brand loyalty present but Outback owners are practical buyers; Wilderness trim attracts light overlanding interest; no dedicated wave or organized gatherings; mild affinity not lifestyle",
+      "resale": "Subarus hold value well generally; Wilderness trim commands slight used premium over base Outback due to limited production and desirable equipment; not irrational but slightly above expected"
+    },
+    "note": "Wilderness trim adds real enthusiasm over base Outback; LP Aventure ecosystem is a genuine differentiator; still more practical choice than passion vehicle"
+  },
+  "tahoe_z71": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/ChevyTahoe small (~5-10K subs); TahoeYukonForum.com has maintenance/towing discussions; r/Tahoe is about Lake Tahoe not the vehicle; Facebook groups exist but utility-focused not enthusiast",
+      "aftermarket": "Leveling kits from Rough Country/ReadyLift; Borla/MagnaFlow exhaust; lighting upgrades; some GM platform parts cross from Silverado; no Tahoe-specific aftermarket companies",
+      "heritage": "Tahoe nameplate since 1995; K5 Blazer lineage to 1969; recognized as American full-size SUV archetype; police/government fleet usage; institutional recognition",
+      "identity": "Owners are practical towing/family buyers; no wave, no tribal identity; Z71 badge adds mild aspiration but most buyers want appearance not capability; utility appreciation not passion",
+      "resale": "Full-size SUVs hold value well but this tracks utility/capability value predictably; no irrational premium; prices reflect towing capacity and space"
+    },
+    "note": "Respected workhorse; community is maintenance/towing-oriented rather than enthusiast; Z71 is the most popular trim but adds no real passion culture"
+  },
+  "tucson_xrt": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/HyundaiTucson exists but very small (<5K subs); no dedicated enthusiast forum of note; TucsonForum.com minimal activity; r/Hyundai ~50-60K covers all models; Facebook groups are small owner-help groups",
+      "aftermarket": "Essentially OEM-only territory; generic accessories (Thule/Yakima racks) but nothing Tucson-specific in off-road/overland space; XRT is a cosmetic package from factory with no aftermarket following",
+      "heritage": "Tucson nameplate since 2004; no cultural significance; named after a city; no film/TV/military/expedition history; pure transportation appliance",
+      "identity": "Zero tribal identity; owners view as affordable reliable transportation; no wave, no clubs, no gatherings; XRT trim is cosmetic differentiation, not a lifestyle signal",
+      "resale": "Compact CUV segment holds value decently in current market; Tucson competitive within segment; slight benefit from Hyundai brand improvement but no irrational premium"
+    },
+    "note": "Quintessential competent appliance; scores are appropriately minimal; the 0.5 resale reflects CUV segment strength not vehicle-specific passion"
+  },
+  "wrangler_rubicon": {
+    "community": 2.5,
+    "aftermarket": 2,
+    "heritage": 2,
+    "identity": 2,
+    "resale_premium": 1.5,
+    "sources": {
+      "community": "r/Jeep ~800K subs, r/Wrangler ~100K+, r/JeepWrangler active; JeepForum.com (millions of posts, decades old), WranglerForum.com, JKOwners.com, JLWranglerForums.com; defines the off-road subculture on Reddit and beyond",
+      "aftermarket": "Entire companies exist for this platform: Quadratec, ExtremeTerrain (Wrangler is primary SKU driver), Rugged Ridge, Bestop, Smittybilt; thousands of SKUs across every category on 4WheelParts and RealTruck; the aftermarket industry standard",
+      "heritage": "Willys MB since 1941, WWII military icon; 'Jeep' is a genericized term for off-road vehicles globally; Wrangler nameplate since 1986 (CJ lineage to 1944); appears in countless films and TV shows; non-car people worldwide know what a Jeep is",
+      "identity": "The Jeep Wave (hand signal between owners), Easter Eggs hidden on vehicle body, Jeep Jamboree since 1953, Jeep Beach, ducking culture (placing rubber ducks on Jeeps), doors-off and top-off lifestyle; 'It's a Jeep thing, you wouldn't understand' is a cultural meme",
+      "resale": "Consistently top 3 in 5-year resale value across all vehicles per iSeeCars/KBB; Rubicon trims retain ~70%+ value at 5 years; Rubicon 392 and special editions command dealer markups; Wrangler resale defies its reliability ratings"
+    },
+    "note": "The gold standard for vehicle passion — maximum score on every axis is warranted"
+  },
+  "lc200": {
+    "community": 2.5,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 1.5,
+    "resale_premium": 1.5,
+    "sources": {
+      "community": "r/LandCruisers ~90K subs (exceptional engagement relative to ~3K US annual sales volume), ih8mud.com is one of the most legendary automotive forums ever built (millions of posts, decades active), TLCA (Toyota Land Cruiser Association) with regional chapters nationwide; per-capita community engagement arguably the highest of any vehicle",
+      "aftermarket": "ARB, Old Man Emu/BP-51, Slee Off-Road, TLC Products, CBI Offroad, Dissent Offroad, Icon Vehicle Dynamics; full overland build-out possible but fewer platform-exclusive mega-companies than Wrangler; strong but not industry-defining",
+      "heritage": "Toyota BJ series since 1951 (70+ years continuous production), globally the definitive expedition vehicle, UN/NGO/military use on every continent; synonymous with 'go anywhere, come back alive'; 200 series (2008-2021) is the modern culmination of this legacy",
+      "identity": "'Never sell your Land Cruiser' is a genuine mantra on ih8mud; strong overlanding tribe with expedition rallies and multi-generational ownership; owner loyalty measured in decades not years; less visible casual signaling than Jeep Wave but deeper per-owner commitment",
+      "resale": "LC200 resale is legendary — used examples regularly sell at or above original MSRP years after purchase; 5-year value retention among the highest of any vehicle ever made; US discontinuation in 2021 further increased scarcity premium to absurd levels"
+    },
+    "note": "Per-capita enthusiasm may be the highest of any vehicle — tiny US sales volume but massive, deeply dedicated community"
+  },
+  "defender_classic": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 2,
+    "identity": 2,
+    "resale_premium": 1.5,
+    "sources": {
+      "community": "r/LandRover ~60K+ subs (shared across all LR models), DefenderSource.com, LR4x4.com, Defender2.net; Land Rover clubs in 50+ countries; smaller US presence due to limited NAS imports (1993-1997) but intense global following; restoration community is deeply engaged",
+      "aftermarket": "Rovers North, Atlantic British, Britpart, Paddock Parts, Mantec, Safety Devices; complete restoration and build-out ecosystem including full engine swaps, galvanized chassis replacements, and body panel fabrication; primarily UK-based but global reach",
+      "heritage": "Series I launched 1948, Defender nameplate 1990-2016 (68 years of production); Camel Trophy vehicle of choice, military service in 100+ nations, the Queen's personal farm vehicle; synonymous with exploration and adventure on a global scale",
+      "identity": "Defender owners are deeply tribal worldwide; restoration culture is a lifestyle where owners spend years and tens of thousands restoring a vehicle worth less than the parts; overlanding expeditions, active club scene with international rallies; owners genuinely organize their lives around these vehicles",
+      "resale": "NAS Defenders (1993-1997 US imports) have appreciated from $30K to $100K-$250K+ range; classic Defenders globally have appreciated not depreciated; heritage premium is extreme and continues increasing yearly; non-NAS examples imported at great legal and financial expense"
+    },
+    "note": "Global icon where used prices have appreciated rather than depreciated — scored slightly below Wrangler on community due to smaller US-specific enthusiast base"
+  },
+  "4runner": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/4Runner ~180K+ subs (very active daily engagement), Trail4Runner.com, T4R.org, Toyota-4Runner.org; multiple thriving communities with strong engagement; also benefits from broader Toyota off-road community on ih8mud and ToyotaNation",
+      "aftermarket": "Icon Vehicle Dynamics, King Shocks, OME for suspension; CBI Offroad, C4 Fabrication, RCI Metalworks for armor and bumpers; Gobi Racks, Prinsu Design Studio for roof racks; dozens of brands, full overland build-out possible across all categories",
+      "heritage": "Since 1984 (6th generation arriving 2025), evolved from Hilux-based pickup to dedicated mid-size SUV; strong trail culture heritage spanning 40+ years; recognized as 'the trail SUV' within automotive community; less global icon status than LC or Wrangler but well-known",
+      "identity": "Strong trail community with organized trail runs and 4Runner meetups; active Instagram culture (#4RunnerMafia, #4RunnerLifestyle); owners are loyal advocates who resist selling; less formalized than Jeep Wave but clear tribal signals and strong online presence",
+      "resale": "4Runners hold value well above midsize SUV segment average; TRD Pro commands $5K-$10K used premiums over other trims; 5-year retention ~65-70% per KBB; notably above what specs and reviews predict but not as extreme as LC or Wrangler"
+    },
+    "note": "The enthusiast SUV sweet spot — accessible enough to be popular, capable enough to earn genuine trail cred, and retains value beyond its specs"
+  },
+  "bronco": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/FordBronco ~80K+ subs (rapid growth since 2020 reveal), Bronco6G.com (massive community with 500K+ posts, active since pre-launch hype), BroncoNation.com; impressive growth trajectory for a vehicle only on sale since mid-2021",
+      "aftermarket": "ARB, Warn, RTR, Rough Country, Zone Offroad, Ford Performance factory accessories; 4WheelParts and ExtremeTerrain carry extensive Bronco catalogs; ecosystem growing rapidly but still maturing vs Wrangler's decades-deep catalog",
+      "heritage": "Original Ford Bronco 1966-1996 (30 years); early Broncos are collectible icons ($100K+); OJ Simpson white Bronco chase (1994) is an indelible cultural moment; 2021 nameplate revival generated massive cultural buzz and media coverage; recognized beyond car enthusiasts",
+      "identity": "Bronco wave emerging among owners mimicking Jeep tradition; doors-off culture adopted and promoted by Ford; growing meetup scene; owner forums enthusiastic; but community identity still maturing relative to Jeep/LC communities with decades of history",
+      "resale": "Initial dealer markups of $5K-$15K over MSRP (2021-2023) have largely normalized; First Edition and Heritage Edition command collector premiums; too new for reliable 5-year depreciation data; holds value slightly above compact/midsize SUV segment average"
+    },
+    "note": "Heritage revival with enormous momentum — community and identity scores will likely increase as the platform matures over the next 5 years"
+  }
+}

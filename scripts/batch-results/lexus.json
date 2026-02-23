@@ -1,0 +1,212 @@
+{
+  "gx460": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/GXOR ~35-40K subs (dedicated, highly active overland community); ClubLexus GX section active; large Facebook GXOR groups (30K+ members); ih8mud Prado/GX threads; strong per-capita engagement for a Lexus",
+      "aftermarket": "Metal Tech 4x4 (GX-specific bumpers/sliders), Dobinsons/Icon/OME suspension, CBI Offroad armor, Southern Style Offroad, Prinsu roof racks, Victory 4x4; healthy ecosystem covering suspension, armor, and racks but fewer brands than 4Runner/Wrangler",
+      "heritage": "GX nameplate since 2002 (Land Cruiser Prado platform); recognized within overlanding community as 'affordable Land Cruiser'; Lexus luxury badge doesn't carry expedition heritage; no broader cultural significance beyond automotive enthusiasts",
+      "identity": "GXOR movement created genuine tribal identity; 'budget Land Cruiser' pride; organized trail runs and meetups; owners heavily mod and celebrate the 'stealth overland' platform; strong online presence with build threads; less formalized than Jeep Wave but real community signals",
+      "resale": "GX460 holds value remarkably well; 10+ year old examples command $25-35K; premium beyond specs due to overlanding demand and Land Cruiser platform cachet; better retention than comparable luxury SUVs of same vintage"
+    },
+    "note": "The GXOR community darling -- genuine overland credibility as an affordable Land Cruiser alternative; strongest passion vehicle in the Lexus lineup"
+  },
+  "gx470": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Benefits from r/GXOR and ClubLexus but GX470 is older and less discussed than GX460; ih8mud 120-series Prado threads cover the platform; Facebook groups include GX470 owners but GX460 dominates the conversation",
+      "aftermarket": "Shares some parts with GX460 (suspension, basic bolt-ons); fewer dedicated products than GX460; Dobinsons and OME offer kits; bumper and armor options more limited; aftermarket is present but basic",
+      "heritage": "First-gen GX (2002-2009) on Land Cruiser 120 Prado platform; less trail recognition than GX460 which became the GXOR icon; appreciated as a solid platform within overland community",
+      "identity": "GX470 owners participate in GXOR community but the '460 is the centerpiece; GX470 appreciated as a capable platform and 'best value overland Lexus'; less organized identity than GX460",
+      "resale": "Holds value decently for a 15-20 year old luxury SUV; prices in the $10-20K range reflect Prado platform desirability; above average for vintage but not extreme premium"
+    },
+    "note": "Benefits from GXOR halo but GX460 is the community's centerpiece; still respected as the original affordable LC alternative"
+  },
+  "gx": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 1.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "New 2024 GX 550 generating significant buzz; r/GXOR and r/LexusGX both covering the new platform; ClubLexus active; Overtrail trim specifically targets overlanding community; growing but still establishing itself as distinct from GX460",
+      "aftermarket": "Aftermarket developing rapidly; early products from CBI Offroad, Prinsu, RCI Metalworks; suspension options from Icon and Dobinsons emerging; too new for full ecosystem but trajectory is strong given GXOR enthusiasm",
+      "heritage": "New GX on Land Cruiser 250 Prado platform; inherits GX nameplate recognition from GXOR community; Overtrail trim signals Lexus embracing off-road identity; heritage is recent, building on GX460's trail credibility",
+      "identity": "Overtrail trim buyers are enthusiasts continuing GXOR tradition; new GX is aspirational upgrade for GX460 owners; GXOR tribe actively embracing new platform with organized meetups and early build threads; identity stronger than typical new vehicle due to inheriting established community",
+      "resale": "Too new for meaningful depreciation data; initial demand strong with some dealer markups at launch; expected to hold value well based on platform but insufficient track record"
+    },
+    "note": "Inherits GXOR community goodwill; Overtrail trim is the overland variant; GXOR tribe actively adopting the new platform gives it stronger identity than most new vehicles"
+  },
+  "gx_prem": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/LexusGX and ClubLexus with other GX trims; Premium+ buyers are luxury-first, less likely to participate in GXOR trail culture; community engagement lower than Overtrail buyers",
+      "aftermarket": "Minimal aftermarket interest for Premium+ trim; buyers are luxury-oriented, not modders; some basic accessories (roof racks, cargo organization) but no bumper/suspension/armor demand; generic Lexus accessories",
+      "heritage": "Same GX nameplate but Premium+ trim has no off-road heritage; positioned as luxury SUV competitor, not overlander",
+      "identity": "Premium+ buyers are luxury SUV shoppers, not GXOR tribe members; mild brand loyalty typical of Lexus owners; no trail meetups or mod culture for this trim",
+      "resale": "New vehicle, limited data; Lexus brand holds value well generally; no specific passion premium expected for luxury-oriented trim"
+    },
+    "note": "Street-oriented luxury trim of new GX; benefits slightly from GX/GXOR name recognition but is primarily a luxury purchase, not an enthusiast one"
+  },
+  "lx570": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1,
+    "resale_premium": 1,
+    "sources": {
+      "community": "ClubLexus LX forums active; ih8mud covers LX570 as Land Cruiser 200 variant; r/LandCruisers includes some LX570 content; r/Lexus covers it; dedicated Facebook groups for LX owners; benefits substantially from LC200 community but is the 'luxury cousin' not the main character",
+      "aftermarket": "Shares many parts with LC200; ARB, OME, Icon suspension fits; some bumper and armor options adapted from LC200; Slee Off-Road and others offer LX-compatible products; healthy but most brands market to LC200 first, LX second",
+      "heritage": "Land Cruiser 200 platform (2008-2021); LX nameplate since 1996 (originally LX 450 on 80-series LC platform); carries genuine Land Cruiser heritage through shared platform; recognized within enthusiast community as 'luxury Land Cruiser'",
+      "identity": "LX570 owners appreciate the LC heritage but identify more as Lexus owners than Land Cruiser tribe; some cross-pollination with LC community; less trail-focused meetups and builds than LC200; moderate loyalty, especially among Middle Eastern and international markets",
+      "resale": "LX570 holds value extremely well; 5-year retention around 70%+; benefits from Land Cruiser platform scarcity premium and Lexus reliability reputation; used prices strong but not as irrational as LC200"
+    },
+    "note": "The luxury Land Cruiser -- genuine heritage and capability, strong resale, but Lexus badge means less tribal identity than the Toyota counterpart"
+  },
+  "lx": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "LX 600 on new TNGA-F platform (Land Cruiser 300 base); ClubLexus LX section covers it; some ih8mud discussion; r/Lexus includes LX 600 content; community is smaller than LX570 crowd since it's newer and LC300 not sold in US, so less cross-pollination",
+      "aftermarket": "Very new platform; limited aftermarket development; some early suspension and wheel options; most LC300 aftermarket is international and doesn't easily apply to US LX 600; too new for deep ecosystem",
+      "heritage": "LX nameplate since 1996; new LX 600 on Land Cruiser 300 platform; inherits Land Cruiser lineage but current-gen LC not sold in US makes the connection less tangible for American buyers",
+      "identity": "LX 600 buyers are primarily luxury buyers; $90K+ price point attracts different demographic than overlanders; some appreciation of LC heritage but minimal trail culture or tribal identity",
+      "resale": "Too new for robust data; expected to hold value well based on Lexus/LC platform history; initial demand solid but market not yet showing irrational premiums"
+    },
+    "note": "Current LX on LC300 platform; heritage connection to Land Cruiser is real but US buyers can't buy the LC300, reducing community cross-pollination vs LX570/LC200 era"
+  },
+  "lx700h": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Brand new hybrid LX variant; minimal established community; ClubLexus has early discussion threads; no dedicated LX700h forums or subreddits; too new for community to coalesce",
+      "aftermarket": "Essentially no aftermarket yet; hybrid powertrain adds complexity for modders; shares platform with LX 600 so some parts compatibility but aftermarket companies have not developed 700h-specific products",
+      "heritage": "Carries LX nameplate heritage (since 1996) and Land Cruiser platform lineage; hybrid powertrain is new but platform is historically significant",
+      "identity": "Very new; buyers are early adopter luxury buyers, not established tribal community; hybrid powertrain appeals to efficiency-minded luxury buyers rather than overlanders",
+      "resale": "Too new for meaningful data; hybrid premium may help hold value given fuel efficiency advantages; insufficient track record to score higher"
+    },
+    "note": "Very new hybrid LX variant; inherits some LX/LC heritage scoring but everything else is nascent"
+  },
+  "lx700h_ot": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Overtrail trim signals off-road intent; attracts more enthusiast interest than base LX700h; ClubLexus and overland forums discussing it; benefits from broader LX/LC community; slightly more engaged audience than standard 700h",
+      "aftermarket": "Overtrail-specific accessories from Lexus (roof rack, underbody protection); aftermarket companies starting to develop products; too new for deep ecosystem; hybrid powertrain limits some traditional mods",
+      "heritage": "Same LX/Land Cruiser heritage as other LX variants; Overtrail trim name suggests off-road commitment from Lexus; platform lineage is genuine",
+      "identity": "Overtrail buyers are more likely to be off-road-interested than base LX buyers; but at $100K+ price point, still primarily a luxury purchase; trail identity forming but very early",
+      "resale": "Too new for meaningful data; Overtrail trim may command slight premium as desirable configuration; insufficient history to score higher"
+    },
+    "note": "Overtrail trim adds off-road intent to the LX700h; slightly more enthusiast-oriented but still a very new, very expensive luxury vehicle"
+  },
+  "tx_550h": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "TX is a brand new nameplate (2024); no dedicated subreddit or forum; r/Lexus covers it generally; ClubLexus has early TX threads with moderate interest; generic owner groups forming; not zero but minimal enthusiast energy",
+      "aftermarket": "No aftermarket ecosystem; TX is a Highlander-based luxury 3-row; no off-road or performance aftermarket demand; OEM accessories only",
+      "heritage": "Brand new nameplate with zero heritage; Lexus's first dedicated 3-row SUV; no cultural significance",
+      "identity": "Zero tribal identity; TX buyers are family transportation shoppers choosing Lexus luxury; no clubs, signals, or community culture",
+      "resale": "Too new for track record; Lexus brand generally holds value well; expected to retain slightly above average for luxury 3-row segment due to brand reputation"
+    },
+    "note": "Brand new 3-row luxury CUV; minimal community forming but no enthusiast culture; Lexus brand gives slight resale edge"
+  },
+  "tx_500h": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same as TX 550h -- brand new nameplate; ClubLexus has some early threads; F Sport branding generates mild performance-oriented discussion but no dedicated community",
+      "aftermarket": "No aftermarket ecosystem; F Sport is a factory performance package, not a platform for aftermarket builds",
+      "heritage": "Brand new nameplate; F Sport trim carries some Lexus performance heritage but TX itself has none",
+      "identity": "F Sport buyers have mild performance affinity and Lexus brand appreciation; TX F Sport may attract buyers who identify slightly with the F Sport line; but no organized community, meetups, or tribal signals",
+      "resale": "Too new; Lexus F Sport trims typically hold value slightly better than base trims; expected marginal positive premium from brand and trim desirability"
+    },
+    "note": "F Sport version of the brand new TX; F Sport badge adds mild identity and resale edge over base TX but still a luxury family vehicle"
+  },
+  "nx_350h": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/LexusNX exists but small (<5K); ClubLexus NX section has moderate activity; no dedicated enthusiast forums; NX is Lexus's volume compact CUV -- owners are practical luxury buyers, not community-builders",
+      "aftermarket": "No meaningful aftermarket beyond generic accessories (Thule racks, WeatherTech mats); no off-road, performance, or enthusiast aftermarket; OEM territory",
+      "heritage": "NX nameplate since 2014; no cultural significance; compact luxury CUV segment is entirely utilitarian; no film, expedition, or cultural recognition",
+      "identity": "Zero tribal identity; NX owners are luxury compact CUV shoppers; no clubs, signals, or lifestyle association; owners appreciate Lexus quality but don't build identity around the NX",
+      "resale": "Lexus brand holds value well; NX hybrid retains value slightly above compact luxury CUV segment average due to Lexus reliability reputation and hybrid efficiency demand; not irrational but slightly above expected"
+    },
+    "note": "Lexus compact luxury CUV; competent and well-liked but generates no enthusiast culture; the 0.5 resale reflects Lexus brand premium"
+  },
+  "rx_350h": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/LexusRX small; ClubLexus RX section is one of the more active due to RX being Lexus's best-seller; but activity is ownership/maintenance-oriented, not enthusiast; no dedicated enthusiast community",
+      "aftermarket": "No meaningful aftermarket; generic accessories only; RX is a luxury CUV, not a modification platform",
+      "heritage": "RX nameplate since 1998; the original luxury CUV that essentially created the segment; recognized within automotive community as pioneering but not culturally iconic beyond that",
+      "identity": "Zero tribal identity; RX is Lexus's bread-and-butter volume seller; owners appreciate reliability and comfort but do not identify with the vehicle as a lifestyle",
+      "resale": "RX holds value well as Lexus's most popular model; hybrid variant benefits from fuel efficiency demand; slightly above segment average retention due to Lexus brand and reliability reputation"
+    },
+    "note": "Lexus's volume CUV; the RX pioneered luxury CUVs in 1998 which earns heritage credit, but it generates zero enthusiast culture"
+  },
+  "nx_450h_plus": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same minimal community as NX 350h; PHEV variant adds some EV-enthusiast interest in forums but no dedicated community; r/LexusNX is small",
+      "aftermarket": "No aftermarket ecosystem; PHEV adds complexity that further discourages modification; OEM accessories only",
+      "heritage": "NX nameplate since 2014; PHEV variant is even newer; no cultural significance whatsoever",
+      "identity": "Zero tribal identity; PHEV buyers motivated by tax credits and efficiency, not lifestyle; even less emotionally driven than standard NX buyers",
+      "resale": "PHEV holds value slightly above standard NX due to EV tax credit eligibility and fuel savings; Lexus reliability reputation helps; marginal positive premium"
+    },
+    "note": "PHEV version of NX; buyers are motivated by efficiency and tax credits, not enthusiasm; pure appliance territory"
+  },
+  "rx_450h_plus": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Same as RX 350h -- no dedicated enthusiast community; PHEV adds EV-forum interest but nothing specific or passionate",
+      "aftermarket": "No aftermarket; luxury PHEV CUV; OEM-only territory",
+      "heritage": "Inherits RX nameplate heritage (segment pioneer since 1998); PHEV variant itself is new with no specific heritage",
+      "identity": "Zero tribal identity; PHEV buyers are efficiency-conscious luxury shoppers; no lifestyle association",
+      "resale": "PHEV variant holds value due to Lexus brand, EV tax credits, and fuel savings appeal; slightly above segment average but not irrational"
+    },
+    "note": "PHEV version of Lexus's flagship CUV; inherits mild RX heritage credit but is otherwise a pure luxury appliance"
+  }
+}

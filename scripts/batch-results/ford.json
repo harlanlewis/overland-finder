@@ -1,0 +1,317 @@
+{
+  "bronco_ob": {
+    "community": 1.5,
+    "aftermarket": 1,
+    "heritage": 1.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/FordBronco ~80K+ subs and Bronco6G.com, but Outer Banks buyers are less engaged in off-road discussions; more casual presence in Bronco community; some OB-specific threads on Bronco6G",
+      "aftermarket": "Can use full Bronco aftermarket catalog but OB buyers rarely do heavy mods; mostly cosmetic accessories, soft top upgrades, wheel/tire packages; not driving aftermarket demand",
+      "heritage": "Benefits from full Bronco nameplate heritage (1966-1996 original, 2021 revival); recognized cultural icon; OJ chase, early Bronco collectibility; heritage belongs to the nameplate not the trim",
+      "identity": "Outer Banks is the lifestyle/street trim; owners appreciate the Bronco look but are not trail runners; less tribal than Badlands/Wildtrak/Raptor buyers; mild Bronco pride without the off-road commitment",
+      "resale": "Holds value slightly above midsize SUV segment due to Bronco brand demand; not as strong as Badlands or Raptor trims; OB is the volume trim so less scarcity premium"
+    },
+    "note": "Street-oriented Bronco trim; benefits from Bronco community and heritage halo but buyers are more casual than off-road trims"
+  },
+  "bronco_raptor": {
+    "community": 2,
+    "aftermarket": 1,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "Full Bronco community (r/FordBronco ~80K+, Bronco6G.com) plus Raptor-specific crossover with r/fordraptor and RaptorForum.com; Ford Performance desert racing community; limited production generates intense discussion threads",
+      "aftermarket": "Comes so heavily equipped from factory (FOX Live Valve shocks, wide body, 37s) that less aftermarket need; some owners add skid plates, lighting, exhaust; SVC Offroad, Baja Designs, Rigid Industries relevant; modification is supplementary not transformative",
+      "heritage": "Dual heritage: Bronco nameplate (1966-present) plus Raptor nameplate (2010-present, Baja desert racing DNA); Ford Performance pedigree; desert racing culture from F-150 Raptor lineage applied to Bronco platform",
+      "identity": "Raptor owners are highly tribal; desert running community, organized events, Ford Raptor Assault driving school; Bronco Raptor owners share both Bronco wave culture and Raptor pride; limited production enhances exclusivity and owner bond",
+      "resale": "Limited production Bronco Raptor commands significant dealer markups ($10K-$20K+ over MSRP at launch); used examples hold strong premiums; scarcity and Ford Performance badge drive irrational pricing"
+    },
+    "note": "Desert halo vehicle combining Bronco heritage with Raptor performance DNA; limited production drives both community intensity and resale premium"
+  },
+  "bronco_21_24": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/FordBronco ~80K+ subs with rapid growth since 2020 reveal; Bronco6G.com is massive (500K+ posts, active since pre-launch); BroncoNation.com official Ford community; multiple thriving communities across platforms",
+      "aftermarket": "ARB, Warn, RTR, Rough Country, Zone Offroad, Ford Performance factory accessories; 4WheelParts and ExtremeTerrain carry extensive Bronco catalogs; ecosystem growing rapidly but still maturing vs Wrangler decades-deep catalog",
+      "heritage": "Original Ford Bronco 1966-1996 (30 years); early Broncos are collectible icons ($100K+); OJ Simpson white Bronco chase (1994) indelible cultural moment; 2021 revival generated massive cultural buzz; recognized beyond car enthusiasts",
+      "identity": "Bronco wave emerging among owners; doors-off culture adopted and promoted by Ford; growing meetup scene; enthusiastic forum presence; but identity still maturing relative to Jeep/LC communities with decades of history",
+      "resale": "Initial dealer markups of $5K-$15K (2021-2023) have largely normalized; First Edition and Heritage Edition command collector premiums; holds value slightly above midsize SUV segment average"
+    },
+    "note": "Mirrors the base bronco entry; the 6th-gen Bronco as a platform with enormous momentum and growing community"
+  },
+  "bronco_5th_gen": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 1.5,
+    "identity": 1,
+    "resale_premium": 1,
+    "sources": {
+      "community": "FullSizeBronco.com dedicated forum for 1980-1996 Broncos; smaller subreddit presence than new Bronco; Bronco Super Celebration annual event; Ford-Trucks.com Bronco subforum; classic Bronco community is small but dedicated",
+      "aftermarket": "Restoration parts from LMC Truck, National Parts Depot; some off-road upgrades (lift kits, bumpers) from companies like James Duff (historic Bronco-specific company); parts sharing with F-150/F-250 of era; restoration ecosystem is viable if not deep",
+      "heritage": "5th gen (1992-1996) is the final full-size Bronco generation; OJ Simpson chase (1994) is arguably the most famous vehicle chase in history; Bronco nameplate 1966-1996 is iconic; Eddie Bauer trim was a cultural touchstone of the 1990s",
+      "identity": "Loyal classic Bronco owners who attend Bronco Super Celebration; 'they stopped making them' scarcity pride; restoration and trail culture; organized clubs like Bronco Driver magazine community; less visible than new Bronco but genuine attachment",
+      "resale": "Clean 5th gen Broncos have appreciated notably, especially Eddie Bauer and XLT trims; OJ cultural cachet adds collector interest; not as extreme as early Broncos ($100K+) but clean examples command $15K-$30K+ for a 30-year-old truck"
+    },
+    "note": "Classic full-size Bronco with OJ cultural moment; smaller but dedicated community; appreciating values reflect genuine collector interest"
+  },
+  "bronco_2dr_badlands": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Full access to r/FordBronco ~80K+ and Bronco6G.com; 2-door owners are among the most vocal and engaged in Bronco communities; 2-door builds are disproportionately featured in build threads and trail reports on Bronco6G",
+      "aftermarket": "Full Bronco aftermarket applies: ARB bumpers, Warn winches, RTR parts, Rough Country lifts, Zone Offroad; Badlands comes with Sasquatch-eligible package; 2-door is the preferred platform for extreme builds due to shorter wheelbase and lower weight",
+      "heritage": "Bronco nameplate heritage (1966-present); 2-door specifically recalls the original Bronco proportions; Badlands trim is the capability-focused off-road package; represents the purist vision of what the new Bronco should be",
+      "identity": "2-door Badlands owners are the most enthusiast-oriented Bronco buyers; doors-off and top-off lifestyle fully embraced; trail runs and meetups; Bronco wave participation; chose capability over practicality, signaling genuine enthusiasm",
+      "resale": "2-door Broncos hold value slightly better than 4-door equivalents due to lower production volume; Badlands trim with Sasquatch package is desirable on used market; not extreme premium but consistently above segment"
+    },
+    "note": "The purist's Bronco -- 2-door Badlands represents the most enthusiast-oriented configuration; owners chose capability over practicality"
+  },
+  "f150_raptor": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1,
+    "identity": 1.5,
+    "resale_premium": 1,
+    "sources": {
+      "community": "r/fordraptor ~30-40K subs dedicated solely to Raptor; RaptorForum.com is a thriving dedicated forum; F150Forum.com Raptor subforums very active; significant YouTube/social media build culture; plus broader r/f150 ~70K+ and F-150 community",
+      "aftermarket": "ADD (Addictive Desert Designs), SVC Offroad, Baja Designs, Rigid Industries, King Shocks, Icon Vehicle Dynamics, Deaver leaf springs; deep desert truck ecosystem; full build-out from long-travel suspension to chase lighting to bed cages; multiple Raptor-specific companies",
+      "heritage": "Raptor nameplate since 2010 (Gen 1); born from Ford's Baja 1000 racing program; redefined the factory desert truck category; Gen 3 (2021+) with 3.5L EcoBoost and Raptor R with 5.2L supercharged V8; Ford Performance pedigree",
+      "identity": "Raptor owners are highly tribal; organized desert runs, Ford Raptor Assault driving experience, strong social media presence; Raptor R owners especially passionate; 'Raptor wave' in desert communities; owners identify strongly with the vehicle",
+      "resale": "Raptor consistently commands dealer markups ($5K-$15K over MSRP); Raptor R markups were $20K-$50K+; used Raptors hold value well above standard F-150 trims; 5-year retention significantly above segment average"
+    },
+    "note": "The factory desert truck that created a category; dedicated community, deep aftermarket, and strong resale premium distinguish it from all other F-150 trims"
+  },
+  "f150_tremor": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Benefits from massive F-150 community (r/f150 ~70K+, F150Forum.com millions of posts) but Tremor-specific discussion is a subset; some Tremor build threads on F150Forum; no dedicated Tremor subreddit or forum",
+      "aftermarket": "Can use full F-150 aftermarket ecosystem (extensive: lifts, bumpers, lighting, bed accessories from dozens of brands); Tremor-specific mods less common as it comes reasonably equipped; Rough Country, ReadyLift, BDS for additional lift",
+      "heritage": "Tremor package introduced on F-150 in 2020; relatively new off-road trim; borrows from F-150 heritage (since 1975) but Tremor badge itself carries minimal history; overshadowed by Raptor in Ford's off-road hierarchy",
+      "identity": "Some owner pride in having an off-road capable F-150 at lower cost than Raptor; 'poor man's Raptor' perception both helps and hurts identity; mild affinity but not tribal; most buyers are practical off-road-adjacent",
+      "resale": "Holds value slightly above base F-150 XLT due to off-road equipment package; not irrational premium; Tremor package adds resale floor but nothing dramatic"
+    },
+    "note": "Off-road-oriented F-150 that lives in Raptor's shadow; benefits from F-150 ecosystem but lacks dedicated following"
+  },
+  "f150_powerstroke": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Discussed in F150Forum.com diesel subforums and r/f150; diesel truck forums (DieselTrucks, PowerStrokeNation) cover it; niche within the F-150 community; some dedicated threads but no standalone Powerstroke half-ton community",
+      "aftermarket": "Limited diesel-specific aftermarket for the 3.0L V6 diesel; some tuning, exhaust (MBRP, Banks Power), and delete options; mostly borrows standard F-150 accessories; diesel-specific modding culture is more Super Duty territory",
+      "heritage": "Power Stroke nameplate carries diesel heritage from Super Duty (7.3L, 6.0L, 6.7L legendary engines); 3.0L V6 in half-ton is a different animal but benefits from brand recognition; introduced 2018, discontinued after 2021 MY",
+      "identity": "Diesel truck owner pride exists ('diesel life') but in half-ton format it is niche; owners appreciate fuel efficiency and towing torque; some 'I chose diesel' identity but not strong tribal bonds",
+      "resale": "Diesel F-150s hold value slightly better than gas equivalents due to rarity and perceived towing advantage; short production run adds mild scarcity; not dramatic premium"
+    },
+    "note": "Niche diesel half-ton that borrows Power Stroke brand cachet from Super Duty; short production run (2018-2021) limits community development"
+  },
+  "f150_lightning": {
+    "community": 1.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 1,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/F150Lightning ~30-40K subs (strong for an EV truck); F150LightningForum.com active; F150Gen14.com covers Lightning; early adopter EV community is enthusiastic and engaged; YouTube build/review culture around it",
+      "aftermarket": "Limited aftermarket: mostly bed accessories, wraps, lighting upgrades; some companies offer suspension mods; EV powertrain limits traditional aftermarket (no exhaust, intake, tune); Rivian and Lightning compete for emerging EV truck accessory market",
+      "heritage": "Lightning nameplate from SVT Lightning (1993-1995, 1999-2004) carries performance heritage; first-gen SVT Lightning is a collector truck; new Lightning is EV not V8 but the name recognition helps; F-150 as America's best-selling truck adds baseline recognition",
+      "identity": "Early adopter identity is real: EV truck owners evangelize, Pro Power Onboard as mobile generator creates use-case pride; 'the future of trucks' identity; some owners display Lightning prominently at EV shows; but EV depreciation frustration dampens enthusiasm",
+      "resale": "F-150 Lightning has depreciated rapidly; used prices dropped significantly from MSRP as production ramped; EV incentive changes and market correction hit hard; no irrational premium, often sells below original MSRP used"
+    },
+    "note": "Tech-forward EV truck with enthusiastic early adopter community but poor resale undermines passion score; Lightning nameplate heritage provides mild boost"
+  },
+  "f150_powerboost": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Discussed within F150Forum.com and r/f150 but no dedicated PowerBoost community; threads focused on hybrid-specific issues (battery, MPG, Pro Power Onboard) rather than enthusiasm; generic F-150 owner groups",
+      "aftermarket": "Standard F-150 aftermarket accessories apply (lifts, bumpers, bed racks); no PowerBoost-specific aftermarket; hybrid system limits some modifications; mostly OEM+ territory",
+      "heritage": "No heritage to speak of; PowerBoost hybrid drivetrain introduced 2021; functional technology package, not a historically significant nameplate",
+      "identity": "Some mild 'best of both worlds' pride in hybrid towing with generator capability; Pro Power Onboard users appreciate it at job sites and camping; but fundamentally a practical powertrain choice, not an identity",
+      "resale": "Depreciates in line with other F-150 trims; hybrid premium not retained proportionally on used market; practical value proposition but no irrational demand"
+    },
+    "note": "Practical hybrid powertrain option for F-150; Pro Power Onboard generator is the main enthusiasm driver but it remains a rational purchase"
+  },
+  "f150_xlt": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Benefits from massive F-150 community (r/f150 ~70K+, F150Forum.com one of largest truck forums with millions of posts); XLT is the most popular trim so well-represented; community is maintenance/modification-focused not passion-driven",
+      "aftermarket": "Full F-150 aftermarket applies: hundreds of lift kits, bumpers, bed accessories, lighting, wheels/tires from Rough Country, ReadyLift, Bushwacker, Rigid, and dozens more; F-150 aftermarket is one of the deepest in the truck world",
+      "heritage": "F-150 nameplate since 1975; America's best-selling vehicle for 40+ years; XLT trim has been a mainstay for decades; institutional recognition as 'the American truck'; Built Ford Tough marketing",
+      "identity": "XLT is the default fleet/work/family F-150; no tribal identity specific to XLT; owners view it as reliable transportation and a capable work tool; no wave, no gatherings, no lifestyle signaling",
+      "resale": "Depreciates as expected for America's highest-volume truck; massive supply means no scarcity premium; holds value reasonably but nothing above what utility and popularity predict"
+    },
+    "note": "The default F-150; benefits from enormous community and aftermarket ecosystem but XLT buyers are practical, not passionate"
+  },
+  "ranger_raptor": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/FordRanger ~40-50K subs; Ranger5G.com forum active; RangerForums.com legacy community; Ranger Raptor new to US market (2024) but had international following in Australia/Europe since 2018; growing but still establishing US presence",
+      "aftermarket": "Benefits from global Ranger Raptor ecosystem (Australia had it since 2018): ARB, Ironman 4x4, EFS, Opposite Lock; US aftermarket growing via 4WheelParts and RealTruck; not as deep as F-150 Raptor but multiple brands offer Ranger Raptor parts",
+      "heritage": "Ranger nameplate since 1983; Raptor nameplate since 2010; combination is new to US but proven globally; Ford Performance pedigree; less desert racing heritage than F-150 Raptor which created the category",
+      "identity": "Emerging tribal identity among US Ranger Raptor owners; Australian/European Ranger Raptor community already established and enthusiastic; Raptor badge carries tribal weight; owners are vocal early adopters who chose it over the F-150 Raptor for different reasons (size, maneuverability)",
+      "resale": "Too new in US for definitive 5-year data; early used prices holding well above base Ranger; some dealer markups at launch; global Ranger Raptor resale data from Australia suggests decent retention"
+    },
+    "note": "New to US market but proven globally; benefits from Raptor brand halo and established international aftermarket; expect scores to rise as US community matures"
+  },
+  "ranger_xlt": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/FordRanger ~40-50K subs shared across all trims; RangerForums.com and Ranger5G.com active; XLT is the volume trim discussed for maintenance and basic mods; no XLT-specific enthusiast presence",
+      "aftermarket": "Midsize truck aftermarket is thinner than full-size; some lift kits (Rough Country, BDS), bed racks, and basic accessories; fewer SKUs than F-150 platform; functional but not deep",
+      "heritage": "Ranger nameplate since 1983; discontinued 2011-2018 in US then returned; recognized as Ford's midsize truck; less cultural weight than F-150 or Bronco",
+      "identity": "Practical midsize truck buyers; no tribal identity for XLT specifically; appreciated as a right-sized truck for daily use; some mild owner satisfaction but no lifestyle signaling",
+      "resale": "Depreciates normally for midsize truck segment; no scarcity or irrational premium; competitive within segment but nothing exceptional"
+    },
+    "note": "Mainstream midsize truck; benefits mildly from Ranger community but XLT is the practical default, not the passion choice"
+  },
+  "expedition": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "FordExpeditionForum.com exists with moderate activity; r/FordExpedition is small; some Facebook groups for Expedition owners; discussions are towing, family, and maintenance focused; no enthusiast subculture",
+      "aftermarket": "Limited off-road aftermarket: some leveling kits from ReadyLift, Rough Country; Prinsu/Sherpa roof racks; skid plates from select brands; far less catalog depth than F-150 or Bronco; mostly utility accessories",
+      "heritage": "Expedition nameplate since 1997; replaced the full-size Bronco in Ford's lineup; recognized as a full-size family/towing SUV; no particular cultural cachet beyond being a large Ford SUV",
+      "identity": "Family and towing buyers; fleet and suburban use; no tribal identity, no wave, no organized gatherings; owners appreciate space and capability but view it as transportation",
+      "resale": "Depreciates as expected for full-size SUV segment; holds value reasonably due to size and towing utility but no irrational premium; competitive with Tahoe/Sequoia depreciation curves"
+    },
+    "note": "Full-size family SUV that replaced the Bronco but inherited none of its passion; purely practical purchase"
+  },
+  "expedition_4g": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "FordExpeditionForum.com covers older generations; some legacy discussion threads; Facebook groups for older Expeditions focused on maintenance; minimal enthusiast activity for this generation specifically",
+      "aftermarket": "Basic parts available: leveling kits, replacement parts, some mild off-road accessories; shares platform with F-150 of era so some crossover; nothing dedicated or deep for the 4th gen specifically",
+      "heritage": "Expedition nameplate since 1997; 4th gen (2003-2006) is a mid-cycle generation without special cultural significance; no film/TV/expedition history specific to this generation",
+      "identity": "Utility buyers; used as family haulers, tow vehicles, and some overlanding conversions more recently as affordable large SUVs; no tribal identity or organized community",
+      "resale": "20+ year old full-size SUV depreciates as expected; some budget overlanding interest keeps prices above scrap value but no premium; diesel versions (none existed) would have commanded more"
+    },
+    "note": "Older Expedition generation with no particular passion following; functional large SUV for budget-conscious buyers"
+  },
+  "excursion": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1,
+    "resale_premium": 1,
+    "sources": {
+      "community": "Excursion Junkies Facebook group 30K+ members (highly active for a discontinued vehicle); Ford-Trucks.com Excursion subforum; SuperDutyForums.com covers Excursion; small but intensely dedicated community relative to 5-year production run (2000-2005)",
+      "aftermarket": "Shares Super Duty platform (F-250/F-350) so extensive parts crossover; lift kits, bumpers from Iron Bull, aftermarket turbo kits for 7.3L/6.0L Powerstroke; some Excursion-specific bumpers and armor; restoration parts available; not deep but workable",
+      "heritage": "Largest SUV Ford ever produced; built on Super Duty platform; only produced 2000-2005; diesel towing legend; seen as the ultimate family + towing vehicle; 'they don't make them anymore' mystique; no direct replacement ever made",
+      "identity": "Owners are fiercely loyal; 'never sell your Excursion' mentality mirrors Land Cruiser community; organized meetups and rallies; diesel Excursion owners especially passionate; strong 'they don't make these anymore' pride; active buy/sell communities suggest high engagement",
+      "resale": "7.3L Powerstroke diesel Excursions have appreciated from $10-15K to $25-40K+ for clean examples; 6.0L diesels also commanding premiums; 20+ year old vehicle holding or appreciating value is genuinely irrational and passion-driven"
+    },
+    "note": "Discontinued cult classic; 7.3L diesel versions are the prize; small but intensely dedicated community with appreciating values on a 20+ year old vehicle"
+  },
+  "bronco_sport_badlands": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/BroncoSport exists but small (~10-15K subs); discussed on Bronco6G.com but often dismissed by full Bronco owners; BroncoSportForum.com has moderate activity; CUV audience is less forum-engaged than truck/SUV buyers",
+      "aftermarket": "Some lift kits (1-2 inch from LP Aventure style), basic accessories, roof racks; limited compared to full Bronco; Badlands has trail capability but CUV platform limits modification depth; mostly OEM+ territory",
+      "heritage": "Borrows Bronco nameplate but enthusiasts widely regard it as an Escape underneath (shared C2 platform); Bronco heritage applies loosely at best; Badlands trim is the most capable but still a CUV; brand association helps but authenticity questioned",
+      "identity": "Badlands owners do some light trails and appreciate the AWD system (twin-clutch rear diff is genuinely capable for class); mild outdoor/adventure identity; but 'not a real Bronco' perception from full Bronco community limits tribal bonding",
+      "resale": "Depreciates as expected for compact CUV segment; Badlands trim retains slightly better than base Bronco Sport but no irrational premium; high production volume, no scarcity"
+    },
+    "note": "CUV with Bronco branding; Badlands is genuinely capable for its class but enthusiasts see it as an Escape derivative, limiting passion scores"
+  },
+  "escape_hybrid": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "No meaningful dedicated enthusiast community; r/FordEscape is very small and maintenance-focused; generic Ford owner groups; no passion-driven discussion; purely a transportation appliance in community terms",
+      "aftermarket": "OEM parts and generic accessories only (Thule/Yakima racks, WeatherTech mats); no Escape-specific off-road or performance aftermarket; zero enthusiast modification culture",
+      "heritage": "Escape nameplate since 2000; no cultural significance; purely functional compact SUV/CUV; no film, military, or expedition history; a transportation appliance",
+      "identity": "Zero tribal identity; owners view it as affordable, efficient transportation; no wave, no clubs, no gatherings; hybrid version chosen for fuel economy, a purely rational decision",
+      "resale": "Depreciates as expected for compact CUV segment; no irrational premium; commodity vehicle pricing"
+    },
+    "note": "Pure transportation appliance; no passion indicators on any axis"
+  },
+  "escape_phev": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "No dedicated community; discussed in EV/PHEV forums for tax credit and charging questions; r/FordEscape covers it minimally; zero enthusiast following",
+      "aftermarket": "OEM parts and generic accessories only; PHEV powertrain further limits modification options; no enthusiast aftermarket whatsoever",
+      "heritage": "No heritage; Escape PHEV is a compliance/efficiency variant; no cultural resonance",
+      "identity": "Mild 'green vehicle' identity but negligible lifestyle signaling; chosen for tax credits and fuel savings; purely rational purchase decision",
+      "resale": "PHEVs depreciate as EV incentives and technology change; no irrational premium; Escape PHEV resale tracks or slightly underperforms segment due to battery concerns"
+    },
+    "note": "Plug-in hybrid Escape; purchased for tax credits and fuel savings, not passion; scores match the hybrid variant"
+  },
+  "maverick_tremor": {
+    "community": 1.5,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "r/FordMaverick ~60-70K subs (remarkably active for a sub-$30K truck); MaverickTruckClub.com active since pre-launch with extensive build threads; Facebook groups thriving; community engagement is impressive relative to vehicle price point and class",
+      "aftermarket": "Growing but young: some lift kits (1-2 inch), bed accessories, roof racks from Leer/ARE/Prinsu; Tremor adds factory off-road bits; aftermarket still developing; limited by unibody platform and compact size; mostly accessories not deep builds",
+      "heritage": "Brand new nameplate (2022); Maverick name existed on a 1970s compact car but no meaningful connection; no heritage to speak of; the truck is creating its own identity from scratch",
+      "identity": "Strong DIY and value-conscious community identity; 'punching above its weight' pride; Maverick owners are vocal about capability per dollar; Tremor owners specifically embrace the light off-road capability; organized meetups emerging; more rational enthusiasm than tribal passion",
+      "resale": "Held value very well during truck shortage era; Tremor and hybrid trims command slight used premiums; production constraints kept supply tight; values normalizing as supply catches up but still slightly above segment expectations"
+    },
+    "note": "Budget truck darling with surprisingly active community; Tremor adds off-road aspiration to an already enthusiastic owner base; growing but heritage-limited"
+  },
+  "explorer_timberline": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "ExplorerForum.com exists with moderate activity covering all Explorer generations; r/FordExplorer is small; Timberline-specific discussion is a subset; no dedicated Timberline community or forum",
+      "aftermarket": "Some basic accessories: leveling kits, roof racks, all-terrain tires; Timberline comes with factory off-road equipment; limited aftermarket demand because most Explorer buyers want utility not modification; thin catalog",
+      "heritage": "Explorer nameplate since 1990; strong name recognition in American automotive history; defined the 1990s SUV boom; Firestone tire controversy is part of cultural history; but Timberline trim is new (2021) with no specific heritage",
+      "identity": "Timberline buyers are mostly practical SUV buyers who wanted slightly more capability than standard Explorer; no tribal identity, no organized community; mild outdoor aspiration but not a lifestyle vehicle",
+      "resale": "Depreciates as expected for midsize SUV segment; Timberline trim retains marginally better than base Explorer due to equipment level but no passion-driven premium"
+    },
+    "note": "Mild off-road Explorer trim; Explorer nameplate has recognition but Timberline generates no dedicated enthusiasm or tribal identity"
+  }
+}
