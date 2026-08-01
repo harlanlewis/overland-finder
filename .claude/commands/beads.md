@@ -14,8 +14,7 @@ metadata:
 
 # Beads Task Tracking
 
-Beads (`bd`) is a distributed, git-backed issue tracker for AI agents. It replaces
-markdown task lists with a dependency-aware graph that persists across sessions.
+Beads (`bd`) is a distributed, git-backed issue tracker for AI agents. It replaces markdown task lists with a dependency-aware graph that persists across sessions.
 
 ## When to use this skill
 
@@ -45,16 +44,15 @@ After claiming a task, check whether it should be delegated to a subagent:
 | `issue_type: "epic"` with subtasks | Orchestrate subtasks individually; parallelize independent ones |
 | Everything else | Work directly in this conversation |
 
+The `researcher` agent declares `isolation: worktree`, so each one gets its own checkout. **Launch them one per message** and verify each result's `worktreePath` — canonical rule and evidence in `~/.claude/CLAUDE.md` § Worktree isolation.
+
 For research tasks (especially passion score batches), get the full details and spawn:
 
 ```bash
 bd show <id> --json   # Get full task context for the subagent prompt
 ```
 
-Then pass the task title, description, vehicle list, and scoring criteria to a
-`researcher` subagent via the Task tool. The researcher agent knows the passion
-score methodology and will produce structured JSON. After the subagent returns,
-update the beads task with a comment summarizing findings:
+Then pass the task title, description, vehicle list, and scoring criteria to a `researcher` subagent via the Task tool. The researcher agent knows the passion score methodology and will produce structured JSON. After the subagent returns, update the beads task with a comment summarizing findings:
 
 ```bash
 bd comment <id> --text "Research complete. Findings: ..."
@@ -68,8 +66,7 @@ bd create --title "Add new vehicle batch" --priority normal --type feature
 bd create --title "Recalculate scores" --priority low --type task
 ```
 
-Priorities: `critical` (0), `high` (1), `normal` (2), `low` (3), `backlog` (4).
-Types: `bug`, `feature`, `task`, `epic`, `chore`.
+Priorities: `critical` (0), `high` (1), `normal` (2), `low` (3), `backlog` (4). Types: `bug`, `feature`, `task`, `epic`, `chore`.
 
 ### Epics and subtasks
 
@@ -136,9 +133,7 @@ git pull --rebase && git push
 
 ## Dashboard sync
 
-A PostToolUse hook auto-exports to `.beads/issues.jsonl` after `bd create`,
-`bd update`, `bd close`, and `bd reopen`. If the hook isn't running (e.g. in a
-subagent without hooks), manually export:
+A PostToolUse hook auto-exports to `.beads/issues.jsonl` after `bd create`, `bd update`, `bd close`, and `bd reopen`. If the hook isn't running (e.g. in a subagent without hooks), manually export:
 
 ```bash
 bd export -o .beads/issues.jsonl
