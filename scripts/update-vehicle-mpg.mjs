@@ -18,36 +18,36 @@ const dryRun = process.argv.includes('--dry-run');
 // Manual overrides for vehicles with special cases
 const MANUAL_MPG = {
   // G-Wagen (not in EPA database, use manufacturer specs)
-  'gwagen': 15,
-  'gwagen_amg': 14,
-  'gwagen_w463': 13,
+  'mercedes-benz-g-class-g-550-2019': 15,
+  'mercedes-benz-g-class-amg-g-63-2019': 14,
+  'mercedes-benz-g-class-1990': 13,
   // Classic Defender (not in EPA)
-  'defender_classic': 14,
+  'land-rover-defender-classic-1983': 14,
   // Ford Excursion (older, use manufacturer)
-  'excursion': 12,
+  'ford-excursion-2000': 12,
   // Nissan Patrol (not sold in US)
-  'patrol_y61': 14,
+  'nissan-patrol-1997': 14,
   // Hummer H2 (older, use manufacturer)
-  'hummer_h2': 10,
+  'hummer-h2-2003': 10,
 
   // Script matched wrong variant - manual corrections
-  'q8': 19, // ICE Q8 quattro (script matched Q8 e-tron)
-  'disco_lr4': 16, // LR4 (script matched Discovery Sport)
-  'bronco_raptor': 15, // Bronco Raptor 4WD (script matched base Bronco)
-  'rr_full': 18, // Range Rover V8 (script may have matched diesel variant)
-  'wrangler_jl': 17, // Rubicon 4dr 4WD with 3.6L V6
-  'wrangler_jk': 17, // JK Rubicon (similar to JL)
+  'audi-q8-2019': 19, // ICE Q8 quattro (script matched Q8 e-tron)
+  'land-rover-lr4-2010': 16, // LR4 (script matched Discovery Sport)
+  'ford-bronco-raptor-2021': 15, // Bronco Raptor 4WD (script matched base Bronco)
+  'land-rover-range-rover-2022': 18, // Range Rover V8 (script may have matched diesel variant)
+  'jeep-wrangler-rubicon-2018': 17, // Rubicon 4dr 4WD with 3.6L V6
+  'jeep-wrangler-rubicon-2007': 17, // JK Rubicon (similar to JL)
 
   // PHEVs - use blended/real-world estimates instead of gas-only EPA
-  'x5': 50, // PHEV combined estimate (gas-only is 15)
-  'cayenne_ehybrid': 46, // PHEV blended (gas-only is 19)
-  'cayenne_turbo': 38, // PHEV blended (gas-only is 19)
-  'gle350de': 56, // Diesel PHEV, European spec
+  'bmw-x5-xdrive50e-2019': 50, // PHEV combined estimate (gas-only is 15)
+  'porsche-cayenne-e-hybrid-2019': 46, // PHEV blended (gas-only is 19)
+  'porsche-cayenne-turbo-e-hybrid-2019': 38, // PHEV blended (gas-only is 19)
+  'mercedes-benz-gle-350de-2019': 56, // Diesel PHEV, European spec
 
   // EVs - use MPGe (EPA standard)
   // Note: These are miles per gallon equivalent, not traditional MPG
-  'g580_eq': 77, // Electric G-Wagen MPGe
-  'eqs_suv': 79, // Mercedes EQS SUV MPGe
+  'mercedes-benz-g-class-g-580-eq-2024': 77, // Electric G-Wagen MPGe
+  'mercedes-benz-eqs-suv-2023': 79, // Mercedes EQS SUV MPGe
 };
 
 function main() {

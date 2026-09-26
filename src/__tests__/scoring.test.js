@@ -82,8 +82,8 @@ describe('calculateScore', () => {
     // Use vehicles with contrasting traits:
     // Bronco: offroad=10, luxury=1.9 (high offroad, low luxury)
     // Mercedes GLS: offroad=3.5, luxury=10 (low offroad, high luxury)
-    const bronco = vehicles.find(v => v.id === 'bronco');
-    const gls = vehicles.find(v => v.id === 'gls');
+    const bronco = vehicles.find(v => v.id === 'ford-bronco-badlands-2025');
+    const gls = vehicles.find(v => v.id === 'mercedes-benz-gls-580-2020');
 
     expect(bronco).toBeDefined();
     expect(gls).toBeDefined();

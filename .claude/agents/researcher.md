@@ -105,15 +105,15 @@ Use these to calibrate your scoring. They are specific entries, not whole namepl
 
 | Anchor id | Vehicle | Expected | Rationale |
 |-----------|---------|----------|-----------|
-| `wrangler_2dr_jl` | Jeep Wrangler 2-Door Rubicon (JL, gas) | 9.5–10 | Defines "passion vehicle": maximum on every axis except resale, which is strong rather than extreme |
-| `lc200` | Toyota Land Cruiser (200 Series) | 9–9.5 | ih8mud, global heritage, absurd resale, "go-anywhere" icon |
-| `defender_classic` | Land Rover Defender 110 (classic) | 9–9.5 | Camel Trophy, Africa, exploration incarnate |
-| `4runner` | Toyota 4Runner TRD Pro (6th gen) | 7.5–8.5 | Massive mod community, strong resale, trail culture staple |
-| `bronco` | Ford Bronco Badlands (6th gen) | 7–8 | Heritage revival, strong early community, growing aftermarket |
-| `gc_trailhawk` | Jeep Grand Cherokee 4xe Trailhawk | 5–6 | Some Jeep halo, but more mainstream than tribal |
-| `outback_wilderness` | Subaru Outback Wilderness | 4–5 | Liked but not loved; practical choice, not a passion project |
-| `tahoe_z71` | Chevrolet Tahoe Z71 | 2–3 | Respected workhorse, minimal enthusiast culture |
-| `tucson_xrt` | Hyundai Tucson XRT | 1.5–2 | Competent appliance; no community, heritage, or identity |
+| `jeep-wrangler-2-door-rubicon-2018` | Jeep Wrangler 2-Door Rubicon (JL, gas) | 9.5–10 | Defines "passion vehicle": maximum on every axis except resale, which is strong rather than extreme |
+| `toyota-land-cruiser-2008` | Toyota Land Cruiser (200 Series) | 9–9.5 | ih8mud, global heritage, absurd resale, "go-anywhere" icon |
+| `land-rover-defender-classic-1983` | Land Rover Defender 110 (classic) | 9–9.5 | Camel Trophy, Africa, exploration incarnate |
+| `toyota-4runner-trd-pro-2024` | Toyota 4Runner TRD Pro (6th gen) | 7.5–8.5 | Massive mod community, strong resale, trail culture staple |
+| `ford-bronco-badlands-2025` | Ford Bronco Badlands (6th gen) | 7–8 | Heritage revival, strong early community, growing aftermarket |
+| `jeep-grand-cherokee-4xe-trailhawk-2022` | Jeep Grand Cherokee 4xe Trailhawk | 5–6 | Some Jeep halo, but more mainstream than tribal |
+| `subaru-outback-wilderness-2022` | Subaru Outback Wilderness | 4–5 | Liked but not loved; practical choice, not a passion project |
+| `chevrolet-tahoe-z71-2025` | Chevrolet Tahoe Z71 | 2–3 | Respected workhorse, minimal enthusiast culture |
+| `hyundai-tucson-xrt-2022` | Hyundai Tucson XRT | 1.5–2 | Competent appliance; no community, heritage, or identity |
 
 The formula: `score = 1 + (raw / 10) * 9` where `raw` = sum of all sub-factors (max 10). Rounded to nearest 0.5.
 
@@ -143,7 +143,7 @@ Return your findings as a JSON object keyed by vehicle ID. Each entry must inclu
 
 **Important**: Vehicle IDs must match what's in `src/vehicles.json`. Read the file or the task description to get exact IDs.
 
-**Score the vehicle, not the id.** Some ids are legacy or ambiguous: `montero` is the 2022+ Outlander PHEV, and `wrangler_rubicon` is the plug-in hybrid 4xe. Before researching, read the entry's make, model, trim, generation, years and powertrain in `src/vehicles.json`, and make every source describe that exact vehicle. The most common error in past passes was evidence for a sibling trim, powertrain or generation.
+**Score the exact vehicle.** Ids are derived from make, model, trim and first model year (e.g. `jeep-wrangler-4xe-rubicon-2021`), so they name the vehicle, but they do not carry the generation or powertrain. Before researching, read the entry's generation, years and powertrain in `src/vehicles.json` too, and make every source describe that exact vehicle. The most common error in past passes was evidence for a sibling trim, powertrain or generation.
 
 ## Edge cases
 

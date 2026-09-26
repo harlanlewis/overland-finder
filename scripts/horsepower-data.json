@@ -2,863 +2,851 @@
   "_comment": "Horsepower data for performance scoring. Sources: manufacturer specs, EPA",
   "_formula": "performance = normalize((hp / weight) * 1000, min=2.5, max=10)",
   "vehicles": {
-    "4runner": {
+    "toyota-4runner-trd-pro-2024": {
       "hp": 326,
       "source": "2025 Toyota 4Runner TRD Pro (2.4T hybrid)"
     },
-    "4runner_ltd": {
+    "toyota-4runner-limited-2024": {
       "hp": 326,
       "source": "2025 Toyota 4Runner Limited (2.4T hybrid)"
     },
-    "4runner_trd_orp": {
+    "toyota-4runner-trd-off-road-premium-2024": {
       "hp": 326,
       "source": "2025 Toyota 4Runner TRD Off-Road Premium"
     },
-    "runner_sr5": {
+    "toyota-4runner-sr5-2024": {
       "hp": 278,
       "source": "2025 Toyota 4Runner SR5 (2.4T non-hybrid)"
     },
-    "runner_sport": {
+    "toyota-4runner-trd-sport-2024": {
       "hp": 278,
       "source": "2025 Toyota 4Runner TRD Sport (2.4T)"
     },
-    "runner_venture": {
+    "toyota-4runner-trailhunter-2024": {
       "hp": 326,
       "source": "2025 Toyota 4Runner Trailhunter (hybrid)"
     },
-    "4runner_5g_trd_pro": {
+    "toyota-4runner-trd-pro-2015": {
       "hp": 270,
       "source": "5th Gen 4Runner 4.0 V6"
     },
-    "4runner_5g_trd_or": {
+    "toyota-4runner-trd-off-road-2010": {
       "hp": 270,
       "source": "5th Gen 4Runner 4.0 V6"
     },
-    "4runner_5g_sr5": {
+    "toyota-4runner-sr5-2010": {
       "hp": 270,
       "source": "5th Gen 4Runner 4.0 V6"
     },
-    "gx": {
+    "lexus-gx-550-overtrail-2024": {
       "hp": 349,
       "source": "2025 Lexus GX 550 (2.4T hybrid)"
     },
-    "gx_prem": {
+    "lexus-gx-550-premium-plus-2024": {
       "hp": 349,
       "source": "2025 Lexus GX 550 Premium+"
     },
-    "gx460": {
+    "lexus-gx-460-2010": {
       "hp": 301,
       "source": "Lexus GX 460 4.6 V8"
     },
-    "gx470": {
+    "lexus-gx-470-2003": {
       "hp": 263,
       "source": "Lexus GX 470 4.7 V8"
     },
-    "lc": {
+    "toyota-land-cruiser-2024": {
       "hp": 326,
       "source": "2025 Toyota Land Cruiser (2.4T hybrid)"
     },
-    "lc200": {
+    "toyota-land-cruiser-2008": {
       "hp": 381,
       "source": "Land Cruiser 200 Series 5.7 V8"
     },
-    "lc100": {
+    "toyota-land-cruiser-1998": {
       "hp": 275,
       "source": "Land Cruiser 100 Series 4.7 V8"
     },
-    "lc80": {
+    "toyota-land-cruiser-1990": {
       "hp": 212,
       "source": "Land Cruiser 80 Series 4.5 I6"
     },
-    "lx570": {
+    "lexus-lx-570-2008": {
       "hp": 383,
       "source": "Lexus LX 570 5.7 V8"
     },
-    "lx": {
+    "lexus-lx-600-2022": {
       "hp": 409,
       "source": "2025 Lexus LX 600 3.4TT V6"
     },
-    "lx700h": {
+    "lexus-lx-700h-2025": {
       "hp": 457,
       "source": "2025 Lexus LX 700h (3.4TT V6 hybrid)"
     },
-    "lx700h_ot": {
+    "lexus-lx-700h-overtrail-2025": {
       "hp": 457,
       "source": "2025 Lexus LX 700h Overtrail (3.4TT V6 hybrid)"
     },
-    "sequoia": {
+    "toyota-sequoia-trd-pro-2023": {
       "hp": 437,
       "source": "2025 Toyota Sequoia TRD Pro (3.4TT hybrid)"
     },
-    "sequoia_ltd": {
+    "toyota-sequoia-limited-2023": {
       "hp": 437,
       "source": "2025 Toyota Sequoia Limited"
     },
-    "sequoia_2g": {
+    "toyota-sequoia-2008": {
       "hp": 381,
       "source": "Sequoia 2nd Gen 5.7 V8"
     },
-    "fj_cruiser": {
+    "toyota-fj-cruiser-2007": {
       "hp": 260,
       "source": "FJ Cruiser 4.0 V6"
     },
-    "defender": {
+    "land-rover-defender-110-v8-2020": {
       "hp": 518,
       "source": "2025 Defender V8 5.0SC"
     },
-    "defender_s": {
+    "land-rover-defender-110-s-2020": {
       "hp": 395,
       "source": "2025 Defender 110 S (3.0 I6)"
     },
-    "defender_130": {
+    "land-rover-defender-130-2020": {
       "hp": 395,
       "source": "2025 Defender 130 (3.0 I6)"
     },
-    "defender_classic": {
+    "land-rover-defender-classic-1983": {
       "hp": 122,
       "source": "Defender Classic 2.5 TD (diesel)"
     },
-    "disco_lr4": {
+    "land-rover-lr4-2010": {
       "hp": 340,
       "source": "LR4 5.0 V8"
     },
-    "disco_5": {
+    "land-rover-discovery-2017": {
       "hp": 355,
       "source": "Discovery 5 3.0 V6 SC"
     },
-    "rr_sport": {
+    "land-rover-range-rover-sport-2023": {
       "hp": 523,
       "source": "2025 Range Rover Sport (First Edition spec)"
     },
-    "rr_full": {
+    "land-rover-range-rover-2022": {
       "hp": 523,
       "source": "2025 Range Rover 4.4TT V8"
     },
-    "gc4xe": {
+    "jeep-grand-cherokee-4xe-summit-2022": {
       "hp": 375,
       "source": "2025 Grand Cherokee 4xe (2.0T + electric)"
     },
-    "gc4xe_ol": {
+    "jeep-grand-cherokee-4xe-overland-2022": {
       "hp": 375,
       "source": "2025 Grand Cherokee 4xe Overland"
     },
-    "gc_trailhawk": {
+    "jeep-grand-cherokee-4xe-trailhawk-2022": {
       "hp": 375,
       "source": "2025 Grand Cherokee Trailhawk 4xe"
     },
-    "gc_wk2": {
+    "jeep-grand-cherokee-2011": {
       "hp": 293,
       "source": "Grand Cherokee WK2 3.6 V6 (Pentastar)"
     },
-    "gc_wk2_th": {
+    "jeep-grand-cherokee-trailhawk-2017": {
       "hp": 293,
       "source": "Grand Cherokee WK2 Trailhawk V6"
     },
-    "wagoneer": {
+    "jeep-wagoneer-2022": {
       "hp": 420,
       "source": "2025 Wagoneer 3.0TT I6"
     },
-    "gwagoneer": {
+    "jeep-grand-wagoneer-2022": {
       "hp": 510,
       "source": "2025 Grand Wagoneer 6.4 V8"
     },
-    "wrangler_rubicon": {
+    "jeep-wrangler-4xe-rubicon-2021": {
       "hp": 375,
       "source": "2025 Wrangler Rubicon 4xe"
     },
-    "wrangler_jl": {
+    "jeep-wrangler-rubicon-2018": {
       "hp": 285,
       "source": "Wrangler JL 3.6 V6"
     },
-    "wrangler_jk": {
+    "jeep-wrangler-rubicon-2007": {
       "hp": 285,
       "source": "Wrangler JK 3.6 V6 (2012+)"
     },
-    "wrangler_tj": {
+    "jeep-wrangler-1997": {
       "hp": 190,
       "source": "Wrangler TJ 4.0 I6"
     },
-    "bronco": {
+    "ford-bronco-badlands-2025": {
       "hp": 315,
       "source": "2025 Bronco Badlands (2.7 EcoBoost)"
     },
-    "bronco_ob": {
+    "ford-bronco-outer-banks-2021": {
       "hp": 315,
       "source": "2025 Bronco Outer Banks (2.7 EcoBoost)"
     },
-    "bronco_raptor": {
+    "ford-bronco-raptor-2021": {
       "hp": 418,
       "source": "2025 Bronco Raptor 3.0 EcoBoost"
     },
-    "bronco_21_24": {
+    "ford-bronco-badlands-2021": {
       "hp": 315,
       "source": "Bronco 2021-24 (2.7 EcoBoost)"
     },
-    "expedition": {
+    "ford-expedition-timberline-2018": {
       "hp": 440,
       "source": "2025 Expedition Timberline (3.5 EcoBoost)"
     },
-    "expedition_4g": {
+    "ford-expedition-2018": {
       "hp": 400,
       "source": "Expedition 4th Gen 3.5 EcoBoost"
     },
-    "excursion": {
+    "ford-excursion-2000": {
       "hp": 235,
       "source": "Excursion 7.3 Power Stroke diesel"
     },
-    "tahoe_z71": {
+    "chevrolet-tahoe-z71-2025": {
       "hp": 355,
       "source": "2025 Tahoe Z71 5.3 V8"
     },
-    "tahoe_5g": {
+    "chevrolet-tahoe-z71-2021": {
       "hp": 355,
       "source": "Tahoe 5th Gen 5.3 V8"
     },
-    "tahoe_4g": {
+    "chevrolet-tahoe-z71-2015": {
       "hp": 355,
       "source": "Tahoe 4th Gen 5.3 V8"
     },
-    "yukon_at4": {
+    "gmc-yukon-at4-2021": {
       "hp": 420,
       "source": "2025 Yukon AT4 6.2 V8"
     },
-    "escalade_v": {
+    "cadillac-escalade-v-2021": {
       "hp": 682,
       "source": "2025 Escalade-V 6.2 Supercharged"
     },
-    "gle": {
+    "mercedes-benz-gle-450-2019": {
       "hp": 375,
       "source": "2025 GLE 450 3.0T I6"
     },
-    "gle350de": {
+    "mercedes-benz-gle-350de-2019": {
       "hp": 320,
       "source": "GLE 350de diesel hybrid"
     },
-    "gls": {
+    "mercedes-benz-gls-580-2020": {
       "hp": 483,
       "source": "2025 GLS 580 4.0TT V8"
     },
-    "gwagen": {
+    "mercedes-benz-g-class-g-550-2019": {
       "hp": 416,
       "source": "2025 G 550 4.0TT V8"
     },
-    "gwagen_amg": {
+    "mercedes-benz-g-class-amg-g-63-2019": {
       "hp": 577,
       "source": "2025 G 63 AMG 4.0TT V8"
     },
-    "gwagen_w463": {
+    "mercedes-benz-g-class-1990": {
       "hp": 416,
       "source": "G-Class W463 5.5TT V8 (late models)"
     },
-    "g580_eq": {
+    "mercedes-benz-g-class-g-580-eq-2024": {
       "hp": 579,
       "source": "2025 G 580 EQ (quad motor)"
     },
-    "eqs_suv": {
+    "mercedes-benz-eqs-suv-2023": {
       "hp": 355,
       "source": "2025 EQS SUV 450+"
     },
-    "x5": {
+    "bmw-x5-xdrive50e-2019": {
       "hp": 483,
       "source": "2025 X5 xDrive50e 3.0T + electric"
     },
-    "x7": {
+    "bmw-x7-xdrive40i-2019": {
       "hp": 375,
       "source": "2025 X7 xDrive40i 3.0T"
     },
-    "xm": {
+    "bmw-xm-2023": {
       "hp": 738,
       "source": "2025 BMW XM Label Red"
     },
-    "ix_xdrive50": {
+    "bmw-ix-xdrive50-2022": {
       "hp": 516,
       "source": "2025 iX xDrive50"
     },
-    "cayenne": {
+    "porsche-cayenne-2019": {
       "hp": 348,
       "source": "2025 Cayenne base 3.0T V6"
     },
-    "cayenne_ehybrid": {
+    "porsche-cayenne-e-hybrid-2019": {
       "hp": 463,
       "source": "2025 Cayenne E-Hybrid"
     },
-    "cayenne_turbo": {
+    "porsche-cayenne-turbo-e-hybrid-2019": {
       "hp": 729,
       "source": "2025 Cayenne Turbo E-Hybrid"
     },
-    "cayenne_coupe": {
+    "porsche-cayenne-coupe-2019": {
       "hp": 348,
       "source": "2025 Cayenne Coupe 3.0T"
     },
-    "q8": {
+    "audi-q8-2019": {
       "hp": 335,
       "source": "2025 Audi Q8 55 TFSI"
     },
-    "sq8": {
+    "audi-sq8-2019": {
       "hp": 500,
       "source": "2025 Audi SQ8 4.0T V8"
     },
-    "rsq8": {
+    "audi-rs-q8-2020": {
       "hp": 591,
       "source": "2025 Audi RS Q8 4.0T V8"
     },
-    "r1s": {
+    "rivian-r1s-adventure-2022": {
       "hp": 850,
       "source": "2025 Rivian R1S Quad Motor"
     },
-    "r1s_perf": {
+    "rivian-r1s-dual-max-2022": {
       "hp": 600,
       "source": "2025 Rivian R1S Dual Max"
     },
-    "hummer_ev": {
+    "gmc-hummer-ev-suv-2024": {
       "hp": 830,
       "source": "2025 Hummer EV SUV (tri-motor)"
     },
-    "cybertruck": {
+    "tesla-cybertruck-awd-2024": {
       "hp": 600,
       "source": "2025 Cybertruck AWD (dual motor est.)"
     },
-    "cybertruck_beast": {
+    "tesla-cybertruck-cyberbeast-2024": {
       "hp": 845,
       "source": "2025 Cyberbeast (tri-motor)"
     },
-    "model_x": {
+    "tesla-model-x-2016": {
       "hp": 670,
       "source": "2025 Model X Long Range"
     },
-    "montero": {
+    "mitsubishi-outlander-phev-2022": {
       "hp": 248,
       "source": "2025 Outlander PHEV"
     },
-    "montero_sport": {
+    "mitsubishi-montero-sport-1997": {
       "hp": 165,
       "source": "Montero Sport 3.0 V6"
     },
-    "montero_gen3": {
+    "mitsubishi-montero-2001": {
       "hp": 197,
       "source": "Montero 3rd Gen 3.5 V6"
     },
-    "xc90_recharge": {
+    "volvo-xc90-recharge-2015": {
       "hp": 455,
       "source": "2025 XC90 Recharge T8"
     },
-    "ex90": {
+    "volvo-ex90-2024": {
       "hp": 496,
       "source": "2025 Volvo EX90 Twin Motor Performance"
     },
-    "gv80": {
+    "genesis-gv80-2021": {
       "hp": 375,
       "source": "2025 Genesis GV80 3.5T"
     },
-    "xterra": {
+    "nissan-xterra-2005": {
       "hp": 261,
       "source": "Xterra 4.0 V6"
     },
-    "pathfinder_r51": {
+    "nissan-pathfinder-2005": {
       "hp": 269,
       "source": "Pathfinder R51 4.0 V6"
     },
-    "patrol_y61": {
+    "nissan-patrol-1997": {
       "hp": 280,
       "source": "Patrol Y61 4.8 I6 (TB48DE)"
     },
-    "4wd_suburban": {
+    "chevrolet-suburban-4wd-2015": {
       "hp": 355,
       "source": "Suburban 5.3 V8"
     },
-    "hummer_h2": {
+    "hummer-h2-2003": {
       "hp": 316,
       "source": "Hummer H2 6.0 V8"
     },
-    "trooper": {
+    "isuzu-trooper-1992": {
       "hp": 215,
       "source": "Trooper 3.5 V6"
     },
-    "navigator": {
+    "lincoln-navigator-reserve-2018": {
       "hp": 440,
       "source": "2025 Navigator 3.5 EcoBoost V6"
     },
-    "aviator": {
+    "lincoln-aviator-black-label-2020": {
       "hp": 400,
       "source": "2025 Aviator Black Label 3.0TT V6"
     },
-    "qx80": {
+    "infiniti-qx80-2024": {
       "hp": 450,
       "source": "2025 QX80 3.5TT V6"
     },
-    "mdx_type_s": {
+    "acura-mdx-type-s-2022": {
       "hp": 355,
       "source": "2025 MDX Type S 3.0T V6"
     },
-    "telluride_xpro": {
+    "kia-telluride-x-pro-2020": {
       "hp": 291,
       "source": "2025 Telluride 3.8 V6"
     },
-    "palisade": {
+    "hyundai-palisade-calligraphy-2020": {
       "hp": 291,
       "source": "2025 Palisade 3.8 V6"
     },
-    "pilot_trailsport": {
+    "honda-pilot-trailsport-2023": {
       "hp": 285,
       "source": "2025 Pilot TrailSport 3.5 V6"
     },
-    "passport_trailsport": {
+    "honda-passport-trailsport-2019": {
       "hp": 285,
       "source": "2025 Passport TrailSport 3.5 V6"
     },
-    "cx90_phev": {
+    "mazda-cx-90-phev-2024": {
       "hp": 323,
       "source": "2025 CX-90 PHEV 2.5T + electric"
     },
-    "santa_fe_xrt": {
+    "hyundai-santa-fe-xrt-2024": {
       "hp": 277,
       "source": "2025 Santa Fe XRT 2.5T"
     },
-    "outback_wilderness": {
+    "subaru-outback-wilderness-2022": {
       "hp": 260,
       "source": "2025 Outback Wilderness 2.4T"
     },
-    "forester_wilderness": {
+    "subaru-forester-wilderness-2022": {
       "hp": 182,
       "source": "2025 Forester Wilderness 2.5 boxer"
     },
-    "sorento_phev": {
+    "kia-sorento-sx-prestige-phev-2021": {
       "hp": 261,
       "source": "2025 Sorento PHEV 1.6T + electric"
     },
-    "gladiator_rubicon": {
+    "jeep-gladiator-rubicon-2020": {
       "hp": 285,
       "source": "2025 Gladiator Rubicon 3.6 V6"
     },
-    "wrangler_sahara": {
+    "jeep-wrangler-sahara-2018": {
       "hp": 270,
       "source": "2025 Wrangler Sahara 2.0T"
     },
-    "tacoma_trd_pro": {
+    "toyota-tacoma-trd-pro-2024": {
       "hp": 326,
       "source": "2025 Tacoma TRD Pro i-Force MAX"
     },
-    "tx_550h": {
+    "lexus-tx-550h-plus-2024": {
       "hp": 404,
       "source": "2025 TX 550h+ 3.5 V6 + electric"
     },
-    "gv70": {
+    "genesis-gv70-3-5t-sport-prestige-2022": {
       "hp": 375,
       "source": "2025 GV70 3.5T V6"
     },
-    "escalade": {
+    "cadillac-escalade-sport-2021": {
       "hp": 420,
       "source": "2025 Escalade Sport 6.2 V8"
     },
-    "defender_90": {
+    "land-rover-defender-90-s-2020": {
       "hp": 395,
       "source": "2025 Defender 90 S P400 3.0 I6"
     },
-    "gc_l_overland": {
+    "jeep-grand-cherokee-l-overland-2021": {
       "hp": 293,
       "source": "2025 Grand Cherokee L 3.6 V6 Pentastar"
     },
-    "lc_first_ed": {
+    "toyota-land-cruiser-first-edition-2024": {
       "hp": 326,
       "source": "2024 Land Cruiser First Edition 2.4T hybrid"
     },
-    "qx80_2g": {
+    "infiniti-qx80-2014": {
       "hp": 400,
       "source": "Infiniti QX80 2nd Gen 5.6 V8"
     },
-    "f150_raptor": {
+    "ford-f-150-raptor-2021": {
       "hp": 450,
       "source": "2024 F-150 Raptor 3.5L EcoBoost V6"
     },
-    "f150_tremor": {
+    "ford-f-150-tremor-2021": {
       "hp": 400,
       "source": "2024 F-150 Tremor 5.0L V8 / 3.5L EcoBoost"
     },
-    "tundra_trd_pro": {
+    "toyota-tundra-trd-pro-2022": {
       "hp": 437,
       "source": "2024 Tundra TRD Pro i-Force MAX hybrid"
     },
-    "tundra_1794": {
+    "toyota-tundra-1794-edition-2022": {
       "hp": 437,
       "source": "2024 Tundra 1794 i-Force MAX hybrid"
     },
-    "silverado_zr2": {
+    "chevrolet-silverado-1500-zr2-2022": {
       "hp": 420,
       "source": "2024 Silverado ZR2 6.2L V8"
     },
-    "colorado_zr2": {
+    "chevrolet-colorado-zr2-2023": {
       "hp": 310,
       "source": "2024 Colorado ZR2 2.7L TurboMax I4"
     },
-    "ram_trx": {
+    "ram-1500-trx-2021": {
       "hp": 702,
       "source": "2024 Ram TRX 6.2L supercharged V8"
     },
-    "ram_rebel": {
+    "ram-1500-rebel-2019": {
       "hp": 395,
       "source": "2024 Ram Rebel 5.7L HEMI V8"
     },
-    "ranger_raptor": {
+    "ford-ranger-raptor-2024": {
       "hp": 405,
       "source": "2024 Ranger Raptor 3.0L EcoBoost V6"
     },
-    "renegade_trailhawk": {
+    "jeep-renegade-trailhawk-2015": {
       "hp": 177,
       "source": "2025 Renegade Trailhawk 1.3L turbo"
     },
-    "compass_trailhawk": {
+    "jeep-compass-trailhawk-2017": {
       "hp": 200,
       "source": "2025 Compass Trailhawk 2.0L turbo"
     },
-    "rav4_trd_or": {
+    "toyota-rav4-trd-off-road-2020": {
       "hp": 203,
       "source": "2025 RAV4 TRD Off-Road 2.5L Dynamic Force"
     },
-    "crosstrek_wilderness": {
+    "subaru-crosstrek-wilderness-2024": {
       "hp": 182,
       "source": "2025 Crosstrek Wilderness 2.5L boxer"
     },
-    "bronco_sport_badlands": {
+    "ford-bronco-sport-badlands-2021": {
       "hp": 250,
       "source": "2025 Bronco Sport Badlands 2.0L EcoBoost"
     },
-    "cx50_meridian": {
+    "mazda-cx-50-meridian-edition-2023": {
       "hp": 256,
       "source": "2025 CX-50 Meridian 2.5L turbo"
     },
-    "tucson_xrt": {
+    "hyundai-tucson-xrt-2022": {
       "hp": 187,
       "source": "2025 Tucson XRT 2.5L"
     },
-    "sportage_xpro": {
+    "kia-sportage-x-pro-2023": {
       "hp": 187,
       "source": "2025 Sportage X-Pro 2.5L"
     },
-    "samurai": {
+    "suzuki-samurai-1986": {
       "hp": 63,
       "source": "Suzuki Samurai 1.3L I4 (60-66 hp range)"
     },
-    "sidekick": {
+    "suzuki-sidekick-1989": {
       "hp": 80,
       "source": "Suzuki Sidekick 1.6L I4"
     },
-    "tracker": {
+    "geo-tracker-1989": {
       "hp": 80,
       "source": "Geo Tracker 1.6L I4 (same as Sidekick)"
     },
-    "grand_vitara": {
+    "suzuki-grand-vitara-2006": {
       "hp": 166,
       "source": "Suzuki Grand Vitara 2.4L I4"
     },
-    "rodeo": {
+    "isuzu-rodeo-1998": {
       "hp": 205,
       "source": "Isuzu Rodeo 3.2L V6"
     },
-    "amigo": {
+    "isuzu-amigo-1998": {
       "hp": 130,
       "source": "Isuzu Amigo 2.2L I4 (V6 option: 205 hp)"
     },
-    "rav4_hybrid": {
+    "toyota-rav4-hybrid-xse-2019": {
       "hp": 219,
       "source": "2025 RAV4 Hybrid 2.5L + electric motor"
     },
-    "highlander_hybrid": {
+    "toyota-highlander-hybrid-xle-2020": {
       "hp": 243,
       "source": "2025 Highlander Hybrid 2.5L + electric motors"
     },
-    "venza": {
+    "toyota-venza-xle-2021": {
       "hp": 219,
       "source": "2024 Venza 2.5L + electric motors"
     },
-    "crv_hybrid": {
+    "honda-cr-v-sport-touring-hybrid-2023": {
       "hp": 204,
       "source": "2025 CR-V Hybrid 2.0L + electric motor"
     },
-    "tucson_hybrid": {
+    "hyundai-tucson-hybrid-limited-2022": {
       "hp": 231,
       "source": "2025 Tucson Hybrid 1.6T + electric motor"
     },
-    "santa_fe_hybrid": {
+    "hyundai-santa-fe-hybrid-sel-2024": {
       "hp": 231,
       "source": "2025 Santa Fe Hybrid 1.6T + electric motor"
     },
-    "sportage_hybrid": {
+    "kia-sportage-hybrid-sx-prestige-2023": {
       "hp": 227,
       "source": "2025 Sportage Hybrid 1.6T + electric motor"
     },
-    "sorento_hybrid": {
+    "kia-sorento-hybrid-sx-prestige-2021": {
       "hp": 227,
       "source": "2025 Sorento Hybrid 1.6T + electric motor"
     },
-    "escape_hybrid": {
+    "ford-escape-hybrid-st-line-2020": {
       "hp": 192,
       "source": "2025 Escape Hybrid 2.5L + electric motor"
     },
-    "nx_350h": {
+    "lexus-nx-350h-luxury-2022": {
       "hp": 240,
       "source": "2025 NX 350h 2.5L + electric motors"
     },
-    "rx_350h": {
+    "lexus-rx-350h-luxury-2023": {
       "hp": 246,
       "source": "2025 RX 350h 2.5L + electric motors"
     },
-    "tucson_phev": {
+    "hyundai-tucson-limited-phev-2022": {
       "hp": 268,
       "source": "Hyundai USA"
     },
-    "sportage_phev": {
+    "kia-sportage-x-line-phev-2023": {
       "hp": 261,
       "source": "Kia Media"
     },
-    "escape_phev": {
+    "ford-escape-phev-2020": {
       "hp": 210,
       "source": "Ford Media"
     },
-    "nx_450h_plus": {
+    "lexus-nx-450h-plus-2022": {
       "hp": 302,
       "source": "Lexus USA"
     },
-    "rx_450h_plus": {
+    "lexus-rx-450h-plus-luxury-2023": {
       "hp": 304,
       "source": "Lexus USA"
     },
-    "land_cruiser_80": {
-      "hp": 212,
-      "source": "Toyota"
-    },
-    "land_cruiser_100": {
-      "hp": 235,
-      "source": "Toyota"
-    },
-    "cherokee_xj": {
+    "jeep-cherokee-1984": {
       "hp": 190,
       "source": "Jeep"
     },
-    "4runner_4th_gen_v8": {
+    "toyota-4runner-v8-limited-2003": {
       "hp": 260,
       "source": "Toyota"
     },
-    "discovery_3_lr3": {
+    "land-rover-discovery-lr3-hse-2005": {
       "hp": 300,
       "source": "Land Rover"
     },
-    "bronco_5th_gen": {
+    "ford-bronco-eddie-bauer-1992": {
       "hp": 205,
       "source": "Ford"
     },
-    "atlas_cross_sport_4motion": {
+    "volkswagen-atlas-cross-sport-se-4motion-2020": {
       "hp": 269,
       "source": "Volkswagen"
     },
-    "v60_cross_country": {
+    "volvo-v60-cross-country-b5-awd-2019": {
       "hp": 247,
       "source": "Volvo"
     },
-    "v90_cross_country": {
+    "volvo-v90-cross-country-b6-awd-2017": {
       "hp": 295,
       "source": "Volvo"
     },
-    "canyon_at4x": {
+    "gmc-canyon-at4x-2023": {
       "hp": 310,
       "source": "GMC"
     },
-    "sierra_at4x": {
+    "gmc-sierra-1500-at4x-2022": {
       "hp": 420,
       "source": "GMC"
     },
-    "ram_1500_ecodiesel": {
+    "ram-1500-laramie-ecodiesel-2020": {
       "hp": 260,
       "source": "Ram Trucks EcoDiesel specs"
     },
-    "silverado_duramax": {
+    "chevrolet-silverado-1500-lt-duramax-2019": {
       "hp": 305,
       "source": "Chevrolet Duramax specs"
     },
-    "gladiator_ecodiesel": {
+    "jeep-gladiator-rubicon-ecodiesel-2021": {
       "hp": 260,
       "source": "DieselResource.com Gladiator specs"
     },
-    "f150_powerstroke": {
+    "ford-f-150-lariat-power-stroke-2018": {
       "hp": 250,
       "source": "DieselResource.com Power Stroke specs"
     },
-    "f150_lightning": {
+    "ford-f-150-lightning-flash-2022": {
       "hp": 580,
       "source": "Ford.com"
     },
-    "f150_powerboost": {
+    "ford-f-150-king-ranch-powerboost-2021": {
       "hp": 430,
       "source": "Ford.com"
     },
-    "silverado_ev": {
+    "chevrolet-silverado-ev-rst-2024": {
       "hp": 760,
       "source": "Chevrolet.com"
     },
-    "hummer_ev_pickup": {
+    "gmc-hummer-ev-pickup-3x-2022": {
       "hp": 1000,
       "source": "GMC.com"
     },
-    "rav4_prime": {
+    "toyota-rav4-prime-xse-2021": {
       "hp": 302,
       "source": "Toyota.com"
     },
-    "r1t": {
+    "rivian-r1t-dual-motor-2025": {
       "hp": 533,
       "source": "Rivian.com"
     },
-    "tx_500h": {
+    "lexus-tx-500h-f-sport-2024": {
       "hp": 366,
       "source": "Lexus.com"
     },
-    "ev9": {
+    "kia-ev9-land-awd-2024": {
       "hp": 379,
       "source": "Kia Media"
     },
-    "wrangler_4xe_sahara": {
+    "jeep-wrangler-4xe-sahara-2021": {
       "hp": 375,
       "source": "Jeep.com"
     },
-    "xterra_pro4x": {
+    "nissan-xterra-pro-4x-2005": {
       "hp": 261,
       "source": "Nissan"
     },
-    "montero_sport_xls": {
-      "hp": 197,
-      "source": "Mitsubishi"
-    },
-    "wrangler_2dr_jl": {
+    "jeep-wrangler-2-door-rubicon-2018": {
       "hp": 285,
       "source": "Jeep"
     },
-    "wrangler_2dr_jk": {
+    "jeep-wrangler-2-door-rubicon-2007": {
       "hp": 285,
       "source": "Jeep"
     },
-    "wrangler_2dr_tj": {
+    "jeep-wrangler-2-door-rubicon-2003": {
       "hp": 190,
       "source": "Jeep"
     },
-    "bronco_2dr_badlands": {
+    "ford-bronco-2-door-badlands-2021": {
       "hp": 315,
       "source": "Ford"
     },
-    "maverick_tremor": {
+    "ford-maverick-tremor-2022": {
       "hp": 250,
       "source": "Web research Feb 2026 - Ford Maverick Tremor"
     },
-    "santa_cruz_sel": {
+    "hyundai-santa-cruz-sel-awd-2022": {
       "hp": 191,
       "source": "Web research Feb 2026 - Hyundai Santa Cruz SEL AWD"
     },
-    "frontier_pro4x": {
+    "nissan-frontier-pro-4x-2022": {
       "hp": 310,
       "source": "Web research Feb 2026 - Nissan Frontier PRO-4X"
     },
-    "tacoma_trd_or": {
+    "toyota-tacoma-trd-off-road-2024": {
       "hp": 278,
       "source": "Web research Feb 2026 - Toyota Tacoma TRD Off-Road"
     },
-    "ranger_xlt": {
+    "ford-ranger-xlt-4wd-2024": {
       "hp": 270,
       "source": "Web research Feb 2026 - Ford Ranger XLT 4WD"
     },
-    "ascent_onyx": {
+    "subaru-ascent-onyx-edition-2019": {
       "hp": 260,
       "source": "Web research Feb 2026 - Subaru Ascent Onyx Edition"
     },
-    "cx70_phev": {
+    "mazda-cx-70-phev-2025": {
       "hp": 323,
       "source": "Web research Feb 2026 - Mazda CX-70 PHEV"
     },
-    "tiguan_se_rline": {
+    "volkswagen-tiguan-se-r-line-4motion-2025": {
       "hp": 201,
       "source": "Web research Feb 2026 - Volkswagen Tiguan SE R-Line 4MOTION"
     },
-    "rdx_aspec": {
+    "acura-rdx-a-spec-sh-awd-2019": {
       "hp": 272,
       "source": "Web research Feb 2026 - Acura RDX A-Spec SH-AWD"
     },
-    "grenadier_trialmaster": {
+    "ineos-grenadier-trialmaster-2024": {
       "hp": 282,
       "source": "Web research Feb 2026 - Ineos Grenadier Trialmaster"
     },
-    "f150_xlt": {
+    "ford-f-150-xlt-supercrew-4wd-2021": {
       "hp": 325,
       "source": "2025 Ford F-150 XLT 2.7L EcoBoost V6"
     },
-    "tacoma_sr5": {
+    "toyota-tacoma-sr5-double-cab-4wd-2024": {
       "hp": 278,
       "source": "2025 Toyota Tacoma SR5 2.4L i-Force turbo"
     },
-    "silverado_trail_boss": {
+    "chevrolet-silverado-1500-lt-trail-boss-2019": {
       "hp": 355,
       "source": "2025 Chevrolet Silverado LT Trail Boss 5.3L EcoTec3 V8"
     },
-    "ram_1500_big_horn": {
+    "ram-1500-big-horn-crew-cab-4wd-2019": {
       "hp": 395,
       "source": "2025 Ram 1500 Big Horn 5.7L HEMI V8 with eTorque"
     },
-    "crv_exl": {
+    "honda-cr-v-ex-l-awd-2023": {
       "hp": 190,
       "source": "2025 Honda CR-V EX-L 1.5L turbo"
     },
-    "hrv_exl": {
+    "honda-hr-v-ex-l-awd-2023": {
       "hp": 158,
       "source": "2025 Honda HR-V EX-L 2.0L NA"
     },
-    "ridgeline_rtl": {
+    "honda-ridgeline-rtl-awd-2017": {
       "hp": 280,
       "source": "2025 Honda Ridgeline RTL 3.5L V6"
     },
-    "q5_quattro": {
+    "audi-q5-premium-plus-45-quattro-2025": {
       "hp": 268,
       "source": "2025 Audi Q5 45 TFSI 2.0T mild hybrid"
     },
-    "q7_quattro": {
+    "audi-q7-premium-plus-55-quattro-2017": {
       "hp": 335,
       "source": "2025 Audi Q7 55 TFSI 3.0T V6"
     },
-    "q8_etron": {
+    "audi-q8-e-tron-prestige-quattro-2019": {
       "hp": 402,
       "source": "2024 Audi Q8 e-tron Prestige tri-motor (boost mode)"
     },
-    "a6_allroad": {
+    "audi-a6-allroad-premium-plus-2020": {
       "hp": 335,
       "source": "2025 Audi A6 Allroad 3.0T V6"
     },
-    "crosstrek_premium": {
+    "subaru-crosstrek-premium-awd-2024": {
       "hp": 182,
       "source": "2025 Subaru Crosstrek Premium 2.5L boxer"
     },
-    "atlas_se": {
+    "volkswagen-atlas-se-4motion-2024": {
       "hp": 269,
       "source": "2025 VW Atlas SE 2.0T"
     },
-    "durango_rt": {
+    "dodge-durango-r-t-awd-2011": {
       "hp": 360,
       "source": "Dodge Durango R/T AWD manufacturer specs"
     },
-    "explorer_timberline": {
+    "ford-explorer-timberline-4wd-2022": {
       "hp": 300,
       "source": "Ford Explorer Timberline 4WD manufacturer specs"
     },
-    "armada_platinum": {
+    "nissan-armada-platinum-4wd-2025": {
       "hp": 425,
       "source": "Nissan Armada Platinum 4WD manufacturer specs"
     },
-    "rogue_sl": {
+    "nissan-rogue-sl-awd-2021": {
       "hp": 201,
       "source": "Nissan Rogue SL AWD manufacturer specs"
     },
-    "equinox_rs": {
+    "chevrolet-equinox-rs-awd-2025": {
       "hp": 175,
       "source": "Chevrolet Equinox RS AWD manufacturer specs"
     },
-    "cx5_turbo": {
+    "mazda-cx-5-2-5-turbo-premium-awd-2017": {
       "hp": 256,
       "source": "Mazda CX-5 2.5 Turbo Premium AWD manufacturer specs"
     },
-    "x3_xdrive": {
+    "bmw-x3-xdrive30i-2025": {
       "hp": 255,
       "source": "BMW X3 xDrive30i manufacturer specs"
     }

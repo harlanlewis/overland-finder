@@ -5,7 +5,7 @@
 ### 2026-02-21: Batch 11 Complete
 
 - **Added 7 vehicles**: Dodge Durango R/T AWD, Ford Explorer Timberline, Nissan Armada Platinum 4WD, Nissan Rogue SL AWD, Chevrolet Equinox RS AWD, Mazda CX-5 2.5 Turbo Premium AWD, BMW X3 xDrive30i
-- **Skipped**: Subaru Forester Wilderness (already exists as `forester_wilderness`)
+- **Skipped**: Subaru Forester Wilderness (already exists as `subaru-forester-wilderness-2022`)
 - **Vehicle count**: 208 → 215 (+7)
 - **New makes**: Dodge (first entry — R/T AWD, Hemi V8 3-row)
 - **New models**: Explorer (best-selling 3-row), Armada (Patrol-based BOF), Rogue (top-selling compact CUV), Equinox (redesigned compact), CX-5 (top-rated compact turbo), X3 (compact luxury)
@@ -262,7 +262,7 @@ All previously missing mainstream models resolved in Batch 11:
 - ~~Chevy Equinox~~ ✅ RS AWD added
 - ~~Mazda CX-5~~ ✅ 2.5 Turbo Premium added
 - ~~BMW X3~~ ✅ xDrive30i added
-- ~~Subaru Forester Wilderness~~ Already existed as `forester_wilderness`
+- ~~Subaru Forester Wilderness~~ Already existed as `subaru-forester-wilderness-2022`
 
 ### Generation gaps (model present, popular generation missing)
 
@@ -689,7 +689,7 @@ See the **Web Research Guide** in [README.md](README.md#web-research-guide-for-l
 - ✅ Chevrolet Equinox RS AWD (compact CUV, gas, $35K — redesigned 2025)
 - ✅ Mazda CX-5 2.5 Turbo Premium AWD (compact CUV, gas, $38K — final year of 2nd gen)
 - ✅ BMW X3 xDrive30i (compact CUV, gas, $50K — redesigned 2025 G45)
-- ⏭️ Subaru Forester Wilderness — SKIPPED: Already in database as `forester_wilderness`
+- ⏭️ Subaru Forester Wilderness — SKIPPED: Already in database as `subaru-forester-wilderness-2022`
 
 ### Batch 12: Heavy-duty trucks + overland vans (8 vehicles)
 

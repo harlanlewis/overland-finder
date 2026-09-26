@@ -8,6 +8,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { vehicleId } from '../src/vehicleId.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const vehiclesPath = join(__dirname, '..', 'src', 'vehicles.json');
@@ -40,6 +41,19 @@ vehicles.forEach(v => {
     errors.push(`Duplicate ID: ${v.id}`);
   }
   ids.add(v.id);
+});
+
+// 1b. Ids are derived from identity (make, model, trim, yearStart), so an id always
+// names its vehicle and a second entry for the same vehicle collides with the first.
+const normalize = s => String(s ?? '').toLowerCase().replace(/[^a-z0-9]/g, '');
+vehicles.forEach(v => {
+  const expected = vehicleId(v);
+  if (v.id !== expected) {
+    errors.push(`${v.id}: id must be derived from make, model, trim and yearStart as '${expected}' (rename its key in every scripts/*.json file too)`);
+  }
+  if (v.trim && normalize(v.trim) === normalize(v.generation)) {
+    errors.push(`${v.id}: trim '${v.trim}' repeats the generation; set trim to null`);
+  }
 });
 
 // 2. Check for overlapping same-trim entries (potential duplicates)

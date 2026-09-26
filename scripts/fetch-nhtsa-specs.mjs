@@ -21,76 +21,76 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 // Map our vehicle data to NHTSA search params
 const VEHICLE_NHTSA_MAP = {
   // Toyota
-  '4runner': { make: 'Toyota', model: '4Runner', year: 2025 },
-  '4runner_ltd': { make: 'Toyota', model: '4Runner', year: 2025 },
-  '4runner_trd_orp': { make: 'Toyota', model: '4Runner', year: 2025 },
-  'runner_sr5': { make: 'Toyota', model: '4Runner', year: 2025 },
-  'runner_venture': { make: 'Toyota', model: '4Runner', year: 2025 },
+  'toyota-4runner-trd-pro-2024': { make: 'Toyota', model: '4Runner', year: 2025 },
+  'toyota-4runner-limited-2024': { make: 'Toyota', model: '4Runner', year: 2025 },
+  'toyota-4runner-trd-off-road-premium-2024': { make: 'Toyota', model: '4Runner', year: 2025 },
+  'toyota-4runner-sr5-2024': { make: 'Toyota', model: '4Runner', year: 2025 },
+  'toyota-4runner-trailhunter-2024': { make: 'Toyota', model: '4Runner', year: 2025 },
   'land_cruiser': { make: 'Toyota', model: 'Land Cruiser', year: 2025 },
-  'sequoia': { make: 'Toyota', model: 'Sequoia', year: 2025 },
+  'toyota-sequoia-trd-pro-2023': { make: 'Toyota', model: 'Sequoia', year: 2025 },
 
   // Lexus
   'gx550': { make: 'Lexus', model: 'GX', year: 2025 },
   'gx550_ot': { make: 'Lexus', model: 'GX', year: 2025 },
-  'gx460': { make: 'Lexus', model: 'GX 460', year: 2023 },
+  'lexus-gx-460-2010': { make: 'Lexus', model: 'GX 460', year: 2023 },
   'lx600': { make: 'Lexus', model: 'LX', year: 2025 },
-  'lx570': { make: 'Lexus', model: 'LX 570', year: 2021 },
+  'lexus-lx-570-2008': { make: 'Lexus', model: 'LX 570', year: 2021 },
 
   // Jeep
-  'wrangler_jl': { make: 'Jeep', model: 'Wrangler', year: 2025 },
+  'jeep-wrangler-rubicon-2018': { make: 'Jeep', model: 'Wrangler', year: 2025 },
   'wrangler_4xe': { make: 'Jeep', model: 'Wrangler', year: 2025 },
-  'wrangler_jk': { make: 'Jeep', model: 'Wrangler', year: 2018 },
+  'jeep-wrangler-rubicon-2007': { make: 'Jeep', model: 'Wrangler', year: 2018 },
   'grand_cherokee': { make: 'Jeep', model: 'Grand Cherokee', year: 2025 },
   'grand_cherokee_4xe': { make: 'Jeep', model: 'Grand Cherokee', year: 2025 },
   'grand_wagoneer': { make: 'Jeep', model: 'Grand Wagoneer', year: 2025 },
-  'wagoneer': { make: 'Jeep', model: 'Wagoneer', year: 2025 },
+  'jeep-wagoneer-2022': { make: 'Jeep', model: 'Wagoneer', year: 2025 },
 
   // Ford
-  'bronco': { make: 'Ford', model: 'Bronco', year: 2025 },
-  'bronco_raptor': { make: 'Ford', model: 'Bronco', year: 2025 },
-  'expedition': { make: 'Ford', model: 'Expedition', year: 2025 },
+  'ford-bronco-badlands-2025': { make: 'Ford', model: 'Bronco', year: 2025 },
+  'ford-bronco-raptor-2021': { make: 'Ford', model: 'Bronco', year: 2025 },
+  'ford-expedition-timberline-2018': { make: 'Ford', model: 'Expedition', year: 2025 },
 
   // Chevrolet/GMC/Cadillac
   'tahoe': { make: 'Chevrolet', model: 'Tahoe', year: 2025 },
   'suburban': { make: 'Chevrolet', model: 'Suburban', year: 2025 },
   'yukon': { make: 'GMC', model: 'Yukon', year: 2025 },
-  'yukon_at4': { make: 'GMC', model: 'Yukon', year: 2025 },
-  'escalade': { make: 'Cadillac', model: 'Escalade', year: 2025 },
+  'gmc-yukon-at4-2021': { make: 'GMC', model: 'Yukon', year: 2025 },
+  'cadillac-escalade-sport-2021': { make: 'Cadillac', model: 'Escalade', year: 2025 },
 
   // Land Rover
-  'defender': { make: 'Land Rover', model: 'Defender', year: 2025 },
-  'defender_130': { make: 'Land Rover', model: 'Defender', year: 2025 },
+  'land-rover-defender-110-v8-2020': { make: 'Land Rover', model: 'Defender', year: 2025 },
+  'land-rover-defender-130-2020': { make: 'Land Rover', model: 'Defender', year: 2025 },
   'discovery': { make: 'Land Rover', model: 'Discovery', year: 2025 },
-  'rr_sport': { make: 'Land Rover', model: 'Range Rover Sport', year: 2025 },
-  'rr_full': { make: 'Land Rover', model: 'Range Rover', year: 2025 },
+  'land-rover-range-rover-sport-2023': { make: 'Land Rover', model: 'Range Rover Sport', year: 2025 },
+  'land-rover-range-rover-2022': { make: 'Land Rover', model: 'Range Rover', year: 2025 },
 
   // Mercedes
-  'gls': { make: 'Mercedes-Benz', model: 'GLS', year: 2025 },
-  'gle': { make: 'Mercedes-Benz', model: 'GLE', year: 2025 },
-  'gwagen': { make: 'Mercedes-Benz', model: 'G', year: 2025 },
+  'mercedes-benz-gls-580-2020': { make: 'Mercedes-Benz', model: 'GLS', year: 2025 },
+  'mercedes-benz-gle-450-2019': { make: 'Mercedes-Benz', model: 'GLE', year: 2025 },
+  'mercedes-benz-g-class-g-550-2019': { make: 'Mercedes-Benz', model: 'G', year: 2025 },
 
   // BMW
-  'x5': { make: 'BMW', model: 'X5', year: 2025 },
-  'x7': { make: 'BMW', model: 'X7', year: 2025 },
+  'bmw-x5-xdrive50e-2019': { make: 'BMW', model: 'X5', year: 2025 },
+  'bmw-x7-xdrive40i-2019': { make: 'BMW', model: 'X7', year: 2025 },
   'ix': { make: 'BMW', model: 'iX', year: 2025 },
 
   // Porsche
-  'cayenne': { make: 'Porsche', model: 'Cayenne', year: 2025 },
-  'cayenne_ehybrid': { make: 'Porsche', model: 'Cayenne', year: 2025 },
+  'porsche-cayenne-2019': { make: 'Porsche', model: 'Cayenne', year: 2025 },
+  'porsche-cayenne-e-hybrid-2019': { make: 'Porsche', model: 'Cayenne', year: 2025 },
 
   // Audi
-  'q8': { make: 'Audi', model: 'Q8', year: 2025 },
-  'sq8': { make: 'Audi', model: 'SQ8', year: 2025 },
-  'rsq8': { make: 'Audi', model: 'RS Q8', year: 2025 },
+  'audi-q8-2019': { make: 'Audi', model: 'Q8', year: 2025 },
+  'audi-sq8-2019': { make: 'Audi', model: 'SQ8', year: 2025 },
+  'audi-rs-q8-2020': { make: 'Audi', model: 'RS Q8', year: 2025 },
 
   // Rivian
-  'r1s': { make: 'Rivian', model: 'R1S', year: 2025 },
+  'rivian-r1s-adventure-2022': { make: 'Rivian', model: 'R1S', year: 2025 },
 
   // Volvo
   'xc90': { make: 'Volvo', model: 'XC90', year: 2025 },
 
   // Genesis
-  'gv80': { make: 'Genesis', model: 'GV80', year: 2025 },
+  'genesis-gv80-2021': { make: 'Genesis', model: 'GV80', year: 2025 },
 
   // Nissan
   'pathfinder': { make: 'Nissan', model: 'Pathfinder', year: 2025 },
@@ -99,11 +99,11 @@ const VEHICLE_NHTSA_MAP = {
   'outlander': { make: 'Mitsubishi', model: 'Outlander', year: 2025 },
 
   // Tesla
-  'model_x': { make: 'Tesla', model: 'Model X', year: 2025 },
-  'cybertruck': { make: 'Tesla', model: 'Cybertruck', year: 2025 },
+  'tesla-model-x-2016': { make: 'Tesla', model: 'Model X', year: 2025 },
+  'tesla-cybertruck-awd-2024': { make: 'Tesla', model: 'Cybertruck', year: 2025 },
 
   // GMC Hummer
-  'hummer_ev': { make: 'GMC', model: 'Hummer EV', year: 2025 },
+  'gmc-hummer-ev-suv-2024': { make: 'GMC', model: 'Hummer EV', year: 2025 },
 };
 
 /**

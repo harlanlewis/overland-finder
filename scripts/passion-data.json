@@ -61,7 +61,7 @@
       }
     }
   },
-  "4runner": {
+  "toyota-4runner-trd-pro-2024": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -76,7 +76,7 @@
     },
     "note": "The enthusiast SUV sweet spot — accessible enough to be popular, capable enough to earn genuine trail cred, and retains value beyond its specs"
   },
-  "4runner_ltd": {
+  "toyota-4runner-limited-2024": {
     "community": 2,
     "aftermarket": 1,
     "heritage": 1.5,
@@ -91,7 +91,7 @@
     },
     "note": "Comfort trim of an enthusiast vehicle — benefits from 4Runner community halo but Limited buyers are less tribal"
   },
-  "4runner_trd_orp": {
+  "toyota-4runner-trd-off-road-premium-2024": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -106,7 +106,7 @@
     },
     "note": "Sweet spot 6th gen — serious enough to attract enthusiasts, affordable enough for broad appeal"
   },
-  "runner_sr5": {
+  "toyota-4runner-sr5-2024": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1.5,
@@ -121,7 +121,7 @@
     },
     "note": "Entry-level 4Runner — benefits from the brand but SR5 buyers are more practical than passionate"
   },
-  "runner_venture": {
+  "toyota-4runner-trailhunter-2024": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -136,7 +136,7 @@
     },
     "note": "Toyota's factory overlander — the most enthusiast-targeted 4Runner trim, commands premiums and attracts dedicated community"
   },
-  "4runner_5g_trd_pro": {
+  "toyota-4runner-trd-pro-2015": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -151,7 +151,7 @@
     },
     "note": "The definitive enthusiast 4Runner — proven platform with 14 years of aftermarket depth and strong resale"
   },
-  "4runner_5g_trd_or": {
+  "toyota-4runner-trd-off-road-2010": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -166,7 +166,7 @@
     },
     "note": "The smart enthusiast's 4Runner — same capability as TRD Pro for less money, massive aftermarket support"
   },
-  "4runner_5g_sr5": {
+  "toyota-4runner-sr5-2010": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1.5,
@@ -181,7 +181,7 @@
     },
     "note": "Budget 4Runner — benefits from nameplate resale halo but SR5 buyers are practical, not passionate"
   },
-  "gx": {
+  "lexus-gx-550-overtrail-2024": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -196,7 +196,7 @@
     },
     "note": "Inherits GXOR community goodwill; Overtrail trim is the overland variant; GXOR tribe actively adopting the new platform gives it stronger identity than most new vehicles"
   },
-  "gx_prem": {
+  "lexus-gx-550-premium-plus-2024": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -211,7 +211,7 @@
     },
     "note": "Street-oriented luxury trim of new GX; benefits slightly from GX/GXOR name recognition but is primarily a luxury purchase, not an enthusiast one"
   },
-  "gx460": {
+  "lexus-gx-460-2010": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -226,7 +226,7 @@
     },
     "note": "The GXOR community darling -- genuine overland credibility as an affordable Land Cruiser alternative; strongest passion vehicle in the Lexus lineup"
   },
-  "gx470": {
+  "lexus-gx-470-2003": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -241,7 +241,7 @@
     },
     "note": "The original GXOR budget-overland platform; community and identity match the GX460, and it trails the 460 only on resale"
   },
-  "lc": {
+  "toyota-land-cruiser-2024": {
     "community": 2,
     "aftermarket": 1,
     "heritage": 2,
@@ -256,7 +256,7 @@
     },
     "note": "Heritage nameplate reborn — massive name recognition but divisive reception among LC purists; community and aftermarket still forming"
   },
-  "lc200": {
+  "toyota-land-cruiser-2008": {
     "community": 2.5,
     "aftermarket": 1.5,
     "heritage": 2,
@@ -271,7 +271,7 @@
     },
     "note": "Per-capita enthusiasm may be the highest of any vehicle — tiny US sales volume but massive, deeply dedicated community"
   },
-  "lc100": {
+  "toyota-land-cruiser-1998": {
     "community": 2.5,
     "aftermarket": 1.5,
     "heritage": 2,
@@ -286,7 +286,7 @@
     },
     "note": "The accessible classic Land Cruiser — ih8mud community is legendary, prices rising steadily"
   },
-  "lc80": {
+  "toyota-land-cruiser-1990": {
     "community": 2.5,
     "aftermarket": 1.5,
     "heritage": 2,
@@ -301,7 +301,7 @@
     },
     "note": "The cult classic Land Cruiser — solid axles, triple lockers, and prices that only go up. Community devotion is legendary."
   },
-  "lx570": {
+  "lexus-lx-570-2008": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1,
@@ -316,7 +316,7 @@
     },
     "note": "The luxury Land Cruiser -- genuine heritage and capability, strong resale, but Lexus badge means less tribal identity than the Toyota counterpart"
   },
-  "sequoia": {
+  "toyota-sequoia-trd-pro-2023": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -331,7 +331,7 @@
     },
     "note": "TRD Pro trim tries to build enthusiasm but Sequoia remains a family hauler first; benefits from Toyota quality reputation not enthusiast culture"
   },
-  "sequoia_ltd": {
+  "toyota-sequoia-limited-2023": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -346,7 +346,7 @@
     },
     "note": "Luxury family hauler — essentially zero enthusiast culture, pure transportation appliance with Toyota quality"
   },
-  "sequoia_2g": {
+  "toyota-sequoia-2008": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -361,7 +361,7 @@
     },
     "note": "Budget full-size Toyota — small dedicated following appreciates V8 reliability and size, mild enthusiasm"
   },
-  "lx": {
+  "lexus-lx-600-2022": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -376,7 +376,7 @@
     },
     "note": "Current LX on LC300 platform; heritage connection to Land Cruiser is real but US buyers can't buy the LC300, reducing community cross-pollination vs LX570/LC200 era"
   },
-  "lx700h": {
+  "lexus-lx-700h-2025": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -391,7 +391,7 @@
     },
     "note": "Very new hybrid LX variant; inherits some LX/LC heritage scoring but everything else is nascent"
   },
-  "lx700h_ot": {
+  "lexus-lx-700h-overtrail-2025": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -406,7 +406,7 @@
     },
     "note": "Overtrail trim adds off-road intent to the LX700h; slightly more enthusiast-oriented but still a very new, very expensive luxury vehicle"
   },
-  "fj_cruiser": {
+  "toyota-fj-cruiser-2007": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -421,7 +421,7 @@
     },
     "note": "Discontinued cult classic with appreciating prices and devoted community — one of the strongest passion vehicles per unit sold"
   },
-  "defender": {
+  "land-rover-defender-110-v8-2020": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -436,7 +436,7 @@
     },
     "note": "Halo variant of the new Defender; V8 commands genuine enthusiasm and strong resale; benefits from legendary nameplate while building its own following"
   },
-  "defender_s": {
+  "land-rover-defender-110-s-2020": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -451,7 +451,7 @@
     },
     "note": "Entry-level Defender 110; same great platform and community but attracts more practical buyers; lower identity and resale scores reflect trim positioning"
   },
-  "defender_130": {
+  "land-rover-defender-130-2020": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1.5,
@@ -466,7 +466,7 @@
     },
     "note": "The practical family variant of the Defender lineup; benefits from the nameplate but diluted enthusiasm from utility-first buyer profile"
   },
-  "defender_classic": {
+  "land-rover-defender-classic-1983": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 2,
@@ -481,7 +481,7 @@
     },
     "note": "Global icon where used prices have appreciated rather than depreciated — scored slightly below Wrangler on community due to smaller US-specific enthusiast base"
   },
-  "disco_lr4": {
+  "land-rover-lr4-2010": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -496,7 +496,7 @@
     },
     "note": "The overlooked overlander -- genuinely capable and increasingly appreciated by budget-minded enthusiasts who accept the maintenance commitment"
   },
-  "disco_5": {
+  "land-rover-discovery-2017": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -511,7 +511,7 @@
     },
     "note": "The controversial Discovery redesign that traded rugged character for luxury refinement -- lost the enthusiast community the LR4 cultivated"
   },
-  "rr_sport": {
+  "land-rover-range-rover-sport-2023": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -526,7 +526,7 @@
     },
     "note": "Luxury performance SUV with minimal overlanding relevance; Range Rover brand recognition provides some heritage and identity but no trail culture"
   },
-  "rr_full": {
+  "land-rover-range-rover-2022": {
     "community": 1,
     "aftermarket": 0,
     "heritage": 1.5,
@@ -541,7 +541,7 @@
     },
     "note": "The definitive luxury SUV with genuine cultural icon status and strong brand identity -- but heritage and identity are luxury-prestige axes, not overlanding/trail culture"
   },
-  "gc4xe": {
+  "jeep-grand-cherokee-4xe-summit-2022": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -556,22 +556,22 @@
     },
     "note": "Luxury PHEV Grand Cherokee — Jeep heritage and brand halo but Summit trim buyers are comfort-first, not trail-first"
   },
-  "gc4xe_ol": {
+  "jeep-grand-cherokee-4xe-overland-2022": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1,
     "identity": 0.5,
     "resale_premium": 0.5,
     "sources": {
-      "community": "Same GC community as gc4xe (r/GrandCherokee ~25K, JeepGarage.org); Overland trim discussions overlap with Summit; no Overland-specific community differentiation",
+      "community": "Same GC community as jeep-grand-cherokee-4xe-summit-2022 (r/GrandCherokee ~25K, JeepGarage.org); Overland trim discussions overlap with Summit; no Overland-specific community differentiation",
       "aftermarket": "Same limited 4xe aftermarket as Summit; Overland trim does not change aftermarket engagement; some Mopar accessories and lift kits available",
       "heritage": "Same Grand Cherokee 1993+ heritage; Overland trim name carries some off-road cache but 4xe powertrain focuses buyers on efficiency",
       "identity": "Overland 4xe buyers are value-oriented within the GC lineup; slightly more trail-curious than Summit buyers but still primarily comfort/efficiency motivated; minimal tribal identity",
-      "resale": "Similar to gc4xe Summit — tax credit influence, normalizing values; Overland is less expensive so slightly different buyer profile but similar resale dynamics"
+      "resale": "Similar to jeep-grand-cherokee-4xe-summit-2022 Summit — tax credit influence, normalizing values; Overland is less expensive so slightly different buyer profile but similar resale dynamics"
     },
     "note": "More affordable 4xe Grand Cherokee — same scoring as Summit since community/aftermarket/identity differences are negligible between trims"
   },
-  "gc_trailhawk": {
+  "jeep-grand-cherokee-4xe-trailhawk-2022": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1,
@@ -586,7 +586,7 @@
     },
     "note": "Benefits from Jeep brand halo but community/identity are distinctly weaker than Wrangler; more premium buyer than enthusiast buyer"
   },
-  "gc_wk2": {
+  "jeep-grand-cherokee-2011": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1,
@@ -601,14 +601,14 @@
     },
     "note": "The long-running WK2 built a solid community and aftermarket over its decade of production; best value Grand Cherokee on the used market"
   },
-  "gc_wk2_th": {
+  "jeep-grand-cherokee-trailhawk-2017": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1,
     "identity": 1,
     "resale_premium": 0.5,
     "sources": {
-      "community": "Same WK2 community as gc_wk2; Trailhawk-specific threads on JeepGarage and GrandCherokeeForums; Trailhawk buyers are more likely to engage in off-road discussions; benefits from r/GrandCherokee and broader Jeep ecosystem",
+      "community": "Same WK2 community as jeep-grand-cherokee-2011; Trailhawk-specific threads on JeepGarage and GrandCherokeeForums; Trailhawk buyers are more likely to engage in off-road discussions; benefits from r/GrandCherokee and broader Jeep ecosystem",
       "aftermarket": "Same WK2 aftermarket with Trailhawk-specific lift considerations (air suspension equipped); Rocky Road, Rough Country, Iron Rock support; Trailhawk-specific skid plates and bumpers exist; decent depth",
       "heritage": "Same GC heritage; Trailhawk badge added 2017 — Trail Rated certification with meaningful off-road hardware (Quadra-Drive II, electronic limited-slip diff, air suspension); represents GC's trail capability pinnacle for WK2",
       "identity": "WK2 Trailhawk owners are notably more enthusiastic than base GC owners; trail runs, off-road meetups; the Trailhawk badge signals 'I actually use this off-road'; visible owner engagement above standard GC",
@@ -616,7 +616,7 @@
     },
     "note": "The trail-focused WK2 — scores higher on identity than base GC because Trailhawk buyers are genuinely more engaged off-road enthusiasts"
   },
-  "wagoneer": {
+  "jeep-wagoneer-2022": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 1,
@@ -631,7 +631,7 @@
     },
     "note": "Heritage nameplate on a new luxury platform — the classic Wagoneer's cultural capital does not transfer to the modern buyer's identity or community"
   },
-  "gwagoneer": {
+  "jeep-grand-wagoneer-2022": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 1,
@@ -646,14 +646,14 @@
     },
     "note": "Flagship luxury Jeep — iconic nameplate but modern buyer profile is luxury-focused with no enthusiast culture; scores match standard Wagoneer"
   },
-  "wrangler_rubicon": {
+  "jeep-wrangler-4xe-rubicon-2021": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 2,
     "identity": 1.5,
     "resale_premium": 0,
     "sources": {
-      "community": "Inside the wider Wrangler community (JLWranglerForums.com has 4xe sections; dedicated 4xeforums.com), but reception of the PHEV is mixed and 4xe threads lean toward charging, range and resale; equal to wrangler_4xe_sahara",
+      "community": "Inside the wider Wrangler community (JLWranglerForums.com has 4xe sections; dedicated 4xeforums.com), but reception of the PHEV is mixed and 4xe threads lean toward charging, range and resale; equal to jeep-wrangler-4xe-sahara-2021",
       "aftermarket": "JL aftermarket mostly fits, though some parts do not (non-4xe skids foul the 4xe's extra electrical skids); 4xe-specific parts from Metalcloak (UnderCloak 4xe), Rock Hard 4x4 (4xe bellypan), Rough Country (Rubicon 4xe skids) and Artec; Rubicon buyers build for the trail more than Sahara buyers",
       "heritage": "Nameplate heritage (Willys MB 1941, CJ lineage, Wrangler since 1986); heritage comes from the nameplate, not the powertrain",
       "identity": "Full Jeep Wave and ducking culture applies; owners split between the Jeep lifestyle and PHEV or tax-credit motives; no Rubicon-specific identity evidence that justifies differing from the Sahara",
@@ -661,7 +661,7 @@
     },
     "note": "The plug-in hybrid 4xe Rubicon: full Jeep heritage and trail hardware, but none of the gas Rubicon's resale premium"
   },
-  "wrangler_jl": {
+  "jeep-wrangler-rubicon-2018": {
     "community": 2.5,
     "aftermarket": 2,
     "heritage": 2,
@@ -676,7 +676,7 @@
     },
     "note": "Gas 4-door JL Rubicon: the maximum passion stack, except that resale is strong rather than extreme after the post-2022 market softening"
   },
-  "wrangler_jk": {
+  "jeep-wrangler-rubicon-2007": {
     "community": 2.5,
     "aftermarket": 2,
     "heritage": 2,
@@ -691,7 +691,7 @@
     },
     "note": "The JK built the modern Wrangler community and has the most mature aftermarket; used values remain strong despite age"
   },
-  "wrangler_tj": {
+  "jeep-wrangler-1997": {
     "community": 2.5,
     "aftermarket": 1.5,
     "heritage": 2,
@@ -706,7 +706,7 @@
     },
     "note": "The purist's Wrangler — last 4.0L I6, last simple analog Jeep; owners are fiercely loyal and aftermarket remains strong for a 20+ year old platform"
   },
-  "bronco": {
+  "ford-bronco-badlands-2025": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -721,7 +721,7 @@
     },
     "note": "Heritage revival with enormous momentum — community and identity scores will likely increase as the platform matures over the next 5 years"
   },
-  "bronco_ob": {
+  "ford-bronco-outer-banks-2021": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1.5,
@@ -736,7 +736,7 @@
     },
     "note": "Street-oriented Bronco trim; benefits from Bronco community and heritage halo but buyers are more casual than off-road trims"
   },
-  "bronco_raptor": {
+  "ford-bronco-raptor-2021": {
     "community": 2,
     "aftermarket": 1,
     "heritage": 1.5,
@@ -751,7 +751,7 @@
     },
     "note": "Desert halo vehicle combining Bronco heritage with Raptor performance DNA; limited production drives both community intensity and resale premium"
   },
-  "bronco_21_24": {
+  "ford-bronco-badlands-2021": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -766,7 +766,7 @@
     },
     "note": "Mirrors the base bronco entry; the 6th-gen Bronco as a platform with enormous momentum and growing community"
   },
-  "expedition": {
+  "ford-expedition-timberline-2018": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -781,7 +781,7 @@
     },
     "note": "Full-size family SUV that replaced the Bronco but inherited none of its passion; purely practical purchase"
   },
-  "expedition_4g": {
+  "ford-expedition-2018": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -796,7 +796,7 @@
     },
     "note": "Non-Timberline 2018-2024 Expedition: a capable family hauler with a thin lift-kit aftermarket and no passion following; matches the Timberline sibling"
   },
-  "excursion": {
+  "ford-excursion-2000": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1,
@@ -811,7 +811,7 @@
     },
     "note": "Discontinued cult classic; 7.3L diesel versions are the prize; small but intensely dedicated community with appreciating values on a 20+ year old vehicle"
   },
-  "tahoe_z71": {
+  "chevrolet-tahoe-z71-2025": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -826,7 +826,7 @@
     },
     "note": "Respected workhorse; community is maintenance/towing-oriented rather than enthusiast; Z71 is the most popular trim but adds no real passion culture"
   },
-  "tahoe_5g": {
+  "chevrolet-tahoe-z71-2021": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -839,9 +839,9 @@
       "identity": "Owners are practical towing/family buyers; no wave or tribal identity; Z71 adds mild off-road aspiration but most buyers prioritize space and towing; utility appreciation not passion",
       "resale": "Full-size SUVs hold value predictably based on utility; no irrational premium; competitive segment pricing with Yukon/Expedition"
     },
-    "note": "5th gen (2021+) is the current T1 platform; essentially identical scoring to the already-scored tahoe_z71"
+    "note": "5th gen (2021+) is the current T1 platform; essentially identical scoring to the already-scored chevrolet-tahoe-z71-2025"
   },
-  "tahoe_4g": {
+  "chevrolet-tahoe-z71-2015": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -856,7 +856,7 @@
     },
     "note": "4th gen Tahoe Z71 is functionally equivalent to 5th gen in passion terms; practical family hauler"
   },
-  "yukon_at4": {
+  "gmc-yukon-at4-2021": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -871,7 +871,7 @@
     },
     "note": "Premium Tahoe sibling; AT4 adds off-road aspiration but Yukon buyers are luxury-oriented not enthusiasts"
   },
-  "escalade_v": {
+  "cadillac-escalade-v-2021": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1.5,
@@ -886,7 +886,7 @@
     },
     "note": "The performance Escalade — combines cultural icon status with supercharged V8 enthusiasm and limited production scarcity"
   },
-  "gle": {
+  "mercedes-benz-gle-450-2019": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -901,7 +901,7 @@
     },
     "note": "Capable luxury SUV but quintessential luxury appliance — no passion culture to speak of"
   },
-  "gle350de": {
+  "mercedes-benz-gle-350de-2019": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -916,7 +916,7 @@
     },
     "note": "European-market diesel PHEV variant with no enthusiast following; scores at minimum across all factors"
   },
-  "gls": {
+  "mercedes-benz-gls-580-2020": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -931,7 +931,7 @@
     },
     "note": "Mercedes full-size luxury SUV — comfortable and capable but generates zero passion culture"
   },
-  "gwagen": {
+  "mercedes-benz-g-class-g-550-2019": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 2,
@@ -946,7 +946,7 @@
     },
     "note": "The luxury exception — cultural cachet and military heritage create genuine passion despite being a status vehicle more than a trail vehicle"
   },
-  "gwagen_amg": {
+  "mercedes-benz-g-class-amg-g-63-2019": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 2,
@@ -961,7 +961,7 @@
     },
     "note": "Peak G-Wagon enthusiasm — the G63 AMG is the aspirational version and commands the strongest resale and identity"
   },
-  "gwagen_w463": {
+  "mercedes-benz-g-class-1990": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 2,
@@ -976,7 +976,7 @@
     },
     "note": "The classic civilian G-Wagen — preferred by overlanders and purists over the newer, more luxurious W463A; slightly lower resale premium than current gen"
   },
-  "x5": {
+  "bmw-x5-xdrive50e-2019": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -991,7 +991,7 @@
     },
     "note": "The X5 has genuine heritage as the first luxury sport SUV and benefits from BMW's strong enthusiast culture, but is ultimately a practical choice not a passion vehicle"
   },
-  "x7": {
+  "bmw-x7-xdrive40i-2019": {
     "community": 1,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -1006,7 +1006,7 @@
     },
     "note": "BMW's full-size luxury SUV — too new and too mainstream to generate passion"
   },
-  "xm": {
+  "bmw-xm-2023": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -1021,7 +1021,7 @@
     },
     "note": "Controversial and commercially underperforming; generates discussion but not enthusiasm; one of BMW's weakest passion vehicles"
   },
-  "cayenne": {
+  "porsche-cayenne-2019": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -1036,7 +1036,7 @@
     },
     "note": "Benefits significantly from Porsche brand passion; Cayenne community is real but secondary to 911/sports car enthusiasm within the Porsche world"
   },
-  "cayenne_ehybrid": {
+  "porsche-cayenne-e-hybrid-2019": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -1051,7 +1051,7 @@
     },
     "note": "Entry-level Cayenne PHEV — benefits from Porsche brand but lower enthusiasm than performance variants"
   },
-  "cayenne_turbo": {
+  "porsche-cayenne-turbo-e-hybrid-2019": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1,
@@ -1066,7 +1066,7 @@
     },
     "note": "The enthusiast's Cayenne — performance focus elevates it above the base model in community engagement and aftermarket"
   },
-  "cayenne_coupe": {
+  "porsche-cayenne-coupe-2019": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -1081,7 +1081,7 @@
     },
     "note": "Style variant of the Cayenne — shares most of its enthusiasm profile with the standard model but with slightly less community depth"
   },
-  "q8": {
+  "audi-q8-2019": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -1096,7 +1096,7 @@
     },
     "note": "Audi's flagship coupe-SUV — stylish but passion-free"
   },
-  "sq8": {
+  "audi-sq8-2019": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -1111,7 +1111,7 @@
     },
     "note": "Performance variant of Q8 — gets a nod from Audi enthusiasts but generates no standalone passion"
   },
-  "rsq8": {
+  "audi-rs-q8-2020": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1126,7 +1126,7 @@
     },
     "note": "The Audi exception — RS badge, Nurburgring record, and super-SUV status give it genuine if modest enthusiast appeal"
   },
-  "r1s": {
+  "rivian-r1s-adventure-2022": {
     "community": 2,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -1141,7 +1141,7 @@
     },
     "note": "Remarkable community growth for a brand with only a few years of deliveries; community score reflects the outsized enthusiasm relative to the brand's age"
   },
-  "r1s_perf": {
+  "rivian-r1s-dual-max-2022": {
     "community": 2,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -1156,7 +1156,7 @@
     },
     "note": "Performance halo variant scores slightly higher on identity and resale due to exclusivity within the Rivian community"
   },
-  "hummer_ev": {
+  "gmc-hummer-ev-suv-2024": {
     "community": 1,
     "aftermarket": 0,
     "heritage": 1.5,
@@ -1171,7 +1171,7 @@
     },
     "note": "Heritage from the Hummer name is genuine; community growing but constrained by low production volume and high price point"
   },
-  "cybertruck": {
+  "tesla-cybertruck-awd-2024": {
     "community": 2,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -1186,7 +1186,7 @@
     },
     "note": "Massive cultural impact and community size but very low on heritage and aftermarket; identity score reflects the vehicle's outsized visual and cultural presence"
   },
-  "cybertruck_beast": {
+  "tesla-cybertruck-cyberbeast-2024": {
     "community": 2,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -1201,7 +1201,7 @@
     },
     "note": "Cyberbeast is the performance halo of an already polarizing vehicle; scores match standard Cybertruck as the community and identity are shared"
   },
-  "model_x": {
+  "tesla-model-x-2016": {
     "community": 1,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -1216,7 +1216,7 @@
     },
     "note": "Benefits from Tesla brand recognition but lacks any independent enthusiast culture; falcon wing doors are distinctive but don't create a passionate community"
   },
-  "ix_xdrive50": {
+  "bmw-ix-xdrive50-2022": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -1231,7 +1231,7 @@
     },
     "note": "BMW's electric SUV — competent but generates no passion; EV luxury segment broadly lacks enthusiast culture"
   },
-  "eqs_suv": {
+  "mercedes-benz-eqs-suv-2023": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -1246,7 +1246,7 @@
     },
     "note": "New EV luxury SUV still establishing market position; minimal enthusiasm in any dimension"
   },
-  "g580_eq": {
+  "mercedes-benz-g-class-g-580-eq-2024": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 1.5,
@@ -1261,7 +1261,7 @@
     },
     "note": "Inherits G-Class heritage but is too new to have built its own community or aftermarket; scores conservatively per methodology"
   },
-  "montero": {
+  "mitsubishi-outlander-phev-2022": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -1276,7 +1276,7 @@
     },
     "note": "This id is the 2022+ Outlander PHEV, not the classic Montero/Pajero; a mainstream PHEV crossover scored like RAV4 Prime and Tucson PHEV"
   },
-  "montero_sport": {
+  "mitsubishi-montero-sport-1997": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1291,7 +1291,7 @@
     },
     "note": "The Montero Sport is a more utilitarian vehicle that does not carry the full Montero's Dakar heritage or community devotion"
   },
-  "montero_gen3": {
+  "mitsubishi-montero-2001": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1,
@@ -1306,7 +1306,7 @@
     },
     "note": "Unibody, four-wheel-independent final US Montero: Dakar pedigree and a workable Australian-sourced aftermarket, but a small US following"
   },
-  "xc90_recharge": {
+  "volvo-xc90-recharge-2015": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -1321,7 +1321,7 @@
     },
     "note": "Competent luxury hybrid SUV benefiting from Volvo brand loyalty but no independent enthusiast culture"
   },
-  "ex90": {
+  "volvo-ex90-2024": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -1336,7 +1336,7 @@
     },
     "note": "Brand new Volvo EV SUV; too early for any passion metrics to have developed; scores reflect Volvo brand floor"
   },
-  "gv80": {
+  "genesis-gv80-2021": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -1351,7 +1351,7 @@
     },
     "note": "Well-reviewed luxury SUV from a brand too young for passion culture; the definition of a rational purchase"
   },
-  "xterra": {
+  "nissan-xterra-2005": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1,
@@ -1366,7 +1366,7 @@
     },
     "note": "Discontinued cult classic — the affordable off-roader that won't die; community punches well above its weight for a dead Nissan nameplate"
   },
-  "pathfinder_r51": {
+  "nissan-pathfinder-2005": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1381,7 +1381,7 @@
     },
     "note": "The 'last real Pathfinder' — small but genuine following among body-on-frame loyalists; shares platform DNA with Xterra/Frontier"
   },
-  "patrol_y61": {
+  "nissan-patrol-1997": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1,
@@ -1396,7 +1396,7 @@
     },
     "note": "Global off-road icon with heritage rivaling Land Cruiser — but scored for US market where it's a niche import, not a mainstream presence"
   },
-  "4wd_suburban": {
+  "chevrolet-suburban-4wd-2015": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -1411,7 +1411,7 @@
     },
     "note": "Suburban has genuinely impressive heritage (longest-running nameplate in auto history) but owners treat it as pure utility; heritage score is earned"
   },
-  "hummer_h2": {
+  "hummer-h2-2003": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1,
@@ -1426,7 +1426,7 @@
     },
     "note": "Polarizing cultural icon that generates strong reactions both positive and negative; community is dedicated but smaller than peak years; heritage is real but complicated"
   },
-  "trooper": {
+  "isuzu-trooper-1992": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1441,7 +1441,7 @@
     },
     "note": "PlanetIsuzoo.com gives the Trooper a community infrastructure that exceeds what its sales volume would predict; loyal owners who refuse to sell"
   },
-  "runner_sport": {
+  "toyota-4runner-trd-sport-2024": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1.5,
@@ -1456,7 +1456,7 @@
     },
     "note": "Street-focused 4Runner — benefits from nameplate but Sport buyers are practical drivers, not trail enthusiasts"
   },
-  "navigator": {
+  "lincoln-navigator-reserve-2018": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -1471,7 +1471,7 @@
     },
     "note": "Lincoln's full-size luxury SUV — has some cultural presence and heritage but consistently in Escalade's shadow"
   },
-  "aviator": {
+  "lincoln-aviator-black-label-2020": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -1486,7 +1486,7 @@
     },
     "note": "Lincoln's midsize luxury SUV — well-reviewed but culturally invisible"
   },
-  "qx80": {
+  "infiniti-qx80-2024": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -1501,7 +1501,7 @@
     },
     "note": "Shares Patrol platform DNA but QX80 identity is purely luxury appliance; indirect heritage doesn't translate to passion"
   },
-  "mdx_type_s": {
+  "acura-mdx-type-s-2022": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -1516,7 +1516,7 @@
     },
     "note": "Acura's flagship three-row — respected and reliable but generates minimal passion even with the Type S badge"
   },
-  "telluride_xpro": {
+  "kia-telluride-x-pro-2020": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -1531,7 +1531,7 @@
     },
     "note": "The Kia that made people enthusiastic about a Kia — genuine but modest passion driven by value proposition and design"
   },
-  "palisade": {
+  "hyundai-palisade-calligraphy-2020": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -1546,7 +1546,7 @@
     },
     "note": "Surprisingly enthusiastic ownership satisfaction for a Hyundai — but enthusiasm is about value, not passion culture"
   },
-  "pilot_trailsport": {
+  "honda-pilot-trailsport-2023": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1561,7 +1561,7 @@
     },
     "note": "Honda reliability meets mild trail aspiration — TrailSport is genuine but community is growing from a mainstream family base"
   },
-  "passport_trailsport": {
+  "honda-passport-trailsport-2019": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1576,7 +1576,7 @@
     },
     "note": "The more adventure-oriented Honda SUV — TrailSport community growing but still early"
   },
-  "cx90_phev": {
+  "mazda-cx-90-phev-2024": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -1591,7 +1591,7 @@
     },
     "note": "Mazda's premium three-row — appreciated for driving dynamics and interior quality but not a passion vehicle"
   },
-  "santa_fe_xrt": {
+  "hyundai-santa-fe-xrt-2024": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -1606,7 +1606,7 @@
     },
     "note": "Competent family CUV with cosmetic XRT package — no passion culture"
   },
-  "outback_wilderness": {
+  "subaru-outback-wilderness-2022": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -1621,7 +1621,7 @@
     },
     "note": "Wilderness trim adds real enthusiasm over base Outback; LP Aventure ecosystem is a genuine differentiator; still more practical choice than passion vehicle"
   },
-  "forester_wilderness": {
+  "subaru-forester-wilderness-2022": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -1636,7 +1636,7 @@
     },
     "note": "The serious off-road Subaru — LP Aventure ecosystem and r/battlewagon culture give it genuine enthusiast credentials beyond typical CUV"
   },
-  "sorento_phev": {
+  "kia-sorento-sx-prestige-phev-2021": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -1651,7 +1651,7 @@
     },
     "note": "Family three-row PHEV — purchased for practicality and tax credits, not passion"
   },
-  "gladiator_rubicon": {
+  "jeep-gladiator-rubicon-2020": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -1666,7 +1666,7 @@
     },
     "note": "Wrangler-based truck with growing community; benefits from Jeep ecosystem but distinct from Wrangler identity; Rubicon trim is the enthusiast's choice"
   },
-  "wrangler_sahara": {
+  "jeep-wrangler-sahara-2018": {
     "community": 2.5,
     "aftermarket": 1.5,
     "heritage": 2,
@@ -1681,7 +1681,7 @@
     },
     "note": "The street-oriented Wrangler: benefits from the full community ecosystem and Wrangler resale, but its owner identity is softer than the Rubicon's; the 'daily driver' Wrangler"
   },
-  "tacoma_trd_pro": {
+  "toyota-tacoma-trd-pro-2024": {
     "community": 2.5,
     "aftermarket": 2,
     "heritage": 1.5,
@@ -1696,7 +1696,7 @@
     },
     "note": "The mid-size truck passion king — TacomaWorld is one of the largest vehicle forums on the internet; aftermarket is an industry"
   },
-  "tx_550h": {
+  "lexus-tx-550h-plus-2024": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -1711,7 +1711,7 @@
     },
     "note": "Brand new 3-row luxury CUV; minimal community forming but no enthusiast culture; Lexus brand gives slight resale edge"
   },
-  "gv70": {
+  "genesis-gv70-3-5t-sport-prestige-2022": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -1726,7 +1726,7 @@
     },
     "note": "Even newer than GV80 with even less community development; scores at minimum"
   },
-  "escalade": {
+  "cadillac-escalade-sport-2021": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1.5,
@@ -1741,7 +1741,7 @@
     },
     "note": "Cultural icon in the luxury/entertainment space — strong heritage and identity from hip-hop culture but community is more aspirational than technical"
   },
-  "defender_90": {
+  "land-rover-defender-90-s-2020": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -1756,7 +1756,7 @@
     },
     "note": "The purist's new Defender -- 2-door choice signals enthusiasm over practicality; spiritually closest to the classic but still building its own identity"
   },
-  "gc_l_overland": {
+  "jeep-grand-cherokee-l-overland-2021": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -1771,7 +1771,7 @@
     },
     "note": "The family hauler Grand Cherokee — three rows signal practical intent; lowest passion score in the GC family"
   },
-  "lc_first_ed": {
+  "toyota-land-cruiser-first-edition-2024": {
     "community": 2,
     "aftermarket": 1,
     "heritage": 2,
@@ -1786,7 +1786,7 @@
     },
     "note": "Collector's version of the new LC — same platform but extreme resale premium from scarcity and launch hype"
   },
-  "qx80_2g": {
+  "infiniti-qx80-2014": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1801,7 +1801,7 @@
     },
     "note": "Patrol Y62 underneath, which buys it a thin lift-kit aftermarket, but owners treat it as a luxury appliance and resale is among the worst in the segment"
   },
-  "f150_raptor": {
+  "ford-f-150-raptor-2021": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1,
@@ -1816,7 +1816,7 @@
     },
     "note": "The factory desert truck that created a category; dedicated community, deep aftermarket, and strong resale premium distinguish it from all other F-150 trims"
   },
-  "f150_tremor": {
+  "ford-f-150-tremor-2021": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -1831,7 +1831,7 @@
     },
     "note": "Off-road-oriented F-150 that lives in Raptor's shadow; benefits from F-150 ecosystem but lacks dedicated following"
   },
-  "tundra_trd_pro": {
+  "toyota-tundra-trd-pro-2022": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1,
@@ -1846,7 +1846,7 @@
     },
     "note": "Toyota reliability in full-size truck form — TRD Pro adds enthusiasm but Tundra culture is quieter than Tacoma"
   },
-  "tundra_1794": {
+  "toyota-tundra-1794-edition-2022": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -1861,7 +1861,7 @@
     },
     "note": "Luxury Tundra trim — ranch elegance over trail enthusiasm; benefits from Tundra reliability reputation"
   },
-  "silverado_zr2": {
+  "chevrolet-silverado-1500-zr2-2022": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -1876,7 +1876,7 @@
     },
     "note": "Halo off-road truck for Chevy; genuine desert-running capability but community/identity lag behind Ford Raptor and Ram TRX"
   },
-  "colorado_zr2": {
+  "chevrolet-colorado-zr2-2023": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -1891,7 +1891,7 @@
     },
     "note": "The AEV Bison partnership is a genuine differentiator; ZR2 has built real off-road credibility and owner enthusiasm in the midsize segment"
   },
-  "ram_trx": {
+  "ram-1500-trx-2021": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1,
@@ -1906,7 +1906,7 @@
     },
     "note": "Hellcat-powered super truck with genuine performance culture; discontinuation has increased collector interest"
   },
-  "ram_rebel": {
+  "ram-1500-rebel-2019": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1921,7 +1921,7 @@
     },
     "note": "Mid-tier off-road truck; popular configuration but lacks the extreme enthusiasm of TRX or Raptor"
   },
-  "ranger_raptor": {
+  "ford-ranger-raptor-2024": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -1936,7 +1936,7 @@
     },
     "note": "New to US market but proven globally; benefits from Raptor brand halo and established international aftermarket; expect scores to rise as US community matures"
   },
-  "renegade_trailhawk": {
+  "jeep-renegade-trailhawk-2015": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1951,7 +1951,7 @@
     },
     "note": "Entry-level Jeep with Trailhawk badge — Trail Rated but Fiat-based platform limits enthusiast credibility; discontinued 2023"
   },
-  "compass_trailhawk": {
+  "jeep-compass-trailhawk-2017": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -1966,7 +1966,7 @@
     },
     "note": "Compact CUV with Jeep badge — Trail Rated Trailhawk but fundamentally a transportation appliance; similar profile to Renegade Trailhawk"
   },
-  "rav4_trd_or": {
+  "toyota-rav4-trd-off-road-2020": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -1981,7 +1981,7 @@
     },
     "note": "TRD badge on a crossover — minimal real off-road culture despite the branding"
   },
-  "crosstrek_wilderness": {
+  "subaru-crosstrek-wilderness-2024": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -1996,7 +1996,7 @@
     },
     "note": "Most popular LP Aventure platform — strong Subaru outdoor identity but Wilderness is newer and identity is more brand-level than vehicle-level"
   },
-  "bronco_sport_badlands": {
+  "ford-bronco-sport-badlands-2021": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2011,7 +2011,7 @@
     },
     "note": "CUV with Bronco branding; Badlands is genuinely capable for its class but enthusiasts see it as an Escape derivative, limiting passion scores"
   },
-  "cx50_meridian": {
+  "mazda-cx-50-meridian-edition-2023": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2026,7 +2026,7 @@
     },
     "note": "The outdoor Mazda — Meridian trim has genuine mild enthusiasm from Mazda driving enthusiasts who want something trail-adjacent"
   },
-  "tucson_xrt": {
+  "hyundai-tucson-xrt-2022": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2041,7 +2041,7 @@
     },
     "note": "Quintessential competent appliance; scores are appropriately minimal; the 0.5 resale reflects CUV segment strength not vehicle-specific passion"
   },
-  "sportage_xpro": {
+  "kia-sportage-x-pro-2023": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2056,7 +2056,7 @@
     },
     "note": "Factory off-road styling on a mainstream CUV — no passion culture despite the X-Pro badge"
   },
-  "samurai": {
+  "suzuki-samurai-1986": {
     "community": 1.5,
     "aftermarket": 1.5,
     "heritage": 1,
@@ -2071,7 +2071,7 @@
     },
     "note": "One of the strongest cult followings relative to sales volume; entire aftermarket companies exist for this tiny discontinued vehicle, which is remarkable"
   },
-  "sidekick": {
+  "suzuki-sidekick-1989": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2086,7 +2086,7 @@
     },
     "note": "Respectable little SUV with a small following but overshadowed by the Samurai in every passion metric"
   },
-  "tracker": {
+  "geo-tracker-1989": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2101,7 +2101,7 @@
     },
     "note": "Rebadged Suzuki Sidekick sold through GM dealers; benefits from shared Suzuki parts compatibility but has no independent passion following"
   },
-  "grand_vitara": {
+  "suzuki-grand-vitara-2006": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2116,7 +2116,7 @@
     },
     "note": "Most capable of the late Suzuki SUV lineup but lacks the Samurai's cult appeal; a competent vehicle without passionate following"
   },
-  "rodeo": {
+  "isuzu-rodeo-1998": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2131,7 +2131,7 @@
     },
     "note": "Benefits from PlanetIsuzoo.com community but distinctly less passionate following than the Trooper"
   },
-  "amigo": {
+  "isuzu-amigo-1998": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2146,7 +2146,7 @@
     },
     "note": "The most niche of the Isuzu lineup; appreciated by Isuzu enthusiasts but no independent passionate following"
   },
-  "rav4_hybrid": {
+  "toyota-rav4-hybrid-xse-2019": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -2161,7 +2161,7 @@
     },
     "note": "Quintessential practical crossover — high volume, excellent vehicle, zero passion culture"
   },
-  "highlander_hybrid": {
+  "toyota-highlander-hybrid-xle-2020": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -2176,7 +2176,7 @@
     },
     "note": "Family transportation appliance — competent vehicle with zero enthusiast culture"
   },
-  "venza": {
+  "toyota-venza-xle-2021": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2191,7 +2191,7 @@
     },
     "note": "Discontinued niche crossover — zero enthusiast culture, pure transportation"
   },
-  "crv_hybrid": {
+  "honda-cr-v-sport-touring-hybrid-2023": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2206,7 +2206,7 @@
     },
     "note": "Bestselling Honda with excellent resale — but enthusiasm is about reliability, not passion"
   },
-  "tucson_hybrid": {
+  "hyundai-tucson-hybrid-limited-2022": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2221,7 +2221,7 @@
     },
     "note": "Competent compact hybrid CUV — scores identically to Tucson XRT"
   },
-  "santa_fe_hybrid": {
+  "hyundai-santa-fe-hybrid-sel-2024": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2236,7 +2236,7 @@
     },
     "note": "Efficiency-focused variant of an already-appliance vehicle"
   },
-  "sportage_hybrid": {
+  "kia-sportage-hybrid-sx-prestige-2023": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2251,7 +2251,7 @@
     },
     "note": "Compact hybrid CUV appliance"
   },
-  "sorento_hybrid": {
+  "kia-sorento-hybrid-sx-prestige-2021": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2266,7 +2266,7 @@
     },
     "note": "Efficient family hauler — competent appliance"
   },
-  "escape_hybrid": {
+  "ford-escape-hybrid-st-line-2020": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2281,7 +2281,7 @@
     },
     "note": "Pure transportation appliance; no passion indicators on any axis"
   },
-  "nx_350h": {
+  "lexus-nx-350h-luxury-2022": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2296,7 +2296,7 @@
     },
     "note": "Lexus compact luxury CUV; competent and well-liked but generates no enthusiast culture; the 0.5 resale reflects Lexus brand premium"
   },
-  "rx_350h": {
+  "lexus-rx-350h-luxury-2023": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -2311,7 +2311,7 @@
     },
     "note": "Lexus's volume CUV; the RX pioneered luxury CUVs in 1998 which earns heritage credit, but it generates zero enthusiast culture"
   },
-  "tucson_phev": {
+  "hyundai-tucson-limited-phev-2022": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2326,7 +2326,7 @@
     },
     "note": "Tax-credit-driven purchase for many; no passion culture"
   },
-  "sportage_phev": {
+  "kia-sportage-x-line-phev-2023": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2341,7 +2341,7 @@
     },
     "note": "PHEV compact CUV — tax credit and efficiency driven"
   },
-  "escape_phev": {
+  "ford-escape-phev-2020": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2356,7 +2356,7 @@
     },
     "note": "Plug-in hybrid Escape; purchased for tax credits and fuel savings, not passion; scores match the hybrid variant"
   },
-  "nx_450h_plus": {
+  "lexus-nx-450h-plus-2022": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2371,7 +2371,7 @@
     },
     "note": "PHEV version of NX; buyers are motivated by efficiency and tax credits, not enthusiasm; pure appliance territory"
   },
-  "rx_450h_plus": {
+  "lexus-rx-450h-plus-luxury-2023": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -2386,37 +2386,7 @@
     },
     "note": "PHEV version of Lexus's flagship CUV; inherits mild RX heritage credit but is otherwise a pure luxury appliance"
   },
-  "land_cruiser_80": {
-    "community": 2.5,
-    "aftermarket": 1.5,
-    "heritage": 2,
-    "identity": 1.5,
-    "resale_premium": 1.5,
-    "sources": {
-      "community": "Same as lc80 — ih8mud.com 80 Series section, r/LandCruisers, TLCA; this is the used-condition listing of the same vehicle",
-      "aftermarket": "Same deep 80 Series aftermarket: Slee, TLC Products, ARB, OME, Cruiser Outfitters; full build ecosystem",
-      "heritage": "Same — Land Cruiser since 1951; 80 Series solid axles and triple lockers",
-      "identity": "Same devotion — 80 Series owners are among the most dedicated vehicle enthusiasts anywhere",
-      "resale": "Same extreme appreciation — used 80 Series prices defy all logic for a 30-year-old vehicle"
-    },
-    "note": "Duplicate entry for LC 80 Series in used condition — same passion scores as lc80"
-  },
-  "land_cruiser_100": {
-    "community": 2.5,
-    "aftermarket": 1.5,
-    "heritage": 2,
-    "identity": 1.5,
-    "resale_premium": 1,
-    "sources": {
-      "community": "Same as lc100 — ih8mud.com, r/LandCruisers, TLCA; used-condition listing of same vehicle",
-      "aftermarket": "Same 100 Series ecosystem: Slee Off-Road, TLC Products, ARB, OME; comprehensive",
-      "heritage": "Same — Land Cruiser since 1951; 100 Series is a heritage icon",
-      "identity": "Same deep owner loyalty and 'never sell' mentality",
-      "resale": "Same appreciation trend — 100 Series prices rising steadily despite age"
-    },
-    "note": "Duplicate entry for LC 100 Series in used condition — same passion scores as lc100"
-  },
-  "cherokee_xj": {
+  "jeep-cherokee-1984": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -2431,7 +2401,7 @@
     },
     "note": "Cult classic — 95K Reddit subscribers for a vehicle discontinued in 2001 is extraordinary; the XJ is a genuine passion vehicle with rising collector values"
   },
-  "4runner_4th_gen_v8": {
+  "toyota-4runner-v8-limited-2003": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -2446,7 +2416,7 @@
     },
     "note": "Last V8 4Runner — carries special cachet within the community; the 2UZ-FE is a beloved engine"
   },
-  "discovery_3_lr3": {
+  "land-rover-discovery-lr3-hse-2005": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2461,7 +2431,7 @@
     },
     "note": "Affordable entry to Land Rover capability; tiny but loyal community of owners who accept the maintenance trade-off for genuine off-road ability"
   },
-  "bronco_5th_gen": {
+  "ford-bronco-eddie-bauer-1992": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 1.5,
@@ -2476,7 +2446,7 @@
     },
     "note": "Classic full-size Bronco with OJ cultural moment; smaller but dedicated community; appreciating values reflect genuine collector interest"
   },
-  "atlas_cross_sport_4motion": {
+  "volkswagen-atlas-cross-sport-se-4motion-2020": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -2491,7 +2461,7 @@
     },
     "note": "Pure transportation appliance; VW's enthusiast heritage does not extend to the Atlas Cross Sport"
   },
-  "v60_cross_country": {
+  "volvo-v60-cross-country-b5-awd-2019": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2506,7 +2476,7 @@
     },
     "note": "Benefits from niche wagon-enthusiast culture and LP Aventure's aftermarket ecosystem; small but genuine following among anti-SUV adventure buyers"
   },
-  "v90_cross_country": {
+  "volvo-v90-cross-country-b6-awd-2017": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2521,7 +2491,7 @@
     },
     "note": "The spiritual successor to the beloved Volvo V70 XC; benefits from decades of Volvo wagon heritage and a genuine if niche wagon-enthusiast community"
   },
-  "canyon_at4x": {
+  "gmc-canyon-at4x-2023": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -2536,7 +2506,7 @@
     },
     "note": "Shares Colorado ZR2 platform and much of its aftermarket but GMC premium positioning attracts slightly less enthusiast-oriented buyers; scores slightly below Colorado ZR2"
   },
-  "sierra_at4x": {
+  "gmc-sierra-1500-at4x-2022": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2551,7 +2521,7 @@
     },
     "note": "GMC's off-road halo truck; capable but lacks the cultural identity that drives passion scores higher for competitors like Raptor and TRX"
   },
-  "ram_1500_ecodiesel": {
+  "ram-1500-laramie-ecodiesel-2020": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2566,7 +2536,7 @@
     },
     "note": "Innovative offering but VM Motori diesel reliability concerns dampened enthusiasm; buyers are rational efficiency seekers"
   },
-  "silverado_duramax": {
+  "chevrolet-silverado-1500-lt-duramax-2019": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2581,7 +2551,7 @@
     },
     "note": "Benefits from the Duramax name but 1500 diesel buyers are rational efficiency seekers; HD Duramax enthusiasm does not transfer"
   },
-  "gladiator_ecodiesel": {
+  "jeep-gladiator-rubicon-ecodiesel-2021": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -2596,7 +2566,7 @@
     },
     "note": "Discontinued diesel Gladiator — short production run creates scarcity premium; same community/aftermarket as Gladiator Rubicon but better resale due to rarity"
   },
-  "f150_powerstroke": {
+  "ford-f-150-lariat-power-stroke-2018": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2611,7 +2581,7 @@
     },
     "note": "Niche diesel half-ton that borrows Power Stroke brand cachet from Super Duty; short production run (2018-2021) limits community development"
   },
-  "f150_lightning": {
+  "ford-f-150-lightning-flash-2022": {
     "community": 1.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2626,7 +2596,7 @@
     },
     "note": "Tech-forward EV truck with enthusiastic early adopter community but poor resale undermines passion score; Lightning nameplate heritage provides mild boost"
   },
-  "f150_powerboost": {
+  "ford-f-150-king-ranch-powerboost-2021": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2641,7 +2611,7 @@
     },
     "note": "Practical hybrid powertrain option for F-150; Pro Power Onboard generator is the main enthusiasm driver but it remains a rational purchase"
   },
-  "silverado_ev": {
+  "chevrolet-silverado-ev-rst-2024": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -2656,7 +2626,7 @@
     },
     "note": "Too new with too few units on the road to have developed any enthusiasm culture; EV truck segment is still finding its footing"
   },
-  "hummer_ev_pickup": {
+  "gmc-hummer-ev-pickup-3x-2022": {
     "community": 1,
     "aftermarket": 0,
     "heritage": 1.5,
@@ -2671,7 +2641,7 @@
     },
     "note": "Scores identically to Hummer EV SUV; shares community, heritage, and market dynamics; pickup was actually the first variant launched"
   },
-  "rav4_prime": {
+  "toyota-rav4-prime-xse-2021": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -2686,7 +2656,7 @@
     },
     "note": "Tech-efficient crossover with supply-driven premiums — active subreddit is about EV optimization, not vehicle passion"
   },
-  "r1t": {
+  "rivian-r1t-dual-motor-2025": {
     "community": 2,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2701,7 +2671,7 @@
     },
     "note": "Gen 2 R1T: strong online EV community and adventure branding, but a thin hard-parts aftermarket and depreciation well above the pickup average"
   },
-  "tx_500h": {
+  "lexus-tx-500h-f-sport-2024": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -2716,7 +2686,7 @@
     },
     "note": "F Sport version of the brand new TX; F Sport badge adds mild identity and resale edge over base TX but still a luxury family vehicle"
   },
-  "ev9": {
+  "kia-ev9-land-awd-2024": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -2731,7 +2701,7 @@
     },
     "note": "Tech-forward family EV with growing enthusiast base — enthusiasm is about EV innovation, not traditional vehicle passion"
   },
-  "wrangler_4xe_sahara": {
+  "jeep-wrangler-4xe-sahara-2021": {
     "community": 2,
     "aftermarket": 1,
     "heritage": 2,
@@ -2746,7 +2716,7 @@
     },
     "note": "The eco-conscious Wrangler — full heritage but community reception is mixed; buyers are often motivated by tax credits as much as Jeep lifestyle"
   },
-  "xterra_pro4x": {
+  "nissan-xterra-pro-4x-2005": {
     "community": 1.5,
     "aftermarket": 1,
     "heritage": 1,
@@ -2761,22 +2731,7 @@
     },
     "note": "Same community and passion as base Xterra; Pro-4X is the most desirable trim and often the center of the enthusiast community"
   },
-  "montero_sport_xls": {
-    "community": 0.5,
-    "aftermarket": 0.5,
-    "heritage": 0.5,
-    "identity": 0.5,
-    "resale_premium": 0,
-    "sources": {
-      "community": "Same community as montero_sport; XLS is a trim level, not a separate community; MitsubishiForum.com does not differentiate XLS-specific threads",
-      "aftermarket": "Same as montero_sport; XLS trim does not have unique aftermarket support",
-      "heritage": "XLS is a trim of the Montero Sport; no additional heritage significance",
-      "identity": "Same as montero_sport; XLS trim does not generate additional identity",
-      "resale": "Same depreciation as montero_sport; XLS trim does not command a premium"
-    },
-    "note": "XLS is a trim level of the Montero Sport; scores identical to the base montero_sport"
-  },
-  "wrangler_2dr_jl": {
+  "jeep-wrangler-2-door-rubicon-2018": {
     "community": 2.5,
     "aftermarket": 2,
     "heritage": 2,
@@ -2791,7 +2746,7 @@
     },
     "note": "The purest current Wrangler; short-wheelbase Rubicon is the ultimate trail rig, with strong but no longer extreme resale"
   },
-  "wrangler_2dr_jk": {
+  "jeep-wrangler-2-door-rubicon-2007": {
     "community": 2.5,
     "aftermarket": 2,
     "heritage": 2,
@@ -2806,7 +2761,7 @@
     },
     "note": "Classic modern short-wheelbase Wrangler; full community access, strong resale for its age, the accessible entry to 2-door Jeep culture"
   },
-  "wrangler_2dr_tj": {
+  "jeep-wrangler-2-door-rubicon-2003": {
     "community": 2.5,
     "aftermarket": 1.5,
     "heritage": 2,
@@ -2819,9 +2774,9 @@
       "identity": "TJ owners are among the most passionate in the Jeep world; 'last real Wrangler' sentiment is extremely strong; vehicles are modified extensively and kept indefinitely; full Jeep Wave participation",
       "resale": "Clean TJ Rubicons (2003-2006) command $15-25K despite 20+ years of age; exceptional value retention for the era; 4.0L I6 models especially prized"
     },
-    "note": "All TJs were 2-door — this IS the TJ; scores mirror wrangler_tj since the generation was exclusively short wheelbase"
+    "note": "All TJs were 2-door — this IS the TJ; scores mirror jeep-wrangler-1997 since the generation was exclusively short wheelbase"
   },
-  "bronco_2dr_badlands": {
+  "ford-bronco-2-door-badlands-2021": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -2836,7 +2791,7 @@
     },
     "note": "The purist's Bronco -- 2-door Badlands represents the most enthusiast-oriented configuration; owners chose capability over practicality"
   },
-  "maverick_tremor": {
+  "ford-maverick-tremor-2022": {
     "community": 1.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2851,7 +2806,7 @@
     },
     "note": "Budget truck darling with surprisingly active community; Tremor adds off-road aspiration to an already enthusiastic owner base; growing but heritage-limited"
   },
-  "santa_cruz_sel": {
+  "hyundai-santa-cruz-sel-awd-2022": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2866,7 +2821,7 @@
     },
     "note": "Unique form factor generates genuine if modest enthusiasm — the 'fun little truck' community is small but real"
   },
-  "frontier_pro4x": {
+  "nissan-frontier-pro-4x-2022": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -2881,7 +2836,7 @@
     },
     "note": "Solid midsize truck with a genuine but moderate enthusiast following; Pro-4X is the enthusiast's choice with factory off-road equipment"
   },
-  "tacoma_trd_or": {
+  "toyota-tacoma-trd-off-road-2024": {
     "community": 2.5,
     "aftermarket": 2,
     "heritage": 1.5,
@@ -2896,7 +2851,7 @@
     },
     "note": "The smart builder's Tacoma — same aftermarket depth as TRD Pro, slightly less identity premium"
   },
-  "ranger_xlt": {
+  "ford-ranger-xlt-4wd-2024": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2911,7 +2866,7 @@
     },
     "note": "Mainstream midsize truck; benefits mildly from Ranger community but XLT is the practical default, not the passion choice"
   },
-  "ascent_onyx": {
+  "subaru-ascent-onyx-edition-2019": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -2926,7 +2881,7 @@
     },
     "note": "Subaru's family hauler — benefits from brand outdoor identity but is fundamentally a practical three-row"
   },
-  "cx70_phev": {
+  "mazda-cx-70-phev-2025": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -2941,7 +2896,7 @@
     },
     "note": "Brand new Mazda two-row luxury PHEV — too early for any passion scores"
   },
-  "tiguan_se_rline": {
+  "volkswagen-tiguan-se-r-line-4motion-2025": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -2956,7 +2911,7 @@
     },
     "note": "R-Line badge gives the slightest VW heritage nod but the Tiguan itself generates no enthusiast passion"
   },
-  "rdx_aspec": {
+  "acura-rdx-a-spec-sh-awd-2019": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -2971,7 +2926,7 @@
     },
     "note": "Acura's compact luxury CUV with a cosmetic package — minimal passion in any dimension"
   },
-  "grenadier_trialmaster": {
+  "ineos-grenadier-trialmaster-2024": {
     "community": 1.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -2986,7 +2941,7 @@
     },
     "note": "Deliberately designed to fill the classic Defender void; early community enthusiasm is genuine and outsized relative to delivery numbers; aftermarket will grow as the platform matures"
   },
-  "f150_xlt": {
+  "ford-f-150-xlt-supercrew-4wd-2021": {
     "community": 1,
     "aftermarket": 1,
     "heritage": 0.5,
@@ -3001,7 +2956,7 @@
     },
     "note": "The default F-150; benefits from enormous community and aftermarket ecosystem but XLT buyers are practical, not passionate"
   },
-  "tacoma_sr5": {
+  "toyota-tacoma-sr5-double-cab-4wd-2024": {
     "community": 2,
     "aftermarket": 1.5,
     "heritage": 1.5,
@@ -3016,7 +2971,7 @@
     },
     "note": "Volume Tacoma — massive community exists but SR5 buyers are more practical; still benefits enormously from Tacoma resale reputation"
   },
-  "silverado_trail_boss": {
+  "chevrolet-silverado-1500-lt-trail-boss-2019": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -3031,7 +2986,7 @@
     },
     "note": "Mainstream Silverado trim with factory off-road appearance; lacks the ZR2's enthusiast positioning"
   },
-  "ram_1500_big_horn": {
+  "ram-1500-big-horn-crew-cab-4wd-2019": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -3046,7 +3001,7 @@
     },
     "note": "Volume trim for Ram 1500; popular and practical but zero enthusiasm premium or enthusiast culture"
   },
-  "crv_exl": {
+  "honda-cr-v-ex-l-awd-2023": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -3061,7 +3016,7 @@
     },
     "note": "Comfort-oriented trim of Honda's bestselling appliance CUV"
   },
-  "hrv_exl": {
+  "honda-hr-v-ex-l-awd-2023": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -3076,7 +3031,7 @@
     },
     "note": "Entry-level Honda subcompact CUV — pure transportation appliance"
   },
-  "ridgeline_rtl": {
+  "honda-ridgeline-rtl-awd-2017": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -3091,7 +3046,7 @@
     },
     "note": "The truck for people who don't want a truck — small but genuinely passionate community that loves defending their choice"
   },
-  "q5_quattro": {
+  "audi-q5-premium-plus-45-quattro-2025": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -3106,7 +3061,7 @@
     },
     "note": "Audi's volume compact SUV — competent appliance with no passion culture"
   },
-  "q7_quattro": {
+  "audi-q7-premium-plus-55-quattro-2017": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -3121,7 +3076,7 @@
     },
     "note": "Audi's three-row family SUV — solid but passion-free"
   },
-  "q8_etron": {
+  "audi-q8-e-tron-prestige-quattro-2019": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -3136,7 +3091,7 @@
     },
     "note": "Discontinued Audi EV SUV — rebranding confusion and segment challenges mean zero enthusiasm"
   },
-  "a6_allroad": {
+  "audi-a6-allroad-premium-plus-2020": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 1,
@@ -3151,7 +3106,7 @@
     },
     "note": "A niche enthusiast choice — wagon lovers are a small but vocal and genuine community; scores above its sales volume would suggest"
   },
-  "crosstrek_premium": {
+  "subaru-crosstrek-premium-awd-2024": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0,
@@ -3166,7 +3121,7 @@
     },
     "note": "Volume trim of a vehicle with genuine enthusiast potential — benefits from Subaru ecosystem but Premium buyers are less engaged than Wilderness buyers"
   },
-  "atlas_se": {
+  "volkswagen-atlas-se-4motion-2024": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -3181,7 +3136,7 @@
     },
     "note": "VW's three-row family SUV; purely functional transportation with no enthusiast dimension"
   },
-  "durango_rt": {
+  "dodge-durango-r-t-awd-2011": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -3196,7 +3151,7 @@
     },
     "note": "Unique value proposition as a performance 3-row SUV; HEMI crossover appeal adds moderate enthusiasm but it is still primarily a family vehicle"
   },
-  "explorer_timberline": {
+  "ford-explorer-timberline-4wd-2022": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -3211,7 +3166,7 @@
     },
     "note": "Mild off-road Explorer trim; Explorer nameplate has recognition but Timberline generates no dedicated enthusiasm or tribal identity"
   },
-  "armada_platinum": {
+  "nissan-armada-platinum-4wd-2025": {
     "community": 0.5,
     "aftermarket": 0.5,
     "heritage": 0.5,
@@ -3226,7 +3181,7 @@
     },
     "note": "Patrol DNA in a luxury wrapper — appreciated by those who know the platform but primarily a family hauler in the US market"
   },
-  "rogue_sl": {
+  "nissan-rogue-sl-awd-2021": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -3241,7 +3196,7 @@
     },
     "note": "Pure appliance — Nissan's volume seller with zero passion culture"
   },
-  "equinox_rs": {
+  "chevrolet-equinox-rs-awd-2025": {
     "community": 0,
     "aftermarket": 0,
     "heritage": 0,
@@ -3256,7 +3211,7 @@
     },
     "note": "Pure transportation appliance; RS trim is cosmetic only and adds zero enthusiasm"
   },
-  "cx5_turbo": {
+  "mazda-cx-5-2-5-turbo-premium-awd-2017": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -3271,7 +3226,7 @@
     },
     "note": "The most engaged community of any mainstream CUV brand — but enthusiasm is about Mazda driving quality, not vehicle-specific passion"
   },
-  "x3_xdrive": {
+  "bmw-x3-xdrive30i-2025": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
