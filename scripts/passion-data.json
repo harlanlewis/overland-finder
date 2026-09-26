@@ -218,7 +218,7 @@
     "identity": 1.5,
     "resale_premium": 1,
     "sources": {
-      "community": "r/GXOR ~35-40K subs (dedicated, highly active overland community); ClubLexus GX section active; large Facebook GXOR groups (30K+ members); ih8mud Prado/GX threads; strong per-capita engagement for a Lexus",
+      "community": "r/GXOR active (subscriber count unverified); GXOR Facebook group 21K+ members across regional chapters (Autowise, 'The GXOR Effect'); ClubLexus GX section active; ih8mud Prado/GX threads; strong per-capita engagement for a Lexus",
       "aftermarket": "Metal Tech 4x4 (GX-specific bumpers/sliders), Dobinsons/Icon/OME suspension, CBI Offroad armor, Southern Style Offroad, Prinsu roof racks, Victory 4x4; healthy ecosystem covering suspension, armor, and racks but fewer brands than 4Runner/Wrangler",
       "heritage": "GX nameplate since 2002 (Land Cruiser Prado platform); recognized within overlanding community as 'affordable Land Cruiser'; Lexus luxury badge doesn't carry expedition heritage; no broader cultural significance beyond automotive enthusiasts",
       "identity": "GXOR movement created genuine tribal identity; 'budget Land Cruiser' pride; organized trail runs and meetups; owners heavily mod and celebrate the 'stealth overland' platform; strong online presence with build threads; less formalized than Jeep Wave but real community signals",
@@ -227,19 +227,19 @@
     "note": "The GXOR community darling -- genuine overland credibility as an affordable Land Cruiser alternative; strongest passion vehicle in the Lexus lineup"
   },
   "gx470": {
-    "community": 1,
-    "aftermarket": 0.5,
+    "community": 1.5,
+    "aftermarket": 1,
     "heritage": 0.5,
-    "identity": 1,
+    "identity": 1.5,
     "resale_premium": 0.5,
     "sources": {
-      "community": "Benefits from r/GXOR and ClubLexus but GX470 is older and less discussed than GX460; ih8mud 120-series Prado threads cover the platform; Facebook groups include GX470 owners but GX460 dominates the conversation",
-      "aftermarket": "Shares some parts with GX460 (suspension, basic bolt-ons); fewer dedicated products than GX460; Dobinsons and OME offer kits; bumper and armor options more limited; aftermarket is present but basic",
-      "heritage": "First-gen GX (2002-2009) on Land Cruiser 120 Prado platform; less trail recognition than GX460 which became the GXOR icon; appreciated as a solid platform within overland community",
-      "identity": "GX470 owners participate in GXOR community but the '460 is the centerpiece; GX470 appreciated as a capable platform and 'best value overland Lexus'; less organized identity than GX460",
-      "resale": "Holds value decently for a 15-20 year old luxury SUV; prices in the $10-20K range reflect Prado platform desirability; above average for vintage but not extreme premium"
+      "community": "GXOR (GX OffRoad) Facebook group, started 2016, covers both 470 and 460 with regional chapters worldwide and 21K+ members (Autowise, 'The GXOR Effect'); lexusgxor.com wiki; many ih8mud GX470 build threads; Expedition Portal staff 'ExPo's Lexus GX470 Overland Project'; Overland Bound. The 470 shares the 460's community rather than having a smaller one",
+      "aftermarket": "GX470-specific products from Dissent Off-road, Metal Tech 4x4, Slee Off Road, RCI Metalworks, LFD Offroad, Exit Offroad, plus ARB, Ironman, HeftyFab, Southern Style Off-road, Gobi and BajaRack; shares 4th-gen 4Runner / 120 Prado suspension and drivetrain parts",
+      "heritage": "First-gen GX (2003-2009) on the 120-series Prado platform with the 2UZ V8 shared with the LX470; called the expedition community's 'best kept secret' by Tread and TCT Magazine; recognized within off-road circles only",
+      "identity": "The GXOR movement began in the 470 era (TCT's 2017 piece and the original GXOR builds are 470s); 'budget Land Cruiser' identity, GXOR regional trail runs, extensive build-thread culture shared with the 460",
+      "resale": "Median sale about $8K for a 17-23 year old vehicle (carsearch.pro, 2025-2026); low-mileage examples far higher; ih8mud reports 2021 prices rising from $10-15K to $15-25K. Above typical luxury SUVs of its age, but 2025 medians softened. Below the 460"
     },
-    "note": "Benefits from GXOR halo but GX460 is the community's centerpiece; still respected as the original affordable LC alternative"
+    "note": "The original GXOR budget-overland platform; community and identity match the GX460, and it trails the 460 only on resale"
   },
   "lc": {
     "community": 2,
@@ -1262,19 +1262,19 @@
     "note": "Inherits G-Class heritage but is too new to have built its own community or aftermarket; scores conservatively per methodology"
   },
   "montero": {
-    "community": 1.5,
-    "aftermarket": 1,
-    "heritage": 1.5,
-    "identity": 1,
-    "resale_premium": 0.5,
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
     "sources": {
-      "community": "r/MitsubishiMontero small (~2-3K subs); MitsubishiForum.com Montero section active; Expedition Portal Montero build threads; globally larger Pajero community on PajeroWorld.com; US community small but dedicated relative to niche sales volume",
-      "aftermarket": "Old Man Emu/ARB suspension for Pajero chassis; Ironman 4x4 bumpers and accessories; some skid plates and lift kits available; no Montero-specific US companies but Pajero parts from Australian/international market accessible; moderate ecosystem for a discontinued platform",
-      "heritage": "Pajero nameplate since 1982; 12 Dakar Rally victories (most dominant vehicle in rally raid history); military/expedition use globally; US Montero sold 1983-2006; known internationally as the Pajero/Shogun; Dakar heritage gives genuine off-road credibility",
-      "identity": "Montero owners are loyal and resist selling; small but dedicated community gatherings; 'Montero Mafia' Facebook groups; overlanding build culture exists; less organized than Toyota/Jeep communities but genuine enthusiasm per capita",
-      "resale": "Clean Gen 2 (1991-1999) and Gen 3 (2000-2006) Monteros have appreciated; SWB models command premiums; Gen 3 with low miles fetching $15-25K; not extreme but above expected for a discontinued Mitsubishi"
+      "community": "Dedicated forum myoutlanderphev.com is active (tech, charging, regional, marketplace sections); Mitsubishi PHEV section on SpeakEV (UK); phev.club owners forum; PHEV subforum on outlanderforums.com; r/OutlanderPHEV exists (subscriber count unverified). Ownership support rather than enthusiast culture, similar to RAV4 Prime",
+      "aftermarket": "Almost all OEM: Mitsubishi roof racks, generic Rack Attack fitments, catalog-level lift-kit listings (TrailBuilt, throtl); no dedicated armor, bumper or suspension brands",
+      "heritage": "Outlander nameplate since 2001; the PHEV (2013 on) was the world's best-selling plug-in hybrid for years, which matters in EV circles but carries no cultural weight; Pajero/Dakar heritage does not apply",
+      "identity": "Owners discuss charging strategy and EV range; no clubs, gatherings or lifestyle identity",
+      "resale": "2022 model year lost 53% in 3 years and sits in the 75-100th depreciation percentile among 2022 SUVs (KBB); iSeeCars 5-year depreciation 52.7% vs 36.3% for hybrid compact SUVs. Worse than class"
     },
-    "note": "Dakar Rally heritage gives the Montero/Pajero genuine global off-road credibility that exceeds its US market presence; US community is small but dedicated"
+    "note": "This id is the 2022+ Outlander PHEV, not the classic Montero/Pajero; a mainstream PHEV crossover scored like RAV4 Prime and Tucson PHEV"
   },
   "montero_sport": {
     "community": 0.5,

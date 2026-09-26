@@ -297,7 +297,7 @@
     "note": "Budget overlander legend. V8, body-on-frame. Old but simple and reliable.",
     "url": "https://en.wikipedia.org/wiki/Lexus_GX",
     "body": "suv",
-    "passion": 4
+    "passion": 5.5
   },
   {
     "id": "lc",
@@ -2022,7 +2022,7 @@
     "note": "Budget PHEV with S-AWC. Surprisingly capable. Low towing.",
     "url": "https://en.wikipedia.org/wiki/Mitsubishi_Outlander",
     "body": "cuv",
-    "passion": 6
+    "passion": 1.5
   },
   {
     "id": "montero_sport",
