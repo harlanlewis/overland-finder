@@ -17,6 +17,7 @@ export interface Vehicle {
   cargo: number;
   reliability: number;
   performance: number;
+  passion: number;            // Owner enthusiasm (1-10), from scripts/passion-data.json
   size: Size;
   body: Body;
   pt: Powertrain;
@@ -39,6 +40,7 @@ export interface Weights {
   reliability: number;
   cargo: number;
   performance: number;
+  passion: number;
   towing: number;
 }
 
@@ -50,6 +52,7 @@ export interface ScenarioFilters {
   reliability?: [number | null, number | null];
   cargo?: [number | null, number | null];
   performance?: [number | null, number | null];
+  passion?: [number | null, number | null];
   price?: [number | null, number | null];      // in $k
   tow?: [number | null, number | null];        // towing capacity in lbs
   gc?: [number | null, number | null];         // ground clearance in inches

@@ -26,6 +26,7 @@ const loadJson = (path) => {
 
 const offroadFeatures = loadJson('offroad-features.json');
 const luxuryFeatures = loadJson('luxury-features.json');
+const passionData = loadJson('passion-data.json');
 const horsepowerData = loadJson('horsepower-data.json');
 const manualSpecs = loadJson('manual-specs.json');
 const verifiedUpdates = loadJson('verified-updates.json');
@@ -69,7 +70,7 @@ byModelTrimGen.forEach((entries, key) => {
 });
 
 // 3. Required fields validation
-const required = ['id', 'make', 'model', 'yearStart', 'price', 'offroad', 'luxury', 'reliability', 'size', 'pt'];
+const required = ['id', 'make', 'model', 'yearStart', 'price', 'offroad', 'luxury', 'reliability', 'passion', 'size', 'pt'];
 vehicles.forEach(v => {
   required.forEach(field => {
     if (v[field] === undefined || v[field] === null || v[field] === '') {
@@ -86,6 +87,7 @@ vehicles.forEach(v => {
   if (v.luxury < 0 || v.luxury > 10) errors.push(`${v.id}: luxury ${v.luxury} out of range [0-10]`);
   if (v.reliability < 0 || v.reliability > 10) errors.push(`${v.id}: reliability ${v.reliability} out of range [0-10]`);
   if (v.performance && (v.performance < 0 || v.performance > 10)) errors.push(`${v.id}: performance ${v.performance} out of range [0-10]`);
+  if (v.passion < 1 || v.passion > 10) errors.push(`${v.id}: passion ${v.passion} out of range [1-10]`);
   if (v.price < 0 || v.price > 500) warnings.push(`${v.id}: price $${v.price}k seems unusual`);
   if (v.yearStart < 1980 || v.yearStart > CURRENT_YEAR + 1) errors.push(`${v.id}: yearStart ${v.yearStart} seems invalid`);
   if (v.yearEnd && v.yearEnd < v.yearStart) errors.push(`${v.id}: yearEnd ${v.yearEnd} before yearStart ${v.yearStart}`);
@@ -112,6 +114,23 @@ if (luxuryFeatures?.vehicles) {
   vehicles.forEach(v => {
     if (!luxuryFeatures.vehicles[v.id]) {
       warnings.push(`${v.id}: Missing from luxury-features.json`);
+    }
+  });
+}
+
+if (passionData) {
+  const PASSION_MAX = { community: 2.5, aftermarket: 2, heritage: 2, identity: 2, resale_premium: 1.5 };
+  vehicles.forEach(v => {
+    if (!passionData[v.id]) warnings.push(`${v.id}: Missing from passion-data.json`);
+  });
+  Object.entries(passionData).forEach(([id, entry]) => {
+    if (id === '_meta') return;
+    if (!ids.has(id)) warnings.push(`passion-data.json has orphan entry: ${id}`);
+    for (const [factor, max] of Object.entries(PASSION_MAX)) {
+      const val = entry[factor];
+      if (typeof val !== 'number' || val < 0 || val > max || (val * 2) % 1 !== 0) {
+        errors.push(`${id}: passion ${factor} ${val} must be a 0.5 step in [0-${max}]`);
+      }
     }
   });
 }

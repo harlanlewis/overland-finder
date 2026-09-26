@@ -16,8 +16,18 @@ export const DEFAULT_WEIGHTS = {
   reliability: 3,
   cargo: 3,
   performance: 3,
+  passion: 3,
   towing: 0, // Not shown in UI
 };
+
+/**
+ * Fill any weight a stored scenario predates (e.g. passion) with 0,
+ * so a scenario saved before that weight existed still ranks as it did.
+ */
+export function normalizeWeights(weights) {
+  const zeros = Object.fromEntries(Object.keys(DEFAULT_WEIGHTS).map(k => [k, 0]));
+  return { ...zeros, ...weights };
+}
 
 // Special "Custom" scenario — persistent working state for user's ad-hoc tuning
 export const CUSTOM_SCENARIO_ID = "_custom";
@@ -46,6 +56,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 5,
       cargo: 2,
       performance: 2,
+      passion: 2,
       towing: 0,
     },
     builtIn: true,
@@ -62,6 +73,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 5,
       cargo: 5,
       performance: 1,
+      passion: 1,
       towing: 2,
     },
     builtIn: true,
@@ -78,6 +90,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 3,
       cargo: 3,
       performance: 2,
+      passion: 2,
       towing: 1,
     },
     builtIn: true,
@@ -96,6 +109,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 4,
       cargo: 2,
       performance: 1,
+      passion: 1,
       towing: 0,
     },
     builtIn: true,
@@ -114,6 +128,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 3,
       cargo: 5,
       performance: 2,
+      passion: 1,
       towing: 5,
     },
     builtIn: true,
@@ -130,6 +145,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 3,
       cargo: 2,
       performance: 3,
+      passion: 2,
       towing: 1,
     },
     builtIn: true,
@@ -148,6 +164,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 3,
       cargo: 2,
       performance: 2,
+      passion: 4,
       towing: 1,
     },
     builtIn: true,
@@ -166,6 +183,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 5,
       cargo: 5,
       performance: 1,
+      passion: 3,
       towing: 2,
     },
     builtIn: true,
@@ -182,6 +200,7 @@ export const BUILT_IN_SCENARIOS = [
       reliability: 2,
       cargo: 1,
       performance: 5,
+      passion: 3,
       towing: 0,
     },
     builtIn: true,
@@ -435,7 +454,8 @@ export function migrateOldPresets() {
         label: p.label,
         description: p.description || "",
         filters,
-        weights: { ...DEFAULT_WEIGHTS },
+        // v1 presets predate passion: weight it 0 so their ranking is unchanged
+        weights: { ...DEFAULT_WEIGHTS, passion: 0 },
         builtIn: false,
         migratedFrom: "v1",
         createdAt: Date.now(),
@@ -478,7 +498,7 @@ export function createScenarioCopy(baseScenario, modifications = {}) {
  */
 export function getEffectiveFilters(scenario, dataRanges) {
   const effective = {};
-  const filterKeys = ["mpg", "offroad", "luxury", "reliability", "cargo", "performance"];
+  const filterKeys = ["mpg", "offroad", "luxury", "reliability", "cargo", "performance", "passion"];
 
   for (const key of filterKeys) {
     const scenarioFilter = scenario.filters?.[key];

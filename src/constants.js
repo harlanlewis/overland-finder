@@ -86,6 +86,7 @@ export const ATTRIBUTES = [
   { id: "cargo", label: "Cargo", shortLabel: "Cargo", priorityLabel: "Cargo", min: DATA_CARGO_MIN, max: DATA_CARGO_MAX, step: 1, unit: " cu ft", description: "Cargo capacity behind 2nd row", priority: 3, detailOnly: true },
   { id: "offroad", label: "Off-Road", shortLabel: "Off-Rd", priorityLabel: "Off-Road", min: 1, max: 10, step: 0.5, description: "3 = gravel roads · 6 = moderate trails · 8+ = serious", priority: 3, sortable: true, summaryField: true },
   { id: "performance", label: "Performance", shortLabel: "Perf", priorityLabel: "Performance", min: 1, max: 10, step: 0.5, description: "Acceleration, power & driving dynamics", priority: 2, sortable: true, summaryField: true },
+  { id: "passion", label: "Passion", shortLabel: "Pass", priorityLabel: "Passion", min: 1, max: 10, step: 0.5, description: "Enthusiast community, aftermarket, heritage & resale", priority: 2, sortable: true, summaryField: true },
   { id: "tow", label: "Towing", shortLabel: "Tow", priorityLabel: "Towing", priorityKey: "towing", presetKey: "towing", min: 0, max: 15000, step: 500, unit: " lbs", description: "Maximum towing capacity", priority: 0, detailOnly: true, noFilter: true, noWeight: true, formatVal: v => v.toLocaleString() },
   { id: "gc", label: "Ground Clear.", shortLabel: "GC", min: 6, max: 12, step: 0.5, unit: "\"", detailOnly: true, noFilter: true },
 ];
@@ -108,6 +109,7 @@ export const DATA_RANGES = {
   reliability: { min: 1, max: 10 },
   cargo: { min: DATA_CARGO_MIN, max: DATA_CARGO_MAX },
   performance: { min: 1, max: 10 },
+  passion: { min: 1, max: 10 },
   price: { min: 0, max: DATA_PRICE_MAX },
   tow: { min: DATA_TOW_MIN, max: DATA_TOW_MAX },
   gc: { min: DATA_GC_MIN, max: DATA_GC_MAX },
