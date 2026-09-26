@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import {
   BUILT_IN_SCENARIOS,
   DEFAULT_WEIGHTS,
+  normalizeWeights,
   CUSTOM_SCENARIO_ID,
   DEFAULT_CUSTOM_STATE,
   loadScenarioState,
@@ -24,6 +25,7 @@ import {
   BODY_IDS,
   PRIORITY_ATTRS,
   FILTER_ATTRS,
+  SORTABLE_ATTRS,
   DATA_RANGES,
   DEFAULT_SCENARIO,
   getEffectiveRange,
@@ -217,7 +219,7 @@ export default function useVehicleExplorer() {
       newRanges[a.id] = getEffectiveRange(effective, a.id);
     });
     setRanges(newRanges);
-    setWeights({ ...effective.weights });
+    setWeights(normalizeWeights(effective.weights));
     if (effective.filters?.pt && effective.filters.pt.length > 0) {
       setPtFilter([...effective.filters.pt]);
     } else {
@@ -249,7 +251,7 @@ export default function useVehicleExplorer() {
 
   // Adjust weight
   const adjWeight = useCallback((key, delta) => {
-    setWeights(prev => ({ ...prev, [key]: Math.max(0, Math.min(5, prev[key] + delta)) }));
+    setWeights(prev => ({ ...prev, [key]: Math.max(0, Math.min(5, (prev[key] ?? 0) + delta)) }));
     setScenarioModified(true);
   }, []);
 
@@ -434,14 +436,8 @@ export default function useVehicleExplorer() {
     let f = scored.filter(v => v.pass);
     if (savedOnly) f = f.filter(v => savedVehicles.includes(v.id));
     const dir = sortAsc ? 1 : -1;
-    const sortFn = sortBy === "score" ? (a, b) => dir * (a.score - b.score)
-      : sortBy === "price" ? (a, b) => dir * (a.price - b.price)
-      : sortBy === "mpg" ? (a, b) => dir * (a.mpg - b.mpg)
-      : sortBy === "offroad" ? (a, b) => dir * (a.offroad - b.offroad)
-      : sortBy === "luxury" ? (a, b) => dir * (a.luxury - b.luxury)
-      : sortBy === "reliability" ? (a, b) => dir * (a.reliability - b.reliability)
-      : sortBy === "performance" ? (a, b) => dir * (a.performance - b.performance)
-      : (a, b) => dir * (a.score - b.score);
+    const sortKey = sortBy === "price" || SORTABLE_ATTRS.some(a => a.id === sortBy) ? sortBy : "score";
+    const sortFn = (a, b) => dir * (a[sortKey] - b[sortKey]);
     return f.sort(sortFn);
   }, [scored, sortBy, sortAsc, savedOnly, savedVehicles]);
 

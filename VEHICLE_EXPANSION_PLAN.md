@@ -513,12 +513,21 @@ node scripts/fetch-nhtsa-specs.mjs
 
 - Brand tier, interior materials, features, tech, quietness
 
+**passion-data.json** - Forums, Reddit, aftermarket sites, resale data:
+
+- Community scale (Reddit subs, forum activity, Facebook groups)
+- Aftermarket depth (parts brands, catalog depth, dedicated companies)
+- Heritage & icon status (nameplate age, cultural appearances, organization use)
+- Owner identity (waves, clubs, meetups, loyalty sentiment)
+- Resale premium (depreciation data, waitlists, dealer markups)
+
 #### 4. Calculate derived scores
 
 ```bash
 node scripts/calculate-offroad-scores.mjs
 node scripts/calculate-performance-scores.mjs
 node scripts/calculate-luxury-scores.mjs
+node scripts/calculate-passion-scores.mjs
 ```
 
 ---
@@ -537,6 +546,7 @@ node scripts/calculate-luxury-scores.mjs
 | reliability      | JD Power VDS               | Consumer Reports              |
 | year/gen         | Wikipedia                  | Manufacturer archives         |
 | offroad features | Manufacturer specs         | Forum research (IH8MUD, etc.) |
+| passion          | Reddit, forums, aftermarket sites | KBB/Edmunds resale data    |
 
 See the **Web Research Guide** in [README.md](README.md#web-research-guide-for-llm-agents) for search strategy.
 

@@ -59,6 +59,8 @@ describe('vehicles.json schema validation', () => {
       expect(v.reliability).toBeLessThanOrEqual(10);
       expect(v.performance).toBeGreaterThanOrEqual(1);
       expect(v.performance).toBeLessThanOrEqual(10);
+      expect(v.passion).toBeGreaterThanOrEqual(1);
+      expect(v.passion).toBeLessThanOrEqual(10);
 
       // Physical measurements
       expect(typeof v.cargo).toBe('number');
