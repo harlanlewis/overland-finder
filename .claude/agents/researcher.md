@@ -105,7 +105,7 @@ Use these to calibrate your scoring. They are specific entries, not whole namepl
 
 | Anchor id | Vehicle | Expected | Rationale |
 |-----------|---------|----------|-----------|
-| `wrangler_2dr_jl` | Jeep Wrangler 2-Door Rubicon (JL, gas) | 9.5–10 | Maximum on every axis. Defines "passion vehicle." |
+| `wrangler_2dr_jl` | Jeep Wrangler 2-Door Rubicon (JL, gas) | 9.5–10 | Defines "passion vehicle": maximum on every axis except resale, which is strong rather than extreme |
 | `lc200` | Toyota Land Cruiser (200 Series) | 9–9.5 | ih8mud, global heritage, absurd resale, "go-anywhere" icon |
 | `defender_classic` | Land Rover Defender 110 (classic) | 9–9.5 | Camel Trophy, Africa, exploration incarnate |
 | `4runner` | Toyota 4Runner TRD Pro (6th gen) | 7.5–8.5 | Massive mod community, strong resale, trail culture staple |

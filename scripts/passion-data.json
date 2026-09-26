@@ -72,7 +72,7 @@
       "aftermarket": "Icon Vehicle Dynamics, King Shocks, OME for suspension; CBI Offroad, C4 Fabrication, RCI Metalworks for armor and bumpers; Gobi Racks, Prinsu Design Studio for roof racks; dozens of brands, full overland build-out possible across all categories",
       "heritage": "Since 1984 (6th generation arriving 2025), evolved from Hilux-based pickup to dedicated mid-size SUV; strong trail culture heritage spanning 40+ years; recognized as 'the trail SUV' within automotive community; less global icon status than LC or Wrangler but well-known",
       "identity": "Strong trail community with organized trail runs and 4Runner meetups; active Instagram culture (#4RunnerMafia, #4RunnerLifestyle); owners are loyal advocates who resist selling; less formalized than Jeep Wave but clear tribal signals and strong online presence",
-      "resale": "4Runners hold value well above midsize SUV segment average; TRD Pro commands $5K-$10K used premiums over other trims; 5-year retention ~65-70% per KBB; notably above what specs and reviews predict but not as extreme as LC or Wrangler"
+      "resale": "4Runners hold value well above midsize SUV segment average; TRD Pro commands $5K-$10K used premiums over other trims; 5-year retention ~65-70% per KBB; notably above what specs and reviews predict but not as extreme as the Land Cruiser"
     },
     "note": "The enthusiast SUV sweet spot — accessible enough to be popular, capable enough to earn genuine trail cred, and retains value beyond its specs"
   },
@@ -702,7 +702,7 @@
       "aftermarket": "Strong aftermarket but narrower than JK/JL due to age and 2-door-only production; TeraFlex, Rough Country, Smittybilt, Bestop all support TJ; some TJ-specific companies winding down but catalog still deep; slightly less than JK/JL's breadth",
       "heritage": "Last Wrangler with the legendary 4.0L inline-6; coil spring upgrade from YJ; first Wrangler with coil link front suspension; seen as the 'pure' analog Wrangler; shares full Willys lineage",
       "identity": "TJ owners are often the most passionate purists in the Wrangler community; 'last real Wrangler' sentiment; full Jeep Wave participation; strong trail rig culture; these vehicles are built, driven hard, and kept forever",
-      "resale": "Clean TJ Rubicons (2003-2006) command $15K-25K despite being 20+ years old; 4.0L I6 TJs hold value well above what age/mileage predict; not quite as extreme as JK/JL but very strong for a 1997-2006 vehicle"
+      "resale": "Clean TJ Rubicons (2003-2006) command $15K-25K despite being 20+ years old; 4.0L I6 TJs hold value well above what age/mileage predict; on par with JK/JL for its age"
     },
     "note": "The purist's Wrangler — last 4.0L I6, last simple analog Jeep; owners are fiercely loyal and aftermarket remains strong for a 20+ year old platform"
   },
@@ -1662,7 +1662,7 @@
       "aftermarket": "Shares JL Wrangler platform so many parts cross over; bed-specific accessories (rack systems, bed caps, RTTs); Bestop, Mopar, AEV, Warn, ARB support the JT; growing but less mature than Wrangler aftermarket; full build-out possible",
       "heritage": "Gladiator nameplate revived from 1963-1988 Jeep truck; Wrangler-based truck is unique in the market; however the JT is only one generation old (2020+); heritage score reflects strong Jeep brand halo but shorter truck-specific lineage",
       "identity": "Gladiator owners participate in Jeep Wave and trail culture; Rubicon Gladiator owners are trail-focused; growing meetup scene; some identity tension between 'Wrangler people' and 'truck people'; Rubicon trim buyers lean enthusiast",
-      "resale": "Gladiator Rubicon holds value well but not the extreme premium of Wrangler Rubicon; slightly above average for midsize truck segment; Mojave trim competes for attention"
+      "resale": "Gladiator Rubicon holds value well, below the gas Wrangler Rubicon's premium; slightly above average for midsize truck segment; Mojave trim competes for attention"
     },
     "note": "Wrangler-based truck with growing community; benefits from Jeep ecosystem but distinct from Wrangler identity; Rubicon trim is the enthusiast's choice"
   },
@@ -1671,15 +1671,15 @@
     "aftermarket": 1.5,
     "heritage": 2,
     "identity": 1.5,
-    "resale_premium": 0.5,
+    "resale_premium": 1,
     "sources": {
       "community": "Full access to r/Jeep 800K, r/Wrangler 100K+, JLWranglerForums.com; Sahara owners are part of the Wrangler community but tend toward lifestyle/daily-driver discussions rather than trail reports",
       "aftermarket": "Same JL platform so most parts fit, but Sahara buyers are less likely to build out; Sahara-specific aftermarket skews toward appearance mods (wheels, tires, light bars) rather than full off-road builds; deep catalog available but engagement is lower",
       "heritage": "Same Willys/Wrangler lineage; Sahara trim has existed since the YJ generation (1987); positioned as the more refined Wrangler",
       "identity": "Sahara owners participate in Jeep Wave and Jeep culture but identity is somewhat diluted — Sahara is the 'mall crawler' in Rubicon owner parlance; visible Jeep tribal membership but less trail-focused identity",
-      "resale": "Sahara holds value well for the segment but not the extreme premium of Rubicon; more typical SUV depreciation curve; no significant irrational premium beyond general Wrangler brand strength"
+      "resale": "iSeeCars puts the Wrangler nameplate at 34% lost over 5 yrs vs 41.7% for all vehicles, and the Rubicon at about 35.6%, so the Sahara retains value about as well as the Rubicon; a notable premium given poor reliability ratings, strong rather than extreme since the post-2022 softening"
     },
-    "note": "The street-oriented Wrangler — benefits from the full community ecosystem but identity and resale are softer than Rubicon; the 'daily driver' Wrangler"
+    "note": "The street-oriented Wrangler: benefits from the full community ecosystem and Wrangler resale, but its owner identity is softer than the Rubicon's; the 'daily driver' Wrangler"
   },
   "tacoma_trd_pro": {
     "community": 2.5,
@@ -2802,7 +2802,7 @@
       "aftermarket": "Full JK aftermarket applies — deepest catalog of any Wrangler generation; 2-door specific parts (soft tops, roll cages) widely available from Bestop, Smittybilt, etc.",
       "heritage": "Same Willys lineage; 2-door JK represents the classic Wrangler form in the modern era; last 2-door Wrangler generation widely available used at accessible prices",
       "identity": "Full Jeep tribal identity; 2-door JK owners are often dedicated trail builders; short wheelbase crawling culture; strong 'keep it simple' ethos",
-      "resale": "2-door JK Rubicons hold value very well for 2007-2018 vehicles; $20-30K for clean examples; strong but not as extreme as current-gen 2dr JL"
+      "resale": "2-door JK Rubicons hold value very well for 2007-2018 vehicles; $20-30K for clean examples; strong, on par with the current-gen 2dr JL"
     },
     "note": "Classic modern short-wheelbase Wrangler; full community access, strong resale for its age, the accessible entry to 2-door Jeep culture"
   },
