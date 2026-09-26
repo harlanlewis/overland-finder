@@ -64,7 +64,7 @@
       "very_quiet": 1.5
     }
   },
-  "4runner": {
+  "toyota-4runner-trd-pro-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -76,7 +76,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2025"
   },
-  "4runner_ltd": {
+  "toyota-4runner-limited-2024": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -90,7 +90,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2025"
   },
-  "4runner_trd_orp": {
+  "toyota-4runner-trd-off-road-premium-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -102,7 +102,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2025"
   },
-  "runner_sr5": {
+  "toyota-4runner-sr5-2024": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -111,7 +111,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2025"
   },
-  "runner_venture": {
+  "toyota-4runner-trailhunter-2024": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -121,7 +121,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2025"
   },
-  "4runner_5g_trd_pro": {
+  "toyota-4runner-trd-pro-2015": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -130,7 +130,7 @@
     "quietness": "average",
     "source": "Toyota specs 2024"
   },
-  "4runner_5g_trd_or": {
+  "toyota-4runner-trd-off-road-2010": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -139,14 +139,14 @@
     "quietness": "average",
     "source": "Toyota specs 2024"
   },
-  "4runner_5g_sr5": {
+  "toyota-4runner-sr5-2010": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "average",
     "source": "Toyota specs 2024"
   },
-  "runner_sport": {
+  "toyota-4runner-trd-sport-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -158,7 +158,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2025"
   },
-  "gx": {
+  "lexus-gx-550-overtrail-2024": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -174,7 +174,7 @@
     "quietness": "very_quiet",
     "source": "Lexus configurator 2025"
   },
-  "gx_prem": {
+  "lexus-gx-550-premium-plus-2024": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -190,7 +190,7 @@
     "quietness": "very_quiet",
     "source": "Lexus configurator 2025"
   },
-  "gx460": {
+  "lexus-gx-460-2010": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -202,7 +202,7 @@
     "quietness": "quiet",
     "source": "Lexus specs 2023"
   },
-  "gx470": {
+  "lexus-gx-470-2003": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -211,7 +211,7 @@
     "quietness": "quiet",
     "source": "Lexus specs 2009"
   },
-  "lc": {
+  "toyota-land-cruiser-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -223,7 +223,7 @@
     "quietness": "quiet",
     "source": "Toyota configurator 2025"
   },
-  "lc200": {
+  "toyota-land-cruiser-2008": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -235,7 +235,7 @@
     "quietness": "quiet",
     "source": "Toyota specs 2021"
   },
-  "lc100": {
+  "toyota-land-cruiser-1998": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -244,14 +244,14 @@
     "quietness": "average",
     "source": "Toyota specs 2007"
   },
-  "lc80": {
+  "toyota-land-cruiser-1990": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Toyota specs 1997"
   },
-  "lx570": {
+  "lexus-lx-570-2008": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -264,7 +264,7 @@
     "quietness": "very_quiet",
     "source": "Lexus specs 2021"
   },
-  "lx": {
+  "lexus-lx-600-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -280,7 +280,7 @@
     "quietness": "very_quiet",
     "source": "Lexus configurator 2025"
   },
-  "lx700h": {
+  "lexus-lx-700h-2025": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -296,7 +296,7 @@
     "quietness": "very_quiet",
     "source": "Lexus 2025 LX 700h"
   },
-  "lx700h_ot": {
+  "lexus-lx-700h-overtrail-2025": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -311,7 +311,7 @@
     "quietness": "very_quiet",
     "source": "Lexus 2025 LX 700h Overtrail"
   },
-  "sequoia": {
+  "toyota-sequoia-trd-pro-2023": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -324,7 +324,7 @@
     "quietness": "quiet",
     "source": "Toyota configurator 2025"
   },
-  "sequoia_ltd": {
+  "toyota-sequoia-limited-2023": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -338,7 +338,7 @@
     "quietness": "quiet",
     "source": "Toyota configurator 2025"
   },
-  "sequoia_2g": {
+  "toyota-sequoia-2008": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -347,14 +347,14 @@
     "quietness": "average",
     "source": "Toyota specs 2022"
   },
-  "fj_cruiser": {
+  "toyota-fj-cruiser-2007": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Toyota specs 2014"
   },
-  "defender": {
+  "land-rover-defender-110-v8-2020": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -369,7 +369,7 @@
     "quietness": "quiet",
     "source": "Land Rover configurator 2025"
   },
-  "defender_s": {
+  "land-rover-defender-110-s-2020": {
     "interior": "leather",
     "features": [
       "air_suspension"
@@ -381,7 +381,7 @@
     "quietness": "quiet",
     "source": "Land Rover configurator 2025"
   },
-  "defender_130": {
+  "land-rover-defender-130-2020": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -395,14 +395,14 @@
     "quietness": "quiet",
     "source": "Land Rover configurator 2025"
   },
-  "defender_classic": {
+  "land-rover-defender-classic-1983": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Land Rover specs 2016"
   },
-  "disco_lr4": {
+  "land-rover-lr4-2010": {
     "interior": "leather",
     "features": [
       "air_suspension",
@@ -412,7 +412,7 @@
     "quietness": "average",
     "source": "Land Rover specs 2016"
   },
-  "disco_5": {
+  "land-rover-discovery-2017": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -426,7 +426,7 @@
     "quietness": "quiet",
     "source": "Land Rover specs 2024"
   },
-  "rr_sport": {
+  "land-rover-range-rover-sport-2023": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -443,7 +443,7 @@
     "quietness": "very_quiet",
     "source": "Land Rover configurator 2025"
   },
-  "rr_full": {
+  "land-rover-range-rover-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -460,7 +460,7 @@
     "quietness": "very_quiet",
     "source": "Land Rover configurator 2025"
   },
-  "gc4xe": {
+  "jeep-grand-cherokee-4xe-summit-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -476,7 +476,7 @@
     "quietness": "quiet",
     "source": "Jeep configurator 2025"
   },
-  "gc4xe_ol": {
+  "jeep-grand-cherokee-4xe-overland-2022": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -490,7 +490,7 @@
     "quietness": "quiet",
     "source": "Jeep configurator 2025"
   },
-  "gc_trailhawk": {
+  "jeep-grand-cherokee-4xe-trailhawk-2022": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -503,7 +503,7 @@
     "quietness": "average",
     "source": "Jeep configurator 2025"
   },
-  "gc_wk2": {
+  "jeep-grand-cherokee-2011": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -515,7 +515,7 @@
     "quietness": "average",
     "source": "Jeep specs 2021"
   },
-  "gc_wk2_th": {
+  "jeep-grand-cherokee-trailhawk-2017": {
     "interior": "leather",
     "features": [
       "air_suspension"
@@ -526,7 +526,7 @@
     "quietness": "average",
     "source": "Jeep specs 2021"
   },
-  "wagoneer": {
+  "jeep-wagoneer-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -543,7 +543,7 @@
     "quietness": "quiet",
     "source": "Jeep configurator 2025"
   },
-  "gwagoneer": {
+  "jeep-grand-wagoneer-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -560,7 +560,7 @@
     "quietness": "very_quiet",
     "source": "Jeep configurator 2025"
   },
-  "wrangler_rubicon": {
+  "jeep-wrangler-4xe-rubicon-2021": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -569,7 +569,7 @@
     "quietness": "loud",
     "source": "Jeep configurator 2025"
   },
-  "wrangler_jl": {
+  "jeep-wrangler-rubicon-2018": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -578,21 +578,21 @@
     "quietness": "loud",
     "source": "Jeep specs 2024"
   },
-  "wrangler_jk": {
+  "jeep-wrangler-rubicon-2007": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Jeep specs 2018"
   },
-  "wrangler_tj": {
+  "jeep-wrangler-1997": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Jeep specs 2006"
   },
-  "bronco": {
+  "ford-bronco-badlands-2025": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -601,7 +601,7 @@
     "quietness": "loud",
     "source": "Ford configurator 2025"
   },
-  "bronco_ob": {
+  "ford-bronco-outer-banks-2021": {
     "interior": "leather",
     "features": [],
     "tech": [
@@ -610,7 +610,7 @@
     "quietness": "average",
     "source": "Ford configurator 2025"
   },
-  "bronco_raptor": {
+  "ford-bronco-raptor-2021": {
     "interior": "leather",
     "features": [],
     "tech": [
@@ -620,7 +620,7 @@
     "quietness": "loud",
     "source": "Ford configurator 2025"
   },
-  "bronco_21_24": {
+  "ford-bronco-badlands-2021": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -629,7 +629,7 @@
     "quietness": "loud",
     "source": "Ford specs 2024"
   },
-  "expedition": {
+  "ford-expedition-timberline-2018": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -642,7 +642,7 @@
     "quietness": "quiet",
     "source": "Ford configurator 2025"
   },
-  "expedition_4g": {
+  "ford-expedition-2018": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -654,14 +654,14 @@
     "quietness": "quiet",
     "source": "Ford specs 2024"
   },
-  "excursion": {
+  "ford-excursion-2000": {
     "interior": "leather",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Ford specs 2005"
   },
-  "tahoe_z71": {
+  "chevrolet-tahoe-z71-2025": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -675,7 +675,7 @@
     "quietness": "quiet",
     "source": "Chevrolet configurator 2025"
   },
-  "tahoe_5g": {
+  "chevrolet-tahoe-z71-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -688,7 +688,7 @@
     "quietness": "quiet",
     "source": "Chevrolet specs 2024"
   },
-  "tahoe_4g": {
+  "chevrolet-tahoe-z71-2015": {
     "interior": "leather",
     "features": [
       "ventilated_seats"
@@ -699,7 +699,7 @@
     "quietness": "average",
     "source": "Chevrolet specs 2020"
   },
-  "yukon_at4": {
+  "gmc-yukon-at4-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -714,7 +714,7 @@
     "quietness": "quiet",
     "source": "GMC configurator 2025"
   },
-  "escalade_v": {
+  "cadillac-escalade-v-2021": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -730,7 +730,7 @@
     "quietness": "very_quiet",
     "source": "Cadillac configurator 2025"
   },
-  "gle": {
+  "mercedes-benz-gle-450-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -746,7 +746,7 @@
     "quietness": "very_quiet",
     "source": "Mercedes configurator 2025"
   },
-  "gle350de": {
+  "mercedes-benz-gle-350de-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -762,7 +762,7 @@
     "quietness": "very_quiet",
     "source": "Mercedes configurator 2025"
   },
-  "gls": {
+  "mercedes-benz-gls-580-2020": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -779,7 +779,7 @@
     "quietness": "very_quiet",
     "source": "Mercedes configurator 2025"
   },
-  "gwagen": {
+  "mercedes-benz-g-class-g-550-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -793,7 +793,7 @@
     "quietness": "quiet",
     "source": "Mercedes configurator 2025"
   },
-  "gwagen_amg": {
+  "mercedes-benz-g-class-amg-g-63-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -808,7 +808,7 @@
     "quietness": "quiet",
     "source": "Mercedes configurator 2025"
   },
-  "gwagen_w463": {
+  "mercedes-benz-g-class-1990": {
     "interior": "leather",
     "features": [
       "ventilated_seats"
@@ -819,7 +819,7 @@
     "quietness": "average",
     "source": "Mercedes specs 2018"
   },
-  "g580_eq": {
+  "mercedes-benz-g-class-g-580-eq-2024": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -834,7 +834,7 @@
     "quietness": "very_quiet",
     "source": "Mercedes configurator 2025"
   },
-  "eqs_suv": {
+  "mercedes-benz-eqs-suv-2023": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -851,7 +851,7 @@
     "quietness": "very_quiet",
     "source": "Mercedes configurator 2025"
   },
-  "x5": {
+  "bmw-x5-xdrive50e-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -868,7 +868,7 @@
     "quietness": "very_quiet",
     "source": "BMW configurator 2025"
   },
-  "x7": {
+  "bmw-x7-xdrive40i-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -885,7 +885,7 @@
     "quietness": "very_quiet",
     "source": "BMW configurator 2025"
   },
-  "xm": {
+  "bmw-xm-2023": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -902,7 +902,7 @@
     "quietness": "quiet",
     "source": "BMW configurator 2025"
   },
-  "ix_xdrive50": {
+  "bmw-ix-xdrive50-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -919,7 +919,7 @@
     "quietness": "very_quiet",
     "source": "BMW configurator 2025"
   },
-  "cayenne": {
+  "porsche-cayenne-2019": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -933,7 +933,7 @@
     "quietness": "quiet",
     "source": "Porsche configurator 2025"
   },
-  "cayenne_ehybrid": {
+  "porsche-cayenne-e-hybrid-2019": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -947,7 +947,7 @@
     "quietness": "quiet",
     "source": "Porsche configurator 2025"
   },
-  "cayenne_turbo": {
+  "porsche-cayenne-turbo-e-hybrid-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -964,7 +964,7 @@
     "quietness": "quiet",
     "source": "Porsche configurator 2025"
   },
-  "cayenne_coupe": {
+  "porsche-cayenne-coupe-2019": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -978,7 +978,7 @@
     "quietness": "quiet",
     "source": "Porsche configurator 2025"
   },
-  "q8": {
+  "audi-q8-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -995,7 +995,7 @@
     "quietness": "very_quiet",
     "source": "Audi configurator 2025"
   },
-  "sq8": {
+  "audi-sq8-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1012,7 +1012,7 @@
     "quietness": "very_quiet",
     "source": "Audi configurator 2025"
   },
-  "rsq8": {
+  "audi-rs-q8-2020": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1029,7 +1029,7 @@
     "quietness": "very_quiet",
     "source": "Audi configurator 2025"
   },
-  "r1s": {
+  "rivian-r1s-adventure-2022": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1044,7 +1044,7 @@
     "quietness": "very_quiet",
     "source": "Rivian configurator 2025"
   },
-  "r1s_perf": {
+  "rivian-r1s-dual-max-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1060,7 +1060,7 @@
     "quietness": "very_quiet",
     "source": "Rivian configurator 2025"
   },
-  "hummer_ev": {
+  "gmc-hummer-ev-suv-2024": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1074,7 +1074,7 @@
     "quietness": "quiet",
     "source": "GMC configurator 2025"
   },
-  "hummer_h2": {
+  "hummer-h2-2003": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -1083,7 +1083,7 @@
     "quietness": "loud",
     "source": "Hummer specs 2009"
   },
-  "cybertruck": {
+  "tesla-cybertruck-awd-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -1094,7 +1094,7 @@
     "quietness": "quiet",
     "source": "Tesla configurator 2025"
   },
-  "cybertruck_beast": {
+  "tesla-cybertruck-cyberbeast-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -1105,7 +1105,7 @@
     "quietness": "quiet",
     "source": "Tesla configurator 2025"
   },
-  "model_x": {
+  "tesla-model-x-2016": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats",
@@ -1119,7 +1119,7 @@
     "quietness": "very_quiet",
     "source": "Tesla configurator 2025"
   },
-  "montero": {
+  "mitsubishi-outlander-phev-2022": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1128,21 +1128,21 @@
     "quietness": "average",
     "source": "Mitsubishi configurator 2025"
   },
-  "montero_sport": {
+  "mitsubishi-montero-sport-1997": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Mitsubishi specs 2004"
   },
-  "montero_gen3": {
+  "mitsubishi-montero-2001": {
     "interior": "leather",
     "features": [],
     "tech": [],
     "quietness": "average",
     "source": "Mitsubishi specs 2006"
   },
-  "xc90_recharge": {
+  "volvo-xc90-recharge-2015": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1159,7 +1159,7 @@
     "quietness": "very_quiet",
     "source": "Volvo configurator 2025"
   },
-  "ex90": {
+  "volvo-ex90-2024": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1176,7 +1176,7 @@
     "quietness": "very_quiet",
     "source": "Volvo configurator 2025"
   },
-  "gv80": {
+  "genesis-gv80-2021": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1193,28 +1193,28 @@
     "quietness": "very_quiet",
     "source": "Genesis configurator 2025"
   },
-  "xterra": {
+  "nissan-xterra-2005": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Nissan specs 2015"
   },
-  "pathfinder_r51": {
+  "nissan-pathfinder-2005": {
     "interior": "leather",
     "features": [],
     "tech": [],
     "quietness": "average",
     "source": "Nissan specs 2012"
   },
-  "patrol_y61": {
+  "nissan-patrol-1997": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Nissan specs 2013"
   },
-  "4wd_suburban": {
+  "chevrolet-suburban-4wd-2015": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1226,14 +1226,14 @@
     "quietness": "quiet",
     "source": "Chevrolet specs 2020"
   },
-  "trooper": {
+  "isuzu-trooper-1992": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Isuzu specs 2002"
   },
-  "navigator": {
+  "lincoln-navigator-reserve-2018": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1250,7 +1250,7 @@
     "quietness": "very_quiet",
     "source": "Lincoln configurator 2025"
   },
-  "aviator": {
+  "lincoln-aviator-black-label-2020": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1267,7 +1267,7 @@
     "quietness": "very_quiet",
     "source": "Lincoln configurator 2025"
   },
-  "qx80": {
+  "infiniti-qx80-2024": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1283,7 +1283,7 @@
     "quietness": "very_quiet",
     "source": "Infiniti configurator 2025"
   },
-  "mdx_type_s": {
+  "acura-mdx-type-s-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1300,7 +1300,7 @@
     "quietness": "very_quiet",
     "source": "Acura configurator 2025"
   },
-  "telluride_xpro": {
+  "kia-telluride-x-pro-2020": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1315,7 +1315,7 @@
     "quietness": "quiet",
     "source": "Kia configurator 2025"
   },
-  "palisade": {
+  "hyundai-palisade-calligraphy-2020": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1331,7 +1331,7 @@
     "quietness": "quiet",
     "source": "Hyundai configurator 2025"
   },
-  "pilot_trailsport": {
+  "honda-pilot-trailsport-2023": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1344,7 +1344,7 @@
     "quietness": "quiet",
     "source": "Honda configurator 2025"
   },
-  "passport_trailsport": {
+  "honda-passport-trailsport-2019": {
     "interior": "leather",
     "features": [
       "ventilated_seats"
@@ -1356,7 +1356,7 @@
     "quietness": "quiet",
     "source": "Honda configurator 2025"
   },
-  "cx90_phev": {
+  "mazda-cx-90-phev-2024": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1371,7 +1371,7 @@
     "quietness": "quiet",
     "source": "Mazda configurator 2025"
   },
-  "santa_fe_xrt": {
+  "hyundai-santa-fe-xrt-2024": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1384,7 +1384,7 @@
     "quietness": "quiet",
     "source": "Hyundai configurator 2025"
   },
-  "outback_wilderness": {
+  "subaru-outback-wilderness-2022": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -1394,7 +1394,7 @@
     "quietness": "average",
     "source": "Subaru configurator 2025"
   },
-  "forester_wilderness": {
+  "subaru-forester-wilderness-2022": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -1404,7 +1404,7 @@
     "quietness": "average",
     "source": "Subaru configurator 2025"
   },
-  "sorento_phev": {
+  "kia-sorento-sx-prestige-phev-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1419,7 +1419,7 @@
     "quietness": "quiet",
     "source": "Kia configurator 2025"
   },
-  "gladiator_rubicon": {
+  "jeep-gladiator-rubicon-2020": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1428,7 +1428,7 @@
     "quietness": "loud",
     "source": "Jeep configurator 2025"
   },
-  "wrangler_sahara": {
+  "jeep-wrangler-sahara-2018": {
     "interior": "leather",
     "features": [
       "ventilated_seats"
@@ -1440,7 +1440,7 @@
     "quietness": "average",
     "source": "Jeep configurator 2025"
   },
-  "tacoma_trd_pro": {
+  "toyota-tacoma-trd-pro-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -1452,7 +1452,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2025"
   },
-  "tx_550h": {
+  "lexus-tx-550h-plus-2024": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1468,7 +1468,7 @@
     "quietness": "very_quiet",
     "source": "Lexus configurator 2025"
   },
-  "gv70": {
+  "genesis-gv70-3-5t-sport-prestige-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1484,7 +1484,7 @@
     "quietness": "very_quiet",
     "source": "Genesis configurator 2025"
   },
-  "escalade": {
+  "cadillac-escalade-sport-2021": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1500,7 +1500,7 @@
     "quietness": "very_quiet",
     "source": "Cadillac configurator 2025"
   },
-  "defender_90": {
+  "land-rover-defender-90-s-2020": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1515,7 +1515,7 @@
     "quietness": "quiet",
     "source": "Land Rover configurator 2025"
   },
-  "gc_l_overland": {
+  "jeep-grand-cherokee-l-overland-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1531,7 +1531,7 @@
     "quietness": "quiet",
     "source": "Jeep configurator 2025"
   },
-  "lc_first_ed": {
+  "toyota-land-cruiser-first-edition-2024": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1545,7 +1545,7 @@
     "quietness": "quiet",
     "source": "Toyota configurator 2024"
   },
-  "qx80_2g": {
+  "infiniti-qx80-2014": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1559,7 +1559,7 @@
     "quietness": "quiet",
     "source": "Infiniti specs 2024"
   },
-  "f150_raptor": {
+  "ford-f-150-raptor-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats"
@@ -1571,7 +1571,7 @@
     "quietness": "loud",
     "source": "Ford configurator 2024"
   },
-  "f150_tremor": {
+  "ford-f-150-tremor-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats"
@@ -1583,7 +1583,7 @@
     "quietness": "average",
     "source": "Ford configurator 2024"
   },
-  "tundra_trd_pro": {
+  "toyota-tundra-trd-pro-2022": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -1595,7 +1595,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2024"
   },
-  "tundra_1794": {
+  "toyota-tundra-1794-edition-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1608,7 +1608,7 @@
     "quietness": "quiet",
     "source": "Toyota configurator 2024"
   },
-  "silverado_zr2": {
+  "chevrolet-silverado-1500-zr2-2022": {
     "interior": "leather",
     "features": [
       "ventilated_seats"
@@ -1620,7 +1620,7 @@
     "quietness": "average",
     "source": "Chevrolet configurator 2024"
   },
-  "colorado_zr2": {
+  "chevrolet-colorado-zr2-2023": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1630,7 +1630,7 @@
     "quietness": "average",
     "source": "Chevrolet configurator 2024"
   },
-  "ram_trx": {
+  "ram-1500-trx-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1643,7 +1643,7 @@
     "quietness": "average",
     "source": "Ram configurator 2024"
   },
-  "ram_rebel": {
+  "ram-1500-rebel-2019": {
     "interior": "leather",
     "features": [
       "ventilated_seats"
@@ -1655,7 +1655,7 @@
     "quietness": "average",
     "source": "Ram configurator 2024"
   },
-  "ranger_raptor": {
+  "ford-ranger-raptor-2024": {
     "interior": "leather",
     "features": [],
     "tech": [
@@ -1665,7 +1665,7 @@
     "quietness": "loud",
     "source": "Ford configurator 2024"
   },
-  "renegade_trailhawk": {
+  "jeep-renegade-trailhawk-2015": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -1674,7 +1674,7 @@
     "quietness": "average",
     "source": "Jeep configurator 2025"
   },
-  "compass_trailhawk": {
+  "jeep-compass-trailhawk-2017": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1684,7 +1684,7 @@
     "quietness": "average",
     "source": "Jeep configurator 2025"
   },
-  "rav4_trd_or": {
+  "toyota-rav4-trd-off-road-2020": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1694,7 +1694,7 @@
     "quietness": "average",
     "source": "Toyota configurator 2025"
   },
-  "crosstrek_wilderness": {
+  "subaru-crosstrek-wilderness-2024": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -1704,7 +1704,7 @@
     "quietness": "average",
     "source": "Subaru configurator 2025"
   },
-  "bronco_sport_badlands": {
+  "ford-bronco-sport-badlands-2021": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1713,7 +1713,7 @@
     "quietness": "average",
     "source": "Ford configurator 2025"
   },
-  "cx50_meridian": {
+  "mazda-cx-50-meridian-edition-2023": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1728,7 +1728,7 @@
     "quietness": "quiet",
     "source": "Mazda configurator 2025"
   },
-  "tucson_xrt": {
+  "hyundai-tucson-xrt-2022": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1738,7 +1738,7 @@
     "quietness": "quiet",
     "source": "Hyundai configurator 2025"
   },
-  "sportage_xpro": {
+  "kia-sportage-x-pro-2023": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1748,49 +1748,49 @@
     "quietness": "quiet",
     "source": "Kia configurator 2025"
   },
-  "samurai": {
+  "suzuki-samurai-1986": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Suzuki specs 1995 - basic, utilitarian interior"
   },
-  "sidekick": {
+  "suzuki-sidekick-1989": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Suzuki specs 1998 - basic compact SUV interior"
   },
-  "tracker": {
+  "geo-tracker-1989": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Geo specs 1998 - same as Sidekick"
   },
-  "grand_vitara": {
+  "suzuki-grand-vitara-2006": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "average",
     "source": "Suzuki specs 2013 - improved refinement over Sidekick"
   },
-  "rodeo": {
+  "isuzu-rodeo-1998": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "average",
     "source": "Isuzu specs 2004 - mid-range compact SUV"
   },
-  "amigo": {
+  "isuzu-amigo-1998": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud",
     "source": "Isuzu specs 2000 - basic 2-door SUV"
   },
-  "rav4_hybrid": {
+  "toyota-rav4-hybrid-xse-2019": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1800,7 +1800,7 @@
     "quietness": "quiet",
     "source": "Toyota configurator 2025"
   },
-  "highlander_hybrid": {
+  "toyota-highlander-hybrid-xle-2020": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1813,7 +1813,7 @@
     "quietness": "quiet",
     "source": "Toyota configurator 2025"
   },
-  "venza": {
+  "toyota-venza-xle-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1827,7 +1827,7 @@
     "quietness": "quiet",
     "source": "Toyota configurator 2024"
   },
-  "crv_hybrid": {
+  "honda-cr-v-sport-touring-hybrid-2023": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1840,7 +1840,7 @@
     "quietness": "quiet",
     "source": "Honda configurator 2025"
   },
-  "tucson_hybrid": {
+  "hyundai-tucson-hybrid-limited-2022": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1853,7 +1853,7 @@
     "quietness": "quiet",
     "source": "Hyundai configurator 2025"
   },
-  "santa_fe_hybrid": {
+  "hyundai-santa-fe-hybrid-sel-2024": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1866,7 +1866,7 @@
     "quietness": "quiet",
     "source": "Hyundai configurator 2025"
   },
-  "sportage_hybrid": {
+  "kia-sportage-hybrid-sx-prestige-2023": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1879,7 +1879,7 @@
     "quietness": "quiet",
     "source": "Kia configurator 2025"
   },
-  "sorento_hybrid": {
+  "kia-sorento-hybrid-sx-prestige-2021": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -1894,7 +1894,7 @@
     "quietness": "quiet",
     "source": "Kia configurator 2025"
   },
-  "escape_hybrid": {
+  "ford-escape-hybrid-st-line-2020": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1904,7 +1904,7 @@
     "quietness": "average",
     "source": "Ford configurator 2025"
   },
-  "nx_350h": {
+  "lexus-nx-350h-luxury-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1919,7 +1919,7 @@
     "quietness": "very_quiet",
     "source": "Lexus configurator 2025"
   },
-  "rx_350h": {
+  "lexus-rx-350h-luxury-2023": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1935,7 +1935,7 @@
     "quietness": "very_quiet",
     "source": "Lexus configurator 2025"
   },
-  "tucson_phev": {
+  "hyundai-tucson-limited-phev-2022": {
     "interior": "leather",
     "features": [
       "pano_roof"
@@ -1946,7 +1946,7 @@
     ],
     "quietness": "average"
   },
-  "sportage_phev": {
+  "kia-sportage-x-line-phev-2023": {
     "interior": "leatherette",
     "features": [
       "pano_roof"
@@ -1957,7 +1957,7 @@
     ],
     "quietness": "average"
   },
-  "escape_phev": {
+  "ford-escape-phev-2020": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -1965,7 +1965,7 @@
     ],
     "quietness": "average"
   },
-  "nx_450h_plus": {
+  "lexus-nx-450h-plus-2022": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -1977,7 +1977,7 @@
     ],
     "quietness": "quiet"
   },
-  "rx_450h_plus": {
+  "lexus-rx-450h-plus-luxury-2023": {
     "interior": "premium_leather",
     "features": [
       "premium_audio",
@@ -1990,31 +1990,19 @@
     ],
     "quietness": "very_quiet"
   },
-  "land_cruiser_80": {
-    "interior": "cloth",
-    "features": [],
-    "tech": [],
-    "quietness": "average"
-  },
-  "land_cruiser_100": {
-    "interior": "leather",
-    "features": [],
-    "tech": [],
-    "quietness": "average"
-  },
-  "cherokee_xj": {
+  "jeep-cherokee-1984": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud"
   },
-  "4runner_4th_gen_v8": {
+  "toyota-4runner-v8-limited-2003": {
     "interior": "leather",
     "features": [],
     "tech": [],
     "quietness": "average"
   },
-  "discovery_3_lr3": {
+  "land-rover-discovery-lr3-hse-2005": {
     "interior": "leather",
     "features": [
       "air_suspension"
@@ -2022,13 +2010,13 @@
     "tech": [],
     "quietness": "quiet"
   },
-  "bronco_5th_gen": {
+  "ford-bronco-eddie-bauer-1992": {
     "interior": "leather",
     "features": [],
     "tech": [],
     "quietness": "loud"
   },
-  "atlas_cross_sport_4motion": {
+  "volkswagen-atlas-cross-sport-se-4motion-2020": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -2037,7 +2025,7 @@
     ],
     "quietness": "quiet"
   },
-  "v60_cross_country": {
+  "volvo-v60-cross-country-b5-awd-2019": {
     "interior": "leather",
     "features": [
       "pano_roof"
@@ -2048,7 +2036,7 @@
     ],
     "quietness": "very_quiet"
   },
-  "v90_cross_country": {
+  "volvo-v90-cross-country-b6-awd-2017": {
     "interior": "leather",
     "features": [
       "pano_roof",
@@ -2061,7 +2049,7 @@
     ],
     "quietness": "very_quiet"
   },
-  "canyon_at4x": {
+  "gmc-canyon-at4x-2023": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -2073,7 +2061,7 @@
     ],
     "quietness": "average"
   },
-  "sierra_at4x": {
+  "gmc-sierra-1500-at4x-2022": {
     "interior": "leather",
     "features": [
       "premium_audio",
@@ -2086,7 +2074,7 @@
     ],
     "quietness": "quiet"
   },
-  "ram_1500_ecodiesel": {
+  "ram-1500-laramie-ecodiesel-2020": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -2098,7 +2086,7 @@
     ],
     "quietness": "quiet"
   },
-  "silverado_duramax": {
+  "chevrolet-silverado-1500-lt-duramax-2019": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -2109,7 +2097,7 @@
     ],
     "quietness": "average"
   },
-  "gladiator_ecodiesel": {
+  "jeep-gladiator-rubicon-ecodiesel-2021": {
     "interior": "leather",
     "features": [],
     "tech": [
@@ -2117,7 +2105,7 @@
     ],
     "quietness": "loud"
   },
-  "f150_powerstroke": {
+  "ford-f-150-lariat-power-stroke-2018": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -2129,7 +2117,7 @@
     ],
     "quietness": "quiet"
   },
-  "f150_lightning": {
+  "ford-f-150-lightning-flash-2022": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -2140,7 +2128,7 @@
     ],
     "quietness": "very_quiet"
   },
-  "f150_powerboost": {
+  "ford-f-150-king-ranch-powerboost-2021": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -2152,7 +2140,7 @@
     ],
     "quietness": "quiet"
   },
-  "silverado_ev": {
+  "chevrolet-silverado-ev-rst-2024": {
     "interior": "leather",
     "features": [
       "premium_audio",
@@ -2164,7 +2152,7 @@
     ],
     "quietness": "very_quiet"
   },
-  "hummer_ev_pickup": {
+  "gmc-hummer-ev-pickup-3x-2022": {
     "interior": "premium_leather",
     "features": [
       "air_suspension",
@@ -2178,7 +2166,7 @@
     ],
     "quietness": "quiet"
   },
-  "rav4_prime": {
+  "toyota-rav4-prime-xse-2021": {
     "interior": "leatherette",
     "features": [
       "pano_roof"
@@ -2189,7 +2177,7 @@
     ],
     "quietness": "average"
   },
-  "r1t": {
+  "rivian-r1t-dual-motor-2025": {
     "interior": "leather",
     "features": [
       "air_suspension",
@@ -2202,7 +2190,7 @@
     ],
     "quietness": "very_quiet"
   },
-  "tx_500h": {
+  "lexus-tx-500h-f-sport-2024": {
     "interior": "leather",
     "features": [
       "premium_audio",
@@ -2215,7 +2203,7 @@
     ],
     "quietness": "quiet"
   },
-  "ev9": {
+  "kia-ev9-land-awd-2024": {
     "interior": "leather",
     "features": [
       "pano_roof",
@@ -2228,7 +2216,7 @@
     ],
     "quietness": "very_quiet"
   },
-  "wrangler_4xe_sahara": {
+  "jeep-wrangler-4xe-sahara-2021": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -2238,19 +2226,13 @@
     ],
     "quietness": "average"
   },
-  "xterra_pro4x": {
+  "nissan-xterra-pro-4x-2005": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud"
   },
-  "montero_sport_xls": {
-    "interior": "cloth",
-    "features": [],
-    "tech": [],
-    "quietness": "average"
-  },
-  "wrangler_2dr_jl": {
+  "jeep-wrangler-2-door-rubicon-2018": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2258,19 +2240,19 @@
     ],
     "quietness": "loud"
   },
-  "wrangler_2dr_jk": {
+  "jeep-wrangler-2-door-rubicon-2007": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud"
   },
-  "wrangler_2dr_tj": {
+  "jeep-wrangler-2-door-rubicon-2003": {
     "interior": "cloth",
     "features": [],
     "tech": [],
     "quietness": "loud"
   },
-  "bronco_2dr_badlands": {
+  "ford-bronco-2-door-badlands-2021": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -2278,7 +2260,7 @@
     ],
     "quietness": "average"
   },
-  "maverick_tremor": {
+  "ford-maverick-tremor-2022": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -2288,7 +2270,7 @@
     "quietness": "average",
     "source": "Ford.com 2025 Maverick Tremor"
   },
-  "santa_cruz_sel": {
+  "hyundai-santa-cruz-sel-awd-2022": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2298,7 +2280,7 @@
     "quietness": "average",
     "source": "Hyundai.com 2025 Santa Cruz"
   },
-  "frontier_pro4x": {
+  "nissan-frontier-pro-4x-2022": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2307,7 +2289,7 @@
     "quietness": "average",
     "source": "Nissan.com 2025 Frontier PRO-4X"
   },
-  "tacoma_trd_or": {
+  "toyota-tacoma-trd-off-road-2024": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2317,7 +2299,7 @@
     "quietness": "average",
     "source": "Toyota.com 2025 Tacoma TRD Off-Road"
   },
-  "ranger_xlt": {
+  "ford-ranger-xlt-4wd-2024": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2327,7 +2309,7 @@
     "quietness": "average",
     "source": "Ford.com 2025 Ranger XLT"
   },
-  "ascent_onyx": {
+  "subaru-ascent-onyx-edition-2019": {
     "interior": "leatherette",
     "features": [
       "pano_roof"
@@ -2339,7 +2321,7 @@
     "quietness": "average",
     "source": "Subaru.com 2025 Ascent Onyx"
   },
-  "cx70_phev": {
+  "mazda-cx-70-phev-2025": {
     "interior": "leather",
     "features": [
       "pano_roof",
@@ -2353,7 +2335,7 @@
     "quietness": "quiet",
     "source": "Mazda.com 2025 CX-70 PHEV"
   },
-  "tiguan_se_rline": {
+  "volkswagen-tiguan-se-r-line-4motion-2025": {
     "interior": "leatherette",
     "features": [
       "pano_roof"
@@ -2365,7 +2347,7 @@
     "quietness": "quiet",
     "source": "VW.com 2025 Tiguan SE R-Line"
   },
-  "rdx_aspec": {
+  "acura-rdx-a-spec-sh-awd-2019": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -2379,7 +2361,7 @@
     "quietness": "quiet",
     "source": "Acura.com 2025 RDX A-Spec"
   },
-  "grenadier_trialmaster": {
+  "ineos-grenadier-trialmaster-2024": {
     "interior": "leatherette",
     "features": [],
     "tech": [
@@ -2389,7 +2371,7 @@
     "quietness": "average",
     "source": "Ineos Grenadier configurator"
   },
-  "f150_xlt": {
+  "ford-f-150-xlt-supercrew-4wd-2021": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2399,7 +2381,7 @@
     "quietness": "average",
     "source": "Ford.com 2025 F-150 XLT: 12\" SYNC 4 + 12\" cluster, cloth seats, 6-speaker audio"
   },
-  "tacoma_sr5": {
+  "toyota-tacoma-sr5-double-cab-4wd-2024": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2408,7 +2390,7 @@
     "quietness": "average",
     "source": "Toyota.com 2025 Tacoma SR5: 8\" display, 7\" digital cluster, cloth seats"
   },
-  "silverado_trail_boss": {
+  "chevrolet-silverado-1500-lt-trail-boss-2019": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2418,7 +2400,7 @@
     "quietness": "average",
     "source": "Chevrolet.com 2025 Silverado LT Trail Boss: 13.4\" touchscreen, 12.3\" cluster, heated cloth seats"
   },
-  "ram_1500_big_horn": {
+  "ram-1500-big-horn-crew-cab-4wd-2019": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2428,7 +2410,7 @@
     "quietness": "average",
     "source": "Ram 2025 1500 Big Horn: 12\" Uconnect 5, 7\" cluster, cloth/vinyl seats"
   },
-  "crv_exl": {
+  "honda-cr-v-ex-l-awd-2023": {
     "interior": "leather",
     "features": [],
     "tech": [
@@ -2437,14 +2419,14 @@
     "quietness": "quiet",
     "source": "Honda.com 2025 CR-V EX-L: 9\" display, 7\" cluster, leather seats, moonroof"
   },
-  "hrv_exl": {
+  "honda-hr-v-ex-l-awd-2023": {
     "interior": "leather",
     "features": [],
     "tech": [],
     "quietness": "average",
     "source": "Honda.com 2025 HR-V EX-L: 9\" display, leather seats, moonroof, no digital cluster"
   },
-  "ridgeline_rtl": {
+  "honda-ridgeline-rtl-awd-2017": {
     "interior": "leather",
     "features": [],
     "tech": [
@@ -2453,7 +2435,7 @@
     "quietness": "quiet",
     "source": "Honda 2025 Ridgeline RTL: 9\" display, 7\" TFT cluster, leather, moonroof, heated seats"
   },
-  "q5_quattro": {
+  "audi-q5-premium-plus-45-quattro-2025": {
     "interior": "leather",
     "features": [
       "premium_audio",
@@ -2467,7 +2449,7 @@
     "quietness": "quiet",
     "source": "Audi 2025 Q5 Premium Plus: B&O 3D audio, pano roof, HUD, 11.4\" MMI + 12.3\" Virtual Cockpit, leather"
   },
-  "q7_quattro": {
+  "audi-q7-premium-plus-55-quattro-2017": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -2479,7 +2461,7 @@
     "quietness": "quiet",
     "source": "Audi 2025 Q7 PP: B&O audio standard, 10.1\"+8.6\" displays, 12.3\" Virtual Cockpit, leather. No vent seats/pano/air susp/HUD on PP."
   },
-  "q8_etron": {
+  "audi-q8-e-tron-prestige-quattro-2019": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -2495,7 +2477,7 @@
     "quietness": "very_quiet",
     "source": "Audi 2024 Q8 e-tron Prestige: B&O 3D, pano roof, air susp, vent seats, HUD all standard. EV — very quiet."
   },
-  "a6_allroad": {
+  "audi-a6-allroad-premium-plus-2020": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -2510,7 +2492,7 @@
     "quietness": "very_quiet",
     "source": "Audi 2025 A6 Allroad PP: B&O, pano roof, air susp, vent seats standard. Dual-pane glass. No HUD on PP."
   },
-  "crosstrek_premium": {
+  "subaru-crosstrek-premium-awd-2024": {
     "interior": "cloth",
     "features": [],
     "tech": [
@@ -2519,7 +2501,7 @@
     "quietness": "average",
     "source": "Subaru 2025 Crosstrek Premium: 11.6\" display, cloth, 6-speaker, no digital cluster."
   },
-  "atlas_se": {
+  "volkswagen-atlas-se-4motion-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -2531,7 +2513,7 @@
     "quietness": "quiet",
     "source": "VW 2025 Atlas SE: V-Tex leatherette, vent seats, 12\" touch, 10.25\" Digital Cockpit. 6-speaker."
   },
-  "durango_rt": {
+  "dodge-durango-r-t-awd-2011": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -2543,7 +2525,7 @@
     "quietness": "average",
     "source": "Dodge configurator / Edmunds 2025"
   },
-  "explorer_timberline": {
+  "ford-explorer-timberline-4wd-2022": {
     "interior": "leatherette",
     "features": [
       "premium_audio"
@@ -2554,7 +2536,7 @@
     "quietness": "average",
     "source": "Ford configurator / Edmunds 2025"
   },
-  "armada_platinum": {
+  "nissan-armada-platinum-4wd-2025": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -2568,7 +2550,7 @@
     "quietness": "quiet",
     "source": "Nissan configurator / Edmunds 2025"
   },
-  "rogue_sl": {
+  "nissan-rogue-sl-awd-2021": {
     "interior": "leather",
     "features": [],
     "tech": [
@@ -2578,7 +2560,7 @@
     "quietness": "average",
     "source": "Nissan configurator / Edmunds 2025"
   },
-  "equinox_rs": {
+  "chevrolet-equinox-rs-awd-2025": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats",
@@ -2591,7 +2573,7 @@
     "quietness": "average",
     "source": "Chevrolet configurator / Edmunds 2025"
   },
-  "cx5_turbo": {
+  "mazda-cx-5-2-5-turbo-premium-awd-2017": {
     "interior": "leather",
     "features": [
       "ventilated_seats",
@@ -2604,7 +2586,7 @@
     "quietness": "quiet",
     "source": "Mazda configurator / Edmunds 2025"
   },
-  "x3_xdrive": {
+  "bmw-x3-xdrive30i-2025": {
     "interior": "leatherette",
     "features": [],
     "tech": [

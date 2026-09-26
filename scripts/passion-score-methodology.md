@@ -188,10 +188,10 @@ The `passion-data.json` file follows the standard pattern used by other scoring 
 }
 ```
 
-**Example entry**, abridged from `wrangler_2dr_jl`:
+**Example entry**, abridged from `jeep-wrangler-2-door-rubicon-2018`:
 
 ```json
-"wrangler_2dr_jl": {
+"jeep-wrangler-2-door-rubicon-2018": {
   "community": 2.5,
   "aftermarket": 2,
   "heritage": 2,
@@ -228,15 +228,15 @@ The anchors are specific entries in `passion-data.json`, not whole nameplates. O
 
 | Anchor id | Vehicle | Expected | Rationale |
 |-----------|---------|----------|-----------|
-| `wrangler_2dr_jl` | Jeep Wrangler 2-Door Rubicon (JL, gas) | 9.5–10 | Defines "passion vehicle": maximum on every axis except resale, which is strong rather than extreme |
-| `lc200` | Toyota Land Cruiser (200 Series) | 9–9.5 | ih8mud, global heritage, absurd resale, "go-anywhere" icon |
-| `defender_classic` | Land Rover Defender 110 (classic) | 9–9.5 | Camel Trophy, Africa, exploration incarnate |
-| `4runner` | Toyota 4Runner TRD Pro (6th gen) | 7.5–8.5 | Massive mod community, strong resale, trail culture staple |
-| `bronco` | Ford Bronco Badlands (6th gen) | 7–8 | Heritage revival, strong early community, growing aftermarket |
-| `gc_trailhawk` | Jeep Grand Cherokee 4xe Trailhawk | 5–6 | Some Jeep halo, but more mainstream than tribal |
-| `outback_wilderness` | Subaru Outback Wilderness | 4–5 | Liked but not loved; practical choice, not a passion project |
-| `tahoe_z71` | Chevrolet Tahoe Z71 | 2–3 | Respected workhorse, minimal enthusiast culture |
-| `tucson_xrt` | Hyundai Tucson XRT | 1.5–2 | Competent appliance; no community, heritage, or identity |
+| `jeep-wrangler-2-door-rubicon-2018` | Jeep Wrangler 2-Door Rubicon (JL, gas) | 9.5–10 | Defines "passion vehicle": maximum on every axis except resale, which is strong rather than extreme |
+| `toyota-land-cruiser-2008` | Toyota Land Cruiser (200 Series) | 9–9.5 | ih8mud, global heritage, absurd resale, "go-anywhere" icon |
+| `land-rover-defender-classic-1983` | Land Rover Defender 110 (classic) | 9–9.5 | Camel Trophy, Africa, exploration incarnate |
+| `toyota-4runner-trd-pro-2024` | Toyota 4Runner TRD Pro (6th gen) | 7.5–8.5 | Massive mod community, strong resale, trail culture staple |
+| `ford-bronco-badlands-2025` | Ford Bronco Badlands (6th gen) | 7–8 | Heritage revival, strong early community, growing aftermarket |
+| `jeep-grand-cherokee-4xe-trailhawk-2022` | Jeep Grand Cherokee 4xe Trailhawk | 5–6 | Some Jeep halo, but more mainstream than tribal |
+| `subaru-outback-wilderness-2022` | Subaru Outback Wilderness | 4–5 | Liked but not loved; practical choice, not a passion project |
+| `chevrolet-tahoe-z71-2025` | Chevrolet Tahoe Z71 | 2–3 | Respected workhorse, minimal enthusiast culture |
+| `hyundai-tucson-xrt-2022` | Hyundai Tucson XRT | 1.5–2 | Competent appliance; no community, heritage, or identity |
 
 ---
 
@@ -290,7 +290,7 @@ site:realtruck.com {make} {model}
 
 ### Heritage & Icon Status
 ```bash
-"{make} {model}" "cultural icon" OR "legendary" OR "camel trophy" OR "expedition"
+"{make} {model}" "cultural icon" OR "legendary" OR "camel trophy" OR "ford-expedition-timberline-2018"
 "{make} {model}" wikipedia  # Production years, notable uses
 "{make} {model}" "film" OR "movie" OR "tv"
 ```
@@ -319,7 +319,7 @@ Every vehicle in `src/vehicles.json` has an entry, and the validator warns when 
 
 - **Start from a neighbour.** Find the closest already-scored vehicle (same platform, generation or segment) and score relative to it. In the first full pass, errors showed up as gaps between neighbours that the sources did not explain.
 - **Reuse platform research.** Many vehicles share communities and aftermarkets: Tacoma, 4Runner and Tundra; F-150, Bronco and Ranger; LX and Land Cruiser; GX and the Prado-platform 4Runner. Research the shared source once, then apply the edge-case rules above for rebadges and brand halos.
-- **Check the id against the vehicle.** Some ids are legacy or ambiguous: `montero` is the 2022+ Outlander PHEV, and `wrangler_rubicon` is the plug-in hybrid 4xe. Research the make, model, trim, generation and powertrain in `vehicles.json`, not the id.
+- **Research the exact vehicle.** Ids name the make, model, trim and first model year, but not the generation or powertrain. Read those in `vehicles.json` too: past errors came from evidence for a sibling trim, powertrain or generation, such as gas-Wrangler resale applied to the plug-in 4xe.
 - **Use the `researcher` agent** (`.claude/agents/researcher.md`) for batches. It returns JSON and the session that launched it merges the entries into `passion-data.json`.
 
 ## Sanity Check

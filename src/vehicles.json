@@ -1,6 +1,6 @@
 [
   {
-    "id": "4runner",
+    "id": "toyota-4runner-trd-pro-2024",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "TRD Pro",
@@ -25,7 +25,7 @@
     "passion": 8
   },
   {
-    "id": "4runner_ltd",
+    "id": "toyota-4runner-limited-2024",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "Limited",
@@ -50,7 +50,7 @@
     "passion": 6.5
   },
   {
-    "id": "4runner_trd_orp",
+    "id": "toyota-4runner-trd-off-road-premium-2024",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "TRD Off-Road Premium",
@@ -75,7 +75,7 @@
     "passion": 7.5
   },
   {
-    "id": "runner_sr5",
+    "id": "toyota-4runner-sr5-2024",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "SR5",
@@ -100,7 +100,7 @@
     "passion": 5.5
   },
   {
-    "id": "runner_venture",
+    "id": "toyota-4runner-trailhunter-2024",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "Trailhunter",
@@ -125,7 +125,7 @@
     "passion": 8
   },
   {
-    "id": "4runner_5g_trd_pro",
+    "id": "toyota-4runner-trd-pro-2015",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "TRD Pro",
@@ -150,7 +150,7 @@
     "passion": 8
   },
   {
-    "id": "4runner_5g_trd_or",
+    "id": "toyota-4runner-trd-off-road-2010",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "TRD Off-Road",
@@ -175,7 +175,7 @@
     "passion": 7.5
   },
   {
-    "id": "4runner_5g_sr5",
+    "id": "toyota-4runner-sr5-2010",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "SR5",
@@ -200,7 +200,7 @@
     "passion": 5.5
   },
   {
-    "id": "gx",
+    "id": "lexus-gx-550-overtrail-2024",
     "make": "Lexus",
     "model": "GX 550",
     "trim": "Overtrail",
@@ -225,7 +225,7 @@
     "passion": 5.5
   },
   {
-    "id": "gx_prem",
+    "id": "lexus-gx-550-premium-plus-2024",
     "make": "Lexus",
     "model": "GX 550",
     "trim": "Premium+",
@@ -250,7 +250,7 @@
     "passion": 3.5
   },
   {
-    "id": "gx460",
+    "id": "lexus-gx-460-2010",
     "make": "Lexus",
     "model": "GX 460",
     "trim": null,
@@ -275,7 +275,7 @@
     "passion": 6
   },
   {
-    "id": "gx470",
+    "id": "lexus-gx-470-2003",
     "make": "Lexus",
     "model": "GX 470",
     "trim": null,
@@ -300,7 +300,7 @@
     "passion": 5.5
   },
   {
-    "id": "lc",
+    "id": "toyota-land-cruiser-2024",
     "make": "Toyota",
     "model": "Land Cruiser",
     "trim": null,
@@ -325,7 +325,7 @@
     "passion": 7.5
   },
   {
-    "id": "lc200",
+    "id": "toyota-land-cruiser-2008",
     "make": "Toyota",
     "model": "Land Cruiser",
     "trim": null,
@@ -350,7 +350,7 @@
     "passion": 9
   },
   {
-    "id": "lc100",
+    "id": "toyota-land-cruiser-1998",
     "make": "Toyota",
     "model": "Land Cruiser",
     "trim": null,
@@ -361,7 +361,7 @@
     "mpg": 13,
     "offroad": 8,
     "luxury": 2.7,
-    "cargo": 82,
+    "cargo": 39,
     "reliability": 8.5,
     "performance": 3.5,
     "size": "full",
@@ -375,7 +375,7 @@
     "passion": 8.5
   },
   {
-    "id": "lc80",
+    "id": "toyota-land-cruiser-1990",
     "make": "Toyota",
     "model": "Land Cruiser",
     "trim": null,
@@ -386,7 +386,7 @@
     "mpg": 13,
     "offroad": 9,
     "luxury": 1,
-    "cargo": 91,
+    "cargo": 48,
     "reliability": 8,
     "performance": 2.5,
     "size": "full",
@@ -400,7 +400,7 @@
     "passion": 9
   },
   {
-    "id": "lx570",
+    "id": "lexus-lx-570-2008",
     "make": "Lexus",
     "model": "LX 570",
     "trim": null,
@@ -425,7 +425,7 @@
     "passion": 6
   },
   {
-    "id": "sequoia",
+    "id": "toyota-sequoia-trd-pro-2023",
     "make": "Toyota",
     "model": "Sequoia",
     "trim": "TRD Pro",
@@ -450,7 +450,7 @@
     "passion": 3.5
   },
   {
-    "id": "sequoia_ltd",
+    "id": "toyota-sequoia-limited-2023",
     "make": "Toyota",
     "model": "Sequoia",
     "trim": "Limited",
@@ -475,7 +475,7 @@
     "passion": 2.5
   },
   {
-    "id": "sequoia_2g",
+    "id": "toyota-sequoia-2008",
     "make": "Toyota",
     "model": "Sequoia",
     "trim": null,
@@ -500,7 +500,7 @@
     "passion": 3.5
   },
   {
-    "id": "lx",
+    "id": "lexus-lx-600-2022",
     "make": "Lexus",
     "model": "LX 600",
     "trim": null,
@@ -525,7 +525,7 @@
     "passion": 4
   },
   {
-    "id": "lx700h",
+    "id": "lexus-lx-700h-2025",
     "make": "Lexus",
     "model": "LX 700h",
     "trim": null,
@@ -550,7 +550,7 @@
     "passion": 3.5
   },
   {
-    "id": "lx700h_ot",
+    "id": "lexus-lx-700h-overtrail-2025",
     "make": "Lexus",
     "model": "LX 700h",
     "trim": "Overtrail",
@@ -575,7 +575,7 @@
     "passion": 4
   },
   {
-    "id": "fj_cruiser",
+    "id": "toyota-fj-cruiser-2007",
     "make": "Toyota",
     "model": "FJ Cruiser",
     "trim": null,
@@ -600,7 +600,7 @@
     "passion": 8
   },
   {
-    "id": "defender",
+    "id": "land-rover-defender-110-v8-2020",
     "make": "Land Rover",
     "model": "Defender 110",
     "trim": "V8",
@@ -625,7 +625,7 @@
     "passion": 7.5
   },
   {
-    "id": "defender_s",
+    "id": "land-rover-defender-110-s-2020",
     "make": "Land Rover",
     "model": "Defender 110",
     "trim": "S",
@@ -650,7 +650,7 @@
     "passion": 6.5
   },
   {
-    "id": "defender_130",
+    "id": "land-rover-defender-130-2020",
     "make": "Land Rover",
     "model": "Defender 130",
     "trim": null,
@@ -675,7 +675,7 @@
     "passion": 5.5
   },
   {
-    "id": "defender_classic",
+    "id": "land-rover-defender-classic-1983",
     "make": "Land Rover",
     "model": "Defender",
     "trim": "Classic",
@@ -700,7 +700,7 @@
     "passion": 9
   },
   {
-    "id": "disco_lr4",
+    "id": "land-rover-lr4-2010",
     "make": "Land Rover",
     "model": "LR4",
     "trim": null,
@@ -725,7 +725,7 @@
     "passion": 4
   },
   {
-    "id": "disco_5",
+    "id": "land-rover-discovery-2017",
     "make": "Land Rover",
     "model": "Discovery",
     "trim": null,
@@ -750,7 +750,7 @@
     "passion": 3
   },
   {
-    "id": "rr_sport",
+    "id": "land-rover-range-rover-sport-2023",
     "make": "Land Rover",
     "model": "Range Rover Sport",
     "trim": null,
@@ -775,7 +775,7 @@
     "passion": 2.5
   },
   {
-    "id": "rr_full",
+    "id": "land-rover-range-rover-2022",
     "make": "Land Rover",
     "model": "Range Rover",
     "trim": null,
@@ -800,7 +800,7 @@
     "passion": 4
   },
   {
-    "id": "gc4xe",
+    "id": "jeep-grand-cherokee-4xe-summit-2022",
     "make": "Jeep",
     "model": "Grand Cherokee 4xe",
     "trim": "Summit",
@@ -825,7 +825,7 @@
     "passion": 4
   },
   {
-    "id": "gc4xe_ol",
+    "id": "jeep-grand-cherokee-4xe-overland-2022",
     "make": "Jeep",
     "model": "Grand Cherokee 4xe",
     "trim": "Overland",
@@ -850,7 +850,7 @@
     "passion": 4
   },
   {
-    "id": "gc_trailhawk",
+    "id": "jeep-grand-cherokee-4xe-trailhawk-2022",
     "make": "Jeep",
     "model": "Grand Cherokee 4xe",
     "trim": "Trailhawk",
@@ -875,7 +875,7 @@
     "passion": 5
   },
   {
-    "id": "gc_wk2",
+    "id": "jeep-grand-cherokee-2011",
     "make": "Jeep",
     "model": "Grand Cherokee",
     "trim": null,
@@ -900,7 +900,7 @@
     "passion": 4.5
   },
   {
-    "id": "gc_wk2_th",
+    "id": "jeep-grand-cherokee-trailhawk-2017",
     "make": "Jeep",
     "model": "Grand Cherokee",
     "trim": "Trailhawk",
@@ -925,7 +925,7 @@
     "passion": 5
   },
   {
-    "id": "wagoneer",
+    "id": "jeep-wagoneer-2022",
     "make": "Jeep",
     "model": "Wagoneer",
     "trim": null,
@@ -950,7 +950,7 @@
     "passion": 3
   },
   {
-    "id": "gwagoneer",
+    "id": "jeep-grand-wagoneer-2022",
     "make": "Jeep",
     "model": "Grand Wagoneer",
     "trim": null,
@@ -975,12 +975,12 @@
     "passion": 3
   },
   {
-    "id": "wrangler_rubicon",
+    "id": "jeep-wrangler-4xe-rubicon-2021",
     "make": "Jeep",
     "model": "Wrangler 4xe",
     "trim": "Rubicon",
     "generation": "JL",
-    "yearStart": 2018,
+    "yearStart": 2021,
     "yearEnd": null,
     "price": 62,
     "mpg": 21,
@@ -1000,7 +1000,7 @@
     "passion": 7.5
   },
   {
-    "id": "wrangler_jl",
+    "id": "jeep-wrangler-rubicon-2018",
     "make": "Jeep",
     "model": "Wrangler",
     "trim": "Rubicon",
@@ -1025,7 +1025,7 @@
     "passion": 9.5
   },
   {
-    "id": "wrangler_jk",
+    "id": "jeep-wrangler-rubicon-2007",
     "make": "Jeep",
     "model": "Wrangler",
     "trim": "Rubicon",
@@ -1050,7 +1050,7 @@
     "passion": 9.5
   },
   {
-    "id": "wrangler_tj",
+    "id": "jeep-wrangler-1997",
     "make": "Jeep",
     "model": "Wrangler",
     "trim": null,
@@ -1075,7 +1075,7 @@
     "passion": 9
   },
   {
-    "id": "bronco",
+    "id": "ford-bronco-badlands-2025",
     "make": "Ford",
     "model": "Bronco",
     "trim": "Badlands",
@@ -1100,7 +1100,7 @@
     "passion": 7
   },
   {
-    "id": "bronco_ob",
+    "id": "ford-bronco-outer-banks-2021",
     "make": "Ford",
     "model": "Bronco",
     "trim": "Outer Banks",
@@ -1125,7 +1125,7 @@
     "passion": 5.5
   },
   {
-    "id": "bronco_raptor",
+    "id": "ford-bronco-raptor-2021",
     "make": "Ford",
     "model": "Bronco",
     "trim": "Raptor",
@@ -1150,7 +1150,7 @@
     "passion": 7.5
   },
   {
-    "id": "bronco_21_24",
+    "id": "ford-bronco-badlands-2021",
     "make": "Ford",
     "model": "Bronco",
     "trim": "Badlands",
@@ -1175,7 +1175,7 @@
     "passion": 7
   },
   {
-    "id": "expedition",
+    "id": "ford-expedition-timberline-2018",
     "make": "Ford",
     "model": "Expedition",
     "trim": "Timberline",
@@ -1200,7 +1200,7 @@
     "passion": 2.5
   },
   {
-    "id": "expedition_4g",
+    "id": "ford-expedition-2018",
     "make": "Ford",
     "model": "Expedition",
     "trim": null,
@@ -1225,7 +1225,7 @@
     "passion": 2.5
   },
   {
-    "id": "excursion",
+    "id": "ford-excursion-2000",
     "make": "Ford",
     "model": "Excursion",
     "trim": null,
@@ -1250,7 +1250,7 @@
     "passion": 5.5
   },
   {
-    "id": "tahoe_z71",
+    "id": "chevrolet-tahoe-z71-2025",
     "make": "Chevrolet",
     "model": "Tahoe",
     "trim": "Z71",
@@ -1275,7 +1275,7 @@
     "passion": 2.5
   },
   {
-    "id": "tahoe_5g",
+    "id": "chevrolet-tahoe-z71-2021",
     "make": "Chevrolet",
     "model": "Tahoe",
     "trim": "Z71",
@@ -1300,7 +1300,7 @@
     "passion": 2.5
   },
   {
-    "id": "tahoe_4g",
+    "id": "chevrolet-tahoe-z71-2015",
     "make": "Chevrolet",
     "model": "Tahoe",
     "trim": "Z71",
@@ -1325,7 +1325,7 @@
     "passion": 2.5
   },
   {
-    "id": "yukon_at4",
+    "id": "gmc-yukon-at4-2021",
     "make": "GMC",
     "model": "Yukon",
     "trim": "AT4",
@@ -1350,7 +1350,7 @@
     "passion": 2.5
   },
   {
-    "id": "escalade_v",
+    "id": "cadillac-escalade-v-2021",
     "make": "Cadillac",
     "model": "Escalade",
     "trim": "V",
@@ -1375,7 +1375,7 @@
     "passion": 5
   },
   {
-    "id": "gle",
+    "id": "mercedes-benz-gle-450-2019",
     "make": "Mercedes-Benz",
     "model": "GLE",
     "trim": "450",
@@ -1400,7 +1400,7 @@
     "passion": 2
   },
   {
-    "id": "gle350de",
+    "id": "mercedes-benz-gle-350de-2019",
     "make": "Mercedes-Benz",
     "model": "GLE",
     "trim": "350de",
@@ -1425,7 +1425,7 @@
     "passion": 1.5
   },
   {
-    "id": "gls",
+    "id": "mercedes-benz-gls-580-2020",
     "make": "Mercedes-Benz",
     "model": "GLS",
     "trim": "580",
@@ -1450,7 +1450,7 @@
     "passion": 2
   },
   {
-    "id": "gwagen",
+    "id": "mercedes-benz-g-class-g-550-2019",
     "make": "Mercedes-Benz",
     "model": "G-Class",
     "trim": "G 550",
@@ -1475,7 +1475,7 @@
     "passion": 8
   },
   {
-    "id": "gwagen_amg",
+    "id": "mercedes-benz-g-class-amg-g-63-2019",
     "make": "Mercedes-Benz",
     "model": "G-Class",
     "trim": "AMG G 63",
@@ -1500,7 +1500,7 @@
     "passion": 8
   },
   {
-    "id": "gwagen_w463",
+    "id": "mercedes-benz-g-class-1990",
     "make": "Mercedes-Benz",
     "model": "G-Class",
     "trim": null,
@@ -1525,7 +1525,7 @@
     "passion": 7.5
   },
   {
-    "id": "x5",
+    "id": "bmw-x5-xdrive50e-2019",
     "make": "BMW",
     "model": "X5",
     "trim": "xDrive50e",
@@ -1550,7 +1550,7 @@
     "passion": 3.5
   },
   {
-    "id": "x7",
+    "id": "bmw-x7-xdrive40i-2019",
     "make": "BMW",
     "model": "X7",
     "trim": "xDrive40i",
@@ -1575,7 +1575,7 @@
     "passion": 2.5
   },
   {
-    "id": "xm",
+    "id": "bmw-xm-2023",
     "make": "BMW",
     "model": "XM",
     "trim": null,
@@ -1600,7 +1600,7 @@
     "passion": 1.5
   },
   {
-    "id": "cayenne",
+    "id": "porsche-cayenne-2019",
     "make": "Porsche",
     "model": "Cayenne",
     "trim": null,
@@ -1625,7 +1625,7 @@
     "passion": 4.5
   },
   {
-    "id": "cayenne_ehybrid",
+    "id": "porsche-cayenne-e-hybrid-2019",
     "make": "Porsche",
     "model": "Cayenne",
     "trim": "E-Hybrid",
@@ -1650,7 +1650,7 @@
     "passion": 4
   },
   {
-    "id": "cayenne_turbo",
+    "id": "porsche-cayenne-turbo-e-hybrid-2019",
     "make": "Porsche",
     "model": "Cayenne",
     "trim": "Turbo E-Hybrid",
@@ -1675,7 +1675,7 @@
     "passion": 5
   },
   {
-    "id": "cayenne_coupe",
+    "id": "porsche-cayenne-coupe-2019",
     "make": "Porsche",
     "model": "Cayenne Coupe",
     "trim": null,
@@ -1700,7 +1700,7 @@
     "passion": 4
   },
   {
-    "id": "q8",
+    "id": "audi-q8-2019",
     "make": "Audi",
     "model": "Q8",
     "trim": null,
@@ -1725,7 +1725,7 @@
     "passion": 2
   },
   {
-    "id": "sq8",
+    "id": "audi-sq8-2019",
     "make": "Audi",
     "model": "SQ8",
     "trim": null,
@@ -1750,7 +1750,7 @@
     "passion": 2.5
   },
   {
-    "id": "rsq8",
+    "id": "audi-rs-q8-2020",
     "make": "Audi",
     "model": "RS Q8",
     "trim": null,
@@ -1775,7 +1775,7 @@
     "passion": 3.5
   },
   {
-    "id": "r1s",
+    "id": "rivian-r1s-adventure-2022",
     "make": "Rivian",
     "model": "R1S",
     "trim": "Adventure",
@@ -1800,7 +1800,7 @@
     "passion": 4
   },
   {
-    "id": "r1s_perf",
+    "id": "rivian-r1s-dual-max-2022",
     "make": "Rivian",
     "model": "R1S",
     "trim": "Dual Max",
@@ -1825,7 +1825,7 @@
     "passion": 5
   },
   {
-    "id": "hummer_ev",
+    "id": "gmc-hummer-ev-suv-2024",
     "make": "GMC",
     "model": "Hummer EV SUV",
     "trim": null,
@@ -1850,7 +1850,7 @@
     "passion": 4
   },
   {
-    "id": "cybertruck",
+    "id": "tesla-cybertruck-awd-2024",
     "make": "Tesla",
     "model": "Cybertruck",
     "trim": "AWD",
@@ -1875,7 +1875,7 @@
     "passion": 5
   },
   {
-    "id": "cybertruck_beast",
+    "id": "tesla-cybertruck-cyberbeast-2024",
     "make": "Tesla",
     "model": "Cybertruck",
     "trim": "Cyberbeast",
@@ -1900,7 +1900,7 @@
     "passion": 5
   },
   {
-    "id": "model_x",
+    "id": "tesla-model-x-2016",
     "make": "Tesla",
     "model": "Model X",
     "trim": null,
@@ -1925,7 +1925,7 @@
     "passion": 3
   },
   {
-    "id": "ix_xdrive50",
+    "id": "bmw-ix-xdrive50-2022",
     "make": "BMW",
     "model": "iX",
     "trim": "xDrive50",
@@ -1950,7 +1950,7 @@
     "passion": 1.5
   },
   {
-    "id": "eqs_suv",
+    "id": "mercedes-benz-eqs-suv-2023",
     "make": "Mercedes-Benz",
     "model": "EQS SUV",
     "trim": null,
@@ -1975,7 +1975,7 @@
     "passion": 1.5
   },
   {
-    "id": "g580_eq",
+    "id": "mercedes-benz-g-class-g-580-eq-2024",
     "make": "Mercedes-Benz",
     "model": "G-Class",
     "trim": "G 580 EQ",
@@ -2000,7 +2000,7 @@
     "passion": 3.5
   },
   {
-    "id": "montero",
+    "id": "mitsubishi-outlander-phev-2022",
     "make": "Mitsubishi",
     "model": "Outlander PHEV",
     "trim": null,
@@ -2025,7 +2025,7 @@
     "passion": 1.5
   },
   {
-    "id": "montero_sport",
+    "id": "mitsubishi-montero-sport-1997",
     "make": "Mitsubishi",
     "model": "Montero Sport",
     "trim": null,
@@ -2050,7 +2050,7 @@
     "passion": 3
   },
   {
-    "id": "montero_gen3",
+    "id": "mitsubishi-montero-2001",
     "make": "Mitsubishi",
     "model": "Montero",
     "trim": null,
@@ -2075,7 +2075,7 @@
     "passion": 4.5
   },
   {
-    "id": "xc90_recharge",
+    "id": "volvo-xc90-recharge-2015",
     "make": "Volvo",
     "model": "XC90",
     "trim": "Recharge",
@@ -2100,7 +2100,7 @@
     "passion": 2.5
   },
   {
-    "id": "ex90",
+    "id": "volvo-ex90-2024",
     "make": "Volvo",
     "model": "EX90",
     "trim": null,
@@ -2125,7 +2125,7 @@
     "passion": 2
   },
   {
-    "id": "gv80",
+    "id": "genesis-gv80-2021",
     "make": "Genesis",
     "model": "GV80",
     "trim": null,
@@ -2150,7 +2150,7 @@
     "passion": 1.5
   },
   {
-    "id": "xterra",
+    "id": "nissan-xterra-2005",
     "make": "Nissan",
     "model": "Xterra",
     "trim": null,
@@ -2175,7 +2175,7 @@
     "passion": 6.5
   },
   {
-    "id": "pathfinder_r51",
+    "id": "nissan-pathfinder-2005",
     "make": "Nissan",
     "model": "Pathfinder",
     "trim": null,
@@ -2200,7 +2200,7 @@
     "passion": 3.5
   },
   {
-    "id": "patrol_y61",
+    "id": "nissan-patrol-1997",
     "make": "Nissan",
     "model": "Patrol",
     "trim": null,
@@ -2225,7 +2225,7 @@
     "passion": 5
   },
   {
-    "id": "4wd_suburban",
+    "id": "chevrolet-suburban-4wd-2015",
     "make": "Chevrolet",
     "model": "Suburban",
     "trim": "4WD",
@@ -2250,7 +2250,7 @@
     "passion": 3
   },
   {
-    "id": "hummer_h2",
+    "id": "hummer-h2-2003",
     "make": "Hummer",
     "model": "H2",
     "trim": null,
@@ -2275,7 +2275,7 @@
     "passion": 5
   },
   {
-    "id": "trooper",
+    "id": "isuzu-trooper-1992",
     "make": "Isuzu",
     "model": "Trooper",
     "trim": null,
@@ -2300,7 +2300,7 @@
     "passion": 4
   },
   {
-    "id": "runner_sport",
+    "id": "toyota-4runner-trd-sport-2024",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "TRD Sport",
@@ -2325,7 +2325,7 @@
     "passion": 5.5
   },
   {
-    "id": "navigator",
+    "id": "lincoln-navigator-reserve-2018",
     "make": "Lincoln",
     "model": "Navigator",
     "trim": "Reserve",
@@ -2350,7 +2350,7 @@
     "passion": 3.5
   },
   {
-    "id": "aviator",
+    "id": "lincoln-aviator-black-label-2020",
     "make": "Lincoln",
     "model": "Aviator",
     "trim": "Black Label",
@@ -2375,7 +2375,7 @@
     "passion": 2.5
   },
   {
-    "id": "qx80",
+    "id": "infiniti-qx80-2024",
     "make": "Infiniti",
     "model": "QX80",
     "trim": null,
@@ -2400,7 +2400,7 @@
     "passion": 2
   },
   {
-    "id": "mdx_type_s",
+    "id": "acura-mdx-type-s-2022",
     "make": "Acura",
     "model": "MDX",
     "trim": "Type S",
@@ -2425,7 +2425,7 @@
     "passion": 2
   },
   {
-    "id": "telluride_xpro",
+    "id": "kia-telluride-x-pro-2020",
     "make": "Kia",
     "model": "Telluride",
     "trim": "X-Pro",
@@ -2450,7 +2450,7 @@
     "passion": 3.5
   },
   {
-    "id": "palisade",
+    "id": "hyundai-palisade-calligraphy-2020",
     "make": "Hyundai",
     "model": "Palisade",
     "trim": "Calligraphy",
@@ -2475,7 +2475,7 @@
     "passion": 2.5
   },
   {
-    "id": "pilot_trailsport",
+    "id": "honda-pilot-trailsport-2023",
     "make": "Honda",
     "model": "Pilot",
     "trim": "TrailSport",
@@ -2500,7 +2500,7 @@
     "passion": 3.5
   },
   {
-    "id": "passport_trailsport",
+    "id": "honda-passport-trailsport-2019",
     "make": "Honda",
     "model": "Passport",
     "trim": "TrailSport",
@@ -2525,7 +2525,7 @@
     "passion": 3.5
   },
   {
-    "id": "cx90_phev",
+    "id": "mazda-cx-90-phev-2024",
     "make": "Mazda",
     "model": "CX-90",
     "trim": "PHEV",
@@ -2550,7 +2550,7 @@
     "passion": 1
   },
   {
-    "id": "santa_fe_xrt",
+    "id": "hyundai-santa-fe-xrt-2024",
     "make": "Hyundai",
     "model": "Santa Fe",
     "trim": "XRT",
@@ -2575,7 +2575,7 @@
     "passion": 1.5
   },
   {
-    "id": "outback_wilderness",
+    "id": "subaru-outback-wilderness-2022",
     "make": "Subaru",
     "model": "Outback",
     "trim": "Wilderness",
@@ -2600,7 +2600,7 @@
     "passion": 4
   },
   {
-    "id": "forester_wilderness",
+    "id": "subaru-forester-wilderness-2022",
     "make": "Subaru",
     "model": "Forester",
     "trim": "Wilderness",
@@ -2625,7 +2625,7 @@
     "passion": 4.5
   },
   {
-    "id": "sorento_phev",
+    "id": "kia-sorento-sx-prestige-phev-2021",
     "make": "Kia",
     "model": "Sorento",
     "trim": "SX Prestige PHEV",
@@ -2650,7 +2650,7 @@
     "passion": 1.5
   },
   {
-    "id": "gladiator_rubicon",
+    "id": "jeep-gladiator-rubicon-2020",
     "make": "Jeep",
     "model": "Gladiator",
     "trim": "Rubicon",
@@ -2675,7 +2675,7 @@
     "passion": 7.5
   },
   {
-    "id": "wrangler_sahara",
+    "id": "jeep-wrangler-sahara-2018",
     "make": "Jeep",
     "model": "Wrangler",
     "trim": "Sahara",
@@ -2700,7 +2700,7 @@
     "passion": 8.5
   },
   {
-    "id": "tacoma_trd_pro",
+    "id": "toyota-tacoma-trd-pro-2024",
     "make": "Toyota",
     "model": "Tacoma",
     "trim": "TRD Pro",
@@ -2725,7 +2725,7 @@
     "passion": 8.5
   },
   {
-    "id": "tx_550h",
+    "id": "lexus-tx-550h-plus-2024",
     "make": "Lexus",
     "model": "TX",
     "trim": "550h+",
@@ -2750,7 +2750,7 @@
     "passion": 2
   },
   {
-    "id": "gv70",
+    "id": "genesis-gv70-3-5t-sport-prestige-2022",
     "make": "Genesis",
     "model": "GV70",
     "trim": "3.5T Sport Prestige",
@@ -2775,7 +2775,7 @@
     "passion": 1.5
   },
   {
-    "id": "escalade",
+    "id": "cadillac-escalade-sport-2021",
     "make": "Cadillac",
     "model": "Escalade",
     "trim": "Sport",
@@ -2800,7 +2800,7 @@
     "passion": 4.5
   },
   {
-    "id": "defender_90",
+    "id": "land-rover-defender-90-s-2020",
     "make": "Land Rover",
     "model": "Defender 90",
     "trim": "S",
@@ -2825,7 +2825,7 @@
     "passion": 7
   },
   {
-    "id": "gc_l_overland",
+    "id": "jeep-grand-cherokee-l-overland-2021",
     "make": "Jeep",
     "model": "Grand Cherokee L",
     "trim": "Overland",
@@ -2850,7 +2850,7 @@
     "passion": 3.5
   },
   {
-    "id": "lc_first_ed",
+    "id": "toyota-land-cruiser-first-edition-2024",
     "make": "Toyota",
     "model": "Land Cruiser",
     "trim": "First Edition",
@@ -2875,7 +2875,7 @@
     "passion": 8
   },
   {
-    "id": "qx80_2g",
+    "id": "infiniti-qx80-2014",
     "make": "Infiniti",
     "model": "QX80",
     "trim": null,
@@ -2900,7 +2900,7 @@
     "passion": 2.5
   },
   {
-    "id": "f150_raptor",
+    "id": "ford-f-150-raptor-2021",
     "make": "Ford",
     "model": "F-150",
     "trim": "Raptor",
@@ -2925,7 +2925,7 @@
     "passion": 7.5
   },
   {
-    "id": "f150_tremor",
+    "id": "ford-f-150-tremor-2021",
     "make": "Ford",
     "model": "F-150",
     "trim": "Tremor",
@@ -2950,7 +2950,7 @@
     "passion": 4
   },
   {
-    "id": "tundra_trd_pro",
+    "id": "toyota-tundra-trd-pro-2022",
     "make": "Toyota",
     "model": "Tundra",
     "trim": "TRD Pro",
@@ -2975,7 +2975,7 @@
     "passion": 5.5
   },
   {
-    "id": "tundra_1794",
+    "id": "toyota-tundra-1794-edition-2022",
     "make": "Toyota",
     "model": "Tundra",
     "trim": "1794 Edition",
@@ -3000,7 +3000,7 @@
     "passion": 4
   },
   {
-    "id": "silverado_zr2",
+    "id": "chevrolet-silverado-1500-zr2-2022",
     "make": "Chevrolet",
     "model": "Silverado 1500",
     "trim": "ZR2",
@@ -3025,7 +3025,7 @@
     "passion": 4
   },
   {
-    "id": "colorado_zr2",
+    "id": "chevrolet-colorado-zr2-2023",
     "make": "Chevrolet",
     "model": "Colorado",
     "trim": "ZR2",
@@ -3050,7 +3050,7 @@
     "passion": 4.5
   },
   {
-    "id": "ram_trx",
+    "id": "ram-1500-trx-2021",
     "make": "Ram",
     "model": "1500",
     "trim": "TRX",
@@ -3075,7 +3075,7 @@
     "passion": 6
   },
   {
-    "id": "ram_rebel",
+    "id": "ram-1500-rebel-2019",
     "make": "Ram",
     "model": "1500",
     "trim": "Rebel",
@@ -3100,7 +3100,7 @@
     "passion": 3.5
   },
   {
-    "id": "ranger_raptor",
+    "id": "ford-ranger-raptor-2024",
     "make": "Ford",
     "model": "Ranger",
     "trim": "Raptor",
@@ -3125,7 +3125,7 @@
     "passion": 4.5
   },
   {
-    "id": "renegade_trailhawk",
+    "id": "jeep-renegade-trailhawk-2015",
     "make": "Jeep",
     "model": "Renegade",
     "trim": "Trailhawk",
@@ -3150,7 +3150,7 @@
     "passion": 3
   },
   {
-    "id": "compass_trailhawk",
+    "id": "jeep-compass-trailhawk-2017",
     "make": "Jeep",
     "model": "Compass",
     "trim": "Trailhawk",
@@ -3175,7 +3175,7 @@
     "passion": 3
   },
   {
-    "id": "rav4_trd_or",
+    "id": "toyota-rav4-trd-off-road-2020",
     "make": "Toyota",
     "model": "RAV4",
     "trim": "TRD Off-Road",
@@ -3200,7 +3200,7 @@
     "passion": 2
   },
   {
-    "id": "crosstrek_wilderness",
+    "id": "subaru-crosstrek-wilderness-2024",
     "make": "Subaru",
     "model": "Crosstrek",
     "trim": "Wilderness",
@@ -3225,7 +3225,7 @@
     "passion": 4
   },
   {
-    "id": "bronco_sport_badlands",
+    "id": "ford-bronco-sport-badlands-2021",
     "make": "Ford",
     "model": "Bronco Sport",
     "trim": "Badlands",
@@ -3250,7 +3250,7 @@
     "passion": 3
   },
   {
-    "id": "cx50_meridian",
+    "id": "mazda-cx-50-meridian-edition-2023",
     "make": "Mazda",
     "model": "CX-50",
     "trim": "Meridian Edition",
@@ -3275,7 +3275,7 @@
     "passion": 2.5
   },
   {
-    "id": "tucson_xrt",
+    "id": "hyundai-tucson-xrt-2022",
     "make": "Hyundai",
     "model": "Tucson",
     "trim": "XRT",
@@ -3300,7 +3300,7 @@
     "passion": 1.5
   },
   {
-    "id": "sportage_xpro",
+    "id": "kia-sportage-x-pro-2023",
     "make": "Kia",
     "model": "Sportage",
     "trim": "X-Pro",
@@ -3325,7 +3325,7 @@
     "passion": 1.5
   },
   {
-    "id": "samurai",
+    "id": "suzuki-samurai-1986",
     "make": "Suzuki",
     "model": "Samurai",
     "trim": null,
@@ -3350,7 +3350,7 @@
     "passion": 6.5
   },
   {
-    "id": "sidekick",
+    "id": "suzuki-sidekick-1989",
     "make": "Suzuki",
     "model": "Sidekick",
     "trim": null,
@@ -3375,7 +3375,7 @@
     "passion": 3
   },
   {
-    "id": "tracker",
+    "id": "geo-tracker-1989",
     "make": "Geo",
     "model": "Tracker",
     "trim": null,
@@ -3400,7 +3400,7 @@
     "passion": 2
   },
   {
-    "id": "grand_vitara",
+    "id": "suzuki-grand-vitara-2006",
     "make": "Suzuki",
     "model": "Grand Vitara",
     "trim": null,
@@ -3425,7 +3425,7 @@
     "passion": 3
   },
   {
-    "id": "rodeo",
+    "id": "isuzu-rodeo-1998",
     "make": "Isuzu",
     "model": "Rodeo",
     "trim": null,
@@ -3450,7 +3450,7 @@
     "passion": 2.5
   },
   {
-    "id": "amigo",
+    "id": "isuzu-amigo-1998",
     "make": "Isuzu",
     "model": "Amigo",
     "trim": null,
@@ -3475,7 +3475,7 @@
     "passion": 2.5
   },
   {
-    "id": "rav4_hybrid",
+    "id": "toyota-rav4-hybrid-xse-2019",
     "make": "Toyota",
     "model": "RAV4",
     "trim": "Hybrid XSE",
@@ -3500,7 +3500,7 @@
     "passion": 2
   },
   {
-    "id": "highlander_hybrid",
+    "id": "toyota-highlander-hybrid-xle-2020",
     "make": "Toyota",
     "model": "Highlander",
     "trim": "Hybrid XLE",
@@ -3525,7 +3525,7 @@
     "passion": 1.5
   },
   {
-    "id": "venza",
+    "id": "toyota-venza-xle-2021",
     "make": "Toyota",
     "model": "Venza",
     "trim": "XLE",
@@ -3550,7 +3550,7 @@
     "passion": 1
   },
   {
-    "id": "crv_hybrid",
+    "id": "honda-cr-v-sport-touring-hybrid-2023",
     "make": "Honda",
     "model": "CR-V",
     "trim": "Sport Touring Hybrid",
@@ -3575,7 +3575,7 @@
     "passion": 1.5
   },
   {
-    "id": "tucson_hybrid",
+    "id": "hyundai-tucson-hybrid-limited-2022",
     "make": "Hyundai",
     "model": "Tucson",
     "trim": "Hybrid Limited",
@@ -3600,7 +3600,7 @@
     "passion": 1.5
   },
   {
-    "id": "santa_fe_hybrid",
+    "id": "hyundai-santa-fe-hybrid-sel-2024",
     "make": "Hyundai",
     "model": "Santa Fe",
     "trim": "Hybrid SEL",
@@ -3625,7 +3625,7 @@
     "passion": 1.5
   },
   {
-    "id": "sportage_hybrid",
+    "id": "kia-sportage-hybrid-sx-prestige-2023",
     "make": "Kia",
     "model": "Sportage",
     "trim": "Hybrid SX-Prestige",
@@ -3650,7 +3650,7 @@
     "passion": 1.5
   },
   {
-    "id": "sorento_hybrid",
+    "id": "kia-sorento-hybrid-sx-prestige-2021",
     "make": "Kia",
     "model": "Sorento",
     "trim": "Hybrid SX-Prestige",
@@ -3675,7 +3675,7 @@
     "passion": 1.5
   },
   {
-    "id": "escape_hybrid",
+    "id": "ford-escape-hybrid-st-line-2020",
     "make": "Ford",
     "model": "Escape",
     "trim": "Hybrid ST-Line",
@@ -3700,7 +3700,7 @@
     "passion": 1
   },
   {
-    "id": "nx_350h",
+    "id": "lexus-nx-350h-luxury-2022",
     "make": "Lexus",
     "model": "NX 350h",
     "trim": "Luxury",
@@ -3725,7 +3725,7 @@
     "passion": 1.5
   },
   {
-    "id": "rx_350h",
+    "id": "lexus-rx-350h-luxury-2023",
     "make": "Lexus",
     "model": "RX 350h",
     "trim": "Luxury",
@@ -3750,14 +3750,13 @@
     "passion": 2
   },
   {
-    "id": "tucson_phev",
+    "id": "hyundai-tucson-limited-phev-2022",
     "make": "Hyundai",
     "model": "Tucson",
     "trim": "Limited PHEV",
     "generation": "4th Gen",
     "yearStart": 2022,
     "yearEnd": null,
-    "condition": "new",
     "price": 47,
     "mpg": 77,
     "offroad": 3.5,
@@ -3776,14 +3775,13 @@
     "passion": 1.5
   },
   {
-    "id": "sportage_phev",
+    "id": "kia-sportage-x-line-phev-2023",
     "make": "Kia",
     "model": "Sportage",
     "trim": "X-Line PHEV",
     "generation": "5th Gen",
     "yearStart": 2023,
     "yearEnd": null,
-    "condition": "new",
     "price": 42,
     "mpg": 84,
     "offroad": 3.5,
@@ -3802,14 +3800,13 @@
     "passion": 1.5
   },
   {
-    "id": "escape_phev",
+    "id": "ford-escape-phev-2020",
     "make": "Ford",
     "model": "Escape",
     "trim": "PHEV",
     "generation": "4th Gen",
     "yearStart": 2020,
     "yearEnd": null,
-    "condition": "new",
     "price": 38,
     "mpg": 101,
     "offroad": 3,
@@ -3828,14 +3825,13 @@
     "passion": 1
   },
   {
-    "id": "nx_450h_plus",
+    "id": "lexus-nx-450h-plus-2022",
     "make": "Lexus",
     "model": "NX",
     "trim": "450h+",
     "generation": "2nd Gen",
     "yearStart": 2022,
     "yearEnd": null,
-    "condition": "new",
     "price": 61,
     "mpg": 84,
     "offroad": 3,
@@ -3854,14 +3850,13 @@
     "passion": 1.5
   },
   {
-    "id": "rx_450h_plus",
+    "id": "lexus-rx-450h-plus-luxury-2023",
     "make": "Lexus",
     "model": "RX",
     "trim": "450h+ Luxury",
     "generation": "5th Gen",
     "yearStart": 2023,
     "yearEnd": null,
-    "condition": "new",
     "price": 72,
     "mpg": 83,
     "offroad": 3.5,
@@ -3880,66 +3875,13 @@
     "passion": 2
   },
   {
-    "id": "land_cruiser_80",
-    "make": "Toyota",
-    "model": "Land Cruiser",
-    "trim": "80 Series",
-    "generation": "J80",
-    "yearStart": 1990,
-    "yearEnd": 1997,
-    "condition": "used",
-    "price": 25,
-    "mpg": 12,
-    "offroad": 9,
-    "luxury": 1.4,
-    "cargo": 48,
-    "reliability": 9,
-    "performance": 2.5,
-    "size": "full",
-    "pt": "gas",
-    "tow": 5500,
-    "weight": 5200,
-    "gc": 8.9,
-    "note": "Legendary overlander. 4.5L I6 gas. Triple-locked with factory lockers available. Bulletproof reliability.",
-    "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J80)",
-    "body": "suv",
-    "passion": 9
-  },
-  {
-    "id": "land_cruiser_100",
-    "make": "Toyota",
-    "model": "Land Cruiser",
-    "trim": "100 Series",
-    "generation": "J100",
-    "yearStart": 1998,
-    "yearEnd": 2007,
-    "condition": "used",
-    "price": 22,
-    "mpg": 13,
-    "offroad": 7.5,
-    "luxury": 2.3,
-    "cargo": 39,
-    "reliability": 9,
-    "performance": 2.5,
-    "size": "full",
-    "pt": "gas",
-    "tow": 6500,
-    "weight": 5390,
-    "gc": 9.8,
-    "note": "4.7L V8. Big performance jump from 80 Series. Center locker standard, adds comfort/tech. US had UZJ100.",
-    "url": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J100)",
-    "body": "suv",
-    "passion": 8.5
-  },
-  {
-    "id": "cherokee_xj",
+    "id": "jeep-cherokee-1984",
     "make": "Jeep",
     "model": "Cherokee",
-    "trim": "XJ",
+    "trim": null,
     "generation": "XJ",
     "yearStart": 1984,
     "yearEnd": 2001,
-    "condition": "used",
     "price": 13,
     "mpg": 18,
     "offroad": 6,
@@ -3958,14 +3900,13 @@
     "passion": 8
   },
   {
-    "id": "4runner_4th_gen_v8",
+    "id": "toyota-4runner-v8-limited-2003",
     "make": "Toyota",
     "model": "4Runner",
     "trim": "V8 Limited",
     "generation": "4th Gen",
     "yearStart": 2003,
     "yearEnd": 2009,
-    "condition": "used",
     "price": 16,
     "mpg": 15,
     "offroad": 7.5,
@@ -3984,14 +3925,13 @@
     "passion": 7
   },
   {
-    "id": "discovery_3_lr3",
+    "id": "land-rover-discovery-lr3-hse-2005",
     "make": "Land Rover",
     "model": "Discovery",
     "trim": "LR3 HSE",
     "generation": "3rd Gen",
     "yearStart": 2005,
     "yearEnd": 2009,
-    "condition": "used",
     "price": 10,
     "mpg": 14,
     "offroad": 7.5,
@@ -4010,14 +3950,13 @@
     "passion": 3
   },
   {
-    "id": "bronco_5th_gen",
+    "id": "ford-bronco-eddie-bauer-1992",
     "make": "Ford",
     "model": "Bronco",
     "trim": "Eddie Bauer",
     "generation": "5th Gen",
     "yearStart": 1992,
     "yearEnd": 1996,
-    "condition": "used",
     "price": 25,
     "mpg": 13,
     "offroad": 5,
@@ -4036,14 +3975,13 @@
     "passion": 6
   },
   {
-    "id": "atlas_cross_sport_4motion",
+    "id": "volkswagen-atlas-cross-sport-se-4motion-2020",
     "make": "Volkswagen",
     "model": "Atlas Cross Sport",
     "trim": "SE 4MOTION",
     "generation": "1st Gen",
     "yearStart": 2020,
     "yearEnd": null,
-    "condition": "new",
     "price": 45,
     "mpg": 21,
     "offroad": 3,
@@ -4062,14 +4000,13 @@
     "passion": 1.5
   },
   {
-    "id": "v60_cross_country",
+    "id": "volvo-v60-cross-country-b5-awd-2019",
     "make": "Volvo",
     "model": "V60 Cross Country",
     "trim": "B5 AWD",
     "generation": "2nd Gen",
     "yearStart": 2019,
     "yearEnd": null,
-    "condition": "new",
     "price": 51,
     "mpg": 27,
     "offroad": 3.5,
@@ -4088,14 +4025,13 @@
     "passion": 3.5
   },
   {
-    "id": "v90_cross_country",
+    "id": "volvo-v90-cross-country-b6-awd-2017",
     "make": "Volvo",
     "model": "V90 Cross Country",
     "trim": "B6 AWD",
     "generation": "2nd Gen",
     "yearStart": 2017,
     "yearEnd": null,
-    "condition": "new",
     "price": 61,
     "mpg": 26,
     "offroad": 3.5,
@@ -4114,14 +4050,13 @@
     "passion": 3.5
   },
   {
-    "id": "canyon_at4x",
+    "id": "gmc-canyon-at4x-2023",
     "make": "GMC",
     "model": "Canyon",
     "trim": "AT4X",
     "generation": "3rd Gen",
     "yearStart": 2023,
     "yearEnd": null,
-    "condition": "new",
     "price": 55,
     "mpg": 19,
     "offroad": 9,
@@ -4140,14 +4075,13 @@
     "passion": 4
   },
   {
-    "id": "sierra_at4x",
+    "id": "gmc-sierra-1500-at4x-2022",
     "make": "GMC",
     "model": "Sierra 1500",
     "trim": "AT4X",
     "generation": "4th Gen",
     "yearStart": 2022,
     "yearEnd": null,
-    "condition": "new",
     "price": 79,
     "mpg": 17,
     "offroad": 9.5,
@@ -4166,14 +4100,13 @@
     "passion": 3
   },
   {
-    "id": "ram_1500_ecodiesel",
+    "id": "ram-1500-laramie-ecodiesel-2020",
     "make": "Ram",
     "model": "1500",
     "trim": "Laramie EcoDiesel",
     "generation": "5th Gen",
     "yearStart": 2020,
     "yearEnd": null,
-    "condition": "new",
     "price": 58,
     "mpg": 26,
     "offroad": 7,
@@ -4192,14 +4125,13 @@
     "passion": 2.5
   },
   {
-    "id": "silverado_duramax",
+    "id": "chevrolet-silverado-1500-lt-duramax-2019",
     "make": "Chevrolet",
     "model": "Silverado 1500",
     "trim": "LT Duramax",
     "generation": "4th Gen",
     "yearStart": 2019,
     "yearEnd": null,
-    "condition": "new",
     "price": 55,
     "mpg": 26,
     "offroad": 6,
@@ -4218,14 +4150,13 @@
     "passion": 2.5
   },
   {
-    "id": "gladiator_ecodiesel",
+    "id": "jeep-gladiator-rubicon-ecodiesel-2021",
     "make": "Jeep",
     "model": "Gladiator",
     "trim": "Rubicon EcoDiesel",
     "generation": "JT",
     "yearStart": 2021,
     "yearEnd": 2023,
-    "condition": "used",
     "price": 48,
     "mpg": 24,
     "offroad": 10,
@@ -4244,14 +4175,13 @@
     "passion": 7.5
   },
   {
-    "id": "f150_powerstroke",
+    "id": "ford-f-150-lariat-power-stroke-2018",
     "make": "Ford",
     "model": "F-150",
     "trim": "Lariat Power Stroke",
     "generation": "14th Gen",
     "yearStart": 2018,
     "yearEnd": 2021,
-    "condition": "used",
     "price": 38,
     "mpg": 26,
     "offroad": 7,
@@ -4270,14 +4200,13 @@
     "passion": 3.5
   },
   {
-    "id": "f150_lightning",
+    "id": "ford-f-150-lightning-flash-2022",
     "make": "Ford",
     "model": "F-150",
     "trim": "Lightning Flash",
     "generation": "14th Gen",
     "yearStart": 2022,
     "yearEnd": null,
-    "condition": "new",
     "price": 70,
     "mpg": 76,
     "offroad": 3.5,
@@ -4296,14 +4225,13 @@
     "passion": 4
   },
   {
-    "id": "f150_powerboost",
+    "id": "ford-f-150-king-ranch-powerboost-2021",
     "make": "Ford",
     "model": "F-150",
     "trim": "King Ranch PowerBoost",
     "generation": "14th Gen",
     "yearStart": 2021,
     "yearEnd": null,
-    "condition": "new",
     "price": 75,
     "mpg": 23,
     "offroad": 5.5,
@@ -4322,14 +4250,13 @@
     "passion": 2.5
   },
   {
-    "id": "silverado_ev",
+    "id": "chevrolet-silverado-ev-rst-2024",
     "make": "Chevrolet",
     "model": "Silverado EV",
     "trim": "RST",
     "generation": "1st Gen",
     "yearStart": 2024,
     "yearEnd": null,
-    "condition": "new",
     "price": 80,
     "mpg": 79,
     "offroad": 3.5,
@@ -4348,14 +4275,13 @@
     "passion": 1.5
   },
   {
-    "id": "hummer_ev_pickup",
+    "id": "gmc-hummer-ev-pickup-3x-2022",
     "make": "GMC",
     "model": "Hummer EV",
     "trim": "Pickup 3X",
     "generation": "1st Gen",
     "yearStart": 2022,
     "yearEnd": null,
-    "condition": "new",
     "price": 99,
     "mpg": 47,
     "offroad": 9,
@@ -4374,14 +4300,13 @@
     "passion": 4
   },
   {
-    "id": "rav4_prime",
+    "id": "toyota-rav4-prime-xse-2021",
     "make": "Toyota",
     "model": "RAV4",
     "trim": "Prime XSE",
     "generation": "5th Gen",
     "yearStart": 2021,
     "yearEnd": null,
-    "condition": "new",
     "price": 49,
     "mpg": 94,
     "offroad": 3.5,
@@ -4400,14 +4325,13 @@
     "passion": 2
   },
   {
-    "id": "r1t",
+    "id": "rivian-r1t-dual-motor-2025",
     "make": "Rivian",
     "model": "R1T",
     "trim": "Dual Motor",
     "generation": "2nd Gen",
     "yearStart": 2025,
     "yearEnd": null,
-    "condition": "new",
     "price": 72,
     "mpg": 72,
     "offroad": 7,
@@ -4426,14 +4350,13 @@
     "passion": 4
   },
   {
-    "id": "tx_500h",
+    "id": "lexus-tx-500h-f-sport-2024",
     "make": "Lexus",
     "model": "TX",
     "trim": "500h F Sport",
     "generation": "1st Gen",
     "yearStart": 2024,
     "yearEnd": null,
-    "condition": "new",
     "price": 69,
     "mpg": 27,
     "offroad": 3.5,
@@ -4452,14 +4375,13 @@
     "passion": 2.5
   },
   {
-    "id": "ev9",
+    "id": "kia-ev9-land-awd-2024",
     "make": "Kia",
     "model": "EV9",
     "trim": "Land AWD",
     "generation": "1st Gen",
     "yearStart": 2024,
     "yearEnd": null,
-    "condition": "new",
     "price": 70,
     "mpg": 80,
     "offroad": 3,
@@ -4478,14 +4400,13 @@
     "passion": 2
   },
   {
-    "id": "wrangler_4xe_sahara",
+    "id": "jeep-wrangler-4xe-sahara-2021",
     "make": "Jeep",
     "model": "Wrangler 4xe",
     "trim": "Sahara",
     "generation": "JL",
     "yearStart": 2021,
     "yearEnd": null,
-    "condition": "new",
     "price": 58,
     "mpg": 49,
     "offroad": 8,
@@ -4504,14 +4425,13 @@
     "passion": 7
   },
   {
-    "id": "xterra_pro4x",
+    "id": "nissan-xterra-pro-4x-2005",
     "make": "Nissan",
     "model": "Xterra",
     "trim": "PRO-4X",
     "generation": "2nd Gen",
     "yearStart": 2005,
     "yearEnd": 2015,
-    "condition": "used",
     "price": 15,
     "mpg": 17,
     "offroad": 6.5,
@@ -4530,40 +4450,13 @@
     "passion": 6.5
   },
   {
-    "id": "montero_sport_xls",
-    "make": "Mitsubishi",
-    "model": "Montero Sport",
-    "trim": "XLS",
-    "generation": "1st Gen",
-    "yearStart": 1997,
-    "yearEnd": 2004,
-    "condition": "used",
-    "price": 7,
-    "mpg": 17,
-    "offroad": 6,
-    "luxury": 1.4,
-    "cargo": 36,
-    "reliability": 6.5,
-    "performance": 3,
-    "size": "mid",
-    "pt": "gas",
-    "tow": 5000,
-    "weight": 3970,
-    "gc": 8.6,
-    "note": "Solid axle budget overlander. 3.5L V6. Watch for transmission issues at high miles.",
-    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Challenger#First_generation_(1996%E2%80%932008)",
-    "body": "suv",
-    "passion": 3
-  },
-  {
-    "id": "wrangler_2dr_jl",
+    "id": "jeep-wrangler-2-door-rubicon-2018",
     "make": "Jeep",
     "model": "Wrangler 2-Door",
     "trim": "Rubicon",
     "generation": "JL",
     "yearStart": 2018,
     "yearEnd": null,
-    "condition": "new",
     "price": 47,
     "mpg": 17,
     "offroad": 10,
@@ -4582,14 +4475,13 @@
     "passion": 9.5
   },
   {
-    "id": "wrangler_2dr_jk",
+    "id": "jeep-wrangler-2-door-rubicon-2007",
     "make": "Jeep",
     "model": "Wrangler 2-Door",
     "trim": "Rubicon",
     "generation": "JK",
     "yearStart": 2007,
     "yearEnd": 2018,
-    "condition": "used",
     "price": 18,
     "mpg": 17,
     "offroad": 10,
@@ -4608,14 +4500,13 @@
     "passion": 9.5
   },
   {
-    "id": "wrangler_2dr_tj",
+    "id": "jeep-wrangler-2-door-rubicon-2003",
     "make": "Jeep",
     "model": "Wrangler 2-Door",
     "trim": "Rubicon",
     "generation": "TJ",
-    "yearStart": 1997,
+    "yearStart": 2003,
     "yearEnd": 2006,
-    "condition": "used",
     "price": 15,
     "mpg": 18,
     "offroad": 9.5,
@@ -4634,14 +4525,13 @@
     "passion": 9
   },
   {
-    "id": "bronco_2dr_badlands",
+    "id": "ford-bronco-2-door-badlands-2021",
     "make": "Ford",
     "model": "Bronco 2-Door",
     "trim": "Badlands",
     "generation": "6th Gen",
     "yearStart": 2021,
     "yearEnd": null,
-    "condition": "new",
     "price": 49,
     "mpg": 19,
     "offroad": 9,
@@ -4660,7 +4550,7 @@
     "passion": 7.5
   },
   {
-    "id": "maverick_tremor",
+    "id": "ford-maverick-tremor-2022",
     "make": "Ford",
     "model": "Maverick",
     "trim": "Tremor",
@@ -4685,7 +4575,7 @@
     "passion": 4
   },
   {
-    "id": "santa_cruz_sel",
+    "id": "hyundai-santa-cruz-sel-awd-2022",
     "make": "Hyundai",
     "model": "Santa Cruz",
     "trim": "SEL AWD",
@@ -4710,7 +4600,7 @@
     "passion": 2.5
   },
   {
-    "id": "frontier_pro4x",
+    "id": "nissan-frontier-pro-4x-2022",
     "make": "Nissan",
     "model": "Frontier",
     "trim": "PRO-4X",
@@ -4735,7 +4625,7 @@
     "passion": 4
   },
   {
-    "id": "tacoma_trd_or",
+    "id": "toyota-tacoma-trd-off-road-2024",
     "make": "Toyota",
     "model": "Tacoma",
     "trim": "TRD Off-Road",
@@ -4760,7 +4650,7 @@
     "passion": 8
   },
   {
-    "id": "ranger_xlt",
+    "id": "ford-ranger-xlt-4wd-2024",
     "make": "Ford",
     "model": "Ranger",
     "trim": "XLT 4WD",
@@ -4785,7 +4675,7 @@
     "passion": 2.5
   },
   {
-    "id": "ascent_onyx",
+    "id": "subaru-ascent-onyx-edition-2019",
     "make": "Subaru",
     "model": "Ascent",
     "trim": "Onyx Edition",
@@ -4810,7 +4700,7 @@
     "passion": 2.5
   },
   {
-    "id": "cx70_phev",
+    "id": "mazda-cx-70-phev-2025",
     "make": "Mazda",
     "model": "CX-70",
     "trim": "PHEV",
@@ -4835,7 +4725,7 @@
     "passion": 1
   },
   {
-    "id": "tiguan_se_rline",
+    "id": "volkswagen-tiguan-se-r-line-4motion-2025",
     "make": "Volkswagen",
     "model": "Tiguan",
     "trim": "SE R-Line 4MOTION",
@@ -4860,7 +4750,7 @@
     "passion": 1.5
   },
   {
-    "id": "rdx_aspec",
+    "id": "acura-rdx-a-spec-sh-awd-2019",
     "make": "Acura",
     "model": "RDX",
     "trim": "A-Spec SH-AWD",
@@ -4885,7 +4775,7 @@
     "passion": 1.5
   },
   {
-    "id": "grenadier_trialmaster",
+    "id": "ineos-grenadier-trialmaster-2024",
     "make": "Ineos",
     "model": "Grenadier",
     "trim": "Trialmaster",
@@ -4910,7 +4800,7 @@
     "passion": 4.5
   },
   {
-    "id": "f150_xlt",
+    "id": "ford-f-150-xlt-supercrew-4wd-2021",
     "make": "Ford",
     "model": "F-150",
     "trim": "XLT SuperCrew 4WD",
@@ -4935,7 +4825,7 @@
     "passion": 3.5
   },
   {
-    "id": "tacoma_sr5",
+    "id": "toyota-tacoma-sr5-double-cab-4wd-2024",
     "make": "Toyota",
     "model": "Tacoma",
     "trim": "SR5 Double Cab 4WD",
@@ -4960,7 +4850,7 @@
     "passion": 6.5
   },
   {
-    "id": "silverado_trail_boss",
+    "id": "chevrolet-silverado-1500-lt-trail-boss-2019",
     "make": "Chevrolet",
     "model": "Silverado 1500",
     "trim": "LT Trail Boss",
@@ -4985,7 +4875,7 @@
     "passion": 2.5
   },
   {
-    "id": "ram_1500_big_horn",
+    "id": "ram-1500-big-horn-crew-cab-4wd-2019",
     "make": "Ram",
     "model": "1500",
     "trim": "Big Horn Crew Cab 4WD",
@@ -5010,7 +4900,7 @@
     "passion": 2.5
   },
   {
-    "id": "crv_exl",
+    "id": "honda-cr-v-ex-l-awd-2023",
     "make": "Honda",
     "model": "CR-V",
     "trim": "EX-L AWD",
@@ -5035,7 +4925,7 @@
     "passion": 1.5
   },
   {
-    "id": "hrv_exl",
+    "id": "honda-hr-v-ex-l-awd-2023",
     "make": "Honda",
     "model": "HR-V",
     "trim": "EX-L AWD",
@@ -5060,7 +4950,7 @@
     "passion": 1.5
   },
   {
-    "id": "ridgeline_rtl",
+    "id": "honda-ridgeline-rtl-awd-2017",
     "make": "Honda",
     "model": "Ridgeline",
     "trim": "RTL AWD",
@@ -5085,7 +4975,7 @@
     "passion": 3
   },
   {
-    "id": "q5_quattro",
+    "id": "audi-q5-premium-plus-45-quattro-2025",
     "make": "Audi",
     "model": "Q5",
     "trim": "Premium Plus 45 Quattro",
@@ -5110,7 +5000,7 @@
     "passion": 2
   },
   {
-    "id": "q7_quattro",
+    "id": "audi-q7-premium-plus-55-quattro-2017",
     "make": "Audi",
     "model": "Q7",
     "trim": "Premium Plus 55 Quattro",
@@ -5135,7 +5025,7 @@
     "passion": 2
   },
   {
-    "id": "q8_etron",
+    "id": "audi-q8-e-tron-prestige-quattro-2019",
     "make": "Audi",
     "model": "Q8 e-tron",
     "trim": "Prestige Quattro",
@@ -5160,7 +5050,7 @@
     "passion": 1.5
   },
   {
-    "id": "a6_allroad",
+    "id": "audi-a6-allroad-premium-plus-2020",
     "make": "Audi",
     "model": "A6 Allroad",
     "trim": "Premium Plus",
@@ -5185,7 +5075,7 @@
     "passion": 4
   },
   {
-    "id": "crosstrek_premium",
+    "id": "subaru-crosstrek-premium-awd-2024",
     "make": "Subaru",
     "model": "Crosstrek",
     "trim": "Premium AWD",
@@ -5210,7 +5100,7 @@
     "passion": 2.5
   },
   {
-    "id": "atlas_se",
+    "id": "volkswagen-atlas-se-4motion-2024",
     "make": "Volkswagen",
     "model": "Atlas",
     "trim": "SE 4MOTION",
@@ -5235,7 +5125,7 @@
     "passion": 1.5
   },
   {
-    "id": "durango_rt",
+    "id": "dodge-durango-r-t-awd-2011",
     "make": "Dodge",
     "model": "Durango",
     "trim": "R/T AWD",
@@ -5260,7 +5150,7 @@
     "passion": 3.5
   },
   {
-    "id": "explorer_timberline",
+    "id": "ford-explorer-timberline-4wd-2022",
     "make": "Ford",
     "model": "Explorer",
     "trim": "Timberline 4WD",
@@ -5285,7 +5175,7 @@
     "passion": 2.5
   },
   {
-    "id": "armada_platinum",
+    "id": "nissan-armada-platinum-4wd-2025",
     "make": "Nissan",
     "model": "Armada",
     "trim": "Platinum 4WD",
@@ -5310,7 +5200,7 @@
     "passion": 3.5
   },
   {
-    "id": "rogue_sl",
+    "id": "nissan-rogue-sl-awd-2021",
     "make": "Nissan",
     "model": "Rogue",
     "trim": "SL AWD",
@@ -5335,7 +5225,7 @@
     "passion": 1
   },
   {
-    "id": "equinox_rs",
+    "id": "chevrolet-equinox-rs-awd-2025",
     "make": "Chevrolet",
     "model": "Equinox",
     "trim": "RS AWD",
@@ -5360,7 +5250,7 @@
     "passion": 1.5
   },
   {
-    "id": "cx5_turbo",
+    "id": "mazda-cx-5-2-5-turbo-premium-awd-2017",
     "make": "Mazda",
     "model": "CX-5",
     "trim": "2.5 Turbo Premium AWD",
@@ -5385,7 +5275,7 @@
     "passion": 2.5
   },
   {
-    "id": "x3_xdrive",
+    "id": "bmw-x3-xdrive30i-2025",
     "make": "BMW",
     "model": "X3",
     "trim": "xDrive30i",

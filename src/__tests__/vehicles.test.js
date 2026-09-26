@@ -4,6 +4,7 @@
  */
 import { describe, it, expect } from 'vitest';
 import vehicles from '../vehicles.json';
+import { vehicleId } from '../vehicleId.js';
 
 // Valid enum values
 const VALID_POWERTRAINS = ['gas', 'diesel', 'hybrid', 'phev', 'ev'];
@@ -19,6 +20,17 @@ describe('vehicles.json schema validation', () => {
     const ids = vehicles.map(v => v.id);
     const uniqueIds = new Set(ids);
     expect(uniqueIds.size).toBe(ids.length);
+  });
+
+  it('slugs identity fields into an id', () => {
+    expect(vehicleId({ make: 'Lexus', model: 'GX 550', trim: 'Premium+', yearStart: 2024 })).toBe('lexus-gx-550-premium-plus-2024');
+    expect(vehicleId({ make: 'Mercedes-Benz', model: 'G-Class', trim: null, yearStart: 1990 })).toBe('mercedes-benz-g-class-1990');
+    expect(vehicleId({ make: 'Dodge', model: 'Durango', trim: 'R/T AWD', yearStart: 2011 })).toBe('dodge-durango-r-t-awd-2011');
+  });
+
+  it('derives every id from make, model, trim and yearStart', () => {
+    const mismatched = vehicles.filter(v => v.id !== vehicleId(v)).map(v => `${v.id} -> ${vehicleId(v)}`);
+    expect(mismatched).toEqual([]);
   });
 
   describe('each vehicle', () => {

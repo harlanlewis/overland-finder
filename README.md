@@ -28,7 +28,7 @@ Vehicle specs are stored in `src/vehicles.json` (215+ vehicles).
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | string | Unique identifier |
+| `id` | string | Derived from `make`, `model`, `trim` and `yearStart`, e.g. `ford-bronco-badlands-2021` (see `src/vehicleId.js`) |
 | `make` | string | Manufacturer (e.g., "Toyota") |
 | `model` | string | Model name (e.g., "4Runner") |
 | `trim` | string \| null | Trim level (e.g., "TRD Pro") |
@@ -255,7 +255,7 @@ node scripts/validate-vehicles.mjs
    - For full spec tables, WebFetch `auto123.com` or `caredge.com`; for MSRP, fetch manufacturer root model page
    - Verify the vehicle is still in production (some trims get discontinued mid-cycle)
    - Note discontinuation dates in `generation-data.json` if applicable
-2. Add entry to `src/vehicles.json` with all required fields
+2. Add entry to `src/vehicles.json` with all required fields. Its `id` is derived from `make`, `model`, `trim` and `yearStart`; `pnpm validate` prints the expected id if it does not match. Two entries with the same make, model, trim and first year derive the same id and fail validation, so spell trims the way existing entries do
 3. Add entries to these JSON files in `scripts/`:
    - `manual-specs.json` (weight, tow, cargo, gc)
    - `verified-updates.json` (price, pt, reliability)

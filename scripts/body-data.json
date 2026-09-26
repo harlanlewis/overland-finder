@@ -9,649 +9,640 @@
       "wagon": "Station wagons and lifted wagons"
     }
   },
-  "4runner": {
+  "toyota-4runner-trd-pro-2024": {
     "body": "suv"
   },
-  "4runner_ltd": {
+  "toyota-4runner-limited-2024": {
     "body": "suv"
   },
-  "4runner_trd_orp": {
+  "toyota-4runner-trd-off-road-premium-2024": {
     "body": "suv"
   },
-  "runner_sr5": {
+  "toyota-4runner-sr5-2024": {
     "body": "suv"
   },
-  "runner_venture": {
+  "toyota-4runner-trailhunter-2024": {
     "body": "suv"
   },
-  "4runner_5g_trd_pro": {
+  "toyota-4runner-trd-pro-2015": {
     "body": "suv"
   },
-  "4runner_5g_trd_or": {
+  "toyota-4runner-trd-off-road-2010": {
     "body": "suv"
   },
-  "4runner_5g_sr5": {
+  "toyota-4runner-sr5-2010": {
     "body": "suv"
   },
-  "runner_sport": {
+  "toyota-4runner-trd-sport-2024": {
     "body": "suv"
   },
-  "4runner_4th_gen_v8": {
+  "toyota-4runner-v8-limited-2003": {
     "body": "suv"
   },
-  "gx": {
+  "lexus-gx-550-overtrail-2024": {
     "body": "suv"
   },
-  "gx_prem": {
+  "lexus-gx-550-premium-plus-2024": {
     "body": "suv"
   },
-  "gx460": {
+  "lexus-gx-460-2010": {
     "body": "suv"
   },
-  "gx470": {
+  "lexus-gx-470-2003": {
     "body": "suv"
   },
-  "lc": {
+  "toyota-land-cruiser-2024": {
     "body": "suv"
   },
-  "lc200": {
+  "toyota-land-cruiser-2008": {
     "body": "suv"
   },
-  "lc100": {
+  "toyota-land-cruiser-1998": {
     "body": "suv"
   },
-  "lc80": {
+  "toyota-land-cruiser-1990": {
     "body": "suv"
   },
-  "lc_first_ed": {
+  "toyota-land-cruiser-first-edition-2024": {
     "body": "suv"
   },
-  "land_cruiser_80": {
+  "lexus-lx-570-2008": {
     "body": "suv"
   },
-  "land_cruiser_100": {
+  "lexus-lx-600-2022": {
     "body": "suv"
   },
-  "lx570": {
+  "lexus-lx-700h-2025": {
     "body": "suv"
   },
-  "lx": {
+  "lexus-lx-700h-overtrail-2025": {
     "body": "suv"
   },
-  "lx700h": {
+  "toyota-sequoia-trd-pro-2023": {
     "body": "suv"
   },
-  "lx700h_ot": {
+  "toyota-sequoia-limited-2023": {
     "body": "suv"
   },
-  "sequoia": {
+  "toyota-sequoia-2008": {
     "body": "suv"
   },
-  "sequoia_ltd": {
+  "toyota-fj-cruiser-2007": {
     "body": "suv"
   },
-  "sequoia_2g": {
+  "land-rover-defender-110-v8-2020": {
     "body": "suv"
   },
-  "fj_cruiser": {
+  "land-rover-defender-110-s-2020": {
     "body": "suv"
   },
-  "defender": {
+  "land-rover-defender-130-2020": {
     "body": "suv"
   },
-  "defender_s": {
+  "land-rover-defender-90-s-2020": {
     "body": "suv"
   },
-  "defender_130": {
+  "land-rover-defender-classic-1983": {
     "body": "suv"
   },
-  "defender_90": {
+  "land-rover-lr4-2010": {
     "body": "suv"
   },
-  "defender_classic": {
+  "land-rover-discovery-2017": {
     "body": "suv"
   },
-  "disco_lr4": {
+  "land-rover-discovery-lr3-hse-2005": {
     "body": "suv"
   },
-  "disco_5": {
+  "land-rover-range-rover-sport-2023": {
     "body": "suv"
   },
-  "discovery_3_lr3": {
+  "land-rover-range-rover-2022": {
     "body": "suv"
   },
-  "rr_sport": {
+  "jeep-grand-cherokee-4xe-summit-2022": {
     "body": "suv"
   },
-  "rr_full": {
+  "jeep-grand-cherokee-4xe-overland-2022": {
     "body": "suv"
   },
-  "gc4xe": {
+  "jeep-grand-cherokee-4xe-trailhawk-2022": {
     "body": "suv"
   },
-  "gc4xe_ol": {
+  "jeep-grand-cherokee-2011": {
     "body": "suv"
   },
-  "gc_trailhawk": {
+  "jeep-grand-cherokee-trailhawk-2017": {
     "body": "suv"
   },
-  "gc_wk2": {
+  "jeep-grand-cherokee-l-overland-2021": {
     "body": "suv"
   },
-  "gc_wk2_th": {
+  "jeep-wagoneer-2022": {
     "body": "suv"
   },
-  "gc_l_overland": {
+  "jeep-grand-wagoneer-2022": {
     "body": "suv"
   },
-  "wagoneer": {
+  "jeep-wrangler-4xe-rubicon-2021": {
     "body": "suv"
   },
-  "gwagoneer": {
+  "jeep-wrangler-rubicon-2018": {
     "body": "suv"
   },
-  "wrangler_rubicon": {
+  "jeep-wrangler-rubicon-2007": {
     "body": "suv"
   },
-  "wrangler_jl": {
+  "jeep-wrangler-1997": {
     "body": "suv"
   },
-  "wrangler_jk": {
+  "jeep-wrangler-sahara-2018": {
     "body": "suv"
   },
-  "wrangler_tj": {
+  "jeep-wrangler-4xe-sahara-2021": {
     "body": "suv"
   },
-  "wrangler_sahara": {
+  "jeep-cherokee-1984": {
     "body": "suv"
   },
-  "wrangler_4xe_sahara": {
+  "ford-bronco-badlands-2025": {
     "body": "suv"
   },
-  "cherokee_xj": {
+  "ford-bronco-outer-banks-2021": {
     "body": "suv"
   },
-  "bronco": {
+  "ford-bronco-raptor-2021": {
     "body": "suv"
   },
-  "bronco_ob": {
+  "ford-bronco-badlands-2021": {
     "body": "suv"
   },
-  "bronco_raptor": {
+  "ford-bronco-eddie-bauer-1992": {
     "body": "suv"
   },
-  "bronco_21_24": {
+  "ford-expedition-timberline-2018": {
     "body": "suv"
   },
-  "bronco_5th_gen": {
+  "ford-expedition-2018": {
     "body": "suv"
   },
-  "expedition": {
+  "ford-excursion-2000": {
     "body": "suv"
   },
-  "expedition_4g": {
+  "chevrolet-tahoe-z71-2025": {
     "body": "suv"
   },
-  "excursion": {
+  "chevrolet-tahoe-z71-2021": {
     "body": "suv"
   },
-  "tahoe_z71": {
+  "chevrolet-tahoe-z71-2015": {
     "body": "suv"
   },
-  "tahoe_5g": {
+  "chevrolet-suburban-4wd-2015": {
     "body": "suv"
   },
-  "tahoe_4g": {
+  "gmc-yukon-at4-2021": {
     "body": "suv"
   },
-  "4wd_suburban": {
+  "cadillac-escalade-sport-2021": {
     "body": "suv"
   },
-  "yukon_at4": {
+  "cadillac-escalade-v-2021": {
     "body": "suv"
   },
-  "escalade": {
+  "lincoln-navigator-reserve-2018": {
     "body": "suv"
   },
-  "escalade_v": {
+  "mercedes-benz-g-class-g-550-2019": {
     "body": "suv"
   },
-  "navigator": {
+  "mercedes-benz-g-class-amg-g-63-2019": {
     "body": "suv"
   },
-  "gwagen": {
+  "mercedes-benz-g-class-1990": {
     "body": "suv"
   },
-  "gwagen_amg": {
+  "mercedes-benz-g-class-g-580-eq-2024": {
     "body": "suv"
   },
-  "gwagen_w463": {
+  "hummer-h2-2003": {
     "body": "suv"
   },
-  "g580_eq": {
+  "gmc-hummer-ev-suv-2024": {
     "body": "suv"
   },
-  "hummer_h2": {
+  "nissan-xterra-2005": {
     "body": "suv"
   },
-  "hummer_ev": {
+  "nissan-pathfinder-2005": {
     "body": "suv"
   },
-  "xterra": {
+  "nissan-patrol-1997": {
     "body": "suv"
   },
-  "pathfinder_r51": {
+  "isuzu-trooper-1992": {
     "body": "suv"
   },
-  "patrol_y61": {
+  "mitsubishi-montero-sport-1997": {
     "body": "suv"
   },
-  "trooper": {
+  "mitsubishi-montero-2001": {
     "body": "suv"
   },
-  "montero_sport": {
+  "infiniti-qx80-2024": {
     "body": "suv"
   },
-  "montero_gen3": {
+  "infiniti-qx80-2014": {
     "body": "suv"
   },
-  "qx80": {
+  "suzuki-samurai-1986": {
     "body": "suv"
   },
-  "qx80_2g": {
+  "suzuki-sidekick-1989": {
     "body": "suv"
   },
-  "samurai": {
+  "geo-tracker-1989": {
     "body": "suv"
   },
-  "sidekick": {
+  "suzuki-grand-vitara-2006": {
     "body": "suv"
   },
-  "tracker": {
+  "isuzu-rodeo-1998": {
     "body": "suv"
   },
-  "grand_vitara": {
+  "isuzu-amigo-1998": {
     "body": "suv"
   },
-  "rodeo": {
+  "kia-telluride-x-pro-2020": {
     "body": "suv"
   },
-  "amigo": {
+  "hyundai-palisade-calligraphy-2020": {
     "body": "suv"
   },
-  "telluride_xpro": {
+  "honda-pilot-trailsport-2023": {
     "body": "suv"
   },
-  "palisade": {
+  "honda-passport-trailsport-2019": {
     "body": "suv"
   },
-  "pilot_trailsport": {
+  "toyota-highlander-hybrid-xle-2020": {
     "body": "suv"
   },
-  "passport_trailsport": {
+  "lexus-tx-550h-plus-2024": {
     "body": "suv"
   },
-  "highlander_hybrid": {
+  "lexus-tx-500h-f-sport-2024": {
     "body": "suv"
   },
-  "tx_550h": {
+  "acura-mdx-type-s-2022": {
     "body": "suv"
   },
-  "tx_500h": {
+  "lincoln-aviator-black-label-2020": {
     "body": "suv"
   },
-  "mdx_type_s": {
+  "mercedes-benz-gls-580-2020": {
     "body": "suv"
   },
-  "aviator": {
+  "bmw-x7-xdrive40i-2019": {
     "body": "suv"
   },
-  "gls": {
+  "porsche-cayenne-2019": {
     "body": "suv"
   },
-  "x7": {
+  "porsche-cayenne-e-hybrid-2019": {
     "body": "suv"
   },
-  "cayenne": {
+  "porsche-cayenne-turbo-e-hybrid-2019": {
     "body": "suv"
   },
-  "cayenne_ehybrid": {
+  "porsche-cayenne-coupe-2019": {
     "body": "suv"
   },
-  "cayenne_turbo": {
+  "audi-q8-2019": {
     "body": "suv"
   },
-  "cayenne_coupe": {
+  "audi-sq8-2019": {
     "body": "suv"
   },
-  "q8": {
+  "audi-rs-q8-2020": {
     "body": "suv"
   },
-  "sq8": {
+  "rivian-r1s-adventure-2022": {
     "body": "suv"
   },
-  "rsq8": {
+  "rivian-r1s-dual-max-2022": {
     "body": "suv"
   },
-  "r1s": {
+  "volvo-xc90-recharge-2015": {
     "body": "suv"
   },
-  "r1s_perf": {
+  "volvo-ex90-2024": {
     "body": "suv"
   },
-  "xc90_recharge": {
+  "genesis-gv80-2021": {
     "body": "suv"
   },
-  "ex90": {
+  "mazda-cx-90-phev-2024": {
     "body": "suv"
   },
-  "gv80": {
+  "kia-sorento-sx-prestige-phev-2021": {
     "body": "suv"
   },
-  "cx90_phev": {
+  "kia-sorento-hybrid-sx-prestige-2021": {
     "body": "suv"
   },
-  "sorento_phev": {
+  "hyundai-santa-fe-xrt-2024": {
     "body": "suv"
   },
-  "sorento_hybrid": {
+  "hyundai-santa-fe-hybrid-sel-2024": {
     "body": "suv"
   },
-  "santa_fe_xrt": {
+  "kia-ev9-land-awd-2024": {
     "body": "suv"
   },
-  "santa_fe_hybrid": {
-    "body": "suv"
-  },
-  "ev9": {
-    "body": "suv"
-  },
-  "gle": {
+  "mercedes-benz-gle-450-2019": {
     "body": "cuv"
   },
-  "gle350de": {
+  "mercedes-benz-gle-350de-2019": {
     "body": "cuv"
   },
-  "eqs_suv": {
+  "mercedes-benz-eqs-suv-2023": {
     "body": "cuv"
   },
-  "x5": {
+  "bmw-x5-xdrive50e-2019": {
     "body": "cuv"
   },
-  "xm": {
+  "bmw-xm-2023": {
     "body": "cuv"
   },
-  "ix_xdrive50": {
+  "bmw-ix-xdrive50-2022": {
     "body": "cuv"
   },
-  "model_x": {
+  "tesla-model-x-2016": {
     "body": "cuv"
   },
-  "gv70": {
+  "genesis-gv70-3-5t-sport-prestige-2022": {
     "body": "cuv"
   },
-  "montero": {
+  "mitsubishi-outlander-phev-2022": {
     "body": "cuv"
   },
-  "rav4_trd_or": {
+  "toyota-rav4-trd-off-road-2020": {
     "body": "cuv"
   },
-  "rav4_hybrid": {
+  "toyota-rav4-hybrid-xse-2019": {
     "body": "cuv"
   },
-  "rav4_prime": {
+  "toyota-rav4-prime-xse-2021": {
     "body": "cuv"
   },
-  "venza": {
+  "toyota-venza-xle-2021": {
     "body": "cuv"
   },
-  "crv_hybrid": {
+  "honda-cr-v-sport-touring-hybrid-2023": {
     "body": "cuv"
   },
-  "tucson_xrt": {
+  "hyundai-tucson-xrt-2022": {
     "body": "cuv"
   },
-  "tucson_hybrid": {
+  "hyundai-tucson-hybrid-limited-2022": {
     "body": "cuv"
   },
-  "tucson_phev": {
+  "hyundai-tucson-limited-phev-2022": {
     "body": "cuv"
   },
-  "sportage_xpro": {
+  "kia-sportage-x-pro-2023": {
     "body": "cuv"
   },
-  "sportage_hybrid": {
+  "kia-sportage-hybrid-sx-prestige-2023": {
     "body": "cuv"
   },
-  "sportage_phev": {
+  "kia-sportage-x-line-phev-2023": {
     "body": "cuv"
   },
-  "escape_hybrid": {
+  "ford-escape-hybrid-st-line-2020": {
     "body": "cuv"
   },
-  "escape_phev": {
+  "ford-escape-phev-2020": {
     "body": "cuv"
   },
-  "nx_350h": {
+  "lexus-nx-350h-luxury-2022": {
     "body": "cuv"
   },
-  "nx_450h_plus": {
+  "lexus-nx-450h-plus-2022": {
     "body": "cuv"
   },
-  "rx_350h": {
+  "lexus-rx-350h-luxury-2023": {
     "body": "cuv"
   },
-  "rx_450h_plus": {
+  "lexus-rx-450h-plus-luxury-2023": {
     "body": "cuv"
   },
-  "crosstrek_wilderness": {
+  "subaru-crosstrek-wilderness-2024": {
     "body": "cuv"
   },
-  "forester_wilderness": {
+  "subaru-forester-wilderness-2022": {
     "body": "cuv"
   },
-  "bronco_sport_badlands": {
+  "ford-bronco-sport-badlands-2021": {
     "body": "cuv"
   },
-  "cx50_meridian": {
+  "mazda-cx-50-meridian-edition-2023": {
     "body": "cuv"
   },
-  "renegade_trailhawk": {
+  "jeep-renegade-trailhawk-2015": {
     "body": "cuv"
   },
-  "compass_trailhawk": {
+  "jeep-compass-trailhawk-2017": {
     "body": "cuv"
   },
-  "atlas_cross_sport_4motion": {
+  "volkswagen-atlas-cross-sport-se-4motion-2020": {
     "body": "cuv"
   },
-  "gladiator_rubicon": {
+  "jeep-gladiator-rubicon-2020": {
     "body": "truck"
   },
-  "gladiator_ecodiesel": {
+  "jeep-gladiator-rubicon-ecodiesel-2021": {
     "body": "truck"
   },
-  "tacoma_trd_pro": {
+  "toyota-tacoma-trd-pro-2024": {
     "body": "truck"
   },
-  "f150_raptor": {
+  "ford-f-150-raptor-2021": {
     "body": "truck"
   },
-  "f150_tremor": {
+  "ford-f-150-tremor-2021": {
     "body": "truck"
   },
-  "f150_powerstroke": {
+  "ford-f-150-lariat-power-stroke-2018": {
     "body": "truck"
   },
-  "f150_lightning": {
+  "ford-f-150-lightning-flash-2022": {
     "body": "truck"
   },
-  "f150_powerboost": {
+  "ford-f-150-king-ranch-powerboost-2021": {
     "body": "truck"
   },
-  "tundra_trd_pro": {
+  "toyota-tundra-trd-pro-2022": {
     "body": "truck"
   },
-  "tundra_1794": {
+  "toyota-tundra-1794-edition-2022": {
     "body": "truck"
   },
-  "silverado_zr2": {
+  "chevrolet-silverado-1500-zr2-2022": {
     "body": "truck"
   },
-  "silverado_duramax": {
+  "chevrolet-silverado-1500-lt-duramax-2019": {
     "body": "truck"
   },
-  "silverado_ev": {
+  "chevrolet-silverado-ev-rst-2024": {
     "body": "truck"
   },
-  "colorado_zr2": {
+  "chevrolet-colorado-zr2-2023": {
     "body": "truck"
   },
-  "ram_trx": {
+  "ram-1500-trx-2021": {
     "body": "truck"
   },
-  "ram_rebel": {
+  "ram-1500-rebel-2019": {
     "body": "truck"
   },
-  "ram_1500_ecodiesel": {
+  "ram-1500-laramie-ecodiesel-2020": {
     "body": "truck"
   },
-  "ranger_raptor": {
+  "ford-ranger-raptor-2024": {
     "body": "truck"
   },
-  "canyon_at4x": {
+  "gmc-canyon-at4x-2023": {
     "body": "truck"
   },
-  "sierra_at4x": {
+  "gmc-sierra-1500-at4x-2022": {
     "body": "truck"
   },
-  "cybertruck": {
+  "tesla-cybertruck-awd-2024": {
     "body": "truck"
   },
-  "cybertruck_beast": {
+  "tesla-cybertruck-cyberbeast-2024": {
     "body": "truck"
   },
-  "hummer_ev_pickup": {
+  "gmc-hummer-ev-pickup-3x-2022": {
     "body": "truck"
   },
-  "r1t": {
+  "rivian-r1t-dual-motor-2025": {
     "body": "truck"
   },
-  "outback_wilderness": {
+  "subaru-outback-wilderness-2022": {
     "body": "wagon"
   },
-  "v60_cross_country": {
+  "volvo-v60-cross-country-b5-awd-2019": {
     "body": "wagon"
   },
-  "v90_cross_country": {
+  "volvo-v90-cross-country-b6-awd-2017": {
     "body": "wagon"
   },
-  "xterra_pro4x": {
+  "nissan-xterra-pro-4x-2005": {
     "body": "suv"
   },
-  "montero_sport_xls": {
+  "jeep-wrangler-2-door-rubicon-2018": {
     "body": "suv"
   },
-  "wrangler_2dr_jl": {
+  "jeep-wrangler-2-door-rubicon-2007": {
     "body": "suv"
   },
-  "wrangler_2dr_jk": {
+  "jeep-wrangler-2-door-rubicon-2003": {
     "body": "suv"
   },
-  "wrangler_2dr_tj": {
+  "ford-bronco-2-door-badlands-2021": {
     "body": "suv"
   },
-  "bronco_2dr_badlands": {
-    "body": "suv"
-  },
-  "maverick_tremor": {
+  "ford-maverick-tremor-2022": {
     "body": "truck"
   },
-  "santa_cruz_sel": {
+  "hyundai-santa-cruz-sel-awd-2022": {
     "body": "truck"
   },
-  "frontier_pro4x": {
+  "nissan-frontier-pro-4x-2022": {
     "body": "truck"
   },
-  "tacoma_trd_or": {
+  "toyota-tacoma-trd-off-road-2024": {
     "body": "truck"
   },
-  "ranger_xlt": {
+  "ford-ranger-xlt-4wd-2024": {
     "body": "truck"
   },
-  "ascent_onyx": {
+  "subaru-ascent-onyx-edition-2019": {
     "body": "suv"
   },
-  "cx70_phev": {
+  "mazda-cx-70-phev-2025": {
     "body": "cuv"
   },
-  "tiguan_se_rline": {
+  "volkswagen-tiguan-se-r-line-4motion-2025": {
     "body": "cuv"
   },
-  "rdx_aspec": {
+  "acura-rdx-a-spec-sh-awd-2019": {
     "body": "cuv"
   },
-  "grenadier_trialmaster": {
+  "ineos-grenadier-trialmaster-2024": {
     "body": "suv"
   },
-  "f150_xlt": {
+  "ford-f-150-xlt-supercrew-4wd-2021": {
     "body": "truck"
   },
-  "tacoma_sr5": {
+  "toyota-tacoma-sr5-double-cab-4wd-2024": {
     "body": "truck"
   },
-  "silverado_trail_boss": {
+  "chevrolet-silverado-1500-lt-trail-boss-2019": {
     "body": "truck"
   },
-  "ram_1500_big_horn": {
+  "ram-1500-big-horn-crew-cab-4wd-2019": {
     "body": "truck"
   },
-  "crv_exl": {
+  "honda-cr-v-ex-l-awd-2023": {
     "body": "cuv"
   },
-  "hrv_exl": {
+  "honda-hr-v-ex-l-awd-2023": {
     "body": "cuv"
   },
-  "ridgeline_rtl": {
+  "honda-ridgeline-rtl-awd-2017": {
     "body": "truck"
   },
-  "q5_quattro": {
+  "audi-q5-premium-plus-45-quattro-2025": {
     "body": "cuv"
   },
-  "q7_quattro": {
+  "audi-q7-premium-plus-55-quattro-2017": {
     "body": "suv"
   },
-  "q8_etron": {
+  "audi-q8-e-tron-prestige-quattro-2019": {
     "body": "suv"
   },
-  "a6_allroad": {
+  "audi-a6-allroad-premium-plus-2020": {
     "body": "wagon"
   },
-  "crosstrek_premium": {
+  "subaru-crosstrek-premium-awd-2024": {
     "body": "cuv"
   },
-  "atlas_se": {
+  "volkswagen-atlas-se-4motion-2024": {
     "body": "suv"
   },
-  "durango_rt": {
+  "dodge-durango-r-t-awd-2011": {
     "body": "suv"
   },
-  "explorer_timberline": {
+  "ford-explorer-timberline-4wd-2022": {
     "body": "suv"
   },
-  "armada_platinum": {
+  "nissan-armada-platinum-4wd-2025": {
     "body": "suv"
   },
-  "rogue_sl": {
+  "nissan-rogue-sl-awd-2021": {
     "body": "cuv"
   },
-  "equinox_rs": {
+  "chevrolet-equinox-rs-awd-2025": {
     "body": "cuv"
   },
-  "cx5_turbo": {
+  "mazda-cx-5-2-5-turbo-premium-awd-2017": {
     "body": "cuv"
   },
-  "x3_xdrive": {
+  "bmw-x3-xdrive30i-2025": {
     "body": "cuv"
   }
 }

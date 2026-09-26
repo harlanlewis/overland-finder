@@ -7,1082 +7,1062 @@
     "Consumer Reports reliability data"
   ],
   "vehicles": {
-    "4runner": {
+    "toyota-4runner-trd-pro-2024": {
       "price": 67,
       "pt": "hybrid",
       "reliability": 8.7
     },
-    "4runner_ltd": {
+    "toyota-4runner-limited-2024": {
       "price": 55,
       "pt": "hybrid",
       "reliability": 8.7
     },
-    "4runner_trd_orp": {
+    "toyota-4runner-trd-off-road-premium-2024": {
       "price": 52,
       "pt": "hybrid",
       "reliability": 8.7
     },
-    "runner_sr5": {
+    "toyota-4runner-sr5-2024": {
       "price": 41,
       "pt": "gas",
       "reliability": 8.7
     },
-    "runner_sport": {
+    "toyota-4runner-trd-sport-2024": {
       "price": 45,
       "pt": "gas",
       "reliability": 8.7
     },
-    "runner_venture": {
+    "toyota-4runner-trailhunter-2024": {
       "price": 67,
       "pt": "hybrid",
       "reliability": 8.7
     },
-    "4runner_5g_trd_pro": {
+    "toyota-4runner-trd-pro-2015": {
       "price": 42,
       "pt": "gas",
       "reliability": 9
     },
-    "4runner_5g_trd_or": {
+    "toyota-4runner-trd-off-road-2010": {
       "price": 32,
       "pt": "gas",
       "reliability": 9
     },
-    "4runner_5g_sr5": {
+    "toyota-4runner-sr5-2010": {
       "price": 25,
       "pt": "gas",
       "reliability": 9
     },
-    "gx": {
+    "lexus-gx-550-overtrail-2024": {
       "price": 79,
       "pt": "gas",
       "reliability": 8.9
     },
-    "gx_prem": {
+    "lexus-gx-550-premium-plus-2024": {
       "price": 72,
       "pt": "gas",
       "reliability": 8.9
     },
-    "gx460": {
+    "lexus-gx-460-2010": {
       "price": 35,
       "pt": "gas",
       "reliability": 9
     },
-    "gx470": {
+    "lexus-gx-470-2003": {
       "price": 18,
       "pt": "gas",
       "reliability": 8.5
     },
-    "lc": {
+    "toyota-land-cruiser-2024": {
       "price": 57,
       "pt": "hybrid",
       "reliability": 8.7
     },
-    "lc200": {
+    "toyota-land-cruiser-2008": {
       "price": 55,
       "pt": "gas",
       "reliability": 9
     },
-    "lc100": {
+    "toyota-land-cruiser-1998": {
       "price": 28,
       "pt": "gas",
       "reliability": 8.5
     },
-    "lc80": {
+    "toyota-land-cruiser-1990": {
       "price": 35,
       "pt": "gas",
       "reliability": 8
     },
-    "lx570": {
+    "lexus-lx-570-2008": {
       "price": 58,
       "pt": "gas",
       "reliability": 9
     },
-    "sequoia": {
+    "toyota-sequoia-trd-pro-2023": {
       "price": 80,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "sequoia_ltd": {
+    "toyota-sequoia-limited-2023": {
       "price": 72,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "sequoia_2g": {
+    "toyota-sequoia-2008": {
       "price": 30,
       "pt": "gas",
       "reliability": 8.5
     },
-    "lx": {
+    "lexus-lx-600-2022": {
       "price": 98,
       "pt": "hybrid",
       "reliability": 8.9
     },
-    "lx700h": {
+    "lexus-lx-700h-2025": {
       "price": 115,
       "pt": "hybrid",
       "reliability": 9
     },
-    "lx700h_ot": {
+    "lexus-lx-700h-overtrail-2025": {
       "price": 118,
       "pt": "hybrid",
       "reliability": 9
     },
-    "fj_cruiser": {
+    "toyota-fj-cruiser-2007": {
       "price": 30,
       "pt": "gas",
       "reliability": 9
     },
-    "defender": {
+    "land-rover-defender-110-v8-2020": {
       "price": 114,
       "pt": "gas",
       "reliability": 8.2
     },
-    "defender_s": {
+    "land-rover-defender-110-s-2020": {
       "price": 58,
       "pt": "gas",
       "reliability": 8.2
     },
-    "defender_130": {
+    "land-rover-defender-130-2020": {
       "price": 80,
       "pt": "gas",
       "reliability": 8.2
     },
-    "defender_classic": {
+    "land-rover-defender-classic-1983": {
       "price": 55,
       "pt": "gas",
       "reliability": 6
     },
-    "disco_5": {
+    "land-rover-discovery-2017": {
       "price": 60,
       "pt": "gas",
       "reliability": 7
     },
-    "disco_lr4": {
+    "land-rover-lr4-2010": {
       "price": 25,
       "pt": "gas",
       "reliability": 6.5
     },
-    "rr_sport": {
+    "land-rover-range-rover-sport-2023": {
       "price": 86,
       "pt": "gas",
       "reliability": 7.5
     },
-    "rr_full": {
+    "land-rover-range-rover-2022": {
       "price": 115,
       "pt": "gas",
       "reliability": 7.5
     },
-    "gc4xe": {
+    "jeep-grand-cherokee-4xe-summit-2022": {
       "price": 75,
       "pt": "phev",
       "reliability": 7.5
     },
-    "gc4xe_ol": {
+    "jeep-grand-cherokee-4xe-overland-2022": {
       "price": 68,
       "pt": "phev",
       "reliability": 7.5
     },
-    "gc_trailhawk": {
+    "jeep-grand-cherokee-4xe-trailhawk-2022": {
       "price": 63,
       "pt": "phev",
       "reliability": 7.5
     },
-    "gc_wk2": {
+    "jeep-grand-cherokee-2011": {
       "price": 25,
       "pt": "gas",
       "reliability": 7
     },
-    "gc_wk2_th": {
+    "jeep-grand-cherokee-trailhawk-2017": {
       "price": 28,
       "pt": "gas",
       "reliability": 7
     },
-    "wagoneer": {
+    "jeep-wagoneer-2022": {
       "price": 60,
       "pt": "gas",
       "reliability": 7.5
     },
-    "gwagoneer": {
+    "jeep-grand-wagoneer-2022": {
       "price": 87,
       "pt": "gas",
       "reliability": 7.5
     },
-    "wrangler_jl": {
+    "jeep-wrangler-rubicon-2018": {
       "price": 55,
       "pt": "gas",
       "reliability": 7.5
     },
-    "wrangler_rubicon": {
+    "jeep-wrangler-4xe-rubicon-2021": {
       "price": 62,
       "pt": "phev",
       "reliability": 7.5
     },
-    "wrangler_jk": {
+    "jeep-wrangler-rubicon-2007": {
       "price": 25,
       "pt": "gas",
       "reliability": 7.5
     },
-    "wrangler_tj": {
+    "jeep-wrangler-1997": {
       "price": 15,
       "pt": "gas",
       "reliability": 7.5
     },
-    "bronco": {
+    "ford-bronco-badlands-2025": {
       "price": 50,
       "pt": "gas",
       "reliability": 7
     },
-    "bronco_ob": {
+    "ford-bronco-outer-banks-2021": {
       "price": 44,
       "pt": "gas",
       "reliability": 7
     },
-    "bronco_raptor": {
+    "ford-bronco-raptor-2021": {
       "price": 82,
       "pt": "gas",
       "reliability": 7
     },
-    "bronco_21_24": {
+    "ford-bronco-badlands-2021": {
       "price": 38,
       "pt": "gas",
       "reliability": 7
     },
-    "expedition": {
+    "ford-expedition-timberline-2018": {
       "price": 76,
       "pt": "gas",
       "reliability": 7.5
     },
-    "expedition_4g": {
+    "ford-expedition-2018": {
       "price": 35,
       "pt": "gas",
       "reliability": 7.5
     },
-    "excursion": {
+    "ford-excursion-2000": {
       "price": 25,
       "pt": "diesel",
       "reliability": 7
     },
-    "tahoe_z71": {
+    "chevrolet-tahoe-z71-2025": {
       "price": 71,
       "pt": "gas",
       "reliability": 8
     },
-    "tahoe_5g": {
+    "chevrolet-tahoe-z71-2021": {
       "price": 61,
       "pt": "gas",
       "reliability": 8
     },
-    "tahoe_4g": {
+    "chevrolet-tahoe-z71-2015": {
       "price": 28,
       "pt": "gas",
       "reliability": 8
     },
-    "suburban": {
-      "price": 65,
-      "pt": "gas",
-      "reliability": 8
-    },
-    "4wd_suburban": {
+    "chevrolet-suburban-4wd-2015": {
       "price": 30,
       "pt": "gas",
       "reliability": 8
     },
-    "yukon_at4": {
+    "gmc-yukon-at4-2021": {
       "price": 78,
       "pt": "gas",
       "reliability": 8
     },
-    "escalade_v": {
+    "cadillac-escalade-v-2021": {
       "price": 155,
       "pt": "gas",
       "reliability": 7.5
     },
-    "gle": {
+    "mercedes-benz-gle-450-2019": {
       "price": 71,
       "pt": "hybrid",
       "reliability": 7.5
     },
-    "gle350de": {
+    "mercedes-benz-gle-350de-2019": {
       "price": 74,
       "pt": "phev",
       "reliability": 7.5
     },
-    "gls": {
+    "mercedes-benz-gls-580-2020": {
       "price": 89,
       "pt": "hybrid",
       "reliability": 7.5
     },
-    "gwagen": {
+    "mercedes-benz-g-class-g-550-2019": {
       "price": 148,
       "pt": "gas",
       "reliability": 7.5
     },
-    "gwagen_amg": {
+    "mercedes-benz-g-class-amg-g-63-2019": {
       "price": 186,
       "pt": "gas",
       "reliability": 7.5
     },
-    "gwagen_w463": {
+    "mercedes-benz-g-class-1990": {
       "price": 85,
       "pt": "gas",
       "reliability": 7
     },
-    "g580_eq": {
+    "mercedes-benz-g-class-g-580-eq-2024": {
       "price": 163,
       "pt": "ev",
       "reliability": 7
     },
-    "eqs_suv": {
+    "mercedes-benz-eqs-suv-2023": {
       "price": 108,
       "pt": "ev",
       "reliability": 7
     },
-    "x5": {
+    "bmw-x5-xdrive50e-2019": {
       "price": 73,
       "pt": "phev",
       "reliability": 7.5
     },
-    "x7": {
+    "bmw-x7-xdrive40i-2019": {
       "price": 82,
       "pt": "gas",
       "reliability": 7.5
     },
-    "ix_xdrive50": {
+    "bmw-ix-xdrive50-2022": {
       "price": 89,
       "pt": "ev",
       "reliability": 7
     },
-    "xm": {
+    "bmw-xm-2023": {
       "price": 160,
       "pt": "phev",
       "reliability": 6.5
     },
-    "cayenne": {
+    "porsche-cayenne-2019": {
       "price": 82,
       "pt": "gas",
       "reliability": 7.5
     },
-    "cayenne_coupe": {
+    "porsche-cayenne-coupe-2019": {
       "price": 88,
       "pt": "gas",
       "reliability": 7.5
     },
-    "cayenne_ehybrid": {
+    "porsche-cayenne-e-hybrid-2019": {
       "price": 95,
       "pt": "phev",
       "reliability": 7.5
     },
-    "cayenne_turbo": {
+    "porsche-cayenne-turbo-e-hybrid-2019": {
       "price": 157,
       "pt": "phev",
       "reliability": 7.5
     },
-    "q8": {
+    "audi-q8-2019": {
       "price": 72,
       "pt": "gas",
       "reliability": 7.5
     },
-    "sq8": {
+    "audi-sq8-2019": {
       "price": 98,
       "pt": "gas",
       "reliability": 7.5
     },
-    "rsq8": {
+    "audi-rs-q8-2020": {
       "price": 137,
       "pt": "gas",
       "reliability": 7.5
     },
-    "r1s": {
+    "rivian-r1s-adventure-2022": {
       "price": 76,
       "pt": "ev",
       "reliability": 7
     },
-    "r1s_perf": {
+    "rivian-r1s-dual-max-2022": {
       "price": 106,
       "pt": "ev",
       "reliability": 7
     },
-    "hummer_ev": {
+    "gmc-hummer-ev-suv-2024": {
       "price": 99,
       "pt": "ev",
       "reliability": 6.5
     },
-    "cybertruck": {
+    "tesla-cybertruck-awd-2024": {
       "price": 80,
       "pt": "ev",
       "reliability": 6
     },
-    "cybertruck_beast": {
+    "tesla-cybertruck-cyberbeast-2024": {
       "price": 100,
       "pt": "ev",
       "reliability": 6
     },
-    "model_x": {
+    "tesla-model-x-2016": {
       "price": 90,
       "pt": "ev",
       "reliability": 6.5
     },
-    "montero": {
+    "mitsubishi-outlander-phev-2022": {
       "price": 44,
       "pt": "phev",
       "reliability": 7.5
     },
-    "montero_sport": {
+    "mitsubishi-montero-sport-1997": {
       "price": 12,
       "pt": "gas",
       "reliability": 7.5
     },
-    "montero_gen3": {
+    "mitsubishi-montero-2001": {
       "price": 10,
       "pt": "gas",
       "reliability": 7
     },
-    "xc90_recharge": {
+    "volvo-xc90-recharge-2015": {
       "price": 73,
       "pt": "phev",
       "reliability": 7.5
     },
-    "ex90": {
+    "volvo-ex90-2024": {
       "price": 81,
       "pt": "ev",
       "reliability": 7
     },
-    "gv80": {
+    "genesis-gv80-2021": {
       "price": 58,
       "pt": "gas",
       "reliability": 8
     },
-    "xterra": {
+    "nissan-xterra-2005": {
       "price": 15,
       "pt": "gas",
       "reliability": 8
     },
-    "pathfinder_r51": {
+    "nissan-pathfinder-2005": {
       "price": 12,
       "pt": "gas",
       "reliability": 7.5
     },
-    "patrol_y61": {
+    "nissan-patrol-1997": {
       "price": 25,
       "pt": "gas",
       "reliability": 8
     },
-    "hummer_h2": {
+    "hummer-h2-2003": {
       "price": 20,
       "pt": "gas",
       "reliability": 6
     },
-    "trooper": {
+    "isuzu-trooper-1992": {
       "price": 8,
       "pt": "gas",
       "reliability": 7
     },
-    "navigator": {
+    "lincoln-navigator-reserve-2018": {
       "price": 100,
       "pt": "gas",
       "reliability": 7.5
     },
-    "aviator": {
+    "lincoln-aviator-black-label-2020": {
       "price": 89,
       "pt": "gas",
       "reliability": 7.5
     },
-    "qx80": {
+    "infiniti-qx80-2024": {
       "price": 84,
       "pt": "gas",
       "reliability": 7.5
     },
-    "mdx_type_s": {
+    "acura-mdx-type-s-2022": {
       "price": 76,
       "pt": "gas",
       "reliability": 8.3
     },
-    "telluride_xpro": {
+    "kia-telluride-x-pro-2020": {
       "price": 54,
       "pt": "gas",
       "reliability": 8.5
     },
-    "palisade": {
+    "hyundai-palisade-calligraphy-2020": {
       "price": 52,
       "pt": "gas",
       "reliability": 8.5
     },
-    "pilot_trailsport": {
+    "honda-pilot-trailsport-2023": {
       "price": 49,
       "pt": "gas",
       "reliability": 8
     },
-    "passport_trailsport": {
+    "honda-passport-trailsport-2019": {
       "price": 42,
       "pt": "gas",
       "reliability": 8
     },
-    "cx90_phev": {
+    "mazda-cx-90-phev-2024": {
       "price": 55,
       "pt": "phev",
       "reliability": 7.5
     },
-    "santa_fe_xrt": {
+    "hyundai-santa-fe-xrt-2024": {
       "price": 41,
       "pt": "gas",
       "reliability": 8
     },
-    "outback_wilderness": {
+    "subaru-outback-wilderness-2022": {
       "price": 42,
       "pt": "gas",
       "reliability": 8
     },
-    "forester_wilderness": {
+    "subaru-forester-wilderness-2022": {
       "price": 35,
       "pt": "gas",
       "reliability": 8
     },
-    "sorento_phev": {
+    "kia-sorento-sx-prestige-phev-2021": {
       "price": 47,
       "pt": "phev",
       "reliability": 8
     },
-    "gladiator_rubicon": {
+    "jeep-gladiator-rubicon-2020": {
       "price": 51,
       "pt": "gas",
       "reliability": 7.5
     },
-    "wrangler_sahara": {
+    "jeep-wrangler-sahara-2018": {
       "price": 49,
       "pt": "gas",
       "reliability": 7.5
     },
-    "tacoma_trd_pro": {
+    "toyota-tacoma-trd-pro-2024": {
       "price": 64,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "tx_550h": {
+    "lexus-tx-550h-plus-2024": {
       "price": 77,
       "pt": "phev",
       "reliability": 8.5
     },
-    "gv70": {
+    "genesis-gv70-3-5t-sport-prestige-2022": {
       "price": 60,
       "pt": "gas",
       "reliability": 8
     },
-    "escalade": {
+    "cadillac-escalade-sport-2021": {
       "price": 97,
       "pt": "gas",
       "reliability": 7.5
     },
-    "defender_90": {
+    "land-rover-defender-90-s-2020": {
       "price": 58,
       "pt": "gas",
       "reliability": 8.2
     },
-    "gc_l_overland": {
+    "jeep-grand-cherokee-l-overland-2021": {
       "price": 58,
       "pt": "gas",
       "reliability": 7.5
     },
-    "lc_first_ed": {
+    "toyota-land-cruiser-first-edition-2024": {
       "price": 77,
       "pt": "hybrid",
       "reliability": 8.7
     },
-    "qx80_2g": {
+    "infiniti-qx80-2014": {
       "price": 30,
       "pt": "gas",
       "reliability": 7.5
     },
-    "f150_raptor": {
+    "ford-f-150-raptor-2021": {
       "price": 78,
       "pt": "gas",
       "reliability": 7.5
     },
-    "f150_tremor": {
+    "ford-f-150-tremor-2021": {
       "price": 58,
       "pt": "gas",
       "reliability": 7.5
     },
-    "tundra_trd_pro": {
+    "toyota-tundra-trd-pro-2022": {
       "price": 72,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "tundra_1794": {
+    "toyota-tundra-1794-edition-2022": {
       "price": 62,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "silverado_zr2": {
+    "chevrolet-silverado-1500-zr2-2022": {
       "price": 70,
       "pt": "gas",
       "reliability": 8
     },
-    "colorado_zr2": {
+    "chevrolet-colorado-zr2-2023": {
       "price": 48,
       "pt": "gas",
       "reliability": 8
     },
-    "ram_trx": {
+    "ram-1500-trx-2021": {
       "price": 96,
       "pt": "gas",
       "reliability": 7
     },
-    "ram_rebel": {
+    "ram-1500-rebel-2019": {
       "price": 58,
       "pt": "gas",
       "reliability": 7.5
     },
-    "ranger_raptor": {
+    "ford-ranger-raptor-2024": {
       "price": 56,
       "pt": "gas",
       "reliability": 7
     },
-    "renegade_trailhawk": {
+    "jeep-renegade-trailhawk-2015": {
       "price": 33,
       "pt": "gas",
       "reliability": 7
     },
-    "compass_trailhawk": {
+    "jeep-compass-trailhawk-2017": {
       "price": 33,
       "pt": "gas",
       "reliability": 7
     },
-    "rav4_trd_or": {
+    "toyota-rav4-trd-off-road-2020": {
       "price": 40,
       "pt": "gas",
       "reliability": 8.5
     },
-    "crosstrek_wilderness": {
+    "subaru-crosstrek-wilderness-2024": {
       "price": 33,
       "pt": "gas",
       "reliability": 8
     },
-    "bronco_sport_badlands": {
+    "ford-bronco-sport-badlands-2021": {
       "price": 40,
       "pt": "gas",
       "reliability": 7
     },
-    "cx50_meridian": {
+    "mazda-cx-50-meridian-edition-2023": {
       "price": 43,
       "pt": "gas",
       "reliability": 8
     },
-    "tucson_xrt": {
+    "hyundai-tucson-xrt-2022": {
       "price": 34,
       "pt": "gas",
       "reliability": 8
     },
-    "sportage_xpro": {
+    "kia-sportage-x-pro-2023": {
       "price": 37,
       "pt": "gas",
       "reliability": 8
     },
-    "samurai": {
+    "suzuki-samurai-1986": {
       "price": 14,
       "pt": "gas",
       "reliability": 7.5
     },
-    "sidekick": {
+    "suzuki-sidekick-1989": {
       "price": 8,
       "pt": "gas",
       "reliability": 7.5
     },
-    "tracker": {
+    "geo-tracker-1989": {
       "price": 8,
       "pt": "gas",
       "reliability": 7.5
     },
-    "grand_vitara": {
+    "suzuki-grand-vitara-2006": {
       "price": 7,
       "pt": "gas",
       "reliability": 7
     },
-    "rodeo": {
+    "isuzu-rodeo-1998": {
       "price": 5,
       "pt": "gas",
       "reliability": 6.5
     },
-    "amigo": {
+    "isuzu-amigo-1998": {
       "price": 5,
       "pt": "gas",
       "reliability": 6.5
     },
-    "rav4_hybrid": {
+    "toyota-rav4-hybrid-xse-2019": {
       "price": 35,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "highlander_hybrid": {
+    "toyota-highlander-hybrid-xle-2020": {
       "price": 47,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "venza": {
+    "toyota-venza-xle-2021": {
       "price": 35,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "crv_hybrid": {
+    "honda-cr-v-sport-touring-hybrid-2023": {
       "price": 41,
       "pt": "hybrid",
       "reliability": 8
     },
-    "tucson_hybrid": {
+    "hyundai-tucson-hybrid-limited-2022": {
       "price": 41,
       "pt": "hybrid",
       "reliability": 8
     },
-    "santa_fe_hybrid": {
+    "hyundai-santa-fe-hybrid-sel-2024": {
       "price": 42,
       "pt": "hybrid",
       "reliability": 8
     },
-    "sportage_hybrid": {
+    "kia-sportage-hybrid-sx-prestige-2023": {
       "price": 38,
       "pt": "hybrid",
       "reliability": 8
     },
-    "sorento_hybrid": {
+    "kia-sorento-hybrid-sx-prestige-2021": {
       "price": 46,
       "pt": "hybrid",
       "reliability": 8
     },
-    "escape_hybrid": {
+    "ford-escape-hybrid-st-line-2020": {
       "price": 32,
       "pt": "hybrid",
       "reliability": 7
     },
-    "nx_350h": {
+    "lexus-nx-350h-luxury-2022": {
       "price": 50,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "rx_350h": {
+    "lexus-rx-350h-luxury-2023": {
       "price": 54,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "tucson_phev": {
+    "hyundai-tucson-limited-phev-2022": {
       "price": 47,
       "pt": "phev",
       "reliability": 7.5
     },
-    "sportage_phev": {
+    "kia-sportage-x-line-phev-2023": {
       "price": 42,
       "pt": "phev",
       "reliability": 7.5
     },
-    "escape_phev": {
+    "ford-escape-phev-2020": {
       "price": 38,
       "pt": "phev",
       "reliability": 6.5
     },
-    "nx_450h_plus": {
+    "lexus-nx-450h-plus-2022": {
       "price": 61,
       "pt": "phev",
       "reliability": 8.5
     },
-    "rx_450h_plus": {
+    "lexus-rx-450h-plus-luxury-2023": {
       "price": 72,
       "pt": "phev",
       "reliability": 8.5
     },
-    "land_cruiser_80": {
-      "price": 25,
-      "pt": "gas",
-      "reliability": 9
-    },
-    "land_cruiser_100": {
-      "price": 22,
-      "pt": "gas",
-      "reliability": 9
-    },
-    "cherokee_xj": {
+    "jeep-cherokee-1984": {
       "price": 13,
       "pt": "gas",
       "reliability": 7
     },
-    "4runner_4th_gen_v8": {
+    "toyota-4runner-v8-limited-2003": {
       "price": 16,
       "pt": "gas",
       "reliability": 8.5
     },
-    "discovery_3_lr3": {
+    "land-rover-discovery-lr3-hse-2005": {
       "price": 10,
       "pt": "gas",
       "reliability": 4
     },
-    "bronco_5th_gen": {
+    "ford-bronco-eddie-bauer-1992": {
       "price": 25,
       "pt": "gas",
       "reliability": 6.5
     },
-    "atlas_cross_sport_4motion": {
+    "volkswagen-atlas-cross-sport-se-4motion-2020": {
       "price": 45,
       "pt": "gas",
       "reliability": 6.5
     },
-    "v60_cross_country": {
+    "volvo-v60-cross-country-b5-awd-2019": {
       "price": 51,
       "pt": "hybrid",
       "reliability": 7
     },
-    "v90_cross_country": {
+    "volvo-v90-cross-country-b6-awd-2017": {
       "price": 61,
       "pt": "hybrid",
       "reliability": 7
     },
-    "canyon_at4x": {
+    "gmc-canyon-at4x-2023": {
       "price": 55,
       "pt": "gas",
       "reliability": 7.5
     },
-    "sierra_at4x": {
+    "gmc-sierra-1500-at4x-2022": {
       "price": 79,
       "pt": "gas",
       "reliability": 7
     },
-    "ram_1500_ecodiesel": {
+    "ram-1500-laramie-ecodiesel-2020": {
       "price": 58,
       "pt": "diesel",
       "reliability": 6.5
     },
-    "silverado_duramax": {
+    "chevrolet-silverado-1500-lt-duramax-2019": {
       "price": 55,
       "pt": "diesel",
       "reliability": 6
     },
-    "gladiator_ecodiesel": {
+    "jeep-gladiator-rubicon-ecodiesel-2021": {
       "price": 48,
       "pt": "diesel",
       "reliability": 6.5
     },
-    "f150_powerstroke": {
+    "ford-f-150-lariat-power-stroke-2018": {
       "price": 38,
       "pt": "diesel",
       "reliability": 7
     },
-    "f150_lightning": {
+    "ford-f-150-lightning-flash-2022": {
       "price": 70,
       "pt": "ev",
       "reliability": 6.5
     },
-    "f150_powerboost": {
+    "ford-f-150-king-ranch-powerboost-2021": {
       "price": 75,
       "pt": "hybrid",
       "reliability": 7
     },
-    "silverado_ev": {
+    "chevrolet-silverado-ev-rst-2024": {
       "price": 80,
       "pt": "ev",
       "reliability": 6
     },
-    "hummer_ev_pickup": {
+    "gmc-hummer-ev-pickup-3x-2022": {
       "price": 99,
       "pt": "ev",
       "reliability": 5
     },
-    "rav4_prime": {
+    "toyota-rav4-prime-xse-2021": {
       "price": 49,
       "pt": "phev",
       "reliability": 8.5
     },
-    "r1t": {
+    "rivian-r1t-dual-motor-2025": {
       "price": 72,
       "pt": "ev",
       "reliability": 6
     },
-    "tx_500h": {
+    "lexus-tx-500h-f-sport-2024": {
       "price": 69,
       "pt": "hybrid",
       "reliability": 8.5
     },
-    "ev9": {
+    "kia-ev9-land-awd-2024": {
       "price": 70,
       "pt": "ev",
       "reliability": 7
     },
-    "wrangler_4xe_sahara": {
+    "jeep-wrangler-4xe-sahara-2021": {
       "price": 58,
       "pt": "phev",
       "reliability": 7.5
     },
-    "xterra_pro4x": {
+    "nissan-xterra-pro-4x-2005": {
       "price": 15,
       "pt": "gas",
       "reliability": 7
     },
-    "montero_sport_xls": {
-      "price": 7,
-      "pt": "gas",
-      "reliability": 6.5
-    },
-    "wrangler_2dr_jl": {
+    "jeep-wrangler-2-door-rubicon-2018": {
       "price": 47,
       "pt": "gas",
       "reliability": 7.5
     },
-    "wrangler_2dr_jk": {
+    "jeep-wrangler-2-door-rubicon-2007": {
       "price": 18,
       "pt": "gas",
       "reliability": 7
     },
-    "wrangler_2dr_tj": {
+    "jeep-wrangler-2-door-rubicon-2003": {
       "price": 15,
       "pt": "gas",
       "reliability": 7.5
     },
-    "bronco_2dr_badlands": {
+    "ford-bronco-2-door-badlands-2021": {
       "price": 49,
       "pt": "gas",
       "reliability": 6.5
     },
-    "maverick_tremor": {
+    "ford-maverick-tremor-2022": {
       "price": 41,
       "pt": "gas",
       "reliability": 7
     },
-    "santa_cruz_sel": {
+    "hyundai-santa-cruz-sel-awd-2022": {
       "price": 32,
       "pt": "gas",
       "reliability": 7.5
     },
-    "frontier_pro4x": {
+    "nissan-frontier-pro-4x-2022": {
       "price": 42,
       "pt": "gas",
       "reliability": 7
     },
-    "tacoma_trd_or": {
+    "toyota-tacoma-trd-off-road-2024": {
       "price": 43,
       "pt": "gas",
       "reliability": 8.5
     },
-    "ranger_xlt": {
+    "ford-ranger-xlt-4wd-2024": {
       "price": 35,
       "pt": "gas",
       "reliability": 7
     },
-    "ascent_onyx": {
+    "subaru-ascent-onyx-edition-2019": {
       "price": 44,
       "pt": "gas",
       "reliability": 6.5
     },
-    "cx70_phev": {
+    "mazda-cx-70-phev-2025": {
       "price": 54,
       "pt": "phev",
       "reliability": 7
     },
-    "tiguan_se_rline": {
+    "volkswagen-tiguan-se-r-line-4motion-2025": {
       "price": 39,
       "pt": "gas",
       "reliability": 7
     },
-    "rdx_aspec": {
+    "acura-rdx-a-spec-sh-awd-2019": {
       "price": 48,
       "pt": "gas",
       "reliability": 8
     },
-    "grenadier_trialmaster": {
+    "ineos-grenadier-trialmaster-2024": {
       "price": 95,
       "pt": "gas",
       "reliability": 5
     },
-    "f150_xlt": {
+    "ford-f-150-xlt-supercrew-4wd-2021": {
       "price": 52,
       "pt": "gas",
       "reliability": 7
     },
-    "tacoma_sr5": {
+    "toyota-tacoma-sr5-double-cab-4wd-2024": {
       "price": 37,
       "pt": "gas",
       "reliability": 6
     },
-    "silverado_trail_boss": {
+    "chevrolet-silverado-1500-lt-trail-boss-2019": {
       "price": 59,
       "pt": "gas",
       "reliability": 9
     },
-    "ram_1500_big_horn": {
+    "ram-1500-big-horn-crew-cab-4wd-2019": {
       "price": 47,
       "pt": "gas",
       "reliability": 6
     },
-    "crv_exl": {
+    "honda-cr-v-ex-l-awd-2023": {
       "price": 37,
       "pt": "gas",
       "reliability": 8
     },
-    "hrv_exl": {
+    "honda-hr-v-ex-l-awd-2023": {
       "price": 31,
       "pt": "gas",
       "reliability": 7
     },
-    "ridgeline_rtl": {
+    "honda-ridgeline-rtl-awd-2017": {
       "price": 43,
       "pt": "gas",
       "reliability": 8
     },
-    "q5_quattro": {
+    "audi-q5-premium-plus-45-quattro-2025": {
       "price": 57,
       "pt": "gas",
       "reliability": 5
     },
-    "q7_quattro": {
+    "audi-q7-premium-plus-55-quattro-2017": {
       "price": 70,
       "pt": "gas",
       "reliability": 4
     },
-    "q8_etron": {
+    "audi-q8-e-tron-prestige-quattro-2019": {
       "price": 85,
       "pt": "ev",
       "reliability": 5
     },
-    "a6_allroad": {
+    "audi-a6-allroad-premium-plus-2020": {
       "price": 72,
       "pt": "gas",
       "reliability": 5
     },
-    "crosstrek_premium": {
+    "subaru-crosstrek-premium-awd-2024": {
       "price": 27,
       "pt": "gas",
       "reliability": 8
     },
-    "atlas_se": {
+    "volkswagen-atlas-se-4motion-2024": {
       "price": 40,
       "pt": "gas",
       "reliability": 5
     },
-    "durango_rt": {
+    "dodge-durango-r-t-awd-2011": {
       "price": 54,
       "pt": "gas",
       "reliability": 5
     },
-    "explorer_timberline": {
+    "ford-explorer-timberline-4wd-2022": {
       "price": 49,
       "pt": "gas",
       "reliability": 7
     },
-    "armada_platinum": {
+    "nissan-armada-platinum-4wd-2025": {
       "price": 73,
       "pt": "gas",
       "reliability": 6
     },
-    "rogue_sl": {
+    "nissan-rogue-sl-awd-2021": {
       "price": 37,
       "pt": "gas",
       "reliability": 7
     },
-    "equinox_rs": {
+    "chevrolet-equinox-rs-awd-2025": {
       "price": 35,
       "pt": "gas",
       "reliability": 8
     },
-    "cx5_turbo": {
+    "mazda-cx-5-2-5-turbo-premium-awd-2017": {
       "price": 38,
       "pt": "gas",
       "reliability": 7
     },
-    "x3_xdrive": {
+    "bmw-x3-xdrive30i-2025": {
       "price": 50,
       "pt": "gas",
       "reliability": 5
