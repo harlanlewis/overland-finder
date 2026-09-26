@@ -188,25 +188,27 @@ The `passion-data.json` file follows the standard pattern used by other scoring 
 }
 ```
 
-**Example entry** (the real `wrangler_rubicon` entry):
+**Example entry**, abridged from `wrangler_2dr_jl`:
 
 ```json
-"wrangler_rubicon": {
+"wrangler_2dr_jl": {
   "community": 2.5,
   "aftermarket": 2,
   "heritage": 2,
   "identity": 2,
-  "resale_premium": 1.5,
+  "resale_premium": 1,
   "sources": {
-    "community": "r/Jeep ~800K subs, r/Wrangler ~100K+, r/JeepWrangler active; JeepForum.com (millions of posts, decades old), WranglerForum.com, JKOwners.com, JLWranglerForums.com; defines the off-road subculture on Reddit and beyond",
-    "aftermarket": "Entire companies exist for this platform: Quadratec, ExtremeTerrain (Wrangler is primary SKU driver), Rugged Ridge, Bestop, Smittybilt; thousands of SKUs across every category on 4WheelParts and RealTruck; the aftermarket industry standard",
-    "heritage": "Willys MB since 1941, WWII military icon; 'Jeep' is a genericized term for off-road vehicles globally; Wrangler nameplate since 1986 (CJ lineage to 1944); appears in countless films and TV shows; non-car people worldwide know what a Jeep is",
-    "identity": "The Jeep Wave (hand signal between owners), Easter Eggs hidden on vehicle body, Jeep Jamboree since 1953, Jeep Beach, ducking culture (placing rubber ducks on Jeeps), doors-off and top-off lifestyle; 'It's a Jeep thing, you wouldn't understand' is a cultural meme",
-    "resale": "Consistently top 3 in 5-year resale value across all vehicles per iSeeCars/KBB; Rubicon trims retain ~70%+ value at 5 years; Rubicon 392 and special editions command dealer markups; Wrangler resale defies its reliability ratings"
+    "community": "Shares the whole Wrangler community (r/Jeep, r/Wrangler, JLWranglerForums.com); the 2-door is the purist's choice",
+    "aftermarket": "Full JL aftermarket (Quadratec, ExtremeTerrain and many others); entire companies exist for this platform",
+    "heritage": "The 2-door is the original Wrangler form, in a line back to the CJ and the WWII Willys",
+    "identity": "Jeep Wave, Jamborees, 'the real Jeep people' within the Wrangler community",
+    "resale": "Holds value well for its reliability ratings; strong rather than extreme since the post-2022 softening"
   },
-  "note": "The gold standard for vehicle passion — maximum score on every axis is warranted"
+  "note": "The purest current Wrangler"
 }
 ```
+
+Sources are short evidence summaries. A count or percentage in a source is what the researcher found on the day, so prefer the qualitative finding and mark any figure you could not confirm as unverified.
 
 ---
 
@@ -226,7 +228,7 @@ The anchors are specific entries in `passion-data.json`, not whole nameplates. O
 
 | Anchor id | Vehicle | Expected | Rationale |
 |-----------|---------|----------|-----------|
-| `wrangler_rubicon` | Jeep Wrangler 4xe Rubicon (JL) | 9.5–10 | Maximum on every axis. Defines "passion vehicle." |
+| `wrangler_2dr_jl` | Jeep Wrangler 2-Door Rubicon (JL, gas) | 9.5–10 | Maximum on every axis. Defines "passion vehicle." |
 | `lc200` | Toyota Land Cruiser (200 Series) | 9–9.5 | ih8mud, global heritage, absurd resale, "go-anywhere" icon |
 | `defender_classic` | Land Rover Defender 110 (classic) | 9–9.5 | Camel Trophy, Africa, exploration incarnate |
 | `4runner` | Toyota 4Runner TRD Pro (6th gen) | 7.5–8.5 | Massive mod community, strong resale, trail culture staple |
@@ -317,7 +319,7 @@ Every vehicle in `src/vehicles.json` has an entry, and the validator warns when 
 
 - **Start from a neighbour.** Find the closest already-scored vehicle (same platform, generation or segment) and score relative to it. In the first full pass, errors showed up as gaps between neighbours that the sources did not explain.
 - **Reuse platform research.** Many vehicles share communities and aftermarkets: Tacoma, 4Runner and Tundra; F-150, Bronco and Ranger; LX and Land Cruiser; GX and the Prado-platform 4Runner. Research the shared source once, then apply the edge-case rules above for rebadges and brand halos.
-- **Check the id against the vehicle.** Some ids are legacy: `montero` is the 2022+ Outlander PHEV, not the classic Montero. Research the make, model and generation in `vehicles.json`, not the id.
+- **Check the id against the vehicle.** Some ids are legacy or ambiguous: `montero` is the 2022+ Outlander PHEV, and `wrangler_rubicon` is the plug-in hybrid 4xe. Research the make, model, trim, generation and powertrain in `vehicles.json`, not the id.
 - **Use the `researcher` agent** (`.claude/agents/researcher.md`) for batches. It returns JSON and the session that launched it merges the entries into `passion-data.json`.
 
 ## Sanity Check

@@ -101,19 +101,19 @@ Value retention beyond what objective qualities predict.
 
 ## Calibration anchors
 
-Use these to calibrate your scoring (these are expected final scores after formula):
+Use these to calibrate your scoring. They are specific entries, not whole nameplates: other trims and generations of the same nameplate can land outside a range.
 
-| Vehicle | Expected Score | Key reason |
-|---------|---------------|------------|
-| Jeep Wrangler | 9.5–10 | Maximum on every axis |
-| Toyota Land Cruiser 200 | 9–9.5 | ih8mud, global heritage, absurd resale |
-| Land Rover Defender (classic) | 9–9.5 | Exploration incarnate |
-| Toyota 4Runner | 7.5–8.5 | Massive mod community, trail culture |
-| Ford Bronco (new) | 7–8 | Heritage revival, growing community |
-| Jeep Grand Cherokee | 5–6 | Some Jeep halo, more mainstream |
-| Subaru Outback | 4–5 | Liked but not loved |
-| Chevrolet Tahoe | 2–3 | Respected workhorse, minimal culture |
-| Hyundai Tucson | 1.5–2 | Competent appliance |
+| Anchor id | Vehicle | Expected | Rationale |
+|-----------|---------|----------|-----------|
+| `wrangler_2dr_jl` | Jeep Wrangler 2-Door Rubicon (JL, gas) | 9.5–10 | Maximum on every axis. Defines "passion vehicle." |
+| `lc200` | Toyota Land Cruiser (200 Series) | 9–9.5 | ih8mud, global heritage, absurd resale, "go-anywhere" icon |
+| `defender_classic` | Land Rover Defender 110 (classic) | 9–9.5 | Camel Trophy, Africa, exploration incarnate |
+| `4runner` | Toyota 4Runner TRD Pro (6th gen) | 7.5–8.5 | Massive mod community, strong resale, trail culture staple |
+| `bronco` | Ford Bronco Badlands (6th gen) | 7–8 | Heritage revival, strong early community, growing aftermarket |
+| `gc_trailhawk` | Jeep Grand Cherokee 4xe Trailhawk | 5–6 | Some Jeep halo, but more mainstream than tribal |
+| `outback_wilderness` | Subaru Outback Wilderness | 4–5 | Liked but not loved; practical choice, not a passion project |
+| `tahoe_z71` | Chevrolet Tahoe Z71 | 2–3 | Respected workhorse, minimal enthusiast culture |
+| `tucson_xrt` | Hyundai Tucson XRT | 1.5–2 | Competent appliance; no community, heritage, or identity |
 
 The formula: `score = 1 + (raw / 10) * 9` where `raw` = sum of all sub-factors (max 10). Rounded to nearest 0.5.
 
@@ -142,6 +142,8 @@ Return your findings as a JSON object keyed by vehicle ID. Each entry must inclu
 ```
 
 **Important**: Vehicle IDs must match what's in `src/vehicles.json`. Read the file or the task description to get exact IDs.
+
+**Score the vehicle, not the id.** Some ids are legacy or ambiguous: `montero` is the 2022+ Outlander PHEV, and `wrangler_rubicon` is the plug-in hybrid 4xe. Before researching, read the entry's make, model, trim, generation, years and powertrain in `src/vehicles.json`, and make every source describe that exact vehicle. The most common error in past passes was evidence for a sibling trim, powertrain or generation.
 
 ## Edge cases
 

@@ -647,19 +647,19 @@
     "note": "Flagship luxury Jeep — iconic nameplate but modern buyer profile is luxury-focused with no enthusiast culture; scores match standard Wagoneer"
   },
   "wrangler_rubicon": {
-    "community": 2.5,
-    "aftermarket": 2,
+    "community": 2,
+    "aftermarket": 1.5,
     "heritage": 2,
-    "identity": 2,
-    "resale_premium": 1.5,
+    "identity": 1.5,
+    "resale_premium": 0,
     "sources": {
-      "community": "r/Jeep ~800K subs, r/Wrangler ~100K+, r/JeepWrangler active; JeepForum.com (millions of posts, decades old), WranglerForum.com, JKOwners.com, JLWranglerForums.com; defines the off-road subculture on Reddit and beyond",
-      "aftermarket": "Entire companies exist for this platform: Quadratec, ExtremeTerrain (Wrangler is primary SKU driver), Rugged Ridge, Bestop, Smittybilt; thousands of SKUs across every category on 4WheelParts and RealTruck; the aftermarket industry standard",
-      "heritage": "Willys MB since 1941, WWII military icon; 'Jeep' is a genericized term for off-road vehicles globally; Wrangler nameplate since 1986 (CJ lineage to 1944); appears in countless films and TV shows; non-car people worldwide know what a Jeep is",
-      "identity": "The Jeep Wave (hand signal between owners), Easter Eggs hidden on vehicle body, Jeep Jamboree since 1953, Jeep Beach, ducking culture (placing rubber ducks on Jeeps), doors-off and top-off lifestyle; 'It's a Jeep thing, you wouldn't understand' is a cultural meme",
-      "resale": "Consistently top 3 in 5-year resale value across all vehicles per iSeeCars/KBB; Rubicon trims retain ~70%+ value at 5 years; Rubicon 392 and special editions command dealer markups; Wrangler resale defies its reliability ratings"
+      "community": "Inside the wider Wrangler community (JLWranglerForums.com has 4xe sections; dedicated 4xeforums.com), but reception of the PHEV is mixed and 4xe threads lean toward charging, range and resale; equal to wrangler_4xe_sahara",
+      "aftermarket": "JL aftermarket mostly fits, though some parts do not (non-4xe skids foul the 4xe's extra electrical skids); 4xe-specific parts from Metalcloak (UnderCloak 4xe), Rock Hard 4x4 (4xe bellypan), Rough Country (Rubicon 4xe skids) and Artec; Rubicon buyers build for the trail more than Sahara buyers",
+      "heritage": "Nameplate heritage (Willys MB 1941, CJ lineage, Wrangler since 1986); heritage comes from the nameplate, not the powertrain",
+      "identity": "Full Jeep Wave and ducking culture applies; owners split between the Jeep lifestyle and PHEV or tax-credit motives; no Rubicon-specific identity evidence that justifies differing from the Sahara",
+      "resale": "CarEdge: Wrangler 4xe loses 59% in 5 yrs vs 29% for the gas Wrangler; iSeeCars: 4xe loses 39.4% vs 34% gas and 41.7% all vehicles; SlashGear lists the 4xe among Jeep's worst for resale; values were propped up by federal EV tax credits; the sources conflict and none supports a premium; Carscoops (Oct 2025) reported a Rubicon X 4xe with a $72,410 MSRP selling for $33,500 at 10.3K miles, with a Carfax damage claim"
     },
-    "note": "The gold standard for vehicle passion — maximum score on every axis is warranted"
+    "note": "The plug-in hybrid 4xe Rubicon: full Jeep heritage and trail hardware, but none of the gas Rubicon's resale premium"
   },
   "wrangler_jl": {
     "community": 2.5,
@@ -668,13 +668,13 @@
     "identity": 2,
     "resale_premium": 1,
     "sources": {
-      "community": "r/Jeep ~800K subs, r/Wrangler ~100K+; JeepForum.com, JLWranglerForums.com (dedicated JL forum with hundreds of thousands of posts); JL shares full Wrangler community ecosystem which defines the off-road subculture",
-      "aftermarket": "Identical to Rubicon — Quadratec, ExtremeTerrain, Rugged Ridge, Bestop, Smittybilt, Metalcloak, TeraFlex, Genright all support JL platform; thousands of SKUs; the 4-door JL Unlimited is now the best-selling Wrangler configuration",
-      "heritage": "Same Willys MB 1941 lineage as Rubicon; JL is the current-generation Wrangler (2018+); 'Jeep' is globally synonymous with off-road vehicle; the nameplate is legendary",
-      "identity": "Full Jeep Wave participation; ducking culture; doors-off lifestyle; Easter eggs; Jeep Jamboree; 'It's a Jeep thing' — 4-door JL Unlimited owners are core Wrangler tribe",
-      "resale": "JL Wranglers retain value exceptionally well (~65-70% at 5 years per KBB); slightly less than Rubicon trim which commands the highest premiums, but still well above segment average"
+      "community": "Full Wrangler ecosystem: r/Jeep, r/Wrangler, JeepForum.com, JLWranglerForums.com (dedicated JL forum); the 4-door Rubicon is the core trail-rig configuration; subscriber counts unverified",
+      "aftermarket": "Quadratec, ExtremeTerrain, Rugged Ridge, Bestop, Smittybilt, Metalcloak, TeraFlex, GenRight and others; the JL Rubicon is the main target platform; whole companies exist for the Wrangler",
+      "heritage": "Willys MB 1941 lineage, CJ to Wrangler since 1986, Rubicon trim since 2003; 'Jeep' is a generic word for an off-roader worldwide",
+      "identity": "Jeep Wave, ducking, Jeep Jamboree, Easter eggs, doors-off culture; Rubicon owners are the trail core of the tribe",
+      "resale": "iSeeCars: Wrangler loses 34% in 5 yrs vs 41.7% all vehicles and 46.4% midsize SUVs, Rubicon about 35.6%; CarEdge 29%; a notable premium given poor reliability ratings; JLWranglerForums threads describe post-2022 softening, so not the extreme tier"
     },
-    "note": "4-door JL Unlimited is the volume Wrangler; full access to the Wrangler ecosystem but slightly less resale premium than the Rubicon trim specifically"
+    "note": "Gas 4-door JL Rubicon: the maximum passion stack, except that resale is strong rather than extreme after the post-2022 market softening"
   },
   "wrangler_jk": {
     "community": 2.5,
@@ -788,13 +788,13 @@
     "identity": 0,
     "resale_premium": 0,
     "sources": {
-      "community": "FordExpeditionForum.com covers older generations; some legacy discussion threads; Facebook groups for older Expeditions focused on maintenance; minimal enthusiast activity for this generation specifically",
-      "aftermarket": "Basic parts available: leveling kits, replacement parts, some mild off-road accessories; shares platform with F-150 of era so some crossover; nothing dedicated or deep for the 4th gen specifically",
-      "heritage": "Expedition nameplate since 1997; 4th gen (2003-2006) is a mid-cycle generation without special cultural significance; no film/TV/expedition history specific to this generation",
-      "identity": "Utility buyers; used as family haulers, tow vehicles, and some overlanding conversions more recently as affordable large SUVs; no tribal identity or organized community",
-      "resale": "20+ year old full-size SUV depreciates as expected; some budget overlanding interest keeps prices above scrap value but no premium; diesel versions (none existed) would have commanded more"
+      "community": "ExpeditionForum.com has a dedicated 4th Gen (2018-2024) section covering mods, maintenance and towing; Facebook owner groups exist; no enthusiast subculture; r/FordExpedition size unverified",
+      "aftermarket": "Basic: ReadyLift SST and Rough Country 2in and 3in lift kits for 2018-2024 4WD (some not compatible with CCD), plus generic racks and accessories; no platform-specific companies",
+      "heritage": "Nameplate since 1997, replacing the full-size Bronco; known as a family and towing SUV, with no cultural cachet",
+      "identity": "Family and towing buyers; no wave, clubs or gatherings",
+      "resale": "iSeeCars: Expedition loses 52.6% in 5 yrs; CarEdge 59%; both worse than the all-vehicle average of about 41.7%; no premium"
     },
-    "note": "Older Expedition generation with no particular passion following; functional large SUV for budget-conscious buyers"
+    "note": "Non-Timberline 2018-2024 Expedition: a capable family hauler with a thin lift-kit aftermarket and no passion following; matches the Timberline sibling"
   },
   "excursion": {
     "community": 1,
@@ -1292,19 +1292,19 @@
     "note": "The Montero Sport is a more utilitarian vehicle that does not carry the full Montero's Dakar heritage or community devotion"
   },
   "montero_gen3": {
-    "community": 1.5,
+    "community": 1,
     "aftermarket": 1,
-    "heritage": 1.5,
-    "identity": 1,
+    "heritage": 1,
+    "identity": 0.5,
     "resale_premium": 0.5,
     "sources": {
-      "community": "Shares community with montero classic; Gen 3 specific threads on MitsubishiForum.com; ExPo build threads for 2000-2006 models; same r/MitsubishiMontero and Facebook groups",
-      "aftermarket": "Same aftermarket as montero classic; Gen 3 benefits from shared NM/NP Pajero platform parts from Australia; SFA front end allows easier lift kit installation than Gen 2 IFS",
-      "heritage": "Final generation sold in US (2000-2006); carries full Pajero/Dakar heritage; considered the most capable factory Montero; shares platform with global Pajero that continued to 2021",
-      "identity": "Gen 3 owners are particularly dedicated; the 'last real Montero' sentiment; active build community on ExPo and forums; restoration and overlanding builds popular",
-      "resale": "Gen 3 with low mileage increasingly sought after; clean examples $15-25K; appreciation trend continuing as supply dwindles; slightly better resale retention than Gen 2 due to modern amenities"
+      "community": "Active Gen 3 build threads on Expedition Portal and Overland Bound; overlaps with the global Pajero NM/NP owner base; no dedicated subreddit found",
+      "aftermarket": "Dobinsons IMS kit for NM/NP/NS/NT Pajero (2000+), OME and Ironman kits, DX Offroad NM lift, Luso Overland and Adventure Driven Design Gen 3 catalogs, TrailBuilt; healthy through the Australian Pajero aftermarket, but no dedicated US companies",
+      "heritage": "Montero/Pajero nameplate from 1982 (US Montero ended 2006); the Pajero is a Dakar Rally legend; Gen 3 is the first unibody Montero, with four-wheel independent suspension (Wikipedia, Luso Overland); strong within car culture, not known beyond it in the US",
+      "identity": "Small overland build community on Expedition Portal and Overland Bound; no clubs, gatherings or strong loyalty signals found",
+      "resale": "Clean third-gen examples reportedly around $12K (Classic.com summary, unverified); a modest hold for a 20-year-old SUV thanks to the overland niche; no appreciation trend verified"
     },
-    "note": "Gen 3 is the most sought-after US Montero generation; scores same as classic montero as they share the same community and heritage"
+    "note": "Unibody, four-wheel-independent final US Montero: Dakar pedigree and a workable Australian-sourced aftermarket, but a small US following"
   },
   "xc90_recharge": {
     "community": 0.5,
@@ -1788,18 +1788,18 @@
   },
   "qx80_2g": {
     "community": 0.5,
-    "aftermarket": 0,
+    "aftermarket": 0.5,
     "heritage": 0.5,
     "identity": 0,
-    "resale_premium": 0.5,
+    "resale_premium": 0,
     "sources": {
-      "community": "2025 redesign generating fresh interest; initial buzz on car forums and YouTube; some community forming around the dramatic redesign; shares QX80/Infiniti community infrastructure",
-      "aftermarket": "Too new for aftermarket; 2025 model year just launching; platform will determine future aftermarket potential",
-      "heritage": "Shares QX80 lineage and indirect Patrol heritage; the 2025 redesign is being received as a significant improvement that may build future enthusiasm",
-      "identity": "Too new for identity formation; early reviews positive but no community signals yet",
-      "resale": "Too new for meaningful data but expected to hold value better than outgoing model given strong initial reception and competitive positioning; slight optimistic score"
+      "community": "InfinitiQX80.org forum (includes an off-road section); ClubArmada.com covers the Armada and QX56/QX80 family; Facebook owner groups; modest, maintenance-focused activity",
+      "aftermarket": "Some Y62 Patrol crossover: Dobinsons 2in IMS kit for Patrol Y62 2010-2024, High Road Suspension's 2014-2024 QX80 lineup (Bilstein, SPC, ICON), spacer lifts; a few overland builds documented; basic tier",
+      "heritage": "Z62 QX80 is a badge-engineered Nissan Patrol Y62, a Patrol used by militaries and the UN worldwide; the Infiniti badge itself carries little weight; QX56 lineage from 2004",
+      "identity": "Bought as a luxury full-size SUV; a few budget overland builds exploit the Patrol hardware, but no tribe",
+      "resale": "iSeeCars: QX80 loses 62.9% in 5 yrs vs 54.3% for luxury large SUVs and 41.5% all vehicles; CarEdge 69%; among the fastest-depreciating SUVs"
     },
-    "note": "All-new 2025 QX80 — significant redesign generating initial buzz but too new for established enthusiasm"
+    "note": "Patrol Y62 underneath, which buys it a thin lift-kit aftermarket, but owners treat it as a luxury appliance and resale is among the worst in the segment"
   },
   "f150_raptor": {
     "community": 2,
@@ -2693,13 +2693,13 @@
     "identity": 1,
     "resale_premium": 0,
     "sources": {
-      "community": "Shares r/Rivian community (~200K+ subs); R1T was the first Rivian delivered (June 2021) and has strong representation in community; RivianForums.com R1T section active; overlanding build threads popular",
-      "aftermarket": "Similar nascent ecosystem as R1S; bed accessories, tonneau covers, camping setups; some off-road accessories appearing; Rivian's own accessory catalog; still early stage",
-      "heritage": "First electric adventure pickup truck delivered; historically significant as Rivian's launch vehicle but no generational heritage",
-      "identity": "R1T owners are enthusiastic early adopters; adventure truck positioning creates identity; overlanding/camping builds popular in community; 'electric adventure vehicle' lifestyle",
-      "resale": "Used R1T prices below original MSRP; depreciation has been notable from initial high prices; no irrational premium"
+      "community": "r/Rivian, RivianForums.com and RivianOwnersForum.com are active, with Gen 2 (2025) compatibility and accessory threads; multiple platforms; subscriber counts unverified",
+      "aftermarket": "Mostly accessories and cosmetics (EV Sportline, TWRAPS, Abstract Ocean, EveryAmp, electruck4x4); most Gen 1 accessories carry over to Gen 2 except mats and headlight PPF; little suspension or armor aftermarket",
+      "heritage": "Rivian's first vehicle (2021); the Gen 2 refresh launched June 2024 as MY2025; no nameplate heritage",
+      "identity": "Adventure-EV early adopters; camping and overland positioning; enthusiastic, but no wave, clubs or tribe comparable to legacy 4x4s",
+      "resale": "iSeeCars: R1T loses 55.1% in 5 yrs vs 33.3% for pickups and 41.7% all vehicles; no premium"
     },
-    "note": "The R1T was Rivian's launch vehicle and benefits from the same strong community as R1S; overlanding truck positioning gives it slight adventure identity"
+    "note": "Gen 2 R1T: strong online EV community and adventure branding, but a thin hard-parts aftermarket and depreciation well above the pickup average"
   },
   "tx_500h": {
     "community": 0.5,
@@ -2736,13 +2736,13 @@
     "aftermarket": 1,
     "heritage": 2,
     "identity": 1.5,
-    "resale_premium": 0.5,
+    "resale_premium": 0,
     "sources": {
       "community": "Part of broader Wrangler community but 4xe has mixed reception; some enthusiasts view PHEV as contrary to Wrangler ethos; dedicated 4xe discussions on JLWranglerForums.com but often focused on EV range and tax credits rather than trail capability; r/Jeep covers 4xe but it's a niche within the community",
       "aftermarket": "JL platform parts largely fit but 4xe has weight and battery considerations that affect suspension choices; fewer 4xe-specific builds due to warranty concerns with battery system and heavier curb weight; aftermarket engagement is lower than gas Wrangler",
       "heritage": "Same Willys nameplate heritage; the 4xe represents Jeep's electrification future but purists are ambivalent; inherits the heritage score of the nameplate, not the powertrain",
       "identity": "4xe Sahara owners participate in Jeep culture but motivation is often split between Jeep lifestyle and PHEV efficiency/tax credits; less trail-focused than Rubicon buyers; moderate Jeep tribal membership",
-      "resale": "4xe pricing was heavily influenced by federal EV tax credits ($7,500); as credits phase out, used values are adjusting; resale is average to slightly above average for the segment but lacks the Rubicon's irrational premium"
+      "resale": "CarEdge: Wrangler 4xe loses 59% in 5 yrs vs 29% for the gas Wrangler; iSeeCars: 4xe loses 39.4% vs 34% gas and 41.7% all vehicles; SlashGear lists the 4xe among Jeep's worst for resale; values were propped up by federal EV tax credits; the sources conflict and none supports a premium"
     },
     "note": "The eco-conscious Wrangler — full heritage but community reception is mixed; buyers are often motivated by tax credits as much as Jeep lifestyle"
   },
@@ -2781,15 +2781,15 @@
     "aftermarket": 2,
     "heritage": 2,
     "identity": 2,
-    "resale_premium": 1.5,
+    "resale_premium": 1,
     "sources": {
       "community": "Same massive Wrangler community (r/Jeep 800K, r/Wrangler 100K+, JLWranglerForums.com); 2-door JL is the purist's choice and celebrated within the community as the 'real' Wrangler; smaller sales volume but disproportionate community respect",
       "aftermarket": "Same full JL aftermarket (Quadratec, ExtremeTerrain, etc.); all JL parts fit; 2-door specific items like half doors and bikini tops; same depth as 4-door",
       "heritage": "The 2-door IS the original Wrangler form factor — CJ, YJ, TJ were all 2-door; represents the purest expression of the Willys lineage; 2-door outsold by 4-door since JK but remains the icon",
       "identity": "2-door owners often see themselves as the 'real' Jeep people; stronger identity signal than Unlimited; trail preference for short wheelbase; the original Jeep silhouette",
-      "resale": "2-door Rubicon JL commands extreme premiums — rarer than Unlimited, more desirable for crawling; used prices near or above MSRP for low-mile examples; waitlists for special editions"
+      "resale": "Holds value well for its reliability ratings: iSeeCars puts the Wrangler at 34% lost over 5 yrs vs 41.7% for all vehicles (CarEdge 29%); the 2-door Rubicon is scarcer than the 4-door; JLWranglerForums threads describe post-2022 softening, so strong rather than extreme"
     },
-    "note": "The purest current Wrangler — short wheelbase Rubicon is the ultimate trail rig and commands the highest resale premiums in the lineup"
+    "note": "The purest current Wrangler; short-wheelbase Rubicon is the ultimate trail rig, with strong but no longer extreme resale"
   },
   "wrangler_2dr_jk": {
     "community": 2.5,

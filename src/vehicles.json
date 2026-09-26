@@ -997,7 +997,7 @@
     "note": "Icon. Dana 44 axles, lockers, disconnecting sway bar. 4xe adds torque.",
     "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JL)",
     "body": "suv",
-    "passion": 10
+    "passion": 7.5
   },
   {
     "id": "wrangler_jl",
@@ -2072,7 +2072,7 @@
     "note": "Underrated full-size. Super Select 4WD, locking center diff. Great value.",
     "url": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero",
     "body": "suv",
-    "passion": 6
+    "passion": 4.5
   },
   {
     "id": "xc90_recharge",
@@ -4501,7 +4501,7 @@
     "note": "PHEV Wrangler for daily driving. 21mi EV range, 375hp. More comfort than Rubicon.",
     "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JL)",
     "body": "suv",
-    "passion": 7.5
+    "passion": 7
   },
   {
     "id": "xterra_pro4x",
@@ -4579,7 +4579,7 @@
     "note": "Short wheelbase crawler. Dana 44s, front/rear lockers, sway bar disconnect. Ultimate trail rig.",
     "url": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(JL)",
     "body": "suv",
-    "passion": 10
+    "passion": 9.5
   },
   {
     "id": "wrangler_2dr_jk",
