@@ -299,8 +299,8 @@
       "source": "2025 Audi SQ8 4.0T V8"
     },
     "audi-rs-q8-2020": {
-      "hp": 591,
-      "source": "2025 Audi RS Q8 4.0T V8"
+      "hp": 631,
+      "source": "2025+ Audi RS Q8 performance 4.0T V8 (only US RS Q8 since the 2025 facelift)"
     },
     "rivian-r1s-adventure-2022": {
       "hp": 850,
@@ -338,7 +338,7 @@
       "hp": 197,
       "source": "Montero 3rd Gen 3.5 V6"
     },
-    "volvo-xc90-recharge-2015": {
+    "volvo-xc90-t8-2015": {
       "hp": 455,
       "source": "2025 XC90 Recharge T8"
     },

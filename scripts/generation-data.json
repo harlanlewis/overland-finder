@@ -237,7 +237,7 @@
   },
   "jeep-wagoneer-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WS",
     "source": "Wikipedia: Jeep Wagoneer (WS)"
   },
@@ -402,7 +402,7 @@
   },
   "bmw-xm-2023": {
     "yearStart": 2023,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "G09",
     "source": "Wikipedia: BMW XM"
   },
@@ -516,7 +516,7 @@
     "generation": "3rd Gen",
     "source": "Wikipedia: Mitsubishi Pajero (third generation)"
   },
-  "volvo-xc90-recharge-2015": {
+  "volvo-xc90-t8-2015": {
     "yearStart": 2015,
     "yearEnd": null,
     "generation": "2nd Gen",
@@ -692,7 +692,7 @@
   },
   "jeep-grand-cherokee-l-overland-2021": {
     "yearStart": 2021,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WL",
     "source": "Wikipedia: Jeep Grand Cherokee (WL)"
   },

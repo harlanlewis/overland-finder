@@ -198,7 +198,7 @@
       "reliability": 7
     },
     "jeep-wagoneer-2022": {
-      "price": 60,
+      "price": 40,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -348,7 +348,7 @@
       "reliability": 7
     },
     "bmw-xm-2023": {
-      "price": 160,
+      "price": 80,
       "pt": "phev",
       "reliability": 6.5
     },
@@ -432,7 +432,7 @@
       "pt": "gas",
       "reliability": 7
     },
-    "volvo-xc90-recharge-2015": {
+    "volvo-xc90-t8-2015": {
       "price": 73,
       "pt": "phev",
       "reliability": 7.5
@@ -573,7 +573,7 @@
       "reliability": 8.2
     },
     "jeep-grand-cherokee-l-overland-2021": {
-      "price": 58,
+      "price": 38,
       "pt": "gas",
       "reliability": 7.5
     },
