@@ -593,7 +593,7 @@
       "reliability": 7.5
     },
     "ford-f-150-tremor-2021": {
-      "price": 58,
+      "price": 62,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -603,7 +603,7 @@
       "reliability": 8.5
     },
     "toyota-tundra-1794-edition-2022": {
-      "price": 62,
+      "price": 71,
       "pt": "hybrid",
       "reliability": 8.5
     },
@@ -613,7 +613,7 @@
       "reliability": 8
     },
     "chevrolet-colorado-zr2-2023": {
-      "price": 48,
+      "price": 51,
       "pt": "gas",
       "reliability": 8
     },
@@ -623,7 +623,7 @@
       "reliability": 7
     },
     "ram-1500-rebel-2019": {
-      "price": 58,
+      "price": 66,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -863,7 +863,7 @@
       "reliability": 6
     },
     "gmc-hummer-ev-pickup-3x-2022": {
-      "price": 99,
+      "price": 105,
       "pt": "ev",
       "reliability": 5
     },
@@ -873,7 +873,7 @@
       "reliability": 8.5
     },
     "rivian-r1t-dual-motor-2025": {
-      "price": 72,
+      "price": 80,
       "pt": "ev",
       "reliability": 6
     },
@@ -938,7 +938,7 @@
       "reliability": 8.5
     },
     "ford-ranger-xlt-4wd-2024": {
-      "price": 35,
+      "price": 40,
       "pt": "gas",
       "reliability": 7
     },
@@ -973,7 +973,7 @@
       "reliability": 7
     },
     "toyota-tacoma-sr5-double-cab-4wd-2024": {
-      "price": 37,
+      "price": 41,
       "pt": "gas",
       "reliability": 6
     },
@@ -983,7 +983,7 @@
       "reliability": 9
     },
     "ram-1500-big-horn-crew-cab-4wd-2019": {
-      "price": 47,
+      "price": 54,
       "pt": "gas",
       "reliability": 6
     },
