@@ -157,7 +157,7 @@
   },
   "land-rover-defender-110-v8-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "L663",
     "source": "Wikipedia: Land Rover Defender (L663)"
   },
@@ -206,19 +206,19 @@
   },
   "jeep-grand-cherokee-4xe-summit-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WL",
     "source": "Wikipedia: Jeep Grand Cherokee (WL)"
   },
   "jeep-grand-cherokee-4xe-overland-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WL",
     "source": "Wikipedia: Jeep Grand Cherokee (WL)"
   },
   "jeep-grand-cherokee-4xe-trailhawk-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WL",
     "source": "Wikipedia: Jeep Grand Cherokee (WL)"
   },
@@ -249,7 +249,7 @@
   },
   "jeep-wrangler-4xe-rubicon-2021": {
     "yearStart": 2021,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "JL",
     "source": "Wikipedia: Jeep Wrangler (JL)"
   },
@@ -408,7 +408,7 @@
   },
   "bmw-ix-xdrive50-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "i20",
     "source": "Wikipedia: BMW iX"
   },
@@ -487,7 +487,7 @@
   },
   "tesla-model-x-2016": {
     "yearStart": 2016,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "1st Gen",
     "source": "Wikipedia: Tesla Model X",
     "notes": "Refreshed 2021, same generation"
@@ -668,7 +668,7 @@
   },
   "lexus-tx-550h-plus-2024": {
     "yearStart": 2024,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "1st Gen",
     "source": "Wikipedia: Lexus TX"
   },
@@ -867,7 +867,7 @@
   },
   "toyota-highlander-hybrid-xle-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
     "source": "Wikipedia: Toyota Highlander (fourth generation)"
   },
@@ -910,7 +910,7 @@
   },
   "ford-escape-hybrid-st-line-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
     "source": "Wikipedia: Ford Escape (fourth generation)"
   },
@@ -940,7 +940,7 @@
   },
   "ford-escape-phev-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
     "source": "Wikipedia"
   },
@@ -988,13 +988,13 @@
   },
   "volvo-v60-cross-country-b5-awd-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "2nd Gen",
     "source": "Wikipedia"
   },
   "volvo-v90-cross-country-b6-awd-2017": {
     "yearStart": 2017,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "2nd Gen",
     "source": "Wikipedia"
   },
@@ -1084,7 +1084,7 @@
   },
   "jeep-wrangler-4xe-sahara-2021": {
     "yearStart": 2021,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "JL",
     "source": "Wikipedia"
   },
@@ -1168,7 +1168,7 @@
   },
   "acura-rdx-a-spec-sh-awd-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "3rd Gen",
     "source": "Web research Feb 2026 - Wikipedia Acura RDX"
   },

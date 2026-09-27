@@ -173,17 +173,17 @@
       "reliability": 7.5
     },
     "jeep-grand-cherokee-4xe-summit-2022": {
-      "price": 75,
+      "price": 31,
       "pt": "phev",
       "reliability": 7.5
     },
     "jeep-grand-cherokee-4xe-overland-2022": {
-      "price": 68,
+      "price": 30,
       "pt": "phev",
       "reliability": 7.5
     },
     "jeep-grand-cherokee-4xe-trailhawk-2022": {
-      "price": 63,
+      "price": 29,
       "pt": "phev",
       "reliability": 7.5
     },
@@ -213,7 +213,7 @@
       "reliability": 7.5
     },
     "jeep-wrangler-4xe-rubicon-2021": {
-      "price": 62,
+      "price": 29,
       "pt": "phev",
       "reliability": 7.5
     },
@@ -343,7 +343,7 @@
       "reliability": 7.5
     },
     "bmw-ix-xdrive50-2022": {
-      "price": 89,
+      "price": 50,
       "pt": "ev",
       "reliability": 7
     },
@@ -553,7 +553,7 @@
       "reliability": 8.5
     },
     "lexus-tx-550h-plus-2024": {
-      "price": 77,
+      "price": 81,
       "pt": "phev",
       "reliability": 8.5
     },
@@ -743,7 +743,7 @@
       "reliability": 8
     },
     "ford-escape-hybrid-st-line-2020": {
-      "price": 32,
+      "price": 34,
       "pt": "hybrid",
       "reliability": 7
     },
@@ -813,7 +813,7 @@
       "reliability": 7
     },
     "volvo-v90-cross-country-b6-awd-2017": {
-      "price": 61,
+      "price": 67,
       "pt": "hybrid",
       "reliability": 7
     },
@@ -888,7 +888,7 @@
       "reliability": 7
     },
     "jeep-wrangler-4xe-sahara-2021": {
-      "price": 58,
+      "price": 27,
       "pt": "phev",
       "reliability": 7.5
     },
@@ -958,7 +958,7 @@
       "reliability": 7
     },
     "acura-rdx-a-spec-sh-awd-2019": {
-      "price": 48,
+      "price": 51,
       "pt": "gas",
       "reliability": 8
     },
