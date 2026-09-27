@@ -1933,14 +1933,14 @@
     "passion": 4
   },
   {
-    "id": "tesla-cybertruck-awd-2024",
+    "id": "tesla-cybertruck-premium-awd-2024",
     "make": "Tesla",
     "model": "Cybertruck",
-    "trim": "AWD",
+    "trim": "Premium AWD",
     "generation": "1st Gen",
     "yearStart": 2024,
     "yearEnd": null,
-    "price": 80,
+    "price": 85,
     "mpg": 79,
     "offroad": 5,
     "luxury": 4.4,

@@ -100,7 +100,7 @@ const VEHICLE_NHTSA_MAP = {
 
   // Tesla
   'tesla-model-x-2016': { make: 'Tesla', model: 'Model X', year: 2025 },
-  'tesla-cybertruck-awd-2024': { make: 'Tesla', model: 'Cybertruck', year: 2025 },
+  'tesla-cybertruck-premium-awd-2024': { make: 'Tesla', model: 'Cybertruck', year: 2025 },
 
   // GMC Hummer
   'gmc-hummer-ev-suv-2024': { make: 'GMC', model: 'Hummer EV', year: 2025 },

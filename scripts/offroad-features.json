@@ -477,7 +477,7 @@
       "locker_rear": true,
       "note": "Hummer EV: Tri-motor with virtual lockers, Extract Mode, CrabWalk"
     },
-    "tesla-cybertruck-awd-2024": {
+    "tesla-cybertruck-premium-awd-2024": {
       "system": "awd",
       "low_range": false,
       "note": "Cybertruck AWD: Dual motor AWD, Trail Mode via OTA"
