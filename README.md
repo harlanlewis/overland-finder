@@ -22,7 +22,7 @@ pnpm preview  # preview production build
 
 ## Vehicle Data
 
-Vehicle specs are stored in `src/vehicles.json` (215+ vehicles).
+Vehicle specs are stored in `src/vehicles.json`; `pnpm validate` prints the current count.
 
 ### Schema
 

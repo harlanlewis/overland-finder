@@ -2,6 +2,16 @@
 
 ## Progress Log
 
+### 2026-09-26: Model-year refresh (trucks and diesels excluded)
+
+- **Why**: seven months after Batch 11, MY2026-27 had replaced or retired a large share of the entries marked current. An audit of every current non-truck, non-diesel entry drove five passes.
+- **Ended**: every Jeep 4xe (Stellantis dropped US plug-ins after MY2025), iX xDrive50, Wagoneer (folded into Grand Wagoneer), Grand Cherokee L Overland and base XM end at MY2025 with used prices. Escape Hybrid/PHEV, RDX, Model X, V60/V90 Cross Country, Highlander Hybrid, TX 550h+ and Defender V8 end at MY2026 and keep a new MSRP while that model year is on sale.
+- **New generations**: RAV4 Hybrid XSE and Plug-in Hybrid XSE, Outback and Forester Wilderness, Telluride X-Pro, Palisade Calligraphy, Passport TrailSport, Expedition Tremor (replaces Timberline), Navigator Reserve and a Gen 2 R1S; the entries they replace end with used prices. Atlas SE and X5 xDrive50e end at MY2026 without a successor entry, since neither successor is at dealers yet.
+- **New nameplates**: Jeep Cherokee Overland, Jeep Recon Moab, gas Grand Cherokee Trailhawk (MY2027), Rivian R2 Performance, RAV4 Woodland, bZ Woodland, Subaru Trailseeker, Palisade XRT PRO.
+- **Renames and prices**: XC90 Recharge became T8 (id rekeyed), RS Q8 is the 631 hp RS Q8 performance, and sixteen MSRPs that moved more than 5% were updated with destination backed out.
+- **Left for later**: trucks and diesels; single-source prices (Grenadier Trialmaster, Durango R/T 392); Grand Wagoneer and EQS SUV trim mapping; PHEV mpg convention (overland-finder-4x9).
+- Research used fetched pages only (CarsDirect, cars.com, KBB, Wikipedia, EPA, NHTSA, maker media sites); new-generation reliability carries the prior generation's value until JD Power rates it.
+
 ### 2026-02-21: Batch 11 Complete
 
 - **Added 7 vehicles**: Dodge Durango R/T AWD, Ford Explorer Timberline, Nissan Armada Platinum 4WD, Nissan Rogue SL AWD, Chevrolet Equinox RS AWD, Mazda CX-5 2.5 Turbo Premium AWD, BMW X3 xDrive30i
@@ -174,7 +184,7 @@
 
 ---
 
-## Current State (215 vehicles)
+## Current State (215 vehicles, as of 2026-02-21)
 
 ### By Size
 
@@ -760,8 +770,7 @@ Round out thin coverage areas and add emerging/notable models.
 | 13    | 8        | PLANNED   | Older generations: Wrangler YJ, Tacoma 3rd, 4Runner 3rd, F-150 13th, Explorer 5th, Highlander 3rd, LR4, GX 460 |
 | 14    | 8        | PLANNED   | Segment fill: Durango SRT, Hummer H1, Ioniq 5 N, Wrangler 392, Outback Wilderness, GLB, Cayenne E-Hybrid, Bronco Raptor |
 
-**Batches 1-11: 99 vehicles added (116 → 215)**
-**Batches 12-14: 24 vehicles planned (215 → 239)**
+**Batches 1-11: 99 vehicles added (116 → 215)** **Batches 12-14: 24 vehicles planned (215 → 239)**
 
 ---
 
