@@ -734,10 +734,10 @@
   },
   "chevrolet-silverado-1500-zr2-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
     "source": "Wikipedia: Chevrolet Silverado (fourth generation)",
-    "notes": "ZR2 trim introduced 2022"
+    "notes": "Next-generation 1500 from MY2027 (Wikipedia gen 4: 2019-2026)"
   },
   "chevrolet-colorado-zr2-2023": {
     "yearStart": 2023,
@@ -747,10 +747,10 @@
   },
   "ram-1500-trx-2021": {
     "yearStart": 2021,
-    "yearEnd": 2024,
+    "yearEnd": null,
     "generation": "5th Gen",
     "source": "Wikipedia: Ram 1500 (fifth generation)",
-    "notes": "TRX discontinued after 2024 model year"
+    "notes": "Off sale MY2025-2026; returned for MY2027 as the SRT TRX"
   },
   "ram-1500-rebel-2019": {
     "yearStart": 2019,
@@ -1006,9 +1006,10 @@
   },
   "gmc-sierra-1500-at4x-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
-    "source": "Wikipedia"
+    "source": "Wikipedia",
+    "notes": "Next-generation 1500 from MY2027 (Wikipedia gen 4: 2019-2026)"
   },
   "ram-1500-laramie-ecodiesel-2020": {
     "yearStart": 2020,
@@ -1019,9 +1020,10 @@
   },
   "chevrolet-silverado-1500-lt-duramax-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
-    "source": "Wikipedia: Chevrolet Silverado (fourth generation)"
+    "source": "Wikipedia: Chevrolet Silverado (fourth generation)",
+    "notes": "Next-generation 1500 from MY2027 (Wikipedia gen 4: 2019-2026)"
   },
   "jeep-gladiator-rubicon-ecodiesel-2021": {
     "yearStart": 2021,
@@ -1196,9 +1198,10 @@
   },
   "chevrolet-silverado-1500-lt-trail-boss-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
-    "source": "Wikipedia: Chevrolet Silverado (fourth generation)"
+    "source": "Wikipedia: Chevrolet Silverado (fourth generation)",
+    "notes": "Next-generation 1500 from MY2027 (Wikipedia gen 4: 2019-2026)"
   },
   "ram-1500-big-horn-crew-cab-4wd-2019": {
     "yearStart": 2019,
