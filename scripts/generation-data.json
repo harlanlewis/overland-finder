@@ -1012,9 +1012,10 @@
   },
   "ram-1500-laramie-ecodiesel-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2023,
     "generation": "5th Gen",
-    "source": "Wikipedia: Ram Pickup (DS/DT)"
+    "source": "Wikipedia: Ram Pickup (DS/DT)",
+    "notes": "EcoDiesel dropped after MY2023"
   },
   "chevrolet-silverado-1500-lt-duramax-2019": {
     "yearStart": 2019,
@@ -1031,14 +1032,15 @@
   "ford-f-150-lariat-power-stroke-2018": {
     "yearStart": 2018,
     "yearEnd": 2021,
-    "generation": "14th Gen",
-    "source": "Wikipedia: Ford F-Series (14th generation)"
+    "generation": "13th Gen",
+    "source": "Wikipedia: Ford F-Series (thirteenth generation); the diesel carried into MY2021"
   },
   "ford-f-150-lightning-flash-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "14th Gen",
-    "source": "Wikipedia"
+    "source": "Wikipedia",
+    "notes": "Production ended December 2025"
   },
   "ford-f-150-king-ranch-powerboost-2021": {
     "yearStart": 2021,
@@ -1048,9 +1050,10 @@
   },
   "chevrolet-silverado-ev-rst-2024": {
     "yearStart": 2024,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "1st Gen",
-    "source": "Wikipedia"
+    "source": "Wikipedia",
+    "notes": "RST dropped for MY2027"
   },
   "gmc-hummer-ev-pickup-3x-2022": {
     "yearStart": 2022,
@@ -1126,9 +1129,10 @@
   },
   "hyundai-santa-cruz-sel-awd-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "1st Gen",
-    "source": "Web research Feb 2026 - Wikipedia Hyundai Santa Cruz"
+    "source": "Web research Feb 2026 - Wikipedia Hyundai Santa Cruz",
+    "notes": "SEL dropped for MY2027"
   },
   "nissan-frontier-pro-4x-2022": {
     "yearStart": 2022,

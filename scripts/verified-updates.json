@@ -828,7 +828,7 @@
       "reliability": 7
     },
     "ram-1500-laramie-ecodiesel-2020": {
-      "price": 58,
+      "price": 36,
       "pt": "diesel",
       "reliability": 6.5
     },
@@ -838,7 +838,7 @@
       "reliability": 6
     },
     "jeep-gladiator-rubicon-ecodiesel-2021": {
-      "price": 48,
+      "price": 36,
       "pt": "diesel",
       "reliability": 6.5
     },
@@ -848,7 +848,7 @@
       "reliability": 7
     },
     "ford-f-150-lightning-flash-2022": {
-      "price": 70,
+      "price": 54,
       "pt": "ev",
       "reliability": 6.5
     },
@@ -858,7 +858,7 @@
       "reliability": 7
     },
     "chevrolet-silverado-ev-rst-2024": {
-      "price": 80,
+      "price": 88,
       "pt": "ev",
       "reliability": 6
     },
