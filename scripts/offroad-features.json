@@ -1291,6 +1291,14 @@
       "system": "awd",
       "low_range": false,
       "note": "Navigator 5th Gen: standard 4WD without low range; 2-speed transfer case only with the Heavy Duty Trailer Tow Package"
+    },
+    "rivian-r1s-dual-motor-2025": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "R1S Gen 2 dual-motor (sold as Premium from MY2027): AWD, air suspension with over 5.5 in. of height adjustment, 39.4 in. wading depth. Single-speed EV, no low range."
     }
   }
 }

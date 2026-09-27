@@ -388,12 +388,12 @@
       "reliability": 7.5
     },
     "rivian-r1s-adventure-2022": {
-      "price": 76,
+      "price": 62,
       "pt": "ev",
       "reliability": 7
     },
     "rivian-r1s-dual-max-2022": {
-      "price": 106,
+      "price": 73,
       "pt": "ev",
       "reliability": 7
     },
@@ -1111,6 +1111,11 @@
       "price": 103,
       "pt": "gas",
       "reliability": 7.5
+    },
+    "rivian-r1s-dual-motor-2025": {
+      "price": 84,
+      "pt": "ev",
+      "reliability": 6
     }
   }
 }

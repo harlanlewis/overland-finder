@@ -457,13 +457,13 @@
   },
   "rivian-r1s-adventure-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2024,
     "generation": "1st Gen",
     "source": "Wikipedia: Rivian R1S"
   },
   "rivian-r1s-dual-max-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2024,
     "generation": "1st Gen",
     "source": "Wikipedia: Rivian R1S"
   },
@@ -1351,5 +1351,11 @@
     "yearEnd": null,
     "generation": "5th Gen",
     "source": "Wikipedia: Lincoln Navigator (fifth generation, MY2025-present, production from January 2025)"
+  },
+  "rivian-r1s-dual-motor-2025": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Cars.com 2025 R1S review: Rivian calls the 2025 a second-generation model; 1st gen ran MY2022-2024"
   }
 }

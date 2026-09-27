@@ -885,6 +885,10 @@
     "lincoln-navigator-reserve-2025": {
       "hp": 440,
       "source": "Lincoln 2025 Navigator technical specs: 440 hp @ 5,850 rpm (Wikipedia says 450)"
+    },
+    "rivian-r1s-dual-motor-2025": {
+      "hp": 665,
+      "source": "Rivian.com 2027 R1S Premium (dual motor)"
     }
   }
 }

@@ -1547,6 +1547,13 @@
       "cargo": 22.9,
       "gc": 8.9,
       "source": "Lincoln 2025 Navigator technical specs PDF (media.lincoln.com via web.archive.org): base curb 5,929 lb SWB, 8,700 lb with HD Trailer Tow Package, 22.9 cu ft behind 3rd row (seats upright), 8.9in min running clearance; NHTSA Canadian specs 2,689 kg agrees"
+    },
+    "rivian-r1s-dual-motor-2025": {
+      "weight": 6671,
+      "tow": 7700,
+      "cargo": 17.6,
+      "gc": 14.7,
+      "source": "Rivian.com R1S (Sept 2026): 7,700 lb tow, 17.6 cu ft all seats up (48.6 third row folded), max ground clearance 14.7 in.; CarsDirect 2026 R1S Dual specs: 6,671 lb curb weight"
     }
   }
 }

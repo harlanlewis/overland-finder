@@ -3375,5 +3375,20 @@
       "resale": "Full-size luxury SUV depreciation with no premium; no 5th-gen data yet"
     },
     "note": "New generation of Lincoln's flagship; no evidence that the owner culture changed, so scores match the 4th-gen Reserve"
+  },
+  "rivian-r1s-dual-motor-2025": {
+    "community": 2,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 1,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Shares r/Rivian, RivianForums.com and RivianOwnersForum.com with the R1T; Gen 2 threads active; subscriber counts unverified",
+      "aftermarket": "Mostly accessories and cosmetics, much of it shared with R1T and carried over from Gen 1; little suspension or armor aftermarket",
+      "heritage": "R1S deliveries since 2022; Gen 2 from MY2025; no nameplate heritage",
+      "identity": "Adventure-EV early adopters with camping and overland positioning; no wave, clubs or tribe comparable to legacy 4x4s",
+      "resale": "Used 1st-gen R1S listings sit far below the original sticker (Cars.com 2023-2024 averages in the $60Ks against ~$80K+ new); no premium"
+    },
+    "note": "Same base as the Gen 2 R1T: strong online EV community and adventure branding, thin hard-parts aftermarket, steep depreciation"
   }
 }

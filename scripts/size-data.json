@@ -796,5 +796,9 @@
   "lincoln-navigator-reserve-2025": {
     "size": "full",
     "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (fueleconomy.gov id 50170); full-size body-on-frame"
+  },
+  "rivian-r1s-dual-motor-2025": {
+    "size": "mid",
+    "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (2027 R1S Premium); interior <100 cu ft per the 1st-gen entries"
   }
 }

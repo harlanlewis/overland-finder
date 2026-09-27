@@ -2714,5 +2714,20 @@
     ],
     "quietness": "very_quiet",
     "source": "Lincoln 2025 Navigator technical specs (premium leather, heated/ventilated front seats, 28-speaker Revel Ultima 3D, Panoramic Vista Roof, 48in display, acoustic laminated glass, active noise control, Adaptive Suspension with CCD); Lincoln media 2025 Navigator page (front seats heated, ventilated and massaging on all models)"
+  },
+  "rivian-r1s-dual-motor-2025": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "premium_audio",
+      "air_suspension",
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "very_quiet",
+    "source": "Rivian.com R1S: heated and ventilated perforated seats, 12-speaker Rivian Audio standard with Rivian Premium Audio optional, panoramic glass roof, air suspension; CarsDirect lists seat trim as leatherette"
   }
 }
