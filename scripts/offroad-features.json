@@ -693,9 +693,9 @@
       "note": "Tundra TRD Pro: Multi-Terrain Select, Crawl Control, rear locker"
     },
     "toyota-tundra-1794-edition-2022": {
-      "system": "full_time",
-      "low_range": false,
-      "note": "Tundra 1794: Full-time 4WD (AWD behavior), luxury-focused"
+      "system": "part_time",
+      "low_range": true,
+      "note": "Tundra 1794 4x4: 4WDemand part-time 4WD, electronically controlled 2-speed transfer case, Auto LSD (Toyota dealer spec listings 2026)"
     },
     "chevrolet-silverado-1500-zr2-2022": {
       "system": "selectable",
@@ -706,10 +706,10 @@
     },
     "chevrolet-colorado-zr2-2023": {
       "system": "selectable",
-      "low_range": false,
+      "low_range": true,
       "locker_front": true,
       "locker_rear": true,
-      "note": "Colorado ZR2: Autotrac two-speed transfer case, front/rear e-lockers"
+      "note": "Colorado ZR2: Autotrac two-speed transfer case with 4 Lo, front/rear e-lockers standard (dealer spec pages 2026)"
     },
     "ram-1500-trx-2021": {
       "system": "selectable",
@@ -992,10 +992,11 @@
     },
     "ford-f-150-king-ranch-powerboost-2021": {
       "system": "part_time",
-      "low_range": false,
+      "low_range": true,
       "locker_front": false,
       "locker_center": false,
-      "locker_rear": true
+      "locker_rear": true,
+      "note": "F-150 4x4: 2-speed transfer case with 4L; electronic-locking rear axle (CarPro 2026 King Ranch PowerBoost)"
     },
     "chevrolet-silverado-ev-rst-2024": {
       "system": "awd",
@@ -1197,8 +1198,9 @@
       "note": "VW 4MOTION on-demand AWD. No lockers, no low range."
     },
     "dodge-durango-r-t-392-2011": {
-      "system": "selectable",
-      "low_range": true
+      "system": "awd",
+      "low_range": false,
+      "note": "R/T: single-speed active AWD; the two-speed case with low is on other V8 trims (Stellantis R/T 392 release, Durango forums)"
     },
     "ford-explorer-timberline-4wd-2022": {
       "system": "awd",
