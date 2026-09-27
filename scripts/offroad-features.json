@@ -317,7 +317,7 @@
     },
     "ford-expedition-timberline-2018": {
       "system": "selectable",
-      "low_range": false,
+      "low_range": true,
       "locker_rear": true,
       "note": "Expedition Timberline: No low range, limited-slip rear"
     },
@@ -1233,6 +1233,64 @@
       "system": "awd",
       "low_range": false,
       "note": "xDrive full-time AWD, rear-biased 40/60 default."
+    },
+    "toyota-rav4-hybrid-xse-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "RAV4 Hybrid XSE (6th gen): AWD via dedicated rear electric motor, no low range or lockers"
+    },
+    "toyota-rav4-plug-in-hybrid-xse-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "RAV4 Plug-in Hybrid XSE: AWD via rear electric motor, no low range or lockers"
+    },
+    "subaru-outback-wilderness-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "Outback Wilderness (7th gen): Symmetrical AWD using steering-angle data, X-MODE Dual (Snow/Dirt, Deep Snow/Mud) with hill descent, electronically controlled dampers, Bridgestone Dueler all-terrain tires"
+    },
+    "subaru-forester-wilderness-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "Forester Wilderness (6th gen): Symmetrical AWD, X-MODE Dual (Snow/Dirt, Deep Snow/Mud), shorter final drive, transmission cooler, Yokohama Geolandar all-terrain tires, full-size spare"
+    },
+    "kia-telluride-x-pro-2027": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Telluride X-Pro (2nd gen): AWD with E-LSD rear limited-slip (not a locker), terrain modes, Ground View Monitor, all-terrain tires"
+    },
+    "hyundai-palisade-calligraphy-2026": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Palisade Calligraphy: HTRAC full-time AWD, road-focused"
+    },
+    "honda-passport-trailsport-2026": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Passport TrailSport (4th gen): i-VTM4 torque-vectoring AWD, trail modes, steel skid plates, 31 in. all-terrain tires; 2027 adds lifted suspension (25/25/23 deg angles) and standard TrailWatch cameras"
+    },
+    "ford-expedition-tremor-2025": {
+      "system": "selectable",
+      "low_range": false,
+      "locker_rear": true,
+      "note": "Expedition Tremor: standard 4WD, locking rear differential, Rock Crawl mode, Trail 1-Pedal, Trail Turn Assist, skid plates for front axle, transfer case and fuel tank; low range not confirmed (scored without it until a source confirms)"
+    },
+    "lincoln-navigator-reserve-2025": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Navigator 5th Gen: standard 4WD without low range; 2-speed transfer case only with the Heavy Duty Trailer Tow Package"
     }
   }
 }

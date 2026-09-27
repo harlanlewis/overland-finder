@@ -3240,5 +3240,140 @@
       "resale": "Standard compact luxury SUV depreciation; no premium or penalty"
     },
     "note": "BMW's volume compact SUV — benefits from BMW brand appeal but has no vehicle-specific passion"
+  },
+  "toyota-rav4-hybrid-xse-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Carried from 5th-gen RAV4 Hybrid XSE: r/RAV4 and RAV4World cover all generations; practical ownership discussion, not enthusiasm",
+      "aftermarket": "No enthusiast aftermarket for the XSE; LP Aventure lists a 2026 RAV4 collection but it serves the lifted/rugged niche, not this trim",
+      "heritage": "RAV4 since 1994; hybrid since 2016; competent appliance with no cultural resonance",
+      "identity": "Practical buyers; no tribal identity",
+      "resale": "Carried from prior gen (hybrid demand plus Toyota reliability); unverified for the new generation"
+    },
+    "note": "New generation of the quintessential practical hybrid crossover; sub-scores carried from the 5th gen because no evidence differs"
+  },
+  "toyota-rav4-plug-in-hybrid-xse-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Carried from Prime XSE: r/RAV4Prime is active but about charging and efficiency, not vehicle passion",
+      "aftermarket": "No enthusiast aftermarket; charging accessories and OEM parts",
+      "heritage": "RAV4 since 1994; plug-in since MY2021; no cultural significance",
+      "identity": "Tech and efficiency buyers; no tribal identity",
+      "resale": "Carried from Prime (supply-driven demand); unverified for the new generation, now built in higher volume alongside the HEV"
+    },
+    "note": "New generation of the Prime; sub-scores carried from the 5th gen because no evidence differs"
+  },
+  "subaru-outback-wilderness-2026": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Carried from 6th gen: r/Subaru_Outback, SubaruOutback.org and Wilderness groups span generations",
+      "aftermarket": "LP Aventure already lists \"Outback Wilderness 2026+\" and \"Subaru Outback 2026\" collections (lpaventure.com menu, 2026-09-26), so the ecosystem carried over",
+      "heritage": "Outback since 1994; Wilderness since 2022",
+      "identity": "Subaru outdoor affinity; mild, not lifestyle",
+      "resale": "Carried from 6th gen Wilderness; unverified for the new generation"
+    },
+    "note": "New generation of the lifted Outback; LP Aventure support already exists, so the prior sub-scores hold"
+  },
+  "subaru-forester-wilderness-2026": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Carried from 5th gen: r/SubaruForester, SubaruForester.org, r/battlewagon span generations",
+      "aftermarket": "LP Aventure lists a \"Subaru Forester 2025+\" collection (lpaventure.com menu, 2026-09-26), so the ecosystem carried over",
+      "heritage": "Forester since 1997; Wilderness since 2022",
+      "identity": "Wilderness owners are the enthusiast subset; Subaru outdoor identity",
+      "resale": "Carried from 5th gen Wilderness; unverified for the new generation"
+    },
+    "note": "New generation of the serious off-road Subaru; LP Aventure support already exists, so the prior sub-scores hold"
+  },
+  "kia-telluride-x-pro-2027": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Shares the Telluride nameplate communities (r/KiaTelluride, TellurideForum.com) built by the 1st gen; 2nd-gen threads are new and still thin",
+      "aftermarket": "Carried over from the 1st gen pending evidence: roof racks and basic accessories; 1st-gen lift kits do not carry over to the new platform (unverified for 2nd gen)",
+      "heritage": "Nameplate since MY2020; award history but no cultural heritage",
+      "identity": "Value-and-design enthusiasm plus mild X-Pro adventure identity, as with the 1st gen",
+      "resale": "No markup era or resale history yet for the 2nd gen; the 1st gen's early premium does not transfer"
+    },
+    "note": "New generation of the Kia that made people enthusiastic about a Kia; community and resale reset to unproven"
+  },
+  "hyundai-palisade-calligraphy-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Shares r/HyundaiPalisade and PalisadeForum.com with the 1st gen; satisfied-owner rather than enthusiast tone",
+      "aftermarket": "Minimal: roof racks, cross bars, tow accessories; no off-road aftermarket for a Calligraphy",
+      "heritage": "Nameplate since MY2020; no cultural significance",
+      "identity": "Value-luxury enthusiasm and Hyundai quality-narrative pride; not a lifestyle identity",
+      "resale": "1st gen's 2021-2022 markup premium does not transfer; 2nd gen has no resale history yet"
+    },
+    "note": "Well-reviewed value-luxury three-row; enthusiasm is about value, not passion culture"
+  },
+  "honda-passport-trailsport-2026": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/hondapassport and PassportForum with the 3rd gen; Honda says TrailSport is over 80% of 4th-gen sales (June 2026) and built its HTX off-road app with input from 1,500+ 2026 TrailSport owners",
+      "aftermarket": "Honda/Jsport accessories and early racks and leveling kits; not yet deep for the new platform (unverified)",
+      "heritage": "Passport nameplate 1994-2002 (Isuzu Rodeo rebadge), revived 2019; TrailSport since 2024",
+      "identity": "TrailSport-heavy mix and Honda's off-road app point to an adventure-leaning owner base; no tribal signals yet",
+      "resale": "Honda brand retention; no irrational premium"
+    },
+    "note": "The most off-road Honda yet; a rugged redesign with growing trail interest, still an early community"
+  },
+  "ford-expedition-tremor-2025": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "ExpeditionForum.com and Facebook owner groups continue into the 5th gen; family and towing focus, no enthusiast subculture (carried from the 4th-gen entries)",
+      "aftermarket": "Basic: leveling kits and racks as for the 4th gen; T3 platform shared with the F-150; no 5th-gen-specific evidence found (unverified)",
+      "heritage": "Nameplate since 1997, replacing the full-size Bronco; Tremor badge borrowed from Ford trucks; no cultural cachet",
+      "identity": "Family and towing buyers; no wave, clubs or gatherings",
+      "resale": "4th-gen Expedition loses about 53-59% in 5 yrs (iSeeCars, CarEdge, from the 4th-gen entry); no premium expected"
+    },
+    "note": "Most capable Expedition yet, but the buyer is the same family-towing buyer; scored equal to the Timberline it replaces"
+  },
+  "lincoln-navigator-reserve-2025": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Lincoln and Navigator forums and Facebook groups carry over; thin, overshadowed by Escalade (carried from the 4th-gen entry)",
+      "aftermarket": "Wheel and audio customization, some Expedition cross-compatibility, Hennessey upgrades; modest (carried from the 4th-gen entry)",
+      "heritage": "Navigator since 1998; Lincoln's flagship with some pop-culture presence behind Escalade",
+      "identity": "Luxury status identity weaker than Escalade",
+      "resale": "Full-size luxury SUV depreciation with no premium; no 5th-gen data yet"
+    },
+    "note": "New generation of Lincoln's flagship; no evidence that the owner culture changed, so scores match the 4th-gen Reserve"
   }
 }

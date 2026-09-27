@@ -248,7 +248,7 @@
       "reliability": 7
     },
     "ford-expedition-timberline-2018": {
-      "price": 76,
+      "price": 55,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -473,7 +473,7 @@
       "reliability": 7
     },
     "lincoln-navigator-reserve-2018": {
-      "price": 100,
+      "price": 57,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -493,12 +493,12 @@
       "reliability": 8.3
     },
     "kia-telluride-x-pro-2020": {
-      "price": 54,
+      "price": 37,
       "pt": "gas",
       "reliability": 8.5
     },
     "hyundai-palisade-calligraphy-2020": {
-      "price": 52,
+      "price": 37,
       "pt": "gas",
       "reliability": 8.5
     },
@@ -508,7 +508,7 @@
       "reliability": 8
     },
     "honda-passport-trailsport-2019": {
-      "price": 42,
+      "price": 36,
       "pt": "gas",
       "reliability": 8
     },
@@ -523,12 +523,12 @@
       "reliability": 8
     },
     "subaru-outback-wilderness-2022": {
-      "price": 42,
+      "price": 30,
       "pt": "gas",
       "reliability": 8
     },
     "subaru-forester-wilderness-2022": {
-      "price": 35,
+      "price": 29,
       "pt": "gas",
       "reliability": 8
     },
@@ -703,7 +703,7 @@
       "reliability": 6.5
     },
     "toyota-rav4-hybrid-xse-2019": {
-      "price": 35,
+      "price": 39,
       "pt": "hybrid",
       "reliability": 8.5
     },
@@ -868,7 +868,7 @@
       "reliability": 5
     },
     "toyota-rav4-prime-xse-2021": {
-      "price": 49,
+      "price": 39,
       "pt": "phev",
       "reliability": 8.5
     },
@@ -1066,6 +1066,51 @@
       "price": 50,
       "pt": "gas",
       "reliability": 5
+    },
+    "toyota-rav4-hybrid-xse-2026": {
+      "price": 41,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "toyota-rav4-plug-in-hybrid-xse-2026": {
+      "price": 47,
+      "pt": "phev",
+      "reliability": 8.5
+    },
+    "subaru-outback-wilderness-2026": {
+      "price": 45,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "subaru-forester-wilderness-2026": {
+      "price": 39,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "kia-telluride-x-pro-2027": {
+      "price": 54,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "hyundai-palisade-calligraphy-2026": {
+      "price": 56,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "honda-passport-trailsport-2026": {
+      "price": 49,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "ford-expedition-tremor-2025": {
+      "price": 82,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "lincoln-navigator-reserve-2025": {
+      "price": 103,
+      "pt": "gas",
+      "reliability": 7.5
     }
   }
 }

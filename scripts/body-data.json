@@ -644,5 +644,32 @@
   },
   "bmw-x3-xdrive30i-2025": {
     "body": "cuv"
+  },
+  "toyota-rav4-hybrid-xse-2026": {
+    "body": "cuv"
+  },
+  "toyota-rav4-plug-in-hybrid-xse-2026": {
+    "body": "cuv"
+  },
+  "subaru-outback-wilderness-2026": {
+    "body": "wagon"
+  },
+  "subaru-forester-wilderness-2026": {
+    "body": "cuv"
+  },
+  "kia-telluride-x-pro-2027": {
+    "body": "suv"
+  },
+  "hyundai-palisade-calligraphy-2026": {
+    "body": "suv"
+  },
+  "honda-passport-trailsport-2026": {
+    "body": "suv"
+  },
+  "ford-expedition-tremor-2025": {
+    "body": "suv"
+  },
+  "lincoln-navigator-reserve-2025": {
+    "body": "suv"
   }
 }

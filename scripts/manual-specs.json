@@ -1484,6 +1484,69 @@
       "cargo": 32,
       "gc": 8.5,
       "source": "BMW X3 xDrive30i specs (Edmunds, manufacturer)"
+    },
+    "toyota-rav4-hybrid-xse-2026": {
+      "weight": 3865,
+      "tow": 3500,
+      "cargo": 39.4,
+      "gc": 8.1,
+      "source": "Weight: NHTSA Canadian specs 2026 RAV4 XLE/XSE/Limited 1753 kg (Cars.com XSE AWD 3,825 lb). Tow and gc: Toyota pressroom 2025-10-22 (3,500 lb AWD XSE; 8.1 in standard grades). Cargo: CarsDirect 2026 RAV4"
+    },
+    "toyota-rav4-plug-in-hybrid-xse-2026": {
+      "weight": 4540,
+      "tow": 3500,
+      "cargo": 33.6,
+      "gc": 8.1,
+      "source": "Weight: Cars.com 2026 RAV4 Plug-in Hybrid XSE (NHTSA Canadian specs has no PHEV row). Tow: Toyota pressroom 2025-05-20. Cargo: CarsDirect (Cars.com 34). Gc: Toyota pressroom 2025-10-22 standard grades 8.1 in"
+    },
+    "subaru-outback-wilderness-2026": {
+      "weight": 3966,
+      "tow": 3500,
+      "cargo": 34.6,
+      "gc": 9.5,
+      "source": "Weight: NHTSA Canadian specs 2026 Outback Limited/Wilderness/Premier 1799 kg (Cars.com Wilderness 3,973 lb). Gc: Subaru pricing release (PR Newswire). Tow: Cars.com, CarsDirect. Cargo: CarsDirect (seats up)"
+    },
+    "subaru-forester-wilderness-2026": {
+      "weight": 3675,
+      "tow": 3500,
+      "cargo": 28,
+      "gc": 9.3,
+      "source": "Weight, cargo: Cars.com 2026 Forester Wilderness (NHTSA Canadian specs has none: Wilderness is not sold in Canada). Gc, tow: Subaru 2027 Forester pricing release"
+    },
+    "kia-telluride-x-pro-2027": {
+      "weight": 4729,
+      "tow": 5000,
+      "cargo": 22.3,
+      "gc": 9.1,
+      "source": "CarsDirect 2027 Telluride X-Pro SX AWD specs (curb weight, 22.3 cu ft behind 3rd row, 5,000 lb; X-Pro SX-Prestige with Towing Package is 5,500); Kia 2027 pricing release (9.1 in. clearance)"
+    },
+    "hyundai-palisade-calligraphy-2026": {
+      "weight": 4872,
+      "tow": 5000,
+      "cargo": 19.1,
+      "gc": 7.4,
+      "source": "CarsDirect 2026/2027 Palisade Calligraphy AWD specs (curb weight, 19.1 cu ft behind 3rd row, 5,000 lb); Hyundai 2026 pricing release (XRT PRO 8.4 in. = +1 in. vs non-XRT PRO, so 7.4 in.)"
+    },
+    "honda-passport-trailsport-2026": {
+      "weight": 4685,
+      "tow": 5000,
+      "cargo": 44,
+      "gc": 9.7,
+      "source": "NHTSA Canadian specs 2026 Passport TrailSport (2,125 kg curb weight); CarsDirect 2026 Passport (44 cu ft behind 2nd row, 5,000 lb); Honda 2027 TrailSport release, Sept 9, 2026 (9.65 in., up from 8.27 in. on 2026)"
+    },
+    "ford-expedition-tremor-2025": {
+      "weight": 5668,
+      "tow": 9600,
+      "cargo": 21.6,
+      "gc": 10.6,
+      "source": "Wikipedia: Ford Expedition fifth gen (Tremor 10.6in gc; 7,000 lb standard / 9,600 lb with weight-distributing hitch); carsdirect 2025/2026 (21.6 cu ft behind 3rd row, 60.8 behind 2nd); weight from NHTSA Canadian specs 2025 Expedition SWB 2,571 kg, trim unstated"
+    },
+    "lincoln-navigator-reserve-2025": {
+      "weight": 5929,
+      "tow": 8700,
+      "cargo": 22.9,
+      "gc": 8.9,
+      "source": "Lincoln 2025 Navigator technical specs PDF (media.lincoln.com via web.archive.org): base curb 5,929 lb SWB, 8,700 lb with HD Trailer Tow Package, 22.9 cu ft behind 3rd row (seats upright), 8.9in min running clearance; NHTSA Canadian specs 2,689 kg agrees"
     }
   }
 }

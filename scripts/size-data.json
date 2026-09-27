@@ -760,5 +760,41 @@
   "bmw-x3-xdrive30i-2025": {
     "size": "compact",
     "source": "EPA VClass / segment classification"
+  },
+  "toyota-rav4-hybrid-xse-2026": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD (2026 RAV4 AWD Limited & XSE); compact matches existing RAV4 entries"
+  },
+  "toyota-rav4-plug-in-hybrid-xse-2026": {
+    "size": "compact",
+    "source": "Same body as RAV4 Hybrid (EPA Small SUV 4WD); compact matches existing RAV4 entries"
+  },
+  "subaru-outback-wilderness-2026": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD (2026 Outback Wilderness AWD); mid matches the existing Outback entry"
+  },
+  "subaru-forester-wilderness-2026": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD (2026 Forester Wilderness AWD); compact matches the existing Forester entry"
+  },
+  "kia-telluride-x-pro-2027": {
+    "size": "mid",
+    "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (2027 Telluride X-Pro); matches 1st-gen entry"
+  },
+  "hyundai-palisade-calligraphy-2026": {
+    "size": "mid",
+    "source": "EPA VClass: Standard Sport Utility Vehicle 4WD; kept mid to match the 1st-gen entry and Telluride"
+  },
+  "honda-passport-trailsport-2026": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD (2026 Passport AWD TrailSport)"
+  },
+  "ford-expedition-tremor-2025": {
+    "size": "full",
+    "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (fueleconomy.gov id 50151); full-size body-on-frame"
+  },
+  "lincoln-navigator-reserve-2025": {
+    "size": "full",
+    "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (fueleconomy.gov id 50170); full-size body-on-frame"
   }
 }

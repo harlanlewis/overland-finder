@@ -849,6 +849,42 @@
     "bmw-x3-xdrive30i-2025": {
       "hp": 255,
       "source": "BMW X3 xDrive30i manufacturer specs"
+    },
+    "toyota-rav4-hybrid-xse-2026": {
+      "hp": 236,
+      "source": "2026 RAV4 Hybrid AWD 236 hp combined - Toyota pressroom, Cars.com"
+    },
+    "toyota-rav4-plug-in-hybrid-xse-2026": {
+      "hp": 324,
+      "source": "Toyota pressroom 2025-10-22 (324 hp net combined); Cars.com, CarsDirect agree"
+    },
+    "subaru-outback-wilderness-2026": {
+      "hp": 260,
+      "source": "Subaru pricing release: 2.4T 260 hp / 277 lb-ft"
+    },
+    "subaru-forester-wilderness-2026": {
+      "hp": 180,
+      "source": "Subaru 2027 Forester pricing release; Cars.com 2026 Forester Wilderness"
+    },
+    "kia-telluride-x-pro-2027": {
+      "hp": 274,
+      "source": "2027 Telluride 2.5T I4 (Kia media, CarsDirect)"
+    },
+    "hyundai-palisade-calligraphy-2026": {
+      "hp": 287,
+      "source": "2026 Palisade 3.5 V6 (CarsDirect)"
+    },
+    "honda-passport-trailsport-2026": {
+      "hp": 285,
+      "source": "2026 Passport TrailSport 3.5 V6 (CarsDirect)"
+    },
+    "ford-expedition-tremor-2025": {
+      "hp": 440,
+      "source": "2025/2026 Expedition Tremor: high-output 3.5 EcoBoost, 440 hp (carsdirect, Motor Authority)"
+    },
+    "lincoln-navigator-reserve-2025": {
+      "hp": 440,
+      "source": "Lincoln 2025 Navigator technical specs: 440 hp @ 5,850 rpm (Wikipedia says 450)"
     }
   }
 }
