@@ -13,12 +13,12 @@
 ## Landing
 - PR + merge commit into `main` (the repo's history so far)
 - Merging deploys: yes → Vercel (overland-finder.vercel.app)
-- The session completes the merge: yes
+- The session completes the merge: no; auto mode refuses an unreviewed `gh pr merge`
 - PRs open as draft: no
 - Last act, after the pull: none
 
 ## Lanes
-- Serial for writes: every ticket touches `src/vehicles.json` and the `scripts/*.json` data files. Research fans out to subagents that write only to the scratchpad; the orchestrator is the only writer in the tree.
+- Serial for writes: every ticket touches `src/vehicles.json` and the `scripts/*.json` data files. Research goes to scratchpad-only subagents (`researcher` runs in its own worktree; sweep it); the orchestrator alone writes.
 - Session target: the queue
 - Hot files: `src/vehicles.json`, `scripts/*.json`
 - Orchestrator-only files: `VEHICLE_EXPANSION_PLAN.md` progress log, `README.md` vehicle count
@@ -33,5 +33,5 @@ Read before touching data: `README.md` (schema, data-file map, Web Research Guid
 ## Repo lore
 - An ended generation's `price` is typical used value, not its last MSRP (README Scales).
 - Never fill specs from model memory; every number traces to a fetched or searched source.
-- CarsDirect and KBB new-car prices include destination; cars.com trim tables and maker configurators do not. Back destination out before comparing, or every price looks 2-4% higher than it is.
+- CarsDirect and KBB new-car prices include destination; cars.com trim tables and maker configurators do not. Back destination out before comparing.
 - WebSearch has one budget per session, shared with every subagent (200 calls). A broad audit spends it; brief research lanes to WebFetch (CarsDirect, cars.com, Wikipedia, EPA/NHTSA APIs, media.stellantisnorthamerica.com) first.
