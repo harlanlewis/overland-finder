@@ -2822,5 +2822,29 @@
     ],
     "quietness": "quiet",
     "source": "rivian.com/r2 (Performance: premium interior with wood accents, heated and ventilated seats, premium audio); Wikipedia (15.6in touchscreen, 975 W 13-speaker audio); carsdirect (12.3in digital cluster)"
+  },
+  "toyota-tacoma-trailhunter-2024": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "SofTex, heated/ventilated (carbuzz); tech as Tacoma TRD Pro"
+  },
+  "ram-1500-rho-2025": {
+    "interior": "leather",
+    "features": [
+      "ventilated_seats"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Leather buckets (MoparInsiders); features and tech as Ram Rebel"
   }
 }

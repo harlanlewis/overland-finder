@@ -698,5 +698,11 @@
   },
   "rivian-r2-performance-2027": {
     "body": "suv"
+  },
+  "toyota-tacoma-trailhunter-2024": {
+    "body": "truck"
+  },
+  "ram-1500-rho-2025": {
+    "body": "truck"
   }
 }

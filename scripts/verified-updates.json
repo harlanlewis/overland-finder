@@ -1156,6 +1156,16 @@
       "price": 58,
       "pt": "ev",
       "reliability": 6
+    },
+    "toyota-tacoma-trailhunter-2024": {
+      "price": 64,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "ram-1500-rho-2025": {
+      "price": 72,
+      "pt": "gas",
+      "reliability": 7.5
     }
   }
 }

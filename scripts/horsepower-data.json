@@ -921,6 +921,14 @@
     "rivian-r2-performance-2027": {
       "hp": 656,
       "source": "rivian.com/r2 and Wikipedia: Performance 656 hp (291 front + 362 rear)"
+    },
+    "toyota-tacoma-trailhunter-2024": {
+      "hp": 326,
+      "source": "Toyota pressroom 2024 Tacoma i-Force MAX; cars.com specs"
+    },
+    "ram-1500-rho-2025": {
+      "hp": 540,
+      "source": "MoparInsiders, CarPro 2026 Ram 1500 RHO"
     }
   }
 }

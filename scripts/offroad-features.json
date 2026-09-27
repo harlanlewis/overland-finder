@@ -1358,6 +1358,18 @@
       "locker_center": false,
       "locker_rear": false,
       "note": "R2 Performance: dual-motor AWD, no low range or lockers, All-Terrain drive mode, semi-active dampers on coil springs (no air)"
+    },
+    "toyota-tacoma-trailhunter-2024": {
+      "system": "part_time",
+      "low_range": true,
+      "locker_rear": true,
+      "note": "Trailhunter: 2-speed transfer case (EPA: part-time 4WD), rear e-locker (Toyota pressroom), Old Man Emu suspension"
+    },
+    "ram-1500-rho-2025": {
+      "system": "selectable",
+      "low_range": true,
+      "locker_rear": true,
+      "note": "RHO: BorgWarner 48-13 full-time active transfer case with 2.64:1 low (encoded like the TRX), rear e-locker standard"
     }
   }
 }

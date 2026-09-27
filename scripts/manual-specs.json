@@ -1610,6 +1610,20 @@
       "cargo": 28.7,
       "gc": 9.6,
       "source": "rivian.com/r2 (9.6in gc, 28.7 cu ft rear cargo, 4,400 lb with Tow Package); curb weight from Wikipedia infobox range 4,998-5,016 lb, upper end used for the Performance (NHTSA Canadian specs list 2,204 kg = 4,859 lb, configuration unstated)"
+    },
+    "toyota-tacoma-trailhunter-2024": {
+      "weight": 5360,
+      "tow": 6000,
+      "cargo": 35,
+      "gc": 11.2,
+      "source": "Weight and gc: carbuzz 2026 Trailhunter 5-ft bed (single source). Tow: carbuzz and towing guides. Cargo: Tacoma TRD Pro 5-ft bed value, not separately sourced"
+    },
+    "ram-1500-rho-2025": {
+      "weight": 6290,
+      "tow": 8330,
+      "cargo": 54,
+      "gc": 11.8,
+      "source": "CarPro 2026 RHO Crew Cab 4x4 (6,294 lb, 8,330 lb; dealer pages 8,360-8,380), gc CarPro and dealer pages. Cargo: Ram 1500 5'7\" box as other Ram entries"
     }
   }
 }

@@ -832,5 +832,9 @@
   "rivian-r2-performance-2027": {
     "size": "mid",
     "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (fueleconomy.gov id 50391); 185.9in long, matches R1S classification"
+  },
+  "ram-1500-rho-2025": {
+    "size": "full",
+    "source": "EPA VClass: Standard Pickup Trucks 4WD"
   }
 }

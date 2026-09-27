@@ -3510,5 +3510,35 @@
       "resale": "No R2 depreciation data; R1T loses well above the pickup average (iSeeCars, from the R1T entry), so no premium assumed"
     },
     "note": "Inherits Rivian's online enthusiasm at a lower price; community one step below the R1 until R2 owners accumulate, no aftermarket yet"
+  },
+  "toyota-tacoma-trailhunter-2024": {
+    "community": 2,
+    "aftermarket": 1.5,
+    "heritage": 1.5,
+    "identity": 1.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Nameplate community: r/ToyotaTacoma and TacomaWorld (one of the largest vehicle forums), plus 4th-gen forums Tacoma4G (~8.2K members, ~255K messages) and 4GTaco; Trailhunter has active TacomaWorld threads ('2024 trailhunter reviews', 'Trailhunter still worth it') but no trim-specific subforum, and the 4th gen draws less of the community than the 3rd gen; one step below TRD Pro",
+      "aftermarket": "Mostly the nameplate's: Tacoma aftermarket is an industry, but 4th-gen parts are still filling in; the Trailhunter ships with ARB bumper/roof rack and Old Man Emu suspension, so it is itself a factory build and owners add rather than replace; scored like the 4Runner Trailhunter",
+      "heritage": "Nameplate's: Tacoma since 1995 (Hilux lineage); the Trailhunter grade is new for MY2024 and has no heritage of its own beyond being Toyota's first factory overland grade",
+      "identity": "Buyers are explicitly overland-oriented (snorkel, ARB rack, OME, bronze wheels); TacomaWorld threads show both committed overlanders and a 'poser' critique of the look from TRD Off-Road builders, so the tribe is real but split",
+      "resale": "Cars.com nationwide average for a used 2025 Tacoma Hybrid Trailhunter ~$56.7K vs ~$64-67K MSRP; Tacoma4G owners report 20-33% first-two-year losses on 4th-gen trims amid a softening market and noted MY2025 price cuts on TRD Pro/Trailhunter; holds value but not the 3rd-gen TRD Pro premium"
+    },
+    "note": "Factory overland Tacoma riding the nameplate's community, aftermarket and heritage; 4th-gen resale is softer than the Tacoma legend"
+  },
+  "ram-1500-rho-2025": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Dedicated ram-rho.com forum: ~2.8K members, ~4.9K threads, ~95K messages, 'What did you do to your RHO today?' thread 4,000+ replies; otherwise shares r/ram_trucks and RamForums with the rest of the DT Ram 1500; active for a two-year-old model but far smaller than the TRX following",
+      "aftermarket": "ram-rho.com lists ~8 sponsoring vendors (MagnaFlow, RealTruck, Just Bolt-Ons, MRT Performance) with a dedicated Modifications subforum; Hurricane I6 tunes/exhaust plus general DT Ram 1500 parts and TRX-shared widebody/suspension components; no RHO-specific companies",
+      "heritage": "New name for MY2025, positioned as the Hurricane-powered stand-in for the discontinued TRX, which returned for MY2027; inherits Ram truck standing and TRX adjacency but has no history of its own",
+      "identity": "Performance-truck buyers who cross-shop the Raptor ('RHO or Raptor?' threads), with build and order-tracking culture on the forum; many are would-be TRX owners, so the badge carries less tribal weight than TRX",
+      "resale": "ram-rho.com 'Used RHO Market' thread: low-mile trade-ins sold at or near original MSRP, and one owner's KBB trade value above a purchase price ~$14K under sticker; another owner reports ~$20K loss on an $86K sticker in under a year; heavy new-order discounts muddy the comparison, and the TRX's return may soften values"
+    },
+    "note": "Twin-turbo I6 desert truck that filled the TRX gap; real forum following and early value retention, but no heritage of its own and now overshadowed by the returning TRX"
   }
 }

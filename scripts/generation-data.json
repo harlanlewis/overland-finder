@@ -1412,5 +1412,17 @@
     "yearEnd": null,
     "generation": "1st Gen",
     "source": "Wikipedia: Rivian R2 (model years 2027-, production April 2026-)"
+  },
+  "toyota-tacoma-trailhunter-2024": {
+    "yearStart": 2024,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Toyota Tacoma (fourth generation); Trailhunter grade since MY2024 launch (Toyota pressroom)"
+  },
+  "ram-1500-rho-2025": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Ram pickup (fifth generation); RHO launched MY2025"
   }
 }
