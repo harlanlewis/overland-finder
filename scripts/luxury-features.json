@@ -2729,5 +2729,98 @@
     ],
     "quietness": "very_quiet",
     "source": "Rivian.com R1S: heated and ventilated perforated seats, 12-speaker Rivian Audio standard with Rivian Premium Audio optional, panoramic glass roof, air suspension; CarsDirect lists seat trim as leatherette"
+  },
+  "toyota-rav4-woodland-2026": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "Toyota pressroom: 10.5 in touchscreen and 12.3 in digital cluster standard. Woodland upholstery not found in any reachable source; cloth is a placeholder"
+  },
+  "toyota-bz-woodland-2026": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "Toyota pressroom 2027 bZ Woodland: SofTex seats, 14 in touchscreen standard; ventilated seats, JBL and panoramic roof are Premium-grade only. Digital cluster: 7 in cluster per CarsDirect on the Trailseeker twin"
+  },
+  "subaru-trailseeker-premium-2026": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "CarsDirect: 14 in touchscreen and 7 in digital cluster on all trims; Harman Kardon from Limited, panoramic roof and ventilated seats from Touring. Premium upholstery not found; cloth is a placeholder"
+  },
+  "hyundai-palisade-xrt-pro-2026": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "premium_audio"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "Hyundai 2026 release: H-Tex leatherette, heated/ventilated fronts, Bose 14-speaker, power moonroof (single-panel; dual-panel starts at Limited per CarsDirect); CarsDirect 12.3 in. touchscreen and cluster"
+  },
+  "jeep-cherokee-overland-2026": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Stellantis 2026 Cherokee press kit (Capri non-leather seats, perforated on Overland; 12.3in Uconnect 5, 10.25in cluster standard); carsdirect (pano roof standard on Overland); Carscoops (ventilated front seats on Overland)"
+  },
+  "jeep-recon-moab-2026": {
+    "interior": "leatherette",
+    "features": [
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Stellantis 2026 Recon press kit (Capri non-leather seats, 14.5in touchscreen, 12.3in cluster); Wikipedia (dual-pane power sunroof standard)"
+  },
+  "jeep-grand-cherokee-trailhawk-2027": {
+    "interior": "leather",
+    "features": [
+      "air_suspension"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Stellantis 2027 Trailhawk release (Nappa leather, Quadra-Lift air suspension, 12.3in infotainment); digital cluster carried from the WL entries"
+  },
+  "rivian-r2-performance-2027": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "premium_audio"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "rivian.com/r2 (Performance: premium interior with wood accents, heated and ventilated seats, premium audio); Wikipedia (15.6in touchscreen, 975 W 13-speaker audio); carsdirect (12.3in digital cluster)"
   }
 }

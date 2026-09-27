@@ -1554,6 +1554,62 @@
       "cargo": 17.6,
       "gc": 14.7,
       "source": "Rivian.com R1S (Sept 2026): 7,700 lb tow, 17.6 cu ft all seats up (48.6 third row folded), max ground clearance 14.7 in.; CarsDirect 2026 R1S Dual specs: 6,671 lb curb weight"
+    },
+    "toyota-rav4-woodland-2026": {
+      "weight": 3885,
+      "tow": 3500,
+      "cargo": 38,
+      "gc": 8.5,
+      "source": "Weight: NHTSA Canadian specs 2026 RAV4 Woodland 1762 kg (Cars.com 3,814 lb). Tow and gc: Toyota pressroom 2025-10-22. Cargo: Cars.com Woodland AWD (CarsDirect 39.4 for the HEV line)"
+    },
+    "toyota-bz-woodland-2026": {
+      "weight": 4442,
+      "tow": 3500,
+      "cargo": 33.8,
+      "gc": 8.4,
+      "source": "Weight: NHTSA Canadian specs 2026/2027 bZ Woodland 2015 kg. Tow, gc: Toyota pressroom 2027 bZ Woodland release. Cargo: CarsDirect 2026 bZ Woodland (behind rear seats)"
+    },
+    "subaru-trailseeker-premium-2026": {
+      "weight": 4442,
+      "tow": 3500,
+      "cargo": 31.3,
+      "gc": 8.5,
+      "source": "Weight: NHTSA Canadian specs 2026 Trailseeker 2015 kg (Cars.com Premium 4,465 lb). Tow, gc, cargo: Subaru 2027 Trailseeker pricing release; CarsDirect agrees"
+    },
+    "hyundai-palisade-xrt-pro-2026": {
+      "weight": 4872,
+      "tow": 5000,
+      "cargo": 19.1,
+      "gc": 8.4,
+      "source": "CarsDirect 2026/2027 Palisade XRT Pro specs (curb weight, 19.1 cu ft behind 3rd row, 5,000 lb); Hyundai 2026 pricing release (8.4 in. clearance)"
+    },
+    "jeep-cherokee-overland-2026": {
+      "weight": 4422,
+      "tow": 3500,
+      "cargo": 33.6,
+      "gc": 8,
+      "source": "Jeep 2026 Cherokee spec sheet (Stellantis media): 8.0in gc, 3,500 lb tow, 33.6 cu ft behind 2nd row; Overland curb weight 4,422 lb from jeep.com Cherokee FAQ (base 4,295 lb per spec sheet and NHTSA Canadian specs)"
+    },
+    "jeep-recon-moab-2026": {
+      "weight": 6112,
+      "tow": 3300,
+      "cargo": 30.3,
+      "gc": 9.1,
+      "source": "Jeep 2026 Recon spec sheet (Stellantis media): Moab curb 6,112 lb (NHTSA Canadian specs 2,772 kg = 6,111 lb), 9.1in gc, 30.3 cu ft behind 2nd row, 3,300 lb max trailer"
+    },
+    "jeep-grand-cherokee-trailhawk-2027": {
+      "weight": 4788,
+      "tow": 6200,
+      "cargo": 37.7,
+      "gc": 11.4,
+      "source": "Jeep 2027 Grand Cherokee Trailhawk spec sheet (Stellantis media, view-spec id 28009): curb 4,788 lb, 6,200 lb tow, 37.7 cu ft behind 2nd row, 11.4in gc at Off Road 2 air height (8.5in standard height)"
+    },
+    "rivian-r2-performance-2027": {
+      "weight": 5016,
+      "tow": 4400,
+      "cargo": 28.7,
+      "gc": 9.6,
+      "source": "rivian.com/r2 (9.6in gc, 28.7 cu ft rear cargo, 4,400 lb with Tow Package); curb weight from Wikipedia infobox range 4,998-5,016 lb, upper end used for the Performance (NHTSA Canadian specs list 2,204 kg = 4,859 lb, configuration unstated)"
     }
   }
 }

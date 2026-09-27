@@ -889,6 +889,38 @@
     "rivian-r1s-dual-motor-2025": {
       "hp": 665,
       "source": "Rivian.com 2027 R1S Premium (dual motor)"
+    },
+    "toyota-rav4-woodland-2026": {
+      "hp": 236,
+      "source": "Toyota pressroom (HEV AWD 236 hp); Cars.com Woodland AWD"
+    },
+    "toyota-bz-woodland-2026": {
+      "hp": 375,
+      "source": "Toyota pressroom 2027 bZ Woodland (375 hp total system output)"
+    },
+    "subaru-trailseeker-premium-2026": {
+      "hp": 375,
+      "source": "Subaru 2027 Trailseeker pricing release; Cars.com, CarsDirect"
+    },
+    "hyundai-palisade-xrt-pro-2026": {
+      "hp": 287,
+      "source": "2026 Palisade XRT PRO 3.5 V6 (CarsDirect; XRT PRO is ICE only per Hyundai price list)"
+    },
+    "jeep-cherokee-overland-2026": {
+      "hp": 210,
+      "source": "2026 Cherokee spec sheet: 210 hp combined (1.6T hybrid)"
+    },
+    "jeep-recon-moab-2026": {
+      "hp": 650,
+      "source": "Production rating 650 hp per carsdirect, Electrek (Jun 2026) and Wikipedia; the Nov 2025 reveal and spec sheet said 670 hp"
+    },
+    "jeep-grand-cherokee-trailhawk-2027": {
+      "hp": 324,
+      "source": "2027 Grand Cherokee Trailhawk spec sheet: 2.0L Hurricane 4 Turbo, 324 hp"
+    },
+    "rivian-r2-performance-2027": {
+      "hp": 656,
+      "source": "rivian.com/r2 and Wikipedia: Performance 656 hp (291 front + 362 rear)"
     }
   }
 }

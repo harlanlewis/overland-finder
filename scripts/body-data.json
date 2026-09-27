@@ -674,5 +674,29 @@
   },
   "rivian-r1s-dual-motor-2025": {
     "body": "suv"
+  },
+  "toyota-rav4-woodland-2026": {
+    "body": "cuv"
+  },
+  "toyota-bz-woodland-2026": {
+    "body": "cuv"
+  },
+  "subaru-trailseeker-premium-2026": {
+    "body": "cuv"
+  },
+  "hyundai-palisade-xrt-pro-2026": {
+    "body": "suv"
+  },
+  "jeep-cherokee-overland-2026": {
+    "body": "cuv"
+  },
+  "jeep-recon-moab-2026": {
+    "body": "suv"
+  },
+  "jeep-grand-cherokee-trailhawk-2027": {
+    "body": "suv"
+  },
+  "rivian-r2-performance-2027": {
+    "body": "suv"
   }
 }

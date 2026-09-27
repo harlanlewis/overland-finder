@@ -800,5 +800,37 @@
   "rivian-r1s-dual-motor-2025": {
     "size": "mid",
     "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (2027 R1S Premium); interior <100 cu ft per the 1st-gen entries"
+  },
+  "toyota-rav4-woodland-2026": {
+    "size": "compact",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD (2026 RAV4 Hybrid AWD Woodland Edition); compact matches existing RAV4 entries"
+  },
+  "toyota-bz-woodland-2026": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD (README maps to mid); length 483 cm per NHTSA, close to the Outback (mid); Toyota calls it midsize"
+  },
+  "subaru-trailseeker-premium-2026": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD (README maps to mid); length 485 cm per NHTSA, close to the Outback (mid)"
+  },
+  "hyundai-palisade-xrt-pro-2026": {
+    "size": "mid",
+    "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (2026 Palisade XRT Pro); kept mid to match Palisade/Telluride"
+  },
+  "jeep-cherokee-overland-2026": {
+    "size": "mid",
+    "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (fueleconomy.gov id 50161); 188in long, 113in wheelbase; Jeep positions it as midsize"
+  },
+  "jeep-recon-moab-2026": {
+    "size": "mid",
+    "source": "EPA VClass: Small Sport Utility Vehicle 4WD (fueleconomy.gov id 50449)"
+  },
+  "jeep-grand-cherokee-trailhawk-2027": {
+    "size": "mid",
+    "source": "EPA VClass: Standard SUV 4WD (2026 Grand Cherokee 4WD, fueleconomy.gov id 50160); matches the other WL two-row entries"
+  },
+  "rivian-r2-performance-2027": {
+    "size": "mid",
+    "source": "EPA VClass: Standard Sport Utility Vehicle 4WD (fueleconomy.gov id 50391); 185.9in long, matches R1S classification"
   }
 }

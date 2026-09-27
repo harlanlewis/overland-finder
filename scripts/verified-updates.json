@@ -1116,6 +1116,46 @@
       "price": 84,
       "pt": "ev",
       "reliability": 6
+    },
+    "toyota-rav4-woodland-2026": {
+      "price": 40,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "toyota-bz-woodland-2026": {
+      "price": 45,
+      "pt": "ev",
+      "reliability": 8.5
+    },
+    "subaru-trailseeker-premium-2026": {
+      "price": 40,
+      "pt": "ev",
+      "reliability": 8
+    },
+    "hyundai-palisade-xrt-pro-2026": {
+      "price": 49,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "jeep-cherokee-overland-2026": {
+      "price": 45,
+      "pt": "hybrid",
+      "reliability": 7
+    },
+    "jeep-recon-moab-2026": {
+      "price": 67,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "jeep-grand-cherokee-trailhawk-2027": {
+      "price": 53,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "rivian-r2-performance-2027": {
+      "price": 58,
+      "pt": "ev",
+      "reliability": 6
     }
   }
 }

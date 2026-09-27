@@ -1357,5 +1357,53 @@
     "yearEnd": null,
     "generation": "2nd Gen",
     "source": "Cars.com 2025 R1S review: Rivian calls the 2025 a second-generation model; 1st gen ran MY2022-2024"
+  },
+  "toyota-rav4-woodland-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "6th Gen",
+    "source": "Wikipedia: Toyota RAV4 (sixth generation, XA60), model years 2026-present"
+  },
+  "toyota-bz-woodland-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Toyota bZ4X (bZ4X Touring / bZ Woodland / Subaru Trailseeker section), model years 2026-present"
+  },
+  "subaru-trailseeker-premium-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Toyota bZ4X (Trailseeker section), model years 2026-present"
+  },
+  "hyundai-palisade-xrt-pro-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Hyundai Palisade (second generation, LX3; XRT PRO introduced with it)"
+  },
+  "jeep-cherokee-overland-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "KM",
+    "source": "Wikipedia: Jeep Cherokee (KM)"
+  },
+  "jeep-recon-moab-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Jeep Recon"
+  },
+  "jeep-grand-cherokee-trailhawk-2027": {
+    "yearStart": 2027,
+    "yearEnd": null,
+    "generation": "WL",
+    "source": "Wikipedia: Jeep Grand Cherokee (WL); Stellantis media, 2027 Grand Cherokee press kit (gas Trailhawk returns for MY2027)"
+  },
+  "rivian-r2-performance-2027": {
+    "yearStart": 2027,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Rivian R2 (model years 2027-, production April 2026-)"
   }
 }
