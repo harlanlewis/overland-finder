@@ -241,7 +241,7 @@
     "generation": "WS",
     "source": "Wikipedia: Jeep Wagoneer (WS)"
   },
-  "jeep-grand-wagoneer-2022": {
+  "jeep-grand-wagoneer-summit-2022": {
     "yearStart": 2022,
     "yearEnd": null,
     "generation": "WS",
@@ -347,12 +347,6 @@
     "notes": "Escalade-V introduced 2023"
   },
   "mercedes-benz-gle-450-2019": {
-    "yearStart": 2019,
-    "yearEnd": null,
-    "generation": "W167",
-    "source": "Wikipedia: Mercedes-Benz GLE-Class (W167)"
-  },
-  "mercedes-benz-gle-350de-2019": {
     "yearStart": 2019,
     "yearEnd": null,
     "generation": "W167",
@@ -492,7 +486,7 @@
     "source": "Wikipedia: Tesla Model X",
     "notes": "Refreshed 2021, same generation"
   },
-  "mercedes-benz-eqs-suv-2023": {
+  "mercedes-benz-eqs-suv-400-4matic-2023": {
     "yearStart": 2023,
     "yearEnd": null,
     "generation": "V297",
@@ -1263,7 +1257,7 @@
     "generation": "1st Gen (Refresh)",
     "source": "Wikipedia: VW Atlas. Major 2024 refresh."
   },
-  "dodge-durango-r-t-awd-2011": {
+  "dodge-durango-r-t-392-2011": {
     "yearStart": 2011,
     "yearEnd": null,
     "generation": "3rd Gen (WD)",

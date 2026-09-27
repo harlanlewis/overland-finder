@@ -41,7 +41,7 @@ const MANUAL_MPG = {
   // EVs - use MPGe (EPA standard)
   // Note: These are miles per gallon equivalent, not traditional MPG
   'mercedes-benz-g-class-g-580-eq-2024': 77, // Electric G-Wagen MPGe
-  'mercedes-benz-eqs-suv-2023': 79, // Mercedes EQS SUV MPGe
+  'mercedes-benz-eqs-suv-400-4matic-2023': 79, // Mercedes EQS SUV MPGe
 };
 
 // PHEVs: `mpg` is EPA gas-only combined (comb08), the figure that holds once the

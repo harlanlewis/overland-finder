@@ -631,7 +631,7 @@
     },
     "note": "Heritage nameplate on a new luxury platform — the classic Wagoneer's cultural capital does not transfer to the modern buyer's identity or community"
   },
-  "jeep-grand-wagoneer-2022": {
+  "jeep-grand-wagoneer-summit-2022": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 1,
@@ -900,21 +900,6 @@
       "resale": "Depreciates as expected for luxury midsize SUV segment; no irrational premium; residuals track segment norms per KBB/ALG"
     },
     "note": "Capable luxury SUV but quintessential luxury appliance — no passion culture to speak of"
-  },
-  "mercedes-benz-gle-350de-2019": {
-    "community": 0.5,
-    "aftermarket": 0,
-    "heritage": 0,
-    "identity": 0,
-    "resale_premium": 0,
-    "sources": {
-      "community": "PHEV variant of GLE primarily sold in Europe; minimal US presence; no dedicated community; discussed only in EV/PHEV forums and Mercedes owner groups",
-      "aftermarket": "Zero dedicated aftermarket; PHEV powertrain further limits modification interest",
-      "heritage": "No independent heritage; diesel PHEV variant of GLE has no cultural significance",
-      "identity": "Zero vehicle-specific identity; purchased for fuel efficiency and tax incentives",
-      "resale": "Standard luxury PHEV depreciation; no premium"
-    },
-    "note": "European-market diesel PHEV variant with no enthusiast following; scores at minimum across all factors"
   },
   "mercedes-benz-gls-580-2020": {
     "community": 0.5,
@@ -1231,7 +1216,7 @@
     },
     "note": "BMW's electric SUV — competent but generates no passion; EV luxury segment broadly lacks enthusiast culture"
   },
-  "mercedes-benz-eqs-suv-2023": {
+  "mercedes-benz-eqs-suv-400-4matic-2023": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0,
@@ -3136,7 +3121,7 @@
     },
     "note": "VW's three-row family SUV; purely functional transportation with no enthusiast dimension"
   },
-  "dodge-durango-r-t-awd-2011": {
+  "dodge-durango-r-t-392-2011": {
     "community": 1,
     "aftermarket": 0.5,
     "heritage": 0.5,

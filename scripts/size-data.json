@@ -161,7 +161,7 @@
     "size": "full",
     "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame"
   },
-  "jeep-grand-wagoneer-2022": {
+  "jeep-grand-wagoneer-summit-2022": {
     "size": "full",
     "source": "EPA VClass: Standard SUV, interior >120 cu ft, full-size body-on-frame"
   },
@@ -237,10 +237,6 @@
     "size": "mid",
     "source": "Manual: Mercedes mid-size SUV"
   },
-  "mercedes-benz-gle-350de-2019": {
-    "size": "mid",
-    "source": "Manual: Mercedes mid-size SUV"
-  },
   "mercedes-benz-gls-580-2020": {
     "size": "full",
     "source": "Manual: Mercedes full-size SUV (GLE-based stretched)"
@@ -261,7 +257,7 @@
     "size": "mid",
     "source": "Manual: G-Class is mid-size"
   },
-  "mercedes-benz-eqs-suv-2023": {
+  "mercedes-benz-eqs-suv-400-4matic-2023": {
     "size": "full",
     "source": "Manual: Mercedes full-size EV SUV"
   },
@@ -733,7 +729,7 @@
     "size": "mid",
     "source": "3-row mid-size SUV (interior ~105 cu ft but crossover positioning)"
   },
-  "dodge-durango-r-t-awd-2011": {
+  "dodge-durango-r-t-392-2011": {
     "size": "full",
     "source": "EPA VClass / segment classification"
   },

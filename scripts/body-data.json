@@ -141,7 +141,7 @@
   "jeep-wagoneer-2022": {
     "body": "suv"
   },
-  "jeep-grand-wagoneer-2022": {
+  "jeep-grand-wagoneer-summit-2022": {
     "body": "suv"
   },
   "jeep-wrangler-4xe-rubicon-2021": {
@@ -363,10 +363,7 @@
   "mercedes-benz-gle-450-2019": {
     "body": "cuv"
   },
-  "mercedes-benz-gle-350de-2019": {
-    "body": "cuv"
-  },
-  "mercedes-benz-eqs-suv-2023": {
+  "mercedes-benz-eqs-suv-400-4matic-2023": {
     "body": "cuv"
   },
   "bmw-x5-xdrive50e-2019": {
@@ -624,7 +621,7 @@
   "volkswagen-atlas-se-4motion-2024": {
     "body": "suv"
   },
-  "dodge-durango-r-t-awd-2011": {
+  "dodge-durango-r-t-392-2011": {
     "body": "suv"
   },
   "ford-explorer-timberline-4wd-2022": {

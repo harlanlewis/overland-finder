@@ -257,7 +257,7 @@
       "low_range": true,
       "note": "Wagoneer: Quadra-Drive II, 2-speed transfer case"
     },
-    "jeep-grand-wagoneer-2022": {
+    "jeep-grand-wagoneer-summit-2022": {
       "system": "full_time",
       "low_range": true,
       "note": "Grand Wagoneer: Quadra-Drive II, 2-speed transfer case"
@@ -360,11 +360,6 @@
       "system": "awd",
       "low_range": false,
       "note": "GLE 450: 4MATIC AWD, no low range"
-    },
-    "mercedes-benz-gle-350de-2019": {
-      "system": "awd",
-      "low_range": false,
-      "note": "GLE 350de: 4MATIC AWD, diesel PHEV"
     },
     "mercedes-benz-gls-580-2020": {
       "system": "awd",
@@ -492,7 +487,7 @@
       "low_range": false,
       "note": "Model X: Dual motor AWD, road-focused"
     },
-    "mercedes-benz-eqs-suv-2023": {
+    "mercedes-benz-eqs-suv-400-4matic-2023": {
       "system": "awd",
       "low_range": false,
       "note": "EQS SUV: 4MATIC AWD, luxury focus"
@@ -1201,7 +1196,7 @@
       "low_range": false,
       "note": "VW 4MOTION on-demand AWD. No lockers, no low range."
     },
-    "dodge-durango-r-t-awd-2011": {
+    "dodge-durango-r-t-392-2011": {
       "system": "selectable",
       "low_range": true
     },

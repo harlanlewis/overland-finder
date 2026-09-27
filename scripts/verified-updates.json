@@ -202,8 +202,8 @@
       "pt": "gas",
       "reliability": 7.5
     },
-    "jeep-grand-wagoneer-2022": {
-      "price": 87,
+    "jeep-grand-wagoneer-summit-2022": {
+      "price": 94,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -297,11 +297,6 @@
       "pt": "hybrid",
       "reliability": 7.5
     },
-    "mercedes-benz-gle-350de-2019": {
-      "price": 74,
-      "pt": "phev",
-      "reliability": 7.5
-    },
     "mercedes-benz-gls-580-2020": {
       "price": 89,
       "pt": "hybrid",
@@ -327,8 +322,8 @@
       "pt": "ev",
       "reliability": 7
     },
-    "mercedes-benz-eqs-suv-2023": {
-      "price": 108,
+    "mercedes-benz-eqs-suv-400-4matic-2023": {
+      "price": 90,
       "pt": "ev",
       "reliability": 7
     },
@@ -963,7 +958,7 @@
       "reliability": 8
     },
     "ineos-grenadier-trialmaster-2024": {
-      "price": 95,
+      "price": 81,
       "pt": "gas",
       "reliability": 5
     },
@@ -1032,8 +1027,8 @@
       "pt": "gas",
       "reliability": 5
     },
-    "dodge-durango-r-t-awd-2011": {
-      "price": 54,
+    "dodge-durango-r-t-392-2011": {
+      "price": 50,
       "pt": "gas",
       "reliability": 5
     },

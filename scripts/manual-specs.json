@@ -295,7 +295,7 @@
       "gc": 10.8,
       "source": "Jeep Grand Cherokee WK2 Trailhawk"
     },
-    "jeep-grand-wagoneer-2022": {
+    "jeep-grand-wagoneer-summit-2022": {
       "weight": 6620,
       "tow": 9850,
       "cargo": 44,
@@ -435,13 +435,6 @@
       "gc": 8,
       "source": "Mercedes 2025 GLE 450"
     },
-    "mercedes-benz-gle-350de-2019": {
-      "weight": 5500,
-      "tow": 5500,
-      "cargo": 30,
-      "gc": 8,
-      "source": "Mercedes GLE 350de (diesel PHEV)"
-    },
     "mercedes-benz-gls-580-2020": {
       "weight": 5700,
       "tow": 7500,
@@ -449,7 +442,7 @@
       "gc": 8,
       "source": "Mercedes 2025 GLS 450"
     },
-    "mercedes-benz-eqs-suv-2023": {
+    "mercedes-benz-eqs-suv-400-4matic-2023": {
       "weight": 6060,
       "tow": 3500,
       "cargo": 34,
@@ -1436,12 +1429,12 @@
       "gc": 6.3,
       "source": "2025 VW Atlas SE 4MOTION — Edmunds, JD Power"
     },
-    "dodge-durango-r-t-awd-2011": {
+    "dodge-durango-r-t-392-2011": {
       "weight": 5331,
-      "tow": 7400,
+      "tow": 8700,
       "cargo": 43,
       "gc": 8.1,
-      "source": "Dodge Durango R/T AWD specs (Edmunds, manufacturer)"
+      "source": "Dodge Durango R/T AWD specs (Edmunds, manufacturer); tow: Stellantis 2026 R/T 392"
     },
     "ford-explorer-timberline-4wd-2022": {
       "weight": 4437,
