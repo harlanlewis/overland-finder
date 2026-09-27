@@ -2,6 +2,16 @@
 
 ## Progress Log
 
+### 2026-09-26: Model-year refresh, trucks and diesels, and the loose ends
+
+- **Why**: finishes the refresh below, which left trucks, diesels, the PHEV mpg convention and four open items.
+- **PHEV mpg**: `mpg` is EPA gas-only combined for every PHEV, the figure that holds past the battery's range; EPA's charge-depleting MPGe moves to a new `mpge` field, shown and not scored. Values are hand-picked EPA records cited in `update-vehicle-mpg.mjs`; the blended overrides are gone (overland-finder-4x9).
+- **Ended**: Ram 1500 EcoDiesel (MY2023) and F-150 Lightning (MY2025) move to used prices. Silverado EV RST and Santa Cruz SEL are dropped for MY2027, and the gen-4 Silverado 1500 (ZR2, LT Trail Boss, LT Duramax) and Sierra 1500 AT4X give way to next-generation 2027s; all end at MY2026 with MSRPs while that year is on sale.
+- **Returned and added**: the TRX is back for MY2027 as the 777 hp SRT TRX (existing entry reopened). Tacoma Trailhunter and Ram 1500 RHO added; Bison/AEV packages and announced-only trucks (Ram REV, Tundra Trailhunter, Slate, Scout) stay out.
+- **Prices and fixes**: nine truck MSRPs moved more than 5%; Cybertruck AWD is now the Premium AWD; the Hummer 3X is 830 hp, not 1,000. Colorado ZR2, Tundra 1794 and F-150 King Ranch gain the low range they have; the Durango R/T loses one it never had.
+- **Loose ends closed**: Grenadier Trialmaster price second-sourced; Durango R/T is the R/T 392; Grand Wagoneer is the Summit (the 2026 Grand Wagoneer is the old Wagoneer renamed); EQS SUV is the EQS 400 4MATIC; the GLE 350de is removed, having never been sold in the US.
+- **Left for later**: entries that wait on outside events: next-generation Silverado/Sierra 1500 once the 2027s reach dealers, and the RAV4 Plug-in Hybrid's `mpge` once EPA rates MY2026. Single-source figures are named in each commit body.
+
 ### 2026-09-26: Model-year refresh (trucks and diesels excluded)
 
 - **Why**: seven months after Batch 11, MY2026-27 had replaced or retired a large share of the entries marked current. An audit of every current non-truck, non-diesel entry drove five passes.
@@ -9,7 +19,7 @@
 - **New generations**: RAV4 Hybrid XSE and Plug-in Hybrid XSE, Outback and Forester Wilderness, Telluride X-Pro, Palisade Calligraphy, Passport TrailSport, Expedition Tremor (replaces Timberline), Navigator Reserve and a Gen 2 R1S; the entries they replace end with used prices. Atlas SE and X5 xDrive50e end at MY2026 without a successor entry, since neither successor is at dealers yet.
 - **New nameplates**: Jeep Cherokee Overland, Jeep Recon Moab, gas Grand Cherokee Trailhawk (MY2027), Rivian R2 Performance, RAV4 Woodland, bZ Woodland, Subaru Trailseeker, Palisade XRT PRO.
 - **Renames and prices**: XC90 Recharge became T8 (id rekeyed), RS Q8 is the 631 hp RS Q8 performance, and sixteen MSRPs that moved more than 5% were updated with destination backed out.
-- **Left for later**: trucks and diesels; single-source prices (Grenadier Trialmaster, Durango R/T 392); Grand Wagoneer and EQS SUV trim mapping; PHEV mpg convention (overland-finder-4x9).
+- **Left for later**: trucks and diesels; single-source prices (Grenadier Trialmaster, Durango R/T 392); Grand Wagoneer and EQS SUV trim mapping; PHEV mpg convention (overland-finder-4x9). All closed in the entry above.
 - Research used fetched pages only (CarsDirect, cars.com, KBB, Wikipedia, EPA, NHTSA, maker media sites); new-generation reliability carries the prior generation's value until JD Power rates it.
 
 ### 2026-02-21: Batch 11 Complete

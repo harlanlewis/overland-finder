@@ -11,7 +11,8 @@ export interface Vehicle {
   yearStart: number;          // Generation start year
   yearEnd: number | null;     // Generation end year, null = current production
   price: number;
-  mpg: number;
+  mpg: number;                // Combined MPG; gas-only for PHEVs, MPGe for EVs
+  mpge?: number;              // PHEVs only: EPA charge-depleting MPGe, not scored
   offroad: number;
   luxury: number;
   cargo: number;

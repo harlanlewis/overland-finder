@@ -158,9 +158,9 @@
       "hp": 420,
       "source": "2025 Wagoneer 3.0TT I6"
     },
-    "jeep-grand-wagoneer-2022": {
-      "hp": 510,
-      "source": "2025 Grand Wagoneer 6.4 V8"
+    "jeep-grand-wagoneer-summit-2022": {
+      "hp": 420,
+      "source": "2026 Grand Wagoneer 3.0 Hurricane SO, every trim (cars.com); the 510 hp HO ended with MY2025"
     },
     "jeep-wrangler-4xe-rubicon-2021": {
       "hp": 375,
@@ -230,10 +230,6 @@
       "hp": 375,
       "source": "2025 GLE 450 3.0T I6"
     },
-    "mercedes-benz-gle-350de-2019": {
-      "hp": 320,
-      "source": "GLE 350de diesel hybrid"
-    },
     "mercedes-benz-gls-580-2020": {
       "hp": 483,
       "source": "2025 GLS 580 4.0TT V8"
@@ -254,7 +250,7 @@
       "hp": 579,
       "source": "2025 G 580 EQ (quad motor)"
     },
-    "mercedes-benz-eqs-suv-2023": {
+    "mercedes-benz-eqs-suv-400-4matic-2023": {
       "hp": 355,
       "source": "2025 EQS SUV 450+"
     },
@@ -314,7 +310,7 @@
       "hp": 830,
       "source": "2025 Hummer EV SUV (tri-motor)"
     },
-    "tesla-cybertruck-awd-2024": {
+    "tesla-cybertruck-premium-awd-2024": {
       "hp": 600,
       "source": "2025 Cybertruck AWD (dual motor est.)"
     },
@@ -491,8 +487,8 @@
       "source": "2024 Colorado ZR2 2.7L TurboMax I4"
     },
     "ram-1500-trx-2021": {
-      "hp": 702,
-      "source": "2024 Ram TRX 6.2L supercharged V8"
+      "hp": 777,
+      "source": "2027 Ram 1500 SRT TRX (Carscoops, Wikipedia)"
     },
     "ram-1500-rebel-2019": {
       "hp": 395,
@@ -687,8 +683,8 @@
       "source": "Chevrolet.com"
     },
     "gmc-hummer-ev-pickup-3x-2022": {
-      "hp": 1000,
-      "source": "GMC.com"
+      "hp": 830,
+      "source": "Hummer EV Pickup 3X 830 hp (search excerpt; 1,000 hp was the Edition 1)"
     },
     "toyota-rav4-prime-xse-2021": {
       "hp": 302,
@@ -822,9 +818,9 @@
       "hp": 269,
       "source": "2025 VW Atlas SE 2.0T"
     },
-    "dodge-durango-r-t-awd-2011": {
-      "hp": 360,
-      "source": "Dodge Durango R/T AWD manufacturer specs"
+    "dodge-durango-r-t-392-2011": {
+      "hp": 475,
+      "source": "Stellantis 2026 Durango R/T 392 (6.4L Hemi)"
     },
     "ford-explorer-timberline-4wd-2022": {
       "hp": 300,
@@ -921,6 +917,14 @@
     "rivian-r2-performance-2027": {
       "hp": 656,
       "source": "rivian.com/r2 and Wikipedia: Performance 656 hp (291 front + 362 rear)"
+    },
+    "toyota-tacoma-trailhunter-2024": {
+      "hp": 326,
+      "source": "Toyota pressroom 2024 Tacoma i-Force MAX; cars.com specs"
+    },
+    "ram-1500-rho-2025": {
+      "hp": 540,
+      "source": "MoparInsiders, CarPro 2026 Ram 1500 RHO"
     }
   }
 }

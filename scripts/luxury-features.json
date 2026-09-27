@@ -543,7 +543,7 @@
     "quietness": "quiet",
     "source": "Jeep configurator 2025"
   },
-  "jeep-grand-wagoneer-2022": {
+  "jeep-grand-wagoneer-summit-2022": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -746,22 +746,6 @@
     "quietness": "very_quiet",
     "source": "Mercedes configurator 2025"
   },
-  "mercedes-benz-gle-350de-2019": {
-    "interior": "premium_leather",
-    "features": [
-      "ventilated_seats",
-      "massage_seats",
-      "premium_audio",
-      "air_suspension"
-    ],
-    "tech": [
-      "large_display",
-      "digital_cluster",
-      "hud"
-    ],
-    "quietness": "very_quiet",
-    "source": "Mercedes configurator 2025"
-  },
   "mercedes-benz-gls-580-2020": {
     "interior": "premium_leather",
     "features": [
@@ -834,7 +818,7 @@
     "quietness": "very_quiet",
     "source": "Mercedes configurator 2025"
   },
-  "mercedes-benz-eqs-suv-2023": {
+  "mercedes-benz-eqs-suv-400-4matic-2023": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -1083,7 +1067,7 @@
     "quietness": "loud",
     "source": "Hummer specs 2009"
   },
-  "tesla-cybertruck-awd-2024": {
+  "tesla-cybertruck-premium-awd-2024": {
     "interior": "leatherette",
     "features": [
       "ventilated_seats"
@@ -2513,7 +2497,7 @@
     "quietness": "quiet",
     "source": "VW 2025 Atlas SE: V-Tex leatherette, vent seats, 12\" touch, 10.25\" Digital Cockpit. 6-speaker."
   },
-  "dodge-durango-r-t-awd-2011": {
+  "dodge-durango-r-t-392-2011": {
     "interior": "leather",
     "features": [
       "premium_audio"
@@ -2822,5 +2806,29 @@
     ],
     "quietness": "quiet",
     "source": "rivian.com/r2 (Performance: premium interior with wood accents, heated and ventilated seats, premium audio); Wikipedia (15.6in touchscreen, 975 W 13-speaker audio); carsdirect (12.3in digital cluster)"
+  },
+  "toyota-tacoma-trailhunter-2024": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "SofTex, heated/ventilated (carbuzz); tech as Tacoma TRD Pro"
+  },
+  "ram-1500-rho-2025": {
+    "interior": "leather",
+    "features": [
+      "ventilated_seats"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Leather buckets (MoparInsiders); features and tech as Ram Rebel"
   }
 }

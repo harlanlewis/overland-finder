@@ -257,7 +257,7 @@
       "low_range": true,
       "note": "Wagoneer: Quadra-Drive II, 2-speed transfer case"
     },
-    "jeep-grand-wagoneer-2022": {
+    "jeep-grand-wagoneer-summit-2022": {
       "system": "full_time",
       "low_range": true,
       "note": "Grand Wagoneer: Quadra-Drive II, 2-speed transfer case"
@@ -360,11 +360,6 @@
       "system": "awd",
       "low_range": false,
       "note": "GLE 450: 4MATIC AWD, no low range"
-    },
-    "mercedes-benz-gle-350de-2019": {
-      "system": "awd",
-      "low_range": false,
-      "note": "GLE 350de: 4MATIC AWD, diesel PHEV"
     },
     "mercedes-benz-gls-580-2020": {
       "system": "awd",
@@ -477,7 +472,7 @@
       "locker_rear": true,
       "note": "Hummer EV: Tri-motor with virtual lockers, Extract Mode, CrabWalk"
     },
-    "tesla-cybertruck-awd-2024": {
+    "tesla-cybertruck-premium-awd-2024": {
       "system": "awd",
       "low_range": false,
       "note": "Cybertruck AWD: Dual motor AWD, Trail Mode via OTA"
@@ -492,7 +487,7 @@
       "low_range": false,
       "note": "Model X: Dual motor AWD, road-focused"
     },
-    "mercedes-benz-eqs-suv-2023": {
+    "mercedes-benz-eqs-suv-400-4matic-2023": {
       "system": "awd",
       "low_range": false,
       "note": "EQS SUV: 4MATIC AWD, luxury focus"
@@ -698,9 +693,9 @@
       "note": "Tundra TRD Pro: Multi-Terrain Select, Crawl Control, rear locker"
     },
     "toyota-tundra-1794-edition-2022": {
-      "system": "full_time",
-      "low_range": false,
-      "note": "Tundra 1794: Full-time 4WD (AWD behavior), luxury-focused"
+      "system": "part_time",
+      "low_range": true,
+      "note": "Tundra 1794 4x4: 4WDemand part-time 4WD, electronically controlled 2-speed transfer case, Auto LSD (Toyota dealer spec listings 2026)"
     },
     "chevrolet-silverado-1500-zr2-2022": {
       "system": "selectable",
@@ -711,10 +706,10 @@
     },
     "chevrolet-colorado-zr2-2023": {
       "system": "selectable",
-      "low_range": false,
+      "low_range": true,
       "locker_front": true,
       "locker_rear": true,
-      "note": "Colorado ZR2: Autotrac two-speed transfer case, front/rear e-lockers"
+      "note": "Colorado ZR2: Autotrac two-speed transfer case with 4 Lo, front/rear e-lockers standard (dealer spec pages 2026)"
     },
     "ram-1500-trx-2021": {
       "system": "selectable",
@@ -997,10 +992,11 @@
     },
     "ford-f-150-king-ranch-powerboost-2021": {
       "system": "part_time",
-      "low_range": false,
+      "low_range": true,
       "locker_front": false,
       "locker_center": false,
-      "locker_rear": true
+      "locker_rear": true,
+      "note": "F-150 4x4: 2-speed transfer case with 4L; electronic-locking rear axle (CarPro 2026 King Ranch PowerBoost)"
     },
     "chevrolet-silverado-ev-rst-2024": {
       "system": "awd",
@@ -1201,9 +1197,10 @@
       "low_range": false,
       "note": "VW 4MOTION on-demand AWD. No lockers, no low range."
     },
-    "dodge-durango-r-t-awd-2011": {
-      "system": "selectable",
-      "low_range": true
+    "dodge-durango-r-t-392-2011": {
+      "system": "awd",
+      "low_range": false,
+      "note": "R/T: single-speed active AWD; the two-speed case with low is on other V8 trims (Stellantis R/T 392 release, Durango forums)"
     },
     "ford-explorer-timberline-4wd-2022": {
       "system": "awd",
@@ -1358,6 +1355,18 @@
       "locker_center": false,
       "locker_rear": false,
       "note": "R2 Performance: dual-motor AWD, no low range or lockers, All-Terrain drive mode, semi-active dampers on coil springs (no air)"
+    },
+    "toyota-tacoma-trailhunter-2024": {
+      "system": "part_time",
+      "low_range": true,
+      "locker_rear": true,
+      "note": "Trailhunter: 2-speed transfer case (EPA: part-time 4WD), rear e-locker (Toyota pressroom), Old Man Emu suspension"
+    },
+    "ram-1500-rho-2025": {
+      "system": "selectable",
+      "low_range": true,
+      "locker_rear": true,
+      "note": "RHO: BorgWarner 48-13 full-time active transfer case with 2.64:1 low (encoded like the TRX), rear e-locker standard"
     }
   }
 }

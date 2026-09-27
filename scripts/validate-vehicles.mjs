@@ -108,6 +108,11 @@ vehicles.forEach(v => {
   // condition field removed - years are sufficient
   if (!['gas', 'diesel', 'hybrid', 'phev', 'ev'].includes(v.pt)) errors.push(`${v.id}: invalid powertrain '${v.pt}'`);
   if (!['compact', 'mid', 'full'].includes(v.size)) errors.push(`${v.id}: invalid size '${v.size}'`);
+  // PHEV mpg is gas-only; the electric figure lives in mpge, so mpge must exceed it
+  if (v.mpge !== undefined) {
+    if (v.pt !== 'phev') errors.push(`${v.id}: mpge is only for PHEVs (pt is '${v.pt}')`);
+    else if (!(v.mpge > v.mpg)) errors.push(`${v.id}: mpge ${v.mpge} must exceed gas-only mpg ${v.mpg}`);
+  }
 });
 
 // 5. Cross-reference with supplementary data

@@ -202,8 +202,8 @@
       "pt": "gas",
       "reliability": 7.5
     },
-    "jeep-grand-wagoneer-2022": {
-      "price": 87,
+    "jeep-grand-wagoneer-summit-2022": {
+      "price": 94,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -297,11 +297,6 @@
       "pt": "hybrid",
       "reliability": 7.5
     },
-    "mercedes-benz-gle-350de-2019": {
-      "price": 74,
-      "pt": "phev",
-      "reliability": 7.5
-    },
     "mercedes-benz-gls-580-2020": {
       "price": 89,
       "pt": "hybrid",
@@ -327,8 +322,8 @@
       "pt": "ev",
       "reliability": 7
     },
-    "mercedes-benz-eqs-suv-2023": {
-      "price": 108,
+    "mercedes-benz-eqs-suv-400-4matic-2023": {
+      "price": 90,
       "pt": "ev",
       "reliability": 7
     },
@@ -402,8 +397,8 @@
       "pt": "ev",
       "reliability": 6.5
     },
-    "tesla-cybertruck-awd-2024": {
-      "price": 80,
+    "tesla-cybertruck-premium-awd-2024": {
+      "price": 85,
       "pt": "ev",
       "reliability": 6
     },
@@ -593,7 +588,7 @@
       "reliability": 7.5
     },
     "ford-f-150-tremor-2021": {
-      "price": 58,
+      "price": 62,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -603,7 +598,7 @@
       "reliability": 8.5
     },
     "toyota-tundra-1794-edition-2022": {
-      "price": 62,
+      "price": 71,
       "pt": "hybrid",
       "reliability": 8.5
     },
@@ -613,17 +608,17 @@
       "reliability": 8
     },
     "chevrolet-colorado-zr2-2023": {
-      "price": 48,
+      "price": 51,
       "pt": "gas",
       "reliability": 8
     },
     "ram-1500-trx-2021": {
-      "price": 96,
+      "price": 100,
       "pt": "gas",
       "reliability": 7
     },
     "ram-1500-rebel-2019": {
-      "price": 58,
+      "price": 66,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -828,7 +823,7 @@
       "reliability": 7
     },
     "ram-1500-laramie-ecodiesel-2020": {
-      "price": 58,
+      "price": 36,
       "pt": "diesel",
       "reliability": 6.5
     },
@@ -838,7 +833,7 @@
       "reliability": 6
     },
     "jeep-gladiator-rubicon-ecodiesel-2021": {
-      "price": 48,
+      "price": 36,
       "pt": "diesel",
       "reliability": 6.5
     },
@@ -848,7 +843,7 @@
       "reliability": 7
     },
     "ford-f-150-lightning-flash-2022": {
-      "price": 70,
+      "price": 54,
       "pt": "ev",
       "reliability": 6.5
     },
@@ -858,12 +853,12 @@
       "reliability": 7
     },
     "chevrolet-silverado-ev-rst-2024": {
-      "price": 80,
+      "price": 88,
       "pt": "ev",
       "reliability": 6
     },
     "gmc-hummer-ev-pickup-3x-2022": {
-      "price": 99,
+      "price": 105,
       "pt": "ev",
       "reliability": 5
     },
@@ -873,7 +868,7 @@
       "reliability": 8.5
     },
     "rivian-r1t-dual-motor-2025": {
-      "price": 72,
+      "price": 80,
       "pt": "ev",
       "reliability": 6
     },
@@ -938,7 +933,7 @@
       "reliability": 8.5
     },
     "ford-ranger-xlt-4wd-2024": {
-      "price": 35,
+      "price": 40,
       "pt": "gas",
       "reliability": 7
     },
@@ -963,7 +958,7 @@
       "reliability": 8
     },
     "ineos-grenadier-trialmaster-2024": {
-      "price": 95,
+      "price": 81,
       "pt": "gas",
       "reliability": 5
     },
@@ -973,7 +968,7 @@
       "reliability": 7
     },
     "toyota-tacoma-sr5-double-cab-4wd-2024": {
-      "price": 37,
+      "price": 41,
       "pt": "gas",
       "reliability": 6
     },
@@ -983,7 +978,7 @@
       "reliability": 9
     },
     "ram-1500-big-horn-crew-cab-4wd-2019": {
-      "price": 47,
+      "price": 54,
       "pt": "gas",
       "reliability": 6
     },
@@ -1032,8 +1027,8 @@
       "pt": "gas",
       "reliability": 5
     },
-    "dodge-durango-r-t-awd-2011": {
-      "price": 54,
+    "dodge-durango-r-t-392-2011": {
+      "price": 50,
       "pt": "gas",
       "reliability": 5
     },
@@ -1156,6 +1151,16 @@
       "price": 58,
       "pt": "ev",
       "reliability": 6
+    },
+    "toyota-tacoma-trailhunter-2024": {
+      "price": 64,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "ram-1500-rho-2025": {
+      "price": 72,
+      "pt": "gas",
+      "reliability": 7.5
     }
   }
 }
