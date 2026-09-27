@@ -113,7 +113,7 @@
       "reliability": 8.5
     },
     "lexus-lx-600-2022": {
-      "price": 98,
+      "price": 107,
       "pt": "hybrid",
       "reliability": 8.9
     },
@@ -138,12 +138,12 @@
       "reliability": 8.2
     },
     "land-rover-defender-110-s-2020": {
-      "price": 58,
+      "price": 65,
       "pt": "gas",
       "reliability": 8.2
     },
     "land-rover-defender-130-2020": {
-      "price": 80,
+      "price": 74,
       "pt": "gas",
       "reliability": 8.2
     },
@@ -233,7 +233,7 @@
       "reliability": 7
     },
     "ford-bronco-outer-banks-2021": {
-      "price": 44,
+      "price": 48,
       "pt": "gas",
       "reliability": 7
     },
@@ -288,12 +288,12 @@
       "reliability": 8
     },
     "cadillac-escalade-v-2021": {
-      "price": 155,
+      "price": 169,
       "pt": "gas",
       "reliability": 7.5
     },
     "mercedes-benz-gle-450-2019": {
-      "price": 71,
+      "price": 75,
       "pt": "hybrid",
       "reliability": 7.5
     },
@@ -313,7 +313,7 @@
       "reliability": 7.5
     },
     "mercedes-benz-g-class-amg-g-63-2019": {
-      "price": 186,
+      "price": 199,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -353,17 +353,17 @@
       "reliability": 6.5
     },
     "porsche-cayenne-2019": {
-      "price": 82,
+      "price": 90,
       "pt": "gas",
       "reliability": 7.5
     },
     "porsche-cayenne-coupe-2019": {
-      "price": 88,
+      "price": 95,
       "pt": "gas",
       "reliability": 7.5
     },
     "porsche-cayenne-e-hybrid-2019": {
-      "price": 95,
+      "price": 103,
       "pt": "phev",
       "reliability": 7.5
     },
@@ -558,17 +558,17 @@
       "reliability": 8.5
     },
     "genesis-gv70-3-5t-sport-prestige-2022": {
-      "price": 60,
+      "price": 71,
       "pt": "gas",
       "reliability": 8
     },
     "cadillac-escalade-sport-2021": {
-      "price": 97,
+      "price": 106,
       "pt": "gas",
       "reliability": 7.5
     },
     "land-rover-defender-90-s-2020": {
-      "price": 58,
+      "price": 61,
       "pt": "gas",
       "reliability": 8.2
     },
@@ -733,7 +733,7 @@
       "reliability": 8
     },
     "kia-sportage-hybrid-sx-prestige-2023": {
-      "price": 38,
+      "price": 41,
       "pt": "hybrid",
       "reliability": 8
     },
@@ -753,7 +753,7 @@
       "reliability": 8.5
     },
     "lexus-rx-350h-luxury-2023": {
-      "price": 54,
+      "price": 64,
       "pt": "hybrid",
       "reliability": 8.5
     },
@@ -948,7 +948,7 @@
       "reliability": 6.5
     },
     "mazda-cx-70-phev-2025": {
-      "price": 54,
+      "price": 45,
       "pt": "phev",
       "reliability": 7
     },
