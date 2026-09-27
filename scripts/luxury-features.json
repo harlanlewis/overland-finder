@@ -1142,7 +1142,7 @@
     "quietness": "average",
     "source": "Mitsubishi specs 2006"
   },
-  "volvo-xc90-recharge-2015": {
+  "volvo-xc90-t8-2015": {
     "interior": "premium_leather",
     "features": [
       "ventilated_seats",
@@ -2595,5 +2595,232 @@
     ],
     "quietness": "quiet",
     "source": "BMW configurator / Edmunds 2025"
+  },
+  "toyota-rav4-hybrid-xse-2026": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "Toyota pressroom 2025-10-22/2025-05-20: XSE Ultrasuede & SofTex seats, heated/ventilated front; 10.5 in std / 12.9 in available touchscreen; 12.3 in digital cluster std. Panoramic roof is a $700 option (Cars.com), not counted"
+  },
+  "toyota-rav4-plug-in-hybrid-xse-2026": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Toyota pressroom: XSE Ultrasuede & SofTex, heated/ventilated front; 12.3 in digital cluster std; HUD available on XSE PHEV (Cars.com: $1,170 package, not counted); panoramic roof a $700 option (not counted). Quietness carried from Prime XSE entry"
+  },
+  "subaru-outback-wilderness-2026": {
+    "interior": "cloth",
+    "features": [
+      "premium_audio"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Subaru pricing release: StarTex upholstery (scored cloth as in the 6th-gen entry), Harman Kardon standard, 12.1 in touchscreen, 12.3 in digital cluster. Moonroof and ventilated seats are in $2,045/$4,090 packages (not counted)"
+  },
+  "subaru-forester-wilderness-2026": {
+    "interior": "cloth",
+    "features": [
+      "premium_audio"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Subaru 2027 Forester pricing release: StarTex (scored cloth as in the 5th-gen entry), Harman Kardon, 11.6 in touchscreen and 12.3 in digital cluster standard on the 2027 Wilderness"
+  },
+  "kia-telluride-x-pro-2027": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "premium_audio",
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster",
+      "hud"
+    ],
+    "quietness": "quiet",
+    "source": "CarsDirect 2027 Telluride: SynTex leatherette, ventilated fronts from EX, dual sunroofs and Meridian 14-speaker from SX, HUD on X-Pro SX; Kia media dual 12.3 in. panoramic display"
+  },
+  "hyundai-palisade-calligraphy-2026": {
+    "interior": "premium_leather",
+    "features": [
+      "ventilated_seats",
+      "massage_seats",
+      "premium_audio",
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster",
+      "hud"
+    ],
+    "quietness": "quiet",
+    "source": "CarsDirect 2026/2027 Palisade: Nappa leather, ergo-motion driver seat, 1st/2nd-row relaxation seats, Bose 14-speaker, dual-panel sunroof from Limited, HUD on Calligraphy, 12.3 in. touchscreen and cluster; Hyundai release: ventilated fronts"
+  },
+  "honda-passport-trailsport-2026": {
+    "interior": "leatherette",
+    "features": [
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "CarsDirect 2026 Passport: TrailSport cloth/leatherette, panoramic moonroof, 12.3 in. touchscreen, 10.2 in. digital cluster, 9 speakers; ventilated seats and Bose are TrailSport Elite only"
+  },
+  "ford-expedition-tremor-2025": {
+    "interior": "leather",
+    "features": [
+      "ventilated_seats",
+      "premium_audio"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "carsdirect 2025 (Tremor 'features that match the Platinum trim' plus upgraded sound system; Platinum has perforated leather, ventilated front seats with massage); Wikipedia (24in panoramic cluster display, 13.2in touchscreen)"
+  },
+  "lincoln-navigator-reserve-2025": {
+    "interior": "premium_leather",
+    "features": [
+      "ventilated_seats",
+      "massage_seats",
+      "premium_audio",
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "very_quiet",
+    "source": "Lincoln 2025 Navigator technical specs (premium leather, heated/ventilated front seats, 28-speaker Revel Ultima 3D, Panoramic Vista Roof, 48in display, acoustic laminated glass, active noise control, Adaptive Suspension with CCD); Lincoln media 2025 Navigator page (front seats heated, ventilated and massaging on all models)"
+  },
+  "rivian-r1s-dual-motor-2025": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "premium_audio",
+      "air_suspension",
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "very_quiet",
+    "source": "Rivian.com R1S: heated and ventilated perforated seats, 12-speaker Rivian Audio standard with Rivian Premium Audio optional, panoramic glass roof, air suspension; CarsDirect lists seat trim as leatherette"
+  },
+  "toyota-rav4-woodland-2026": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "Toyota pressroom: 10.5 in touchscreen and 12.3 in digital cluster standard. Woodland upholstery not found in any reachable source; cloth is a placeholder"
+  },
+  "toyota-bz-woodland-2026": {
+    "interior": "leatherette",
+    "features": [],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "Toyota pressroom 2027 bZ Woodland: SofTex seats, 14 in touchscreen standard; ventilated seats, JBL and panoramic roof are Premium-grade only. Digital cluster: 7 in cluster per CarsDirect on the Trailseeker twin"
+  },
+  "subaru-trailseeker-premium-2026": {
+    "interior": "cloth",
+    "features": [],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "CarsDirect: 14 in touchscreen and 7 in digital cluster on all trims; Harman Kardon from Limited, panoramic roof and ventilated seats from Touring. Premium upholstery not found; cloth is a placeholder"
+  },
+  "hyundai-palisade-xrt-pro-2026": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "premium_audio"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "Hyundai 2026 release: H-Tex leatherette, heated/ventilated fronts, Bose 14-speaker, power moonroof (single-panel; dual-panel starts at Limited per CarsDirect); CarsDirect 12.3 in. touchscreen and cluster"
+  },
+  "jeep-cherokee-overland-2026": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Stellantis 2026 Cherokee press kit (Capri non-leather seats, perforated on Overland; 12.3in Uconnect 5, 10.25in cluster standard); carsdirect (pano roof standard on Overland); Carscoops (ventilated front seats on Overland)"
+  },
+  "jeep-recon-moab-2026": {
+    "interior": "leatherette",
+    "features": [
+      "pano_roof"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Stellantis 2026 Recon press kit (Capri non-leather seats, 14.5in touchscreen, 12.3in cluster); Wikipedia (dual-pane power sunroof standard)"
+  },
+  "jeep-grand-cherokee-trailhawk-2027": {
+    "interior": "leather",
+    "features": [
+      "air_suspension"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "average",
+    "source": "Stellantis 2027 Trailhawk release (Nappa leather, Quadra-Lift air suspension, 12.3in infotainment); digital cluster carried from the WL entries"
+  },
+  "rivian-r2-performance-2027": {
+    "interior": "leatherette",
+    "features": [
+      "ventilated_seats",
+      "premium_audio"
+    ],
+    "tech": [
+      "large_display",
+      "digital_cluster"
+    ],
+    "quietness": "quiet",
+    "source": "rivian.com/r2 (Performance: premium interior with wood accents, heated and ventilated seats, premium audio); Wikipedia (15.6in touchscreen, 975 W 13-speaker audio); carsdirect (12.3in digital cluster)"
   }
 }

@@ -317,7 +317,7 @@
     },
     "ford-expedition-timberline-2018": {
       "system": "selectable",
-      "low_range": false,
+      "low_range": true,
       "locker_rear": true,
       "note": "Expedition Timberline: No low range, limited-slip rear"
     },
@@ -513,7 +513,7 @@
       "locker_center": true,
       "note": "Montero 3rd Gen: Super Select 4WD, center diff lock"
     },
-    "volvo-xc90-recharge-2015": {
+    "volvo-xc90-t8-2015": {
       "system": "awd",
       "low_range": false,
       "note": "XC90 Recharge: AWD via electric rear motor"
@@ -1233,6 +1233,131 @@
       "system": "awd",
       "low_range": false,
       "note": "xDrive full-time AWD, rear-biased 40/60 default."
+    },
+    "toyota-rav4-hybrid-xse-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "RAV4 Hybrid XSE (6th gen): AWD via dedicated rear electric motor, no low range or lockers"
+    },
+    "toyota-rav4-plug-in-hybrid-xse-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "RAV4 Plug-in Hybrid XSE: AWD via rear electric motor, no low range or lockers"
+    },
+    "subaru-outback-wilderness-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "Outback Wilderness (7th gen): Symmetrical AWD using steering-angle data, X-MODE Dual (Snow/Dirt, Deep Snow/Mud) with hill descent, electronically controlled dampers, Bridgestone Dueler all-terrain tires"
+    },
+    "subaru-forester-wilderness-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "Forester Wilderness (6th gen): Symmetrical AWD, X-MODE Dual (Snow/Dirt, Deep Snow/Mud), shorter final drive, transmission cooler, Yokohama Geolandar all-terrain tires, full-size spare"
+    },
+    "kia-telluride-x-pro-2027": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Telluride X-Pro (2nd gen): AWD with E-LSD rear limited-slip (not a locker), terrain modes, Ground View Monitor, all-terrain tires"
+    },
+    "hyundai-palisade-calligraphy-2026": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Palisade Calligraphy: HTRAC full-time AWD, road-focused"
+    },
+    "honda-passport-trailsport-2026": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Passport TrailSport (4th gen): i-VTM4 torque-vectoring AWD, trail modes, steel skid plates, 31 in. all-terrain tires; 2027 adds lifted suspension (25/25/23 deg angles) and standard TrailWatch cameras"
+    },
+    "ford-expedition-tremor-2025": {
+      "system": "selectable",
+      "low_range": false,
+      "locker_rear": true,
+      "note": "Expedition Tremor: standard 4WD, locking rear differential, Rock Crawl mode, Trail 1-Pedal, Trail Turn Assist, skid plates for front axle, transfer case and fuel tank; low range not confirmed (scored without it until a source confirms)"
+    },
+    "lincoln-navigator-reserve-2025": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Navigator 5th Gen: standard 4WD without low range; 2-speed transfer case only with the Heavy Duty Trailer Tow Package"
+    },
+    "rivian-r1s-dual-motor-2025": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "R1S Gen 2 dual-motor (sold as Premium from MY2027): AWD, air suspension with over 5.5 in. of height adjustment, 39.4 in. wading depth. Single-speed EV, no low range."
+    },
+    "toyota-rav4-woodland-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "RAV4 Woodland (6th gen): AWD with dedicated rear motor, Dunlop GrandTrek all-terrain tires, 2 in hitch, Rigid LED fogs, raised rails with crossbars; no low range or lockers"
+    },
+    "toyota-bz-woodland-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "bZ Woodland: dual-motor AWD with X-MODE (Snow/Dirt, Deep Snow/Mud) and Grip Control; all-terrain tires optional (cuts range to 260 mi)"
+    },
+    "subaru-trailseeker-premium-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "Trailseeker: dual-motor Symmetrical AWD, X-MODE Dual (Snow/Dirt, Deep Snow/Mud) with hill descent"
+    },
+    "hyundai-palisade-xrt-pro-2026": {
+      "system": "awd",
+      "low_range": false,
+      "note": "Palisade XRT PRO: HTRAC AWD, electronic rear limited-slip differential (not a locker), mud/sand/snow terrain modes, 255/60R18 all-terrain tires, recovery hooks"
+    },
+    "jeep-cherokee-overland-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "Cherokee KM: Jeep Active Drive I, 1-speed with rear-axle disconnect, open front and rear diffs, Selec-Terrain"
+    },
+    "jeep-recon-moab-2026": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": true,
+      "note": "Recon Moab: dual 250 kW EDMs, no low range (15:1 rear final drive), open front diff with wheel-end disconnects, electronic rear locker, Rock mode, Selec-Speed"
+    },
+    "jeep-grand-cherokee-trailhawk-2027": {
+      "system": "selectable",
+      "low_range": true,
+      "locker_rear": true,
+      "note": "GC Trailhawk (gas): Quadra-Trac II with 2-speed MP3028C transfer case (2.72 low), rear eLSD, Quadra-Lift air, Selec-Terrain with Rock mode, six skid plates"
+    },
+    "rivian-r2-performance-2027": {
+      "system": "awd",
+      "low_range": false,
+      "locker_front": false,
+      "locker_center": false,
+      "locker_rear": false,
+      "note": "R2 Performance: dual-motor AWD, no low range or lockers, All-Terrain drive mode, semi-active dampers on coil springs (no air)"
     }
   }
 }

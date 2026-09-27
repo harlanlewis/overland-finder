@@ -1306,7 +1306,7 @@
     },
     "note": "Unibody, four-wheel-independent final US Montero: Dakar pedigree and a workable Australian-sourced aftermarket, but a small US following"
   },
-  "volvo-xc90-recharge-2015": {
+  "volvo-xc90-t8-2015": {
     "community": 0.5,
     "aftermarket": 0,
     "heritage": 0.5,
@@ -3240,5 +3240,275 @@
       "resale": "Standard compact luxury SUV depreciation; no premium or penalty"
     },
     "note": "BMW's volume compact SUV — benefits from BMW brand appeal but has no vehicle-specific passion"
+  },
+  "toyota-rav4-hybrid-xse-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Carried from 5th-gen RAV4 Hybrid XSE: r/RAV4 and RAV4World cover all generations; practical ownership discussion, not enthusiasm",
+      "aftermarket": "No enthusiast aftermarket for the XSE; LP Aventure lists a 2026 RAV4 collection but it serves the lifted/rugged niche, not this trim",
+      "heritage": "RAV4 since 1994; hybrid since 2016; competent appliance with no cultural resonance",
+      "identity": "Practical buyers; no tribal identity",
+      "resale": "Carried from prior gen (hybrid demand plus Toyota reliability); unverified for the new generation"
+    },
+    "note": "New generation of the quintessential practical hybrid crossover; sub-scores carried from the 5th gen because no evidence differs"
+  },
+  "toyota-rav4-plug-in-hybrid-xse-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Carried from Prime XSE: r/RAV4Prime is active but about charging and efficiency, not vehicle passion",
+      "aftermarket": "No enthusiast aftermarket; charging accessories and OEM parts",
+      "heritage": "RAV4 since 1994; plug-in since MY2021; no cultural significance",
+      "identity": "Tech and efficiency buyers; no tribal identity",
+      "resale": "Carried from Prime (supply-driven demand); unverified for the new generation, now built in higher volume alongside the HEV"
+    },
+    "note": "New generation of the Prime; sub-scores carried from the 5th gen because no evidence differs"
+  },
+  "subaru-outback-wilderness-2026": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Carried from 6th gen: r/Subaru_Outback, SubaruOutback.org and Wilderness groups span generations",
+      "aftermarket": "LP Aventure already lists \"Outback Wilderness 2026+\" and \"Subaru Outback 2026\" collections (lpaventure.com menu, 2026-09-26), so the ecosystem carried over",
+      "heritage": "Outback since 1994; Wilderness since 2022",
+      "identity": "Subaru outdoor affinity; mild, not lifestyle",
+      "resale": "Carried from 6th gen Wilderness; unverified for the new generation"
+    },
+    "note": "New generation of the lifted Outback; LP Aventure support already exists, so the prior sub-scores hold"
+  },
+  "subaru-forester-wilderness-2026": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 0.5,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Carried from 5th gen: r/SubaruForester, SubaruForester.org, r/battlewagon span generations",
+      "aftermarket": "LP Aventure lists a \"Subaru Forester 2025+\" collection (lpaventure.com menu, 2026-09-26), so the ecosystem carried over",
+      "heritage": "Forester since 1997; Wilderness since 2022",
+      "identity": "Wilderness owners are the enthusiast subset; Subaru outdoor identity",
+      "resale": "Carried from 5th gen Wilderness; unverified for the new generation"
+    },
+    "note": "New generation of the serious off-road Subaru; LP Aventure support already exists, so the prior sub-scores hold"
+  },
+  "kia-telluride-x-pro-2027": {
+    "community": 1,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Shares the Telluride nameplate communities (r/KiaTelluride, TellurideForum.com) built by the 1st gen; 2nd-gen threads are new and still thin",
+      "aftermarket": "Carried over from the 1st gen pending evidence: roof racks and basic accessories; 1st-gen lift kits do not carry over to the new platform (unverified for 2nd gen)",
+      "heritage": "Nameplate since MY2020; award history but no cultural heritage",
+      "identity": "Value-and-design enthusiasm plus mild X-Pro adventure identity, as with the 1st gen",
+      "resale": "No markup era or resale history yet for the 2nd gen; the 1st gen's early premium does not transfer"
+    },
+    "note": "New generation of the Kia that made people enthusiastic about a Kia; community and resale reset to unproven"
+  },
+  "hyundai-palisade-calligraphy-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Shares r/HyundaiPalisade and PalisadeForum.com with the 1st gen; satisfied-owner rather than enthusiast tone",
+      "aftermarket": "Minimal: roof racks, cross bars, tow accessories; no off-road aftermarket for a Calligraphy",
+      "heritage": "Nameplate since MY2020; no cultural significance",
+      "identity": "Value-luxury enthusiasm and Hyundai quality-narrative pride; not a lifestyle identity",
+      "resale": "1st gen's 2021-2022 markup premium does not transfer; 2nd gen has no resale history yet"
+    },
+    "note": "Well-reviewed value-luxury three-row; enthusiasm is about value, not passion culture"
+  },
+  "honda-passport-trailsport-2026": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares r/hondapassport and PassportForum with the 3rd gen; Honda says TrailSport is over 80% of 4th-gen sales (June 2026) and built its HTX off-road app with input from 1,500+ 2026 TrailSport owners",
+      "aftermarket": "Honda/Jsport accessories and early racks and leveling kits; not yet deep for the new platform (unverified)",
+      "heritage": "Passport nameplate 1994-2002 (Isuzu Rodeo rebadge), revived 2019; TrailSport since 2024",
+      "identity": "TrailSport-heavy mix and Honda's off-road app point to an adventure-leaning owner base; no tribal signals yet",
+      "resale": "Honda brand retention; no irrational premium"
+    },
+    "note": "The most off-road Honda yet; a rugged redesign with growing trail interest, still an early community"
+  },
+  "ford-expedition-tremor-2025": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0.5,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "ExpeditionForum.com and Facebook owner groups continue into the 5th gen; family and towing focus, no enthusiast subculture (carried from the 4th-gen entries)",
+      "aftermarket": "Basic: leveling kits and racks as for the 4th gen; T3 platform shared with the F-150; no 5th-gen-specific evidence found (unverified)",
+      "heritage": "Nameplate since 1997, replacing the full-size Bronco; Tremor badge borrowed from Ford trucks; no cultural cachet",
+      "identity": "Family and towing buyers; no wave, clubs or gatherings",
+      "resale": "4th-gen Expedition loses about 53-59% in 5 yrs (iSeeCars, CarEdge, from the 4th-gen entry); no premium expected"
+    },
+    "note": "Most capable Expedition yet, but the buyer is the same family-towing buyer; scored equal to the Timberline it replaces"
+  },
+  "lincoln-navigator-reserve-2025": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Lincoln and Navigator forums and Facebook groups carry over; thin, overshadowed by Escalade (carried from the 4th-gen entry)",
+      "aftermarket": "Wheel and audio customization, some Expedition cross-compatibility, Hennessey upgrades; modest (carried from the 4th-gen entry)",
+      "heritage": "Navigator since 1998; Lincoln's flagship with some pop-culture presence behind Escalade",
+      "identity": "Luxury status identity weaker than Escalade",
+      "resale": "Full-size luxury SUV depreciation with no premium; no 5th-gen data yet"
+    },
+    "note": "New generation of Lincoln's flagship; no evidence that the owner culture changed, so scores match the 4th-gen Reserve"
+  },
+  "rivian-r1s-dual-motor-2025": {
+    "community": 2,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 1,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Shares r/Rivian, RivianForums.com and RivianOwnersForum.com with the R1T; Gen 2 threads active; subscriber counts unverified",
+      "aftermarket": "Mostly accessories and cosmetics, much of it shared with R1T and carried over from Gen 1; little suspension or armor aftermarket",
+      "heritage": "R1S deliveries since 2022; Gen 2 from MY2025; no nameplate heritage",
+      "identity": "Adventure-EV early adopters with camping and overland positioning; no wave, clubs or tribe comparable to legacy 4x4s",
+      "resale": "Used 1st-gen R1S listings sit far below the original sticker (Cars.com 2023-2024 averages in the $60Ks against ~$80K+ new); no premium"
+    },
+    "note": "Same base as the Gen 2 R1T: strong online EV community and adventure branding, thin hard-parts aftermarket, steep depreciation"
+  },
+  "toyota-rav4-woodland-2026": {
+    "community": 0.5,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "r/RAV4 and RAV4World cover all generations; the rugged-grade niche gets some trail discussion, as with the 5th-gen TRD Off-Road",
+      "aftermarket": "LP Aventure already lists a Toyota RAV4 2026 collection (lpaventure.com menu, 2026-09-26); otherwise limited, as for the TRD Off-Road",
+      "heritage": "RAV4 since 1994 but no off-road heritage; Woodland is a rugged-styled grade",
+      "identity": "No tribal identity; buyers want a tougher-looking daily driver",
+      "resale": "No evidence of a trim-specific premium for a new-generation grade"
+    },
+    "note": "Scored like the 5th-gen TRD Off-Road (the closest prior rugged RAV4); LP Aventure support is the one enthusiast signal"
+  },
+  "toyota-bz-woodland-2026": {
+    "community": 0,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0,
+    "resale_premium": 0,
+    "sources": {
+      "community": "No dedicated bZ Woodland community found; bZ/bZ4X owner discussion only (not verified, Reddit unreachable)",
+      "aftermarket": "LP Aventure lists no Toyota bZ platform (lpaventure.com menu, 2026-09-26), although it lists the Trailseeker twin",
+      "heritage": "New nameplate for MY2026",
+      "identity": "No owner identity yet",
+      "resale": "No evidence of a premium; the note in scratchpad/new-models.md reports large cash incentives, which point the other way"
+    },
+    "note": "Brand-new EV nameplate with nothing yet built around it"
+  },
+  "subaru-trailseeker-premium-2026": {
+    "community": 0,
+    "aftermarket": 0.5,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "No dedicated Trailseeker community found (Reddit unreachable; not verified)",
+      "aftermarket": "LP Aventure already lists a \"Subaru Trailseeker 2026+\" collection (lpaventure.com menu, 2026-09-26)",
+      "heritage": "New nameplate for MY2026, although positioned as the electric Outback (sold as E-Outback in Europe)",
+      "identity": "Brand-level Subaru outdoor affinity, as for the Crosstrek Premium entry",
+      "resale": "No evidence of a premium for a new EV nameplate"
+    },
+    "note": "Brand-new EV; LP Aventure support and Subaru outdoor identity lift it just above its bZ Woodland twin"
+  },
+  "hyundai-palisade-xrt-pro-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Shares r/HyundaiPalisade and PalisadeForum.com; XRT PRO adds some trail discussion but no dedicated community found",
+      "aftermarket": "No off-road aftermarket yet beyond generic racks and hitch accessories",
+      "heritage": "Nameplate since MY2020; XRT PRO is new with the 2nd gen",
+      "identity": "Mild adventure identity from real hardware (e-LSD, all-terrain tires), above the cosmetic Santa Fe XRT",
+      "resale": "New trim with no resale history"
+    },
+    "note": "Hyundai's first three-row with real trail hardware; scored just above the Santa Fe XRT, below the Telluride X-Pro"
+  },
+  "jeep-cherokee-overland-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 1,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "On sale since late 2025; owner discussion so far sits in generic Jeep and Cherokee forums shared with the KL and XJ; no KM-specific community found (unverified, WebSearch unavailable)",
+      "aftermarket": "Brand-new unibody hybrid crossover; no third-party lift, armor or rack ecosystem identified beyond Mopar accessories",
+      "heritage": "Cherokee nameplate since 1974 and the XJ cult classic, but the KM is a hybrid crossover revival after the KL; heritage from the nameplate per the revival rule, held to 1 because the KL diluted it",
+      "identity": "Mild Jeep-brand affinity comparable to the Compass; not a trail-tribe vehicle",
+      "resale": "Too new for depreciation data; no evidence of markups"
+    },
+    "note": "Nameplate revival as a practical hybrid crossover; heritage is borrowed, community and aftermarket do not exist yet. Revisit once the owner base forms."
+  },
+  "jeep-recon-moab-2026": {
+    "community": 0.5,
+    "aftermarket": 0,
+    "heritage": 0.5,
+    "identity": 0.5,
+    "resale_premium": 0,
+    "sources": {
+      "community": "On sale since June 26 2026; early owner discussion in Jeep EV and general Jeep forums; no established Recon-specific community found (unverified, WebSearch unavailable)",
+      "aftermarket": "Brand-new platform with a few months of sales; no third-party lift, armor or door ecosystem identified",
+      "heritage": "New nameplate; Jeep brand and Trail Rated badge only, so the brand-halo rule caps it at 0.5",
+      "identity": "Removable doors and Wrangler-like styling invite Jeep-culture signals, but no evidence yet of an owner tribe",
+      "resale": "Too new for data; EVs and Stellantis EVs have depreciated heavily, so no premium assumed"
+    },
+    "note": "Wrangler-flavoured EV with genuine hardware; community and aftermarket are months old. Revisit after a year of deliveries."
+  },
+  "jeep-grand-cherokee-trailhawk-2027": {
+    "community": 1,
+    "aftermarket": 1,
+    "heritage": 1,
+    "identity": 1,
+    "resale_premium": 0.5,
+    "sources": {
+      "community": "Shares the WL Grand Cherokee community (r/GrandCherokee, GrandCherokeeForums, JeepGarage) with the 4xe Trailhawk; overshadowed by Wrangler in r/Jeep",
+      "aftermarket": "Same WL platform as the 4xe Trailhawk: lift kits and some armor (Rough Country, Rocky Road), catalog far thinner than Wrangler",
+      "heritage": "Grand Cherokee since 1993 and the Trailhawk badge since the 2013 WK2; Trail Rated",
+      "identity": "Trailhawk buyers are the enthusiast slice of GC owners; some trail runs, far less organized than Wrangler culture",
+      "resale": "Gas WK2 Trailhawk held value slightly better than segment; carried over, since this is the same WL generation"
+    },
+    "note": "Same WL platform and buyer as the 4xe Trailhawk anchor; the gas powertrain changes nothing the sub-factors measure, so scores match its neighbours"
+  },
+  "rivian-r2-performance-2027": {
+    "community": 1.5,
+    "aftermarket": 0,
+    "heritage": 0,
+    "identity": 1,
+    "resale_premium": 0,
+    "sources": {
+      "community": "Shares r/Rivian, RivianForums and RivianOwnersForum with the R1; Wikipedia reports 68,000+ reservations in the first 24 hours; R2-specific owner base is only months old (deliveries from June 2026)",
+      "aftermarket": "New MSP platform; no third-party suspension, armor or rack ecosystem identified yet",
+      "heritage": "Nameplate launched 2026; no heritage",
+      "identity": "Rivian adventure-EV identity carries over from the R1 owner base; Launch Package buyers are early adopters",
+      "resale": "No R2 depreciation data; R1T loses well above the pickup average (iSeeCars, from the R1T entry), so no premium assumed"
+    },
+    "note": "Inherits Rivian's online enthusiasm at a lower price; community one step below the R1 until R2 owners accumulate, no aftermarket yet"
   }
 }

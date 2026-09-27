@@ -333,7 +333,7 @@
   "rivian-r1s-dual-max-2022": {
     "body": "suv"
   },
-  "volvo-xc90-recharge-2015": {
+  "volvo-xc90-t8-2015": {
     "body": "suv"
   },
   "volvo-ex90-2024": {
@@ -644,5 +644,59 @@
   },
   "bmw-x3-xdrive30i-2025": {
     "body": "cuv"
+  },
+  "toyota-rav4-hybrid-xse-2026": {
+    "body": "cuv"
+  },
+  "toyota-rav4-plug-in-hybrid-xse-2026": {
+    "body": "cuv"
+  },
+  "subaru-outback-wilderness-2026": {
+    "body": "wagon"
+  },
+  "subaru-forester-wilderness-2026": {
+    "body": "cuv"
+  },
+  "kia-telluride-x-pro-2027": {
+    "body": "suv"
+  },
+  "hyundai-palisade-calligraphy-2026": {
+    "body": "suv"
+  },
+  "honda-passport-trailsport-2026": {
+    "body": "suv"
+  },
+  "ford-expedition-tremor-2025": {
+    "body": "suv"
+  },
+  "lincoln-navigator-reserve-2025": {
+    "body": "suv"
+  },
+  "rivian-r1s-dual-motor-2025": {
+    "body": "suv"
+  },
+  "toyota-rav4-woodland-2026": {
+    "body": "cuv"
+  },
+  "toyota-bz-woodland-2026": {
+    "body": "cuv"
+  },
+  "subaru-trailseeker-premium-2026": {
+    "body": "cuv"
+  },
+  "hyundai-palisade-xrt-pro-2026": {
+    "body": "suv"
+  },
+  "jeep-cherokee-overland-2026": {
+    "body": "cuv"
+  },
+  "jeep-recon-moab-2026": {
+    "body": "suv"
+  },
+  "jeep-grand-cherokee-trailhawk-2027": {
+    "body": "suv"
+  },
+  "rivian-r2-performance-2027": {
+    "body": "suv"
   }
 }

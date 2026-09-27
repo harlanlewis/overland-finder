@@ -157,7 +157,7 @@
   },
   "land-rover-defender-110-v8-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "L663",
     "source": "Wikipedia: Land Rover Defender (L663)"
   },
@@ -206,19 +206,19 @@
   },
   "jeep-grand-cherokee-4xe-summit-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WL",
     "source": "Wikipedia: Jeep Grand Cherokee (WL)"
   },
   "jeep-grand-cherokee-4xe-overland-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WL",
     "source": "Wikipedia: Jeep Grand Cherokee (WL)"
   },
   "jeep-grand-cherokee-4xe-trailhawk-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WL",
     "source": "Wikipedia: Jeep Grand Cherokee (WL)"
   },
@@ -237,7 +237,7 @@
   },
   "jeep-wagoneer-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WS",
     "source": "Wikipedia: Jeep Wagoneer (WS)"
   },
@@ -249,7 +249,7 @@
   },
   "jeep-wrangler-4xe-rubicon-2021": {
     "yearStart": 2021,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "JL",
     "source": "Wikipedia: Jeep Wrangler (JL)"
   },
@@ -299,7 +299,7 @@
   },
   "ford-expedition-timberline-2018": {
     "yearStart": 2018,
-    "yearEnd": null,
+    "yearEnd": 2024,
     "generation": "4th Gen",
     "source": "Wikipedia: Ford Expedition (fourth generation)"
   },
@@ -390,7 +390,7 @@
   },
   "bmw-x5-xdrive50e-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "G05",
     "source": "Wikipedia: BMW X5 (G05)"
   },
@@ -402,13 +402,13 @@
   },
   "bmw-xm-2023": {
     "yearStart": 2023,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "G09",
     "source": "Wikipedia: BMW XM"
   },
   "bmw-ix-xdrive50-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "i20",
     "source": "Wikipedia: BMW iX"
   },
@@ -457,13 +457,13 @@
   },
   "rivian-r1s-adventure-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2024,
     "generation": "1st Gen",
     "source": "Wikipedia: Rivian R1S"
   },
   "rivian-r1s-dual-max-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2024,
     "generation": "1st Gen",
     "source": "Wikipedia: Rivian R1S"
   },
@@ -487,7 +487,7 @@
   },
   "tesla-model-x-2016": {
     "yearStart": 2016,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "1st Gen",
     "source": "Wikipedia: Tesla Model X",
     "notes": "Refreshed 2021, same generation"
@@ -516,7 +516,7 @@
     "generation": "3rd Gen",
     "source": "Wikipedia: Mitsubishi Pajero (third generation)"
   },
-  "volvo-xc90-recharge-2015": {
+  "volvo-xc90-t8-2015": {
     "yearStart": 2015,
     "yearEnd": null,
     "generation": "2nd Gen",
@@ -572,7 +572,7 @@
   },
   "lincoln-navigator-reserve-2018": {
     "yearStart": 2018,
-    "yearEnd": null,
+    "yearEnd": 2024,
     "generation": "4th Gen",
     "source": "Wikipedia: Lincoln Navigator (fourth generation)"
   },
@@ -596,13 +596,13 @@
   },
   "kia-telluride-x-pro-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "1st Gen",
     "source": "Wikipedia: Kia Telluride"
   },
   "hyundai-palisade-calligraphy-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "1st Gen",
     "source": "Wikipedia: Hyundai Palisade"
   },
@@ -614,7 +614,7 @@
   },
   "honda-passport-trailsport-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "3rd Gen",
     "source": "Wikipedia: Honda Passport (third generation)"
   },
@@ -632,13 +632,13 @@
   },
   "subaru-outback-wilderness-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "6th Gen",
     "source": "Wikipedia: Subaru Outback (sixth generation)"
   },
   "subaru-forester-wilderness-2022": {
     "yearStart": 2022,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "5th Gen",
     "source": "Wikipedia: Subaru Forester (fifth generation)"
   },
@@ -668,7 +668,7 @@
   },
   "lexus-tx-550h-plus-2024": {
     "yearStart": 2024,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "1st Gen",
     "source": "Wikipedia: Lexus TX"
   },
@@ -692,7 +692,7 @@
   },
   "jeep-grand-cherokee-l-overland-2021": {
     "yearStart": 2021,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "WL",
     "source": "Wikipedia: Jeep Grand Cherokee (WL)"
   },
@@ -861,13 +861,13 @@
   },
   "toyota-rav4-hybrid-xse-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "5th Gen",
     "source": "Wikipedia: Toyota RAV4 (fifth generation)"
   },
   "toyota-highlander-hybrid-xle-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
     "source": "Wikipedia: Toyota Highlander (fourth generation)"
   },
@@ -910,7 +910,7 @@
   },
   "ford-escape-hybrid-st-line-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
     "source": "Wikipedia: Ford Escape (fourth generation)"
   },
@@ -940,7 +940,7 @@
   },
   "ford-escape-phev-2020": {
     "yearStart": 2020,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "4th Gen",
     "source": "Wikipedia"
   },
@@ -988,13 +988,13 @@
   },
   "volvo-v60-cross-country-b5-awd-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "2nd Gen",
     "source": "Wikipedia"
   },
   "volvo-v90-cross-country-b6-awd-2017": {
     "yearStart": 2017,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "2nd Gen",
     "source": "Wikipedia"
   },
@@ -1060,7 +1060,7 @@
   },
   "toyota-rav4-prime-xse-2021": {
     "yearStart": 2021,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "5th Gen",
     "source": "Wikipedia"
   },
@@ -1084,7 +1084,7 @@
   },
   "jeep-wrangler-4xe-sahara-2021": {
     "yearStart": 2021,
-    "yearEnd": null,
+    "yearEnd": 2025,
     "generation": "JL",
     "source": "Wikipedia"
   },
@@ -1168,7 +1168,7 @@
   },
   "acura-rdx-a-spec-sh-awd-2019": {
     "yearStart": 2019,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "3rd Gen",
     "source": "Web research Feb 2026 - Wikipedia Acura RDX"
   },
@@ -1252,7 +1252,7 @@
   },
   "volkswagen-atlas-se-4motion-2024": {
     "yearStart": 2024,
-    "yearEnd": null,
+    "yearEnd": 2026,
     "generation": "1st Gen (Refresh)",
     "source": "Wikipedia: VW Atlas. Major 2024 refresh."
   },
@@ -1297,5 +1297,113 @@
     "yearEnd": null,
     "generation": "4th Gen (G45)",
     "source": "Wikipedia: BMW X3"
+  },
+  "toyota-rav4-hybrid-xse-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "6th Gen",
+    "source": "Wikipedia: Toyota RAV4 (sixth generation, XA60), model years 2026-present"
+  },
+  "toyota-rav4-plug-in-hybrid-xse-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "6th Gen",
+    "source": "Wikipedia: Toyota RAV4 (sixth generation, XA60), model years 2026-present; Prime renamed RAV4 Plug-in Hybrid from MY2025"
+  },
+  "subaru-outback-wilderness-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "7th Gen",
+    "source": "Wikipedia: Subaru Outback (seventh generation), model years 2026-present"
+  },
+  "subaru-forester-wilderness-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "6th Gen",
+    "source": "Wikipedia: Subaru Forester (sixth generation) model years 2025-present; the Wilderness went on sale late 2025 as a 2026 model"
+  },
+  "kia-telluride-x-pro-2027": {
+    "yearStart": 2027,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Kia Telluride (second generation, LQ2; MY2027, production from Feb 2026)"
+  },
+  "hyundai-palisade-calligraphy-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Hyundai Palisade (second generation, LX3; MY2026-present)"
+  },
+  "honda-passport-trailsport-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "4th Gen",
+    "source": "Wikipedia: Honda Passport (fourth generation, YF9; MY2026-present)"
+  },
+  "ford-expedition-tremor-2025": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Ford Expedition (fifth generation, U717, MY2025-present, production from January 6 2025)"
+  },
+  "lincoln-navigator-reserve-2025": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "5th Gen",
+    "source": "Wikipedia: Lincoln Navigator (fifth generation, MY2025-present, production from January 2025)"
+  },
+  "rivian-r1s-dual-motor-2025": {
+    "yearStart": 2025,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Cars.com 2025 R1S review: Rivian calls the 2025 a second-generation model; 1st gen ran MY2022-2024"
+  },
+  "toyota-rav4-woodland-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "6th Gen",
+    "source": "Wikipedia: Toyota RAV4 (sixth generation, XA60), model years 2026-present"
+  },
+  "toyota-bz-woodland-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Toyota bZ4X (bZ4X Touring / bZ Woodland / Subaru Trailseeker section), model years 2026-present"
+  },
+  "subaru-trailseeker-premium-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Toyota bZ4X (Trailseeker section), model years 2026-present"
+  },
+  "hyundai-palisade-xrt-pro-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "2nd Gen",
+    "source": "Wikipedia: Hyundai Palisade (second generation, LX3; XRT PRO introduced with it)"
+  },
+  "jeep-cherokee-overland-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "KM",
+    "source": "Wikipedia: Jeep Cherokee (KM)"
+  },
+  "jeep-recon-moab-2026": {
+    "yearStart": 2026,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Jeep Recon"
+  },
+  "jeep-grand-cherokee-trailhawk-2027": {
+    "yearStart": 2027,
+    "yearEnd": null,
+    "generation": "WL",
+    "source": "Wikipedia: Jeep Grand Cherokee (WL); Stellantis media, 2027 Grand Cherokee press kit (gas Trailhawk returns for MY2027)"
+  },
+  "rivian-r2-performance-2027": {
+    "yearStart": 2027,
+    "yearEnd": null,
+    "generation": "1st Gen",
+    "source": "Wikipedia: Rivian R2 (model years 2027-, production April 2026-)"
   }
 }

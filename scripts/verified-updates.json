@@ -113,7 +113,7 @@
       "reliability": 8.5
     },
     "lexus-lx-600-2022": {
-      "price": 98,
+      "price": 107,
       "pt": "hybrid",
       "reliability": 8.9
     },
@@ -138,12 +138,12 @@
       "reliability": 8.2
     },
     "land-rover-defender-110-s-2020": {
-      "price": 58,
+      "price": 65,
       "pt": "gas",
       "reliability": 8.2
     },
     "land-rover-defender-130-2020": {
-      "price": 80,
+      "price": 74,
       "pt": "gas",
       "reliability": 8.2
     },
@@ -173,17 +173,17 @@
       "reliability": 7.5
     },
     "jeep-grand-cherokee-4xe-summit-2022": {
-      "price": 75,
+      "price": 31,
       "pt": "phev",
       "reliability": 7.5
     },
     "jeep-grand-cherokee-4xe-overland-2022": {
-      "price": 68,
+      "price": 30,
       "pt": "phev",
       "reliability": 7.5
     },
     "jeep-grand-cherokee-4xe-trailhawk-2022": {
-      "price": 63,
+      "price": 29,
       "pt": "phev",
       "reliability": 7.5
     },
@@ -198,7 +198,7 @@
       "reliability": 7
     },
     "jeep-wagoneer-2022": {
-      "price": 60,
+      "price": 40,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -213,7 +213,7 @@
       "reliability": 7.5
     },
     "jeep-wrangler-4xe-rubicon-2021": {
-      "price": 62,
+      "price": 29,
       "pt": "phev",
       "reliability": 7.5
     },
@@ -233,7 +233,7 @@
       "reliability": 7
     },
     "ford-bronco-outer-banks-2021": {
-      "price": 44,
+      "price": 48,
       "pt": "gas",
       "reliability": 7
     },
@@ -248,7 +248,7 @@
       "reliability": 7
     },
     "ford-expedition-timberline-2018": {
-      "price": 76,
+      "price": 55,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -288,12 +288,12 @@
       "reliability": 8
     },
     "cadillac-escalade-v-2021": {
-      "price": 155,
+      "price": 169,
       "pt": "gas",
       "reliability": 7.5
     },
     "mercedes-benz-gle-450-2019": {
-      "price": 71,
+      "price": 75,
       "pt": "hybrid",
       "reliability": 7.5
     },
@@ -313,7 +313,7 @@
       "reliability": 7.5
     },
     "mercedes-benz-g-class-amg-g-63-2019": {
-      "price": 186,
+      "price": 199,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -343,27 +343,27 @@
       "reliability": 7.5
     },
     "bmw-ix-xdrive50-2022": {
-      "price": 89,
+      "price": 50,
       "pt": "ev",
       "reliability": 7
     },
     "bmw-xm-2023": {
-      "price": 160,
+      "price": 80,
       "pt": "phev",
       "reliability": 6.5
     },
     "porsche-cayenne-2019": {
-      "price": 82,
+      "price": 90,
       "pt": "gas",
       "reliability": 7.5
     },
     "porsche-cayenne-coupe-2019": {
-      "price": 88,
+      "price": 95,
       "pt": "gas",
       "reliability": 7.5
     },
     "porsche-cayenne-e-hybrid-2019": {
-      "price": 95,
+      "price": 103,
       "pt": "phev",
       "reliability": 7.5
     },
@@ -388,12 +388,12 @@
       "reliability": 7.5
     },
     "rivian-r1s-adventure-2022": {
-      "price": 76,
+      "price": 62,
       "pt": "ev",
       "reliability": 7
     },
     "rivian-r1s-dual-max-2022": {
-      "price": 106,
+      "price": 73,
       "pt": "ev",
       "reliability": 7
     },
@@ -432,7 +432,7 @@
       "pt": "gas",
       "reliability": 7
     },
-    "volvo-xc90-recharge-2015": {
+    "volvo-xc90-t8-2015": {
       "price": 73,
       "pt": "phev",
       "reliability": 7.5
@@ -473,7 +473,7 @@
       "reliability": 7
     },
     "lincoln-navigator-reserve-2018": {
-      "price": 100,
+      "price": 57,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -493,12 +493,12 @@
       "reliability": 8.3
     },
     "kia-telluride-x-pro-2020": {
-      "price": 54,
+      "price": 37,
       "pt": "gas",
       "reliability": 8.5
     },
     "hyundai-palisade-calligraphy-2020": {
-      "price": 52,
+      "price": 37,
       "pt": "gas",
       "reliability": 8.5
     },
@@ -508,7 +508,7 @@
       "reliability": 8
     },
     "honda-passport-trailsport-2019": {
-      "price": 42,
+      "price": 36,
       "pt": "gas",
       "reliability": 8
     },
@@ -523,12 +523,12 @@
       "reliability": 8
     },
     "subaru-outback-wilderness-2022": {
-      "price": 42,
+      "price": 30,
       "pt": "gas",
       "reliability": 8
     },
     "subaru-forester-wilderness-2022": {
-      "price": 35,
+      "price": 29,
       "pt": "gas",
       "reliability": 8
     },
@@ -553,27 +553,27 @@
       "reliability": 8.5
     },
     "lexus-tx-550h-plus-2024": {
-      "price": 77,
+      "price": 81,
       "pt": "phev",
       "reliability": 8.5
     },
     "genesis-gv70-3-5t-sport-prestige-2022": {
-      "price": 60,
+      "price": 71,
       "pt": "gas",
       "reliability": 8
     },
     "cadillac-escalade-sport-2021": {
-      "price": 97,
+      "price": 106,
       "pt": "gas",
       "reliability": 7.5
     },
     "land-rover-defender-90-s-2020": {
-      "price": 58,
+      "price": 61,
       "pt": "gas",
       "reliability": 8.2
     },
     "jeep-grand-cherokee-l-overland-2021": {
-      "price": 58,
+      "price": 38,
       "pt": "gas",
       "reliability": 7.5
     },
@@ -703,7 +703,7 @@
       "reliability": 6.5
     },
     "toyota-rav4-hybrid-xse-2019": {
-      "price": 35,
+      "price": 39,
       "pt": "hybrid",
       "reliability": 8.5
     },
@@ -733,7 +733,7 @@
       "reliability": 8
     },
     "kia-sportage-hybrid-sx-prestige-2023": {
-      "price": 38,
+      "price": 41,
       "pt": "hybrid",
       "reliability": 8
     },
@@ -743,7 +743,7 @@
       "reliability": 8
     },
     "ford-escape-hybrid-st-line-2020": {
-      "price": 32,
+      "price": 34,
       "pt": "hybrid",
       "reliability": 7
     },
@@ -753,7 +753,7 @@
       "reliability": 8.5
     },
     "lexus-rx-350h-luxury-2023": {
-      "price": 54,
+      "price": 64,
       "pt": "hybrid",
       "reliability": 8.5
     },
@@ -813,7 +813,7 @@
       "reliability": 7
     },
     "volvo-v90-cross-country-b6-awd-2017": {
-      "price": 61,
+      "price": 67,
       "pt": "hybrid",
       "reliability": 7
     },
@@ -868,7 +868,7 @@
       "reliability": 5
     },
     "toyota-rav4-prime-xse-2021": {
-      "price": 49,
+      "price": 39,
       "pt": "phev",
       "reliability": 8.5
     },
@@ -888,7 +888,7 @@
       "reliability": 7
     },
     "jeep-wrangler-4xe-sahara-2021": {
-      "price": 58,
+      "price": 27,
       "pt": "phev",
       "reliability": 7.5
     },
@@ -948,7 +948,7 @@
       "reliability": 6.5
     },
     "mazda-cx-70-phev-2025": {
-      "price": 54,
+      "price": 45,
       "pt": "phev",
       "reliability": 7
     },
@@ -958,7 +958,7 @@
       "reliability": 7
     },
     "acura-rdx-a-spec-sh-awd-2019": {
-      "price": 48,
+      "price": 51,
       "pt": "gas",
       "reliability": 8
     },
@@ -1066,6 +1066,96 @@
       "price": 50,
       "pt": "gas",
       "reliability": 5
+    },
+    "toyota-rav4-hybrid-xse-2026": {
+      "price": 41,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "toyota-rav4-plug-in-hybrid-xse-2026": {
+      "price": 47,
+      "pt": "phev",
+      "reliability": 8.5
+    },
+    "subaru-outback-wilderness-2026": {
+      "price": 45,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "subaru-forester-wilderness-2026": {
+      "price": 39,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "kia-telluride-x-pro-2027": {
+      "price": 54,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "hyundai-palisade-calligraphy-2026": {
+      "price": 56,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "honda-passport-trailsport-2026": {
+      "price": 49,
+      "pt": "gas",
+      "reliability": 8
+    },
+    "ford-expedition-tremor-2025": {
+      "price": 82,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "lincoln-navigator-reserve-2025": {
+      "price": 103,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "rivian-r1s-dual-motor-2025": {
+      "price": 84,
+      "pt": "ev",
+      "reliability": 6
+    },
+    "toyota-rav4-woodland-2026": {
+      "price": 40,
+      "pt": "hybrid",
+      "reliability": 8.5
+    },
+    "toyota-bz-woodland-2026": {
+      "price": 45,
+      "pt": "ev",
+      "reliability": 8.5
+    },
+    "subaru-trailseeker-premium-2026": {
+      "price": 40,
+      "pt": "ev",
+      "reliability": 8
+    },
+    "hyundai-palisade-xrt-pro-2026": {
+      "price": 49,
+      "pt": "gas",
+      "reliability": 8.5
+    },
+    "jeep-cherokee-overland-2026": {
+      "price": 45,
+      "pt": "hybrid",
+      "reliability": 7
+    },
+    "jeep-recon-moab-2026": {
+      "price": 67,
+      "pt": "ev",
+      "reliability": 7
+    },
+    "jeep-grand-cherokee-trailhawk-2027": {
+      "price": 53,
+      "pt": "gas",
+      "reliability": 7.5
+    },
+    "rivian-r2-performance-2027": {
+      "price": 58,
+      "pt": "ev",
+      "reliability": 6
     }
   }
 }

@@ -299,8 +299,8 @@
       "source": "2025 Audi SQ8 4.0T V8"
     },
     "audi-rs-q8-2020": {
-      "hp": 591,
-      "source": "2025 Audi RS Q8 4.0T V8"
+      "hp": 631,
+      "source": "2025+ Audi RS Q8 performance 4.0T V8 (only US RS Q8 since the 2025 facelift)"
     },
     "rivian-r1s-adventure-2022": {
       "hp": 850,
@@ -338,7 +338,7 @@
       "hp": 197,
       "source": "Montero 3rd Gen 3.5 V6"
     },
-    "volvo-xc90-recharge-2015": {
+    "volvo-xc90-t8-2015": {
       "hp": 455,
       "source": "2025 XC90 Recharge T8"
     },
@@ -849,6 +849,78 @@
     "bmw-x3-xdrive30i-2025": {
       "hp": 255,
       "source": "BMW X3 xDrive30i manufacturer specs"
+    },
+    "toyota-rav4-hybrid-xse-2026": {
+      "hp": 236,
+      "source": "2026 RAV4 Hybrid AWD 236 hp combined - Toyota pressroom, Cars.com"
+    },
+    "toyota-rav4-plug-in-hybrid-xse-2026": {
+      "hp": 324,
+      "source": "Toyota pressroom 2025-10-22 (324 hp net combined); Cars.com, CarsDirect agree"
+    },
+    "subaru-outback-wilderness-2026": {
+      "hp": 260,
+      "source": "Subaru pricing release: 2.4T 260 hp / 277 lb-ft"
+    },
+    "subaru-forester-wilderness-2026": {
+      "hp": 180,
+      "source": "Subaru 2027 Forester pricing release; Cars.com 2026 Forester Wilderness"
+    },
+    "kia-telluride-x-pro-2027": {
+      "hp": 274,
+      "source": "2027 Telluride 2.5T I4 (Kia media, CarsDirect)"
+    },
+    "hyundai-palisade-calligraphy-2026": {
+      "hp": 287,
+      "source": "2026 Palisade 3.5 V6 (CarsDirect)"
+    },
+    "honda-passport-trailsport-2026": {
+      "hp": 285,
+      "source": "2026 Passport TrailSport 3.5 V6 (CarsDirect)"
+    },
+    "ford-expedition-tremor-2025": {
+      "hp": 440,
+      "source": "2025/2026 Expedition Tremor: high-output 3.5 EcoBoost, 440 hp (carsdirect, Motor Authority)"
+    },
+    "lincoln-navigator-reserve-2025": {
+      "hp": 440,
+      "source": "Lincoln 2025 Navigator technical specs: 440 hp @ 5,850 rpm (Wikipedia says 450)"
+    },
+    "rivian-r1s-dual-motor-2025": {
+      "hp": 665,
+      "source": "Rivian.com 2027 R1S Premium (dual motor)"
+    },
+    "toyota-rav4-woodland-2026": {
+      "hp": 236,
+      "source": "Toyota pressroom (HEV AWD 236 hp); Cars.com Woodland AWD"
+    },
+    "toyota-bz-woodland-2026": {
+      "hp": 375,
+      "source": "Toyota pressroom 2027 bZ Woodland (375 hp total system output)"
+    },
+    "subaru-trailseeker-premium-2026": {
+      "hp": 375,
+      "source": "Subaru 2027 Trailseeker pricing release; Cars.com, CarsDirect"
+    },
+    "hyundai-palisade-xrt-pro-2026": {
+      "hp": 287,
+      "source": "2026 Palisade XRT PRO 3.5 V6 (CarsDirect; XRT PRO is ICE only per Hyundai price list)"
+    },
+    "jeep-cherokee-overland-2026": {
+      "hp": 210,
+      "source": "2026 Cherokee spec sheet: 210 hp combined (1.6T hybrid)"
+    },
+    "jeep-recon-moab-2026": {
+      "hp": 650,
+      "source": "Production rating 650 hp per carsdirect, Electrek (Jun 2026) and Wikipedia; the Nov 2025 reveal and spec sheet said 670 hp"
+    },
+    "jeep-grand-cherokee-trailhawk-2027": {
+      "hp": 324,
+      "source": "2027 Grand Cherokee Trailhawk spec sheet: 2.0L Hurricane 4 Turbo, 324 hp"
+    },
+    "rivian-r2-performance-2027": {
+      "hp": 656,
+      "source": "rivian.com/r2 and Wikipedia: Performance 656 hp (291 front + 362 rear)"
     }
   }
 }
