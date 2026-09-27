@@ -36,7 +36,8 @@ Vehicle specs are stored in `src/vehicles.json`; `pnpm validate` prints the curr
 | `yearStart` | number | Generation start year |
 | `yearEnd` | number \| null | Generation end year (null = current) |
 | `price` | number | Price in $K (thousands USD) |
-| `mpg` | number | Combined MPG (MPGe for EVs) |
+| `mpg` | number | Combined MPG: gas-only for PHEVs, MPGe for EVs |
+| `mpge` | number? | PHEVs only: EPA charge-depleting combined MPGe. Shown, not scored or filtered |
 | `offroad` | number | Off-road capability (1-10) |
 | `luxury` | number | Interior/comfort (1-10) |
 | `cargo` | number | Cargo space in cubic feet |
@@ -56,7 +57,7 @@ Vehicle specs are stored in `src/vehicles.json`; `pnpm validate` prints the curr
 
 | Field | Source |
 |-------|--------|
-| `mpg` | EPA fueleconomy.gov REST API |
+| `mpg`, `mpge` | EPA fueleconomy.gov REST API (`comb08`; `combA08` for PHEV `mpge`) |
 | `weight` | NHTSA Canadian Vehicle Specifications API |
 | `tow`, `cargo`, `gc` | Manufacturer specs (manually researched) |
 | `size` | EPA VClass + interior volume |
@@ -73,7 +74,7 @@ Vehicle specs are stored in `src/vehicles.json`; `pnpm validate` prints the curr
 | Field | Unit/Scale | Notes |
 |-------|------------|-------|
 | `price` | $K (thousands USD) | MSRP for new; typical used price for used |
-| `mpg` | Miles per gallon | Combined city/highway; MPGe for EVs |
+| `mpg` | Miles per gallon | Combined city/highway; gas-only (charge-sustaining) for PHEVs, the figure a trip past the battery's range runs on; MPGe for EVs |
 | `cargo` | Cubic feet | Behind 2nd row, seats up |
 | `tow` | Pounds | Maximum towing capacity |
 | `weight` | Pounds | Curb weight |
@@ -173,7 +174,7 @@ All scripts support `--dry-run` to preview changes without writing.
 
 | Script | Source JSON | Fields Updated |
 |--------|-------------|----------------|
-| `update-vehicle-mpg.mjs` | `vehicle-data-results.json` | `mpg` |
+| `update-vehicle-mpg.mjs` | `vehicle-data-results.json`, its own PHEV table | `mpg`, `mpge` |
 | `update-vehicle-specs.mjs` | `manual-specs.json` | `weight`, `tow`, `cargo`, `gc` |
 | `apply-verified-updates.mjs` | `verified-updates.json` | `price`, `pt`, `reliability` |
 | `apply-generation-data.mjs` | `generation-data.json` | `yearStart`, `yearEnd`, `generation` |

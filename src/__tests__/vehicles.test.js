@@ -100,6 +100,11 @@ describe('vehicles.json schema validation', () => {
       }
     });
 
+    it.each(vehicles.filter(v => v.mpge !== undefined).map(v => [v.id, v]))('%s keeps gas-only mpg below mpge', (id, v) => {
+      expect(v.pt).toBe('phev');
+      expect(v.mpge).toBeGreaterThan(v.mpg);
+    });
+
     it.each(vehicles.map(v => [v.id, v]))('%s has valid enum values', (id, v) => {
       expect(VALID_POWERTRAINS).toContain(v.pt);
       expect(VALID_SIZES).toContain(v.size);
