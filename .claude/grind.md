@@ -13,7 +13,7 @@
 ## Landing
 - PR + merge commit into `main` (the repo's history so far)
 - Merging deploys: yes → Vercel (overland-finder.vercel.app)
-- The session completes the merge: no; auto mode refuses an unreviewed `gh pr merge`
+- The session completes the merge: yes
 - PRs open as draft: no
 - Last act, after the pull: none
 
